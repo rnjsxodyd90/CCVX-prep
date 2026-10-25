@@ -38,3 +38,7 @@ The candidate is able to explain the properties of substances and materials, usi
     - Van der Waals bond, dipole-dipole bond and hydrogen bridges
     - polar and apolar.
 7. The candidate is able to relate the practical use of a salt to its solubility.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

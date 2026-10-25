@@ -8,3 +8,7 @@
 The candidate is able to classify reactions and describe them in terms of their characteristics:
 
 - thermolysis, photolysis, electrolysis, hydrolysis, saponification, addition, substitution, precipitation, dissolution, redox, combustion, acid-base, condensation, polymerization, reversible/equilibrium reactions, ester formation, synthesis, free radical mechanism.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

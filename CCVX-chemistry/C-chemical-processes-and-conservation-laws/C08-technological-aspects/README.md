@@ -14,3 +14,7 @@ The candidate is able in technological contexts to recognize and explain aspects
 - lab-on-a-chip
 - nanoprocesses
 - chemistry of atmospheric radicals.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

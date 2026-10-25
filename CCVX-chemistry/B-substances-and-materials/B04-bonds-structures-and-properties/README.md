@@ -31,3 +31,7 @@ The candidate is able to explain the properties of substances and materials base
 5. The candidate is able to relate the spatial structure of a molecule or parts thereof to the properties of a substance or material:
     - difference between fat and oil
     - secondary structure of proteins.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

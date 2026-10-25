@@ -54,3 +54,7 @@ The candidate is able to describe chemical reactions and processes in terms of r
     - addition reactions
     - substitution reactions.
 18. The candidate is able to describe a reaction with analogue compounds based on a given reaction.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

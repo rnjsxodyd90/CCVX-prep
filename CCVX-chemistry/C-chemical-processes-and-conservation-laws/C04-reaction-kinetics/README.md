@@ -22,3 +22,7 @@ The candidate is able to analyse chemical processes based on knowledge of reacti
     - nucleophile, electrophile
     - free radicals
     - resonance structures.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

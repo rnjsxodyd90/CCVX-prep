@@ -22,3 +22,7 @@ Given a described study of substances and materials the candidate is able to exp
     - alloy
     - homogeneous and heterogeneous mixtures.
 7. The candidate is able to relate the above items (B2.1–B2.6) to a described study.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

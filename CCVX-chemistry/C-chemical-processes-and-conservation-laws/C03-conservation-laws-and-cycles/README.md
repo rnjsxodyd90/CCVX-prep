@@ -16,3 +16,7 @@ The candidate is able to identify relationships between laws of conservation and
     - element cycle
     - recycling
     - cradle to cradle.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

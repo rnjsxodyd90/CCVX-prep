@@ -67,3 +67,7 @@ The candidate is able to describe and use particle models.
     - C–X (X = F, Cl, Br, I).
 16. The candidate is able, using the structural formula, to give the systematic IUPAC name for carbon compounds with a branched or unbranched carbon chain and a maximum of ten carbon atoms with no more than one functional/characteristic group, and vice versa:
     - alkanes, alkenes, alkynes, alkanols, alkanals, alkanones, alkanoic acids, alkanoic amines (= amines), halogen alkanes, cycloalkanes, benzene and benzene derivatives, alkoxy alkanes (= ethers), alkoxy alkanoates (= esters).
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

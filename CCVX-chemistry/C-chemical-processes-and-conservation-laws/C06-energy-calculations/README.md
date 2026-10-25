@@ -22,3 +22,7 @@ The candidate is able to do calculations on energy conversions and energy exchan
     - converting chemical energy into other types of energy:
         - heat
         - electrical energy.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

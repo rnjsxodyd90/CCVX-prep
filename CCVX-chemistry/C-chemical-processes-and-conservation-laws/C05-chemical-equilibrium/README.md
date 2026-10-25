@@ -29,3 +29,7 @@ The candidate is able to describe whether there is equilibrium, to do calculatio
     - univalent weak acid
     - strong base
     - univalent weak base.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

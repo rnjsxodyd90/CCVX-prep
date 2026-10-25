@@ -13,3 +13,7 @@ The candidate is able to describe how energy and the quality of energy changes i
 - energy diagram
 - heat of formation, fossil fuel, biofuel
 - thermodynamic concepts such as Gibbs energy and enthalpy.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
