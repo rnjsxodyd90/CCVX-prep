@@ -19,3 +19,7 @@ The candidate is able, using consistent arguments and relevant arithmetical and 
 8. from data collected in a study draw conclusions relating to that study's research question(s)
 9. evaluate how a study was conducted and its conclusions, using the concepts of validity, precision, reproducibility and reliability
 10. present a scientific study.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

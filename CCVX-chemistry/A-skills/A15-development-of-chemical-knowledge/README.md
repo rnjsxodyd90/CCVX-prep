@@ -12,3 +12,7 @@ The candidate is able to:
 - describe how scientific knowledge is developed, what questions scientific researchers can pose and how they can arrive at reliable answers (Knowledge Development)
 - describe how scientific and technical knowledge is used and describe the interaction between science, technology and society (Application of Knowledge)
 - draw conclusions on scientific problems and relate them to the reliability of scientific knowledge (The Influence of Science and Technology).
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

@@ -15,3 +15,7 @@ The candidate is able to recognize chemical concepts and the physical and biolog
     - respiration, blood, cell, cell membrane, chromosomes, ecosystem, heredity, organism, digestion, transport.
 3. The candidate is able to recognize and use the following physics concepts:
     - pressure, energy, force, light, mass, radioactivity, potential/voltage, radiation, current, temperature, heat.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

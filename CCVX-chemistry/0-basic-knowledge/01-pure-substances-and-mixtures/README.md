@@ -33,3 +33,7 @@ The candidate is able to:
     - precipitation
     - concentration by evaporation
     - paper chromatography.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

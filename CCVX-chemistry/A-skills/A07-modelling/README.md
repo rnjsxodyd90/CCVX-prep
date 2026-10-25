@@ -16,3 +16,7 @@ The candidate is able, using consistent arguments and relevant arithmetical and 
 5. formulate verifiable expectations for the behaviour of a model
 6. evaluate a model based on results, expectations and measuring data
 7. present a model study in appropriate ways.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

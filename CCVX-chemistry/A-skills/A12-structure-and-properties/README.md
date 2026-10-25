@@ -12,3 +12,7 @@ The candidate is able to recognize and use the following concepts:
 - microstructure/micro level: atoms, molecules, ions
 - mesostructure/meso level: structural level created by various groups/grouped particles at micro level
 - macrostructure/macro level: level of substances and materials (substance/material properties).
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

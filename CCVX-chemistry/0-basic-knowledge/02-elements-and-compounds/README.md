@@ -20,3 +20,7 @@ The candidate is able to:
     - Br⁻, CH₃COO⁻, Cl⁻, F⁻, HCO₃⁻, I⁻, O²⁻, OH⁻, NO₂⁻, NO₃⁻, PO₄³⁻, S²⁻, SO₄²⁻, SO₃²⁻
 - **sb10** interpret the following state symbols:
     - (s), (l), (g), (aq).
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

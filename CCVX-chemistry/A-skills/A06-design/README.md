@@ -18,3 +18,7 @@ The candidate is able, using relevant concepts, theory and skills and valid, con
 7. test and evaluate a design process and product, taking the schedule of requirements into consideration
 8. put forward proposals to improve a design
 9. present a design process and product in appropriate ways.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

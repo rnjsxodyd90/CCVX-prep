@@ -6,3 +6,7 @@
 ## Learning outcomes (CCVX syllabus)
 
 The candidate is able to describe chemical processes in terms of systems, using knowledge of substances, particles, reactivity and energy.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

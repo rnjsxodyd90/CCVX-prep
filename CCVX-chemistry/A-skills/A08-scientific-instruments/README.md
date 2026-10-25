@@ -36,3 +36,7 @@ The candidate is able to:
         - solve two linear equations with two unknowns
     - convert derived units to SI units using conversion tables
     - estimate and judge results.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

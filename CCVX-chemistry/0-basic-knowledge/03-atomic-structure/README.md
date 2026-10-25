@@ -8,3 +8,7 @@
 The candidate is able to:
 
 - **sb11** describe the structure of atoms and ions using the concepts of atomic nucleus, proton, neutron, nuclear charge, atomic number, mass number, isotope, electron, electron cloud, ion charge.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

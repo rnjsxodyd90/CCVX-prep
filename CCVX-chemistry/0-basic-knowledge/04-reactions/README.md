@@ -25,3 +25,7 @@ The candidate is able to:
 - **sb16** describe how various substances are detected:
     - reagent
     - oxygen, hydrogen, water, carbon dioxide, sulfur dioxide.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

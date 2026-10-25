@@ -18,3 +18,7 @@ The candidate is able to:
     - oxide ions
     - carbonate ions
     - ammonia molecules.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

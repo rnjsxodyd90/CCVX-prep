@@ -6,3 +6,7 @@
 ## Learning outcomes (CCVX syllabus)
 
 The candidate is able in social (daily life), professional and scientific contexts to recognize and use chemical concepts and on that basis make predictions and estimates and do calculations, giving arguments.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
