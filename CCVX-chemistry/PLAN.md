@@ -36,14 +36,15 @@ Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch
 | `source/*.nl.md` | Stercollectie text, copied unchanged, with a header giving the source, the licence and the date |
 | `source/*.en.md` | a full English translation of each, with errors in the original listed as errata |
 | `notes.md` | English notes per outcome; every point cites the spec, a source file, Binas or an exercise, and each topic has a status |
-| `exercises.md` | past exam questions: original text, the official answer, English translations of both, and a worked answer |
+| `exercises.md` | whole past exam questions (every part and figure): the original text, the complete official answers, English translations of both, and worked answers to the parts on this folder's topic |
+| `img/` | the exam figures used in `exercises.md`, cropped from the exam PDFs |
 
 ## Steps for each folder
 
 1. Read the outcomes in `README.md`. They're your checklist.
 2. Copy the Dutch syllabus sections named under "Dutch source" into `spec.nl.md` and translate them into `spec.en.md`. Check the omnummeringstabel for anything added or dropped.
 3. Find the Stercollectie sections on the topic and copy them unchanged into `source/`. Translate each in full, using the CCVX terms from the glossary below. Machine translation is fine as a first pass, then check every formula, charge, unit and number against the Dutch. Record mistakes in the original as errata in the translation and leave the Dutch file as published.
-4. Add 3–5 past exam questions to `exercises.md`. Start with the CCVX example exams, then the central exams on Examenblad (file names follow `vw-1028-a-YY-T-o.pdf` for the questions and `-c.pdf` for the marking scheme, and also check the addendum, the *aanvulling*). For school-exam folders, use the SLO suggestions.
+4. Add 3–5 past exam questions to `exercises.md`. Always copy a whole question: every part, every figure and the whole context, and the complete official answers. A CCVX question is everything under one question number; a central-exam question is the whole context (*opgave*) with all its numbered questions, plus anything on the answer sheet (*uitwerkbijlage*). Start with the CCVX example exams, then the central exams on Examenblad (file names follow `vw-1028-a-YY-T-o.pdf` for the questions, `-u.pdf` for the answer sheet and `-c.pdf` for the marking scheme, and also check the addendum, the *aanvulling*). For school-exam folders, use the SLO suggestions.
 5. Check every number in the worked answers and the source examples by hand: redo each calculation, and check units and significant figures.
 6. Write `notes.md`. Mark each topic *drafted* (spec only), *checked against source* or *checked against exam*.
 7. A folder is done when every outcome is at least *checked against source* and has an exam question, or the notes say why there isn't one.
@@ -106,5 +107,5 @@ The CCVX syllabus uses some unusual English. Use its terms in `notes.md` and the
 
 ## Copyright
 
-- If the repo becomes public, keep only your own notes, the credited Stercollectie text and its translations (under the same licence) and the unchanged CvTE syllabus with its source line. Remove the `spec.en.md` files and the exam quotes in `exercises.md`, and replace the other PDFs (the CCVX syllabus, the omnummeringstabel) and any book content with links.
-- In a private repo you can also keep exam text and your translations of copyrighted text, for your own study.
+- If the repo becomes public, keep only your own notes, the credited Stercollectie text and its translations (under the same licence) and the unchanged CvTE syllabus with its source line. Remove the `spec.en.md` files, the exam quotes in `exercises.md` and the exam figures in `img/`, and replace the other PDFs (the CCVX syllabus, the omnummeringstabel) and any book content with links.
+- In a private repo you can also keep exam text and figures and your translations of copyrighted text, for your own study.
