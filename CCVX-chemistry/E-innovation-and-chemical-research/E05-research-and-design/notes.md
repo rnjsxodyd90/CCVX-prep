@@ -4,15 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO E5)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Research question and hypothesis | drafted |
-| Identifying variables | drafted |
-| Work plan | drafted |
-| Processing measuring data | drafted |
-| Drawing conclusions | drafted |
-| Presentation | drafted |
-
 ## Research question and hypothesis
 
 - The outcome asks you to set up a practical research or design assignment in a context such as sustainability, materials, food or health, carry it out and report on it. The general skills are in [A05](../../A-skills/A05-research/notes.md) (research) and [A06](../../A-skills/A06-design/notes.md) (design). This page follows one research example through every step: how much vitamin C does orange juice lose in an opened carton in the fridge? *(SLO E5)*

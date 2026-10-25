@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO F5)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Large scale and design | drafted |
-| Sustainable cycles and the laws of conservation | drafted |
-| Green chemistry and the chemical industry | drafted |
-| E-factor, atom economy and the coefficient of pollution Q | drafted |
-| Judgment | drafted |
-
 ## Large scale and design
 
 - Large scale (*grote schaal*): the chemical industry makes most products in large plants, because the cost per kg falls as the plant grows, and heat and by-products can be passed between processes on one site. The other side: large stocks of hazardous substances, large flows of waste and emissions, and a lot of transport ([F04](../F04-risks-and-safety/notes.md)). *(SLO F5)*

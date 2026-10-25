@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| E2.1 Stereoisomerism | drafted |
-| E2.2 Enzyme kinetics | drafted |
-| E2.3 Specificity and selectivity of enzymes | drafted |
-| E2.4 Transport of substances in the body | drafted |
-
 ## E2.1 Stereoisomerism
 
 - Stereoisomers (*stereo-isomeren*) have the same molecular formula and the same sequence of bonded atoms, but a different arrangement in space. Structural isomers differ in the sequence of the atoms ([B01](../../B-substances-and-materials/B01-particle-models/notes.md)). The outcome asks you to link this spatial structure to the properties of a substance. *(CvTE M1.18)*

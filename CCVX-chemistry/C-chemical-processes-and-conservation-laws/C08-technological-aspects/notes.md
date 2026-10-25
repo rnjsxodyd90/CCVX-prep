@@ -4,16 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO C8)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Increasing scale | drafted |
-| Reactors and reactivity | drafted |
-| Thermal management | drafted |
-| Separation techniques and block diagram | drafted |
-| Lab-on-a-chip | drafted |
-| Nanoprocesses | drafted |
-| Chemistry of atmospheric radicals | drafted |
-
 ## Increasing scale
 
 - Increasing scale (*schaalvergroting*, also *opschaling*): a process that works in the lab is scaled up in steps, from lab to pilot plant (*proeffabriek*) to full-scale plant, because what is easy in a flask can be hard in a large reactor. *(SLO C8)*

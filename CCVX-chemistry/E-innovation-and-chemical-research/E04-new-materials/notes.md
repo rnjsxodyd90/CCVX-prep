@@ -4,16 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO E4)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| New applications in existing and new markets | drafted |
-| Nanotechnology | drafted |
-| Nanocoatings | drafted |
-| Ceramic materials | drafted |
-| Molecular structure | drafted |
-| Antibiotics | drafted |
-| Pharmaceutical research | drafted |
-
 ## New applications in existing and new markets
 
 - The outcome asks you to explain, with at least one example from medicines, food or materials, how the chemical industry develops a new application: a known substance finds a new use, or a new material enters an existing market or opens a new one. The route runs from a wanted property, through the structure that gives it ([E01](../E01-chemical-research/notes.md)), to tests, scaling up, safety approval and production. *(SLO E4)*

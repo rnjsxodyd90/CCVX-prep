@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| C5.1 Irreversible and reversible reactions, equilibrium | drafted |
-| C5.2 The equilibrium condition and equilibrium calculations | drafted |
-| C5.3 Shifting the position of equilibrium | drafted |
-| C5.4 The influence of a catalyst | drafted |
-| C5.5 pH calculations | drafted |
-
 ## C5.1 Irreversible and reversible reactions, equilibrium
 
 - An irreversible reaction (*aflopende reactie*) goes in one direction until at least one reactant has run out, and is written with a single arrow. Example: the combustion of methane, CH₄ + 2 O₂ → CO₂ + 2 H₂O. *(CvTE R4.1)*

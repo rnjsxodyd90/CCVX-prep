@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO D2)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Analysis, synthesis, purification and separation | drafted |
-| Safety phrases and pictograms | drafted |
-| Reactivity and toxicity | drafted |
-| Safety on a small scale and lab practice | drafted |
-
 ## Analysis, synthesis, purification and separation
 
 - Analysis (*analyse*): finding out which substances a sample contains (qualitative) and how much of each (quantitative), for example with chromatography, mass spectrometry or a titration ([D01](../D01-chemical-techniques/notes.md)). *(SLO D2; CvTE R&A2.3, R&A2.4)*

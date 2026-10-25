@@ -4,10 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| E1.1 Microstructure and macroscopic properties | drafted |
-
 ## E1.1 Microstructure and macroscopic properties
 
 ### How a described study uses the relationship

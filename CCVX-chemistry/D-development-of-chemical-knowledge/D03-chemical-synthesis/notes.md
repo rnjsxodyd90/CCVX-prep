@@ -4,12 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| D3.1 Polymers and their monomers | drafted |
-| D3.2 Mechanism of addition polymerisation | drafted |
-| D3.3 Mechanism, chain length and crosslinks | drafted |
-
 ## D3.1 Polymers and their monomers
 
 - A polymer (*polymeer*) consists of very long molecules made by linking many small molecules, the monomers (*monomeren*). The part of the chain that repeats is the repeating unit; a structural formula of a polymer shows a piece of chain with a few units, or one unit in brackets with n. *(CvTE R2.1)*

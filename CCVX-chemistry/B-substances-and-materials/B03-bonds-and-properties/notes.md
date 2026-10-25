@@ -4,16 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| B3.1 Lattice structures | drafted |
-| B3.2 Intermediate forms of lattices | drafted |
-| B3.3 Atomic bonds, polar atomic bonds and ion bonds | drafted |
-| B3.4 Bond strength and phase transitions | drafted |
-| B3.5 Solubility, miscibility, hydrophilic and hydrophobic | drafted |
-| B3.6 Hydrophilic and hydrophobic, polar and apolar | drafted |
-| B3.7 Salt solubility and uses | drafted |
-
 ## B3.1 Lattice structures
 
 - In a solid the particles sit in a regular lattice (*rooster*). The type of lattice follows from the kind of particles and the bond that holds them together. *(CvTE M3.2)*

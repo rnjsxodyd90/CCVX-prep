@@ -4,12 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| F1.1 Describing a process in a block diagram | drafted |
-| F1.2 Explaining a process with its block diagram | drafted |
-| F1.3 Concepts for describing a process | drafted |
-
 ## F1.1 Describing a process in a block diagram
 
 - A block diagram (*blokschema*) shows a process as blocks joined by arrows. Each block stands for a unit where one step happens and is named by its function: a reactor (*reactor*), where substances react, or a separation unit (separation plant, *scheidingsinstallatie*), where a mixture is split, for instance by distillation. A block doesn't show what the equipment looks like. *(CvTE T1.1, T1.2)*

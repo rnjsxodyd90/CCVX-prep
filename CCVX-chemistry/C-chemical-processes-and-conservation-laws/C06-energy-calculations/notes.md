@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| C6.1 Energy diagrams | drafted |
-| C6.2 Energy concepts | drafted |
-| C6.3 Heat of reaction from heats of formation | drafted |
-| C6.4 Conservation of energy: heat and electrical energy | drafted |
-
 ## C6.1 Energy diagrams
 
 - An energy diagram (*energiediagram*) shows the energy of the reacting substances on the vertical axis against the course of the reaction on the horizontal axis, which needs no unit. Draw these parts: *(CvTE R5.2)*

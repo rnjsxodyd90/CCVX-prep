@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| sb12 Chemical reactions | drafted |
-| sb13 Decomposition reactions | drafted |
-| sb14 Combustion | drafted |
-| sb15 Exothermic and endothermic reactions | drafted |
-| sb16 Detecting substances | drafted |
-
 ## sb12 Chemical reactions
 
 - In a chemical reaction (*chemische reactie*) substances disappear and new substances with other properties form. The substances you start with are the reactants (*beginstoffen*); the new ones are the reaction products (*reactieproducten*). *(CvTE R1.2)*

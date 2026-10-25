@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| G1.1 Nutrients as the basis for self substances | drafted |
-| G1.2 Structure of proteins, carbohydrates, fats and nucleic acids | drafted |
-| G1.3 Breakdown in the body: hydrolysis, urea and combustion | drafted |
-| G1.4 Functions in the body and protein synthesis | drafted |
-| G1.5 Essential amino acids and fatty acids | drafted |
-
 ## G1.1 Nutrients as the basis for self substances
 
 - Digestion (*spijsvertering*) breaks the large molecules in food into their building blocks by hydrolysis, with enzymes as catalysts: proteins into amino acids, polysaccharides and disaccharides into monosaccharides, fats into glycerol and fatty acids. The building blocks pass into the blood, which transports them to the cells. *(CvTE L1.4, L1.1)*

@@ -4,12 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| Knowledge development | drafted |
-| Application of knowledge | drafted |
-| The influence of science and technology | drafted |
-
 ## Knowledge development
 
 - Knowledge development (*kennisvorming*) is how scientific knowledge comes about. Observations raise a question; a hypothesis or model offers an explanation; predictions from it are tested in experiments; the results support or refute it; and the model is kept, adjusted or replaced. Results become accepted knowledge only after other scientists have checked them, through peer review and by repeating the experiments. *(CvTE A15.1)*

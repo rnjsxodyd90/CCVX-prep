@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| Life cycles of substances, materials and products | drafted |
-| Choosing between alternatives | drafted |
-| The social importance of chemistry | drafted |
-| World problems and chemical concepts | drafted |
-
 ## Life cycles of substances, materials and products
 
 - Sustainable (*duurzaam*) means meeting today's needs in a way that doesn't make it harder for future generations to meet theirs. The Dutch syllabus moved the four outcomes of this folder, unchanged, to T6.1–T6.4. *(CvTE T6.1)*

@@ -4,12 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| A13 Systems, change and energy | drafted |
-| Worked example: charging a battery | drafted |
-| Worked example: an industrial process | drafted |
-
 ## A13 Systems, change and energy
 
 - A system (*systeem*) is the part of the world you choose to study, such as a reaction mixture, a battery, a reactor, a factory or a cell in the body. Its boundary (*systeemgrens*) separates it from the surroundings (*omgeving*). An open system exchanges both matter and energy with its surroundings, a closed system only energy. Describing a chemical process in terms of systems (*systeemdenken*) means using what you know about substances, particles, reactivity and energy to say what happens inside the system and what crosses its boundary. *(CvTE A13.1)*

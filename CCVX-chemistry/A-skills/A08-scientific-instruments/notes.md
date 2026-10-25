@@ -4,15 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| A8.1 Getting information from sources and tables | drafted |
-| A8.2 Presenting data | drafted |
-| A8.3 Significant figures | drafted |
-| A8.4 Measuring techniques and devices | drafted |
-| A8.5 Handling materials safely | drafted |
-| A8.6 Mathematical skills | drafted |
-
 ## A8.1 Getting information from sources and tables
 
 - In the exam your sources are the question text with its figures and tables, and Binas. Using IT (*ICT*) is a school-exam matter: the CvTE prints "with the help of IT" in grey italics. *(CvTE A8.1)*

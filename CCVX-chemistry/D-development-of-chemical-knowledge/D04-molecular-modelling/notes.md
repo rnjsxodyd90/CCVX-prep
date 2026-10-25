@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO D4)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Molecular modelling | drafted |
-| Reaction steps and mechanism | drafted |
-| Catalyst | drafted |
-| Polymerisation, monomers and polycondensation | drafted |
-| Enantiomers and optical activity | drafted |
-
 ## Molecular modelling
 
 - Molecular modelling means building and studying three-dimensional models of molecules to understand their shape and how they react. It is done by hand with a molecular model kit (*molecuulbouwdoos*) or on a computer with programs such as Avogadro, ChemSketch or Spartan. *(SLO D4)*

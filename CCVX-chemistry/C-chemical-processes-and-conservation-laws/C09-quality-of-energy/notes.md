@@ -4,16 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO C9)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Energy transitions | drafted |
-| Types of energy | drafted |
-| Quality of energy and efficiency | drafted |
-| Exothermic and endothermic | drafted |
-| Energy diagram | drafted |
-| Heat of formation, fossil fuels and biofuels | drafted |
-| Gibbs energy and enthalpy | drafted |
-
 ## Energy transitions
 
 - In the narrow sense, an energy transition is a conversion of energy from one type into another (*energieomzetting*). The law of conservation of energy (*wet van behoud van energie*) says that the total amount of energy stays the same, but every conversion changes its type and lowers its quality (see below). *(CvTE R5.5, R&A3.1)*

@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| F3.1 Energy from biomass | drafted |
-| F3.2 Fossil fuels in power stations | drafted |
-| F3.3 Photosynthesis | drafted |
-| F3.4 Comparing fuels | drafted |
-| F3.5 Electrochemical cells, batteries and fuel cells | drafted |
-
 ## F3.1 Energy from biomass
 
 - Biomass is material from living organisms: crops, wood, manure, food waste. Its chemical energy is solar energy stored by photosynthesis (F3.3). Exam questions describe the technique; you reason about it with reaction types, energy effects, separations, yields and the carbon cycle. *(CvTE T3.1)*

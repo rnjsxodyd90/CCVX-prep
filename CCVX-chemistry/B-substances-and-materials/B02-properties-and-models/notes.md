@@ -4,16 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| B2.1 Substances, materials and substance properties | drafted |
-| B2.2 Melting point and melting range | drafted |
-| B2.3 Pure substances and mixtures at micro level | drafted |
-| B2.4 Decomposable and non-decomposable substances | drafted |
-| B2.5 Molecular substances and salts | drafted |
-| B2.6 Types of mixture | drafted |
-| B2.7 Using these concepts in a described study | drafted |
-
 ## B2.1 Substances, materials and substance properties
 
 - A substance (*stof*) is one particular kind of matter, such as water, iron or sodium chloride. A material (*materiaal*) is what an object is made of, chosen for its use; it is often a mixture or a combination of substances, such as steel, concrete or a plastic. Both belong to the macro level (*macroniveau*). *(CvTE M6.1)*

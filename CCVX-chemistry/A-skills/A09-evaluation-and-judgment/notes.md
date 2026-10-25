@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| A9.1 Reasoned judgment and choice | drafted |
-| A9.2 Scientific arguments, social considerations and personal views | drafted |
-| A9.3 Citing sources | drafted |
-| A9.4 Judging reliability | drafted |
-
 ## A9.1 Reasoned judgment and choice
 
 - A reasoned judgment (*beargumenteerd oordeel*) is a conclusion about a situation, or a choice between alternatives, that rests on stated arguments, data and chemical knowledge. *(CvTE A9.1)*

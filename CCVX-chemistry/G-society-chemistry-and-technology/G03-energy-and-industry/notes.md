@@ -4,11 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| G3.1 Comparing power stations and the fuel cell | drafted |
-| G3.2 Comparing energy sources: hydrogen, bioethanol, biogas and biodiesel | drafted |
-
 ## G3.1 Comparing power stations and the fuel cell
 
 ### How to compare processes

@@ -4,11 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| C3.1 Conservation laws and balances | drafted |
-| C3.2 Cycles, recycling and cradle to cradle | drafted |
-
 ## C3.1 Conservation laws and balances
 
 - In a chemical reaction atoms are only regrouped: none are made, destroyed or turned into another element. So three things stay the same: the number of atoms of each element (and with it the total mass), the total energy and the total charge. Exam questions use these laws as arguments ("explain with the law of conservation of mass why …") and as balances over a reactor or a whole process. *(CvTE R&A3.1)*

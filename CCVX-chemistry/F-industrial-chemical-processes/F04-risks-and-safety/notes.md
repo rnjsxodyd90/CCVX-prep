@@ -4,15 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO F4)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Substance flows and energy flows | drafted |
-| Risk and probability | drafted |
-| Change of scale | drafted |
-| Risk and safety phrases | drafted |
-| Pictograms | drafted |
-| Substance cycles | drafted |
-
 ## Substance flows and energy flows
 
 - Substance flows (*stofstromen*): which substances go where in a process, and how much, as in the block diagrams of [F01](../F01-industrial-processes/notes.md). For safety, ask where the hazardous substances are, how much of each is present at any moment, and where they could escape: storage, transport, reactors, pipes. A small stock limits the possible damage, for instance when a toxic intermediate is made on site and used at once. *(SLO F4; CvTE T1.1)*

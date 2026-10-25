@@ -4,11 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| sb17 Acids and acid solutions | drafted |
-| sb18 Bases | drafted |
-
 ## sb17 Acids and acid solutions
 
 - An acid (*zuur*) is a particle that can donate an H⁺ ion (a proton) to another particle; a base (*base*) is a particle that can accept one. The transfer of an H⁺ ion from an acid to a base is an acid-base reaction (*zuur-base reactie*). *(CvTE R1.3)* Acid-base reactions as donor-acceptor reactions are CCVX C1.7 and C1.11 in [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md).

@@ -4,25 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| B1.1 Atoms, free radicals and ions | drafted |
-| B1.2 The periodic table | drafted |
-| B1.3 Electron cloud and valence | drafted |
-| B1.4 Symbols of the non-metals | drafted |
-| B1.5 Symbols of the metals | drafted |
-| B1.6 Molecular formulas | drafted |
-| B1.7 Ions and the names of salts | drafted |
-| B1.8 Acids | drafted |
-| B1.9 Bases | drafted |
-| B1.10 Salt formulas from ions | drafted |
-| B1.11 Crystal water | drafted |
-| B1.12 Lewis structures | drafted |
-| B1.13 Formal and partial charges | drafted |
-| B1.14 Structural isomerism | drafted |
-| B1.15 Functional groups | drafted |
-| B1.16 Naming carbon compounds | drafted |
-
 ## B1.1 Atoms, free radicals and ions
 
 ### The nucleus

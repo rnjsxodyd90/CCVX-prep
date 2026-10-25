@@ -4,12 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| F2.1 Aspects of green chemistry | drafted |
-| F2.2 Green-chemistry calculations | drafted |
-| F2.3 Chemical concepts in processes | drafted |
-
 ## F2.1 Aspects of green chemistry
 
 - Green chemistry (*groene chemie*) designs products and processes so that they need fewer, safer and renewable raw materials and less energy, and make less waste. Exam questions describe a process and the changes made to it; you explain which aspect each change improves, and why. *(CvTE T2.1)*

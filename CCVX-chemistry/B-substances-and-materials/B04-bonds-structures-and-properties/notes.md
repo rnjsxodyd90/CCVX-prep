@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| B4.1 Structure and properties of substances | drafted |
-| B4.2 Composites, polymers, alloys and ceramics | drafted |
-| B4.3 VSEPR theory | drafted |
-| B4.4 Dipole molecules | drafted |
-| B4.5 Spatial structure, fats and proteins | drafted |
-
 ## B4.1 Structure and properties of substances
 
 ### Electrical conductivity

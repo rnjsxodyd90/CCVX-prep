@@ -4,15 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| D1.1 Separation techniques | drafted |
-| D1.2 Checking a separation | drafted |
-| D1.3 Chromatography | drafted |
-| D1.4 Gas chromatography and retention time | drafted |
-| D1.5 Mass spectrometry | drafted |
-| D1.6 Calculations with peak area and peak height | drafted |
-
 ## D1.1 Separation techniques
 
 - A separation method (*scheidingsmethode*) uses a difference in one property between the components of a mixture. To choose a method, find the property in which the components differ most, and say which component has the higher or lower value. *(CvTE R&A2.2)*

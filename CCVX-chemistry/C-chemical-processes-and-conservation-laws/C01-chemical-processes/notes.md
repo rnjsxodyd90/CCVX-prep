@@ -4,27 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| C1.1 Dissolving molecular substances and salts | drafted |
-| C1.2 Dissolving and ionising acids and bases | drafted |
-| C1.3 Phase changes | drafted |
-| C1.4 Equations for dissolving and phase changes | drafted |
-| C1.5 Bonds in distillation and adsorption | drafted |
-| C1.6 Combustion and other reaction equations | drafted |
-| C1.7 Donor-acceptor reactions | drafted |
-| C1.8 Electrochemical cells | drafted |
-| C1.9 Electrolysis | drafted |
-| C1.10 Strong and weak acids | drafted |
-| C1.11 Acid-base reactions | drafted |
-| C1.12 Buffer systems | drafted |
-| C1.13 Standard electrode potentials | drafted |
-| C1.14 Half-reactions | drafted |
-| C1.15 Total redox equations | drafted |
-| C1.16 Bonds broken and formed in organic reactions | drafted |
-| C1.17 Organic equations in structural formulas | drafted |
-| C1.18 Analogue reactions | drafted |
-
 ## C1.1 Dissolving molecular substances and salts
 
 - Dissolving (*oplossen*) in water breaks the bonds between the particles of the substance and some of the hydrogen bridges (hydrogen bonds, *waterstofbruggen*) between water molecules, and forms new bonds between the particles and water molecules. When a substance only dissolves, the atomic bonds (covalent bonds, *atoombindingen*) inside its molecules and inside composite ions such as SO₄²⁻ stay intact; acids and some bases also react with water (C1.2). *(CvTE M3.9)*

@@ -4,16 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. *(SLO A7)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/domein-vaardigheden/), which gives an older Dutch wording close to that of the CCVX syllabus.
 
-| Topic | Status |
-|---|---|
-| A7.1 Relevant quantities and relationships | drafted |
-| A7.2 Assumptions and simplifications | drafted |
-| A7.3 Choosing a suitable model | drafted |
-| A7.4 Estimating parameter values and margins of error | drafted |
-| A7.5 Verifiable expectations | drafted |
-| A7.6 Evaluating a model | drafted |
-| A7.7 Presenting a model study | drafted |
-
 ## A7.1 Relevant quantities and relationships
 
 - A model (*model*) is a simplified picture of reality, in words, a drawing, a diagram or formulas, used to describe, explain or predict. Modelling (*modelvorming*) starts by picking out the quantities or parameters (*grootheden*) and relationships that matter and leaving out the rest. *(CvTE A7.1)*

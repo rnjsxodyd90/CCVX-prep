@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO C10)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Activation energy | drafted |
-| Activation energy in experiments | drafted |
-| Catalyst | drafted |
-| Enzymes | drafted |
-| Energy diagram and element conservation | drafted |
-
 ## Activation energy
 
 - Activation energy (*activeringsenergie*, E<sub>act</sub>): the minimum energy that colliding particles need for the collision to lead to a reaction (an effective collision, *effectieve botsing*). It is needed because bonds in the reactants have to be broken or weakened before new bonds can form. In an energy diagram it is the height of the transition state above the reactant level. *(CvTE R3.2, R5.1)*

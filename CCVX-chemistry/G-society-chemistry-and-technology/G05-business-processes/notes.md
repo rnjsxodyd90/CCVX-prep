@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO G5)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Sustainability and quality of life | drafted |
-| Processes: analysing a business process | drafted |
-| Processes: chlor-alkali electrolysis as an example | drafted |
-| Effects on the living environment | drafted |
-| Biofuels of three generations | drafted |
-
 ## Sustainability and quality of life
 
 - Sustainable development (*duurzame ontwikkeling*) lets people today provide for what they need without making it harder for later generations to provide for themselves; this idea was made widely known by the Brundtland report, 1987. It's often split into people, planet and profit: social, environmental and economic effects. More on sustainability in [E03](../../E-innovation-and-chemical-research/E03-sustainability/notes.md) and [F05](../../F-industrial-chemical-processes/F05-sustainable-production-processes/notes.md). *(SLO G5; CvTE T6.3)*

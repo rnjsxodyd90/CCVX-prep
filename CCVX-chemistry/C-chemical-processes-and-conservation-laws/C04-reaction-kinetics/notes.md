@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| C4.1 The collision model | drafted |
-| C4.2 Activation energy and catalysts | drafted |
-| C4.3 Reaction mechanisms and the rate-determining step | drafted |
-| C4.4 Calculating the reaction rate | drafted |
-| C4.5 Electron movement in reaction mechanisms | drafted |
-
 ## C4.1 The collision model
 
 - The reaction rate (*reactiesnelheid*) is how fast a reactant is used up or a product is formed: the change in concentration per second (calculated in C4.4). *(CvTE R&A1.2)*

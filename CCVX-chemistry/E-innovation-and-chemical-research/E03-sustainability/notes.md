@@ -4,15 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO E3)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Sustainable cycles and aspects of green chemistry | drafted |
-| Atom economy (atom efficiency) | drafted |
-| E-factor | drafted |
-| Coefficient of pollution | drafted |
-| Yield | drafted |
-| Fossil fuels and electrochemistry | drafted |
-
 ## Sustainable cycles and aspects of green chemistry
 
 - The outcome asks you to evaluate and comment on claims about sustainability, such as "this process is green", with chemical arguments and calculations: check what the claim is based on and what it leaves out ([A09](../../A-skills/A09-evaluation-and-judgment/notes.md)). *(SLO E3)*

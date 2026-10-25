@@ -4,18 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| A6.1 Analysing the design problem | drafted |
-| A6.2 Schedule of requirements and preferences | drafted |
-| A6.3 Linking science to functions and properties | drafted |
-| A6.4 Alternative solutions | drafted |
-| A6.5 Reasoned design proposal | drafted |
-| A6.6 Prototype | drafted |
-| A6.7 Testing and evaluating | drafted |
-| A6.8 Proposals for improvement | drafted |
-| A6.9 Presenting a design | drafted |
-
 ## A6.1 Analysing the design problem
 
 - A technical design problem (*ontwerpprobleem*) asks for a product or process that does a job, not for new knowledge. Analysing it means stating who needs what, under which conditions, and how you will know the design succeeds. *(CvTE A6.1)*

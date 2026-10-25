@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| Micro level | drafted |
-| Meso level | drafted |
-| Macro level | drafted |
-| Reasoning between the levels | drafted |
-
 ## Micro level
 
 - The micro level (*microniveau*, microstructure) is the level of single particles: atoms, molecules and ions, and the bonds within and between them. Particles are about 10⁻¹⁰ m across, far too small to see. *(CvTE M6.1)*

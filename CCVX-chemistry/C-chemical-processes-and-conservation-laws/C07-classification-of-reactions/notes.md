@@ -4,21 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO C7)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Thermolysis, photolysis and electrolysis | drafted |
-| Hydrolysis and saponification | drafted |
-| Addition and substitution | drafted |
-| Precipitation and dissolution | drafted |
-| Redox reactions and combustion | drafted |
-| Acid-base reactions | drafted |
-| Condensation and ester formation | drafted |
-| Polymerisation | drafted |
-| Reversible and equilibrium reactions | drafted |
-| Synthesis | drafted |
-| Free radical mechanism | drafted |
-| Classifying a reaction | drafted |
-
 ## Thermolysis, photolysis and electrolysis
 
 - All three are decomposition reactions (*ontledingsreacties*): one compound splits into two or more new substances. They differ in the energy that drives them, and because decompositions are usually endothermic, that energy has to be supplied all the time. *(CvTE R1.3)*

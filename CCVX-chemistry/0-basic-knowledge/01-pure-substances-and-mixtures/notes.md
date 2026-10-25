@@ -4,14 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| sb1 Pure substances and mixtures | drafted |
-| sb2 Phase transitions | drafted |
-| sb3 Melting point and melting range | drafted |
-| sb4 Types of mixtures | drafted |
-| sb5 Separation techniques | drafted |
-
 ## sb1 Pure substances and mixtures
 
 - A pure substance (*zuivere stof*) consists of one substance only. At micro level it contains one kind of particle: only H₂O molecules in pure water, only Cu atoms in pure copper, and in a salt such as sodium chloride only Na⁺ and Cl⁻ ions in a fixed ratio. *(CvTE M2.1)*

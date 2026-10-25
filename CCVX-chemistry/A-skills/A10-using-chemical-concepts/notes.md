@@ -4,13 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| A10.1 Chemical concepts | drafted |
-| A10.2 Biological concepts | drafted |
-| A10.3 Physics concepts | drafted |
-| Relating the concepts | drafted |
-
 ## A10.1 Chemical concepts
 
 - In the CvTE syllabus the A10 end term has no specifications of its own: each concept was placed in the sphere where it fits, in italics if it is assumed knowledge from lower school, the school exam or another subject. Such a concept can appear in a central-exam question without any explanation, but it isn't asked about for its own sake. The codes below say where each concept went.

@@ -4,10 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. The CvTE syllabus gives this end term without specifications: *(SLO A2)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/domein-vaardigheden/), which elaborates it.
 
-| Topic | Status |
-|---|---|
-| A2 Communication | drafted |
-
 ## A2 Communication
 
 - Communicating (*communiceren*) means reporting clearly about chemistry in writing, orally and digitally, also to people outside the field ("in the public domain"). In Dutch schools this is assessed through reports, posters, presentations and essays. *(SLO A2)*

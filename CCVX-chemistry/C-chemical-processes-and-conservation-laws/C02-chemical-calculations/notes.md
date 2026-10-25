@@ -9,24 +9,7 @@ English notes on the two CCVX learning outcomes in [README.md](README.md). Every
 
 Dutch terms are in brackets.
 
-**Status** of each topic: *drafted* means written from the spec alone; *checked against source* means it matches Bron 3 or Kunstmest; *checked against exam* means an official exam answer uses it as well.
-
-| Topic | Status |
-|---|---|
-| Amount of substance, molar mass | checked against exam |
-| Concentration, molarity | checked against exam |
-| Density | checked against exam |
-| Molar volume of gases | checked against exam |
-| Mass percentage | checked against exam |
-| ppm | checked against exam (volume-ppm only) |
-| Volume percentage, ppb | drafted |
-| pH and pOH | checked against exam (no strong acid or base yet) |
-| Mass ratio | checked against source |
-| Mole ratio and the five-step method | checked against exam |
-| Volume ratio of gases | checked against source |
-| Excess and deficiency | checked against exam |
-| Yield | checked against exam |
-| Significant figures | checked against exam |
+Everything here matches Bron 3, Kunstmest or an official exam answer, except volume percentage and ppb, which come from the syllabus alone. No exam question here uses mass-ppm or the pH of a strong acid or base.
 
 ## C2.1 Quantities
 

@@ -37,7 +37,7 @@ The candidate is able to do calculations on a process, using knowledge of chemic
 
 ## Study material
 
-- [notes.md](notes.md): notes per outcome, each point with its source and each topic with a status. Start here.
+- [notes.md](notes.md): notes per outcome, each point with its source. Start here.
 - [exercises.md](exercises.md): five whole past exam questions with their figures, the official answers, English translations and worked answers.
 - [spec.nl.md](spec.nl.md) and [spec.en.md](spec.en.md): the CvTE syllabus text for this folder and its translation.
 - `source/`: Stercollectie texts, in the original Dutch and in a full English translation.

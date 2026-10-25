@@ -4,19 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. *(SLO A5)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/domein-vaardigheden/), which gives an older Dutch wording close to that of the CCVX syllabus.
 
-| Topic | Status |
-|---|---|
-| A5.1 Recognising and specifying a problem | drafted |
-| A5.2 Research questions | drafted |
-| A5.3 Linking the question to theory | drafted |
-| A5.4 Hypothesis and expectations | drafted |
-| A5.5 Work plan and variables | drafted |
-| A5.6 Observations and measurements | drafted |
-| A5.7 Processing and presenting data | drafted |
-| A5.8 Conclusions | drafted |
-| A5.9 Evaluation: validity, precision, reproducibility, reliability | drafted |
-| A5.10 Presenting a study | drafted |
-
 ## A5.1 Recognising and specifying a problem
 
 - A scientific problem (*natuurwetenschappelijk probleem*) is a question about nature that observations or measurements can answer. Specifying it means saying exactly which system, which quantity and which conditions it is about. *(CvTE A5.1)*

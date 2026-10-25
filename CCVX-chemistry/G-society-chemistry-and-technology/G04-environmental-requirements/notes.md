@@ -4,17 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO G4)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
-| Topic | Status |
-|---|---|
-| Green chemistry and natural resources | drafted |
-| Re-use and cradle to cradle | drafted |
-| Energy management | drafted |
-| Water quality | drafted |
-| Air quality | drafted |
-| Soil quality | drafted |
-| Food quality | drafted |
-| Judging a proposed modification | drafted |
-
 ## Green chemistry and natural resources
 
 - Green chemistry (*groene chemie*) designs processes that prevent waste rather than clean it up afterwards: a high atom economy, catalysts instead of reagents that are used up, safer substances and solvents, renewable raw materials, and mild conditions that save energy. The calculations (atom economy, E-factor) are in [F02](../../F-industrial-chemical-processes/F02-green-chemistry/notes.md). *(SLO G4; CvTE T2.1, T2.2)*

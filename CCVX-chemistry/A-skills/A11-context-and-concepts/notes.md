@@ -4,11 +4,6 @@ These are English explanations of every learning outcome in [README.md](README.m
 
 Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
 
-| Topic | Status |
-|---|---|
-| A11 Context and concepts | drafted |
-| Worked outline: an unfamiliar context | drafted |
-
 ## A11 Context and concepts
 
 - A context (*context*) is the situation a question is about: daily life (*leefwereld*), such as food, medicines or cleaning; a profession (*beroep*), such as a factory, a hospital lab or water treatment; or science (*wetenschap*), such as new research. Concepts (*concepten*) are the chemistry you use in it: particles and bonds, reactions, equilibrium, energy, amounts. Reasoning in terms of context and concepts (*redeneren in termen van context-concept*) means recognising which concepts apply in a context and using them to make predictions (*voorspellingen*) and estimates (*schattingen*), do calculations (*berekeningen*), and give arguments (*argumentatie*). *(CvTE A11.1)*
