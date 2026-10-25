@@ -1,6 +1,6 @@
 # sb11 — Atomic Structure
 
-- **In Dutch VWO:** assumed prior knowledge from lower secondary school.
+- **In Dutch VWO:** central exam (CE); nothing in M1.4 is printed in italics as assumed knowledge.
 - **Dutch source:** Lower-secondary material, e.g. [Wikiwijs Stercollectie Scheikunde hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3). In [CvTE 2027](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf): M1.4.
 
 ## Learning outcomes (CCVX syllabus)

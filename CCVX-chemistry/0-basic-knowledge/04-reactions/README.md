@@ -1,6 +1,6 @@
 # sb12–sb16 — Reactions
 
-- **In Dutch VWO:** assumed prior knowledge from lower secondary school.
+- **In Dutch VWO:** central exam (CE), except the R1.1 term *coëfficiënt*, the R1.3 terms *ontledingsreactie: elektrolyse, fotolyse en thermolyse* and *onvolledig* (incomplete combustion), the R5.1 term *ontbrandingstemperatuur* and the R&A2.1 term *reagens*, which the CvTE syllabus prints in italics to mark them as assumed known from lower school, the school exam or other subjects.
 - **Dutch source:** Lower-secondary material, e.g. [Wikiwijs Stercollectie Scheikunde hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3). In [CvTE 2027](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf): R1.1–R1.3, R5.1, R&A2.1 (*reagens*) and R&A3.1.
 
 ## Learning outcomes (CCVX syllabus)

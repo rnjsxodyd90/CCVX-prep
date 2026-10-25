@@ -1,7 +1,7 @@
 # sb1–sb5 — Pure Substances and Mixtures
 
-- **In Dutch VWO:** assumed prior knowledge from lower secondary school.
-- **Dutch source:** Lower-secondary material, e.g. [Wikiwijs Stercollectie Scheikunde hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3). In [CvTE 2027](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf), M2.1–M2.3 and the separation techniques in R&A2.1 are regular central-exam content; the only parts of this topic printed in italics (assumed knowledge) are the M1.3 terms *aggregatietoestand/fase* and *fase-overgang* and the R&A2.1 terms *destillaat*, *extractiemiddel*, *loopvloeistof*, *oplosmiddel* and *residu*.
+- **In Dutch VWO:** central exam (CE), except the M1.3 terms *aggregatietoestand/fase* and *fase-overgang* and the R&A2.1 terms *destillaat*, *extractiemiddel*, *loopvloeistof*, *oplosmiddel* and *residu*, which the CvTE syllabus prints in italics to mark them as assumed known from lower school, the school exam or other subjects.
+- **Dutch source:** Lower-secondary material, e.g. [Wikiwijs Stercollectie Scheikunde hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3). In [CvTE 2027](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf): M2.1–M2.3, M1.3 and R&A2.1.
 
 > The PDF drops the label "sb3"; it is restored here.
 

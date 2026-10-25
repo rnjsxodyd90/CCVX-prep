@@ -15,7 +15,7 @@ There is one folder per syllabus subdomain. Each folder's `README.md` has the CC
 
 | Folder | Syllabus | In Dutch VWO |
 |---|---|---|
-| `0-basic-knowledge/` | sb1–sb18 | prior knowledge from lower secondary |
+| `0-basic-knowledge/` | sb1–sb18 | central exam, except a few terms printed in italics as assumed known |
 | `A-skills/` | A1–A15 | tested inside content questions; A1–A4 can't be tested in writing |
 | `B-substances-and-materials/` | B1–B4 | central exam |
 | `C-chemical-processes-and-conservation-laws/` | C1–C10 | C1–C6 central exam; C7–C10 school exam |

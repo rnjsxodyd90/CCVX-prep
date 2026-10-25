@@ -1,6 +1,6 @@
 # sb17–sb18 — Acids and Bases
 
-- **In Dutch VWO:** assumed prior knowledge from lower secondary school.
+- **In Dutch VWO:** central exam (CE), except the R1.4 solution names *ammonia*, *natronloog* and *zoutzuur*, which the CvTE syllabus prints in italics to mark them as assumed known from lower school, the school exam or other subjects.
 - **Dutch source:** Lower-secondary material, e.g. [Wikiwijs Stercollectie Scheikunde hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3). In [CvTE 2027](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf): R1.4–R1.6.
 
 ## Learning outcomes (CCVX syllabus)
