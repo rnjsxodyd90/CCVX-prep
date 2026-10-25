@@ -17,3 +17,7 @@ The candidate is able in particular contexts to:
 **Specific concepts:**
 
 Striated and smooth muscles, muscle fibre, muscle cell, tendon, reflex arc, antagonist, tone, strength training, endurance training, warming up, cooling down, endurance, doping, motor protein, muscle tension, actin, myosin, neural regulation, muscle spindle, tendon spindle.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

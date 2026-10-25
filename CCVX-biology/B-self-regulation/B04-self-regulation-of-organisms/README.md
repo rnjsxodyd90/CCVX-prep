@@ -54,3 +54,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Central nervous system, peripheral nervous system, large and small brain, centres in the cerebral cortex, white matter, grey matter, brainstem, spinal cord, autonomic (vegetative) nervous system, animal nervous system, orthosympathetic and parasympathetic, sensory, relay and motor neurons, Schwann cells, myelin sheath, synapse, Na/K pump, impulse conduction, saltatory conduction, reflex arc, neurotransmitter, resting potential, action potential, stimulation threshold, refractory period, excitatory, inhibitory, stimuli, mechanical, chemical, temperature, light, touch and pain receptors.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

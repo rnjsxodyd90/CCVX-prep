@@ -23,3 +23,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Skin and mucous membranes, blood, lymph, spleen, lymph nodes, humoral and cellular response, macrophages, T and B cells, mediators, antigens and antibodies, self, non-self, MHCI and MHCII receptors, natural and artificial immunity, active and passive immunity, vaccination, transplantation, blood transfusion, ABO system, rhesus factor, donor, acceptor, mechanical and chemical defences in plants.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

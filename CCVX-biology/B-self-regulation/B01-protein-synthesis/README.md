@@ -38,3 +38,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Amino acid, primary, secondary, tertiary and quaternary structure, protein, peptide binding, transcription, translation, mRNA, tRNA, rRNA, cytoplasm, ribosome, Golgi apparatus, rough endoplasmic reticulum, triplet code, codon, anticodon, coding strand, reading direction, template/matrix strand, DNA polymerase, start codon, stop codon, plasmid.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

@@ -59,3 +59,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Autotroph, heterotroph, photosynthesis, C assimilation, chloroplast, light and dark reaction, chemosynthesis, combustion, aerobic, anaerobic, glycolysis, citric acid cycle, oxidative phosphorylation, fermentation, alcohol, lactic acid, methane, ADP and ATP, NAD, NADP, building materials, fuels, reserve substances, enzymes, phospholipids, extracellular matrix, carbohydrates (monosaccharides, disaccharides and polysaccharides, starch, glycogen, cellulose), fat (fatty acids and glycerol), protein, amino acids, DNA, recombinant DNA, pH.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

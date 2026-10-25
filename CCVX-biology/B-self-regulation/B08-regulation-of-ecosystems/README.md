@@ -50,3 +50,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Niche, microclimate, biodiversity, migration, introduced species.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

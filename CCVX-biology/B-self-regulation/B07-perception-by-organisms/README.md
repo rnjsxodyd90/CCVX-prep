@@ -21,3 +21,7 @@ The candidate is able in particular contexts to:
 **Specific concepts:**
 
 Central nervous system, peripheral, large and small brain, centres of sensation, movement and vision in the cerebral cortex, brainstem, spinal cord, optic chiasm, sensory, relay and motor neurons, impulse conduction, adaptation, habituation, reflex arc, pupil, retina, rods, cones, macula, blind spot, adequate stimulus, mechanical, chemical, light, temperature, touch and pain receptors.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

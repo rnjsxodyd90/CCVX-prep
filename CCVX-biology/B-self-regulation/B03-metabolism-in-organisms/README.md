@@ -99,3 +99,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Open and closed circulation, single and double circulation, large circulation, small circulation, embryonic circulation, blood plasma, tissue fluid, lymph, bone marrow, blood composition, red blood cells, white blood cells, platelets, heart rate, stroke volume, sinoatrial node, AV node, bundle of His, blood pressure, diastole, systole, oxygen transport and carbon dioxide transport, nutrients and waste products, Bohr effect, buffer substances, HCO₃⁻, haemoglobin, myoglobin, coagulation, cholesterol, counterflow principle, filtration pressure, colloid osmotic pressure, evaporation flow, cohesion, adhesion, root pressure.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
