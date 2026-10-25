@@ -4,10 +4,12 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 
 | Subject | Next exam | Status |
 |---|---|---|
-| [CCVX-chemistry](CCVX-chemistry/) | Thursday 26 November 2026 | outcomes, Dutch syllabus mapping, and a [plan](CCVX-chemistry/PLAN.md) for filling the folders |
+| [CCVX-chemistry](CCVX-chemistry/) | Thursday 26 November 2026 | outcomes, Dutch syllabus mapping, a [plan](CCVX-chemistry/PLAN.md) for filling the folders, and the first filled folder, [C02](CCVX-chemistry/C-chemical-processes-and-conservation-laws/C02-chemical-calculations/) |
 | [CCVX-biology](CCVX-biology/) | Thursday 3 December 2026 | outcomes only |
 
 Registration closes 10 days before each exam.
+
+[`tools/wikiwijs.py`](tools/wikiwijs.py) imports Wikiwijs lesson material (the Stercollecties) as attributed Markdown; run `python3 tools/wikiwijs.py selftest` to test it.
 
 ## All folders
 

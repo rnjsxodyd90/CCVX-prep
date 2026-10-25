@@ -34,3 +34,13 @@ The candidate is able to do calculations on a process, using knowledge of chemic
     - excess/deficiency
     - stoichiometric ratio
     - yield as a fraction or percentage of the theoretical output.
+
+## Study material
+
+- [notes.md](notes.md): notes per outcome, each point with its source and each topic with a status. Start here.
+- [exercises.md](exercises.md): five past exam questions with the official answers, translated, and worked answers.
+- [spec.nl.md](spec.nl.md) and [spec.en.md](spec.en.md): the CvTE syllabus text for this folder and its translation.
+- `source/`: Stercollectie texts, in Dutch as imported and in a full English translation.
+    - Ecoreizen, Bron 3 *Chemisch rekenen*: [Dutch](source/ecoreizen-bron3-chemisch-rekenen.nl.md), [English](source/ecoreizen-bron3-chemisch-rekenen.en.md)
+    - Kunstmest, Proef 5 *Ammonium in kunstmest*: [Dutch](source/kunstmest-proef5-ammonium-in-kunstmest.nl.md), [English](source/kunstmest-proef5-ammonium-in-kunstmest.en.md)
+- [checks.py](checks.py): recomputes every number in these files. Run `python3 checks.py`.

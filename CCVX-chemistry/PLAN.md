@@ -1,12 +1,12 @@
 # Plan for filling the folders
 
-Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch counterpart. For every outcome, add Dutch notes, an English version of them, and practice questions.
+Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch counterpart. For every outcome, add the official Dutch wording, open Dutch study text, English translations of both, notes, and past exam questions. [C02](C-chemical-processes-and-conservation-laws/C02-chemical-calculations/) is done this way and is the model for the rest.
 
 ## Sources
 
 ### Official Dutch documents (copies in `syllabus/`)
 
-- **CvTE syllabus scheikunde vwo 2027** (version 4, April 2026): the official Dutch wording of everything in the central exam. Since 2025 it groups the content into *sferen*: M (materie), R (reacties), R&A (rekenen & analyse), T (technologie & duurzaamheid) and L (chemie van het leven). The "Dutch source" line in each folder names the matching sections. You may copy it unchanged with a source line. That permission doesn't cover translations, and you don't need one: the CCVX syllabus is the English version.
+- **CvTE syllabus scheikunde vwo 2027** (version 4, April 2026): the official Dutch wording of everything in the central exam. Since 2025 it groups the content into *sferen*: M (materie), R (reacties), R&A (rekenen & analyse), T (technologie & duurzaamheid) and L (chemie van het leven). The "Dutch source" line in each folder names the matching sections. You may copy it unchanged with a source line. That permission doesn't cover translations, so the `spec.en.md` files are unofficial and for study only.
 - **Omnummeringstabel**: maps the old codes that the CCVX syllabus still uses (B1.4, C2.1, …) to the new ones (M1.1, R&A1.2, …), and notes what was added or dropped.
 
 ### Other official sources
@@ -17,7 +17,7 @@ Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch
 
 ### Dutch learning material
 
-- [Wikiwijs Stercollectie Scheikunde v456](https://maken.wikiwijs.nl/61171/Scheikunde_v456) (VWO 4–6) and [hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3) (year 3, for `0-basic-knowledge`): free, built on the Nieuwe Scheikunde modules, and licensed CC BY-SA 4.0. You may copy and translate the text if you credit VO-content and publish your version under the same licence. The images aren't covered by the licence.
+- [Wikiwijs Stercollectie Scheikunde v456](https://maken.wikiwijs.nl/61171/Scheikunde_v456) (VWO 4–6) and [hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3) (year 3, for `0-basic-knowledge`): free and built on the Nieuwe Scheikunde modules. Wikiwijs labels them CC BY-SA 4.0 but links that label to CC BY-NC-SA 4.0, so follow the stricter terms: credit VO-content, don't use them commercially, and put your translations under the same licence. The images aren't covered by the licence. The modules are mostly activities; their theory is often in attached Word files. [`tools/wikiwijs.py`](../tools/wikiwijs.py) imports a module section or a Word attachment as attributed Markdown. Many attachments hold their key formulas as Word equation objects, which can't be converted, so check each import for gaps. In v456, only Ecoreizen's Bron 3 turned out to be a full theory text.
 - *Chemie Overal*, VWO 4–6: the textbook series CCVX suggests. Study from it and write notes in your own words; don't copy its text.
 
 ### English material
@@ -30,19 +30,24 @@ Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch
 
 | File | Contents |
 |---|---|
-| `README.md` | the outcomes (already there) |
-| `notes.nl.md` | Dutch notes, one heading per outcome (`## B1.7`) |
-| `notes.en.md` | the same notes in English |
-| `exercises.md` | past-exam questions for this folder (year, tijdvak, question number, link) and your own worked answers |
+| `README.md` | the outcomes (already there), plus a list of the files below |
+| `spec.nl.md` | the CvTE syllabus text for this folder, unchanged, with page numbers |
+| `spec.en.md` | an English translation of it |
+| `source/*.nl.md` | Stercollectie text, imported unchanged with `tools/wikiwijs.py` |
+| `source/*.en.md` | a full English translation of each, with errors in the original listed as errata |
+| `notes.md` | English notes per outcome; every point cites the spec, a source file, Binas or an exercise, and each topic has a status |
+| `exercises.md` | past exam questions: original text, the official answer, English translations of both, and a worked answer |
+| `checks.py` | recomputes every number in the folder with asserts; run `python3 checks.py` |
 
 ## Steps for each folder
 
 1. Read the outcomes in `README.md`. They're your checklist.
-2. Look up the Dutch syllabus sections named under "Dutch source" to get the Dutch terms, and check the omnummeringstabel for anything added or dropped.
-3. Study those terms in the Stercollectie or the textbook, and write `notes.nl.md` with one section per outcome.
-4. Translate into `notes.en.md`, using the CCVX terms from the glossary below. Machine translation (DeepL, an LLM) is fine as a first pass on your own notes and on CC BY-SA text. Then check every formula, charge, unit and significant figure by hand.
-5. Add 3–5 past-exam questions to `exercises.md`. For central-exam folders, search the NVON archive by topic; the correctievoorschrift shows how points are awarded. For school-exam folders, use the SLO suggestions. Write your answers in English.
-6. A folder is done when every outcome has a note and at least one practice question.
+2. Copy the Dutch syllabus sections named under "Dutch source" into `spec.nl.md` and translate them into `spec.en.md`. Check the omnummeringstabel for anything added or dropped.
+3. Find the Stercollectie sections on the topic and import them into `source/` with `tools/wikiwijs.py`. Translate each in full, using the CCVX terms from the glossary below. Machine translation is fine as a first pass, then check every formula, charge, unit and number against the Dutch. Record mistakes in the original as errata in the translation and leave the Dutch file as imported.
+4. Add 3–5 past exam questions to `exercises.md`. Start with the CCVX example exams, then the central exams on Examenblad (file names follow `vw-1028-a-YY-T-o.pdf` for the questions and `-c.pdf` for the marking scheme, and also check the addendum, the *aanvulling*). For school-exam folders, use the SLO suggestions.
+5. Put every number from the worked answers and the source examples into `checks.py`, and run it.
+6. Write `notes.md`. Mark each topic *drafted* (spec only), *checked against source* or *checked against exam*.
+7. A folder is done when every outcome is at least *checked against source* and has an exam question, or the notes say why there isn't one.
 
 ## Order
 
@@ -76,7 +81,7 @@ Two traps in the CCVX PDF:
 
 ## Glossary for translating
 
-The CCVX syllabus uses some unusual English. Use its terms in `notes.en.md` so your notes match the exam wording, and add the usual term where it helps.
+The CCVX syllabus uses some unusual English. Use its terms in `notes.md` and the translations so they match the exam wording, and add the usual term where it helps.
 
 | Dutch | CCVX English | Usual English |
 |---|---|---|
@@ -102,5 +107,5 @@ The CCVX syllabus uses some unusual English. Use its terms in `notes.en.md` so y
 
 ## Copyright
 
-- If the repo becomes public, keep only your own notes, credited CC BY-SA text (under the same licence) and the unchanged CvTE syllabus with its source line. Replace the other PDFs (the CCVX syllabus, the omnummeringstabel, any exams) and any book content with links.
-- In a private repo you can also keep exam PDFs and your translations of copyrighted text, for your own study.
+- If the repo becomes public, keep only your own notes, the credited Stercollectie text and its translations (under the same licence) and the unchanged CvTE syllabus with its source line. Remove the `spec.en.md` files and the exam quotes in `exercises.md`, and replace the other PDFs (the CCVX syllabus, the omnummeringstabel) and any book content with links.
+- In a private repo you can also keep exam text and your translations of copyrighted text, for your own study.
