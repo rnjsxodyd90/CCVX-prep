@@ -17,6 +17,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Outside the cell membrane (*celmembraan*) lies a cell wall (*celwand*) of peptidoglycan, not cellulose, sometimes covered by a slime capsule.
 - Inside are ribosomes (*ribosoom*), smaller than those of eukaryotes, and enzymes (*enzym*); there are no mitochondria, so dissimilation takes place in the cytoplasm and on the cell membrane.
 - Some bacteria swim with flagella (*flagel*), which are rotating protein threads, unlike the microtubule-based flagella of eukaryotes.
+
+![Labelled diagram of a bacterium](img/prokaryote-cell.png)
+
+*A bacterium (prokaryote). The plasma membrane is the cell membrane, the nucleoid is the circular chromosome, and pili are protein threads that attach the cell to surfaces, or to another bacterium when it passes on a plasmid. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Average_prokaryote_cell-_en.svg).*
+
 - Bacteria are small (Escherichia coli is about 1–2 μm long; a typical eukaryotic cell is 10–100 μm) and reproduce by binary fission (*tweedeling*), under ideal conditions about every 20 minutes: 10 hours could turn one cell into 2³⁰ ≈ 1.1·10⁹ cells.
 - Examples in this folder: E. coli in the gut, lactic acid bacteria (yoghurt), nitrifying bacteria (chemosynthesis) and cyanobacteria, which carry out photosynthesis (*fotosynthese*) without chloroplasts.
 - A virus is not a cell: it is DNA or RNA inside a protein coat (*eiwitmantel*), sometimes surrounded by an envelope taken from the host cell's membrane. *(CvTE M2.1 spec 2)*
@@ -49,6 +54,14 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 | cytoskeleton (*cytoskelet*) | microtubules and actin filaments | shape, tracks for transport, movement, the spindle in cell division (B2.2) |
 | centrioles (*centriolen*) | pair of short microtubule cylinders near the nucleus of animal cells | organise microtubules, such as the spindle; the same structure forms the base of cilia and flagella |
 | cilia (*ciliën*) and flagella (*flagel*) | microtubule extensions of the cell, bent by the motor protein dynein | cilia are many and short (airway lining moving mucus); a flagellum is one long tail (sperm cell) |
+
+![Labelled diagram of an animal cell](img/animal-cell.png)
+
+*An animal cell. The plasma membrane is the cell membrane, and the centrosome holds the two centrioles. Most animal cells have no flagellum; a sperm cell has one. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Animal_cell_structure_en.svg).*
+
+![Labelled diagram of a plant cell](img/plant-cell.png)
+
+*A plant cell: a cell wall outside the cell membrane, chloroplasts with starch grains, and one large vacuole whose membrane is the tonoplast. Plasmodesmata are channels through the cell wall that connect neighbouring cells. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant_cell_structure-en.svg).*
 
 - Plant cells have a cell wall, plastids and a large central vacuole, and flowering plants have no centrioles; animal cells have centrioles and no cell wall. Both have a nucleus, mitochondria, ER, a Golgi apparatus and ribosomes.
 - Recognising parts on an electron micrograph: mitochondria show a double membrane with inner folds (cristae), chloroplasts stacks of thylakoids, rough ER membranes dotted with ribosomes, the Golgi apparatus a curved stack of flat sacs with vesicles at the edges, and the nucleus a double membrane with pores and a dark nucleolus.
@@ -93,6 +106,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 ### 1. Active and passive transport and the membrane
 
 - The cell membrane is a bilayer of phospholipids (*fosfolipiden*). Each has a hydrophilic (*hydrofiel*, polar) phosphate head facing the water and two hydrophobic (*hydrofoob*, apolar) fatty-acid tails facing the inside of the membrane; proteins float in the bilayer. *(CvTE M2.2 specs 1–2)*
+
+![Labelled diagram of the cell membrane](img/cell-membrane.png)
+
+*The cell membrane: a phospholipid bilayer with the hydrophilic heads on the outside and the hydrophobic tails inside, proteins, cholesterol, and carbohydrate chains on the outer surface. "Peripherial" is a typo for peripheral. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cell_membrane_detailed_diagram_en.svg).*
+
 - Whether a substance gets through depends on its properties. Small apolar, fat-soluble (*vetoplosbaar*) molecules such as O₂ and CO₂ dissolve in the lipid core and diffuse straight through ([chemistry B03](../../../CCVX-chemistry/B-substances-and-materials/B03-bonds-and-properties/README.md)).
 - Ions and larger polar, water-soluble (*wateroplosbaar*) molecules such as glucose are kept out by the hydrophobic core and need transport proteins ([chemistry E02](../../../CCVX-chemistry/E-innovation-and-chemical-research/E02-selectivity-and-specificity/README.md)). Water passes partly through the bilayer and much faster through water-channel proteins (aquaporins).
 - Passive transport (*passief transport*) goes down a concentration gradient and needs no ATP: diffusion through the bilayer, facilitated diffusion through channel or carrier proteins (glucose into most cells), and osmosis (*osmose*), the diffusion of water across a selectively permeable membrane.

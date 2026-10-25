@@ -47,11 +47,26 @@ flowchart LR
 ## 2. Phases from zygote to birth
 
 - Weeks of pregnancy are counted in two ways. Doctors and midwives count from the first day of the last menstrual period (LMP), about two weeks before fertilization; embryologists count from fertilization. A full-term pregnancy lasts about 40 weeks (280 days) after the LMP, which is about 38 weeks (266 days) after fertilization. *(overlap: CvTE O9.1 spec 5)*
+
+![Timeline of pregnancy in weeks and months, counted from the last menstrual period](img/prenatal-timeline.png)
+
+*Weeks of pregnancy counted from the last menstrual period, as doctors count them: fertilization at the end of week 2, the embryo until the end of week 10, the foetus from week 11, and birth on average at week 40. Image: Mikael Häggström, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prenatal_development_table.svg).*
+
 - Fertilization takes place in the upper part of the oviduct (*eileider*), usually within a day of ovulation. The zygote is the first diploid cell of the new individual.
 - Cleavage divisions (*klievingsdelingen*) are mitotic divisions without growth in between, so the cells get smaller with every division while the whole embryo stays the same size. The first division takes place about a day after fertilization. *(overlap: CvTE O9.1 specs 3–4)*
 - The morula (*morula*) is a solid ball of about 16 cells (after four cleavage divisions), about 3–4 days after fertilization, still on its way through the oviduct.
 - The blastula (*blastula*; in mammals called blastocyst, *blastocyste*) is a hollow ball of cells around a fluid-filled cavity, about 4–5 days after fertilization, when it reaches the uterus. Its outer layer (trophoblast) will form the chorion and the embryo's part of the placenta; its inner cell mass, made of embryonic stem cells, will form the embryo itself ([C01](../C01-self-organization-of-cells/README.md)).
+
+![A blastocyst next to the uterine lining](img/blastocyst.png)
+
+*A blastocyst against the uterine lining (endometrium), just before implantation. The inner cell mass (embryoblast) becomes the embryo; the trophoblast forms the chorion and the embryo's part of the placenta. Image: Seans Potato Business, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blastocyst_English.svg).*
+
 - About 6–7 days after fertilization (week 3 counted from the LMP) the blastocyst starts to burrow into the uterine lining (implantation, *innesteling*). It then makes hCG (*HCG*), which keeps the corpus luteum (*geel lichaam*) producing progesterone, so the uterine lining stays and menstruation stops; pregnancy tests detect hCG in urine. *(overlap: CvTE O9.1 spec 7)*
+
+![The route from ovulation through the oviduct to implantation, with the stages on the way](img/fertilization-to-implantation.png)
+
+*From ovulation to implantation: fertilization in the oviduct, cleavage on the way to the uterus, and implantation of the blastocyst in the uterine lining. The days and cell numbers are approximate and differ a little between sources. Image: Ttrue12, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Human_Fertilization.png).*
+
 - In the third week after fertilization the embryo forms three germ layers (*kiembladen*): ectoderm (skin and nervous system), mesoderm (muscles, bone, blood, heart, kidneys) and endoderm (lining of gut and lungs, liver, pancreas).
 - The embryo (*embryo*) is the developing individual until the end of week 8 after fertilization (week 10 after the LMP). In this period all organs are laid down: the heart starts beating about three weeks after fertilization (about five weeks after the LMP), and the neural tube, the start of the brain and spinal cord, closes about four weeks after fertilization. *(overlap: CvTE O9.1 spec 5)*
 - The foetus (*foetus*) is the developing individual from week 9 after fertilization (week 11 after the LMP) until birth. Its organs are already there; they grow and mature, and most weight is gained in the last months.
@@ -61,7 +76,17 @@ flowchart LR
 - Across that layer O₂, glucose, amino acids, fatty acids, water, salts and IgG antibodies pass from mother to foetus, and CO₂ and urea pass from foetus to mother, by diffusion and active transport. The placenta also makes hormones (hCG, progesterone, oestrogen).
 - Foetal haemoglobin binds O₂ more strongly than adult haemoglobin, which helps the foetus take up O₂ from the mother's blood ([B03](../../B-self-regulation/B03-metabolism-in-organisms/README.md)).
 - The umbilical cord (*navelstreng*) connects the foetus with the placenta. Its two umbilical arteries (*navelstrengslagaders*) carry oxygen-poor blood from the foetus to the placenta, and its one umbilical vein (*navelstrengader*) carries oxygen-rich blood back to the foetus. *(overlap: CvTE O1.6 spec 3)*
+
+![The embryo in its membranes, with a close-up of the placenta](img/placenta.jpg)
+
+*The embryo inside the amnion and chorion, and a close-up of the placenta: chorionic villi with the embryo's blood vessels hang in spaces filled with the mother's blood, so the two bloods don't mix. "Yolk sack" should read yolk sac. Image: OpenStax College, Anatomy & Physiology, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2910_The_Placenta-02.jpg).*
+
 - At birth (*geboorte*), about 38 weeks after fertilization, oxytocin released by the posterior pituitary makes the uterus contract. The contractions press the baby against the cervix, which causes more oxytocin release: positive feedback (*positieve terugkoppeling*) that goes on until the baby is born. *(overlap: CvTE O2.1 spec 3)*
+- Birth goes in three stages. In dilation (*ontsluiting*) the contractions open the cervix until it is fully dilated, about 10 cm; in expulsion (*uitdrijving*) the mother pushes along with the contractions and the baby is born; in the afterbirth (*nageboorte*) the placenta and membranes come loose and are pushed out.
+
+![The three stages of birth: dilation, birth and afterbirth](img/childbirth-stages.png)
+
+*The three stages of birth; stage 2 is the expulsion. Image: BruceBlaus, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stages_of_Childbirth.png).*
 
 | Phase | After fertilization | After the LMP | What happens |
 |---|---|---|---|

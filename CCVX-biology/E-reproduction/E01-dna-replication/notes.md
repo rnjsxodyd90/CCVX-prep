@@ -24,6 +24,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Lagging strand: on the other template strand the new strand has to be built away from the fork, so it is made in pieces, each starting with its own primer, as the fork opens further (discontinuous replication, *discontinue replicatie*).
 - These pieces are the Okazaki fragments (*Okazaki-fragmenten*): about 1000–2000 nucleotides long in bacteria and 100–200 in eukaryotes.
 - The RNA primers are removed and replaced by DNA, and the enzyme DNA ligase joins the fragments into one continuous strand.
+
+![A replication fork with helicase, primase, DNA polymerase, ligase and Okazaki fragments](img/dna-replication.png)
+
+*A replication fork. Helicase opens the double helix, primase lays RNA primers, and DNA polymerase builds each new strand from 5' to 3': continuously on the leading strand, and in Okazaki fragments on the lagging strand, which DNA ligase joins. Ignore the Greek letters after DNA polymerase: you don't need the types, and newer research assigns them differently. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DNA_replication_en.svg).*
+
 - Replication runs in both directions from each origin, so each of the two forks has a leading and a lagging strand.
 - In eukaryotes the two copies of each chromosome stay attached at the centromere as two sister chromatids (*chromatiden*) until anaphase of mitosis, when they separate ([E02](../E02-cell-life-cycle/README.md)).
 - At the very end of a linear chromosome the last primer can't be replaced, so the chromosome would get shorter with every replication; the telomeres (*telomeren*), repeats of TTAGGG at the ends, buffer this loss, and the enzyme telomerase can lengthen them in stem cells (*stamcellen*) and in the cells that form gametes (*gameten*) ([E02](../E02-cell-life-cycle/README.md)).

@@ -20,6 +20,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Single-stranded DNA exists only briefly, when the strands are pulled apart to be copied or read (and in PCR), and permanently in a few viruses such as bacteriophage φX174.
 - Base pairing (*basenparing*) is complementary: A pairs with T through two hydrogen bonds and G with C through three. A double-ring base (A, G) always faces a single-ring base (T, C), so the double strand is equally wide everywhere.
 - One strand therefore fixes the other: 5'-ATGC-3' pairs with 3'-TACG-5'.
+
+![Chemical structure of a piece of double-stranded DNA](img/dna-chemical-structure.png)
+
+*Part of a DNA double strand. The two strands run in opposite directions, each with a backbone of phosphate and deoxyribose and a 5' and a 3' end; A–T pairs are held by two hydrogen bonds (dotted) and G–C pairs by three. Image: Madprime, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DNA_chemical_structure.svg).*
+
 - In double-stranded DNA %A = %T and %G = %C: DNA with 30% A has 30% T, 20% G and 20% C.
 - DNA rich in G–C pairs needs more heat to separate its strands: 10 base pairs with 4 G–C and 6 A–T pairs are held by 4 × 3 + 6 × 2 = 24 hydrogen bonds.
 - The two strands wind around each other into a double helix (helical structure, *helixstructuur*) about 2 nm wide, with one full turn about every 10 base pairs (3.4 nm).
@@ -32,6 +37,10 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 | Strands | two, as a double helix | one, often folded |
 | Length | very long (millions of base pairs) | short (one gene or less) |
 | Where | nucleus, mitochondria, chloroplasts | made in the nucleus, works mainly outside it |
+
+![RNA as a single strand next to DNA as a double helix, with their bases](img/dna-vs-rna.png)
+
+*RNA (left) is a single strand with uracil (U); DNA (right) is a double helix with thymine (T). Image: Sponk, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-EN.svg).*
 
 - In eukaryotes each chromosome (*chromosoom*) is one very long DNA molecule packed with proteins (*eiwitten*); a human body cell has 46 chromosomes in its nucleus.
 - The DNA is wound around histones (*histonen*): small, positively charged proteins that attract the negatively charged phosphate groups.
@@ -105,6 +114,15 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 ### 2. Transcription and translation
 
 - In transcription (*transcriptie*) a gene is copied into mRNA in the nucleus; in translation (*translatie*) ribosomes in the cytoplasm (*cytoplasma*), the cell contents outside the nucleus, use the mRNA to link amino acids into a chain. *(CvTE M1.2 spec 2)*
+
+```mermaid
+flowchart LR
+    G["gene in the DNA, nucleus"] -- "transcription" --> P["pre-mRNA"]
+    P -- "splicing" --> M["mRNA"]
+    M -- "through a nuclear pore" --> R["ribosome, cytoplasm"]
+    R -- "translation" --> E["protein"]
+```
+
 - RNA polymerase (*RNA-polymerase*) binds to the promoter (*promotor*), a DNA sequence in front of the gene, opens the double strand and starts building RNA without a primer. *(CvTE M3.1 spec 3)*
 - The template strand (CCVX: “template/matrix strand”, *template/matrijsstreng*) is the strand that is read: RNA polymerase pairs free RNA nucleotides with it (A–U, T–A, G–C, C–G).
 - The coding strand (*coderende streng*) is the other strand: it has the same sequence as the mRNA, with T instead of U, so you can read the codons straight from it.
@@ -117,6 +135,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - An anticodon is the triplet of a tRNA that pairs with a codon, complementary and antiparallel: codon 5'-AUG-3' pairs with anticodon 3'-UAC-5' (written 5'-CAU-3').
 - Elongation: the tRNA whose anticodon fits the next codon brings its amino acid, the rRNA joins it to the chain with a peptide bond, the ribosome moves three bases on, and the empty tRNA leaves to be reloaded.
 - Termination: no tRNA fits a stop codon; a release protein binds instead, the chain is released and the subunits come apart.
+
+![A ribosome reading mRNA while tRNAs bring amino acids](img/translation-ribosome.png)
+
+*Translation. tRNAs bring amino acids, their anticodons pair with the codons of the mRNA, and the chain grows by one amino acid per codon. The A site and P site are where the incoming tRNA and the tRNA holding the chain sit; you don't need these names. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_en.svg).*
+
 - Several ribosomes read one mRNA at the same time (a polysome), so one mRNA produces many copies of the protein.
 - Proteins for use in the cytoplasm, such as the enzymes of glycolysis, are made on free ribosomes. Proteins for export, for the cell membrane or for lysosomes start with a signal sequence that docks their ribosome onto the rough endoplasmic reticulum (*ruw endoplasmatisch reticulum*, RER).
 - The chain is threaded into the RER, where it folds and gets disulfide bridges (*zwavelbruggen*, outcome 3) and often sugar groups; transport vesicles take it to the Golgi apparatus (*golgi-systeem*), which modifies, sorts and packs proteins into vesicles, and secretory vesicles release them by exocytosis ([B02](../B02-metabolism-in-cells/README.md)).
