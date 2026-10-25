@@ -26,3 +26,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Succession, pioneer species, climax ecosystem, ecotone (‘gradient ecosystem’), indicator species, biodiversity, gene pool, competition, capacity, tolerances, introduced species, turning point.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

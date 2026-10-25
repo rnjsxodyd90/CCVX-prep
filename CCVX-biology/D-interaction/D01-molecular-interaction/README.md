@@ -24,3 +24,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Genome, structural genes, regulator genes, recombinant DNA, proto-oncogenes, enzymes, virus, iRNA, promotor, operator, repressor, suppressor, epigenetic, cisgenic, transgenic.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

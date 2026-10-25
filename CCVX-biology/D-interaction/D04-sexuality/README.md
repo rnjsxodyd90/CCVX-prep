@@ -26,3 +26,7 @@ The candidate is able in particular contexts for example to:
 **Specific concepts:**
 
 Sexuality, bisexual, homosexual, heterosexual, coming out, contraceptives, arousal, orgasm, gender, sexually transmitted diseases, AIDS, transsexuality, reproductive stimulus, adolescence, hormonal regulation, life stage.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

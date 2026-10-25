@@ -22,3 +22,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Signal substances, second messenger, synapse, cell junctions, receptor, response, signal cascade, Na/K pump.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

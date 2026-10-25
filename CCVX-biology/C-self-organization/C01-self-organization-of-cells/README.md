@@ -40,3 +40,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Genome, stem cells, cell type, extracellular matrix, apoptosis, lysosome, pluripotent, totipotent.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

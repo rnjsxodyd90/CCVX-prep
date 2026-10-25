@@ -31,3 +31,7 @@ The candidate is able in particular contexts to:
 **Specific concepts:**
 
 Internal factors, external factors, behaviour system, ethogram, genes, congenital, hereditary, acquired, classical and operant conditioning, habituation, imprinting, reflex, survival, communication, social behaviour, intimidating behaviour, territorial behaviour, instinct, nature/nurture.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

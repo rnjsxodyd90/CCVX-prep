@@ -40,3 +40,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Microclimate, niche, indicator species, limiting factor, tolerance, optimum, persistent, biodegradable.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

@@ -22,3 +22,7 @@ The candidate is able in particular contexts to:
 **Specific concepts:**
 
 Reproductive cells, fertilization, sperm, germ, egg, larva, pupa, imago, complete and incomplete metamorphosis, morula, blastula, amnion, chorion, embryo, foetus, placenta, amniotic fluid, umbilical cord, congenital abnormality, hereditary disease, cancer and its causes, prevention.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
