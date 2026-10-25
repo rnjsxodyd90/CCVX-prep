@@ -17,7 +17,7 @@ Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch
 
 ### Dutch learning material
 
-- [Wikiwijs Stercollectie Scheikunde v456](https://maken.wikiwijs.nl/61171/Scheikunde_v456) (VWO 4–6) and [hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3) (year 3, for `0-basic-knowledge`): free and built on the Nieuwe Scheikunde modules. Wikiwijs labels them CC BY-SA 4.0 but links that label to CC BY-NC-SA 4.0, so follow the stricter terms: credit VO-content, don't use them commercially, and put your translations under the same licence. The images aren't covered by the licence. The modules are mostly activities; their theory is often in attached Word files. [`tools/wikiwijs.py`](../tools/wikiwijs.py) imports a module section or a Word attachment as attributed Markdown. Many attachments hold their key formulas as Word equation objects, which can't be converted, so check each import for gaps. In v456, only Ecoreizen's Bron 3 turned out to be a full theory text.
+- [Wikiwijs Stercollectie Scheikunde v456](https://maken.wikiwijs.nl/61171/Scheikunde_v456) (VWO 4–6) and [hv3](https://maken.wikiwijs.nl/82750/Scheikunde_hv3) (year 3, for `0-basic-knowledge`): free and built on the Nieuwe Scheikunde modules. Wikiwijs labels them CC BY-SA 4.0 but links that label to CC BY-NC-SA 4.0, so follow the stricter terms: credit VO-content, don't use them commercially, and put your translations under the same licence. The images aren't covered by the licence. The modules are mostly activities; their theory is often in attached Word files. Many attachments hold their key formulas as Word equation objects, which are lost when the text is copied out, so compare each copy with the original for gaps.
 - *Chemie Overal*, VWO 4–6: the textbook series CCVX suggests. Study from it and write notes in your own words; don't copy its text.
 
 ### English material
@@ -33,19 +33,18 @@ Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch
 | `README.md` | the outcomes (already there), plus a list of the files below |
 | `spec.nl.md` | the CvTE syllabus text for this folder, unchanged, with page numbers |
 | `spec.en.md` | an English translation of it |
-| `source/*.nl.md` | Stercollectie text, imported unchanged with `tools/wikiwijs.py` |
+| `source/*.nl.md` | Stercollectie text, copied unchanged, with a header giving the source, the licence and the date |
 | `source/*.en.md` | a full English translation of each, with errors in the original listed as errata |
 | `notes.md` | English notes per outcome; every point cites the spec, a source file, Binas or an exercise, and each topic has a status |
 | `exercises.md` | past exam questions: original text, the official answer, English translations of both, and a worked answer |
-| `checks.py` | recomputes every number in the folder with asserts; run `python3 checks.py` |
 
 ## Steps for each folder
 
 1. Read the outcomes in `README.md`. They're your checklist.
 2. Copy the Dutch syllabus sections named under "Dutch source" into `spec.nl.md` and translate them into `spec.en.md`. Check the omnummeringstabel for anything added or dropped.
-3. Find the Stercollectie sections on the topic and import them into `source/` with `tools/wikiwijs.py`. Translate each in full, using the CCVX terms from the glossary below. Machine translation is fine as a first pass, then check every formula, charge, unit and number against the Dutch. Record mistakes in the original as errata in the translation and leave the Dutch file as imported.
+3. Find the Stercollectie sections on the topic and copy them unchanged into `source/`. Translate each in full, using the CCVX terms from the glossary below. Machine translation is fine as a first pass, then check every formula, charge, unit and number against the Dutch. Record mistakes in the original as errata in the translation and leave the Dutch file as published.
 4. Add 3–5 past exam questions to `exercises.md`. Start with the CCVX example exams, then the central exams on Examenblad (file names follow `vw-1028-a-YY-T-o.pdf` for the questions and `-c.pdf` for the marking scheme, and also check the addendum, the *aanvulling*). For school-exam folders, use the SLO suggestions.
-5. Put every number from the worked answers and the source examples into `checks.py`, and run it.
+5. Check every number in the worked answers and the source examples by hand: redo each calculation, and check units and significant figures.
 6. Write `notes.md`. Mark each topic *drafted* (spec only), *checked against source* or *checked against exam*.
 7. A folder is done when every outcome is at least *checked against source* and has an exam question, or the notes say why there isn't one.
 

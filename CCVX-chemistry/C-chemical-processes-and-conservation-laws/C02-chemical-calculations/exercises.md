@@ -1,6 +1,6 @@
 # C2 — Exercises
 
-Five past exam questions on chemical calculations. Each has the original question, the official answer with an English translation, and a worked answer. [checks.py](checks.py) recomputes every number in them.
+Five past exam questions on chemical calculations. Each has the original question, the official answer with an English translation, and a worked answer.
 
 > Exam texts and answers are © CCVX and © College voor Toetsen en Examens (CvTE). They're quoted here for personal study, which is why this repo is private. The PDF text loses sub- and superscripts and arrows; those have been restored. CCVX's worked answers carry the note *“aan deze uitwerking kunnen geen rechten worden ontleend”* (no rights can be derived from them).
 

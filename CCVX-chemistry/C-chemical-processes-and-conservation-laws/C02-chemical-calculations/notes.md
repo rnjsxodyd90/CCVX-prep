@@ -7,7 +7,7 @@ English notes on the two CCVX learning outcomes in [README.md](README.md). Every
 - **Kunstmest**: the Stercollectie experiment on ammonium in fertiliser, in [Dutch](source/kunstmest-proef5-ammonium-in-kunstmest.nl.md) and [English](source/kunstmest-proef5-ammonium-in-kunstmest.en.md)
 - **exercise N**: the past exam questions in [exercises.md](exercises.md)
 
-Dutch terms are in brackets. [checks.py](checks.py) recomputes every number on this page.
+Dutch terms are in brackets.
 
 **Status** of each topic: *drafted* means written from the spec alone; *checked against source* means it matches Bron 3 or Kunstmest; *checked against exam* means an official exam answer uses it as well.
 
@@ -63,7 +63,7 @@ Dutch terms are in brackets. [checks.py](checks.py) recomputes every number on t
 - pOH = −log [OH⁻], [OH⁻] = 10<sup>−pOH</sup>, and pH + pOH = 14.00 at 298 K. *(spec R&A1 spec 4; README)*
 - A pH gets as many decimals as [H₃O⁺] has significant figures: [H₃O⁺] = 2.5·10⁻³ mol L⁻¹ gives pH = 2.60. *(spec A8 spec 3)*
 - The pH of weak acids and bases, with K<sub>a</sub> (*K<sub>z</sub>*) and K<sub>b</sub>, belongs to [C05](../C05-chemical-equilibrium/README.md). *(spec R&A1 specs 5–6)*
-- One open text covers this, but it isn't imported yet: Bron 4.3 *Zwakke zuren* in the Stercollectie module [*Slikken of spuiten*](https://maken.wikiwijs.nl/61164/) ([Word file](https://maken.wikiwijs.nl/bestanden/577323/Intern%20dossier%20activiteit%204.doc), activity 4). It says that for a strong acid [H⁺] equals the molarity of the acid, and it converts 0.020 mol L⁻¹ to pH 1.70 and pH 2.60 to [H⁺] = 2.51·10⁻³ mol L⁻¹. Its worked HCl example is a Word drawing that the importer can't recover, and most of the text is about weak acids, so it belongs with C05.
+- One open text covers this, but it isn't in this folder yet: Bron 4.3 *Zwakke zuren* in the Stercollectie module [*Slikken of spuiten*](https://maken.wikiwijs.nl/61164/) ([Word file](https://maken.wikiwijs.nl/bestanden/577323/Intern%20dossier%20activiteit%204.doc), activity 4). It says that for a strong acid [H⁺] equals the molarity of the acid, and it converts 0.020 mol L⁻¹ to pH 1.70 and pH 2.60 to [H⁺] = 2.51·10⁻³ mol L⁻¹. Its worked HCl example is a drawing in the Word file, which is lost when the text is copied out, and most of the text is about weak acids, so it belongs with C05.
 
 ## C2.2 Principles
 
@@ -77,7 +77,7 @@ Dutch terms are in brackets. [checks.py](checks.py) recomputes every number on t
 - The five steps (*SPA, systematische probleemaanpak*): (1) balanced equation, (2) convert the given substance to mol, (3) mole ratio between given and asked, (4) mol of the asked substance, (5) convert to the unit asked for. *(Bron 3 §3.6; exercises 1–5)*
 - Don't use the mass ratio where the mole ratio belongs. *(Bron 3 §3.6)*
 
-Bron 3's calculation scheme didn't survive the import. Rebuilt from its text (§3.2–3.4), it connects everything through the amount of substance:
+Bron 3's calculation scheme is an image, so it isn't in the copy here. Rebuilt from its text (§3.2–3.4), it connects everything through the amount of substance:
 
 ```mermaid
 flowchart LR

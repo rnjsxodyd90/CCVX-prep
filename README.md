@@ -9,8 +9,6 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 
 Registration closes 10 days before each exam.
 
-[`tools/wikiwijs.py`](tools/wikiwijs.py) imports Wikiwijs lesson material (the Stercollecties) as attributed Markdown; run `python3 tools/wikiwijs.py selftest` to test it.
-
 ## All folders
 
 - [CCVX-chemistry/](CCVX-chemistry/)
