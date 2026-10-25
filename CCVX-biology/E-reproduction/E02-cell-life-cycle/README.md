@@ -30,3 +30,7 @@ The candidate is able in particular contexts for example to:
 **Specific concepts:**
 
 Unicellular, multicellular, reproductive cells, somatic cell, chromosome, mitosis, reduction division (meiosis), chromatid, replication, spiralization, spindle apparatus, microtubules, meiosis I, meiosis II, diploid, haploid, telomeres, cytoskeleton, prophase, metaphase, anaphase, telophase, cell cycle, RNA interference, G0 phase, microDNA, telomerase, apoptosis.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

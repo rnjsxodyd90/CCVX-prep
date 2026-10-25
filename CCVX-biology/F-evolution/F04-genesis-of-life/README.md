@@ -20,3 +20,7 @@ The candidate is able in particular contexts to:
 **Specific concepts:**
 
 Self-organization, primeval soup, archaea, chemical evolution, Miller-Urey experiment, endosymbiotic theory, black smokers.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

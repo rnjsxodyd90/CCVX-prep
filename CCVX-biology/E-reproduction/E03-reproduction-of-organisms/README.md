@@ -40,3 +40,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Genome, autosomes, X and Y chromosomes, genotype, phenotype, allele, gene, monohybrid and dihybrid cross, complete/incomplete dominance, recessive, intermediate, multiple alleles, lethal factor, linked genes, pedigree, mitochondrial DNA, epigenetics, methylation.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

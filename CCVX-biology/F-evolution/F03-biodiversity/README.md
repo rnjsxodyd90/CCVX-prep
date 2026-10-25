@@ -21,3 +21,7 @@ The candidate is able in particular contexts to:
 **Specific concepts:**
 
 Species, species composition, intensified greenhouse effect, red list, indicator species, distribution area, fragmentation, eutrophication, pedigree, adaptation, kinship, introduced (exotic) species, indigenous species, invasive species.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

@@ -21,3 +21,7 @@ The candidate is able in particular contexts for example to:
 **Specific concepts:**
 
 Nucleotides, double strand, base pairs, free DNA nucleotides, chromatids, DNA polymerase, S phase, Okazaki fragment, operon model, coding strand, template strand, 3’ and 5’ end.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

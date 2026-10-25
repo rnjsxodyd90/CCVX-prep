@@ -62,3 +62,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Mutation, recombination, phenotype, genotype, gene pool, genetic modification.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

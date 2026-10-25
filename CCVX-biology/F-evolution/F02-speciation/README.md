@@ -65,3 +65,7 @@ The candidate is able in a particular context to:
 **Specific concepts:**
 
 Species, sex, cladogram, clade, taxon, homology, analogy, genetic drift, coevolution, sympatric and allopatric speciation.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
