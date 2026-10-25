@@ -16,3 +16,7 @@ The candidate is able, using consistent arguments and relevant arithmetical and 
 6. compute a model with a suitable time increment
 7. evaluate a model based on results, expectations and measuring data, taking any margins of error in model parameters into consideration
 8. present a model study.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

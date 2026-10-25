@@ -12,3 +12,7 @@ The candidate is able to:
 2. distinguish between scientific arguments, normative social considerations and personal views
 3. cite sources for facts
 4. assess the reliability of information and determine its value as regards answering the respective question.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

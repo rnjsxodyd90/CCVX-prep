@@ -24,3 +24,7 @@ The candidate is able to:
     - recognize linear and exponential relationships
     - read graphs (without formulas) in terms of graphical progression and trends
 6. identify relationships from data in tables and graphs.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

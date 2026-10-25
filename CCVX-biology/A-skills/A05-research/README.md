@@ -20,3 +20,7 @@ The candidate is able, using consistent arguments and relevant arithmetical and 
 10. present a scientific study
 11. Recognizing that approaches other than an experimental approach are possible
 12. Interpreting the nature of research findings, using the concepts of uncertainty and probability.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

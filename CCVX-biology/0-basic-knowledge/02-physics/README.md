@@ -11,3 +11,7 @@ The following topics are assumed to be known for biology:
 - Radioactive isotopes and ionizing radiation, half-life
 - Electromagnetic spectrum
 - Specific heat, heat capacity, heat of combustion
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

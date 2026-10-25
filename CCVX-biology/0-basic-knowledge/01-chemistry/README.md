@@ -19,3 +19,7 @@ The following topics are assumed to be known for biology:
 - Methane, alcohol (ethanol)
 - Names and formulas of the following substances: ammonia, calcium, iron, potassium, carbon dioxide, magnesium, sodium chloride, nitrogen and water
 - Quantities and units: concentration (mol/L or g/L), percentage by mass, percentage by volume, ppm.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
