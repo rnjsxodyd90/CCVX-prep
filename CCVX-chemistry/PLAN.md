@@ -107,5 +107,6 @@ The CCVX syllabus uses some unusual English. Use its terms in `notes.md` and the
 
 ## Copyright
 
-- If the repo becomes public, keep only your own notes, the credited Stercollectie text and its translations (under the same licence) and the unchanged CvTE syllabus with its source line. Remove the `spec.en.md` files, the exam quotes in `exercises.md` and the exam figures in `img/`, and replace the other PDFs (the CCVX syllabus, the omnummeringstabel) and any book content with links.
-- In a private repo you can also keep exam text and figures and your translations of copyrighted text, for your own study.
+- The repo is public. Your own notes, the credited Stercollectie text with its translations (under the same licence) and the unchanged CvTE syllabus with its source line are fine to publish.
+- It also holds material without a licence that allows republishing: the exam quotes in `exercises.md`, the exam figures in `img/`, the `spec.en.md` translations, and the CCVX syllabus and omnummeringstabel PDFs. That was a deliberate choice. Keep each item credited, and if a rights holder objects, replace it with a link.
+- Link to textbook content instead of copying it.

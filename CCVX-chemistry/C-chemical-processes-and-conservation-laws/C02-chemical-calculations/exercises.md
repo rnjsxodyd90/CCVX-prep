@@ -2,7 +2,7 @@
 
 Five whole past exam questions, each with every part, every figure and the complete official answers. Each exercise names the parts that practise chemical calculations; those parts also get a worked answer. The other parts link to the folder for their topic.
 
-> Exam texts, figures and answers are © CCVX and © College voor Toetsen en Examens (CvTE); the CvTE figures are by Stichting Cito Instituut voor Toetsontwikkeling. They're quoted here for personal study, which is why this repo is private. The sub- and superscripts, arrows and multiplication signs that the PDF text loses have been restored, fractions are written on one line with brackets, and page furniture such as page numbers is left out. The answer sheet for question 22 of exercise 5 is printed sideways in the exam and is turned upright here. CCVX's worked answers carry the note *“aan deze uitwerking kunnen geen rechten worden ontleend”* (no rights can be derived from them).
+> Exam texts, figures and answers are © CCVX and © College voor Toetsen en Examens (CvTE); the CvTE figures are by Stichting Cito Instituut voor Toetsontwikkeling. They're quoted here for study. The sub- and superscripts, arrows and multiplication signs that the PDF text loses have been restored, fractions are written on one line with brackets, and page furniture such as page numbers is left out. The answer sheet for question 22 of exercise 5 is printed sideways in the exam and is turned upright here. CCVX's worked answers carry the note *“aan deze uitwerking kunnen geen rechten worden ontleend”* (no rights can be derived from them).
 
 | # | Question | Source | Points | Parts on calculations |
 |---|---|---|---|---|
