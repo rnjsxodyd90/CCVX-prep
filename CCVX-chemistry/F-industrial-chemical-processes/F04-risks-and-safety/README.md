@@ -10,3 +10,7 @@
 The candidate is able to use knowledge of risks and safety and judge those aspects in industrial production processes:
 
 - substance flows, energy flows, risk and probability, change of scale (on a large scale), risk (R) and safety (S) sentences, pictograms, substance cycles.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

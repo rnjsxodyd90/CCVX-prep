@@ -8,3 +8,7 @@
 The candidate is able at least in the context of sustainability to analyse an example from the Dutch chemical industry and describe what contribution the business process makes to local and global quality of life, using chemical knowledge:
 
 - sustainability, processes, effects on the living environment, quality of life, and so on.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

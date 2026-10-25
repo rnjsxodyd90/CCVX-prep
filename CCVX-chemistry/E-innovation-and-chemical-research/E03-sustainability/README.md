@@ -13,3 +13,7 @@ The candidate is able to evaluate and comment on conclusions regarding sustainab
 - E-factor
 - yield
 - fossil fuels, electrochemistry.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

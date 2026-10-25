@@ -29,3 +29,7 @@ The candidate is able at least in the context of health, materials or food produ
         - characteristic groups
     - molecular structure and biodegradability of polymers:
         - characteristic groups.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

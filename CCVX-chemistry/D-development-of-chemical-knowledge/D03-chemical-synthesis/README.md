@@ -15,3 +15,7 @@ The candidate is able to describe how substances are synthesized and relate this
 3. The candidate is able to identify a relationship between the reaction mechanism and:
     - average chain length, degree of polymerization
     - crosslinks.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

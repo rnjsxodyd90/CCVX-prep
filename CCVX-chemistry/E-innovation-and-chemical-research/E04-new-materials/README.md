@@ -13,3 +13,7 @@ The candidate is able at least in the context of pharmaceuticals, nutrition or m
 - molecular structure
 - antibiotics
 - pharmaceutical research.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

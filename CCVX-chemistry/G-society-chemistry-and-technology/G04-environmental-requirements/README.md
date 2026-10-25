@@ -8,3 +8,7 @@
 The candidate is able to describe what qualities of water, air, soil and food are guaranteed in what way and judge proposed modifications, using knowledge of large-scale chemical processes:
 
 - green chemistry, natural resources, re-use, cradle to cradle, energy management, water quality, air quality, soil quality, food quality.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

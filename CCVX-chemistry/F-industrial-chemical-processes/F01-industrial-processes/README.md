@@ -23,3 +23,7 @@ The candidate is able to describe industrial processes in block diagrams, do cal
     - continuous process
     - batch process
     - bulk chemicals/fine chemicals.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

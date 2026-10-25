@@ -17,3 +17,7 @@ The candidate is able at least in the context of health or sustainability to des
     - risks in the event of an emergency
     - combined heat and power
     - sustainability.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

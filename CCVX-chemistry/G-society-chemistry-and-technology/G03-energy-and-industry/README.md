@@ -19,3 +19,7 @@ The candidate is able at least in the context of sustainability to describe ener
     - bioethanol
     - biogas
     - biodiesel.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

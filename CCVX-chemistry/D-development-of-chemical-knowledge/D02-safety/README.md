@@ -21,3 +21,7 @@ The candidate is able to use and describe the concept of activation energy in ex
 - catalyst
 - enzymes
 - energy diagram, element conservation.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

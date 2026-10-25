@@ -12,3 +12,7 @@ The candidate is able to write a reaction mechanism using molecular modelling, a
 - polymerization
 - monomer
 - polycondensation, enantiomers, optical activity.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

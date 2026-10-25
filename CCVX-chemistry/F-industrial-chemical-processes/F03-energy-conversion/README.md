@@ -44,3 +44,7 @@ The candidate is able in the context of sustainability to describe what chemical
         - charging
         - recycling
         - energy-mass ratio.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

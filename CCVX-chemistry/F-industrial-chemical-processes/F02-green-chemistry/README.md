@@ -25,3 +25,7 @@ The candidate is able at least in the context of food production or sustainabili
     - recycling:
         - plastics
         - metals.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

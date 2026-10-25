@@ -16,3 +16,7 @@ The candidate is able to formulate and judge the selection of a particular separ
 6. The candidate is able to calculate the amount of a substance in a solution or mixture from quantitative measurements or explain a given calculation:
     - chromatography: peak area
     - mass spectrometry: peak height.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

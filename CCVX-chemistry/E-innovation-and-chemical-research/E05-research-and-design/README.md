@@ -8,3 +8,7 @@
 The candidate is able at least in the context of sustainability, materials, nutrition or health to formulate a practical research or design assignment, implement it and report on it:
 
 - formulating research question/hypothesis, identifying variables, drawing up a work plan, processing measuring data, drawing conclusions, presentation.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).

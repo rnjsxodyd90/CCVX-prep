@@ -34,3 +34,7 @@ The candidate is able to describe and use knowledge of chemical processes in liv
 5. The candidate is able to describe that a small number of substances that form an essential part of the diet cannot be produced by the body:
     - essential amino acids
     - essential fatty acids.
+
+## Study material
+
+- [notes.md](notes.md): explanations of every outcome above (status: drafted).
