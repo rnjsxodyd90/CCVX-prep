@@ -4,9 +4,11 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 
 ## The exam
 
-- Written, 3 hours, in Dutch or English, in Utrecht only. Registration closes 10 days before the exam; the fee is €98.
+- Written, 3 hours, in Dutch or English, in Utrecht only. Registration closes 10 working days before the exam ([conditions](https://www.ccvx.nl/Inschrijving/VoorwaardenDeelname.html), article 4), so Thursday 12 November 2026 for the November exam; the fee is €98 and can't be refunded.
+- Candidates whose native language isn't Dutch can ask for extra time, with a birth certificate as proof, by the same deadline ([conditions](https://www.ccvx.nl/Inschrijving/VoorwaardenDeelname.html), article 5).
 - Dates in 2026/27: Thursday 26 November 2026 (13:30–16:30), around 12 April 2027 and around 16 July 2027.
-- Allowed: Binas, 5th edition or later, with no notes in it (the English edition, ISBN 978 90 01 70731 6, is a translation of the 5th); a non-graphing calculator with exponential and logarithmic functions; a paper dictionary.
+- Allowed: Binas, 5th edition or later, with no notes in it (the English edition, ISBN 978 90 01 70731 6, is a translation of the 5th); a non-graphing calculator with exponential and logarithmic functions; one paper dictionary, either a one-volume Dutch dictionary or a Dutch-to-other-language one (no digital dictionaries) ([exam requirements](https://www.ccvx.nl/Tentamenbenodigdheden%20en%20Handelingswerkwoorden.html)).
+- Bring: valid ID (passport, Dutch ID card or driving licence, EU/EEA document, or Dutch residence permit), a pen (not red; pencil only for graphs), a set square (*geodriehoek*), a watch (no smartwatch; a phone can't be used as a clock) and spare calculator batteries. Only one calculator is allowed.
 - CCVX questions lean more on calculation and less on reading than the Dutch VWO exams do.
 
 ## Layout

@@ -62,7 +62,7 @@ Each folder's `README.md` already lists its CCVX learning outcomes and its Dutch
 
 Finish with CCVX example exam 2 under exam conditions: 3 hours, Binas, non-graphing calculator.
 
-If you're aiming for 26 November 2026, registration closes around 16 November and about four weeks remain. In that case, do steps 1–6 and both example exams, and only skim step 7.
+If you're aiming for 26 November 2026, registration (and any request for extra time) closes on Thursday 12 November, 10 working days before, and about four weeks remain. In that case, do steps 1–6 and both example exams, and only skim step 7.
 
 ## Where CCVX and the Dutch syllabus differ
 
