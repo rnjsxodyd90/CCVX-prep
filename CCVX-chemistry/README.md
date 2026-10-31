@@ -15,6 +15,8 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 
 There is one folder per syllabus subdomain. Each folder's `README.md` has the CCVX learning outcomes (the PDF's text, with formula formatting and obvious typos fixed), whether the subdomain belongs to the Dutch central exam or school exam, and where it sits in the Dutch syllabus.
 
+Each folder also has a `notes.md`: English explanations of every outcome with their sources, and a status in the first lines. [C02](C-chemical-processes-and-conservation-laws/C02-chemical-calculations/) is the only folder filled in full so far — exercises, syllabus text, Stercollectie sources and figures — and is the model for the rest (see [PLAN.md](PLAN.md)).
+
 | Folder | Syllabus | In Dutch VWO |
 |---|---|---|
 | `0-basic-knowledge/` | sb1–sb18 | central exam, except a few terms printed in italics as assumed known |

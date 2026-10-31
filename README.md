@@ -1,11 +1,11 @@
 # CCVX prep
 
-Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance exams (*voortentamens*), one folder per subject. Inside each subject there is one folder per syllabus subdomain, and each has a `README.md` with the CCVX learning outcomes.
+Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance exams (*voortentamens*), one folder per subject. Inside each subject there is one folder per syllabus subdomain, and each has a `README.md` with the CCVX learning outcomes and a `notes.md` with English explanations of them.
 
 | Subject | Next exam | Status |
 |---|---|---|
-| [CCVX-chemistry](CCVX-chemistry/) | Thursday 26 November 2026 | outcomes, Dutch syllabus mapping, a [plan](CCVX-chemistry/PLAN.md) for filling the folders, and the first filled folder, [C02](CCVX-chemistry/C-chemical-processes-and-conservation-laws/C02-chemical-calculations/) |
-| [CCVX-biology](CCVX-biology/) | Thursday 3 December 2026 | outcomes only |
+| [CCVX-chemistry](CCVX-chemistry/) | Thursday 26 November 2026 | outcomes and drafted notes for every subdomain, Dutch syllabus mapping, a [plan](CCVX-chemistry/PLAN.md) for filling the folders, and one folder filled in full: [C02](CCVX-chemistry/C-chemical-processes-and-conservation-laws/C02-chemical-calculations/) |
+| [CCVX-biology](CCVX-biology/) | Thursday 3 December 2026 | outcomes and drafted notes for every subdomain |
 
 Registration closes 10 working days before each exam ([conditions](https://www.ccvx.nl/Inschrijving/VoorwaardenDeelname.html), article 4): Thursday 12 November 2026 for chemistry, Thursday 19 November 2026 for biology. The home page says "10 days"; the conditions are stricter, so go by them.
 

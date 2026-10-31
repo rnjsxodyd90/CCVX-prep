@@ -26,4 +26,6 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 
 Each domain folder's `README.md` has the domain's general outcomes. Each subfolder's `README.md` has that subdomain's outcomes, specimen contexts and specific concepts, as printed in the PDF with formulas and obvious typos fixed. Subfolder numbers are zero-padded so they sort: `B01` is syllabus B1.
 
-Unlike [CCVX-chemistry](../CCVX-chemistry/), these folders don't yet say where each topic sits in the Dutch syllabus, and there's no plan for filling them.
+Every subfolder also has a `notes.md`: English explanations of every outcome, with a status line and where the topic sits in the Dutch CvTE syllabus. A few folders have `img/` with diagrams.
+
+Unlike [CCVX-chemistry](../CCVX-chemistry/), there's no plan here for filling the folders: no source texts, translations or past-exam exercises yet, and every note is only *drafted* — written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
