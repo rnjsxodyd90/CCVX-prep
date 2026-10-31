@@ -72,7 +72,7 @@ The CCVX syllabus applies. Newer Dutch material may skip these topics, but CCVX 
 - F2.3 (including oil refining), F3.2 (fossil-fuel power generation), the environmental factors in F3.4, and the named plants and fuels in G3.
 - In G1: urea, glycogen, deoxyribose/ribose and phosphates, tRNA and ribosomes, essential fatty acids. In G2: combined heat and power. In A10: chromosomes, ecosystem, heredity.
 
-These are only in the Dutch syllabus, so they're low priority for CCVX: K<sub>s</sub> (solubility product), K<sub>v</sub> (partition), the Faraday constant, and naming compounds with two kinds of functional group.
+These are only in the Dutch syllabus, so they're low priority for CCVX: K<sub>v</sub> (partition), the Faraday constant, and naming compounds with two kinds of functional group. K<sub>s</sub> (solubility product) isn't in the CCVX syllabus either, but CCVX example exam 2, question 4 asks for a K<sub>s</sub> calculation, so learn it ([C05](C-chemical-processes-and-conservation-laws/C05-chemical-equilibrium/notes.md)).
 
 Two traps in the CCVX PDF:
 
