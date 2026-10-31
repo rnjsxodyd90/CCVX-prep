@@ -2,7 +2,7 @@
 
 These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
 
-- **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
+- **In Dutch VWO:** the CvTE §1.4 table marks A4 for the central and the school exam, but prints the A4 end term grey, so the Dutch central exam doesn't test it. CCVX keeps it and tests it inside content questions.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A, A4 *Studie en beroep*. A1–A4 have only an attainment target (*eindterm*), which the CvTE doesn't specify further; a citation like *(CvTE A4)* means that attainment target.
 
 Dutch terms are in brackets. Binas tables are named, not numbered, because the numbers differ between editions.

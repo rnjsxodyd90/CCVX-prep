@@ -290,7 +290,7 @@ flowchart LR
 - Reabsorption (*reabsorptie*, *terugresorptie*): along the tubule, useful substances return to the capillaries around it: all glucose and amino acids and most salts by active transport, and water by osmosis.
 - Tubule cells also actively secrete some substances into the urine, such as H⁺, K⁺ and many drugs.
 - What is left is urine: about 1.5 L per day (roughly 1–2 L), so about 99% of the filtrate is reabsorbed, and the kidneys filter the whole plasma volume (about 3 L) roughly 60 times a day.
-- The liver is made of tens of thousands of liver lobules (*leverlobjes*), small six-sided units: blood from the hepatic portal vein and the hepatic artery flows from their corners past rows of liver cells to a central vein, while bile flows the other way, between the cells, to bile ducts at the corners.
+- The liver is made of hundreds of thousands of liver lobules (*leverlobjes*), small six-sided units: blood from the hepatic portal vein and the hepatic artery flows from their corners past rows of liver cells to a central vein, while bile flows the other way, between the cells, to bile ducts at the corners.
 - Sweat glands are coiled tubes deep in the dermis (*lederhuid*), surrounded by capillaries, with a duct that opens in a pore at the surface of the epidermis (*opperhuid*).
 - **Trap:** the renal ultrafiltrate still contains glucose and amino acids, but normal urine doesn't, because all of them are reabsorbed.
 

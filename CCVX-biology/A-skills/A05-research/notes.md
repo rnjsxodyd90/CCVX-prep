@@ -36,6 +36,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Example: catalase activity at 10, 20, 30, 40 and 50 °C, with the same volumes of liver extract and H₂O₂ solution each time, the O₂ collected in a gas syringe for 2 minutes, three repeats per temperature, and boiled liver extract as a control to show that the active enzyme releases the O₂ ([B02](../../B-self-regulation/B02-metabolism-in-cells/README.md)).
 - In a trial with people, such as the trial of an appetite-inhibiting substance in [B03](../../B-self-regulation/B03-metabolism-in-organisms/README.md), the control group (*controlegroep*) gets a placebo, and in a double-blind trial neither the subjects nor the researchers know who gets which.
 - **Trap:** a control is not a repeat: a control shows that the factor itself causes the effect, a repeat shows whether the result can be reproduced.
+- This item is printed grey in the Dutch syllabus: it is not tested in the central exam.
 
 ## 6. Observations and measuring data
 
@@ -79,6 +80,6 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 
 ## CCVX versus the Dutch syllabus
 
-- **In both:** all twelve items, with the same numbers, but the CvTE prints item 10 grey, so it isn't tested in the Dutch central exam. *(CvTE A5)*
+- **In both:** all twelve items, with the same numbers, but the CvTE prints items 5 and 10 grey, so they aren't tested in the Dutch central exam. *(CvTE A5)*
 - **Dutch syllabus only:** accuracy (*nauwkeurigheid*) in item 9.
 - **CCVX only:** nothing.

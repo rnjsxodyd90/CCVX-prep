@@ -54,6 +54,6 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ## CCVX versus the Dutch syllabus
 
 - **In both:** the end term. The CCVX items follow the older Dutch wording *(SLO A7)*; the 2027 CvTE text rewrote A7 into nine specifications, so the codes above match by content, not by number.
-- **Dutch syllabus only:** naming similarities and differences between a model and reality to find its range of validity (A7.3), judging how well a model fits its purpose (A7.4), choosing a physical, schematic or mathematical representation (A7.5), and proposing improvements or extensions (A7.8).
+- **Wording:** the 2027 text spells out four acts that CCVX's items 3 and 6 cover in one line: naming similarities and differences between a model and reality to find its range of validity (A7.3), judging how well a model fits its purpose (A7.4), choosing a physical, schematic or mathematical representation (A7.5), and proposing improvements or extensions (A7.8).
 - **CCVX only:** estimating margins of error for model parameters (item 4); the 2027 text only says "quantify where necessary" (A7.5).
 - **Dutch central exam:** A7.6 (setting up or adjusting a model) and A7.9 (presenting) are printed in grey italics, so only the school exam tests them.

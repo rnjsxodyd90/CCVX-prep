@@ -171,7 +171,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## CCVX versus the Dutch syllabus
 
-- **In both:** everything above except ozone. The Dutch list in M1.1 has more elements, substances and ions than sb7–sb9; CCVX lists them in [B01](../../B-substances-and-materials/B01-particle-models/notes.md).
+- **In both:** everything above except ozone. The Dutch list in M1.1 has more elements and ions than sb7–sb9, and names two substances that sb8 doesn't (acetic acid and phosphoric acid); CCVX lists the extra elements and ions in [B01](../../B-substances-and-materials/B01-particle-models/notes.md).
 - **Dutch syllabus only:** giving the formula of any binary molecular substance from its systematic name and vice versa *(CvTE M1.2)*; CCVX only names particular substances.
 - **CCVX only:** ozone (O₃), which the CvTE syllabus doesn't name.
 - **CCVX PDF wording:** sb6's third bullet says "an element as a decomposable substance" (probably meant: a compound, *ontleedbare stof*, as in CvTE M1.8), and sb7 spells bromine "bromium".

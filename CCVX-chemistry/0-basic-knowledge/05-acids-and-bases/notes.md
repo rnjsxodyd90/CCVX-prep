@@ -35,7 +35,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - Carbon dioxide dissolves in water, and a small part of it reacts with water as a weak acid: CO₂(aq) + 2 H₂O(l) ⇌ H₃O⁺(aq) + HCO₃⁻(aq). Sparkling water is therefore slightly acidic, and so is clean rainwater. *(CvTE R1.5)*
 - The quotation marks mean that H₂CO₃ molecules hardly exist as such: a 'carbonic acid solution' is mainly CO₂(aq) in water. The Dutch syllabus writes the acid as H₂O + CO₂ / 'H₂CO₃' *(CvTE R1.5)*, and in an equation you write CO₂ + H₂O.
-- The salts of carbonic acid are the carbonates and hydrogen carbonates (sb18, and sb9 in [02-elements-and-compounds](../02-elements-and-compounds/notes.md)).
+- The salts of carbonic acid are the carbonates and hydrogen carbonates (sb18). Of their ions, sb9 lists only the hydrogen carbonate; the carbonate ion is added in [B01](../../B-substances-and-materials/B01-particle-models/notes.md) (see [02-elements-and-compounds](../02-elements-and-compounds/notes.md)).
 - **Trap:** in everyday Dutch, *koolzuur* (or *koolzuurgas*) often means the gas CO₂ itself, as in the bubbles of a fizzy drink. Chemically that gas is carbon dioxide (*koolstofdioxide*); the acid is CO₂ + H₂O.
 
 ### Ethanoic acid, acetic acid and vinegar

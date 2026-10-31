@@ -9,7 +9,7 @@ English notes on the two CCVX learning outcomes in [README.md](README.md). Every
 
 Dutch terms are in brackets.
 
-Everything here matches Bron 3, Kunstmest or an official exam answer, except volume percentage and ppb, which come from the syllabus alone. No exam question here uses mass-ppm or the pH of a strong acid or base.
+Everything here matches Bron 3, Kunstmest or an official exam answer, except volume percentage, ppb, the significant-figures and pH rules and the exam verbs, which come from the syllabus alone. No exam question here uses mass-ppm or the pH of a strong acid or base.
 
 ## C2.1 Quantities
 

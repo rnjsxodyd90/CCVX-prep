@@ -34,6 +34,6 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 
 ## CCVX versus the Dutch syllabus
 
-- **In both:** all four items, with the same numbers and meaning. *(CvTE A9)*
+- **In both:** all four items, with the same numbers and meaning, but the CvTE prints items 3 and 4 grey, so the Dutch central exam doesn't test them. *(CvTE A9)*
 - **Dutch syllabus only:** nothing.
 - **CCVX only:** nothing.

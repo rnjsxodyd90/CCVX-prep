@@ -14,9 +14,9 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - At every step, the properties of the substances (flammability, reactivity, toxicity) decide how they must be handled safely, which the next topics are about. *(SLO D2)*
 - **Trap:** purifying raises the purity but lowers the yield, because some product is lost in every step: it stays dissolved or sticks to the equipment. Purity (*zuiverheid*) and yield (*rendement*) are different things.
 
-## Safety phrases and pictograms
+## Hazard labels and pictograms
 
-- Hazardous substances are labelled according to the GHS (Globally Harmonised System), which the EU applies through its CLP regulation. A label shows pictograms, a signal word (Danger, *Gevaar*, or Warning, *Waarschuwing*) and safety phrases (*veiligheidszinnen*) of two kinds. *(SLO D2)*
+- Hazardous substances are labelled according to the GHS (Globally Harmonised System), which the EU applies through its CLP regulation. A label shows pictograms, a signal word (Danger, *Gevaar*, or Warning, *Waarschuwing*) and hazard and precautionary statements (*gevaarzinnen* en *voorlichtingszinnen*) of two kinds. *(SLO D2)*
 - Hazard statements (*H-zinnen*) describe the danger, with a code of H and three digits: codes starting with H2 are physical hazards, H3 health hazards and H4 environmental hazards. Examples: H225, highly flammable liquid and vapour (ethanol); H314, causes severe skin burns and eye damage (concentrated sulfuric acid, concentrated caustic soda); H350, may cause cancer (benzene); H400, very toxic to aquatic life. *(SLO D2)*
 - Precautionary statements (*P-zinnen*) say how to work safely and what to do after an accident: codes starting with P1 are general, P2 prevention, P3 response, P4 storage and P5 disposal. Examples: P210, keep away from heat, sparks, open flames and other ignition sources; P280, wear protective gloves, clothing and eye or face protection; P305+P351+P338, if in eyes, rinse cautiously with water for several minutes, remove contact lenses if that is easy, and continue rinsing. *(SLO D2)*
 - The GHS pictograms (*pictogrammen*) are red-bordered diamonds with a black symbol on white. *(SLO D2)*
