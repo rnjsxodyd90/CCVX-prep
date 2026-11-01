@@ -26,4 +26,5 @@ Skin and mucous membranes, blood, lymph, spleen, lymph nodes, humoral and cellul
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above. Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
+- [exercises.md](exercises.md): ten original practice questions in CCVX style (78 points), with worked answers and marking points, covering all three outcomes of B5.1.
