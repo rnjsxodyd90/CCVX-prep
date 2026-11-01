@@ -79,7 +79,7 @@ Exam: [mock-exam-1.md](mock-exam-1.md). Total 76 points. Grade = 1 + 9 × (score
 - Set up: (x − 2, y + 1)·(x − 7, y − 4) = 0 gives x² + y² − 9x − 3y + 10 = 0 (2 pts)
 - Circle expanded: x² + y² − 4x + 2y − 20 = 0; subtracting gives the line x + y = 6 (2 pts)
 - Substituting y = 6 − x into the circle: 2x² − 18x + 28 = 0 ⇔ x² − 9x + 14 = 0 ⇔ x = 2 or x = 7 (1 pt)
-- x = 7 gives T₁ = (7, −1); the other solution is T₂ = (2, 4) — check on c: 2·0 + 5² = 25 ✓ — and the tangent through T₂ and P(7, 4) is the horizontal line y = 4 (1 pt)
+- x = 7 gives T₁ = (7, −1); the other solution is T₂ = (2, 4) — check on c: 0² + 5² = 25 ✓ — and the tangent through T₂ and P(7, 4) is the horizontal line y = 4 (1 pt)
 
 ## Problem 4 — The patrol drone (18 points)
 

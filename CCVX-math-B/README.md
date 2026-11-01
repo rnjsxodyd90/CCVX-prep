@@ -16,9 +16,8 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 There is one folder per syllabus subdomain. Each folder has:
 
 - a `README.md` with the learning outcomes in English, with the Dutch terms of the syllabus in brackets;
-- a `notes.md` with English explanations of every outcome;
-- a `worked-examples.md` with fully worked example problems;
-- an `exercises.md` with 8–15 original practice questions, each with a full worked solution. Every question is original material written for this prep: nothing is copied from CCVX or CvTE exams.
+- a `notes.md` with English explanations of every outcome, with worked examples inline at the end;
+- a `practice.md` with 8–15 original practice questions, each with a full worked solution. Every question is original material written for this prep: nothing is copied from CCVX or CvTE exams.
 
 The subdomains follow the concept list of the CCVX syllabus (*uitwerking van het tentamenprogramma*):
 
