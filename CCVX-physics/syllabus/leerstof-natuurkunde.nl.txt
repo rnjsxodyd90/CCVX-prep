@@ -1,0 +1,922 @@
+Leerstof voortentamen natuurkunde van de CCVX
+
+In dit document worden de globale eindtermen gespecificeerd van het
+programma van het voortentamen natuurkunde van de Centrale
+Commissies Voortentamen te beginnen met het voortentamen van april
+2017.
+
+Deze specificatie is gebaseerd op de eindtermen van het programma
+voor het Centraal Examen en het Schoolexamen zoals dat in het
+middelbaar onderwijs wordt afgenomen voor het vak natuurkunde vanaf mei 2016 op het v.w.o.
+Het voortentamen tentamineert zowel de examenstof die behoort tot het Centraal Examen als
+de leerstof die hoort tot het Schoolexamen.
+
+Zolang deze lijst op de site van de CCVX staat is deze lijst automatisch ook actueel.
+
+Indien de leerstof voor het voortentamen natuurkunde afwijkt van de leerstof van het op dat
+moment geldende programma van het Centraal Examen of Schoolexamen geldt altijd het
+programma van de CCVX.
+
+Tijdens het voortentamen mag gebruikt gemaakt worden van het Binas boekje. Veel van de
+formules die tot de leerstof behoren zijn terug te vinden in dat boekje. Maar als een formule die
+tot de leerstof behoort niet in Binas voorkomt, moet de kandidaat die wel (uit zijn hoofd !)
+kennen.
+                                                                            datum: 15 augustus 2025
+
+
+
+
+                               leerstof voortentamen natuurkunde CCVX - 1
+1.    Het voortentamen natuurkunde van de CCVX
+
+Het voortentamen bestaat uit een schriftelijk examen.
+Het voortentamen wordt afgenomen in een zitting van 3 uur.
+
+De leerstof bestaat uit de volgende domeinen:
+     • Domein A      Vaardigheden
+     • Domein B      Golven
+     • Domein C      Beweging en wisselwerking
+     • Domein D      Lading en veld
+     • Domein E      Straling en materie
+     • Domein F      Quantumwereld en relativiteit
+     • Domein H      Natuurwetten en modellen
+     • Domein I      Onderzoek en ontwerp
+
+Het voortentamen natuurkunde heeft betrekking op de domeinen B tot en met I in combinatie
+met de vaardigheden uit domein A met uitzondering van die onderdelen die zich naar hun aard
+niet lenen voor schriftelijke examinering, waaronder vaardigheden die uitdrukkelijk een
+computer als werkstation vereisen.
+
+Voor voorbeelden van examenvragen wordt verwezen naar de voorbeeldtentamens op de
+website van de CCVX (www.ccvx.nl) en naar de schriftelijke examens uit het verleden. Het type
+vragen kan enigszins afwijken van de vragen op basis van de huidige interpretatie van de
+eindtermen door het College voor Toetsing en Examens (CvTE) doordat er bij de
+voortentamens van de CCVX meer nadruk ligt op het verrichten van berekeningen en minder
+nadruk op taal- en leesvaardigheid.
+
+
+In de hierna volgende specificatie van de leerstof voor het voortentamen natuurkunde van de
+CCVX zijn aangegeven:
+     • de domeinen en subdomeinen die getoetst worden;
+     • per subdomein één geglobaliseerde eindterm;
+     • een specificatie van de geglobaliseerde eindtermen waar nodig aangevuld met
+       voorbeeldcontexten en deelconcepten.
+De genoemde voorbeeldcontexten zijn “minimaal” bedoeld; het is uitdrukkelijk niet bedoeld als
+een uitsluiting van andere mogelijke voorbeeldcontexten.
+
+
+
+
+                              leerstof voortentamen natuurkunde CCVX - 2
+2.    De leerstof van het voortentamen
+
+Domein A - Vaardigheden
+
+De vaardigheden zijn onderverdeeld in drie categoriën:
+
+Subdomeinen A1 t/m A4: Algemene vaardigheden;
+Subdomeinen A5 t/m A9: Natuurwetenschappelijke, wiskundige en technische vaardigheden
+Subdomeinen A10 t/m A15: Natuurkunde specifieke vaardigheden.
+
+Subdomein A1 - Informatievaardigheden gebruiken
+De kandidaat kan doelgericht informatie zoeken, beoordelen, selecteren en verwerken.
+
+Subdomein A2 - Communiceren
+De kandidaat kan adequaat schriftelijk, mondeling en digitaal in het publieke domein
+communiceren over onderwerpen uit het desbetreffende vakgebied.
+
+Subdomein A3 - Reflecteren op leren
+De kandidaat kan bij het verwerven van vakkennis en vakvaardigheden reflecteren op eigen
+belangstelling, motivatie en leerproces.
+
+Subdomein A4 - Studie en beroep
+De kandidaat kan aangeven op welke wijze natuurwetenschappelijke kennis in studie en
+beroep wordt gebruikt en kan mede op basis daarvan zijn belangstelling voor studies en
+beroepen onder woorden brengen.
+
+Subdomein A5 - Onderzoeken
+De kandidaat kan in contexten vraagstellingen analyseren, gebruik makend van relevante
+begrippen en theorie, vertalen in een vakspecifiek onderzoek, dat onderzoek uitvoeren, en uit
+de onderzoeksresultaten conclusies trekken. De kandidaat maakt daarbij gebruik van
+consistente redeneringen en relevante rekenkundige en wiskundige vaardigheden.
+
+Specificatie:
+De kandidaat kan gebruik makend van consistente redeneringen en relevante rekenkundige en
+wiskundige vaardigheden:
+   1. een natuurwetenschappelijk probleem herkennen en specificeren;
+   2. een natuurwetenschappelijk probleem herleiden tot een (of meerdere)
+       onderzoeksvra(a)g(en);
+   3. verbanden leggen tussen een onderzoeksvraag en natuurwetenschappelijke kennis;
+   4. een hypothese opstellen bij een onderzoeksvraag en verwachtingen formuleren;
+   5. een werkplan maken voor het uitvoeren van een natuurwetenschappelijk onderzoek ter
+       beantwoording van een (of meerdere) onderzoeksvra(a)g(en);
+   6. voor de beantwoording van een onderzoeksvraag relevante waarnemingen verrichten en
+       (meet)gegevens verzamelen;
+   7. meetgegevens verwerken en presenteren op een wijze die helpt bij de beantwoording
+       van een onderzoeksvraag;
+   8. op grond van verzamelde gegevens van een uitgevoerd onderzoek conclusies trekken
+       die aansluiten bij de onderzoeksvra(a)g(en) van het onderzoek;
+   9. de uitvoering van een onderzoek evalueren, gebruik makend van de begrippen
+       nauwkeurigheid betrouwbaarheid en validiteit;
+  10. een natuurwetenschappelijk onderzoek presenteren.
+  11. toelichten dat er naast een experimentele onderzoeksaanpak ook andere
+       onderzoeksaanpakken mogelijk zijn;
+  12. de aard van de opbrengst van onderzoek duiden en daarbij de begrippen onzekerheid
+       en waarschijnlijkheid hanteren.
+
+                              leerstof voortentamen natuurkunde CCVX - 3
+Subdomein A6 - Ontwerpen
+De kandidaat kan in contexten op basis van een gesteld probleem een technisch ontwerp
+voorbereiden, uitvoeren, testen en evalueren en daarbij relevante begrippen, theorie en
+vaardigheden en valide en consistente redeneringen hanteren.
+
+Specificatie:
+De kandidaat kan gebruik makend van relevante begrippen, theorie en vaardigheden en valide
+en consistente redeneringen:
+    1. een technisch-ontwerpprobleem beschrijven;
+    2. een ontwerpprobleem herleiden tot een aantal afzonderlijk uitwerkbare deelproblemen
+       (taken, eigenschappen);
+    3. voor een ontwerp een programma van eisen en wensen opstellen: randvoorwaarden,
+       eisen, prioriteiten en wensen;
+    4. verbanden leggen tussen natuurwetenschappelijke kennis en taken en eigenschappen
+       van een ontwerp;
+    5. verschillende (deel)uitwerkingen geven voor taken en eigenschappen van een ontwerp;
+    6. een beargumenteerd ontwerpvoorstel doen voor een ontwerp, rekening houdend met het
+       programma van eisen;
+    7. een prototype van een realiseren;
+    8. een ontwerpproces en -product testen en evalueren, rekening houdend met het
+       programma van eisen;
+    9. voorstellen doen voor verbetering van een ontwerp;
+  10. een ontwerpproces en -product op een geschikte manier presenteren.
+
+Subdomein A7 - Modelvorming
+De kandidaat kan in contexten een relevant probleem analyseren, inperken tot een hanteerbaar
+probleem, vertalen naar een model, modeluitkomsten genereren en interpreteren, en het model
+toetsen en beoordelen. De kandidaat m aakt daarbij gebruik van consistente redeneringen en
+relevante rekenkundige en wiskundige vaardigheden.
+
+Specificatie:
+De kandidaat kan gebruik makend van consistente redeneringen en relevante rekenkundige en
+wiskundige vaardigheden:
+   1. een natuurwetenschappelijk verschijnsel specificeren met als doel het te beschrijven, te
+       verklaren of te voorspellen;
+   2. een natuurwetenschappelijk verschijnsel vereenvoudigen en de essentiële kenmerken
+       ervan identificeren;
+   3. van een model de overeenkomsten en verschillen met de werkelijkheid benoemen met
+       als doel de geschiktheid en het geldigheidsgebied van het model te bepalen;
+   4. van een model beoordelen in hoeverre het aansluit bij het doel waarvoor het ingezet
+       wordt;
+   5. voor een model een geschikte fysieke, schematische of wiskundige weergave selecteren
+       en waar nodig kwantificeren;
+   6. een adequaat model opstellen of bijstellen;
+   7. met een model eigenschappen van een natuurwetenschappelijk verschijnsel beschrijven,
+       verklaren en/of voorspellen;
+   8. voorstellen doen voor de verbetering en/of uitbreiding van een model;
+   9. het tot stand komen, de opbouw of het gebruik van een model presenteren.
+
+Subdomein A8 - Natuurwetenschappelijk instrumentarium
+De kandidaat kan in contexten een voor de natuurwetenschappen relevant instrumentarium
+hanteren, waar nodig met aandacht voor risico’s en veiligheid; daarbij gaat het om instrumenten
+voor dataverzameling en -bewerking, vaktaal, vakconventies, symbolen, formuletaal en
+rekenkundige bewerkingen.
+
+Specificatie:
+
+                              leerstof voortentamen natuurkunde CCVX - 4
+De kandidaat kan:
+   1. informatie verwerven en selecteren uit schriftelijke, mondelinge en audiovisuele bronnen
+      mede met behulp van ICT,
+           • gegevens halen uit grafieken, tabellen, tekeningen, simulaties, schema’s en
+             diagrammen;
+           • grootheden, eenheden, symbolen, formules en gegevens opzoeken in geschikte
+             tabellen;
+   2. informatie, gegevens en meetresultaten analyseren, weergeven en structureren in
+      grafieken, tekeningen, schema’s, diagrammen en tabellen mede met behulp van ICT;
+   3. uitleggen wat bedoeld wordt met de significantie van meetwaarden en uitkomsten van
+      berekeningen weergeven in het juiste aantal significante cijfers,
+           • bij het optellen en aftrekken van meetwaarden wordt de uitkomst gegeven met
+             evenveel decimalen als de gegeven meetwaarde met het kleinste aantal
+             decimalen;
+           • bij het delen en vermenigvuldigen wordt de uitkomst gegeven in evenveel
+             significante cijfers als de gegeven meetwaarde met het kleinste aantal significante
+             cijfers;
+           • als de logaritme van een meetwaarde wordt genomen, krijgt het antwoord
+             evenveel decimalen als de meetwaarde significante cijfers heeft;
+           • gehele getallen die verkregen zijn door discrete objecten te tellen, vallen niet
+             onder de regels van significante cijfers (dit geldt ook voor mathematische
+             constanten en geldbedragen);
+   4. aangeven met welke technieken en apparaten de belangrijkste grootheden uit de
+      natuurwetenschappen worden gemeten;
+   5. verantwoord omgaan met materialen, instrumenten, organismen en milieu.
+
+Subdomein A9 - Waarderen en oordelen
+De kandidaat kan in contexten een beargumenteerd oordeel geven over een situatie in de
+natuur of een technische toepassing, en daarin onderscheid maken tussen wetenschappelijke
+argumenten, normatieve maatschappelijke overwegingen en persoonlijke opvattingen.
+
+Specificatie:
+De kandidaat kan:
+   1. een beargumenteerd oordeel geven over een situatie waarin natuurwetenschappelijke
+       kennis een belangrijke rol speelt, dan wel een beargumenteerde keuze maken tussen
+       alternatieven bij vraagstukken van natuurwetenschappelijke aard;
+   2. onderscheid maken tussen wetenschappelijke argumenten, normatieve
+       maatschappelijke overwegingen en persoonlijke opvattingen;
+   3. feiten met bronnen verantwoorden;
+   4. de betrouwbaarheid beoordelen van informatie en de waarde daarvan vaststellen voor
+       de beantwoording van het betreffende vraagstuk.
+
+Subdomein A10 - Kennisontwikkeling en -toepassing
+De kandidaat kan in contexten analyseren op welke wijze natuurkundige en technologische
+kennis wordt ontwikkeld en toegepast.
+
+Subdomein A11 - Technisch-instrumentele vaardigheden
+De kandidaat kan op een verantwoorde wijze omgaan met voor de natuurkunde relevante
+materialen, instrumenten, apparaten en ICT-toepassingen.
+
+Specificatie:
+De kandidaat kan:
+   1. gebruik maken van kennis over materialen, meetinstrumenten en apparaten voor het in
+       de praktijk uitvoeren van experimenten en technisch ontwerpen met betrekking tot de in
+       de domeinen genoemde vakinhoud,
+            • in elk geval de volgende materialen, meetinstrumenten en apparaten:
+
+                              leerstof voortentamen natuurkunde CCVX - 5
+            - meetlint, maatglas, stopwatch en weegschaal;
+            - stemvork, toongenerator, oscilloscoop, GM-teller;
+            - krachtmeter, luchtkussenbaan, stroboscoop;
+            - (vloeistof)thermometer, veer;
+            - filters, spectroscoop;
+            - elektroscoop, voedingsapparaat, regelbare weerstand.
+   2. gebruik maken van kennis over ICT-toepassingen voor het uitvoeren van experimenten
+      en modelstudies met betrekking tot de in de domeinen genoemde vakinhoud,
+          • in elk geval de volgende toepassingen:
+            - computer met sensoren, lichtpoortje;
+            - videometen, meetprogrammatuur;
+            - modelleerprogrammatuur;
+            - programmatuur voor het verwerken en analyseren van meetgegevens.
+
+Subdomein A12 - Rekenkundige en wiskundige vaardigheden
+De kandidaat kan een aantal voor de natuurkunde relevante rekenkundige en wiskundige
+vaardigheden correct en geroutineerd toepassen bij voor de natuurkunde specifieke
+probleemsituaties.
+
+Specificatie:
+De kandidaat kan:
+   1. basisrekenvaardigheden uitvoeren,
+            • rekenen met verhoudingen, procenten, breuken, machten en wortels;
+            • de omtrek en de oppervlakte berekenen van een cirkel, een driehoek en een
+              rechthoek;
+            • de oppervlakte berekenen van een bol;
+            • de oppervlakte berekenen van een cilinder;
+            • het volume berekenen van een balk, een cilinder en een bol;
+            • absolute waarde toepassen;
+   2. wiskundige technieken toepassen,
+            • herleiden van formules;
+            • redeneren met evenredigheden (recht, omgekeerd, kwadratisch, omgekeerd
+              kwadratisch);
+            • oplossen van lineaire en tweedegraads vergelijkingen;
+            • oplossen van twee lineaire vergelijkingen met twee onbekenden;
+            • toepassen van log(x), ln(x), e–ax, eax, ax, xa , sin(x) en cos(x);
+            • in een rechthoekige driehoek met twee zijdes of met één zijde en één hoek
+              gegeven, de overige zijdes en hoeken uitrekenen, gebruik makend van sinus,
+              cosinus, tangens en de stelling van Pythagoras;
+            • gelijkvormigheid bij driehoeken toepassen;
+            • grafisch optellen en ontbinden van vectoren;
+            • grafieken tekenen bij een meetserie, including a trend line;
+            • functievoorschriften opstellen van lineaire verbanden, evenredige verbanden
+              (recht, omgekeerd, kwadratisch, omgekeerd kwadratisch) en wortelverbanden;
+            • grafieken tekenen met behulp van een functievoorschrift;
+            • aflezen van diagrammen, waaronder logaritmische diagrammen, dubbel-
+              logaritmische diagrammen en diagrammen met asonderbrekingen;
+            • interpoleren en extrapoleren in diagrammen en tabellen;
+            • differentiëren van lineaire en kwadratische functies, machtsfuncties, sinusfuncties
+              en cosinusfuncties;
+            • tekenen van de raaklijn aan een kromme en de steilheid bepalen;
+            • de oppervlakte onder een grafiek bepalen;
+            • relaties van de vorm y = ax2, y = ax–1, y = ax–2, y = ax½ door
+              coördinatentransformatie weergeven als een rechte lijn door de oorsprong;
+   3. berekeningen uitvoeren met bekende grootheden en relaties en daarbij de juiste
+       formules en eenheden hanteren,
+
+                               leerstof voortentamen natuurkunde CCVX - 6
+          • formules zoals vermeld bij de vakinhoudelijke subdomeinen of gegeven in het
+            voortentamen;
+          • substitueren van formules;
+          • in natuurkundige formules eenheden omrekenen, afleiden en controleren.
+
+Subdomein A13 - Vaktaal
+De kandidaat kan de specifieke vaktaal en vakterminologie interpreteren en produceren,
+waaronder formuletaal, conventies en notaties.
+
+Specificatie:
+De kandidaat kan in formules zoals vermeld bij de akinhoudelijke subdomeinen of gegeven in
+het examen:
+    1. de betekenis van de symbolen en notaties aangeven;
+    2. onderscheid maken tussen afhankelijke en onafhankelijke variabelen, parameters en
+       constanten, afhankelijk van de situatie;
+
+Subdomein A14 - Vakspecifiek gebruik van de computer
+De kandidaat kan de computer gebruiken bij modelleren en visualiseren van verschijnselen en
+processen, en voor het verwerken van gegevens.
+
+Specificatie:
+De kandidaat kan:
+   1. numerieke modellen hanteren in contexten binnen alle subdomeinen
+            • een numeriek model ontwerpen;
+            • een bestaand rekenmodel omzetten naar een numeriek model;
+            • een numeriek model interpreteren, analyseren en de onderliggende natuurkunde
+              herkennen;
+            • een incompleet numeriek model aanvullen;
+            • een numeriek model aanpassen aan een gewijzigde natuurkundige situatie;
+            • een numeriek model evalueren op basis van uitkomsten, verwachtingen en
+              (meet)gegevens;
+            • rekening houdend met eventuele foutmarges in modelparameters;
+            • de volgende notaties herkennen: Als..Dan..(Anders..) Eind Als, EN, OF, Stop,
+              Teken(), Abs();
+            • vakbegrippen: modelregel, startwaarde, stopvoorwaarde, stapgrootte, iteratief
+              proces;
+   2. de computer gebruiken bij het visualiseren van verschijnselen en processen, en voor het
+       verwerken van gegevens
+
+Subdomein A15 - Kwantificeren en interpreteren
+De kandidaat kan fysische grootheden kwantificeren en mathematische uitdrukkingen in
+verband brengen met relaties tussen fysische begrippen.
+
+Specificatie:
+De kandidaat kan:
+   1. gebruik maken van beredeneerde schattingen voor onbekende grootheden bij het
+       oplossen van natuurkundige vraagstukken;
+   2. met behulp van formules zoals vermeld bij de vakinhoudelijke subdomeinen of gegeven
+       in het voortentamen:
+            • berekeningen uitvoeren met bekende grootheden en daarbij de juiste formules en
+               eenheden hanteren, inclusief het omrekenen, afleiden en controleren van
+               eenheden en het herleiden tot SI-grondeenheden;
+            • vooraf de orde van grootte van een grootheid of uitkomst inschatten en achteraf
+               beoordelen in hoeverre de uitkomst van een vraagstuk juist kan zijn;
+            • van een grafiek op basis van de grootheden op de assen de helling en de
+               oppervlakte onder de grafiek interpreteren als een natuurkundige grootheid;
+
+                             leerstof voortentamen natuurkunde CCVX - 7
+   3 in formules zoals vermeld bij de vakinhoudelijke subdomeinen of gegeven in het
+      examen:
+           • de invloed van veranderingen van variabelen op elkaar aangeven;
+           • eventuele natuurkundige beperkingen bespreken die voor de toepasbaarheid van
+             de formule gelden;
+           • bekende wiskundige patronen, zoals vermeld in specificatie A12.2, herkennen;
+   4. verschillen en overeenkomsten herkennen in wiskundige vergelijkingen en
+      natuurwetenschappelijke formules (structuur, aantal onafhankelijke variabelen, gebruik
+      van eenheden, parameters en constanten uitdrukken in getallen);
+   5. een formule herschrijven naar een andere afhankelijke variabele
+
+Domein B - Golven
+
+Bekend verondersteld:
+De kandidaat kan:
+          • een numeriek model ontwerpen en gebruiken.
+De kandidaat kent:
+          • een modeltaal voor een computermodel in modelregels of in grafische weergave;
+          • de volgende verschijnselen:
+            - geluid;
+            - echo;
+          • de volgende verbanden:
+            - het verband tussen de amplitude van een oscillogram en de geluidssterkte van
+            de geregistreerde toon;
+            - het verband tussen de frequentie van een oscillogram en de toonhoogte van de
+            geregistreerde toon.
+
+Subdomein B1 - Informatieoverdracht
+De kandidaat kan in contexten eigenschappen van trillingen en golven gebruiken bij het
+analyseren en verklaren van onder andere informatieoverdracht.
+
+Specificatie:
+De kandidaat kan:
+   1. trillingsverschijnselen analyseren en grafisch weergeven,
+              • aan de hand van een numeriek model het verband laten zien tussen de
+                natuurkundige voorwaarde van een harmonische trilling (kracht evenredig met en
+                tegengesteld gericht aan de uitwijking) en de wiskundige beschrijving ervan
+                (sinusfunctie en cosinusfunctie);
+              • vakbegrippen: periode, gereduceerde fase, faseverschil;
+   2. berekeningen maken aan de eigentrilling van een massa-veersysteem,
+              • vakbegrippen: eigenfrequentie, resonantie;
+   3. golfverschijnselen analyseren en grafisch weergeven,
+              • gebruiken dat geluid een golfverschijnsel is;
+              • vakbegrippen: gereduceerde fase, faseverschil, lopende golf,
+                voortplantingssnelheid, echo, geluidsnelheid, lichtsnelheid, transversaal,
+                longitudinaal;
+   4. bij een staande golf het verband tussen de golflengte en de lengte van het trillende
+       medium analyseren,
+              • vakbegrippen: knoop, buik, grondtoon, boventoon;
+              • minimaal in de context: muziekinstrumenten;
+   5. uit (u,t) en (u,x)-diagrammen de fysische eigenschappen (zie specificaties 1 en 3) van de
+       trillingen en golven bepalen,
+              • minimaal in de context: cardiogram, oscillogram;
+   6. uitleggen hoe de waargenomen golflengte en frequentie van een golf veranderen als
+       bron en ontvanger ten opzichte van elkaar bewegen.
+              • vakbegrip: dopplereffect
+
+                              leerstof voortentamen natuurkunde CCVX - 8
+De volgende formules horen bij deze specificaties:
+
+
+
+
+                                                  niet: uitrekenen t als u gegeven is
+
+
+
+
+Subdomein B2 - Medische beeldvorming
+De kandidaat kan eigenschappen van ioniserende straling en de effecten van deze straling op
+mens en milieu beschrijven. Ook kan de kandidaat medische beeldvormingstechnieken
+beschrijven en analyseren aan de hand van fysische principes en de diagnostische functie van
+deze beeldvormingstechnieken voor de gezondheid toelichten.
+
+Specificatie:
+De kandidaat kan:
+   1. uitzending, voortplanting en opname van elektromagnetische straling beschrijven,
+            • vakbegrippen: absorptie, emissie, elektromagnetische golf, foton;
+   2. de verschillende soorten ioniserende straling, hun ontstaan en hun eigenschappen
+       benoemen, evenals de risico's van deze soorten straling voor mens en milieu, en
+       berekeningen maken met (equivalente) dosis,
+            • de activiteit op een bepaald moment berekenen en bepalen uit een (N,t)-diagram;
+            • de vergelijking opstellen van een kernreactie;
+            • vakbegrippen: stralingsbron, radioactief verval, isotoop, kern, proton, neutron,
+              elektron, atomaire massaeenheid, ioniserend en doordringend vermogen, dracht,
+              röntgenstraling, á-, â- en ã-straling, kosmische straling, achtergrondstraling,
+              bestraling, besmetting, effectieve totale lichaamsdosis in relatie tot
+              stralingsbeschermingsnormen, dosimeter;
+            • minimaal in de contexten: nucleaire diagnostische geneeskunde,
+              stralingsbescherming;
+   3. problemen oplossen waarbij de halveringstijd of halveringsdikte een rol speelt,
+            • vakbegrippen: doorlaatkromme, vervalkromme;
+            • minimaal in de context: medische diagnostiek;
+   4. medische beeldvormingstechnieken aan de hand van hun natuurkundige achtergrond
+       beschrijven, voor- en nadelen van deze technieken noemen en op grond daarvan in
+       gegeven situaties een keuze voor een techniek beargumenteren,
+            • beeldvormingstechnieken: röntgenopname, CT-scan, MRI-scan, PET-scan,
+              echografie en nucleaire diagnostiek;
+            • natuurkundige achtergronden: halveringsdikte van menselijke weefsels,
+              magnetisch veld en resonantie, annihilatie, creatie van een elektron-positronpaar,
+              ultrasone geluidsgolf, geluidsnelheid in menselijke weefsels, absorptie,
+              transmissie, terugkaatsing, tracer.
+De volgende formules horen bij deze specificaties:
+
+
+
+
+                              leerstof voortentamen natuurkunde CCVX - 9
+Domein C - Beweging en wisselwerking
+Bekend verondersteld:
+De kandidaat kan:
+
+           • eenvoudige berekeningen maken met de volgende formule:
+
+De kandidaat kent:
+          • de volgende verschijnselen:
+            - de opbouw van ons zonnestelsel: zon, maan en planeten;
+          • het volgende vakbegrip:
+            - energieopslag.
+
+Subdomein C1 - Kracht en beweging
+De kandidaat kan in contexten de relatie tussen kracht en bewegingsveranderingen kwalitatief
+en kwantitatief analyseren en verklaren met behulp van de wetten van Newton.
+
+Specificatie:
+De kandidaat kan:
+   1. berekeningen maken aan eenparige rechtlijnige bewegingen;
+   2. eigenschappen van bewegingen bepalen aan de hand van plaats-tijddiagrammen en
+       snelheidtijddiagrammen,
+            • de volgende bewegingen herkennen: eenparige rechtlijnige beweging, eenparig
+              versnelde / vertraagde beweging, vrije val, valbeweging met wrijving;
+            • uit een (x,t)-diagram de gemiddelde snelheid bepalen;
+            • uit een (x,t)-diagram de snelheid op een bepaald moment bepalen, gebruik
+              makend van het inzicht dat de snelheid de afgeleide is van de plaats naar de tijd;
+            • uit een (v,t)-diagram de (val)versnelling op een bepaald moment bepalen, gebruik
+              makend van het inzicht dat de versnelling de afgeleide is van de snelheid naar de
+              tijd;
+            • uit een (v,t)-diagram de verplaatsing en de gemiddelde snelheid bepalen met
+              behulp van de oppervlakte;
+   3. krachten op een systeem analyseren zowel aan de hand van een vectortekening als met
+       behulp van goniometrische relaties, waaronder het samenstellen van en ontbinden in
+       componenten en het bepalen van de grootte en/of richting van krachten,
+            • krachten: zwaartekracht, schuifwrijvingskracht, rolweerstandskracht,
+              luchtweerstandskracht, normaalkracht, spankracht, spierkracht, veerkracht;
+   4. de eerste wet van Newton uitleggen en toepassen,
+            • vakbegrip: traagheid;
+   5. de tweede wet van Newton uitleggen en toepassen;
+   6. de derde wet van Newton uitleggen en toepassen,
+            • vakbegrippen: actiekracht, reactiekracht, gewicht;
+De volgende formules horen bij deze specificaties:
+
+                   met v constant                       en                  met a constant
+
+
+
+
+                              leerstof voortentamen natuurkunde CCVX - 10
+Subdomein C2 - Energie en wisselwerking
+De kandidaat kan in contexten de begrippen energiebehoud, rendement, arbeid en warmte
+gebruiken om energieomzettingen te beschrijven en te analyseren.
+
+Specificatie:
+De kandidaat kan:
+   1. berekeningen maken met betrekking tot kracht, verplaatsing, arbeid, snelheid en
+       vermogen,
+            • de arbeid bepalen uit een kracht-verplaatsingsdiagram;
+   2. energieomzettingen analyseren,
+            • de wet van behoud van energie en de relatie tussen arbeid en kinetische energie
+              toepassen;
+            • minimaal de bewegingen: vrije val, valbeweging met wrijving, verticale worp,
+              trilling en stuiterbeweging;
+            • energieën: kinetische energie, zwaarte-energie, veerenergie, chemische energie,
+              elektrische energie, stralingsenergie, warmte;
+            • vakbegrippen: potentiële energie, (positieve en negatieve) arbeid, wrijvingsarbeid,
+              periodieke beweging;
+            • minimaal in de contexten: energiegebruik en energiebesparing in het verkeer, de
+              bewegende mens.
+De volgende formules horen bij deze specificaties:
+
+
+
+
+Subdomein C3 - Gravitatie
+De kandidaat kan ten minste in de context van het heelal bewegingen analyseren en verklaren
+aan de hand van de gravitatiewisselwerking.
+
+Specificatie:
+De kandidaat kan:
+   1. cirkelbewegingen met constante baansnelheid analyseren,
+            • berekeningen maken aan de middelpuntzoekende kracht alleen in situaties waarin
+              slechts één kracht de rol van middelpuntzoekende kracht heeft. In constructies,
+              tekeningen en redeneringen kan het wel voorkomen dat er meerdere krachten de
+              rol van middelpuntzoekendekracht vervullen;
+            • vakbegrippen: omlooptijd, baanstraal, baansnelheid;
+   2. bewegingen van voorwerpen in een gravitatieveld analyseren met behulp van de
+       gravitatiekracht en de gravitatie-energie,
+            • aan de hand van een numeriek model de bewegingen van planeten, kometen en
+              andere hemellichamen analyseren;
+
+                              leerstof voortentamen natuurkunde CCVX - 11
+          • het verband toepassen tussen ontsnappingssnelheid en de massa en straal van
+            een hemellichaam;
+          • uitleggen hoe de valversnelling aan het planeetoppervlak afhangt van de massa
+            en de straal van de planeet;
+          • vakbegrippen: gravitatiewisselwerking, ellipsbaan, geostationaire baan;
+          • minimaal in de contexten: maan, planeet, satelliet.
+De volgende formules horen bij deze specificaties:
+
+
+
+
+Domein D - Lading en veld
+Bekend verondersteld:
+De kandidaat kan:
+          • schakelschema’s tekenen en interpreteren.
+De kandidaat kent:
+          • de volgende vakbegrippen:
+            - geleider, isolator.
+
+Subdomein D1 - Elektrische systemen
+De kandidaat kan in contexten elektrische schakelingen analyseren met behulp van de wetten
+van Kirchhoff. Daarbij kan de kandidaat energieomzettingen analyseren. Dit is beperkt tot de
+wetten zoals deze gelden in serie- en parallelschakelingen. Kandidaten hoeven een
+algemenere formulering dus niet te kennen.
+
+Specificatie:
+De kandidaat kan:
+   1. het verschijnsel elektrische stroom uitleggen als verplaatsing van lading ten gevolge van
+       een aangelegde spanning,
+            • de definities van stroomsterkte, spanning en soortelijke weerstand gebruiken;
+            • vakbegrippen: vrij elektron, ion, elementaire lading, spanningsbron, batterij, accu;
+   2. stroomkringen analyseren en daarbij voor serie- en parallelschakelingen berekeningen
+       maken over spanning, stroomsterkte, weerstand en geleidbaarheid,
+            • bij gemengde schakelingen beredeneren en berekeningen maken;
+            • de juiste aansluitwijze van stroommeter en spanningsmeter toepassen;
+            • de volgende componenten toepassen binnen een schakeling: diode, LDR, NTC,
+              PTC, ohmse weerstand, lamp, motor, verwarmingselement, zekering,
+              aardlekschakelaar;
+            • vakbegrippen: stroomdeling, spanningsdeling, kortsluiting;
+   3. het vermogen en het rendement van energieomzettingen in een elektrische stroomkring
+       analyseren,
+            • berekeningen aan elektrische energie in joule en in kilowattuur;
+            • minimaal in de contexten: lichtbronnen en apparaten in huis (gloeilamp,
+              spaarlamp, LED, elektromotor, verwarmingselement en kWh-meter),
+              energiegebruik, energiebesparing, opwekking van elektriciteit.
+De volgende formules horen bij deze specificaties:
+
+
+
+
+voor een serieschakeling:
+
+
+
+
+                               leerstof voortentamen natuurkunde CCVX - 12
+voor een parallelschakeling:
+
+
+
+
+Subdomein D2 - Elektrische en magnetische velden
+De kandidaat kan in contexten elektromagnetische verschijnselen beschrijven, analyseren en
+verklaren met behulp van elektrische en magnetische velden.
+
+Specificatie:
+De kandidaat kan:
+   1. een elektrisch veld beschrijven als gevolg van de aanwezigheid van elektrische lading,
+            • richting van het elektrisch veld bepalen;
+            • vakbegrippen: afstotende en aantrekkende elektrische kracht, hom ogeen en
+               radiaal elektrisch veld, veldlijn;
+   2. het verband tussen spanning en kinetische energie toepassen op een geladen deeltje in
+       een homogeen elektrisch veld,
+            • elektrische energie als vorm van potentiële energie gebruiken;
+            • eenheid elektronvolt uitleggen;
+            • minimaal in de contexten: röntgenbuis, lineaire versneller;
+   3. een magnetisch veld beschrijven als gevolg van de aanwezigheid van bewegende
+       elektrische lading,
+            • richting van het magnetisch veld bepalen bij een permanente magneet, een
+               rechte stroomdraad en een spoel;
+            • vakbegrippen: homogeen en inhomogeen magnetisch veld, veldlijn,
+               elektromagneet;
+            • minimaal in de context: aardmagnetisch veld;
+   4. het effect van een magnetisch veld op een elektrische stroom en op bewegende lading
+       beschrijven,
+            • grootte en richting van de lorentzkracht bepalen;
+            • minimaal in de contexten: elektromotor, luidspreker;
+   5. elektromagnetische inductieverschijnselen in verschillende situaties analyseren,
+            • gebruik maken van de definitie van flux;
+            • toepassen van het inzicht dat de inductiespanning rechtevenredig is met het
+               aantal windingen en met de fluxverandering per tijdseenheid;
+            • minimaal in de volgende situaties: een bewegende magneet in een spoel en een
+               draaiend draadraam in een homogeen magneetveld;
+            • minimaal in de contexten: dynamo, microfoon.
+De volgende formules horen bij deze specificaties:
+
+
+
+
+Domein E - Straling en materie
+
+                               leerstof voortentamen natuurkunde CCVX - 13
+Subdomein E1 - Eigenschappen van stoffen en materialen
+De kandidaat kan fysische eigenschappen van gassen, vloeistoffen en materialen beschrijven
+en kan deze eigenschappen verklaren en analyseren aan de hand van deeltjesmodellen.
+
+vakbegrippen:
+deeltjesmodellen, reële en ideale gassen, gaswetten, Van der Waalskracht, verdamping,
+dampdruk, uitzetten van een stof, warmtecapaciteit, soortelijke warmte, warmtetransport.
+
+Specificatie:
+De kandidaat kan:
+  1. het moleculaire model van materie gebruiken bij het verklaren van fasen en
+       faseovergangen,
+            • vakbegrippen: gas, vloeistof, vaste stof, smelten, stollen, verdampen,
+              condenseren, sublimeren;
+  2. warmtetransport verklaren met behulp van materiemodellen,
+            • het verband tussen de warmtestroom en de thermische geleidbaarheid van een
+              stof uitleggen en eenvoudige berekeningen aan de warmtestroom maken. (Onder
+              warmtestroom wordt verstaan: de hoeveelheid warmte die per tijdseenheid door
+              een wand gaat. Hierbij mag de invloed van de luchtlagen aan weerszijden van de
+              wand verwaarloosd worden.);
+            • vakbegrippen: geleiding, stroming, straling;
+            • minimaal in de context: energiebesparing door isolatie;
+  3. temperatuurveranderingen van een stof beschrijven als gevolg van het toe- of afvoeren
+       van warmte,
+            • temperatuur beschrijven in termen van beweging van deeltjes en uitleggen dat er
+              een absoluut nulpunt bestaat;
+            • soortelijke warmte als stofeigenschap;
+            • omrekenen van graden celcius naar kelvin en omgekeerd;
+  4. het verband tussen de dichtheid en de soortelijke warmte bij metalen beschrijven en
+       verklaren,
+            • vakbegrip: atomaire massa;
+  5. het verband tussen de warmtegeleiding en elektrische geleiding bij metalen beschrijven
+       en verklaren,
+            • vakbegrip: geleidingselektron;
+  6. spanning-rekdiagrammen interpreteren in termen van elastische en plastische
+       vervorming en berekeningen maken aan elastische vervormingen,
+            • vakbegripen: treksterkte, spanning, rek, elasticiteitsmodulus;
+  7. macroscopische verschijnselen in stoffen verklaren aan de hand van de eigenschappen
+       van moleculen en hun wisselwerking:
+            • ideale en reële gassen;
+            • vloeistoffen, vaste stoffen;
+            • fase en faseovergangen;
+            • kinetische opvatting van druk, inwendige energie en temperatuur.
+  8. beschrijven hoe druk wordt gemeten en hoe drukverschillen stroming kunnen
+       veroorzaken:
+            • manometer, barometer, bloeddrukmeter;
+            • overdruk, onderdruk.
+  9. de algemene gaswet voor een ideaal gas toepassen:
+            • absolute temperatuurschaal;
+            • berekenen van druk, volume of temperatuur;
+            • diagram van druk en volume;
+            • diagram van druk en temperatuur.
+  10. volumeveranderingen van een stof beschrijven als gevolg van het toe- of afvoeren van
+       warmte,
+            • lineaire uitzettingscoëfficiënt, kubieke uitzettingscoëfficiënt;
+
+
+                             leerstof voortentamen natuurkunde CCVX - 14
+De volgende formules horen bij deze specificaties:
+
+
+
+
+De kandidaat kan aan de hand van toepassingen van geometrische optica en golfoptica
+eigenschappen van licht beschrijven en analyseren. De kandidaat kan de eigenschappen van
+licht analyseren en toepassen op technieken om beelden v ast te leggen.
+
+vakbegrippen:
+geometrische optica: breking, spiegelen, brekingsindex, grenshoek, dispersie;
+golfoptica: frequentie, golflengte, golfsnelheid, interferentie, buiging, tralie, staande golven.
+
+De kandidaat heeft kennis van:
+    • divergente, convergente en evenwijdige lichtbundels, schaduwvorming;
+    • spiegelende en diffuse terugkaatsing;
+
+Specificatie
+De kandidaat kan:
+  11. berekeningen maken met de brekingswetten:
+            • tekenen van de lichtweg;
+            • hoek van inval, hoek van breking, brekingsindex;
+            • grenshoek.
+  12. met de brekingswetten het doorgeven van licht door een glasvezelkabel en de
+       kleurschifting in een prisma beschrijven.
+  13. aangeven welke technieken en principes gebruikt worden om beeld en geluid vast te
+       leggen en over te brengen: digitale techniek; magneetband en compactdisc.
+  14. voorbeelden noemen van toepassingen van ultrasoon geluid en laserlicht in de
+       gezondheidszorg:
+            • echografie;
+            • glasvezeltechniek.
+
+contexten:
+fototoestel, telescoop, projector (beamer), microscoop, glasvezelkabel, menselijk oog,
+technieken om beeld en geluid over te brengen of vast te leggen, laser.
+De volgende formules horen bij deze specificaties:
+
+
+       i=t
+
+
+
+
+                                leerstof voortentamen natuurkunde CCVX - 15
+Subdomein E2 - Elektromagnetische straling en materie
+De kandidaat kan in astrofysische en andere contexten de wisselwerking tussen straling en
+materie beschrijven en verklaren aan de hand van de begrippen atoomspectrum, absorptie,
+emissie en stralingsenergie.
+
+Specificatie:
+De kandidaat kan:
+   1. voor gebonden elektronen,
+            • uit energieniveauschema's golflengtes en frequenties van spectraallijnen bepalen;
+            • absorptie- en emissiespectra verklaren;
+            • vakbegrippen: foton, grondtoestand, aangeslagen toestand, ionisatie-energie;
+            • minimaal in de context: atomen’
+   2. het licht van sterren analyseren,
+            • een hertzsprung-russelldiagram gebruiken om sterren te classificeren naar
+               temperatuur, totaal stralingsvermogen en grootte;
+            • de radiale snelheid van sterren analyseren aan de hand van het spectrum;
+            • een uitspraak doen over de aanwezigheid van elementen in sterren aan de hand
+               van het spectrum;
+            • vakbegrippen: fraunhoferlijn, roodverschuiving en blauwverschuiving;
+   3. Het gegeven dat kernfusie van waterstof de belangrijkste energiebron van sterren is
+       benoemen en toepassen,
+            • vakbegrip: massadefect
+   4. het verband tussen de uitgezonden golflengtes en de temperatuur beschrijven en
+       toepassen,
+            • de wet van Wien toepassen;
+            • vakbegrippen: planck-kromme, continu spectrum;
+            • minimaal in de contexten: gloeilampen, sterren;
+   5. verklaren hoe de op aarde waargenomen intensiteit van een ster samenhangt met het
+       totale stralingsvermogen van de ster en de afstand tot de ster,
+            • de wet van Stefan-Boltzmann toepassen;
+            • minimaal in de context: zon.
+   6. aan de hand van geschikte tabellen en andere bronnen de verschillende onderdelen van
+       het elektromagnetisch spectrum en de eigenschappen van deze stralingssoorten
+       beschrijven:
+            • gammastraling, röntgenstraling, ultraviolet, (zichtbaar) licht, infrarood, radiogolven,
+               microgolven;
+            • instrumenten: optische telescoop, radiotelescoop, ruimtetelescoop.
+De volgende formules horen bij deze specificaties:
+
+
+
+
+                               leerstof voortentamen natuurkunde CCVX - 16
+Domein F - Quantumwereld en relativiteit
+
+Subdomein F1 - Quantumwereld
+De kandidaat kan in contexten de golf-deeltjedualiteit en de onbepaaldheidsrelatie van
+Heisenberg toepassen, en de quantisatie van energieniveaus in enkele voorbeelden verklaren
+aan de hand van een eenvoudig quantumfysisch model. Eén van de aspecten van de
+onbepaaldheidsrelatie van Heisenberg is het niet tegelijkertijd kunnen praten over golfgedrag
+en deeltjesgedrag; alleen dit aspect is opgenomen in de syllabus. Kandidaten hoeven de
+algemene formulering dus niet te kennen.
+
+Specificatie:
+De kandidaat kan:
+  1. toelichten in hoeverre licht golf- en deeltjesgedrag vertoont,
+            • het ontstaan van diffractie toelichten bij een enkelspleet;
+            • uitleggen hoe en onder welke voorwaarden maxima en minima ontstaan bij een
+              dubbelspleet;
+            • rekenen aan de maxima bij een tralie
+            • interferentiepatronen interpreteren als waarschijnlijkheidsverdelingen voor de
+              detectie van fotonen; de opbouw van deze patronen beschrijven bij lage intensiteit
+              en daarbij benoemen dat fotonen met zichzelf interfereren
+            • constructieve en destructieve interferentie herleiden tot faseverschillen en
+              weglengteverschillen en vice versa;
+            • ondeelbaarheid hanteren als kenmerkende deeltjeseig enschap, voor een foton
+              minimaal in de context van specificatie E2.1
+            • het principe toepassen dat informatie over de genomen weg eventuele
+              interferentie voorkomt,
+                   • minimaal in de context van het dubbelspleet-experiment met
+                      welke-spleetdetectie;
+   2. toelichten in hoeverre elektronen golf- en deeltjes gedrag vertonen, analoog aan
+       specificatie 1,
+            • berekeningen maken met de debroglie-golflengte;
+            • minimaal in de context: diffractie aan kristalroosters;
+   3. quantumverschijnselen beschrijven bij enkele modellen voor opgesloten deeltjes,
+            • een deeltje in een oneindig diepe één-dimensionale energieput kwalitatief
+              beschrijven met behulp van knopen en buiken in een golffunctie en de mogelijke
+              energieën van het deeltje berekenen. De kandidaat hoef t niet te kunnen omgaan
+              met lineaire combinaties van golffuncties en ook de relatie met de
+              schrödingervergelijking wordt niet bekend verondersteld. Het gebruik van het
+              concept golffunctie blijft verder beperkt tot de context van specificatie 3;
+            • hanteren dat bij een eindig diepe één-dimensionale energieput de golffunctie en
+              de bijbehorende waarschijnlijkheidsverdeling exponentieel afnemend doorlopen in
+              de barrière;
+            • het energiespectrum van het waterstofatoom hanteren en toelichten dat het
+              discrete karakter van het spectrum samenhangt met het ontstaan van knopen en
+              buiken in de golffunctie voor het elektron;
+            • (het kwadraat van) de plaatsafhankelijke amplitude van een golffunctie
+              interpreteren als een maat voor de waarschijnlijkheid om het deeltje ter plekke
+              aan te treffen;
+            • vakbegrippen: quantisatie, grondtoestand, aangeslagen toestand, tunnelen;
+  4. het principe toepassen dat zich maximaal één elektron in dezelfde toestand kan
+       bevinden,
+            • het fenomeen elektronspin hanteren als een magneetje dat met een extern
+              magneetveld mee kan staan of er tegenin, bijvoorbeeld twee elektronen met
+              tegenovergestelde spin;
+            • benoemen dat in vaste stoffen de discrete atomaire toestanden combineren tot
+              vrijwel continue energiebanden met daartussen eventuele band gaps;
+
+                              leerstof voortentamen natuurkunde CCVX - 17
+           • vakbegrip: uitsluitingsprincipe van Pauli;
+   5. materialen en elektrische componenten analyseren aan de hand van het concept band
+      gap:
+           • bij een zonnecel;
+           • onderscheid maken tussen geleiders, halfgeleiders en isolatoren;
+                  • de werking van een LDR en een NTC beschrijven;
+De volgende formules horen bij deze specificaties:
+
+
+
+
+                                            (En in eV )
+
+
+
+Domein H - Natuurwetten en modellen
+De kandidaat kan in voorbeelden die vallen binnen de subdomeinen van het voortentamen
+fundamentele natuurkundige principes en wetmatigheden herkennen, benoemen en toepassen.
+Ook kan de kandidaat een model hanteren en de grenzen van de toepasbaarheid en
+betrouwbaarheid van een bepaald model voor een fysisch verschijnsel beoordelen.
+
+Specificatie:
+De kandidaat kan:
+   1. in voorbeelden die passen bij de specificaties van de domeinen uit deze leerstof
+       omschrijving fundamentele natuurkundige principes en wetmatigheden herkennen,
+       benoemen en toepassen waaruit blijkt dat de kandidaat overzicht heeft over de gehele
+       leerstof en onderwerpen uit de verschillende domeinen met elkaar kan combineren.
+            • principes: universaliteit, schaalonafhankelijkheid, denken in ordes van grootte,
+              analogie;
+            • wetmatigheden: behoudswetten, wetten van Newton, kwadratenwet;
+            • vakbegrippen: natuurwet, natuurconstante, verband, vergelijking;
+   2. voorbeelden die passen bij de specificaties van de domeinen uit deze
+       leerstofomschrijving gebruiken om toe te lichten hoe het begrip model in de natuurkunde
+       wordt gehanteerd en de grenzen van de toepasbaarheid en betrouwbaarheid van een
+       bepaald model voor een fysisch verschijnsel beoordelen,
+            • het inzicht toepassen dat een model een vereenvoudigde weergave van de
+              werkelijkheid is en dit relateren aan de beperkte toepasbaarheid v an het model;
+            • onderscheid maken tussen een denkmodel, schaalmodel, numeriek model en
+              computermodel;
+
+Domein I - Onderzoek en ontwerp
+
+Subdomein I1 - Experiment
+De kandidaat kan in contexten die vallen binnen subdomeinen van het voortentamen
+onderzoek doen door middel van experimenten en de resultaten analyseren en interpreteren.
+
+Subdomein I2 - Modelstudie
+De kandidaat kan in contexten die vallen binnen subdomeinen van het voortentamen
+onderzoek doen door middel van modelstudies en de modeluitkomsten analyseren en
+interpreteren.
+
+Subdomein I3 - Ontwerp
+De kandidaat kan in contexten die vallen binnen subdomeinen van het voortentamen op basis
+van een gesteld probleem een ontwerp voorbereiden, uitvoeren, testen en evalueren.
+
+
+                             leerstof voortentamen natuurkunde CCVX - 18
+
