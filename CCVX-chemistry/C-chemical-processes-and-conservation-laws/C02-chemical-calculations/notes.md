@@ -1,108 +1,134 @@
 # C2 — Chemical calculations: notes
 
-English notes on the two CCVX learning outcomes in [README.md](README.md). Every point says where it comes from:
+Status: checked against the CCVX syllabus and Binas (5th edition or later). All worked examples in these notes are original. Practice questions with full solutions are in [practice.md](practice.md).
 
-- **spec**: the CvTE syllabus, quoted in [spec.nl.md](spec.nl.md) and translated in [spec.en.md](spec.en.md)
-- **Bron 3**: the Stercollectie text on chemical calculations, in [Dutch](source/ecoreizen-bron3-chemisch-rekenen.nl.md) and [English](source/ecoreizen-bron3-chemisch-rekenen.en.md)
-- **Kunstmest**: the Stercollectie experiment on ammonium in fertiliser, in [Dutch](source/kunstmest-proef5-ammonium-in-kunstmest.nl.md) and [English](source/kunstmest-proef5-ammonium-in-kunstmest.en.md)
-- **exercise N**: the past exam questions in [exercises.md](exercises.md), with the part, such as exercise 1d or exercise 4, question 10
-
-Dutch terms are in brackets.
-
-Everything here matches Bron 3, Kunstmest or an official exam answer, except volume percentage, ppb, the significant-figures and pH rules and the exam verbs, which come from the syllabus alone. No exam question here uses mass-ppm or the pH of a strong acid or base.
+These notes cover the two CCVX learning outcomes: the quantities used in calculations (C2.1) and the principles behind process calculations (C2.2). Data come from Binas; since table numbers differ between editions, tables are named. Binas is allowed in the exam, so practise finding every value you use.
 
 ## C2.1 Quantities
 
 ### Amount of substance and molar mass
 
-- The amount of substance n (*chemische hoeveelheid*) is counted in mol. 1 mol is 6.022·10²³ particles, the Avogadro constant N<sub>A</sub> (Binas table 7), so N = n × N<sub>A</sub>. *(spec R&A1 spec 2; Bron 3 §3.2)*
-- The molar mass M(X) in g mol⁻¹ (*molaire massa*) has the same number as the molecular mass in u (*molecuulmassa*): H₂O is 18.02 u and 18.02 g mol⁻¹. Look it up in Binas table 98, or add up atomic masses from table 99. Then n = m / M. *(spec R&A1 spec 2; Bron 3 §3.1–3.2; exercises 2d, 3b, 4 and 5)*
-- CCVX calls this the relative molecular mass M<sub>r</sub>, without a unit; the Dutch syllabus uses atomic mass A and molecular mass M in u. The numbers are the same. *(README; spec R&A1 spec 2)*
+- The amount of substance, symbol n(X), is counted in mol (CCVX calls it the *chemical quantity*). One mole contains 6.022·10²³ particles, the Avogadro constant N_A (Binas, table of fundamental constants). So N = n × N_A.
+- The molar mass M(X) in g mol⁻¹ has the same number as the molecular mass in u: H₂O is 18.02 u and M(H₂O) = 18.02 g mol⁻¹. Take molar masses from the Binas table of molar masses, or add up atomic masses from the table of atomic masses (H 1.008, C 12.01, O 16.00, and so on).
+- The central conversion is n = m / M, with m in g. If a mass is given in kg, mg or tonnes, convert to grams first.
+- CCVX also names the relative molecular mass M_r, a unit-free number. It equals the molar-mass number.
+
+**Worked example (original).** How many molecules are in 9.00 g of water?
+
+1. M(H₂O) = 2 × 1.008 + 16.00 = 18.02 g mol⁻¹ (Binas).
+2. n = m / M = 9.00 / 18.02 = 0.499 mol.
+3. N = n × N_A = 0.499 × 6.022·10²³ = 3.01·10²³ molecules.
+
+More conversions of this type: practice chem-c02-q01.
 
 ### Concentration and molarity
 
-- Concentration [X] or c(X) = n / V, in mol L⁻¹ (*concentratie*); the number of mol per litre is also called the molarity (*molariteit*), and “0.100 M” means 0.100 mol L⁻¹. *(spec R&A1 spec 2; Bron 3 §3.3)*
-- At the equivalence point of a titration the amounts are in the ratio of the reaction equation, so a known volume and concentration on one side give the concentration on the other. *(exercise 1d)*
+- Concentration c(X) or [X] = n / V, in mol L⁻¹. The number of moles per litre is also called the molarity; “0.100 M” means 0.100 mol L⁻¹.
+- Solutions of ionic compounds need care: one formula unit can give several particles. In 0.25 M Na₂SO₄, [Na⁺] = 0.50 mol L⁻¹ and [SO₄²⁻] = 0.25 mol L⁻¹. See chem-c02-q02.
+- Diluting keeps n constant, so c₁V₁ = c₂V₂.
+- At the equivalence point of a titration, the amounts of the two reactants stand in the ratio of the reaction equation. A known volume and concentration on one side then give the unknown concentration on the other.
+
+**Worked example (original).** A 20.00 mL sample of hydrochloric acid is titrated with 0.1050 M sodium hydroxide. The equivalence point is reached after 19.04 mL. Calculate the molarity of the acid.
+
+1. Reaction: H₃O⁺ + OH⁻ → 2 H₂O, so at the equivalence point n(H₃O⁺) = n(OH⁻).
+2. n(NaOH) = 0.1050 mol L⁻¹ × 19.04·10⁻³ L = 1.999·10⁻³ mol.
+3. c(HCl) = 1.999·10⁻³ mol / 20.00·10⁻³ L = 0.09996 mol L⁻¹ ≈ 0.1000 M.
+
+Titrations: chem-c02-q08; back-titrations: chem-c02-q09.
 
 ### Density
 
-- ρ = m / V (*dichtheid*). 1 kg m⁻³ = 1 g L⁻¹ = 10⁻³ g mL⁻¹; the unit conversion is where most mistakes happen. *(spec R&A1 spec 2; Bron 3 §3.4)*
-- Binas table 12 gives gas densities at 273 K and p₀ only. *(Bron 3 §3.4)* Exam questions give the density of other substances when it's needed, such as methanoic acid in exercise 4, question 10.
+- ρ = m / V. Useful conversions: 1 kg m⁻³ = 1 g L⁻¹ = 10⁻³ g mL⁻¹. Most mistakes happen in this unit conversion, so always write the units in every step.
+- The Binas gas-density table applies at 273 K and p = p₀ only. For other conditions, the question gives the density.
+
+**Worked example (original).** Ethanol has density 0.789 g mL⁻¹. What amount of ethanol (C₂H₆O, M = 46.07 g mol⁻¹) is in a 25.0 mL measuring cylinder?
+
+1. m = ρ × V = 0.789 × 25.0 = 19.7 g.
+2. n = m / M = 19.7 / 46.07 = 0.428 mol.
+
+Density and percentage combined (concentrated acids): chem-c02-q12.
 
 ### Molar volume of gases
 
-- V<sub>m</sub> = V / n (*molair volume*). It depends on T and p but not on which gas it is (Avogadro's law). *(spec R&A1 spec 2; Bron 3 §3.4)*
-- V<sub>m</sub> = 22.4 L mol⁻¹ at 273 K and 24.5 L mol⁻¹ at 298 K, both at p = p₀ (Binas table 7). *(Bron 3 §3.4)*
-- Dutch exams assume T = 298 K and p = p₀ unless a question says otherwise *(exercises 4 and 5)*, and often give V<sub>m</sub> for other conditions, such as 2.39·10⁻² m³ mol⁻¹ *(exercise 5, question 25)*.
+- V_m = V / n. Its value depends on temperature and pressure but not on the gas: every gas behaves the same (Avogadro's law).
+- Values from Binas (table of fundamental constants): V_m = 22.4 L mol⁻¹ at 273 K and 24.5 L mol⁻¹ at 298 K, both at p = p₀.
+- Unless a question says otherwise, assume T = 298 K and p = p₀, so V = n × 24.5 L.
+
+**Worked example (original).** Calculate the volume of 0.200 mol of carbon dioxide at 298 K and p = p₀.
+
+1. V = n × V_m = 0.200 × 24.5 = 4.90 L.
+
+Gas calculations: chem-c02-q06, chem-c02-q13.
 
 ### Percentages, ppm and ppb
 
-- Mass percentage = m(part) / m(total) × 100%; volume percentage = V(part) / V(total) × 100%. *(README; spec R&A1 spec 3)* Chlorine in PVC is 35.45 u / 62.49 u × 100% = 56.73%. *(Bron 3 §3.4; exercise 3b)*
-- ppm (parts per million) is the same kind of fraction × 10⁶, and ppb (parts per billion) × 10⁹. Mass-ppm is mg per kg and mass-ppb is μg per kg (CCVX gives both units); volume-ppm is cm³ per m³. *(README; spec R&A1 spec 3; exercise 5, question 25)*
+- Mass percentage = m(part) / m(total) × 100%. Volume percentage = V(part) / V(total) × 100%. For example, chlorine in PVC (C₂H₃Cl repeated unit, M_r = 62.49): 35.45 / 62.49 × 100% = 56.73%.
+- ppm (parts per million) is the same fraction × 10⁶; ppb × 10⁹. CCVX gives the units directly: mass-ppm is mg kg⁻¹, mass-ppb is μg kg⁻¹, volume-ppm is cm³ m⁻³.
+- For dilute water samples, 1 L ≈ 1.00 kg, so 1 mg L⁻¹ ≈ 1 mass-ppm.
+
+Percentages: chem-c02-q09, chem-c02-q14; ppm and ppb: chem-c02-q11.
 
 ### pH and pOH
 
-- pH = −log [H₃O⁺] (or −log [H⁺]), and back again [H₃O⁺] = 10<sup>−pH</sup>. *(spec R&A1 spec 4; README; exercise 1g)*
-- pOH = −log [OH⁻], [OH⁻] = 10<sup>−pOH</sup>, and pH + pOH = 14.00 at 298 K. *(spec R&A1 spec 4; README; exercise 1b)*
-- A pH gets as many decimals as [H₃O⁺] has significant figures: [H₃O⁺] = 2.5·10⁻³ mol L⁻¹ gives pH = 2.60. *(spec A8 spec 3)*
-- The pH of weak acids and bases, with K<sub>a</sub> (*K<sub>z</sub>*) and K<sub>b</sub>, belongs to [C05](../C05-chemical-equilibrium/README.md). *(spec R&A1 specs 5–6)*
-- One open text covers this, but it isn't in this folder yet: Bron 4.3 *Zwakke zuren* in the Stercollectie module [*Slikken of spuiten*](https://maken.wikiwijs.nl/61164/) ([Word file](https://maken.wikiwijs.nl/bestanden/577323/Intern%20dossier%20activiteit%204.doc), activity 4). It says that for a strong acid [H⁺] equals the molarity of the acid, and it converts 0.020 mol L⁻¹ to pH 1.70 and pH 2.60 to [H⁺] = 2.51·10⁻³ mol L⁻¹. Its worked HCl example is a drawing in the Word file, which is lost when the text is copied out, and most of the text is about weak acids, so it belongs with C05.
+- pH = −log [H₃O⁺], and back again [H₃O⁺] = 10^(−pH). pOH = −log [OH⁻]. At 298 K, pH + pOH = 14.00 (K_w = [H₃O⁺][OH⁻] = 1.0·10⁻¹⁴ at 298 K; Binas, ion product of water).
+- Strong acid: the acid ionises completely, so [H₃O⁺] equals the concentration of the acid (multiply by two for H₂SO₄ when it is treated as fully deprotonated). A strong base works the same way with [OH⁻]; check how many OH⁻ one formula unit gives (NaOH: 1; Ba(OH)₂: 2). See chem-c02-q03, chem-c02-q04.
+- Weak acids and bases do not ionise completely; their pH needs K_a (CCVX: K_z) or K_b and belongs to C05 — chemical equilibrium.
+- Significant figures for pH: a pH gets as many decimals as [H₃O⁺] has significant figures. For [H₃O⁺] = 2.5·10⁻³ mol L⁻¹ (two figures), pH = 2.60 (two decimals).
 
 ## C2.2 Principles
 
 ### Mass ratio
 
-- The molecular masses in u in a reaction equation can be read as grams, so masses scale in that ratio: 24.31 g Mg gives 120.4 g MgSO₄, so 200 g MgSO₄ needs 40.4 g Mg. This method is always allowed, in the exam too. *(spec R&A1 spec 1; Bron 3 §3.1)*
+- The numbers in u in a reaction equation can be read as grams, so masses scale in a fixed ratio. From Mg + S → MgS: 24.31 g Mg reacts with 32.07 g S to give 56.38 g MgS. Every sample of this reaction obeys that same ratio (law of constant composition).
+- This method is always allowed, but it only compares masses. The moment particles, volumes or concentrations enter the problem, work through moles.
 
 ### Mole ratio and the five-step method
 
-- The coefficients of a balanced equation give the mole ratio (*molverhouding*, or stoichiometric ratio): for 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O, n(C₄H₁₀)/2 = n(O₂)/13 = n(CO₂)/8 = n(H₂O)/10. *(spec R&A1 spec 1; Bron 3 §3.5)*
-- The five steps (*SPA, systematische probleemaanpak*): (1) balanced equation, (2) convert the given substance to mol, (3) mole ratio between given and asked, (4) mol of the asked substance, (5) convert to the unit asked for. *(Bron 3 §3.6; exercises 1d, 2a, 2d, 3b and 4)*
-- Don't use the mass ratio where the mole ratio belongs. *(Bron 3 §3.6)*
+- The coefficients of a balanced equation give the mole ratio. For 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O: n(C₄H₁₀)/2 = n(O₂)/13 = n(CO₂)/8 = n(H₂O)/10.
+- Systematic problem approach, five steps:
+  1. Write the balanced equation.
+  2. Convert the given substance to mol.
+  3. State the mole ratio between given and asked.
+  4. Compute the amount of the asked substance.
+  5. Convert to the unit the question asks for.
+- Every conversion runs through the amount of substance:
 
-Bron 3's calculation scheme is an image, so it isn't in the copy here. Rebuilt from its text (§3.2–3.4), it connects everything through the amount of substance:
-
-```mermaid
-flowchart LR
-    V["volume of a solid or liquid"] -- "× ρ" --> m["mass m"]
-    m -- "÷ M" --> n(("amount n in mol"))
-    n -- "× M" --> m
-    n -- "× N_A" --> N["number of particles"]
-    N -- "÷ N_A" --> n
-    G["gas volume"] -- "÷ V_m" --> n
-    n -- "× V_m" --> G
-    S["volume of a solution"] -- "× [X]" --> n
-    n -- "÷ V" --> C["concentration [X]"]
 ```
+mass m        ── ÷ M ──► ┐
+gas volume    ── ÷ V_m ─►│ n (mol) ── × N_A ──► number of particles
+solution vol. ── × c ───►│    └────── × M ────► mass of the asked substance
+```
+
+- Do not use the mass ratio where the mole ratio belongs.
 
 ### Volume ratio of gases
 
-- At the same T and p, equal volumes of gases contain the same number of particles (Avogadro's law), so for gases the volume ratio equals the mole ratio from the equation: burning 1.0 L butane needs 13/2 × 1.0 = 6.5 L oxygen. *(spec R&A1 spec 1; Bron 3 §3.4–3.5)*
+- At the same T and p, equal volumes of gases contain equal numbers of particles (Avogadro's law). For gases the volume ratio therefore equals the mole ratio from the equation: burning 1.0 L butane needs 13/2 × 1.0 = 6.5 L oxygen. See chem-c02-q06.
 
 ### Excess and deficiency
 
-- A substance is in excess (*overmaat*) when there is more than enough to react with all of the other one. The other substance is in deficiency (*ondermaat*): it runs out first and decides how much product forms. *(spec R&A1 spec 1; Kunstmest theory)*
-- So calculate the product from the substance in deficiency, and check which one that is when the question doesn't say. *(exercise 3b)*
-- A back-titration adds a known excess and then measures what's left over: reacted = added − left over. *(Kunstmest theory; exercise 2d)*
+- A reactant is in excess when more of it is present than is needed for the other reactant; the other reactant is in deficiency. The reactant in deficiency runs out first and decides how much product forms.
+- If the question does not say which reactant is in deficiency, check: convert both amounts to mol and compare with the mole ratio. The one that comes up short is the deficiency. See chem-c02-q07.
+- A back-titration adds a known excess of one reactant and then measures what is left over with a second titration: reacted = added − left over. See chem-c02-q09.
 
 ### Yield
 
-- Yield (*rendement*) = actual output / theoretical output, as a fraction or × 100%. *(spec R&A1 spec 1)*
-- A yield under 100% means you need more starting material: divide by the yield, don't multiply. *(exercise 4, question 10)*
+- Yield = actual output / theoretical output, as a fraction or × 100%. The theoretical output comes from a five-step calculation assuming complete conversion.
+- A yield below 100% means you need more starting material for a target amount: divide by the yield, never multiply. See chem-c02-q10.
 
 ### Conservation of mass
 
-- In a closed reactor the total mass doesn't change: 500 kg goes in and 500 kg comes out, whatever reacts. *(exercise 3b)* The conservation laws themselves are in [C03](../C03-conservation-laws-and-cycles/README.md).
+- In a closed reactor, total mass is conserved: whatever goes in must come out, reacted or not. Atoms are not created or destroyed, only rearranged. Conservation laws as such are treated in C03 — conservation laws and cycles.
 
-## Significant figures and the “calculate” verb
+## Significant figures and exam verbs
 
-- Multiplying and dividing: give as many significant figures as the value with the fewest. Adding and subtracting: as many decimals as the value with the fewest decimals. Counted numbers and mathematical constants don't count. A logarithm gets as many decimals as the value had significant figures. *(spec A8 spec 3)*
-- Significant figures are only marked when the question asks for them (“Geef je antwoord in het juiste aantal significante cijfers”); then they're worth 1 point, as in exercise 4, question 10, and exercise 5, question 25. *(spec appendix 2)*
-- “Calculate” (*berekenen*) means showing the formulas or principles, the values used and the steps, and giving the unit unless the question states it. CCVX asks the same: a number plus unit, with the formulae and data shown. *(spec appendix 2; CCVX verbs in spec.en.md)*
-- Don't round in between. Marking schemes don't penalise a deviation caused by acceptable intermediate rounding, but rounding early can still change the last digit: Bron 3 gets 0.557 mol instead of 0.556 mol. *(exercise 4, questions 8 and 10; Bron 3 §3.6)*
+- Multiplying and dividing: give the answer in as many significant figures as the measurement with the fewest. Adding and subtracting: as many decimals as the measurement with the fewest decimals. Counted numbers and exact constants do not count. A logarithm gets as many decimals as the original value had significant figures (CCVX syllabus, domain A).
+- Rounding to significant figures only earns points when the question asks for it.
+- Do not round in intermediate steps; round only the final answer.
+- The verb "calculate" means: show the formulas or principles, the values used and the steps, and give the unit unless the question states it. A bare number without working earns little.
 
 ## CCVX versus the Dutch syllabus
 
-- **In both:** everything above.
-- **Dutch syllabus only:** charge Q and the Faraday constant F = Q / n, which CCVX doesn't list, and the reaction rate s = Δc / Δt, which CCVX covers in [C04](../C04-reaction-kinetics/README.md). *(spec R&A1 spec 2; README)* Exercise 4, question 8 uses charge, but gives the charge of a mole of electrons.
-- **CCVX only:** the relative molecular mass M<sub>r</sub> without a unit, and volume percentage, mass-ppm (mg kg⁻¹) and mass-ppb (μg kg⁻¹) spelled out. The Dutch syllabus says only “percentage, ppm, ppb”. *(README; spec R&A1 spec 3)*
+- In both: everything above.
+- Dutch syllabus only: charge Q and the Faraday constant F = Q / n (CCVX does not list these).
+- CCVX only: the relative molecular mass M_r without a unit, and volume percentage, mass-ppm (mg kg⁻¹) and mass-ppb (μg kg⁻¹) spelled out explicitly.
