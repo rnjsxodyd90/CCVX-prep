@@ -10,9 +10,9 @@ This folder holds the official CCVX syllabus used to build every folder of `CCVX
 - The document itself adds: as long as this list is on the CCVX site it is automatically current, and if the CCVX syllabus deviates from the vwo central-exam programme, the CCVX programme always wins.
 - [leerstof-natuurkunde.nl.txt](leerstof-natuurkunde.nl.txt) is a plain-text extraction of the same PDF for search and quoting. The formulas in the PDF are images; the folder notes quote them in text form.
 
-## First sitting on the new syllabus
+## Sittings on the new syllabus
 
-Tuesday 24 November 2026, 13:30–16:30, Utrecht. See the subject [README.md](../README.md) for exam details.
+The new syllabus is in force from 1 September 2025, and physics is examined three times a year (November, April, July), so the first sitting on this version was the November 2025 sitting. The next sitting is Tuesday 24 November 2026, 13:30–16:30, Utrecht. See the subject [README.md](../README.md) for exam details.
 
 ## Source
 

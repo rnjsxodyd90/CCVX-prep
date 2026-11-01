@@ -14,7 +14,7 @@ English notes on the learning outcomes in [README.md](README.md). Dutch terms ar
 
 ## 2. Ionising radiation and dose (o2)
 
-**Nucleus and isotopes.** A nucleus has Z protons and N neutrons; the mass number is **A = Z + N**. Isotopes (*isotopen*) of one element share Z but differ in N. The atomic mass unit (*atomaire massaeenheid*) is 1 u = 1.6605·10⁻²⁷ kg (BINAS). A radioactive isotope (*radioactief verval*) decays spontaneously; the activity (*activiteit*) A tells how many nuclei decay per second (unit Bq = 1/s).
+**Nucleus and isotopes.** A nucleus has Z protons and N neutrons; the mass number is **A = Z + N**. Isotopes (*isotopen*) of one element share Z but differ in N. The atomic mass unit (*atomaire massaeenheid*) is 1 u = 1.6605·10⁻²⁷ kg (BINAS). A radioactive isotope (*radioactieve isotoop*) decays spontaneously (*radioactief verval*); the activity (*activiteit*) A tells how many nuclei decay per second (unit Bq = 1/s).
 
 **The three kinds of decay radiation** — set up reaction equations conserving A and Z:
 
@@ -71,12 +71,12 @@ Fully worked examples for the outcomes in [README.md](README.md). All examples a
 
 ## Example 1 — reaction equations
 
-Cobalt-60 (²⁷Co) decays by β⁻ radiation to nickel, which then emits a γ photon.
+Cobalt-60 (²⁷Co) decays by β⁻ radiation to an excited state of nickel-60, which then falls to its ground state by emitting γ photons — two, in cascade.
 
 a. Give the equation of the β⁻ decay.
-b. What changes in the γ step?
+b. What changes in the γ step(s)?
 
-**Solution.** a. ⁶⁰₂₇Co → ⁶⁰₂₈Ni + ⁰₋₁e. Check: top 60 = 60 + 0 ✓; bottom 27 = 28 − 1 ✓. b. Nothing in A or Z: the γ photon carries off only energy: ⁶⁰₂₈Ni* → ⁶⁰₂₈Ni + ⁰₀γ.
+**Solution.** a. ⁶⁰₂₇Co → ⁶⁰₂₈Ni* + ⁰₋₁e. Check: top 60 = 60 + 0 ✓; bottom 27 = 28 − 1 ✓. b. Nothing in A or Z: the excited nucleus sheds only energy, as two cascade γ photons: ⁶⁰₂₈Ni* → ⁶⁰₂₈Ni + 2·⁰₀γ (about 1.17 MeV and 1.33 MeV; BINAS decay schemes). The two-step cascade is why cobalt sources produce that characteristic γ pair.
 
 ## Example 2 — planning a Tc-99m scan
 

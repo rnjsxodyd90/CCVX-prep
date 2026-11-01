@@ -148,7 +148,7 @@ a. Δφ = Δt/T = 0.60/2.4 = 0.25.
 b. 0.25 · 2π = ½π rad ≈ 1.6 rad; 0.25 · 360° = 90°.
 c. Pendulum 2 runs 0.25 of a period behind pendulum 1, so its reduced phase is φ₂ = 3.0 − 0.25 = 2.75.
 
-### phys-p01-q09 | points 4 | outcome o1 | difficulty medium
+### phys-p01-q09 | points 5 | outcome o1 | difficulty medium
 
 #### Question
 
@@ -157,16 +157,18 @@ The displacement of a tuning-fork prong is given by u(t) = 8.0·sin(5.0π·t), w
 a. Give the amplitude, the period and the frequency.
 b. Compute the maximum speed of the prong.
 c. Compute the displacement at t = 0.10 s.
+d. The fork is now struck harder. State what changes in the oscillogram of the recorded sound, and what that means for what you hear (loudness and pitch).
 
 #### Answer
 
-a. A = 8.0 cm, T = 0.40 s, f = 2.5 Hz; b. v_max = 1.3 m/s; c. u = 8.0 cm
+a. A = 8.0 cm, T = 0.40 s, f = 2.5 Hz; b. v_max = 1.3 m/s; c. u = 8.0 cm; d. the amplitude of the oscillogram is larger (the period is the same): the tone is louder but equally high
 
 #### Solution
 
 a. From u(t) = A·sin(2πt/T): A = 8.0 cm; 2π/T = 5.0π → T = 2π/(5.0π) = 0.40 s; f = 1/T = 2.5 Hz.
 b. v_max = 2πA/T = 2π·0.080/0.40 = 1.26 ≈ 1.3 m/s.
 c. u(0.10) = 8.0·sin(5.0π·0.10) = 8.0·sin(½π) = 8.0 cm — the prong is exactly at its largest displacement. (Note: with the syllabus you compute u from t this way; solving t from a given u is not required.)
+d. Striking harder increases the amplitude of the oscillation and therefore of the oscillogram, while the period (and frequency) stays the same. Larger amplitude in the oscillogram means a louder tone (*geluidssterkte*); the pitch (*toonhoogte*), set by the frequency, is unchanged.
 
 ### phys-p01-q10 | points 5 | outcome o6 | difficulty medium
 

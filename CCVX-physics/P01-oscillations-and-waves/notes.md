@@ -29,7 +29,7 @@ English notes on the learning outcomes in [README.md](README.md). Dutch terms ar
   <line x1="40" y1="170" x2="40" y2="182" stroke="#c62828" stroke-width="1"/>
   <line x1="170" y1="170" x2="170" y2="182" stroke="#c62828" stroke-width="1"/>
   <text x="99" y="172" font-size="12" font-family="sans-serif" fill="#c62828">T</text>
-  <text x="152" y="106" font-size="13" font-family="sans-serif" fill="#333">1 periode later: zelfde fase</text>
+  <text x="130" y="106" font-size="12" font-family="sans-serif" fill="#333">one period later: same phase</text>
 </svg>
 
 ## 2. The mass–spring system
@@ -39,7 +39,7 @@ English notes on the learning outcomes in [README.md](README.md). Dutch terms ar
   **T = 2π√(m/C)** and natural frequency (*eigenfrequentie*) **f_eigen = 1/T**.
 
   Note: gravity only shifts the equilibrium position; it does not appear in T. Larger m → slower oscillation; stiffer spring (larger C) → faster.
-- When a system is driven by a periodic force with frequency f_aandrijf ≈ f_eigen, the amplitude grows large: **resonance** (*resonantie*). Examples: a child on a swing pushed in the right rhythm, a car body bouncing after a speed bump, rattling at certain engine speeds.
+- When a system is driven by a periodic force with frequency f_drive ≈ f_eigen, the amplitude grows large: **resonance** (*resonantie*). Examples: a child on a swing pushed in the right rhythm, a car body bouncing after a speed bump, rattling at certain engine speeds.
 - The spring constant follows from a static measurement: at rest F_z = C·u, so C = m·g/u with g = 9.81 m/s² (BINAS).
 
 ## 3. Running waves
@@ -88,7 +88,7 @@ English notes on the learning outcomes in [README.md](README.md). Dutch terms ar
 ## 6. The Doppler effect (new in the 2025 syllabus)
 
 - When source and receiver move **towards** each other, the observed wavelength is shorter and the observed frequency **higher** than the emitted one; when they move **apart**, the observed wavelength is longer and the frequency **lower**. Classic example: an ambulance siren sounds higher as it approaches and drops in pitch as it passes.
-- Reason (moving source, still air): the source emits f_s wavefronts per second, but while emitting them it moves forward, so the wavefronts ahead of the source are squeezed into a shorter distance. The wavelength ahead becomes λ′ = (v_geluid − v_bron)/f_s, and the receiver measures a higher frequency f′ = v_geluid/λ′ > f_s. Behind the source the wavefronts are stretched: λ″ = (v_geluid + v_bron)/f_s → f″ < f_s.
+- Reason (moving source, still air): the source emits f_s wavefronts per second, but while emitting them it moves forward, so the wavefronts ahead of the source are squeezed into a shorter distance. The wavelength ahead becomes λ′ = (v_sound − v_source)/f_s, and the receiver measures a higher frequency f′ = v_sound/λ′ > f_s. Behind the source the wavefronts are stretched: λ″ = (v_sound + v_source)/f_s → f″ < f_s.
 - Reason (moving receiver): a receiver moving towards the source runs into the wavefronts faster, so it counts more fronts per second: higher f′.
 - You must be able to *explain* the change qualitatively and do simple reasoning with wavefront spacing; the CCVX syllabus lists the Doppler effect with the word "explain" (*uitleggen*), so a full Doppler formula is not given — but do not be surprised by simple numerical wavefront reasoning as in Example 7 below.
 
