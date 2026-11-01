@@ -24,4 +24,5 @@ Nucleotides, double strand, base pairs, free DNA nucleotides, chromatids, DNA po
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).
+- [practice.md](practice.md): 37 original practice items in CCVX style, 75 points total, with full worked answers and marking points.
