@@ -102,4 +102,5 @@ Open and closed circulation, single and double circulation, large circulation, s
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).
+- [exercises.md](exercises.md): 10 original practice questions in CCVX style with full worked answers and marking points.
