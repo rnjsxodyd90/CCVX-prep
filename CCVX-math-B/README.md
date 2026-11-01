@@ -38,7 +38,7 @@ The subdomains follow the concept list of the CCVX syllabus (*uitwerking van het
 | [B12-vectors](B12-vectors/) | Vector algebra, dot product, vector equation of a line | 15 |
 | [B13-circle-geometry](B13-circle-geometry/) | Circle equations, tangents, intersections, circumcircles, Thales | 13, 14 |
 | [B14-parametric-curves](B14-parametric-curves/) | Motion equations, path, velocity and acceleration vectors | 16 |
-| [mock-exams](mock-exams/) | Two original full mock exams (3 hours each) with marking schemes | all |
+| Mock exams at the subject root | [mock-exam-1.md](mock-exam-1.md) and [mock-exam-1-marking-scheme.md](mock-exam-1-marking-scheme.md); mock exam 2 follows — each 3 hours, original, with a marking scheme | all |
 
 Syllabus points 1 and 2 (mathematical skills such as modelling and reasoning) are trained inside every folder, as they are in the exam itself.
 
