@@ -1,6 +1,8 @@
 # D5 — Interaction in Ecosystems: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md).
+
+Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), P3 *Interactie in ecosystemen* (P3.1–P3.2). A citation like *(CvTE P3.1 spec 2)* means specification 2 of P3.1; its numbers don't match the CCVX numbers.
@@ -109,7 +111,7 @@ flowchart LR
 - Competition (*concurrentie*) happens when organisms need the same resource while it is scarce: food, light, water, minerals, space, nest sites or mates. It harms all the competitors. *(CvTE P1.3 spec 4)*
 - Within a population (intraspecific competition, *concurrentie binnen een populatie*) all individuals have the same needs, so competition is often strongest there. It rises with density, holds the population around its carrying capacity, and is the basis of natural selection, because the best-adapted individuals leave the most offspring.
 - Between populations of different species (interspecific competition, *concurrentie tussen populaties*) competition is strongest when their niches overlap.
-- A niche (*niche*) is a species' role and the full set of conditions and resources it needs, set by its tolerances and its relationships with other species. Two species with exactly the same niche can't live together for long: in Gause's experiments with two Paramecium species in one culture, one always drove out the other (competitive exclusion).
+- A niche (*niche*) is a species' role and the full set of conditions and resources it needs, set by its tolerances and its relationships with other species. Two species with exactly the same niche can't live together for long: in Gause's classic experiments, two Paramecium species grown together on the same limited food could not coexist: the faster-growing species drove the other out of the culture (competitive exclusion).
 - Species coexist by dividing the resources: in North American spruce forests, five warbler species feed in different parts of the same trees, so their niches differ.
 - Competition shapes the ecosystem: it decides which species persist and drives succession when taller plants take the light. Its role in self-regulation is in [B08](../../B-self-regulation/B08-regulation-of-ecosystems/README.md).
 - **Trap:** Competition isn't the same as fighting: competitors often never meet, as when one species simply uses up the food first.
