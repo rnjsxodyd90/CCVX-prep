@@ -1,6 +1,6 @@
 # CCVX Ultimate Prep — website v1 plan
 
-Status: Phase 1 plan. No code yet. Owner decisions in this section are fixed; do not change them.
+Status: Phase 2 running as an Orca team (section 10). Owner decisions in this section are fixed; do not change them.
 
 Fixed product decisions:
 
@@ -205,3 +205,25 @@ The run stops and prints an OWNER DECISION line before any of these:
 - Live Stripe products and prices at EUR 129.
 - Buying or connecting the domain ccvxultimateprep.com.
 - Deploying to production, changing repo visibility, pushing to main.
+
+## 10. Team orchestration (owner update, 1 Nov 2026)
+
+This job runs as an Orca team; the subagent workflow in section 8 is replaced.
+
+Workers (OpenCode, model nebius/moonshotai/Kimi-K3): chem-teacher in worktree ccvx-chem (edits only CCVX-chemistry/), bio-teacher in ccvx-bio (CCVX-biology/), math-teacher in ccvx-math (CCVX-math-A/ and CCVX-math-B/), web-dev in ccvx-web (site/). Reviewers are read-only and report-only: chem-reviewer, bio-reviewer, math-reviewer, web-reviewer.
+
+Flow: a teacher commits a batch and prints BATCH READY: <scope> on its terminal. The coordinator starts the matching reviewer, relays findings back with orca terminal send, and merges the batch into rnjsxodyd90/ccvx-site-v1 only after the reviewer passes. No one pushes to main. Token Factory spend per worker goes into the Phase 4 report.
+
+### Content contract, pinned for every worker (the pipeline in ccvx-web is the gate)
+
+- Per subdomain folder the build reads only three files: README.md (outcomes, topic list), notes.md (notes with inline worked examples; citations to the official syllabus and BINAS as plain text), practice.md. No other file names: worked examples do not get their own file, and the name exercises.md is reserved for pre-existing exam-derived files that never ship.
+- practice.md blocks, strict: a header `### <itemid>-qNN | points <n> | outcome <code> | difficulty easy|medium|hard`, then the sections `#### Question`, `#### Answer`, `#### Solution` in that order, all non-empty.
+- Ids: itemid = <subject>-<code>; subject is chem, bio, matha or mathb; code is the folder name up to the first dash, lowercased (C02-chemical-calculations -> chem-c02; 03-atomic-structure -> chem-03; B01-algebraic-skills -> mathb-b01). Question ids are <itemid>-qNN in ascending order (chem-c02-q01, chem-c02-q02, ...). The build fails on any other id.
+- Mock exams at the subject root: mock-exam-1.md and mock-exam-1-marking-scheme.md. Question ids <subject>-mock1-qNN. 180 minutes, CCVX style, marking scheme with points per step.
+- Math subjects have no domain level: CCVX-math-B/B01-... and CCVX-math-A/... sit directly at the subject root. The pipeline treats such a folder as a subdomain whose domain is the first letter of its code.
+- Text-first v1: no image syntax and no image files in built content. Original diagrams are inline <svg> blocks in notes.md; their .svg source files may live in a figures/ folder, never in img/. The 13 old biology img/ files are excluded from the build and listed in the Phase 4 report.
+- Links in content are http(s) only; links to repo files flatten to plain text in the build.
+
+### T2.1 disposition
+
+An earlier pipeline built outside the team (branch site-v1/t2.1-pipeline) duplicated ccvx-web's pipeline and is abandoned; it is not merged. Its review produced one blocking content finding and a few technical findings, all folded into the worker briefs: BINAS conventions are M(H2O) = 18.02 g/mol from table 98, or 18.016 from table 99 atomic masses (O = 16.00, H = 1.008); IUPAC O = 15.999 is never used; 90.08 g has four significant figures; firestore rules keep get gated and list/write denied (ccvx-web already does); the leak scan walks every file under public/ (ccvx-web already does); stored HTML must strip script, iframe, object, embed and form tags; the grant tool validates subject ids.
