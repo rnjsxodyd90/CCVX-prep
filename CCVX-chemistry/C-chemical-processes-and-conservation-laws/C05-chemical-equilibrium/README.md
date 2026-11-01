@@ -32,4 +32,5 @@ The candidate is able to describe whether there is equilibrium, to do calculatio
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above, with inline worked examples (status: checked against the CCVX syllabus and Binas; examples original). Start here.
+- [practice.md](practice.md): 12 original practice questions with full worked solutions, in CCVX style.
