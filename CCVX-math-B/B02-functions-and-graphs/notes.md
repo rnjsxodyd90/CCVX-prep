@@ -101,4 +101,4 @@ Start with y = sin(x). Describe the graph of g(x) = −2 sin(3x) + 1 as a chain 
 
 f(x) = x² and g(x) = 4x − 2 on 0 ≤ x ≤ 4. Compute the vertical distance at x = 1 and the maximal vertical distance on this interval.
 
-**Solution.** Distance function d(x) = |x² − 4x + 2|... rather: on [0,4], check which is on top; f − g = x² − 4x + 2 = (x − 2)² − 2, which is negative between the roots 2 ± √2 and positive elsewhere on [0,4]. At x = 1: |1 − 2| = 1. For the maximum of |f − g| compare the candidates: f − g has derivative 2x − 4, zero at x = 2 with value −2 (so distance 2); at the boundaries x = 0: distance 2, x = 4: distance 2. So the maximal vertical distance on [0, 4] is 2.
+**Solution.** The distance at x = p is |f(p) − g(p)|. At x = 1: |f(1) − g(1)| = |1 − 2| = 1. For the maximum on the interval, write f − g = x² − 4x + 2 = (x − 2)² − 2: this is negative between the roots 2 ± √2 and positive elsewhere on [0, 4]. Candidates for the maximum of |f − g|: the vertex x = 2 of f − g gives value −2, so distance 2 there; the boundaries give |f(0) − g(0)| = 2 and |f(4) − g(4)| = 2. So the maximal vertical distance on [0, 4] is 2.
