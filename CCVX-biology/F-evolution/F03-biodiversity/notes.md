@@ -1,6 +1,6 @@
 # F3 — Biodiversity: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** school exam (SE) only, as P5 *Biodiversiteit*, so the [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) doesn't specify it. CCVX still tests it.
 - **Overlap:** CvTE P1.2 spec 5 (consequences for biodiversity), P1.3 spec 5 (*exoot*, *natuurbeheer*) and P3.2 spec 1 (*biodiversiteit*); P4 *Soortvorming* for species, kinship and natural selection; and M8 *Selectie* for the gene pool and kinship from DNA. A citation like *(overlap: CvTE P3.2 spec 1)* points there.
@@ -11,7 +11,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 
 - Biodiversity (*biodiversiteit*) is the variety of life, and it can be studied at three levels of organisation: genes within a species, species within an ecosystem, and ecosystems within a region. *(overlap: CvTE P3.2 spec 1)*
 - Genetic diversity is the variety of alleles within a species or population, its gene pool (*genenpool*), seen for example in the many varieties of potato, apple or dog; it lets a population adapt to change. *(overlap: CvTE M8.4 spec 1)*
-- The Irish potato famine of 1845–1849 was so severe partly because most potatoes belonged to one genetically uniform variety, which potato blight (*aardappelziekte*) destroyed.
+- The Irish potato famine of 1845–1849 was so severe partly because the potato crop consisted very largely of a single genetically uniform, susceptible variety (the Lumper), which potato blight (*aardappelziekte*) destroyed.
 - Species diversity is the number of species in an area and how evenly the individuals are spread over them. Species composition (*soortensamenstelling*) is which species occur and how many of each: a wood with ten tree species in equal numbers is more diverse than a wood with the same ten species in which one makes up 91% of the trees. *(overlap: CvTE P1.3 spec 1)*
 - A species (*soort*) is a group of individuals that can interbreed in nature and produce fertile offspring; horse and donkey are different species because their offspring, the mule, is infertile. See [F02](../F02-speciation/README.md). *(overlap: CvTE P4.1 spec 1)*
 - Ecosystem diversity is the variety of ecosystems in a region, such as the dunes, salt marshes, heathland, raised bogs, forests and lakes of the Netherlands, each with its own species composition.

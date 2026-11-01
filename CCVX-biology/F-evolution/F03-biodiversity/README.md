@@ -24,4 +24,5 @@ Species, species composition, intensified greenhouse effect, red list, indicator
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed).
+- [practice.md](practice.md): 24 original practice items in strict CCVX block format (66 points, including 7 data/calculation items).
