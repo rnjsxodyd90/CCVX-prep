@@ -6,7 +6,7 @@ Fixed product decisions:
 
 - Brand: CCVX Ultimate Prep. Domain for copy: ccvxultimateprep.com. Not bought. Do not buy.
 - Language: English only.
-- Subjects: Chemistry, Biology, Mathematics A, Mathematics B.
+- Subjects: Chemistry, Biology, Mathematics A, Mathematics B, Physics (owner update 3, 1 Nov 2026; one subject card and page, EUR 129).
 - Price: EUR 129 per subject, one-off, VAT included. 12 months access.
 - Seller: Sura Steel (eenmanszaak), KvK 98957015, Jan Krosstraat 172, 2571 DD 's-Gravenhage. In footer and terms.
 - Not affiliated: every page footer and the landing page carry "Independent study material. Not affiliated with or endorsed by the CCVX or any university."
@@ -210,7 +210,7 @@ The run stops and prints an OWNER DECISION line before any of these:
 
 This job runs as an Orca team; the subagent workflow in section 8 is replaced.
 
-Workers (OpenCode, model nebius/moonshotai/Kimi-K3): chem-teacher in worktree ccvx-chem (edits only CCVX-chemistry/), bio-teacher in ccvx-bio (CCVX-biology/), math-teacher in ccvx-math (CCVX-math-A/ and CCVX-math-B/), web-dev in ccvx-web (site/). Reviewers are read-only and report-only: chem-reviewer, bio-reviewer, math-reviewer, web-reviewer.
+Workers (OpenCode, model nebius/moonshotai/Kimi-K3): chem-teacher in worktree ccvx-chem (edits only CCVX-chemistry/), bio-teacher in ccvx-bio (CCVX-biology/), math-teacher in ccvx-math (CCVX-math-A/ and CCVX-math-B/), phys-teacher in ccvx-phys (CCVX-physics/, owner update 3; from the official CCVX natuurkunde leerstof PDF https://www.ccvx.nl/Leerstof%20natuurkunde.pdf, respecting the "wijziging leerstof van natuurkunde" notice on the CCVX registration page; next sitting 24 Nov 2026, then about 21 Apr 2027), web-dev in ccvx-web (site/). Reviewers are read-only and report-only: chem-reviewer, bio-reviewer, math-reviewer, phys-reviewer, web-reviewer.
 
 Flow: a teacher commits a batch and prints BATCH READY: <scope> on its terminal. The coordinator starts the matching reviewer, relays findings back with orca terminal send, and merges the batch into rnjsxodyd90/ccvx-site-v1 only after the reviewer passes. No one pushes to main. Token Factory spend per worker goes into the Phase 4 report.
 
@@ -218,7 +218,7 @@ Flow: a teacher commits a batch and prints BATCH READY: <scope> on its terminal.
 
 - Per subdomain folder the build reads only three files: README.md (outcomes, topic list), notes.md (notes with inline worked examples; citations to the official syllabus and BINAS as plain text), practice.md. No other file names: worked examples do not get their own file, and the name exercises.md is reserved for pre-existing exam-derived files that never ship.
 - practice.md blocks, strict: a header `### <itemid>-qNN | points <n> | outcome <code> | difficulty easy|medium|hard`, then the sections `#### Question`, `#### Answer`, `#### Solution` in that order, all non-empty.
-- Ids: itemid = <subject>-<code>; subject is chem, bio, matha or mathb; code is the folder name up to the first dash, lowercased (C02-chemical-calculations -> chem-c02; 03-atomic-structure -> chem-03; B01-algebraic-skills -> mathb-b01). Question ids are <itemid>-qNN in ascending order (chem-c02-q01, chem-c02-q02, ...). The build fails on any other id.
+- Ids: itemid = <subject>-<code>; subject is chem, bio, matha, mathb or phys; code is the folder name up to the first dash, lowercased (C02-chemical-calculations -> chem-c02; 03-atomic-structure -> chem-03; B01-algebraic-skills -> mathb-b01). Question ids are <itemid>-qNN in ascending order (chem-c02-q01, chem-c02-q02, ...). The build fails on any other id.
 - Mock exams at the subject root: mock-exam-1.md and mock-exam-1-marking-scheme.md. Question ids <subject>-mock1-qNN. 180 minutes, CCVX style, marking scheme with points per step.
 - Math subjects have no domain level: CCVX-math-B/B01-... and CCVX-math-A/... sit directly at the subject root. The pipeline treats such a folder as a subdomain whose domain is the first letter of its code.
 - Text-first v1: no image syntax and no image files in built content. Original diagrams are inline <svg> blocks in notes.md; their .svg source files may live in a figures/ folder, never in img/. The 13 old biology img/ files are excluded from the build and listed in the Phase 4 report.
