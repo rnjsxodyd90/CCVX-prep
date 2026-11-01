@@ -1,6 +1,6 @@
 # Basic Knowledge of Physics: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every topic in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** assumed knowledge (*nevenkennis*), listed in CvTE appendix 6 (*Kennis van natuurkunde en scheikunde*) and A8 spec 3. CCVX never tests it on its own, only inside a biology question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), appendix 6 and A8 spec 3. The CvTE also prints these terms in italics next to the biology specifications that use them; a citation like *(CvTE M2.3 spec 3)* means specification 3 of M2.3, and its numbers don't match the CCVX numbers.
