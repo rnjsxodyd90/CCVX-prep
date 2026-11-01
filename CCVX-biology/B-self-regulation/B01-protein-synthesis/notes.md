@@ -21,7 +21,59 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Base pairing (*basenparing*) is complementary: A pairs with T through two hydrogen bonds and G with C through three. A double-ring base (A, G) always faces a single-ring base (T, C), so the double strand is equally wide everywhere.
 - One strand therefore fixes the other: 5'-ATGC-3' pairs with 3'-TACG-5'.
 
-![Schematic of a short double strand of DNA](img/dna-double-strand.svg)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 330" role="img" aria-labelledby="t d">
+<title id="t">Double-stranded DNA (schematic)</title>
+<desc id="d">Two antiparallel sugar-phosphate backbones joined by complementary base pairs: A-T with two hydrogen bonds, G-C with three.</desc>
+<rect width="660" height="330" fill="#ffffff"/>
+<text x="330" y="30" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0f172a">Double-stranded DNA (schematic)</text>
+<!-- backbones -->
+<rect x="40" y="62" width="580" height="24" rx="12" fill="#cbd5e1" stroke="#94a3b8"/>
+<rect x="40" y="218" width="580" height="24" rx="12" fill="#cbd5e1" stroke="#94a3b8"/>
+<text x="30" y="80" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">5'</text>
+<text x="630" y="80" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">3'</text>
+<text x="30" y="236" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">3'</text>
+<text x="630" y="236" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">5'</text>
+<line x1="58" y1="102" x2="120" y2="102" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
+<text x="60" y="122" font-family="sans-serif" font-size="12" fill="#475569">sugar–phosphate</text>
+<text x="60" y="136" font-family="sans-serif" font-size="12" fill="#475569">backbone</text>
+<!-- rung 1: A-T -->
+<rect x="118" y="86" width="64" height="54" rx="8" fill="#86efac" stroke="#16a34a"/>
+<text x="150" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#14532d">A</text>
+<line x1="142" y1="140" x2="142" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="158" y1="140" x2="158" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="118" y="164" width="64" height="54" rx="8" fill="#fca5a5" stroke="#dc2626"/>
+<text x="150" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#7f1d1d">T</text>
+<!-- rung 2: G-C -->
+<rect x="238" y="86" width="64" height="54" rx="8" fill="#93c5fd" stroke="#2563eb"/>
+<text x="270" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a">G</text>
+<line x1="258" y1="140" x2="258" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="270" y1="140" x2="270" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="282" y1="140" x2="282" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="238" y="164" width="64" height="54" rx="8" fill="#fde047" stroke="#ca8a04"/>
+<text x="270" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#713f12">C</text>
+<!-- rung 3: T-A -->
+<rect x="358" y="86" width="64" height="54" rx="8" fill="#fca5a5" stroke="#dc2626"/>
+<text x="390" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#7f1d1d">T</text>
+<line x1="382" y1="140" x2="382" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="398" y1="140" x2="398" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="358" y="164" width="64" height="54" rx="8" fill="#86efac" stroke="#16a34a"/>
+<text x="390" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#14532d">A</text>
+<!-- rung 4: C-G -->
+<rect x="478" y="86" width="64" height="54" rx="8" fill="#fde047" stroke="#ca8a04"/>
+<text x="510" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#713f12">C</text>
+<line x1="498" y1="140" x2="498" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="510" y1="140" x2="510" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="522" y1="140" x2="522" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="478" y="164" width="64" height="54" rx="8" fill="#93c5fd" stroke="#2563eb"/>
+<text x="510" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a">G</text>
+<!-- legend -->
+<line x1="150" y1="284" x2="150" y2="304" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="162" y1="284" x2="162" y2="304" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="174" y1="284" x2="174" y2="304" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="186" y="298" font-family="sans-serif" font-size="13" fill="#334155">hydrogen bonds: A–T = 2, G–C = 3</text>
+<text x="330" y="322" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">The strands are antiparallel; in double-stranded DNA %A = %T and %G = %C.</text>
+</svg>
 
 *Part of a DNA double strand (original diagram). The two sugar–phosphate backbones are antiparallel (5'→3' opposite 3'→5'). Base pairing is complementary: A–T with two hydrogen bonds (dashed), G–C with three. That is why %A = %T and %G = %C in double-stranded DNA.*
 
@@ -132,7 +184,68 @@ flowchart LR
 - Elongation: the tRNA whose anticodon fits the next codon brings its amino acid, the rRNA joins it to the chain with a peptide bond, the ribosome moves three bases on, and the empty tRNA leaves to be reloaded.
 - Termination: no tRNA fits a stop codon; a release protein binds instead, the chain is released and the subunits come apart.
 
-![A ribosome translating mRNA into a polypeptide](img/translation.svg)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" role="img" aria-labelledby="t d">
+<title id="t">Translation at the ribosome (schematic)</title>
+<desc id="d">A ribosome reads mRNA codons from the 5' to the 3' end. tRNAs pair their anticodons with the codons and deliver amino acids, which are linked by peptide bonds into a growing chain.</desc>
+<rect width="700" height="480" fill="#ffffff"/>
+<text x="350" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0f172a">Translation at the ribosome (schematic)</text>
+<!-- growing polypeptide -->
+<circle cx="205" cy="95" r="13" fill="#fcd34d" stroke="#b45309"/>
+<text x="205" y="100" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#713f12">Met</text>
+<circle cx="231" cy="95" r="13" fill="#fca5a5" stroke="#dc2626"/>
+<circle cx="257" cy="95" r="13" fill="#86efac" stroke="#16a34a"/>
+<circle cx="283" cy="95" r="13" fill="#93c5fd" stroke="#2563eb"/>
+<circle cx="309" cy="95" r="13" fill="#d8b4fe" stroke="#7c3aed"/>
+<text x="231" y="66" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">growing polypeptide chain</text>
+<!-- large subunit -->
+<ellipse cx="370" cy="230" rx="150" ry="85" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+<text x="540" y="175" text-anchor="start" font-family="sans-serif" font-size="13" fill="#334155">large ribosomal subunit</text>
+<line x1="536" y1="179" x2="505" y2="196" stroke="#64748b" stroke-width="1.5"/>
+<!-- small subunit -->
+<ellipse cx="370" cy="352" rx="130" ry="30" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+<text x="540" y="368" text-anchor="start" font-family="sans-serif" font-size="13" fill="#334155">small ribosomal subunit</text>
+<line x1="536" y1="364" x2="498" y2="355" stroke="#64748b" stroke-width="1.5"/>
+<!-- mRNA -->
+<line x1="40" y1="310" x2="660" y2="310" stroke="#0f172a" stroke-width="2"/>
+<g font-family="sans-serif" font-size="13" text-anchor="middle">
+<rect x="60" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="84" y="315" fill="#334155">AUG</text>
+<rect x="112" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="136" y="315" fill="#334155">GUU</text>
+<rect x="164" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="188" y="315" fill="#334155">GGC</text>
+<rect x="216" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="240" y="315" fill="#334155">CCA</text>
+<rect x="268" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="292" y="315" fill="#334155">GAU</text>
+<rect x="320" y="298" width="48" height="24" fill="#f8fafc" stroke="#0f766e" stroke-width="2"/><text x="344" y="315" fill="#0f766e" font-weight="bold">CCA</text>
+<rect x="372" y="298" width="48" height="24" fill="#f8fafc" stroke="#c2410c" stroke-width="2"/><text x="396" y="315" fill="#c2410c" font-weight="bold">GAU</text>
+<rect x="424" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="448" y="315" fill="#334155">UGU</text>
+<rect x="476" y="298" width="48" height="24" fill="#f1f5f9" stroke="#94a3b8"/><text x="500" y="315" fill="#334155">UAG</text>
+</g>
+<text x="52" y="335" font-family="sans-serif" font-size="13" font-weight="bold" fill="#334155">5'</text>
+<text x="652" y="335" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="bold" fill="#334155">3'</text>
+<text x="60" y="285" font-family="sans-serif" font-size="12" fill="#475569">mRNA (codons)</text>
+<!-- movement arrow -->
+<line x1="490" y1="250" x2="570" y2="250" stroke="#64748b" stroke-width="2" marker-end="url(#arr2)"/>
+<defs><marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
+<text x="530" y="240" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">movement</text>
+<!-- P-site tRNA -->
+<rect x="329" y="180" width="30" height="55" rx="6" fill="#99f6e4" stroke="#0f766e" stroke-width="2"/>
+<text x="344" y="212" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#134e4a">tRNA</text>
+<rect x="332" y="270" width="24" height="22" fill="#ccfbf1" stroke="#0f766e"/>
+<text x="344" y="286" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#134e4a">GGU</text>
+<circle cx="344" cy="163" r="12" fill="#d8b4fe" stroke="#7c3aed"/>
+<line x1="344" y1="175" x2="344" y2="180" stroke="#7c3aed" stroke-width="2"/>
+<line x1="339" y1="152" x2="315" y2="108" stroke="#b45309" stroke-width="2" stroke-dasharray="3 3"/>
+<!-- A-site tRNA -->
+<rect x="381" y="180" width="30" height="55" rx="6" fill="#fed7aa" stroke="#c2410c" stroke-width="2"/>
+<text x="396" y="212" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7c2d12">tRNA</text>
+<rect x="384" y="270" width="24" height="22" fill="#ffedd5" stroke="#c2410c"/>
+<text x="396" y="286" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7c2d12">CUA</text>
+<circle cx="396" cy="163" r="12" fill="#fca5a5" stroke="#dc2626"/>
+<text x="396" y="145" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7f1d1d">Asp</text>
+<line x1="396" y1="175" x2="396" y2="180" stroke="#dc2626" stroke-width="2"/>
+<!-- legend -->
+<text x="40" y="410" font-family="sans-serif" font-size="12" fill="#334155">P site (teal): tRNA holding the chain. A site (orange): tRNA delivering the next amino acid (Asp).</text>
+<text x="40" y="430" font-family="sans-serif" font-size="12" fill="#334155">Codon and anticodon pair complementarily and antiparallel: codon 5'-CCA-3' with anticodon 3'-GGU-5'.</text>
+<text x="40" y="458" text-anchor="start" font-family="sans-serif" font-size="12" fill="#64748b">The ribosome moves one codon (three bases) at a time in the 5' → 3' direction; the chain grows by one amino acid per codon.</text>
+</svg>
 
 *Translation (original diagram). The ribosome reads the mRNA 5'→3' in triplets (codons). Each tRNA pairs its anticodon with the complementary codon and delivers one amino acid; the rRNA of the large subunit links the amino acids with peptide bonds, so the chain grows by one amino acid per codon.*
 

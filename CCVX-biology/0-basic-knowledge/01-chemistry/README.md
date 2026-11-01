@@ -23,4 +23,4 @@ The following topics are assumed to be known for biology:
 ## Study material
 
 - [notes.md](notes.md): explanations of every topic above (status: reviewed against the CCVX syllabus).
-- [exercises.md](exercises.md): 8 original self-check questions with full worked answers and marking points.
+- [practice.md](practice.md): 24 original self-check items with full worked answers and marking points.
