@@ -39,7 +39,7 @@ pH = 1.602
 #### Answer
 pH = 12.31
 #### Solution
-1. M(Ba(OH)₂·8H₂O) = 137.33 + 2 × (16.00 + 1.008) + 8 × 18.015 = 315.5 g mol⁻¹.
+1. M(Ba(OH)₂·8H₂O) = 137.33 + 2 × (16.00 + 1.008) + 8 × 18.016 = 315.5 g mol⁻¹ (adding the Binas table-99 atomic masses).
 2. n = m / M = 1.28 / 315.5 = 4.06·10⁻³ mol Ba(OH)₂.
 3. Each unit gives two OH⁻ ions: n(OH⁻) = 8.11·10⁻³ mol in 0.4000 L, so [OH⁻] = 2.03·10⁻² mol L⁻¹.
 4. pOH = −log (2.03·10⁻²) = 1.693; pH = 14.00 − 1.693 = 12.31.

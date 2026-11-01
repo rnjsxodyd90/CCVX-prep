@@ -2,7 +2,7 @@
 
 Ten original questions on learning outcomes sb1–sb5, in CCVX style.
 
-### chem-bk01-q01 | points 2 | outcome sb1–sb2 | difficulty easy
+### chem-01-q01 | points 2 | outcome sb1–sb2 | difficulty easy
 #### Question
 Classify each of the following as a pure substance or a mixture: tap water, diamond, air, iodine crystals, cola.
 #### Answer
@@ -14,7 +14,7 @@ Tap water: mixture; diamond: pure substance; air: mixture; iodine crystals: pure
 4. Iodine crystals consist of I₂ molecules only: a pure substance.
 5. Cola contains water, sugar, dissolved CO₂ and more: a mixture.
 
-### chem-bk01-q02 | points 3 | outcome sb3 | difficulty easy
+### chem-01-q02 | points 3 | outcome sb3 | difficulty easy
 #### Question
 Give the name of each phase transition:
 1. solid → gas, for example mothballs slowly disappearing in a wardrobe;
@@ -27,7 +27,7 @@ Give the name of each phase transition:
 2. Gas to liquid is condensation. Only the bonds between the molecules form; the H₂O molecules stay intact.
 3. Liquid to solid is solidification (freezing) — not to be confused with "condensation", which in C01 also names a type of reaction.
 
-### chem-bk01-q03 | points 4 | outcome sb1–sb3 | difficulty medium
+### chem-01-q03 | points 4 | outcome sb1–sb3 | difficulty medium
 #### Question
 Two white solids A and B are heated. Solid A melts between 128 °C and 141 °C; solid B melts sharply at 133 °C. Explain which solid is a mixture and which is a pure substance, and explain at the micro level why a mixture melts over a range.
 #### Answer
@@ -37,7 +37,7 @@ A is a mixture (melting range); B is a pure substance (sharp melting point).
 2. A melts over a range (128–141 °C): a mixture.
 3. Micro level: a mixture contains different kinds of particles, bonded to their neighbours with different strengths. The weaker-bonded parts melt at a lower temperature and the stronger-bonded parts only higher up, so melting spreads over a range instead of one temperature.
 
-### chem-bk01-q04 | points 4 | outcome sb2 | difficulty medium
+### chem-01-q04 | points 4 | outcome sb2 | difficulty medium
 #### Question
 Classify each mixture as a solution, a suspension or an emulsion, and give the micro-level reason: (1) clear seawater, (2) muddy river water, (3) full-fat milk, (4) mayonnaise.
 #### Answer
@@ -48,7 +48,7 @@ Classify each mixture as a solution, a suspension or an emulsion, and give the m
 3. Milk: tiny droplets of fat dispersed in water, kept apart by proteins acting as an emulsifier: an emulsion.
 4. Mayonnaise: oil droplets dispersed in a watery phase, stabilised by the emulsifier in egg yolk (lecithin): an emulsion. Emulsions stay mixed because the emulsifier's molecules sit at the droplet surface with a hydrophobic part in the oil and a hydrophilic part in the water.
 
-### chem-bk01-q05 | points 3 | outcome sb5 | difficulty easy
+### chem-01-q05 | points 3 | outcome sb5 | difficulty easy
 #### Question
 In a distillation of wine, name (1) the liquid collected in the cooled condenser, (2) what stays behind in the distillation flask, and (3) what the thermometer at the side arm shows while a pure substance is distilling over.
 #### Answer
@@ -58,7 +58,7 @@ In a distillation of wine, name (1) the liquid collected in the cooled condenser
 2. The non-evaporated part stays in the flask: the residue.
 3. The thermometer measures the vapour temperature; while one pure substance distils over it stays at that substance's boiling point, so distillation separates by boiling point.
 
-### chem-bk01-q06 | points 4 | outcome sb5 | difficulty medium
+### chem-01-q06 | points 4 | outcome sb5 | difficulty medium
 #### Question
 Choose the best separation method for each task and name the property it uses: (1) sand from salt water, (2) dry salt from the filtrate of part 1, (3) the dyes in black ink, (4) the fat droplets from milk.
 #### Answer
@@ -69,7 +69,7 @@ Choose the best separation method for each task and name the property it uses: (
 3. The dyes differ in how strongly they adsorb to the paper and dissolve in the running eluent, so they move at different speeds: paper chromatography.
 4. Centrifuging forces the less dense fat (cream) to the top and the denser watery phase down; used at dairies.
 
-### chem-bk01-q07 | points 3 | outcome sb5 | difficulty medium
+### chem-01-q07 | points 3 | outcome sb5 | difficulty medium
 #### Question
 On a chromatogram of a plant extract, a green spot has moved 2.4 cm from the start line while the eluent front has moved 8.0 cm. (1) Calculate the R_f value of this substance. (2) Explain how you would use R_f values to identify the spot.
 #### Answer
@@ -79,7 +79,7 @@ R_f = 0.30; measure the R_f values of known substances under identical condition
 2. R_f lies between 0 and 1 and is constant for a substance with the same paper and eluent.
 3. Run known substances (for example chlorophyll a and b) on the same plate, or use tabulated values: a match in R_f identifies the spot (two substances can share an R_f, so this is evidence, not absolute proof).
 
-### chem-bk01-q08 | points 3 | outcome sb5 | difficulty medium
+### chem-01-q08 | points 3 | outcome sb5 | difficulty medium
 #### Question
 A sugar solution is coloured brown and has to be made colourless. A student also wants to collect the iodine dissolved in an iodine solution without heating it away. For each task choose a method from: adsorption, extraction, distillation, filtration, and explain your choice.
 #### Answer
@@ -88,7 +88,7 @@ Sugar solution: adsorption on activated carbon, then filtration; iodine: extract
 1. The colour molecules are dissolved, so filtration alone does nothing. Activated carbon has a huge, largely apolar surface; the large colour molecules adsorb to it and are then filtered off with the carbon.
 2. Iodine dissolves much better in an apolar solvent than in water. Shaking with petroleum spirit moves the iodine into the upper, apolar layer (extraction); the layers are then separated (separatory funnel) and the solvent is evaporated or distilled off.
 
-### chem-bk01-q09 | points 2 | outcome sb1–sb2 | difficulty easy
+### chem-01-q09 | points 2 | outcome sb1–sb2 | difficulty easy
 #### Question
 Explain (1) why the boiling point of a pure substance can serve to identify it, and (2) why brass, which consists of copper and zinc only, is still called a mixture (an alloy).
 #### Answer
@@ -97,7 +97,7 @@ Explain (1) why the boiling point of a pure substance can serve to identify it, 
 1. Substance properties such as boiling point and density are the same for every sample of one pure substance (at a given pressure) and differ between substances, so measuring them helps identify a substance; Binas lists them for many substances.
 2. In an alloy the different atoms sit together in one metal lattice without forming molecules in a fixed ratio: the Cu : Zn ratio is variable and the metals can (in principle) be separated by physical means. Variable composition plus separability make it a mixture.
 
-### chem-bk01-q10 | points 4 | outcome sb3–sb5 | difficulty hard
+### chem-01-q10 | points 4 | outcome sb3–sb5 | difficulty hard
 #### Question
 Sea water is heated in an open pan. (1) Explain why the boiling starts above 100 °C and the temperature keeps rising during boiling. (2) The steam is led through a cooled tube and collected. Explain why the collected water is pure, using the bonds between particles.
 #### Answer

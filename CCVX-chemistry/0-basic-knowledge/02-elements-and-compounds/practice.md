@@ -2,7 +2,7 @@
 
 Ten original questions on learning outcomes sb6–sb10, in CCVX style.
 
-### chem-bk02-q01 | points 2 | outcome sb6 | difficulty easy
+### chem-02-q01 | points 2 | outcome sb6 | difficulty easy
 #### Question
 The word "oxygen" is used in two ways. Explain both meanings using the phrases "Water consists of the elements hydrogen and oxygen" and "A diver breathes oxygen".
 #### Answer
@@ -12,7 +12,7 @@ In the first sentence "oxygen" means the atomic species (all atoms with 8 proton
 2. As a non-decomposable substance (*niet-ontleedbaar*), oxygen is the substance O₂: molecules of two oxygen atoms bonded together, a distinct pure substance with its own properties (the gas the diver breathes).
 3. Confusing the two meanings is a classic trap: the substance oxygen (O₂) is not present in water.
 
-### chem-bk02-q02 | points 3 | outcome sb7 | difficulty easy
+### chem-02-q02 | points 3 | outcome sb7 | difficulty easy
 #### Question
 Give the chemical symbol for each of the following elements of the sb7 list: sodium, potassium, iron, lead, mercury, gold, barium, silver.
 #### Answer
@@ -22,7 +22,7 @@ Na, K, Fe, Pb, Hg, Au, Ba, Ag
 2. Iron Fe (*ferrum*), lead Pb (*plumbum*), mercury Hg (*hydrargyrum*), gold Au (*aurum*), silver Ag (*argentum*).
 3. Barium Ba. Check them in the periodic table in Binas; the exam expects you to know them.
 
-### chem-bk02-q03 | points 3 | outcome sb8 | difficulty easy
+### chem-02-q03 | points 3 | outcome sb8 | difficulty easy
 #### Question
 Give the formula of each substance from the sb8 list: ammonia, ozone, carbon monoxide, sulfur dioxide, hydrogen peroxide, sulfuric acid.
 #### Answer
@@ -33,7 +33,7 @@ NH₃; O₃; CO; SO₂; H₂O₂; H₂SO₄
 3. Sulfur dioxide SO₂; hydrogen peroxide H₂O₂.
 4. Sulfuric acid H₂SO₄ (the pure acid is a liquid; in solution write H₃O⁺(aq) and HSO₄⁻(aq)/SO₄²⁻(aq)).
 
-### chem-bk02-q04 | points 3 | outcome sb9 | difficulty easy
+### chem-02-q04 | points 3 | outcome sb9 | difficulty easy
 #### Question
 Give name and charge or, where asked, the formula: (1) the sulfate ion, (2) the phosphate ion, (3) NH₄⁺, (4) the acetate (ethanoate) ion, (5) the iron(III) ion.
 #### Answer
@@ -45,7 +45,7 @@ Give name and charge or, where asked, the formula: (1) the sulfate ion, (2) the 
 4. Acetate/ethanoate is CH₃COO⁻.
 5. Iron(III) means the iron ion with a 3+ charge: Fe³⁺ (Roman numerals give the charge when an element forms more than one positive ion).
 
-### chem-bk02-q05 | points 3 | outcome sb9 | difficulty medium
+### chem-02-q05 | points 3 | outcome sb9 | difficulty medium
 #### Question
 Give the formula of each salt: (1) sodium sulfate, (2) aluminium nitrate, (3) calcium hydroxide, (4) iron(III) chloride.
 #### Answer
@@ -56,7 +56,7 @@ Give the formula of each salt: (1) sodium sulfate, (2) aluminium nitrate, (3) ca
 3. Ca²⁺ and two OH⁻: Ca(OH)₂.
 4. Fe³⁺ and three Cl⁻: FeCl₃. In every salt the total charge is zero.
 
-### chem-bk02-q06 | points 3 | outcome sb10 | difficulty easy
+### chem-02-q06 | points 3 | outcome sb10 | difficulty easy
 #### Question
 Explain the meaning of each state symbol and give the correct notation for a sodium hydroxide solution (caustic soda): (s), (l), (g), (aq).
 #### Answer
@@ -66,7 +66,7 @@ Explain the meaning of each state symbol and give the correct notation for a sod
 2. (aq) (*aquos*, hydrated) means "dissolved in water, surrounded by water molecules".
 3. A dissolved salt exists as separate hydrated ions, so caustic soda is written as Na⁺(aq) + OH⁻(aq), not NaOH(aq). A well-soluble molecular substance keeps its formula: glucose C₆H₁₂O₆(aq).
 
-### chem-bk02-q07 | points 3 | outcome sb6–sb8 | difficulty medium
+### chem-02-q07 | points 3 | outcome sb6–sb8 | difficulty medium
 #### Question
 (1) How many different atomic species does one molecule of ethanoic acid, CH₃COOH, contain? (2) A bottle holds pure ozone, O₃. Is ozone an element or a compound? Explain.
 #### Answer
@@ -76,7 +76,7 @@ Explain the meaning of each state symbol and give the correct notation for a sod
 2. Element or compound asks about the number of atomic species in the substance, not about the number of atoms in the particle. O₃ molecules contain only one kind of atom, so ozone is an element (a non-decomposable substance), even though its molecule has three atoms.
 3. Contrast: H₂O is a compound (two atomic species); a molecule of one kind of atom, like O₂ or O₃, is still a pure substance and an element.
 
-### chem-bk02-q08 | points 3 | outcome sb8–sb9 | difficulty medium
+### chem-02-q08 | points 3 | outcome sb8–sb9 | difficulty medium
 #### Question
 Write the equations for dissolving these salts in water: (1) sodium carbonate, (2) aluminium chloride, (3) copper(II) sulfate pentahydrate.
 #### Answer
@@ -86,7 +86,7 @@ Write the equations for dissolving these salts in water: (1) sodium carbonate, (
 2. Al³⁺ and Cl⁻ in the ratio 1 : 3; write 3 Cl⁻, not Cl₃⁻.
 3. A hydrate also releases its crystal water: five H₂O molecules per formula unit appear on the right.
 
-### chem-bk02-q09 | points 3 | outcome sb6 | difficulty medium
+### chem-02-q09 | points 3 | outcome sb6 | difficulty medium
 #### Question
 For each substance, state whether it can be decomposed (ontleedbaar) and, where possible, into what: (1) water, (2) nitrogen, (3) glucose, (4) chlorine.
 #### Answer
@@ -97,7 +97,7 @@ Water: decomposable, into hydrogen and oxygen (2 H₂O(l) → 2 H₂(g) + O₂(g
 3. Glucose (C₆H₁₂O₆) is a compound: heating chars it to carbon and water vapour, and burning decomposes it completely to CO₂ and H₂O.
 4. Chlorine (Cl₂) consists of one kind of atom: non-decomposable. The dividing line is the number of atomic species in the substance.
 
-### chem-bk02-q10 | points 4 | outcome sb9 | difficulty hard
+### chem-02-q10 | points 4 | outcome sb9 | difficulty hard
 #### Question
 (1) Name the ions in aluminium sulfate, Al₂(SO₄)₃, and give their ratio. (2) A chemist dissolves 0.50 mol of aluminium sulfate in water. Calculate the amount, in mol, of aluminium ions and of sulfate ions in the solution.
 #### Answer

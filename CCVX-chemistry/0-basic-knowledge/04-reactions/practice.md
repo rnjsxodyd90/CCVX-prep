@@ -2,7 +2,7 @@
 
 Ten original questions on learning outcomes sb12–sb16, in CCVX style.
 
-### chem-bk04-q01 | points 2 | outcome sb12 | difficulty easy
+### chem-04-q01 | points 2 | outcome sb12 | difficulty easy
 #### Question
 Hydrogen peroxide decomposes by the equation 2 H₂O₂ → 2 H₂O + O₂. Name the reactant(s) and the reaction product(s), and explain what the arrow means.
 #### Answer
@@ -12,7 +12,7 @@ Reactant: hydrogen peroxide (H₂O₂, the starting substance). Products: water 
 2. The reaction products (*reactieproducten*) stand after it: water and oxygen.
 3. During the reaction bonds break in H₂O₂ (O–O and O–H) and new bonds form in H₂O (O–H) and O₂ (O=O); the atoms themselves remain — every H and O atom present before is present after.
 
-### chem-bk04-q02 | points 3 | outcome sb12 | difficulty easy
+### chem-04-q02 | points 3 | outcome sb12 | difficulty easy
 #### Question
 4.0 g of methane (CH₄) burns completely to 11.0 g of carbon dioxide and 9.0 g of water. Calculate the mass of oxygen that reacted, and state which law you used.
 #### Answer
@@ -22,7 +22,7 @@ Reactant: hydrogen peroxide (H₂O₂, the starting substance). Products: water 
 2. m(CH₄) + m(O₂) = m(CO₂) + m(H₂O).
 3. m(O₂) = 11.0 + 9.0 − 4.0 = 16.0 g. (Check with the equation CH₄ + 2 O₂ → CO₂ + 2 H₂O: 4.0 g CH₄ is 0.25 mol and does indeed use 0.50 mol = 16.0 g O₂.)
 
-### chem-bk04-q03 | points 2 | outcome sb13 | difficulty easy
+### chem-04-q03 | points 2 | outcome sb13 | difficulty easy
 #### Question
 Classify each decomposition by the kind of energy that drives it: (1) limestone splits into quicklime and carbon dioxide in a kiln, (2) water splits into hydrogen and oxygen with an electric current, (3) silver chloride darkens in daylight as silver and chlorine form.
 #### Answer
@@ -32,7 +32,7 @@ Classify each decomposition by the kind of energy that drives it: (1) limestone 
 2. Driven by electric current: electrolysis (2 H₂O(l) → 2 H₂(g) + O₂(g)).
 3. Driven by light: photolysis (2 AgCl → 2 Ag + Cl₂), the basis of old photographic film.
 
-### chem-bk04-q04 | points 3 | outcome sb14 | difficulty medium
+### chem-04-q04 | points 3 | outcome sb14 | difficulty medium
 #### Question
 Write the equation for the incomplete combustion of propane (C₃H₈) in which carbon monoxide is formed instead of carbon dioxide, and explain one reason this is dangerous indoors.
 #### Answer
@@ -42,7 +42,7 @@ Write the equation for the incomplete combustion of propane (C₃H₈) in which 
 2. With too little oxygen the combustion is incomplete: carbon ends up as CO (or as soot, C) instead of all in CO₂.
 3. CO is colourless and odourless, and it binds to haemoglobin where O₂ should bind, so poor ventilation with gas heaters or geysers causes carbon-monoxide poisoning.
 
-### chem-bk04-q05 | points 2 | outcome sb14 | difficulty easy
+### chem-04-q05 | points 2 | outcome sb14 | difficulty easy
 #### Question
 A gas hob contains a fuel-oxygen mixture all the time, yet it does not catch fire until you strike a spark. Use the concept of ignition temperature to explain this.
 #### Answer
@@ -52,7 +52,7 @@ A fuel burns only after being heated to its ignition temperature with enough oxy
 2. At room temperature the gas-oxygen mixture is below that temperature, so it does not ignite.
 3. The spark heats a small part of the mixture above the ignition temperature; that part burns and releases enough heat to ignite the rest, so the burning then continues by itself (an exothermic reaction keeps itself going).
 
-### chem-bk04-q06 | points 3 | outcome sb15 | difficulty easy
+### chem-04-q06 | points 3 | outcome sb15 | difficulty easy
 #### Question
 For each process, state whether it is exothermic or endothermic: (1) the combustion of natural gas, (2) melting of ice, (3) the thermolysis of limestone, (4) the neutralisation of an acid with a base.
 #### Answer
@@ -63,7 +63,7 @@ For each process, state whether it is exothermic or endothermic: (1) the combust
 3. Thermolysis only runs while you keep heating strongly: endothermic.
 4. Mixing acid and base gets warm: exothermic. Energy effects of reactions are treated quantitatively in C06 — energy calculations.
 
-### chem-bk04-q07 | points 3 | outcome sb16 | difficulty medium
+### chem-04-q07 | points 3 | outcome sb16 | difficulty medium
 #### Question
 Name the reagent and describe the observation for each test: (1) carbon dioxide, (2) water, (3) oxygen.
 #### Answer
@@ -74,7 +74,7 @@ Name the reagent and describe the observation for each test: (1) carbon dioxide,
 3. Oxygen supports combustion much better than air, so a glowing (not burning) splint bursts into flame in O₂.
 4. A reagent (*reagens*) is a substance used this way, with a characteristic change, to show another substance is present.
 
-### chem-bk04-q08 | points 3 | outcome sb16 | difficulty medium
+### chem-04-q08 | points 3 | outcome sb16 | difficulty medium
 #### Question
 During a school experiment a clear solution of calcium hydroxide goes cloudy when exhaled air is bubbled through it. Give the equation for the reaction and name the human-body process the exhaled CO₂ comes from.
 #### Answer
@@ -84,7 +84,7 @@ Ca²⁺(aq) + 2 OH⁻(aq) + CO₂(g) → CaCO₃(s) + H₂O(l); the CO₂ comes 
 2. In the body's cells, glucose is oxidised with oxygen to CO₂ and water (respiration, *disimilatie*), releasing energy: C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O — the reverse of photosynthesis.
 3. If you keep bubbling CO₂ much longer, the precipitate slowly redissolves as hydrogencarbonate forms (CaCO₃ + CO₂ + H₂O → Ca²⁺ + 2 HCO₃⁻).
 
-### chem-bk04-q09 | points 4 | outcome sb12 | difficulty hard
+### chem-04-q09 | points 4 | outcome sb12 | difficulty hard
 #### Question
 In a blast furnace, iron(III) oxide reacts with carbon monoxide to form liquid iron and one other gaseous substance. Use the law of conservation of elements to deduce what the gas is, and give the complete equation.
 #### Answer
@@ -95,7 +95,7 @@ The gas is carbon dioxide: Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂.
 3. Balance: Fe₂O₃ has three O atoms to remove; each CO takes one O and becomes CO₂, so three CO are needed: Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂.
 4. Check: Fe 2 = 2; O left 3 + 3 = 6, right 3 × 2 = 6; C 3 = 3.
 
-### chem-bk04-q10 | points 4 | outcome sb13 | difficulty medium
+### chem-04-q10 | points 4 | outcome sb13 | difficulty medium
 #### Question
 A bottle of hydrogen peroxide (H₂O₂) slowly loses its strength in daylight, as the peroxide decomposes into water and oxygen. (1) Give the equation for this decomposition. (2) Which type of decomposition is it, and what catalyses/light influences it? (3) How would you show that the gas formed is oxygen?
 #### Answer
