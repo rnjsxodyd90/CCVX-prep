@@ -1,0 +1,989 @@
+CENTRALE COMMISSIE VOORTENTAMEN WISKUNDE
+
+
+               Programma voortentamen Wiskunde B
+                             Ingaande december 2018
+
+Het voortentamen wiskunde B wordt afgenomen als een schriftelijk tentamen met
+open vragen. De tentamentijd is 3 uur. Informatie over de tentamendata en over de
+inschrijving voor deze tentamens vindt u op www.ccvx.nl .
+Het programma van het voortentamen wiskunde B van de CCVW is gebaseerd op
+het eindexamenprogramma wiskunde B van het vwo voor 2019 zoals gepubliceerd
+op www.examenblad.nl . Belangrijk verschil is dat er bij het tentamen geen
+gebruik gemaakt mag worden van een grafische rekenmachine of overige ICT.
+De nadere vaststelling van het examenprogramma op www.examenblad.nl is daarom
+niet van toepassing.
+In dit document vindt u
+   -   Het tentamenprogramma
+   -   De formulelijst die op het tentamen wordt afgedrukt
+   -   Tentamenbenodigdheden
+   -   Uitwerking van het tentamenprogramma in een lijst van begrippen,
+       eigenschappen en vaardigheden
+   -   Overzicht van algebraïsche vaardigheden
+   -   Aanbevolen leermateriaal
+
+
+
+
+ Bij het voortentamen dienen alle berekeningen algebraïsch of exact uitgevoerd te
+ worden, het gebruik van een grafische rekenmachine of een rekenmachine met
+ de mogelijkheid om integralen te berekenen is daarom niet toegestaan.
+ Wel toegestaan is het gebruik van een standaard rekenmachine met
+ exponentiële, logaritmische en goniometrische functies van een type vergelijkbaar
+ met de Casio fx 82 serie en de TI 30 serie
+Tentamenprogramma wiskunde B
+1    De kandidaat kan probleemsituaties die zich daartoe lenen in wiskundige termen analyseren,
+     oplossen en het resultaat naar de betrokken context terugvertalen.
+2    De kandidaat beheerst de bij het examenprogramma passende wiskundige vaardigheden,
+     waaronder modelleren en algebraïseren, ordenen en structureren, analytisch denken en
+     probleemoplossen, formules manipuleren, abstraheren, en logisch redeneren en bewijzen.
+3    De kandidaat kan formules interpreteren en bewerken, bij een verband tussen twee variabelen
+     een grafiek tekenen in een assenstelsel en bepalen of een gegeven formule herschreven kan
+     worden als functievoorschrift.
+4    De kandidaat kan grafieken tekenen en herkennen van de volgende standaardfuncties:
+     machtsfuncties met rationale exponenten, exponentiële functies, logaritmische functies,
+     goniometrische functies en de absolute-waarde-functie en kan van deze verschillende typen
+     functies de karakteristieke eigenschappen benoemen en gebruiken.
+5    De kandidaat kan functievoorschriften opstellen, bewerken, combineren, de bijbehorende
+     grafieken tekenen en aan de hand van een functievoorschrift kwalitatieve uitspraken doen over
+     de functie en haar grafiek.
+6    De kandidaat kan de inverse van een functie begripsmatig hanteren, opstellen en gebruiken.
+7    De kandidaat kan vergelijkingen, ongelijkheden en stelsels van twee lineaire vergelijkingen
+     oplossen en de oplossingen interpreteren.
+8    De kandidaat kan het asymptotisch gedrag van functies bepalen en dit met limietberekening
+     aantonen.
+9    De kandidaat kan de eerste en tweede afgeleide van een functie begripsmatig interpreteren en
+     gebruiken om die functie te onderzoeken en de eerste en tweede afgeleide gebruiken in
+     toepassingen.
+10   De kandidaat kan de eerste en tweede afgeleide van functies bepalen met behulp van de regels
+     voor het differentiëren en daarbij algebraïsche technieken gebruiken.
+11   De kandidaat kan de onder 4 genoemde standaardfuncties en eenvoudige combinaties daarvan
+     primitiveren (directe integratie) en kan in geschikte toepassingen een bepaalde integraal
+     opstellen en exact berekenen.
+12   De kandidaat kan bij periodieke verschijnselen formules opstellen en bewerken, de
+     bijbehorende grafieken tekenen, vergelijkingen oplossen en hierbij de periodiciteit met inzicht
+     gebruiken, waar nodig met gebruik van de formulelijst.
+13   De kandidaat kan meetkundige eigenschappen van objecten onderzoeken en bewijzen en kan
+     daarbij gebruik maken van meetkundige en algebraïsche technieken.
+14   De kandidaat kan eigenschappen en onderlinge ligging van punten, lijnen, cirkels en andere
+     geschikte figuren onderzoeken met behulp van algebraïsche voorstellingen, kan in een gegeven
+     of zelfgekozen coördinatenstelsel algebraïsche voorstellingen van figuren opstellen en kan
+     algebraïsche voorstellingen gebruiken om meetkundige problemen op te lossen.
+15   De kandidaat kan met behulp van vectoren en inproducten eigenschappen van figuren in het
+     vlak afleiden en berekeningen uitvoeren.
+16   De kandidaat kan de aangegeven technieken toepassen in geschikte natuurwetenschappelijke
+     en technische situaties.
+Formulelijst
+Onderstaande lijst wordt afgedrukt op de laatste bladzijde van het voortentamen Wiskunde B
+
+
+
+ sin2 (𝑥) + cos2 (𝑥) = 1
+
+
+ sin(𝑡 + 𝑢) = sin 𝑡 cos 𝑢 + cos 𝑡 sin 𝑢
+ sin(𝑡 − 𝑢) = sin 𝑡 cos 𝑢 − cos 𝑡 sin 𝑢
+ cos(𝑡 + 𝑢) = cos 𝑡 cos 𝑢 − sin 𝑡 sin 𝑢
+ cos(𝑡 − 𝑢) = cos 𝑡 cos 𝑢 + sin 𝑡 sin 𝑢
+
+
+ sin(2𝑡) = 2 sin(𝑡) cos (𝑡)
+ cos(2𝑡) = cos 2 (𝑡) − sin2 (𝑡) = 2 cos2 (𝑡) − 1 = 1 − 2 sin2(𝑡)
+
+
+
+
+Tentamenbenodigdheden
+Naar het tentamen moet u meenemen:
+   -   Identiteitsbewijs
+       Paspoort, rijbewijs, Europese ID kaart, verblijfsdocument
+   -   Schrijfgerei: pen
+       Een potlood mag alleen gebruikt worden voor het tekenen van grafieken.
+   -   Liniaal of geodriehoek
+   -   Rekenmachine met exponentiële, logaritmische en goniometrische functies
+       Grafische rekenmachines en rekenmachines met de mogelijkheid om integralen te
+       berekenen zijn niet toegestaan.
+   -   Een horloge (geen smartwatch) of een klok (niet de klok van uw telefoon)
+   -   Eten en drinken
+
+
+
+
+ Zorg ervoor dat u de juiste rekenmachine meeneemt. Als u alleen een grafische
+ rekenmachine bij u heeft, dan zult u het tentamen zonder rekenmachine moeten
+ maken.
+Uitwerking van het tentamenprogramma
+Hieronder wordt het tentamenprogramma nader uitgewerkt in een lijst van begrippen,
+eigenschappen en vaardigheden. Deze lijst is bedoeld als ondersteuning bij de
+voorbereiding op het voortentamen, maar niet als vervanging van het
+tentamenprogramma. Hoewel deze lijst met de grootst mogelijke zorg is
+samengesteld, kan het daarom voorkomen dat een tentamenvraag die wel onder het
+tentamenprogramma valt, niet aan de orde komt in deze lijst.
+
+
+
+ Begrip / Eigenschap / Vaardigheid         Opmerking / Toelichting
+
+ Standaardfuncties
+
+ Machtsfuncties: 𝑓(𝑥) = 𝑥 𝑛                𝑛 is een rationaal getal (een breuk)
+
+ Exponentiële functies: 𝑓(𝑥) = 𝑎 𝑥         𝑎>0
+                                  𝑔
+ Logaritmische functies: 𝑓(𝑥) = log(𝑥)     𝑔 > 0; 𝑔 ≠ 1; 𝑥 > 0
+                                                               e
+ Het getal e en de natuurlijke logaritme   e ≈ 2,718282;           log(𝑥) = ln (𝑥)
+
+ Goniometrische functies:                             sin(𝑥)
+                                           tan(𝑥) =
+ 𝑓(𝑥) = sin (𝑥); 𝑔(𝑥) = cos (𝑥)                       cos(𝑥)
+
+                                           |𝑥| = 𝑥 voor 𝑥 ≥ 0
+ Absolute-waarde-functie: 𝑓(𝑥) = |𝑥|
+                                           |𝑥| = −𝑥 voor 𝑥 < 0
+
+ Functies combineren
+
+ Functies kun je bij elkaar optellen en    𝑓(𝑥) = 4𝑥 4 + 3𝑥 3 + 2𝑥 2 + 𝑥 + 1 is een
+ vermenigvuldigen met een constante        combinatie van 5 machtsfuncties
+
+ Vermenigvuldigen en delen van
+                                           Bijvoorbeeld ℎ(𝑥) = 𝑥 2 ⋅ e𝑥
+ functies
+
+ Samengestelde functies
+                                           𝑓(𝑥) = e𝑥 en 𝑔(𝑥) = 𝑥 2
+                                                           2
+ ℎ(𝑥) = 𝑓(𝑔(𝑥))                            geeft ℎ(𝑥) = e𝑥
+
+ Inverse functies                          𝑓(𝑥) = 𝑥 3 geeft 𝑓 𝑖𝑛𝑣 (𝑦) = 3√𝑦
+                                                                              𝑔
+ 𝑦 = 𝑓(𝑥) ⇔ 𝑥 = 𝑓 𝑖𝑛𝑣 (𝑦)                  𝑓(𝑥) = 𝑔 𝑥 geeft 𝑓 𝑖𝑛𝑣 (𝑦) = log(𝑦)
+Domein en Bereik
+                                                       1
+Domein: alle toegestane x-waarden   𝑓(𝑥) = 𝑥 −1 = 𝑥 bestaat niet als 𝑥 = 0
+
+Bereik: alle mogelijke y-waarden    𝑓(𝑥) = 𝑥 2 geeft 𝑦 = 𝑥 2 ≥ 0
+
+Domein en bereik worden vaak        Deze moet je kunnen lezen, maar hoef
+gegeven in de intervalnotatie       je niet zelf te gebruiken
+
+
+
+Machten
+
+𝑎𝑛 is een macht met grondtal 𝑎 en   𝑛 is een rationaal getal (een breuk)
+exponent 𝑛
+
+Bijzondere exponenten
+
+𝑎2 = 𝑎 ⋅ 𝑎; 𝑎3 = 𝑎 ⋅ 𝑎 ⋅ 𝑎 etc.
+
+𝑎1 = 𝑎
+
+𝑎0 = 1                              𝑎≠0
+
+    −𝑛
+           1  1 𝑛                   𝑎≠0
+𝑎        = 𝑛=( )                             1     1
+          𝑎   𝑎                     𝑎−1 =        =
+                                             𝑎 1   𝑎
+    1
+         𝑛                          𝑛 = 2, 3, 4,5, …
+𝑎 𝑛 = √𝑎
+                                    𝑎 ≥ 0 voor even waarden van 𝑛
+                                     1
+                                         2
+                                    𝑎 2 = √𝑎 = √𝑎
+
+Rekenregels voor machten
+
+𝑎𝑚 ⋅ 𝑎𝑛 = 𝑎𝑚+𝑛
+
+𝑎𝑚
+   = 𝑎𝑚−𝑛
+𝑎𝑛
+                                     𝑚       1             1 𝑚       𝑚
+(𝑎𝑚 )𝑛 = 𝑎𝑚⋅𝑛                       𝑎 𝑛 = 𝑎𝑛⋅𝑚 = (𝑎𝑛 ) = ( √𝑎 )
+                                                                 𝑛
+
+
+
+
+(𝑎 ⋅ 𝑏)𝑛 = 𝑎𝑛 ⋅ 𝑏 𝑛                 (𝑎 + 𝑏)2 ≠ 𝑎2 + 𝑏 2
+
+ 𝑎 𝑛 𝑎𝑛
+( ) = 𝑛
+ 𝑏   𝑏
+Machtsfuncties
+
+Standaardfunctie: 𝑓(𝑥) = 𝑥 𝑛            De invoervariabele 𝑥 is het grondtal
+
+Constante functie: 𝑓(𝑥) = 𝑐             𝑓(𝑥) = 𝑐 ⋅ 𝑥 0
+                                        De grafiek is een horizontale rechte lijn
+
+Eerstegraads functies:                  𝑓(𝑥) = 𝑎 ⋅ 𝑥1 + 𝑏 ⋅ 𝑥 0
+𝑓(𝑥) = 𝑎𝑥 + 𝑏                           De grafiek is de rechte lijn met
+                                        vergelijking 𝑦 = 𝑎𝑥 + 𝑏
+
+Tweedegraads functies:                  De grafiek is een parabool met
+                                                            𝑏
+𝑓(𝑥) = 𝑎𝑥 2 + 𝑏𝑥 + 𝑐                    symmetrieas 𝑥 = − 2𝑎
+                                        Dalparabool als 𝑎 > 0
+                                        Bergparabool als 𝑎 < 0
+                                        Het aantal snijpunten met de x-as
+                                        wordt bepaald door 𝐷 = 𝑏 2 − 4𝑎𝑐
+
+Wortelfuncties:
+                         1
+Voor 𝑥 ≥ 0 is 𝑓(𝑥) = 𝑥 2 = √𝑥 de        Domein: 𝑥 ≥ 0; Bereik 𝑦 ≥ 0
+                                        De grafiek is een halve (liggende)
+inverse functie van 𝑓(𝑥) = 𝑥 2
+                                        parabool
+         1
+             3
+𝑓(𝑥) = 𝑥 3 = √𝑥 is de inverse functie   Domein: ℝ; Bereik ℝ
+van 𝑓(𝑥) = 𝑥 3
+
+
+
+Exponentiële functies
+
+𝑓(𝑥) = 𝑎 𝑥 met 𝑎 > 0                    De invoervariabele 𝑥 is de exponent
+                                        Als 𝑎 > 1 is de grafiek toenemend
+                                        stijgend met een horizontale asymptoot
+                                        voor 𝑥 → −∞
+                                        Als 0 < 𝑎 < 1 is de grafiek afnemend
+                                        dalend met een horizontale asymptoot
+                                        voor 𝑥 → ∞
+
+Formule voor exponentiële groei met
+                                        𝑁(𝑡) = 𝑏 ⋅ 𝑔𝑡
+beginwaarde b en groeifactor g
+
+Verdubbelingstijd, halveringstijd
+Logaritmische functies
+
+         𝑔                                     𝑔
+𝑙(𝑥) = log(𝑥) is de inverse functie van   𝑦 = log(𝑥) ⇔ 𝑔 𝑦 = 𝑥
+𝑓(𝑥) = 𝑔 𝑥                                e𝑥 = 𝑦 ⇔ 𝑥 = elog(𝑦) = ln (𝑦)
+
+𝑔                 𝑔
+    log(1) = 0;       log(𝑔) = 1          ln(1) = 0; ln(e) = 1
+
+log(𝑥) = 10log(𝑥)                         log(1) = 0; log(10) = 1
+
+Domein: 𝑥 > 0                             De grafiek heeft verticale asymptoot
+                                          𝑥=0
+                                          Als 𝑔 > 1 is de grafiek afnemend
+                                          stijgend
+                                          Als 0 < 𝑔 < 1 is de grafiek afnemend
+                                          dalend
+
+                                          Deze volgen uit de rekenregels voor
+Rekenregels voor logaritmen
+                                          machten
+𝑔            𝑔             𝑔
+    log(𝑎) + log(𝑏) = log(𝑎 ⋅ 𝑏)
+
+𝑔           𝑔        𝑔     𝑎
+    log(𝑎) − log(𝑏) = log ( )
+                           𝑏
+𝑔                     𝑔
+    log(𝑎𝑛 ) = 𝑛 ⋅ log(𝑎)                 Dit geldt voor alle getallen 𝑛
+             𝑝
+𝑔                log(𝑎)                   Wordt vaak gebruikt met 𝑝 = 10 of met
+    log(𝑎) = 𝑝                            𝑝 = e om logaritmen te berekenen met
+                 log(𝑔)
+                                          de log of de ln functie van de
+                                          rekenmachine
+
+
+
+Goniometrie
+
+Sinus, cosinus en tangens in een
+                                          SOSCASTOA
+rechthoekige driehoek
+
+Hoeken in de eenheidscirkel
+                                                                 𝜋
+Hoeken in graden en in radialen           180° = 𝜋 𝑟𝑎𝑑; 1° = 180 𝑟𝑎𝑑
+
+Exacte waarden van de sinus en            30-60-90 driehoek en 45-45-90
+cosinus van standaardhoeken               driehoek; exacte waarden cirkel
+
+Stelling van Pythagoras                   cos2 (𝛼) + sin2(𝛼) = 1
+
+Somformules                               Zie formulelijst
+Goniometrische functies              Bij goniometrische functies rekenen we
+𝑓(𝑥) = sin (𝑥); 𝑔(𝑥) = cos(𝑥)        vrijwel altijd in radialen
+
+Periode van deze standaardfuncties   2𝜋
+                                                                1
+                                     sin(𝑥) = −1 voor 𝑥 = − 2 𝜋 + 𝑘 ⋅ 2𝜋
+Minima
+                                     cos(𝑥) = −1 voor 𝑥 = 𝜋 + 𝑘 ⋅ 2𝜋
+                                                            1
+                                     sin(𝑥) = 1 voor 𝑥 = 2 𝜋 + 𝑘 ⋅ 2𝜋
+Maxima
+                                     cos(𝑥) = 1 voor 𝑥 = 0 + 𝑘 ⋅ 2𝜋
+
+                                     sin(𝑥) = 0 voor 𝑥 = 0 + 𝑘 ⋅ 𝜋
+Nulpunten                                                1
+                                     cos(𝑥) = 0 voor 𝑥 = 2 𝜋 + 𝑘 ⋅ 𝜋
+
+Vorm grafiek                         Sinusoïde
+
+                                     sin(𝑥) = sin(𝜋 − 𝑥)
+                                     cos(𝑥) = cos(−𝑥)
+Symmetrie-eigenschappen
+                                     −sin(𝑥) = sin(−𝑥) = sin(𝜋 + 𝑥)
+                                     − cos(𝑥) = cos(𝜋 − 𝑥) = cos(𝜋 + 𝑥)
+                                                        1
+                                     sin(𝑥) = cos (𝑥 − 2 𝜋)
+Horizontale translaties                                 1
+                                     cos(𝑥) = sin (𝑥 + 2 𝜋)
+
+Algemene vorm van een sinusoïde      𝐴 = evenwichtsstand
+                                     |𝐵| = amplitude
+𝑓(𝑥) = 𝐴 + 𝐵 ⋅ sin(𝐶 ⋅ (𝑥 − 𝐷))             2𝜋
+                                     𝐶=
+                                         periode
+                                     Als 𝐵 > 0 gaat de grafiek stijgend door
+                                     de evenwichtsstand in het punt (𝐷, 𝐴)
+                                     (beginpunt)
+
+Harmonische trilling                 𝑎 = amplitude
+                                     𝑇 = trillingstijd (periode)
+                2𝜋                       1
+𝑢 = 𝑎 ⋅ sin (      ⋅ 𝑡)              𝑓 = 𝑇 = frequentie
+                𝑇
+Differentiëren                         𝑓(𝑥) = 𝑐 geeft 𝑓 ′ (𝑥) = 0
+                                       𝑓(𝑥) = 𝑥 𝑎 geeft 𝑓 ′ (𝑥) = 𝑎𝑥 𝑎−1
+Afgeleiden van de standaardfuncties    𝑓(𝑥) = 𝑎 𝑥 geeft 𝑓 ′ (𝑥) = 𝑎 𝑥 ⋅ ln (𝑎)
+                                       𝑓(𝑥) = e𝑥 geeft 𝑓 ′ (𝑥) = e𝑥
+Diverse notaties voor de afgeleide                                    1
+                                       𝑓(𝑥) = ln (𝑥) geeft 𝑓 ′ (𝑥) = 𝑥
+                                       𝑓(𝑥) = sin (𝑥) geeft 𝑓 ′ (𝑥) = cos (𝑥)
+                                       𝑓(𝑥) = cos(𝑥) geeft 𝑓 ′ (𝑥) = −sin (𝑥)
+
+Regels voor het differentiëren van
+combinaties van functies
+                                               𝑔              ln(𝑥)          1
+                                       𝑓(𝑥) = log(𝑥) = ln(𝑔) = ln(𝑔) ⋅ ln(𝑥)
+Constante factorregel                                     1          1
+                                       geeft 𝑓 ′ (𝑥) =           ⋅
+                                                         ln(𝑔)       𝑥
+Somregel
+
+Productregel
+                                                           sin(𝑥)
+                                       𝑓(𝑥) = tan(𝑥) =                   differentieer je
+                                                           cos(𝑥)
+Quotiëntregel
+                                       met de quotiëntregel
+Kettingregel
+
+
+
+Integreren
+
+𝐹(𝑥) is een primitieve van 𝑓(𝑥) als
+𝐹 ′ (𝑥) = 𝑓(𝑥)
+
+Als 𝐹(𝑥) een primitieve is van 𝑓(𝑥),   De constante 𝐶 verdwijnt immers bij
+dan is 𝐺(𝑥) = 𝐹(𝑥) + 𝐶 dat ook.        het differentiëren
+
+Bepaalde integraal:
+        𝑏
+                                       In deze formule is 𝐹(𝑥) een primitieve
+       ∫ 𝑓(𝑥) d𝑥 = 𝐹(𝑏) − 𝐹(𝑎)         van 𝑓(𝑥)
+       𝑎
+
+Integraal en oppervlakte               Als 𝑓(𝑥) ≥ 0 op het interval 𝑎 ≤ 𝑥 ≤ 𝑏,
+                                       dan is de oppervlakte van het vlakdeel
+                                       dat wordt begrensd door de lijn 𝑥 = 𝑎,
+                                       de x-as, de lijn 𝑥 = 𝑏 en de grafiek van
+                                                      𝑏
+                                       𝑓 gelijk aan ∫𝑎 𝑓(𝑥) d𝑥
+Standaardprimitieven
+
+𝑓(𝑥) = 𝑐 geeft 𝐹(𝑥) = 𝑐𝑥 + 𝐶
+                          1
+𝑓(𝑥) = 𝑥 𝑎 geeft 𝐹(𝑥) = 𝑎+1 𝑥 𝑎+1 + 𝐶    𝑎 ≠ −1
+
+𝑓(𝑥) = e𝑥 geeft 𝐹(𝑥) = e𝑥 + 𝐶
+       1
+𝑓(𝑥) = 𝑥 geeft 𝐹(𝑥) = ln(|𝑥|) + 𝑐        Voor 𝑥 < 0 geeft dit 𝐹(𝑥) = ln(−𝑥) + 𝐶
+
+𝑓(𝑥) = sin (𝑥) geeft
+          𝐹(𝑥) = − cos(𝑥) + 𝐶
+
+𝑓(𝑥) = cos (𝑥) geeft 𝐹(𝑥) = sin(𝑥) + 𝐶
+
+Rekenregels voor het primitiveren
+van combinaties van functies
+
+Constante factor regel                   𝑔(𝑥) = 𝑐 ⋅ 𝑓(𝑥) geeft 𝐺(𝑥) = 𝑐 ⋅ 𝐹(𝑥)
+
+                                         𝑠(𝑥) = 𝑓(𝑥) + 𝑔(𝑥) geeft
+Somregel
+                                         𝑆(𝑥) = 𝐹(𝑥) + 𝐺(𝑥)
+
+                                         𝑔(𝑥) = 𝑓(𝑎𝑥 + 𝑏) geeft
+Eenvoudige kettingregel                         1
+                                         𝐺(𝑥) = 𝑎 ⋅ 𝐹(𝑎𝑥 + 𝑏)
+
+                                          𝑏           𝑐             𝑏
+
+Rekenregel voor bepaalde                 ∫ 𝑓(𝑥) d𝑥 = ∫ 𝑓(𝑥) d𝑥 + ∫ 𝑓(𝑥) d𝑥
+integralen                               𝑎            𝑎            𝑐
+                                                                        (𝑎 < 𝑐 < 𝑏)
+
+Toepassingen van de
+integraalrekening
+                                          𝑏
+Berekenen van de oppervlakte van een
+vlakdeel met bovengrens 𝑓(𝑥) en          ∫ 𝑓(𝑥) − 𝑔(𝑥) d𝑥
+ondergrens 𝑔(𝑥)                          𝑎
+
+                                              𝑏
+Berekenen van de inhoud van een
+omwentelingslichaam bij wentelen rond    𝜋 ∫ 𝑦 2 d𝑥 met 𝑦 = 𝑓(𝑥)
+de x-as                                      𝑎
+
+                                              𝑑
+Berekenen van de inhoud van een
+omwentelingslichaam bij wentelen rond    𝜋 ∫ 𝑥 2 d𝑦 met 𝑥 = 𝑓 𝑖𝑛𝑣 (𝑦)
+de y-as                                       𝑐
+
+                                                  𝑝
+
+Integraal met variabele grenzen          𝑔(𝑝) = ∫ 𝑓(𝑥) d𝑥 = 𝐹(𝑝) − 𝐹(1)
+                                                  1
+Meetkunde met coördinaten
+Uitgangspunt is een rechthoekig assenstelsel met gelijke eenheden langs de
+assen. Dit geldt ook als we grafieken van functies meetkundig analyseren.
+
+Rechte lijnen
+
+Algemene vorm van de vergelijking
+van een rechte lijn: 𝑚𝑥 + 𝑛𝑦 = 𝑐
+
+Veel gebruikte vorm: 𝑦 = 𝑎𝑥 + 𝑏           Niet voor verticale lijnen
+                        Δ𝑦    𝑦 −𝑦𝐴       De richtingscoëfficiënt is gelijk aan 𝑎
+Richtingscoëfficiënt:        = 𝐵
+                        Δ𝑥    𝑥𝐵 −𝑥𝐴      uit de formule 𝑦 = 𝑎𝑥 + 𝑏
+
+De vergelijking van de lijn door (𝑝, 0)
+en (0, 𝑞) kan ook geschreven worden       Dit kan niet als 𝑝 = 0 of 𝑞 = 0
+    𝑥   𝑦
+als + = 1
+    𝑝   𝑞
+
+Rechte lijnen en hoeken
+
+De richtingshoek van een rechte lijn is
+de hoek 𝛼 tussen de lijn en de x-as       tan(𝛼) = richtingscoëfficiënt
+met −90° < 𝛼 < 90°
+
+                                          Je bepaalt deze hoek door beide lijnen
+De hoek 𝛽 tussen twee rechte lijnen is
+                                          in een assenstelsel te tekenen en
+de kleinste hoek die deze in hun
+                                          daarbij de richtingshoeken bij het
+snijpunt maken, dus 0° ≤ 𝛽 ≤ 90°
+                                          snijpunt weer te geven.
+
+                                          Het omgekeerde geldt ook:
+Twee lijnen staan loodrecht op elkaar
+                                          Als twee lijnen loodrecht op elkaar
+als het product van hun richtings-
+                                          staan, dan is het product van hun
+coëfficiënten gelijk is aan −1
+                                          richtingscoëfficiënten gelijk aan −1
+Loodlijn en afstand                       De loodlijn op de lijn met vergelijking
+                                                                                  1
+Loodlijn                                  𝑦 = 𝑎𝑥 + 𝑏 heeft richtingscoëfficiënt − 𝑎
+
+
+Afstand tussen de punten 𝐴(𝑎1 , 𝑎2 ) en   |𝐴𝐵| = √(𝑏1 − 𝑎1 )2 + (𝑏2 − 𝑎2 )2
+𝐵(𝑏1 , 𝑏2 )                               wordt ook genoteerd als 𝑑(𝐴, 𝐵)
+
+Projectie van een punt op een lijn        Afstanden worden bepaald met behulp
+                                          van loodlijnen. De formule voor de
+Afstand tussen een punt en een lijn
+                                          afstand tussen een punt en een rechte
+Afstand tussen twee evenwijdige lijnen    lijn mag je gebruiken, maar wordt niet
+                                          bekend verondersteld.
+
+                                          De middelloodlijn van de punten A en B
+Middelloodlijn                            bestaat uit alle punten P met
+                                          |𝑃𝐴| = |𝑃𝐵|
+
+                                          Het bissectricepaar van de lijnen l en m
+Bissectrice                               bestaat uit alle punten P met
+                                          𝑑(𝑃, 𝑙) = 𝑑(𝑃, 𝑚)
+
+
+
+Meetkunde in driehoeken
+
+Stelling van Pythagoras
+
+Oppervlakte van een driehoek              1
+                                              × basis × hoogte
+                                          2
+
+Hoekensom                                 De som van de hoeken van een
+                                          driehoek is 180°
+
+Sinusregel en cosinusregel
+
+Gelijkbenige driehoeken                   De hoeken die de gelijke benen maken
+                                          met de derde zijde zijn ook gelijk
+
+Gelijkzijdige driehoeken                  Alle hoeken zijn 60°
+
+Gelijkvormige driehoeken                  Twee driehoeken zijn gelijkvormig als
+                                          de hoeken van de ene driehoek gelijk
+                                          zijn aan die van de andere. Dan zijn de
+                                          verhoudingen tussen de lengtes van de
+                                          zijden van de ene driehoek ook gelijk
+                                          aan die van de andere driehoek
+
+Zwaartelijnen                             Het zwaartepunt verdeelt elke
+                                          zwaartelijn in twee delen waarbij de
+Zwaartepunt
+                                          lengte van het ene deel twee keer de
+                                          lengte van het andere deel is
+Vectoren
+
+Een vector geeft een verplaatsing weer     Een vector 𝑣⃗ heeft dus een lengte, die
+over een bepaalde afstand in een           we aangeven met |𝑣⃗|, en een richting
+bepaalde richting.
+
+De vector die de verplaatsing van punt A
+naar punt B geeft, noteren we als ⃗⃗⃗⃗⃗⃗
+                                  𝐴𝐵
+
+Nulvector ⃗0⃗                               ⃗⃗| = 0; ⃗0⃗ is de enige vector die geen
+                                           |0
+                                           richting heeft
+
+Vectoren kun je bij elkaar optellen        Kop-staart-methode
+
+                                           ⃗𝑏 = 𝑐 ⋅ 𝑎⃗ met 𝑐 > 0 heeft dezelfde
+Vectoren kun je vermenigvuldigen met       richting als 𝑎⃗; |𝑏⃗| = 𝑐 ⋅ |𝑎⃗|
+een constante                              𝑏⃗ = 𝑐 ⋅ 𝑎⃗ met 𝑐 < 0 heeft de tegen-
+                                           gestelde richting van 𝑎⃗; |𝑏⃗| = −𝑐 ⋅ |𝑎⃗|
+
+Vectoren met kentallen
+
+ 4                                         ⃗⃗⃗⃗⃗⃗ 4
+( ) is een vector met kentallen 4 en 3     𝑂𝐴 = ( ) geeft de verplaatsing van
+ 3                                                3
+                                           𝑂(0,0) naar 𝐴(4,3);
+⃗⃗⃗⃗⃗⃗
+𝑂𝐴 is de plaatsvector van punt A
+
+Rekenen met kentallen
+                                            4   −1   4 + −1    3
+Optellen                                   ( )+( )=(        )=( )
+                                            3   1    3 + 1     4
+                                                    −1     −5 ⋅ −1    5
+Vermenigvuldigen met een constante         −5 ⋅ (      )=(         )=( )
+                                                    0,2    −5 ⋅ 0,2   −1
+                                             4
+De lengte van een vector                   |( )| = √42 + 32 = 5
+                                             3
+
+De kentallen van de nulvector              ⃗0⃗ = (0)
+                                                  0
+                                            4   4   0
+Ontbinden langs de assen                   ( )=( )+( )
+                                            3   0   3
+Inwendig product                        Kortweg inproduct
+
+𝑎⃗ ⋅ 𝑏⃗⃗ = |𝑎⃗| ⋅ |𝑏⃗| ⋅ cos(𝛼)          𝑎1     𝑏
+                                        (𝑎 ) ⋅ ( 1 ) = 𝑎1 𝑏1 + 𝑎2 𝑏2
+                                          2     𝑏2
+                                                   𝑎1 𝑏1 + 𝑎2 𝑏2
+                                        cos(𝛼) =
+                                                      |𝑎⃗| ⋅ |𝑏⃗|
+
+Als twee vectoren loodrecht op elkaar   Omgekeerd geldt:
+staan, is hun inproduct 0               Als het inproduct van twee vectoren 0
+                                        is, dan staan ze loodrecht op elkaar
+                                        (behalve als is één van beide vectoren
+                                        de nulvector is)
+
+Vectorvoorstelling van een lijn         Wordt ook parametervoorstelling
+                                        genoemd
+ 𝑥      𝑎       𝑝
+(𝑦 ) = ( ) + 𝜆 ( 𝑞 )
+        𝑏
+             𝑎                    𝑝
+Steunvector ( ); Richtingsvector (𝑞 )   Het getal 𝜆 wordt parameter genoemd
+             𝑏
+                                                                       𝑝
+Een normaalvector van een lijn is een   De lijn l met richtingsvector (𝑞 ) heeft
+vector die loodrecht staat op de                                  𝑞
+richtingsvector van de lijn             normaalvector 𝑛  ⃗⃗⃗⃗𝑙 = (−𝑝)
+
+                                        De lijn m met vergelijking 𝑝𝑥 + 𝑞𝑦 = 𝑐
+                                                                     𝑝
+                                        heeft normaalvector 𝑛⃗⃗⃗⃗⃗⃗
+                                                                𝑚 = (𝑞 )
+Meetkunde in cirkels
+
+Middelpuntvergelijking van de cirkel      Omzetten van de eerste naar de
+met middelpunt 𝑀(𝑎, 𝑏) en straal r:       tweede vorm met haakjes wegwerken
+(𝑥 − 𝑎)2 + (𝑦 − 𝑏)2 = 𝑟 2
+De vergelijking van een cirkel wordt      Omzetten van de tweede naar de
+ook vaak geschreven in de vorm            eerste vorm met kwadraat afsplitsen
+𝑥 2 + 𝑦 2 + 𝑝𝑥 + 𝑞𝑦 + 𝑠 = 0
+
+                                          Door substitutie krijg je een
+Snijpunt(en) met een rechte lijn
+                                          tweedegraads vergelijking met 0, 1 of 2
+berekenen
+                                          oplossingen
+
+Raaklijn, raakpunt
+
+Een raaklijn aan een cirkel staat         richtingscoëfficiënt raaklijn ×
+loodrecht op de straal naar het           richtingscoëfficiënt straal = −1
+raakpunt
+
+                                          Eliminatie van 𝑥 2 + 𝑦 2 geeft een
+Snijpunten cirkels berekenen              vergelijking van de lijn door de
+                                          snijpunten
+
+                                          De gemeenschappelijke raaklijn staat
+Rakende cirkels                           loodrecht op de lijn door de
+                                          middelpunten
+
+                                          De raakpunten liggen even ver van
+Raaklijnen door punt P buiten de cirkel
+                                          punt P
+
+Afstand tussen twee cirkels berekenen     M.b.v. de lijn door de middelpunten
+
+Afstand tussen een lijn en een cirkel     M.b.v. de loodlijn uit het middelpunt
+berekenen                                 van de cirkel op de lijn
+
+Driehoeken en cirkels
+
+De omgeschreven cirkel van een            Het middelpunt is het snijpunt van de
+driehoek gaat door de drie hoekpunten     middelloodlijnen van de zijden
+
+De ingeschreven cirkel van een            Het middelpunt is het snijpunt van de
+driehoek raakt de drie zijden             bissectrices van de hoeken
+
+                                          Een driehoek waarvan een zijde een
+Stelling van Thales                       middellijn is van de omgeschreven
+                                          cirkel is rechthoekig
+
+                                          In een rechthoekige driehoek is het
+                                          midden van de schuine zijde het
+Omgekeerde stelling van Thales
+                                          middelpunt van de omgeschreven
+                                          cirkel
+Grafieken
+
+Verloop van de grafieken van de
+standaardfuncties
+
+Tekenen en schetsen                      Bij het tekenen van een grafiek moet je
+                                         de waarde van de getallen op de assen
+                                         aangeven, de coördinaten van
+                                         meerdere punten berekenen,
+                                         eventuele asymptoten aangeven en
+                                         zorgen dat het domein, het bereik en
+                                         andere kenmerken van de functie
+                                         duidelijk af te lezen zijn.
+                                         In een schets van een grafiek moet je
+                                         het verloop van de grafiek weergeven
+                                         en minima, maxima en asymptoten
+                                         aangeven.
+
+Transformaties
+
+Horizontale translatie over c eenheden   𝑔(𝑥) = 𝑓(𝑥 − 𝑐)
+
+Verticale translatie over c eenheden     𝑔(𝑥) = 𝑓(𝑥) + 𝑐
+                                                   1
+Vermenigvuldiging t.o.v. de y-as         𝑔(𝑥) = 𝑓 (𝑐 ⋅ 𝑥)
+
+Vermenigvuldiging t.o.v. de x-as         𝑔(𝑥) = 𝑐 ⋅ 𝑓(𝑥)
+
+Spiegeling in de y-as                    𝑔(𝑥) = 𝑓(−𝑥)
+
+Spiegeling in de x-as                    𝑔(𝑥) = −𝑓(𝑥)
+
+Lijnsymmetrie in de y-as                 𝑓(−𝑥) = 𝑓(𝑥)
+
+Puntsymmetrie in de oorsprong            𝑓(−𝑥) = −𝑓(𝑥)
+
+Verticale afstand tussen twee            De afstand tussen de snijpunten van
+grafieken                                de grafieken van twee functies met de
+                                         verticale lijn 𝑥 = 𝑝 is |𝑓(𝑝) − 𝑔(𝑝)|
+Asymptoten en limieten
+
+                                       Eenvoudige voorbeelden:
+Limieten berekenen                         1           2−𝑥             1    1
+                                       lim = 0; lim          2
+                                                               = lim       =4
+                                       𝑥→∞ 𝑥       𝑥→2 4 − 𝑥     𝑥→2 2 + 𝑥
+
+
+Horizontale asymptoot                  Als lim 𝑓(𝑥) = 𝑐 of lim 𝑓(𝑥) = 𝑐
+                                          𝑥→∞                 𝑥→−∞
+
+                                       Als lim 𝑓(𝑥) = ∞ of lim 𝑓(𝑥) = −∞
+                                          𝑥↑𝑎                𝑥↑𝑎
+Verticale asymptoot
+                                       of lim 𝑓(𝑥) = ∞ of lim 𝑓(𝑥) = −∞
+                                          𝑥↓𝑎                𝑥↓𝑎
+
+                                                𝑓(𝑥)
+Verticale asymptoot bij een gebroken   𝑞(𝑥) = 𝑔(𝑥) heeft een verticale
+functie                                asymptoot als 𝑔(𝑥) = 0 ∧ 𝑓(𝑥) ≠ 0
+
+                                       Als lim (𝑓(𝑥) − (𝑎𝑥 + 𝑏)) = 0
+                                          𝑥→∞
+Scheve asymptoot
+                                       of lim (𝑓(𝑥) − (𝑎𝑥 + 𝑏)) = 0
+                                          𝑥→−∞
+
+                                       Als lim 𝑓(𝑥) = lim 𝑓(𝑥), maar 𝑓(𝑎) niet
+Perforatie                                𝑥↑𝑎          𝑥↓𝑎
+                                       bestaat
+
+Sprong                                 Als lim 𝑓(𝑥) ≠ lim 𝑓(𝑥)
+                                          𝑥↑𝑎          𝑥↓𝑎
+Toepassingen van de afgeleide
+
+𝑓′(𝑎) is de helling van de (raaklijn aan    𝑓 ′ (𝑎) = richtingscoëfficiënt raaklijn =
+de) grafiek van 𝑓 in het punt (𝑎, 𝑓(𝑎))     tan (𝑟𝑖𝑐ℎ𝑡𝑖𝑛𝑔𝑠ℎ𝑜𝑒𝑘) in punt (𝑎, 𝑓(𝑎))
+
+De hoek tussen twee krommen in een          Is de hoek tussen de raaklijnen aan de
+punt P                                      krommen in punt P
+
+De grafiek is stijgend als 𝑓 ′ (𝑥) > 0 en
+dalend als 𝑓 ′ (𝑥) < 0
+
+In een minimum en in een maximum            Je berekent de punten waar 𝑓 een
+geldt 𝑓 ′ (𝑥) = 0                           minimum of een maximum kan hebben
+Minima en maxima worden samen               met 𝑓 ′ (𝑥) = 0. Daarna moet je met
+extremen genoemd.                           een schets van de grafiek nagaan in
+                                            welke punten de grafiek een minimum
+De punten waar de grafiek een               dan wel een maximum heeft.
+minimum of een maximum heeft, heten
+de toppen van de grafiek.
+
+Rakende grafieken                           𝑓(𝑥) = 𝑔(𝑥) en 𝑓 ′ (𝑥) = 𝑔′(𝑥)
+
+Loodrecht snijdende grafieken               𝑓(𝑥) = 𝑔(𝑥) en 𝑓 ′ (𝑥) ⋅ 𝑔′ (𝑥) = −1
+
+In een punt waar de afgeleide een           Je berekent de punten waar 𝑓 een
+extreem heeft, heeft de grafiek een         buigpunt kan hebben met 𝑓 ′ ′(𝑥) = 0.
+buigpunt.                                   Daarna moet je eigenlijk nog nagaan in welke
+In zo’n buigpunt geldt 𝑓 ′′ (𝑥) = 0         van deze punten de afgeleide een extreem
+                                            heeft, maar het zal meestal uit de vraagstelling
+                                            al duidelijk zijn of er sprake is van een
+Als 𝑓 ′ (𝑥) > 0 en 𝑓 ′′ (𝑥) > 0 is de       buigpunt.
+grafiek toenemend stijgend
+
+Als 𝑓 ′ (𝑥) > 0 en 𝑓 ′′ (𝑥) < 0 is de
+grafiek afnemend stijgend
+
+Als 𝑓 ′ (𝑥) < 0 en 𝑓 ′′ (𝑥) > 0 is de
+grafiek afnemend dalend
+
+Als 𝑓 ′ (𝑥) < 0 en 𝑓 ′′ (𝑥) < 0 is de
+grafiek toenemend dalend
+
+Aantal snijpunten van de grafiek met        Maak een schets van de grafiek en let
+een horizontale lijn                        in het bijzonder op de toppen
+Bewegingsvergelijkingen
+
+Een parametervoorstelling legt de          Bijvoorbeeld
+positie van een punt 𝑃(𝑥(𝑡), 𝑦(𝑡)) vast        𝑥(𝑡) = 𝑡 2                 𝑥(𝑡)       2
+met behulp van de parameter t.             {              of als vector (      ) = (𝑡 )
+                                               𝑦(𝑡) = 2𝑡                 𝑦(𝑡)       2𝑡
+Als t de tijd is, spreek je over de
+bewegingsvergelijkingen van het punt.
+De bijbehorende grafiek heet de baan
+van het punt
+
+Toppen van de baan                         Horizontale raaklijn als 𝑥 ′ (𝑡) ≠ 0 en
+                                           𝑦 ′ (𝑡) = 0
+                                           Verticale raaklijn als 𝑥 ′ (𝑡) = 0 en
+                                           𝑦 ′ (𝑡) ≠ 0
+
+Als 𝑥(𝑡) en 𝑦(𝑡) eerstegraadsfuncties        𝑥(𝑡)     𝑎𝑡 + 𝑏      𝑏    𝑎
+                                           (      )=(        ) = ( )+𝑡( )
+zijn, is de baan een rechte lijn            𝑦(𝑡)      𝑐𝑡 + 𝑑      𝑑    𝑐
+
+De baan van een punt P met                 De vergelijking van deze cirkel is dus
+bewegingsvergelijkingen                    (𝑥 − 𝑎)2 + (𝑦 − 𝑏)2 = 𝑟 2
+            𝑥(𝑡) = 𝑎 + 𝑟 cos(𝑡)
+           {
+             𝑦(𝑡) = 𝑏 + 𝑟 sin(𝑡)
+Is een cirkel met middelpunt 𝑀(𝑎, 𝑏) en
+straal r
+
+Als 𝑥 en 𝑦 periodieke functies zijn, dan
+is de periode van de beweging het
+kleinste gemeenschappelijke veelvoud
+van de periodes van 𝑥 en 𝑦
+
+                                                  𝑥′(𝑡)
+Snelheidsvector                            𝑣⃗ = (       )
+                                                 𝑦′(𝑡)
+
+                                                        𝑥′(𝑡)
+Snelheid in de x-richting                  ⃗⃗⃗⃗⃗𝑥 = (
+                                           𝑣                  )
+                                                          0
+                                                     0
+Snelheid in de y-richting                     𝑦 = (𝑦′(𝑡))
+                                           ⃗⃗⃗⃗⃗
+                                           𝑣
+
+                                                                  2            2
+Baansnelheid                               𝑣 = |𝑣⃗| = √(𝑥 ′ (𝑡)) + (𝑦 ′ (𝑡))
+
+Richtingscoëfficiënt van de raaklijn aan   𝑦 ′ (𝑡)
+de baan in punt P                          𝑥 ′ (𝑡)
+
+                                                     𝑥′′(𝑡)
+Versnellingsvector                         𝑎⃗ = (           )
+                                                     𝑦′′(𝑡)
+                                           d𝑣
+Baanversnelling                                  met 𝑣 de baansnelheid
+                                           d𝑡
+Algebraïsche vaardigheden
+Hieronder een overzicht van algebraïsche vaardigheden die de kandidaten voor het
+tentamen wiskunde B van de CCVW moeten beheersen. Ook voor deze lijst geldt dat
+hij met de uiterste zorgvuldigheid is samengesteld, maar dat het voor kan komen dat
+een vaardigheid die wel onder het tentamenprogramma valt, niet aan de orde komt in
+deze lijst.
+
+
+
+ Vaardigheid                               Opmerking / Toelichting
+
+ Standaardvergelijkingen oplossen
+
+ Eerstegraads                              𝑎𝑥 + 𝑏 = 𝑝𝑥 + 𝑞
+
+ Tweedegraads                              𝑎𝑥 2 + 𝑏𝑥 + 𝑐 = 0
+
+ Machtsvergelijkingen met een positieve                   𝑛
+                                           𝑥 𝑛 = 𝑎 ⇔ 𝑥 = ± √𝑎 (𝑎 ≥ 0)
+ even exponent
+                                                             1
+ Andere machtsvergelijkingen               𝑥 𝑛 = 𝑎 ⇔ 𝑥 = 𝑎𝑛
+
+ Exponentiële en logaritmische
+                                           𝑔
+ vergelijkingen die zich daartoe lenen         log(𝑔𝑛 ) = 𝑎 ⇔ 𝑔𝑛 = 𝑔𝑎 ⇔ 𝑛 = 𝑎
+ exact oplossen
+
+ Exponentiële vergelijkingen oplossen                      𝑔
+                                           𝑔 𝑥 = 𝑎 ⇔ 𝑥 = log(𝑎)
+ met behulp van logaritmen
+
+                                           sin(𝑥) = sin(𝐴); cos(𝑥) = cos(𝐴);
+ Goniometrische vergelijkingen exact       sin(𝑥) = 𝑐 en cos(𝑥) = 𝑐
+ oplossen                                               1     1       1
+                                           met 𝑐 = 0, ± 2 , ± 2 √2, ± 2 √3, ±1
+
+ Goniometrische vergelijkingen             sin(𝑥) = 𝑐 ⇔ sin(𝑥) = sin(sin−1(𝑐))
+ oplossen met inverse functies             cos(𝑥) = 𝑐 ⇔ cos(𝑥) = cos(cos −1(𝑐))
+
+ Absolute-waarde-vergelijkingen            |𝑥| = 𝑎 ⇔ 𝑥 = ±𝑎      (𝑎 ≥ 0)
+
+                                           Bij het grafisch oplossen van
+                                           ongelijkheden moeten de snijpunten
+ Ongelijkheden oplossen
+                                           van de grafieken algebraïsch worden
+                                           berekend
+
+ Stelsels van vergelijkingen oplossen      Met eliminatie en/of substitutie
+
+                                           Richtingscoëfficiënt of normaalvector
+ Opstellen van de vergelijking van         bepalen en samen met de coördinaten
+ een rechte lijn                           van een punt invullen in één van de
+                                           standaardformules
+Vergelijkingen en functie-
+voorschriften bewerken
+
+                                      𝐴⋅𝐵 = 0⇔𝐴 = 0∨𝐵 = 0
+Een vergelijking splitsen             𝐴2 = 𝐵 2 ⇔ 𝐴 = ±𝐵
+                                      𝐴⋅𝐵 =𝐴⋅𝐶 ⇔ 𝐴 =0∨𝐵 =𝐶
+
+Een factor buiten haakjes halen       𝐴 ⋅ 𝐵 + 𝐴 ⋅ 𝐶 = 𝐴(𝐵 + 𝐶)
+
+Haakjes wegwerken                     (𝐴 + 𝐵)(𝐶 + 𝐷) = 𝐴𝐶 + 𝐴𝐷 + 𝐵𝐶 + 𝐵𝐷
+
+                                      Optellen (gelijknamig maken)
+                                      Vermenigvuldigen en delen
+Bewerkingen met breuken               Kruiselings vermenigvuldigen:
+                                      𝐴 𝐶
+                                        = ⇔ 𝐴𝐷 = 𝐵𝐶 ∧ 𝐵𝐷 ≠ 0
+                                      𝐵 𝐷
+
+Bewerkingen met wortels               √𝐴 = 𝐵 ⇔ 𝐴 = 𝐵 2 ∧ 𝐴 ≥ 0
+
+                                      𝑥 4 + 4𝑥 2 − 5 = 0 met 𝑦 = 𝑥 2
+Vergelijkingen oplossen met           e2𝑥 + 4e𝑥 − 5 met 𝑦 = e𝑥
+substitutie
+                                      geven beide 𝑦 2 + 4𝑦 − 5 = 0
+
+Variabelen vrijmaken                  Los 𝑥 op uit 𝑦 = 𝑓(𝑥)
+
+Toepassen van rekenregels en          Voor machten en logaritmen en bij
+eigenschappen                         goniometrische vergelijkingen/functies
+
+Formules substitueren in andere       Met correct gebruik van haakjes
+formules
+
+Rekenen met parameters in
+functievoorschriften
+
+Algemeen                              Bij differentiëren en integreren is de
+                                      parameter een constante; in (stelsels)
+                                      vergelijkingen is de parameter vaak
+                                      een extra onbekende
+
+Aantal snijpunten met grafieken van   𝐷 = 0 geeft dan een vergelijking voor
+tweedegraads functies                 de parameter
+
+Kromme door de toppen van een         Elimineer de parameter uit het stelsel
+grafiek                               vergelijkingen 𝑦 = 𝑓𝑝 (𝑥) en 𝑓𝑝′ (𝑥) = 0
+
+Rakende grafieken                     𝑓𝑝 (𝑥) = 𝑔(𝑥) en 𝑓𝑝′ (𝑥) = 𝑔′(𝑥)
+Aanbevolen leermateriaal
+
+
+Getal en Ruimte vwo B elfde of twaalfde editie, deel 1, 2, 3 en 4
+Alle hoofdstukken met uitzondering van deel 3, hoofdstuk K.
+Bij de examentraining (deel 4, hoofdstuk 16) dient u er rekening mee te houden dat
+de grafische rekenmachine niet toegestaan is bij het voortentamen wiskunde van de
+CCVW. Er zullen dan ook geen vragen gesteld worden die niet zonder grafische
+rekenmachine beantwoord kunnen worden.
+ISBN en overige informatie op www.getalenruimte.noordhoff.nl
+De leerstof is ook terug te vinden in de andere vwo-lesmethoden, zoals Moderne
+Wiskunde en Netwerk.
+
+
+
+Als voorbereiding op het bestuderen van bovenstaande boeken wordt aanbevolen:
+Wiswijs (Pach en Wisbrun, vierde druk 2018, ISBN 9789001876265)
+voor zelfstudie zijn oudere drukken uiteraard ook bruikbaar.
+
