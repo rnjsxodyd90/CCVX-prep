@@ -54,4 +54,4 @@ Niche, microclimate, biodiversity, migration, introduced species.
 ## Study material
 
 - [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus and standard VWO biology).
-- [exercises.md](exercises.md): 10 original practice questions in CCVX style (73 points) with worked answers and marking points.
+- [practice.md](practice.md): 29 original practice items in CCVX style with full worked answers and marking points.

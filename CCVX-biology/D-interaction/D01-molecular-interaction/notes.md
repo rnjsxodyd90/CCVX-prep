@@ -1,6 +1,8 @@
 # D1 — Molecular Interaction: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md).
+
+Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), M4.1 *Genregulatie en interactie met (a)biotische factoren*. A citation like *(CvTE M4.1 spec 2)* means specification 2 of M4.1; its numbers don't match the CCVX numbers.
@@ -32,7 +34,7 @@ flowchart LR
 - The trp operon works the other way round (repressible): the genes for making the amino acid (*aminozuur*) tryptophan are normally on, and when tryptophan is plentiful it binds to the repressor, which then binds the operator and switches the genes off.
 - Eukaryotes usually have no operons: each gene has its own promoter, and RNA polymerase can only start once a set of transcription factors, proteins that bind to specific DNA sequences, is bound at the promoter.
 - Activators are transcription factors that bind to enhancer sequences, sometimes thousands of base pairs away, and increase transcription; other proteins repress it, and the combination of factors present in a cell decides which of its genes are expressed.
-- Signals act through these factors: steroid hormones (*steroïdhormonen*) become transcription factors once they have bound their receptor ([D02](../D02-cellular-interaction/README.md)), and in drought the plant hormone abscisic acid switches on genes that protect the plant against water loss.
+- Signals act through these factors: a steroid hormone (*steroïdhormoon*) binds its receptor and the hormone–receptor complex then acts as a transcription factor ([D02](../D02-cellular-interaction/README.md)), and in drought the plant hormone abscisic acid switches on genes that protect the plant against water loss.
 - **Trap:** promoter and operator are DNA sequences, the repressor is a protein made by the regulator gene, and lactose doesn't bind to DNA: it switches the genes on by inactivating the repressor.
 
 ### 2. Cells use proteins for their functioning
@@ -68,7 +70,7 @@ flowchart LR
 - Most epigenetic marks are erased when gametes (*gameten*) form, but some seem to pass to the next generation, giving inheritance that doesn't follow Mendel's laws ([E03](../../E-reproduction/E03-reproduction-of-organisms/README.md)).
 - RNAi (RNA interference; CCVX: “iRNA”): short double-stranded RNA is cut into pieces of about 20–25 nucleotides; in a protein complex, one strand finds mRNA with the complementary sequence and has it cut up or blocks its translation, so the gene is silenced after transcription.
 - Cells use their own microRNAs this way to fine-tune genes, and plants and invertebrates use RNAi against viruses; it was discovered in the worm C. elegans (Nobel Prize 2006).
-- Applications: researchers silence genes to find out what they do, non-browning apples have their browning enzyme (polyphenol oxidase) silenced, and the first RNAi medicine (2018) silences a liver gene whose faulty protein damages nerves.
+- Applications: researchers silence genes to find out what they do, non-browning apples have their browning enzyme (polyphenol oxidase) silenced, and the first RNAi medicine (patisiran, 2018) silences a liver gene (transthyretin) whose faulty protein damages nerves.
 - **Trap:** epigenetic changes affect whether a gene is read, not its base sequence: they aren't mutations (*mutaties*), and they can be reversed.
 
 ### 5. Mutagenic factors disturb gene regulation
@@ -78,7 +80,7 @@ flowchart LR
 - Proto-oncogenes (*proto-oncogenen*) are normal genes that stimulate cell division, such as the genes for growth-factor receptors and for the signal protein Ras. A mutation can turn one into an oncogene (*oncogen*) that is always active, like a stuck accelerator, and one mutated copy is enough.
 - Tumour suppressor genes (*tumorsuppressorgenen*; CCVX: “suppressor”) slow down division, repair DNA or start apoptosis (*apoptose*), such as the genes for p53 and BRCA1. A cell only loses this brake when both copies are broken.
 - Cancer (*kanker*) usually needs several such mutations in one cell, so the risk rises with age and exposure; someone who inherits one broken BRCA1 copy needs only one more hit per cell, so carriers have a much higher risk of breast cancer ([E02](../../E-reproduction/E02-cell-life-cycle/README.md)).
-- Human papillomavirus (HPV) makes proteins that inactivate p53 and another tumour suppressor protein, which can lead to cervical cancer; Dutch children are offered vaccination against HPV.
+- Human papillomavirus (HPV) makes proteins (E6, E7) that inactivate p53 and the retinoblastoma protein Rb, two tumour suppressor proteins, which can lead to cervical cancer; Dutch children are offered vaccination against HPV.
 - **Trap:** proto-oncogenes aren't cancer genes that healthy people lack: everyone has and needs them, and only a mutated, overactive version (an oncogene) drives cancer.
 
 ## Specimen contexts

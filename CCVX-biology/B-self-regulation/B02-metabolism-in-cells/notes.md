@@ -1,6 +1,6 @@
 # B2 — Metabolism in Cells: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question. Diagrams are original SVGs.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), M2 *Stofwisseling van de cel* (M2.1–M2.3). A citation like *(CvTE M2.3 spec 5)* means specification 5 of M2.3; its numbers don't match the CCVX numbers.
@@ -18,9 +18,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Inside are ribosomes (*ribosoom*), smaller than those of eukaryotes, and enzymes (*enzym*); there are no mitochondria, so dissimilation takes place in the cytoplasm and on the cell membrane.
 - Some bacteria swim with flagella (*flagel*), which are rotating protein threads, unlike the microtubule-based flagella of eukaryotes.
 
-![Labelled diagram of a bacterium](img/prokaryote-cell.png)
-
-*A bacterium (prokaryote). The plasma membrane is the cell membrane, the nucleoid is the circular chromosome, and pili are protein threads that attach the cell to surfaces, or to another bacterium when it passes on a plasmid. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Average_prokaryote_cell-_en.svg).*
+- The circular chromosome lies in a region of the cytoplasm called the nucleoid (*nucleoïde*). Many bacteria also have pili (*pili*): short protein threads that attach the cell to surfaces, or to another bacterium when it passes on a plasmid.
 
 - Bacteria are small (Escherichia coli is about 1–2 μm long; a typical eukaryotic cell is 10–100 μm) and reproduce by binary fission (*tweedeling*), under ideal conditions about every 20 minutes: 10 hours could turn one cell into 2³⁰ ≈ 1.1·10⁹ cells.
 - Examples in this folder: E. coli in the gut, lactic acid bacteria (yoghurt), nitrifying bacteria (chemosynthesis) and cyanobacteria, which carry out photosynthesis (*fotosynthese*) without chloroplasts.
@@ -48,20 +46,14 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 | mitochondrion (*mitochondrie*) | double membrane, folded inner membrane, matrix, own DNA | aerobic dissimilation: most of the cell's ATP |
 | chloroplast | double membrane, thylakoids containing chlorophyll (*chlorofyl*), stroma, own DNA | photosynthesis |
 | plastid (*plastide*) | family of plant organelles with a double membrane and own DNA | chloroplasts, chromoplasts (pigment in petals and fruit) and starch-storing amyloplasts (potato tuber) |
-| vacuole | in plant cells one large sac of cell sap | stores water, salts, sugars, pigments and waste; its water uptake builds up turgor |
+| vacuole | in plant cells one large sac of cell sap surrounded by the tonoplast (*tonoplast*), a membrane | stores water, salts, sugars, pigments and waste; its water uptake builds up turgor |
 | cell membrane (*celmembraan*) | phospholipid bilayer with proteins | selectively permeable boundary with transport and receptor proteins (B2.2) |
-| cell wall (*celwand*) | cellulose in plants, chitin in fungi | shape and strength; stops the cell bursting; freely permeable |
+| cell wall (*celwand*) | cellulose in plants, chitin in fungi | shape and strength; stops the cell bursting; freely permeable; plasmodesmata (*plasmodesmata*) are channels through it that connect neighbouring plant cells |
 | cytoskeleton (*cytoskelet*) | microtubules and actin filaments | shape, tracks for transport, movement, the spindle in cell division (B2.2) |
 | centrioles (*centriolen*) | pair of short microtubule cylinders near the nucleus of animal cells | organise microtubules, such as the spindle; the same structure forms the base of cilia and flagella |
 | cilia (*ciliën*) and flagella (*flagel*) | microtubule extensions of the cell, bent by the motor protein dynein | cilia are many and short (airway lining moving mucus); a flagellum is one long tail (sperm cell) |
 
-![Labelled diagram of an animal cell](img/animal-cell.png)
-
-*An animal cell. The plasma membrane is the cell membrane, and the centrosome holds the two centrioles. Most animal cells have no flagellum; a sperm cell has one. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Animal_cell_structure_en.svg).*
-
-![Labelled diagram of a plant cell](img/plant-cell.png)
-
-*A plant cell: a cell wall outside the cell membrane, chloroplasts with starch grains, and one large vacuole whose membrane is the tonoplast. Plasmodesmata are channels through the cell wall that connect neighbouring cells. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plant_cell_structure-en.svg).*
+The table replaces labelled cell diagrams: use it together with the electron-micrograph cues below when you have to recognise parts on a figure.
 
 - Plant cells have a cell wall, plastids and a large central vacuole, and flowering plants have no centrioles; animal cells have centrioles and no cell wall. Both have a nucleus, mitochondria, ER, a Golgi apparatus and ribosomes.
 - Recognising parts on an electron micrograph: mitochondria show a double membrane with inner folds (cristae), chloroplasts stacks of thylakoids, rough ER membranes dotted with ribosomes, the Golgi apparatus a curved stack of flat sacs with vesicles at the edges, and the nucleus a double membrane with pores and a dark nucleolus.
@@ -107,9 +99,106 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 
 - The cell membrane is a bilayer of phospholipids (*fosfolipiden*). Each has a hydrophilic (*hydrofiel*, polar) phosphate head facing the water and two hydrophobic (*hydrofoob*, apolar) fatty-acid tails facing the inside of the membrane; proteins float in the bilayer. *(CvTE M2.2 specs 1–2)*
 
-![Labelled diagram of the cell membrane](img/cell-membrane.png)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="t d">
+<title id="t">Cell membrane: phospholipid bilayer (schematic)</title>
+<desc id="d">A phospholipid bilayer with hydrophilic heads facing the water on both sides and hydrophobic tails facing each other, with one channel protein spanning the bilayer for ions and polar molecules.</desc>
+<rect width="720" height="430" fill="#ffffff"/>
+<text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0f172a">The cell membrane: a phospholipid bilayer (schematic)</text>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
+</defs>
+<!-- outside / inside water -->
+<text x="60" y="66" text-anchor="start" font-family="sans-serif" font-size="14" fill="#475569">outside the cell (watery surroundings)</text>
+<text x="60" y="392" text-anchor="start" font-family="sans-serif" font-size="14" fill="#475569">inside the cell (cytosol)</text>
+<!-- top row of phospholipids: heads at y=96, tails down -->
+<g stroke-linecap="round">
+<circle cx="70" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="66" y1="108" x2="62" y2="146" stroke="#b45309" stroke-width="3"/><line x1="74" y1="108" x2="78" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="110" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="106" y1="108" x2="102" y2="146" stroke="#b45309" stroke-width="3"/><line x1="114" y1="108" x2="118" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="150" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="146" y1="108" x2="142" y2="146" stroke="#b45309" stroke-width="3"/><line x1="154" y1="108" x2="158" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="190" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="186" y1="108" x2="182" y2="146" stroke="#b45309" stroke-width="3"/><line x1="194" y1="108" x2="198" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="230" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="226" y1="108" x2="222" y2="146" stroke="#b45309" stroke-width="3"/><line x1="234" y1="108" x2="238" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="270" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="266" y1="108" x2="262" y2="146" stroke="#b45309" stroke-width="3"/><line x1="274" y1="108" x2="278" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="310" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="306" y1="108" x2="302" y2="146" stroke="#b45309" stroke-width="3"/><line x1="314" y1="108" x2="318" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="410" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="406" y1="108" x2="402" y2="146" stroke="#b45309" stroke-width="3"/><line x1="414" y1="108" x2="418" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="450" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="446" y1="108" x2="442" y2="146" stroke="#b45309" stroke-width="3"/><line x1="454" y1="108" x2="458" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="490" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="486" y1="108" x2="482" y2="146" stroke="#b45309" stroke-width="3"/><line x1="494" y1="108" x2="498" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="530" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="526" y1="108" x2="522" y2="146" stroke="#b45309" stroke-width="3"/><line x1="534" y1="108" x2="538" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="570" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="566" y1="108" x2="562" y2="146" stroke="#b45309" stroke-width="3"/><line x1="574" y1="108" x2="578" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="610" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="606" y1="108" x2="602" y2="146" stroke="#b45309" stroke-width="3"/><line x1="614" y1="108" x2="618" y2="146" stroke="#b45309" stroke-width="3"/>
+<circle cx="650" cy="96" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="646" y1="108" x2="642" y2="146" stroke="#b45309" stroke-width="3"/><line x1="654" y1="108" x2="658" y2="146" stroke="#b45309" stroke-width="3"/>
+</g>
+<!-- bottom row of phospholipids: heads at y=354, tails up -->
+<g stroke-linecap="round">
+<circle cx="70" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="66" y1="342" x2="62" y2="304" stroke="#b45309" stroke-width="3"/><line x1="74" y1="342" x2="78" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="110" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="106" y1="342" x2="102" y2="304" stroke="#b45309" stroke-width="3"/><line x1="114" y1="342" x2="118" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="150" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="146" y1="342" x2="142" y2="304" stroke="#b45309" stroke-width="3"/><line x1="154" y1="342" x2="158" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="190" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="186" y1="342" x2="182" y2="304" stroke="#b45309" stroke-width="3"/><line x1="194" y1="342" x2="198" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="230" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="226" y1="342" x2="222" y2="304" stroke="#b45309" stroke-width="3"/><line x1="234" y1="342" x2="238" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="270" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="266" y1="342" x2="262" y2="304" stroke="#b45309" stroke-width="3"/><line x1="274" y1="342" x2="278" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="310" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="306" y1="342" x2="302" y2="304" stroke="#b45309" stroke-width="3"/><line x1="314" y1="342" x2="318" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="410" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="406" y1="342" x2="402" y2="304" stroke="#b45309" stroke-width="3"/><line x1="414" y1="342" x2="418" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="450" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="446" y1="342" x2="442" y2="304" stroke="#b45309" stroke-width="3"/><line x1="454" y1="342" x2="458" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="490" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="486" y1="342" x2="482" y2="304" stroke="#b45309" stroke-width="3"/><line x1="494" y1="342" x2="498" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="530" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="526" y1="342" x2="522" y2="304" stroke="#b45309" stroke-width="3"/><line x1="534" y1="342" x2="538" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="570" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="566" y1="342" x2="562" y2="304" stroke="#b45309" stroke-width="3"/><line x1="574" y1="342" x2="578" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="610" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="606" y1="342" x2="602" y2="304" stroke="#b45309" stroke-width="3"/><line x1="614" y1="342" x2="618" y2="304" stroke="#b45309" stroke-width="3"/>
+<circle cx="650" cy="354" r="10" fill="#93c5fd" stroke="#2563eb"/>
+<line x1="646" y1="342" x2="642" y2="304" stroke="#b45309" stroke-width="3"/><line x1="654" y1="342" x2="658" y2="304" stroke="#b45309" stroke-width="3"/>
+</g>
+<!-- channel protein spanning the bilayer -->
+<path d="M336,78 C336,150 346,190 334,225 C346,260 336,300 336,372 L384,372 C384,300 374,260 386,225 C374,190 384,150 384,78 Z" fill="#a7f3d0" stroke="#059669" stroke-width="2"/>
+<line x1="360" y1="106" x2="360" y2="344" stroke="#059669" stroke-width="1.5" stroke-dasharray="5 4"/>
+<!-- ion passing through channel -->
+<circle cx="360" cy="88" r="6" fill="#fca5a5" stroke="#dc2626"/>
+<line x1="360" y1="56" x2="360" y2="74" stroke="#dc2626" stroke-width="2" marker-end="url(#arr)"/>
+<text x="372" y="60" font-family="sans-serif" font-size="12" fill="#7f1d1d">ion (Na⁺, Cl⁻)</text>
+<!-- O2 diffusing through the bilayer -->
+<circle cx="430" cy="225" r="8" fill="#fde68a" stroke="#d97706"/>
+<text x="430" y="229" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#713f12">O₂</text>
+<line x1="430" y1="76" x2="430" y2="212" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arr)"/>
+<line x1="430" y1="240" x2="430" y2="308" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arr)"/>
+<!-- labels with leader lines -->
+<text x="128" y="180" font-family="sans-serif" font-size="13" fill="#1e3a8a">hydrophilic heads (polar)</text>
+<line x1="104" y1="170" x2="110" y2="106" stroke="#2563eb" stroke-width="1.5"/>
+<text x="128" y="262" font-family="sans-serif" font-size="13" fill="#713f12">hydrophobic tails (apolar)</text>
+<line x1="118" y1="254" x2="118" y2="150" stroke="#b45309" stroke-width="1.5"/>
+<text x="444" y="190" font-family="sans-serif" font-size="13" fill="#475569">small apolar molecules (O₂, CO₂)</text>
+<text x="444" y="208" font-family="sans-serif" font-size="13" fill="#475569">diffuse straight through</text>
+<line x1="436" y1="212" x2="432" y2="216" stroke="#d97706" stroke-width="1.5"/>
+<text x="428" y="270" font-family="sans-serif" font-size="13" fill="#134e4a">channel protein: passage for</text>
+<text x="428" y="288" font-family="sans-serif" font-size="13" fill="#134e4a">ions and polar molecules</text>
+<line x1="424" y1="262" x2="386" y2="242" stroke="#059669" stroke-width="1.5"/>
+<text x="360" y="418" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">Two layers form one phospholipid bilayer. Transport proteins make the membrane selectively permeable.</text>
+</svg>
 
-*The cell membrane: a phospholipid bilayer with the hydrophilic heads on the outside and the hydrophobic tails inside, proteins, cholesterol, and carbohydrate chains on the outer surface. "Peripherial" is a typo for peripheral. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cell_membrane_detailed_diagram_en.svg).*
+*The cell membrane (original diagram). Two rows of phospholipids form one phospholipid bilayer, the hydrophilic heads in the water on both sides, the hydrophobic tails together in the middle. Small apolar molecules such as O₂ diffuse straight through the bilayer; ions and polar molecules need a transport protein, such as the channel protein shown. Such proteins make the membrane selectively permeable.*
 
 - Whether a substance gets through depends on its properties. Small apolar, fat-soluble (*vetoplosbaar*) molecules such as O₂ and CO₂ dissolve in the lipid core and diffuse straight through ([chemistry B03](../../../CCVX-chemistry/B-substances-and-materials/B03-bonds-and-properties/README.md)).
 - Ions and larger polar, water-soluble (*wateroplosbaar*) molecules such as glucose are kept out by the hydrophobic core and need transport proteins ([chemistry E02](../../../CCVX-chemistry/E-innovation-and-chemical-research/E02-selectivity-and-specificity/README.md)). Water passes partly through the bilayer and much faster through water-channel proteins (aquaporins).

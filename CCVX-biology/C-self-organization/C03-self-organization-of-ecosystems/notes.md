@@ -1,6 +1,8 @@
 # C3 — Self-Organization of Ecosystems: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md).
+
+Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), P2 *Zelforganisatie van ecosystemen* (P2.1). A citation like *(CvTE P2.1 spec 3)* means specification 3 of P2.1; its numbers don't match the CCVX numbers.
@@ -17,7 +19,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Pioneer species (*pioniersoorten*) colonise first: they tolerate harsh conditions (drought, salt, few nutrients, large temperature swings), spread easily with many small seeds or spores and grow fast, but compete poorly. Examples are lichens and mosses on rock, glasswort (*zeekraal*) on bare salt mud and marram grass (*helm*) on drifting sand.
 - In a Dutch dune succession, sand couch grass (*biestarwegras*) and marram grass trap blowing sand and build dunes, mosses and lichens cover the older grey dunes, and sea buckthorn (*duindoorn*) scrub follows, enriching the soil with nitrogen fixed by bacteria in its root nodules; woodland can grow on the oldest dunes.
 - A climax ecosystem (*climaxecosysteem*) is the fairly stable end stage, in dynamic equilibrium with climate and soil; in most of the Netherlands that would be deciduous forest.
-- In a climax ecosystem the GPP is about equal to the dissimilation of all its organisms together, so the biomass hardly grows any more; in early stages production exceeds respiration and biomass builds up (GPP and NPP are in [B08](../../B-self-regulation/B08-regulation-of-ecosystems/README.md)).
+- In a climax ecosystem the gross primary production (GPP) of its producers is about equal to the total respiration (dissimilation) of all the organisms in the ecosystem together, so the standing biomass hardly grows any more; in early stages production exceeds respiration and biomass builds up (GPP and NPP are in [B08](../../B-self-regulation/B08-regulation-of-ecosystems/README.md)).
 - During succession, soil depth, organic matter, biomass and the complexity of the food web increase. Biodiversity (*biodiversiteit*) usually increases too, though it often peaks before the climax; see [F03](../../F-evolution/F03-biodiversity/README.md).
 - **Trap:** Whether succession is primary or secondary depends on whether soil is already there, not on whether the place had life before: an abandoned field or a burnt forest is secondary succession.
 

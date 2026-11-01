@@ -1,6 +1,6 @@
 # B7 — Perception by Organisms: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** school exam (SE) only, as O5 *Waarneming door het organisme*, so the [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) doesn't specify it. CCVX still tests it.
 - **Overlap:** CvTE O2.3 *Neurale regulatie* (sensory neurons, receptor types, brain centres, reflex arc) and M4.2 spec 2 (impulse conduction, threshold). A citation like *(overlap: CvTE O2.3 specs 1–2)* points there.

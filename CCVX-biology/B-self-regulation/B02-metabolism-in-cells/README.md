@@ -62,4 +62,5 @@ Autotroph, heterotroph, photosynthesis, C assimilation, chloroplast, light and d
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus), with one original SVG diagram.
+- [practice.md](practice.md): 38 original practice items in CCVX style with full worked answers and marking points.

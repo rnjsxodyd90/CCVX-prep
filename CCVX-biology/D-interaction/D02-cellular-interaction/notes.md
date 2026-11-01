@@ -1,6 +1,8 @@
 # D2 — Cellular Interaction: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md).
+
+Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), M4.2 *Celcommunicatie en interactie met (a)biotische factoren*. A citation like *(CvTE M4.2 spec 4)* means specification 4 of M4.2; its numbers don't match the CCVX numbers.
@@ -91,3 +93,14 @@ flowchart TD
 - **In both:** all eight CCVX concepts (signal substances, second messenger, synapse, cell junctions, receptor, response, signal cascade, Na/K pump) and the four outcomes.
 - **Dutch syllabus only:** the impulse-conduction terms of M4.2 spec 2 (impulse conduction, saltatory conduction, neurotransmitter, resting potential, action potential, threshold, refractory period, excitatory, inhibitory), which CCVX lists under B4.3, so they are summarised here and explained in [B04](../../B-self-regulation/B04-self-regulation-of-organisms/README.md); and nerve cell, hormone and cytokine (spec 3) and steroid hormone, peptide hormone and the two receptor locations (spec 4), which are explained above.
 - **CCVX only:** nothing: every CCVX term of D2 is in M4.2, and CCVX's “responses in cell plasma” are the CvTE's *responsen in het cytoplasma*.
+
+## Fact log (verification pass)
+
+Checked against standard VWO-level biology; no factual errors found, only the status line was updated. Verified points:
+
+- Na/K pump stoichiometry (3 Na⁺ out, 2 K⁺ in per ATP) and the ~10× Na⁺ outside / ~30× K⁺ inside gradients.
+- Resting potential ≈ −70 mV, threshold ≈ −55 mV, action-potential peak +30 to +40 mV; saltatory conduction up to ~100 m s⁻¹ vs ~1 m s⁻¹ unmyelinated.
+- Amplification arithmetic: 100³ = 10⁶; axon timing: 1 m at 100 m s⁻¹ ≈ 0.01 s.
+- Glucagon/adrenaline → G protein → adenylate cyclase → cAMP → protein kinase A → glycogen phosphorylase chain.
+- Cholera toxin locks the G protein on, sustained cAMP, Cl⁻ secretion, osmotic water loss.
+- C. elegans: 959 body cells, 302 neurons, anchor-cell growth-factor signal via a Ras-type cascade in vulva induction; dauer resting stage under crowding, heat and food shortage.

@@ -57,4 +57,5 @@ Central nervous system, peripheral nervous system, large and small brain, centre
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).
+- [practice.md](practice.md): 43 original practice items in CCVX style with full worked answers and marking points.

@@ -25,4 +25,5 @@ Reproductive cells, fertilization, sperm, germ, egg, larva, pupa, imago, complet
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus), with one original SVG diagram.
+- [practice.md](practice.md): 37 original practice items in CCVX style with full worked answers and marking points.

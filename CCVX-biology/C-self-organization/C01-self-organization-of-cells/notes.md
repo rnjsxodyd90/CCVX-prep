@@ -1,6 +1,8 @@
 # C1 — Self-Organization of Cells: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md).
+
+Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), M3 *Zelforganisatie van cellen* (M3.1–M3.2). A citation like *(CvTE M3.2 spec 4)* means specification 4 of M3.2; its numbers don't match the CCVX numbers.
@@ -12,7 +14,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 ### 1. Non-coding DNA and introns
 
 - Most DNA in eukaryotes is non-coding DNA (*niet-coderend DNA*): it doesn't code for the amino acids (*aminozuren*) of any protein (*eiwit*). *(CvTE M3.1 specs 1–2)*
-- The human genome (*genoom*) has about 3.2·10⁹ base pairs per set of 23 chromosomes (*chromosomen*) but only about 20,000 protein-coding genes (*genen*); the parts that code for protein make up only about 1–2% of it, some 30–60 million base pairs.
+- The human genome (*genoom*) has about 3.2·10⁹ base pairs per set of 23 chromosomes (*chromosomen*) but only about 20,000 protein-coding genes (*genen*); the parts that code for protein make up only about 1–2% of it, some 32–64 million base pairs.
 - The rest includes introns, regulatory sequences such as the promoter (*promotor*) of each gene, genes for non-coding RNA (*niet-coderend RNA*), repetitive DNA such as telomeres and transposons ([B01](../../B-self-regulation/B01-protein-synthesis/README.md)), and DNA whose function is still unknown.
 - Bacteria are the opposite: about 88% of the chromosome of E. coli codes for protein, and bacterial genes normally have no introns.
 - A eukaryotic gene is a mosaic: its exons end up in the mature mRNA, while the introns between them are transcribed and then cut out (outcome 2).

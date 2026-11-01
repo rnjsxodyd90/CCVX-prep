@@ -27,4 +27,5 @@ Genome, structural genes, regulator genes, recombinant DNA, proto-oncogenes, enz
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above.
+- [practice.md](practice.md): 30 original practice items in CCVX style with full worked answers and marking points.

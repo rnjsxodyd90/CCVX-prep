@@ -43,4 +43,5 @@ Genome, stem cells, cell type, extracellular matrix, apoptosis, lysosome, plurip
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus and standard VWO biology).
+- [practice.md](practice.md): 30 original practice items in CCVX style with full worked answers and marking points.
