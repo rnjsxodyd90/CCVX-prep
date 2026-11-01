@@ -1,8 +1,8 @@
 # B1 — Particle Models: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## B1.1 Atoms, free radicals and ions
 
@@ -39,7 +39,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Metal atoms lose their valence electrons, Na → Na⁺ + e⁻, and non-metals take up electrons: Cl₂ + 2 e⁻ → 2 Cl⁻. Both end up with the configuration of a noble gas (B1.3). *(CvTE M1.4, M1.6)*
 - A composite ion (*samengesteld ion*) is a group of atoms held together by atomic bonds (covalent bonds, *atoombindingen*) that carries a charge as a whole, such as NH₄⁺, OH⁻ and SO₄²⁻ (B1.7, B1.12). *(CvTE M1.4, M1.15)*
 - A free radical (*radicaal*) is a particle with an unpaired electron, written with a dot: H•, Cl•, CH₃•. Radicals form when an atomic bond breaks and each atom keeps one electron of the shared pair, for example in UV light: Cl₂ → 2 Cl•. *(CvTE M1.4)*
-- Radicals are very reactive, because they react to pair their electron: CH₄ + Cl• → CH₃• + HCl. That step makes a new radical, which is how radical chain reactions work, including addition polymerisation ([D03](../../D-development-of-chemical-knowledge/D03-chemical-synthesis/notes.md)). *(CvTE M1.4, M5.1)*
+- Radicals are very reactive, because they react to pair their electron: CH₄ + Cl• → CH₃• + HCl. That step makes a new radical, which is how radical chain reactions work, including addition polymerisation (D03 — chemical synthesis). *(CvTE M1.4, M5.1)*
 - A molecule with an odd number of valence electrons is a radical too: nitrogen monoxide NO (5 + 6 = 11) and nitrogen dioxide NO₂ (5 + 2 × 6 = 17) from B1.6. *(CvTE M1.4)*
 - **Trap:** a radical is not an ion. Cl• has 17 electrons and no charge; Cl⁻ has 18 electrons, a negative charge and a full octet.
 - **Trap:** forming an ion changes only the number of electrons. The protons, and so the element and the mass number, stay the same.
@@ -177,7 +177,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ### Elements
 
-- Elements are non-decomposable substances (*niet-ontleedbare stoffen*); what that means at particle level is in [B02](../B02-properties-and-models/notes.md). Their formulas *(CvTE M1.1, M1.8)*:
+- Elements are non-decomposable substances (*niet-ontleedbare stoffen*); what that means at particle level is in B02 — properties and models. Their formulas *(CvTE M1.1, M1.8)*:
     - H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂ are diatomic molecules, and ozone O₃ is a second form of oxygen;
     - the noble gases are single atoms: He, Ne, Ar;
     - C, Si and B are written as the symbol, because they form an atomic lattice (*atoomrooster*);
@@ -206,7 +206,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## B1.7 Ions and the names of salts
 
-- A salt (*zout*) is built from positive and negative ions (*positieve en negatieve ionen*), held together by the ion bond (*ionbinding*, [B03](../B03-bonds-and-properties/notes.md)). Its name gives the positive ion first, then the negative ion: sodium chloride. *(CvTE M1.1, M1.10)*
+- A salt (*zout*) is built from positive and negative ions (*positieve en negatieve ionen*), held together by the ion bond (*ionbinding*, B03 — bonds and properties). Its name gives the positive ion first, then the negative ion: sodium chloride. *(CvTE M1.1, M1.10)*
 - The positive ions to know *(CvTE M1.1)*:
 
 | Ion | English | Dutch |
@@ -309,7 +309,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - H₃PO₄, phosphoric acid: weak and triprotic (*driewaardig*). It gives off its three H⁺ one at a time, via H₂PO₄⁻ and HPO₄²⁻ to PO₄³⁻; the first step is H₃PO₄ + H₂O ⇌ H₃O⁺ + H₂PO₄⁻. *(CvTE R1.5)*
 - CH₃COOH, acetic acid (ethanoic acid): weak and monoprotic, because only the H of the COOH group comes off: CH₃COOH + H₂O ⇌ H₃O⁺ + CH₃COO⁻, with K<sub>z</sub> = 1.8·10⁻⁵ (Binas). Other carbon acids (*carbonzuren*) react the same way. *(CvTE R1.5, M1.3)*
 - In inorganic acids the acidic H is written first (HCl, HNO₃, H₂SO₄, H₃PO₄); in carbon acids it is the H of the COOH group, written at the end. *(CvTE R1.5)*
-- Strong acids react completely with water, weak acids only partly, in an equilibrium. The difference and acid-base reactions are in [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md), K<sub>z</sub> and pH in [C05](../../C-chemical-processes-and-conservation-laws/C05-chemical-equilibrium/notes.md); the Binas table of K<sub>z</sub> and K<sub>b</sub> values gives the strengths. *(CvTE R1.7, R1.8)*
+- Strong acids react completely with water, weak acids only partly, in an equilibrium. The difference and acid-base reactions are in C01 — chemical processes, K<sub>z</sub> and pH in C05 — chemical equilibrium; the Binas table of K<sub>z</sub> and K<sub>b</sub> values gives the strengths. *(CvTE R1.7, R1.8)*
 - **Trap:** count only the acidic H atoms. CH₃COOH has four H atoms but is monoprotic, and CH₄ and CH₃–CH₂–OH aren't acids at all.
 
 ## B1.9 Bases
@@ -342,7 +342,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Heating drives the crystal water off: CuSO₄·5H₂O(s) → CuSO₄(s) + 5 H₂O(g). Adding water to the white powder turns it blue again, which is a test for water. *(CvTE M1.11)*
 - When a hydrate dissolves, its crystal water simply joins the solvent: CuSO₄·5H₂O(s) → Cu²⁺(aq) + SO₄²⁻(aq) + 5 H₂O(l). So 1 mol of the hydrate gives 1 mol Cu²⁺. *(CvTE M1.11)*
 - The molar mass includes the crystal water: M(CuSO₄·5H₂O) = 159.6 + 5 × 18.02 = 249.7 g mol⁻¹. The mass percentage of water is 5 × 18.02 / 249.7 × 100% = 36.08%. *(CvTE M1.11, R&A1.2, R&A1.3)*
-- Finding n from a measurement: suppose heating 2.50 g of a blue copper(II) sulfate hydrate leaves 1.60 g of white CuSO₄. Then n(H₂O) = 0.90 g / 18.02 g mol⁻¹ = 0.050 mol and n(CuSO₄) = 1.60 g / 159.6 g mol⁻¹ = 0.0100 mol, so there are 5.0 H₂O per CuSO₄: CuSO₄·5H₂O. Molar-mass calculations are in [C02](../../C-chemical-processes-and-conservation-laws/C02-chemical-calculations/notes.md). *(CvTE M1.11, R&A1.2)*
+- Finding n from a measurement: suppose heating 2.50 g of a blue copper(II) sulfate hydrate leaves 1.60 g of white CuSO₄. Then n(H₂O) = 0.90 g / 18.02 g mol⁻¹ = 0.050 mol and n(CuSO₄) = 1.60 g / 159.6 g mol⁻¹ = 0.0100 mol, so there are 5.0 H₂O per CuSO₄: CuSO₄·5H₂O. Molar-mass calculations are in C02 — chemical calculations. *(CvTE M1.11, R&A1.2)*
 - **Trap:** the dot doesn't multiply the formula; it adds water molecules. CuSO₄·5H₂O contains 9 O atoms and 10 H atoms, and forgetting the water in the molar mass is the usual mistake.
 
 ## B1.12 Lewis structures
@@ -416,7 +416,7 @@ H – C•       :Cl•
     H
 ```
 
-- A Lewis structure doesn't show the shape of the particle; the shape follows from VSEPR, in [B04](../B04-bonds-structures-and-properties/notes.md). *(CvTE M1.16)*
+- A Lewis structure doesn't show the shape of the particle; the shape follows from VSEPR, in B04 — bonds structures and properties. *(CvTE M1.16)*
 
 ### Resonance (mesomeric) structures
 
@@ -453,7 +453,7 @@ C       C   ↔   C       C
   C – C           C = C
 ```
 
-- Resonance structures are also used to explain reactions, such as 1,4-addition ([C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md)). *(CvTE M1.15)*
+- Resonance structures are also used to explain reactions, such as 1,4-addition (C01 — chemical processes). *(CvTE M1.15)*
 - **Trap:** in resonance structures only electrons move, never atoms. Moving an H atom gives a different molecule, an isomer (B1.14). The double-headed arrow is not an equilibrium: the particle doesn't switch between the structures.
 - **Trap:** include the charge in the electron count: CO₃²⁻ has 4 + 3 × 6 + 2 = 24 valence electrons, not 22.
 
@@ -490,7 +490,7 @@ O = O⁺ – O⁻:   ↔   :O⁻ – O⁺ = O
 
 - Put each formal charge on the atom that carries it. *(CvTE Bijlage 3A)*
 - Partial charges (*partiële ladingen*), δ+ and δ−, show that a polar atomic bond (*polaire atoombinding*) shares its electron pair unequally. The atom that attracts the pair more strongly (higher electronegativity, *elektronegativiteit*) gets δ−, the other δ+: H<sup>δ+</sup>–O<sup>δ−</sup> in water and alcohols, H<sup>δ+</sup>–N<sup>δ−</sup> in ammonia and amines, C<sup>δ+</sup>=O<sup>δ−</sup> in a carbonyl group. They too are written on the atoms. *(CvTE M1.17, M3.1, Bijlage 3A)*
-- Which bonds count as polar is in [B03](../B03-bonds-and-properties/notes.md), and whether the whole molecule is a dipole in [B04](../B04-bonds-structures-and-properties/notes.md). *(CvTE M3.1, M3.5)*
+- Which bonds count as polar is in B03 — bonds and properties, and whether the whole molecule is a dipole in B04 — bonds structures and properties. *(CvTE M3.1, M3.5)*
 - **Trap:** a formal charge is a whole charge from counting electrons; a partial charge is a fraction from unequal sharing and changes nothing in the Lewis structure. Formal charge is bookkeeping: H₃O⁺ has its + on the O, although O is the most electronegative atom.
 
 ## B1.14 Structural isomerism
@@ -499,9 +499,9 @@ O = O⁺ – O⁻:   ↔   :O⁻ – O⁺ = O
 - **Chain isomers** have a different carbon skeleton: butane CH₃–CH₂–CH₂–CH₃ and 2-methylpropane CH₃–CH(CH₃)–CH₃ are both C₄H₁₀. *(CvTE M1.18)*
 - **Position isomers** have the same group in a different place: propan-1-ol CH₃–CH₂–CH₂–OH and propan-2-ol CH₃–CH(OH)–CH₃ are both C₃H₈O. *(CvTE M1.18)*
 - **Functional-group isomers** have different groups: ethanol CH₃–CH₂–OH and methoxymethane CH₃–O–CH₃ (both C₂H₆O); propanal CH₃–CH₂–CHO and propanone CH₃–CO–CH₃ (both C₃H₆O); propene CH₂=CH–CH₃ and cyclopropane (both C₃H₆). *(CvTE M1.18)*
-- Isomers are different substances with different properties. Ethanol boils at about 78 °C and methoxymethane at about −24 °C, because only ethanol forms hydrogen bridges (hydrogen bonds, *waterstofbruggen*, [B03](../B03-bonds-and-properties/notes.md)). *(CvTE M1.18)*
+- Isomers are different substances with different properties. Ethanol boils at about 78 °C and methoxymethane at about −24 °C, because only ethanol forms hydrogen bridges (hydrogen bonds, *waterstofbruggen*, B03 — bonds and properties). *(CvTE M1.18)*
 - To find all isomers, vary the chain first, then the position of the group, then the kind of group. C₅H₁₂ has three: pentane, 2-methylbutane and 2,2-dimethylpropane. C₄H₁₀O has seven: four alkanols (butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, 2-methylpropan-2-ol) and three ethers (1-methoxypropane, 2-methoxypropane, ethoxyethane). *(CvTE M1.18)*
-- Stereo-isomerism (cis-trans isomers and mirror images) is in [E02](../../E-innovation-and-chemical-research/E02-selectivity-and-specificity/notes.md). *(CvTE M1.18)*
+- Stereo-isomerism (cis-trans isomers and mirror images) is in E02 — selectivity and specificity. *(CvTE M1.18)*
 - **Trap:** the same molecule drawn the other way round, or with a bent chain, is not an isomer. A chain of five C atoms drawn with a bend is still pentane, and "1-methylbutane" is just pentane.
 
 ## B1.15 Functional groups
@@ -523,7 +523,7 @@ O = O⁺ – O⁻:   ↔   :O⁻ – O⁺ = O
 | C–X, X = F, Cl, Br, I | halogen alkanes (*halogeenalkanen*) | chloromethane CH₃–Cl (*chloormethaan*) |
 
 - In a structural formula, draw the C=O of a carbonyl group in full, write the H atoms of OH and NH₂ groups, and draw the bond from the O or N to the carbon skeleton. *(CvTE Bijlage 3A)*
-- Esters and amides form in condensation reactions ([C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md)); the amide bond between amino acids in proteins is the peptide bond ([G01](../../G-society-chemistry-and-technology/G01-chemistry-of-life/notes.md)). *(CvTE M1.13)*
+- Esters and amides form in condensation reactions (C01 — chemical processes); the amide bond between amino acids in proteins is the peptide bond (G01 — chemistry of life). *(CvTE M1.13)*
 - **Trap:** read a group as a whole. COOH is one carboxyl group, not a carbonyl group plus a hydroxyl group. In an ester the O between the C=O and the next C is part of the ester group, not an ether. CONH is an amide, not a ketone plus an amine.
 - **Trap:** an aldehyde has its C=O at the end of the chain, with an H on that C; a ketone has it between two C atoms. Write an aldehyde group as –CHO, never –COH, which looks like an alcohol.
 
@@ -579,7 +579,7 @@ O = O⁺ – O⁻:   ↔   :O⁻ – O⁺ = O
 - Cycloalkanes (*cycloalkanen*) are rings, named with cyclo- and the alkane of the same number of C atoms. They are CₙH₂ₙ: cyclopropane C₃H₆, cyclohexane C₆H₁₂. With one side chain no locant is needed: methylcyclohexane C₇H₁₄. *(CvTE M1.14)*
 - Benzene (*benzeen*) C₆H₆ is the parent of the benzene derivatives, which name the groups on the ring as prefixes: methylbenzene C₆H₅–CH₃ (toluene), chlorobenzene C₆H₅–Cl, and with two groups 1,4-dimethylbenzene. As a side chain the C₆H₅– group is phenyl (*fenyl*): phenylethene C₆H₅–CH=CH₂ (styrene). C₆H₅–OH keeps the name phenol (*fenol*). *(CvTE M1.14)*
 - Ethers are named as alkoxy alkanes (CCVX's term): the shorter part with -oxy as a prefix, the longer part as the alkane. CH₃–O–CH₂–CH₃ is methoxyethane (*methoxyethaan*); from three C in the alkane part on, add a locant: 1-methoxypropane, 2-methoxypropane. *(CvTE M1.14)*
-- Esters (CCVX: alkoxy alkanoates) are named alkyl alkanoate: first the alkyl group from the alcohol, then the acid part with -oate (Dutch *-oaat*, all in one word). CH₃–COO–CH₃ is methyl ethanoate (*methylethanoaat*), made from ethanoic acid and methanol: CH₃–COOH + HO–CH₃ ⇌ CH₃–COO–CH₃ + H₂O ([C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md)). *(CvTE M1.14)*
+- Esters (CCVX: alkoxy alkanoates) are named alkyl alkanoate: first the alkyl group from the alcohol, then the acid part with -oate (Dutch *-oaat*, all in one word). CH₃–COO–CH₃ is methyl ethanoate (*methylethanoaat*), made from ethanoic acid and methanol: CH₃–COOH + HO–CH₃ ⇌ CH₃–COO–CH₃ + H₂O (C01 — chemical processes). *(CvTE M1.14)*
 - Trivial names (*triviale namen*) you will still meet: acetic acid (ethanoic acid), acetone (propanone), formaldehyde (methanal), acetylene (ethyne), toluene (methylbenzene), styrene (phenylethene), chloroform (trichloromethane). *(CvTE M1.3)*
 - **Trap:** the longest chain may be drawn with a bend. CH₃–CH(CH₂–CH₃)–CH₂–CH₂–CH₃ has a main chain of six C atoms, so it is 3-methylhexane, not 2-ethylpentane.
 - **Trap:** number from the end nearest the functional group, not the side chain: CH₃–CH(CH₃)–CH₂–CH₂–OH is 3-methylbutan-1-ol, not 2-methylbutan-4-ol.
@@ -588,6 +588,6 @@ O = O⁺ – O⁻:   ↔   :O⁻ – O⁺ = O
 ## CCVX versus the Dutch syllabus
 
 - **In both:** everything above, with the same lists of non-metals, metals and ions, apart from the points below.
-- **Numbering:** CCVX B1.8–B1.9 are CvTE R1.5–R1.6, and CCVX B1.12–B1.16 are M1.15 (with M1.12), M1.17, M1.18, M1.13 and M1.14; match by content, using the codes at each bullet. The Dutch M1 also holds VSEPR (M1.16) and stereo-isomerism (M1.18), which CCVX puts in [B04](../B04-bonds-structures-and-properties/notes.md) and [E02](../../E-innovation-and-chemical-research/E02-selectivity-and-specificity/notes.md).
+- **Numbering:** CCVX B1.8–B1.9 are CvTE R1.5–R1.6, and CCVX B1.12–B1.16 are M1.15 (with M1.12), M1.17, M1.18, M1.13 and M1.14; match by content, using the codes at each bullet. The Dutch M1 also holds VSEPR (M1.16) and stereo-isomerism (M1.18), which CCVX puts in B04 — bonds structures and properties and E02 — selectivity and specificity.
 - **Dutch syllabus only:** the places of the alkali and alkaline earth metals (M1.5); Lewis structures of radicals (M1.15); naming any binary molecular compound from its systematic name (M1.2), where CCVX lists CO₂, CO, HCl, NO₂, NO, SO₂ and SO₃ by name; and names with up to two kinds of functional group (M1.14, with at most one ester or ether group and amides not named), where CCVX allows one. *(CvTE M1.2, M1.5, M1.14, M1.15)*
 - **CCVX only:** the shell names K, L and M with their maximum numbers of electrons (2, 8, 18). The CvTE replaced them with a "simple" electron configuration, the number of electrons per shell for periods 1–3, without s, p and d orbitals. CCVX also has its own terms "alkoxy alkanoates" for esters (named alkyl alkanoate, as in methyl ethanoate) and "alkanoic amines" for amines. *(CvTE M1.4)*

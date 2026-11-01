@@ -1,8 +1,8 @@
 # G1 — The Chemistry of Life: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## G1.1 Nutrients as the basis for self substances
 
@@ -20,13 +20,13 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Amino acids join by condensation: the COOH group of one and the NH₂ group of the next form a peptide bond (*peptidebinding*), –CO–NH–, and release H₂O. From glycine and alanine: H₂N–CH₂–COOH + H₂N–CH(CH₃)–COOH → H₂N–CH₂–CO–NH–CH(CH₃)–COOH + H₂O, or in molecular formulas C₂H₅NO₂ + C₃H₇NO₂ → C₅H₁₀N₂O₃ + H₂O. Many amino acids joined this way form a polypeptide; a protein consists of one or more long polypeptide chains. *(CvTE R1.3, R1.16, R2.1)*
 - **Trap:** glycine and alanine can form two different dipeptides: Gly-Ala (above, with the free NH₂ group on the glycine unit) and Ala-Gly. A peptide is written from the end with the free NH₂ group to the end with the free COOH group.
 - Primary structure (*primaire structuur*): the sequence of the amino acids in the chain. It's held together by the peptide bonds, which are atomic bonds (covalent bonds). *(CvTE L1.3, M3.1)*
-- Secondary structure (*secundaire structuur*): parts of the chain coil into an α-helix (*alfahelix*) or lie side by side in a β-sheet (*bètaplaat*). Both are held by hydrogen bridges (hydrogen bonds, *waterstofbruggen*) between the C=O of one peptide group and the N–H of another peptide group in the backbone: in a helix between successive turns, in a sheet between neighbouring strands. A hydrogen bridge is drawn as a dotted line between the O and the H. See also [B04](../../B-substances-and-materials/B04-bonds-structures-and-properties/notes.md). *(CvTE L1.3, M3.1)*
+- Secondary structure (*secundaire structuur*): parts of the chain coil into an α-helix (*alfahelix*) or lie side by side in a β-sheet (*bètaplaat*). Both are held by hydrogen bridges (hydrogen bonds, *waterstofbruggen*) between the C=O of one peptide group and the N–H of another peptide group in the backbone: in a helix between successive turns, in a sheet between neighbouring strands. A hydrogen bridge is drawn as a dotted line between the O and the H. See also B04 — bonds structures and properties. *(CvTE L1.3, M3.1)*
 - Tertiary structure (*tertiaire structuur*): the folding of the whole chain into its 3D shape, held by bonds between side chains: *(CvTE L1.3, M3.1, M3.6)*
     - hydrogen bridges, for example between OH groups;
     - ion bonds between –COO⁻ and –NH₃⁺ groups of acidic and basic side chains;
     - S–S bridges (*zwavelbruggen*) between two cysteine units, which are atomic bonds;
     - hydrophobic contacts: apolar side chains gather inside the protein, away from the water, held together by Van der Waals bonds (molecular bonds).
-- Heating, or a pH change that alters the charges on the side chains, breaks hydrogen bridges and ion bonds. The protein loses its secondary and tertiary structure (denaturation, *denaturatie*), but the peptide bonds stay intact. That's why enzymes have a temperature optimum and a pH optimum; see [E02](../../E-innovation-and-chemical-research/E02-selectivity-and-specificity/notes.md). *(CvTE L2.2)*
+- Heating, or a pH change that alters the charges on the side chains, breaks hydrogen bridges and ion bonds. The protein loses its secondary and tertiary structure (denaturation, *denaturatie*), but the peptide bonds stay intact. That's why enzymes have a temperature optimum and a pH optimum; see E02 — selectivity and specificity. *(CvTE L2.2)*
 - **Trap:** the hydrogen bridges of the secondary structure are between C=O and N–H groups of the backbone; bonds between side chains belong to the tertiary structure. An S–S bridge is an atomic bond, not a hydrogen bridge.
 
 ### Carbohydrates
@@ -41,7 +41,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Fats and oils consist mainly of triglycerides (*triglyceriden*): esters (CCVX: alkoxy alkanoates) of glycerol (*glycerol*, propane-1,2,3-triol, CH₂OH–CHOH–CH₂OH) with three fatty acids (*vetzuren*). A fatty acid is a carbon acid with a long unbranched carbon chain, usually with an even number of C atoms, often 16 or 18. *(CvTE L1.3, M1.13)*
 - Glycerol and stearic acid (octadecanoic acid) form glyceryl tristearate by condensation, with three ester groups and three H₂O: C₃H₈O₃ + 3 C₁₇H₃₅COOH → C₅₇H₁₁₀O₆ + 3 H₂O. *(CvTE R1.3, R1.16)*
 - Saturated fatty acids (*verzadigde vetzuren*) have only C–C single bonds in the chain, C<sub>n</sub>H<sub>2n+1</sub>COOH: palmitic acid C₁₅H₃₁COOH and stearic acid C₁₇H₃₅COOH. Unsaturated fatty acids (*onverzadigde vetzuren*) have one or more C=C double bonds, each costing two H atoms: oleic acid C₁₇H₃₃COOH (one C=C), linoleic acid C₁₇H₃₁COOH (two) and α-linolenic acid C₁₇H₂₉COOH (three). *(CvTE L1.3)*
-- The C=C bonds in natural fatty acids are mostly cis, which puts a bend in the chain. Such molecules pack less closely, so the Van der Waals bonds between them are weaker and the melting point is lower: oils, liquid at room temperature, contain more unsaturated fatty acids than fats, which are solid. See [B04](../../B-substances-and-materials/B04-bonds-structures-and-properties/notes.md). *(CvTE L1.3, M3.3)*
+- The C=C bonds in natural fatty acids are mostly cis, which puts a bend in the chain. Such molecules pack less closely, so the Van der Waals bonds between them are weaker and the melting point is lower: oils, liquid at room temperature, contain more unsaturated fatty acids than fats, which are solid. See B04 — bonds structures and properties. *(CvTE L1.3, M3.3)*
 - **Trap:** "unsaturated" refers to C=C bonds in the fatty-acid chains, not to the C=O of the ester groups. A triglyceride isn't an acid: its COOH groups have become ester groups.
 
 ### Nucleic acids
@@ -54,7 +54,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## G1.3 Breakdown in the body: hydrolysis, urea and combustion
 
-- Hydrolysis (*hydrolyse*) is the reverse of condensation: water splits a peptide bond, an ester group or the O bridge between sugar units. In the body enzymes catalyse it; outside the body an acid or a base can do it. Writing these reactions in structural formulas is practised in [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md). *(CvTE R1.3, R1.16)*
+- Hydrolysis (*hydrolyse*) is the reverse of condensation: water splits a peptide bond, an ester group or the O bridge between sugar units. In the body enzymes catalyse it; outside the body an acid or a base can do it. Writing these reactions in structural formulas is practised in C01 — chemical processes. *(CvTE R1.3, R1.16)*
 
 ### Proteins
 
@@ -80,7 +80,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Proteins
 
 - Building material (*bouwstof*): structural proteins such as keratin in hair and nails, collagen in skin, tendons and bone, and the proteins of muscles. *(CvTE L1.5)*
-- Enzymes (*enzymen*): proteins that act as catalysts (biocatalysts). The substrate binds at the active position (= active site, *actieve plaats*), whose shape and functional groups make each enzyme specific; see [E02](../../E-innovation-and-chemical-research/E02-selectivity-and-specificity/notes.md). Other proteins transport substances (haemoglobin carries O₂ in the blood) or act as hormones (insulin). *(CvTE L1.5, L2.1, L2.2)*
+- Enzymes (*enzymen*): proteins that act as catalysts (biocatalysts). The substrate binds at the active position (= active site, *actieve plaats*), whose shape and functional groups make each enzyme specific; see E02 — selectivity and specificity. Other proteins transport substances (haemoglobin carries O₂ in the blood) or act as hormones (insulin). *(CvTE L1.5, L2.1, L2.2)*
 
 ### Carbohydrates
 
@@ -93,7 +93,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - Energy storage: fat tissue holds a lot of energy per gram (G1.3), and fat is stored without water, unlike glycogen. *(CvTE L1.5)*
 - Building material in membranes (*membranen*): phospholipids (*fosfolipiden*) resemble triglycerides, but the glycerol carries two fatty acids and a phosphate group, usually with a small polar group attached to it. The phosphate end is a charged, hydrophilic head; the two fatty-acid chains are hydrophobic tails. *(CvTE L1.5, L2.3, M3.6)*
-- In water, phospholipids form a bilayer (*dubbellaag*): the heads face the water on both sides and the tails point inwards, towards each other. This bilayer is the basis of the cell membrane (*celmembraan*); transport of substances through membranes is in [E02](../../E-innovation-and-chemical-research/E02-selectivity-and-specificity/notes.md). *(CvTE L2.3, L1.1)*
+- In water, phospholipids form a bilayer (*dubbellaag*): the heads face the water on both sides and the tails point inwards, towards each other. This bilayer is the basis of the cell membrane (*celmembraan*); transport of substances through membranes is in E02 — selectivity and specificity. *(CvTE L2.3, L1.1)*
 - **Trap:** a phospholipid has two fatty-acid tails, not three; the third position of glycerol carries the phosphate group.
 
 ### Nucleic acids
@@ -116,5 +116,5 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - **In both:** the structure of proteins (including the essential amino acids), carbohydrates, fats and nucleic acids (CCVX G1.2 and G1.5, CvTE L1.3), breakdown as the basis for self substances (G1.1, L1.4), the functions (G1.4, L1.5), protein synthesis with mRNA (G1.4, L1.6), and phospholipids in membranes (now L2.3).
 - **CCVX only:** urea; glycogen; deoxyribose, ribose and phosphates as parts of DNA and RNA; tRNA and protein synthesis on ribosomes; essential fatty acids. The breakdown outcome G1.3 also has no Dutch specification of its own any more: hydrolysis falls under the reaction types in general (R1.3, R1.16) and combustion under R1.2.
-- **Dutch syllabus only:** α-helix, β-sheet and triglycerides named explicitly; codon, transcription, translation and RNA forming on a DNA template as named concepts (CCVX describes the same steps); the biological concepts of L1.1 (respiration and gas exchange, blood, cell, cell membrane, gene, organism, digestion, transport), which CCVX lists under [A10](../../A-skills/A10-using-chemical-concepts/notes.md) except gas exchange and gene; and photosynthesis (L1.2), which CCVX lists under [F03](../../F-industrial-chemical-processes/F03-energy-conversion/notes.md).
+- **Dutch syllabus only:** α-helix, β-sheet and triglycerides named explicitly; codon, transcription, translation and RNA forming on a DNA template as named concepts (CCVX describes the same steps); the biological concepts of L1.1 (respiration and gas exchange, blood, cell, cell membrane, gene, organism, digestion, transport), which CCVX lists under A10 — using chemical concepts except gas exchange and gene; and photosynthesis (L1.2), which CCVX lists under F03 — energy conversion.
 - **Numbering:** CCVX G1.1 is CvTE L1.4, G1.2 is L1.3, G1.4 is L1.5 and L1.6, and G1.5 is part of L1.3.

@@ -1,15 +1,15 @@
 # A6 — Design: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## A6.1 Analysing the design problem
 
 - A technical design problem (*ontwerpprobleem*) asks for a product or process that does a job, not for new knowledge. Analysing it means stating who needs what, under which conditions, and how you will know the design succeeds. *(CvTE A6.1)*
 - Running example for this page: a self-heating can that warms 250 mL of soup without a flame or electricity, for hikers or emergency kits.
 - The Dutch text adds splitting the problem into sub-problems (*deelproblemen*), tasks or properties that can be worked out separately: the heat source, getting the heat into the soup, starting the reaction only when wanted, keeping the chemicals away from the food, and the packaging. *(CvTE A6.2)*
-- Designing is a cycle: requirements, ideas, a choice, a prototype, a test, improvements, and round again if needed. The same skills are applied in [E05](../../E-innovation-and-chemical-research/E05-research-and-design/notes.md).
+- Designing is a cycle: requirements, ideas, a choice, a prototype, a test, improvements, and round again if needed. The same skills are applied in E05 — research and design.
 - **Trap:** jumping straight to a solution ("use quicklime") before the problem and the requirements are clear.
 
 ## A6.2 Schedule of requirements and preferences
@@ -21,9 +21,9 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ## A6.3 Linking science to functions and properties
 
 - Each function of the design rests on chemistry or physics that you can explain and often calculate. *(CvTE A6.4)*
-- Heat source: an exothermic reaction (ΔE < 0, see [C06](../../C-chemical-processes-and-conservation-laws/C06-energy-calculations/notes.md)), for example quicklime with water: CaO(s) + H₂O(l) → Ca(OH)₂(s).
+- Heat source: an exothermic reaction (ΔE < 0, see C06 — energy calculations), for example quicklime with water: CaO(s) + H₂O(l) → Ca(OH)₂(s).
 - Amount: warming 0.250 kg of soup (treated as water, 4.18·10³ J kg⁻¹ K⁻¹) by 40.0 K takes Q = 4.18·10³ × 0.250 × 40.0 = 4.18·10⁴ J. Suppose the reaction releases 65 kJ per mol CaO: you then need 4.18·10⁴ / 6.5·10⁴ = 0.64 mol CaO, which is 0.64 × 56.08 = 36 g if all the heat reaches the soup, or 72 g if half of it is lost.
-- Speed: the rate depends on the surface area of the CaO grains (*verdelingsgraad*) and on how well the water reaches them, see [C04](../../C-chemical-processes-and-conservation-laws/C04-reaction-kinetics/notes.md).
+- Speed: the rate depends on the surface area of the CaO grains (*verdelingsgraad*) and on how well the water reaches them, see C04 — reaction kinetics.
 - Safety: Ca(OH)₂ contains hydroxide ions, a strong base, so it is corrosive and the heating compartment must stay sealed off from the soup.
 
 ## A6.4 Alternative solutions

@@ -1,8 +1,8 @@
 # A8 — Scientific Instruments: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## A8.1 Getting information from sources and tables
 
@@ -12,7 +12,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - Read a graph in this order: which quantity and unit is on each axis, what one scale division is worth, and whether the line is straight or curved. Then read values off, interpolating between gridlines. *(CvTE A8.1)*
 - A slope often means something. On a graph of gas volume against time the slope is the rate: if a gas syringe shows 12 mL at t = 10 s and 30 mL at t = 40 s, the average rate in that interval is (30 − 12) / (40 − 10) = 0.60 mL s⁻¹. The slope of a tangent gives the rate at one moment.
-- Other figures to read: drawings of an experimental set-up, simulations, block diagrams of processes (*blokschema*, see [F01](../../F-industrial-chemical-processes/F01-industrial-processes/notes.md)), energy diagrams ([C06](../../C-chemical-processes-and-conservation-laws/C06-energy-calculations/notes.md)), chromatograms, mass spectra and calibration lines ([D01](../../D-development-of-chemical-knowledge/D01-chemical-techniques/notes.md)).
+- Other figures to read: drawings of an experimental set-up, simulations, block diagrams of processes (*blokschema*, see F01 — industrial processes), energy diagrams (C06 — energy calculations), chromatograms, mass spectra and calibration lines (D01 — chemical techniques).
 - **Trap:** read the power of ten in an axis label: on an axis labelled "c (10⁻³ mol L⁻¹)" a reading of 4.0 means 4.0·10⁻³ mol L⁻¹.
 
 ### Looking things up in tables
@@ -27,7 +27,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Graphs: the independent variable on the horizontal axis and the dependent variable on the vertical axis; each axis labelled with quantity and unit; a scale that uses most of the space; points plotted accurately; then the best straight line or a smooth curve through them.
 - A calibration line (*ijklijn*) is the best straight line through the points of the standard solutions; draw it through the origin only if the data justify that.
 - Drawings, schemes and diagrams: a drawing of an experimental set-up shows the apparatus and how it is connected; a block diagram shows a process as blocks (reactor, separation step) joined by arrows for the flows of substances.
-- A worked table, with means and 1/t values, is in [A05](../A05-research/notes.md).
+- A worked table, with means and 1/t values, is in A05 — research.
 - **Trap:** a zigzag through every point, or a straight line forced through points that clearly lie on a curve.
 
 ## A8.3 Significant figures
@@ -76,14 +76,14 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Time: a stopwatch, or a data logger that records a sensor signal over time.
 - pH: a pH meter (*pH-meter*), calibrated first with buffer solutions of known pH, for accurate values; an indicator (*indicator*) or universal indicator paper for a rough value, or to show the end point of a titration.
 - Current and voltage: an ammeter (*stroommeter*, in A) in series and a voltmeter (*spanningsmeter*, in V) in parallel, for example to measure the voltage of an electrochemical cell.
-- Other devices: a conductivity meter (*geleidbaarheidsmeter*) shows whether and how many ions are in a solution; a colorimeter measures how much light a coloured solution absorbs, which gives its concentration via a calibration line; gas chromatography and mass spectrometry identify and quantify substances (see [D01](../../D-development-of-chemical-knowledge/D01-chemical-techniques/notes.md)).
+- Other devices: a conductivity meter (*geleidbaarheidsmeter*) shows whether and how many ions are in a solution; a colorimeter measures how much light a coloured solution absorbs, which gives its concentration via a calibration line; gas chromatography and mass spectrometry identify and quantify substances (see D01 — chemical techniques).
 - **Trap:** a measuring cylinder is not precise enough for a titration or for making a standard solution; use a pipette, a burette or a volumetric flask.
 
 ## A8.5 Handling materials safely
 
 - Work so that people, animals and the environment come to no harm: wear safety goggles and a lab coat, use a fume cupboard (*zuurkast*) for volatile, toxic or smelly substances, use small amounts, and read the hazard pictograms and the H and P statements on the label (they replaced the old R and S phrases). *(CvTE A8.5)*
 - Put waste in the right container (for example heavy-metal salts or organic solvents) instead of down the sink.
-- The CvTE text prints this specification in grey italics (school exam only), and it is hard to test in writing. More in [D02](../../D-development-of-chemical-knowledge/D02-safety/notes.md) and, for risks in industry, [F04](../../F-industrial-chemical-processes/F04-risks-and-safety/notes.md).
+- The CvTE text prints this specification in grey italics (school exam only), and it is hard to test in writing. More in D02 — safety and, for risks in industry, F04 — risks and safety.
 - **Trap:** dilute a concentrated acid by adding the acid slowly to the water, never water to the acid, because mixing releases a lot of heat and can make the liquid spatter.
 
 ## A8.6 Mathematical skills
@@ -127,7 +127,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Second-degree equations
 
 - A second-degree (quadratic) equation (*tweedegraadsvergelijking*) a·x² + b·x + c = 0 has the solutions x = (−b ± √(b² − 4ac)) / 2a. When x is a concentration, only the positive root makes sense. *(CvTE A8.6)*
-- Weak acid: for 0.10 M acetic acid, x = [H₃O⁺] follows from K<sub>z</sub> = x² / (0.10 − x) = 1.8·10⁻⁵. Rewritten: x² + 1.8·10⁻⁵·x − 1.8·10⁻⁶ = 0. Then x = (−1.8·10⁻⁵ + √((1.8·10⁻⁵)² + 4 × 1.8·10⁻⁶)) / 2 = 1.33·10⁻³ mol L⁻¹, and pH = 2.88. See [C05](../../C-chemical-processes-and-conservation-laws/C05-chemical-equilibrium/notes.md).
+- Weak acid: for 0.10 M acetic acid, x = [H₃O⁺] follows from K<sub>z</sub> = x² / (0.10 − x) = 1.8·10⁻⁵. Rewritten: x² + 1.8·10⁻⁵·x − 1.8·10⁻⁶ = 0. Then x = (−1.8·10⁻⁵ + √((1.8·10⁻⁵)² + 4 × 1.8·10⁻⁶)) / 2 = 1.33·10⁻³ mol L⁻¹, and pH = 2.88. See C05 — chemical equilibrium.
 - The shortcut from the roots example ignores x in 0.10 − x and gives 1.34·10⁻³ mol L⁻¹ and pH 2.87. Use the full equation when x is not small compared with the starting concentration, or when the question asks for it.
 - **Trap:** the root with −√ gives −1.35·10⁻³, a negative concentration; that one is not the answer.
 

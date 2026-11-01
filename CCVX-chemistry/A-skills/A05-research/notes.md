@@ -1,14 +1,14 @@
 # A5 — Research: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. *(SLO A5)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/domein-vaardigheden/), which gives an older Dutch wording close to that of the CCVX syllabus.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions. *(SLO A5)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/domein-vaardigheden/), which gives an older Dutch wording close to that of the CCVX syllabus.
 
 ## A5.1 Recognising and specifying a problem
 
 - A scientific problem (*natuurwetenschappelijk probleem*) is a question about nature that observations or measurements can answer. Specifying it means saying exactly which system, which quantity and which conditions it is about. *(CvTE A5.1)*
 - Running example for this page: magnesium ribbon dissolves faster in warm hydrochloric acid than in cold acid. Specified: the problem is how the temperature of the acid affects the rate of this reaction: Mg(s) + 2 H₃O⁺(aq) → Mg²⁺(aq) + H₂(g) + 2 H₂O(l).
-- In a written exam, A5 is tested on a described experiment: you are asked for the variables, a missing step in the plan, a conclusion or a point of criticism. Doing and presenting the research yourself is school-exam work (A5.6 and A5.10). The same skills are applied in [E05](../../E-innovation-and-chemical-research/E05-research-and-design/notes.md).
+- In a written exam, A5 is tested on a described experiment: you are asked for the variables, a missing step in the plan, a conclusion or a point of criticism. Doing and presenting the research yourself is school-exam work (A5.6 and A5.10). The same skills are applied in E05 — research and design.
 - **Trap:** a problem like "is magnesium dangerous?" is too vague to research, because it names no quantity you can measure.
 
 ## A5.2 Research questions
@@ -21,7 +21,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ## A5.3 Linking the question to theory
 
 - Before planning, connect the question to known theory: which concepts explain or predict the result? *(CvTE A5.3)*
-- Here that is the collision model (*botsende-deeltjesmodel*): at a higher temperature the particles move faster, collide more often, and a larger share of the collisions has at least the activation energy, so the rate goes up. See [C04](../../C-chemical-processes-and-conservation-laws/C04-reaction-kinetics/notes.md).
+- Here that is the collision model (*botsende-deeltjesmodel*): at a higher temperature the particles move faster, collide more often, and a larger share of the collisions has at least the activation energy, so the rate goes up. See C04 — reaction kinetics.
 - The theory also tells you what else affects the rate and must be kept constant: the concentration of H₃O⁺ and the surface area of the magnesium (*verdelingsgraad*).
 
 ## A5.4 Hypothesis and expectations
@@ -34,14 +34,14 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - A work plan (*werkplan*) lists the materials, the method step by step, what you measure and how often, and the safety measures, in enough detail that someone else could repeat the study. *(CvTE A5.5)*
 - The independent variable (*onafhankelijke variabele*) is the one you change on purpose: the temperature. The dependent variable (*afhankelijke variabele*) is the one you measure: the reaction time t. The controlled variables (*constante variabelen*) are kept the same: the mass and length of ribbon, the volume and concentration of the acid, and the stirring.
-- Keep the acid in excess (*overmaat*) so its concentration hardly changes: 0.050 g Mg is 2.1·10⁻³ mol and needs 4.1·10⁻³ mol H₃O⁺, while 50.0 mL of 1.0 M acid contains 0.050 mol, about 12 times as much. See [C02](../../C-chemical-processes-and-conservation-laws/C02-chemical-calculations/notes.md).
+- Keep the acid in excess (*overmaat*) so its concentration hardly changes: 0.050 g Mg is 2.1·10⁻³ mol and needs 4.1·10⁻³ mol H₃O⁺, while 50.0 mL of 1.0 M acid contains 0.050 mol, about 12 times as much. See C02 — chemical calculations.
 - Plan enough measurements: at least three temperatures (e.g. 20, 30 and 40 °C), each done three times. Safety: wear goggles against acid splashes; the hydrogen formed (about 50 mL at 298 K) is flammable.
 - CCVX adds "by means of verification or falsification": design the experiment so that its result can confirm or refute (*falsificeren*) the expectation. A confirmed expectation supports the hypothesis but never proves it; one clear contradiction refutes it.
 - **Trap:** changing two variables at once (warmer and more concentrated acid) makes it impossible to tell which one caused the effect.
 
 ## A5.6 Observations and measurements
 
-- Carry out the plan, measure carefully, and write down every result straight away with its unit and with all the digits the instrument gives (see [A08](../A08-scientific-instruments/notes.md)). Also note what you didn't plan to see, such as bubbles collecting on the ribbon or the ribbon floating up. *(CvTE A5.6)*
+- Carry out the plan, measure carefully, and write down every result straight away with its unit and with all the digits the instrument gives (see A08 — scientific instruments). Also note what you didn't plan to see, such as bubbles collecting on the ribbon or the ribbon floating up. *(CvTE A5.6)*
 - Repeat each measurement, and check the temperature at the start and at the end: the reaction is exothermic and warms the acid a little.
 - The CvTE text prints this specification in grey italics, so the Dutch central exam doesn't test it; only the school exam does.
 
