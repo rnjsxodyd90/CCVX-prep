@@ -29,16 +29,17 @@ for (const it of items) {
     if (!it.data.notesHtml?.trim()) fail(`${it.id}: empty notesHtml`);
   }
   const qids = new Set();
-  for (const q of it.data.questions || []) {
+  (it.data.questions || []).forEach((q, i) => {
     if (qids.has(q.id)) fail(`${it.id}: duplicate question id ${q.id}`);
     qids.add(q.id);
-    if (!/^([a-z]+)-([a-z0-9]+)-q\d+$/.test(q.id) && !/^[a-z]+-mock\d+-q\d+$/.test(q.id)) fail(`${it.id}: bad question id shape ${q.id}`);
+    const expected = `${it.id}-q${String(i + 1).padStart(2, '0')}`;
+    if (q.id !== expected) fail(`${it.id}: question ${i + 1} has id "${q.id}", expected exactly "${expected}"`);
     if (!q.questionHtml?.trim()) fail(`${q.id}: empty question`);
     if (!q.answerHtml?.trim()) fail(`${q.id}: empty answer`);
     if (!q.solutionHtml?.trim()) fail(`${q.id}: empty solution`);
     if (!Number.isInteger(q.points) || q.points <= 0) fail(`${q.id}: bad points`);
     if (!['easy', 'medium', 'hard'].includes(q.difficulty)) fail(`${q.id}: bad difficulty`);
-  }
+  });
   if (it.kind === 'mock' && !it.data.durationMinutes) fail(`${it.id}: mock without durationMinutes`);
 }
 

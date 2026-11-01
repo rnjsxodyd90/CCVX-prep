@@ -9,6 +9,7 @@
     "upload": "node scripts/upload-content.mjs",
     "grant": "node scripts/grant.mjs",
     "test:rules": "firebase emulators:exec --only firestore --project demo-ccvx 'node scripts/test-rules.mjs'",
+    "test:build": "node scripts/test-build.mjs",
     "emulators": "firebase emulators:start --project demo-ccvx --only auth,firestore,functions,hosting"
   },
   "dependencies": {
