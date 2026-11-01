@@ -229,3 +229,31 @@ Flow: a teacher commits a batch and prints BATCH READY: <scope> on its terminal.
 ### T2.1 disposition
 
 An earlier pipeline built outside the team (branch site-v1/t2.1-pipeline) duplicated ccvx-web's pipeline and is abandoned; it is not merged. Its review produced one blocking content finding and a few technical findings, all folded into the worker briefs: BINAS conventions are M(H2O) = 18.02 g/mol from table 98, or 18.016 from table 99 atomic masses (O = 16.00, H = 1.008); IUPAC O = 15.999 is never used; 90.08 g has four significant figures; firestore rules keep get gated and list/write denied (ccvx-web already does); the leak scan walks every file under public/ (ccvx-web already does); stored HTML must strip script, iframe, object, embed and form tags; the grant tool validates subject ids.
+
+## 11. Phase 5: past exams (owner updates and owner decision, 1 Nov 2026)
+
+Two products, per subject, started only after that subject's content has passed review. Chemistry first.
+
+### 11a. Free "Past & sample exams" page (public, marketing value)
+
+- Research on the live web, one pass per subject: collect every official, freely published exam with URL, year, language and whether answers exist: the CCVX sample exams on ccvx.nl (English versions under /VoorbeeldTentamensEngels/, answer keys in Dutch under /VoorbeeldTentamens/), and the CvTE vwo central exams with correctievoorschrift on examenblad.nl / oudeexamens.nl (biologie, scheikunde, natuurkunde, wiskunde A, wiskunde B). Verify every link resolves (HTTP 200) and record the check date.
+- Page content per subject: a table (title, year, language, link to paper and to answers on the official site, "official source" label), a suggested order (CCVX samples first, then the most recent vwo exams), a topic map (per exam: which of our subdomains to study first, by topic only, never quoting question text), and the exam-time tip: time yourself for 180 minutes.
+- Free and public: no login, no paywall. It links to the paid Past exams section as the upsell.
+- Hard rule 1 applies in full: never copy, rehost, translate or store any exam paper or answer key. The link-check script (site/scripts/check-exam-links.mjs) re-verifies the list and is cited in the report.
+- Acceptance: link check passes; no exam text or PDF in the repo (leak scan); the page passes the web-reviewer and a ui-reviewer pass.
+
+### 11b. Paid past-exam walkthroughs (owner decision, copyright risk accepted by owner)
+
+Per subject, in this order: (a) all CCVX sample exams on ccvx.nl, (b) the CvTE vwo central exams of tijdvak 1 of the last 5 available years.
+
+Format: one file per official exam at CCVX-<subject>/past-exams/<source>-<year>[-<n>].md. Header: official title, year, source URL of the paper and of the official answers, the line "Open the official paper next to this page". Per question: `## Question N (official paper)`; one short line in our own words of what is asked; then our step-by-step English solution; the subdomain id it revises; the BINAS table(s) used; common mistakes; and how points are typically earned, all in our own words.
+
+Limits, never relaxed: never copy question text, figures, tables, data sets or answer-key wording; never store, rehost or translate the official PDFs; quote at most a few words when unavoidable; every number in a walkthrough is derived by us. The matching reviewer independently solves every walkthrough entry AND checks it against the official answer key and these limits.
+
+Pipeline: build-content.mjs additionally reads CCVX-<subject>/past-exams/*.md into items of kind "walkthrough" (subject, source, year, url, answersUrl, entries: [{ n, askedHtml, solutionHtml, subdomain, binas, mistakes, pointsNote }]), gated by the subject grant like other paid items, and covered by the leak scan.
+
+Site: a "Past exams" section inside the paid subject area; the free Phase 5 page links to it.
+
+### 11c. Overnight run rules (owner update, 1 Nov 2026)
+
+No waiting for the owner: choose the safest option inside the hard rules and record it as OWNER DECISION in the report. Still forbidden: push to main, deploy, live Stripe, Firebase/GCP project creation, domain purchase, repo-visibility change (Firebase/Stripe-test-local work in emulators is fine). Merge each subject branch into rnjsxodyd90/ccvx-site-v1 only after its subject reviewer passes the whole subject; merge web-dev batches after the web-reviewer passes. At the end push the feature branches (not main) to origin. Safety ceiling: if total team Token Factory spend passes USD 500, stop starting new work, finish current merges, write the report. When all work is done: close every worker terminal, then write /Users/taea/Documents/ccvx-ultimate-prep/orca-briefs/site-v1-REPORT.md.
