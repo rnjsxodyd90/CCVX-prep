@@ -18,6 +18,5 @@ The candidate can:
 
 ## Study material
 
-- [notes.md](notes.md): notes per outcome. Start here.
-- [worked-examples.md](worked-examples.md): fully worked example problems.
-- [exercises.md](exercises.md): 8 original practice questions with full worked solutions.
+- [notes.md](notes.md): notes per outcome, with worked examples at the end. Start here.
+- [practice.md](practice.md): 8 original practice questions with full worked solutions.
