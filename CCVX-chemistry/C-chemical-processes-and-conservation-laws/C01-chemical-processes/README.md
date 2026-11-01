@@ -57,4 +57,5 @@ The candidate is able to describe chemical reactions and processes in terms of r
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above, with inline worked examples (status: checked against the CCVX syllabus and Binas; examples original). Start here.
+- [practice.md](practice.md): 15 original practice questions with full worked solutions, in CCVX style.
