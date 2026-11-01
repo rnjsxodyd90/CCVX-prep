@@ -1,6 +1,6 @@
 # E3 — Reproduction of Organisms: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), O9.1 *Voortplanting* (specs 1–8, for E3.1) and M7.1 *Erfelijke eigenschap* (specs 1–6, for E3.2). A citation like *(CvTE O9.1 spec 3)* means specification 3 of O9.1; its numbers don't match the CCVX numbers.
@@ -22,7 +22,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Polyploid (*polyploïd*) cells have more than two complete chromosome sets. Polyploidy arises when chromosomes fail to separate during meiosis or mitosis; breeders cause it on purpose with colchicine, which blocks the spindle.
 - Many crops are polyploid: potato has four sets (4 × 12 = 48 chromosomes), bread wheat six sets (6 × 7 = 42), and the seedless Cavendish banana three sets (3 × 11 = 33).
 - Triploids are usually sterile, because three sets can't be shared out evenly in meiosis; that is why such bananas have no seeds and are propagated vegetatively.
-- Sexual reproduction creates genetic variation (*genetische variatie*) in three ways. Independent assortment of the homologous chromosomes in meiosis I gives 2²³ ≈ 8.4·10⁶ chromosome combinations per human gamete. Crossing-over (*crossing-over*) in prophase I mixes parts of homologous chromosomes. Random fertilization gives 2²³ × 2²³ = 2⁴⁶ ≈ 7.0·10¹³ combinations per couple, even without crossing-over. Meiosis itself is in [E02](../E02-cell-life-cycle/README.md); recombination in [F01](../../F-evolution/F01-selection/README.md).
+- Sexual reproduction creates genetic variation (*genetische variatie*) in three ways. Independent assortment of the homologous chromosomes in meiosis I gives 2²³ ≈ 8.4·10⁶ chromosome combinations per human gamete. Crossing-over (*crossing-over*) in prophase I mixes parts of homologous chromosomes. Random fertilization gives 2²³ × 2²³ = 2⁴⁶ ≈ 7.0·10¹³ combinations per couple, even without crossing-over. (Haploid numbers differ per species: a gamete with one set of nine chromosomes, n = 9, still has 2⁹ = 512 combinations.) Meiosis itself is in [E02](../E02-cell-life-cycle/README.md); recombination in [F01](../../F-evolution/F01-selection/README.md).
 - New mutations add new alleles in both kinds of reproduction. Asexually reproducing eukaryotes vary mainly through those mutations.
 - Prokaryotes reproduce only asexually, by binary fission: the circular chromosome is copied, the two copies move apart and the cell splits in two.
 - Prokaryotes still vary a lot. Mutations spread fast because bacteria have short generation times and huge populations: *E. coli* can divide about every 20 minutes in ideal conditions, so in theory one cell gives 2³⁰ ≈ 1.1·10⁹ cells in 10 hours.
@@ -44,13 +44,13 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - At ovulation (*ovulatie*, *eisprong*) the mature follicle bursts and releases the oocyte, which is caught by the oviduct (*eileider*). The trigger is a peak in LH.
 - The empty follicle turns into the corpus luteum (*geel lichaam*) under LH and makes progesterone (and some oestrogen). Without pregnancy it breaks down after about two weeks; in a pregnancy the embryo's hCG keeps it working.
 - Fertilization usually takes place in the upper part of the oviduct. Acrosome enzymes digest a path, one sperm cell fuses with the egg membrane, and the egg's coat then changes so that no further sperm cells can enter. The two haploid nuclei combine into the diploid zygote (*zygote*, 2n = 46).
-- The egg can be fertilized for only about a day after ovulation. Sperm cells can survive a few days in the uterus and oviducts.
+- The egg can be fertilized for only about a day after ovulation. Sperm cells can survive up to a few days in the cervix, uterus and oviducts, so the fertile window covers the few days before ovulation plus about a day after it.
 - Cleavage (*klievingsdeling*) is the series of rapid mitotic divisions of the zygote without growth, so the cells get smaller each time. It runs while the embryo moves down the oviduct: 2, 4, 8, 16 cells, then a solid ball (morula), then a hollow ball (blastocyst). The blastocyst has an inner cell mass, which becomes the embryo, and an outer layer, which helps form the placenta.
 - About a week after fertilization the blastocyst implants (*innesteling*) in the uterine lining, the endometrium (*baarmoederslijmvlies*). These early stages (morula, blastula) are also in [C02](../../C-self-organization/C02-self-organization-of-organisms/README.md).
 - During embryonic development (*embryonale ontwikkeling*) the cells differentiate into germ layers, then tissues and organs ([C01](../../C-self-organization/C01-self-organization-of-cells/README.md)). *(CvTE O9.1 spec 5)* After about 8 weeks all organs are laid down and the embryo (*embryo*) is called a foetus (*foetus*). The foetus mainly grows and matures until birth.
 - Birth comes about 38 weeks after fertilization, which is 40 weeks counted from the first day of the last menstruation. The two counts differ by the two weeks between menstruation and ovulation.
 - The placenta (*placenta*) grows from the embryo's outer layer (the chorion with its villi) together with the mother's endometrium. Foetal capillaries in the villi lie in spaces filled with maternal blood, and the two blood streams don't mix.
-- Across the placenta, O₂, glucose, amino acids, water and antibodies pass from mother to foetus, while CO₂ and urea pass from foetus to mother. Harmful things can cross too: alcohol, nicotine, many drugs and some viruses, such as rubella.
+- Across the placenta, O₂, glucose, amino acids, water and antibodies pass from mother to foetus, while CO₂ and urea pass from foetus to mother. The maternal antibodies give the foetus and the newborn passive immunity. Harmful things can cross too: alcohol, nicotine, many drugs and some viruses, such as rubella.
 - The umbilical cord (*navelstreng*) has two arteries carrying oxygen-poor blood to the placenta and one vein carrying oxygen-rich blood to the foetus. The placenta also makes hormones: hCG, and later progesterone and oestrogen.
 - **Trap:** polar bodies are not extra eggs. One primary oocyte gives one egg, but one primary spermatocyte gives four sperm cells. Strictly, ovulation releases a secondary oocyte, not a finished egg.
 
@@ -266,7 +266,7 @@ flowchart TD
 - A lethal factor (*letale factor*) is an allele that kills its carrier when homozygous, usually before birth.
 - Yellow mice are the classic example. The allele Y is dominant for the yellow coat colour but lethal when homozygous: YY embryos die, Yy mice are yellow and yy mice are grey.
 - Yellow × yellow (Yy × Yy) gives zygotes in the ratio 1 YY : 2 Yy : 1 yy, so the born offspring are 2 yellow : 1 grey. Every living yellow mouse is therefore heterozygous.
-- A 2 : 1 ratio among the offspring of two heterozygotes is the signature of a lethal factor. Another example is the tailless Manx cat.
+- A 2 : 1 ratio among the offspring of two heterozygotes is the signature of a lethal factor. Other examples are the tailless Manx cat and the crested canary, where two crested parents likewise give 2/3 crested young.
 - **Trap:** in the 2 : 1 ratio, 2/3 and 1/3 are fractions of the born offspring; the quarter that died isn't counted.
 
 #### Reading a pedigree
