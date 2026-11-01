@@ -66,15 +66,22 @@ for (const it of items.filter((i) => !i.free)) {
   probe(it.data.notesHtml, 'notes');
   for (const q of it.data.questions || []) { probe(q.questionHtml, q.id); probe(q.answerHtml, q.id + '/answer'); probe(q.solutionHtml, q.id + '/solution'); }
 }
-// 3b. The free sample file must match the free item, question for question.
+// 3b. The public sample file must be exactly the declared free unit, complete:
+// full notes and ALL of its questions, no other subjects' content.
 for (const p of publicFiles.filter((p) => /sample-[a-z]+\.json$/.test(p))) {
   const sample = JSON.parse(fs.readFileSync(p, 'utf8'));
   const src = items.find((i) => i.id === sample.itemId);
   if (!src) { fail(`sample file ${path.basename(p)}: unknown item ${sample.itemId}`); continue; }
   if (!src.free) fail(`sample file ${path.basename(p)}: item ${sample.itemId} is not marked free`);
   const n = sample.questions?.length || 0;
-  if (n !== 3 && (src.data.questions?.length || 0) >= 3) fail(`sample ${sample.itemId}: expected 3 questions, found ${n}`);
+  if (n !== (src.data.questions?.length || 0)) fail(`sample ${sample.itemId}: public sample must hold ALL ${src.data.questions.length} questions, found ${n}`);
   for (let i = 0; i < n; i++) if (sample.questions[i].id !== src.data.questions[i].id) fail(`sample ${sample.itemId}: question ${i} mismatch`);
+}
+// 3c. Only the owner-chosen sample units may be free anywhere.
+const { SUBJECTS } = await import('./content-config.mjs');
+const allowedFree = new Set(SUBJECTS.map((s) => s.sampleItem).filter(Boolean));
+for (const it of items.filter((i) => i.free)) {
+  if (!allowedFree.has(it.id)) fail(`${it.id} is free but is not a declared sample unit (content-config.mjs sampleItem)`);
 }
 
 // 4. Catalog counts match built content

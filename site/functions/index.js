@@ -1,7 +1,8 @@
 // CCVX Ultimate Prep: Stripe Checkout (test mode) + webhook.
-// One-off EUR 129 per subject, VAT included, 12 months access.
-// The webhook writes the purchase grant into entitlements/{uid}; the
-// Firestore security rules then let the reader in. See site/PLAN.md §7.
+// Launch pricing: EUR 79 per subject; bundles any 2 = 139, any 3 = 189,
+// all 5 = 279. One payment per subject set; the webhook writes one grant per
+// chosen subject into entitlements/{uid}. See site/PLAN.md §7 and
+// site/scripts/pricing-config.mjs (the ONE money config).
 const { onCall, onRequest, HttpsError } = require('firebase-functions/v2/https');
 const { defineSecret, defineString } = require('firebase-functions/params');
 const { setGlobalOptions } = require('firebase-functions/v2');
@@ -18,8 +19,26 @@ const STRIPE_WEBHOOK_SECRET = defineSecret('STRIPE_WEBHOOK_SECRET');
 const SITE_URL = defineString('SITE_URL', { default: 'http://localhost:5000' });
 
 const SUBJECTS = Object.fromEntries(config.subjects.map((s) => [s.id, s]));
+const BUNDLES = Object.fromEntries((config.bundles || []).map((b) => [b.count, b]));
 const stripeClient = () => new Stripe(STRIPE_SECRET_KEY.value());
-const MONTH_MONTH_MS = 30.44 * 24 * 3600 * 1000;
+const MONTH_MS = 30.44 * 24 * 3600 * 1000;
+
+// Maps the chosen subjects to the expected Stripe price. Mirrors
+// scripts/pricing-config.mjs bundleFor() against the generated config.
+function offerFor(subjects) {
+  const unique = [...new Set(subjects)];
+  if (!unique.length || unique.length > 5) return null;
+  if (unique.length !== subjects.length) return null;
+  if (unique.some((s) => !SUBJECTS[s])) return null;
+  const n = unique.length;
+  if (n === 1) {
+    const s = SUBJECTS[unique[0]];
+    return { kind: 'subject', subject: unique[0], lookupKey: s.lookupKey, priceEur: s.priceEur, count: 1 };
+  }
+  const b = BUNDLES[n];
+  if (!b) return null; // 4 subjects has no bundle price: pay as singles or take all 5
+  return { kind: 'bundle', subject: null, lookupKey: b.lookupKey, priceEur: b.priceEur, count: n };
+}
 
 async function customerFor(stripe, uid, email) {
   const ref = db.collection('entitlements').doc(uid);
@@ -34,41 +53,43 @@ async function customerFor(stripe, uid, email) {
   return c.id;
 }
 
-// data: { subject: 'chem'|'bio'|'matha'|'mathb', waiverAccepted: true }
+// data: { subjects: ['chem'], waiverAccepted: true }  (1, 2, 3 or 5 subjects)
 exports.createCheckout = onCall({ secrets: [STRIPE_SECRET_KEY] }, async (req) => {
   if (!req.auth) throw new HttpsError('unauthenticated', 'Log in first.');
-  const subject = String(req.data?.subject || '');
-  const subj = SUBJECTS[subject];
-  if (!subj) throw new HttpsError('invalid-argument', 'Unknown subject.');
+  const subjects = Array.isArray(req.data?.subjects) ? req.data.subjects.map(String) : [];
+  const offer = offerFor(subjects);
+  if (!offer) {
+    throw new HttpsError('invalid-argument', 'Choose 1, 2, 3 or all 5 different subjects.');
+  }
   if (req.data?.waiverAccepted !== true) {
     throw new HttpsError('failed-precondition', 'You must accept that access starts immediately and the 14-day withdrawal right no longer applies.');
   }
   const stripe = stripeClient();
-  const prices = await stripe.prices.list({ lookup_keys: [subj.lookupKey], active: true, limit: 1 });
+  const prices = await stripe.prices.list({ lookup_keys: [offer.lookupKey], active: true, limit: 1 });
   if (!prices.data.length) throw new HttpsError('failed-precondition', 'Price not configured. Run scripts/stripe-products.mjs in TEST mode first.');
   const customer = await customerFor(stripe, req.auth.uid, req.auth.token.email || '');
   const session = await stripe.checkout.sessions.create({
     mode: 'payment',
     customer,
     line_items: [{ price: prices.data[0].id, quantity: 1 }],
-    metadata: { uid: req.auth.uid, subject, waiverAcceptedAt: new Date().toISOString() },
+    metadata: { uid: req.auth.uid, subjects: subjects.join(','), count: subjects.length, waiverAcceptedAt: new Date().toISOString() },
     locale: 'en',
-    success_url: `${SITE_URL.value()}/account.html?paid=1&subject=${subject}`,
-    cancel_url: `${SITE_URL.value()}/checkout.html?subject=${subject}`,
+    success_url: `${SITE_URL.value()}/account.html?paid=1`,
+    cancel_url: `${SITE_URL.value()}/checkout.html`,
   });
   return { url: session.url };
 });
 
-async function writeGrant(uid, subject) {
+async function writeGrants(uid, subjects) {
   const ref = db.collection('entitlements').doc(uid);
   await db.runTransaction(async (t) => {
     const snap = await t.get(ref);
     const data = snap.exists ? snap.data() : {};
     const grants = new Set(data.grants || []);
-    grants.add(subject);
+    subjects.forEach((s) => grants.add(s));
     // Never shorten anyone's access: 12 more months from now, or keep the
     // later date the user already has.
-    const until = Math.max(Date.now() + 12 * MONTH_MONTH_MS, data.activeUntil?.toMillis?.() || 0);
+    const until = Math.max(Date.now() + 12 * MONTH_MS, data.activeUntil?.toMillis?.() || 0);
     t.set(ref, {
       grants: [...grants].sort(),
       activeUntil: admin.firestore.Timestamp.fromMillis(until),
@@ -96,8 +117,23 @@ exports.stripeWebhook = onRequest({ secrets: [STRIPE_SECRET_KEY, STRIPE_WEBHOOK_
         t.create(processedRef, { type: event.type, at: admin.firestore.FieldValue.serverTimestamp() });
         return true;
       });
-      if (fresh && s.metadata?.uid && SUBJECTS[s.metadata.subject]) {
-        await writeGrant(s.metadata.uid, s.metadata.subject);
+      if (fresh) {
+        const subjects = String(s.metadata?.subjects || '').split(',').filter(Boolean);
+        const offer = offerFor(subjects);
+        // Validate that the price actually paid matches the bundle the
+        // metadata claims, so a forged session cannot unlock the wrong grant.
+        if (offer && s.metadata?.uid) {
+          const stripe = stripeClient();
+          const lines = await stripe.checkout.sessions.listLineItems(s.id, { limit: 5 });
+          const paidKey = lines.data[0]?.price?.lookup_key;
+          if (paidKey === offer.lookupKey) {
+            await writeGrants(s.metadata.uid, subjects);
+          } else {
+            console.error('stripeWebhook: price/metadata mismatch, no grant written', { subjects, paidKey, expected: offer.lookupKey });
+          }
+        } else {
+          console.error('stripeWebhook: unusable session metadata, no grant written', { subjects, uid: s.metadata?.uid });
+        }
       }
     }
     res.json({ received: true });

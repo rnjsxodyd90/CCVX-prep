@@ -1,10 +1,72 @@
 {
-  "generated": "2026-11-01T19:38:35.457Z",
+  "generated": "2026-11-01T21:40:49.508Z",
+  "pricing": {
+    "offer": "launch",
+    "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
+    "launchEnd": null,
+    "pricePerSubject": 79,
+    "bundles": [
+      {
+        "count": 2,
+        "id": "bundle2",
+        "priceEur": 139,
+        "perSubject": 69.5
+      },
+      {
+        "count": 3,
+        "id": "bundle3",
+        "priceEur": 189,
+        "perSubject": 63
+      },
+      {
+        "count": 5,
+        "id": "bundle5",
+        "priceEur": 279,
+        "perSubject": 55.8
+      }
+    ],
+    "vatIncluded": true,
+    "accessMonths": 12
+  },
   "subjects": [
+    {
+      "id": "phys",
+      "name": "Physics",
+      "priceEur": 79,
+      "vatIncluded": true,
+      "accessMonths": 12,
+      "lookupKey": "cup_phys_once",
+      "ready": false,
+      "exams": [
+        {
+          "label": "Tuesday 24 November 2026",
+          "approx": false
+        },
+        {
+          "label": "Around Wednesday 21 April 2027",
+          "approx": true
+        },
+        {
+          "label": "Around Monday 19 July 2027",
+          "approx": true
+        }
+      ],
+      "registrationDeadline": "Tuesday 10 November 2026",
+      "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
+      "domains": [],
+      "subdomains": [],
+      "mocks": [],
+      "counts": {
+        "subdomains": 0,
+        "questions": 0,
+        "mocks": 0
+      },
+      "sampleItemId": null
+    },
     {
       "id": "chem",
       "name": "Chemistry",
-      "priceEur": 129,
+      "priceEur": 79,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_chem_once",
@@ -443,7 +505,7 @@
     {
       "id": "bio",
       "name": "Biology",
-      "priceEur": 129,
+      "priceEur": 79,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_bio_once",
@@ -626,7 +688,7 @@
           "title": "B1 – Protein Synthesis",
           "domain": "B",
           "questions": 0,
-          "free": false
+          "free": true
         },
         {
           "id": "bio-b02",
@@ -789,12 +851,12 @@
         "questions": 0,
         "mocks": 0
       },
-      "sampleItemId": null
+      "sampleItemId": "bio-b01"
     },
     {
       "id": "matha",
       "name": "Mathematics A",
-      "priceEur": 129,
+      "priceEur": 79,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_matha_once",
@@ -828,7 +890,7 @@
     {
       "id": "mathb",
       "name": "Mathematics B",
-      "priceEur": 129,
+      "priceEur": 79,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_mathb_once",
@@ -857,7 +919,7 @@
         "questions": 0,
         "mocks": 0
       },
-      "sampleItemId": null
+      "sampleItemId": "mathb-b03"
     }
   ]
 }

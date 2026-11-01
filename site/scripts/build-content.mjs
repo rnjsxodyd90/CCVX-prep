@@ -21,7 +21,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { marked } from 'marked';
-import { SUBJECTS, PRICE_EUR, ACCESS_MONTHS, EXAM_SOURCE } from './content-config.mjs';
+import { SUBJECTS, EXAM_SOURCE } from './content-config.mjs';
+import { ACCESS_MONTHS, BUNDLES, activePrices, launchBadge, lookupKeyFor } from './pricing-config.mjs';
+
+const ACTIVE = activePrices(); // launch until the owner flips regular prices on
 
 const ALLOWED_BASENAME = /^README\.md$|^notes\.md$|^practice\.md$|^mock-exam-\d+(-marking-scheme)?\.md$/;
 const EXCLUDED_SEGMENT = new Set(['source', 'img', 'syllabus']);
@@ -223,13 +226,25 @@ export function buildItems(repoRoot, siteRoot) {
 export function buildCatalog(items) {
   return {
     generated: new Date().toISOString(),
+    pricing: {
+      offer: ACTIVE.launch ? 'launch' : 'regular',
+      badge: launchBadge(),
+      launchEnd: ACTIVE.launchEnd ? ACTIVE.launchEnd.toISOString().slice(0, 10) : null,
+      pricePerSubject: ACTIVE.prices.subject,
+      bundles: BUNDLES.map((b) => {
+        const price = ACTIVE.prices[b.id];
+        return { count: b.count, id: b.id, priceEur: price, perSubject: Math.round((price / b.count) * 100) / 100 };
+      }),
+      vatIncluded: true,
+      accessMonths: ACCESS_MONTHS,
+    },
     subjects: SUBJECTS.map((s) => {
       const its = items.filter((i) => i.subject === s.id);
       const subs = its.filter((i) => i.kind === 'subdomain').sort((a, b) => a.order - b.order);
       const mocks = its.filter((i) => i.kind === 'mock');
       return {
         id: s.id, name: s.name,
-        priceEur: PRICE_EUR, vatIncluded: true, accessMonths: ACCESS_MONTHS,
+        priceEur: ACTIVE.prices.subject, vatIncluded: true, accessMonths: ACCESS_MONTHS,
         lookupKey: s.lookupKey,
         ready: subs.length > 0,
         exams: s.exams, registrationDeadline: s.registrationDeadline, examSource: EXAM_SOURCE,
@@ -262,7 +277,8 @@ function main() {
     fs.writeFileSync(path.join(OUT_PUBLIC, `sample-${s.id}.json`), JSON.stringify({
       subject: s.id, itemId: it.id, title: it.title,
       outcomesHtml: it.data.outcomesHtml, notesHtml: it.data.notesHtml,
-      questions: it.data.questions.slice(0, 3),
+      // owner-confirmed sample unit: the COMPLETE subdomain, all questions
+      questions: it.data.questions,
     }, null, 2));
   }
 
@@ -270,7 +286,9 @@ function main() {
   fs.writeFileSync(path.join(OUT_BUILD, 'sources.json'), JSON.stringify(sources.map((s) => s.split(path.sep).join('/')).sort(), null, 2));
   fs.mkdirSync(path.join(SITE, 'functions'), { recursive: true });
   fs.writeFileSync(path.join(SITE, 'functions/config.generated.json'), JSON.stringify({
-    subjects: SUBJECTS.map((s) => ({ id: s.id, lookupKey: s.lookupKey, priceEur: PRICE_EUR, accessMonths: ACCESS_MONTHS })),
+    subjects: SUBJECTS.map((s) => ({ id: s.id, lookupKey: s.lookupKey, priceEur: ACTIVE.prices.subject, accessMonths: ACCESS_MONTHS })),
+    bundles: BUNDLES.map((b) => ({ id: b.id, count: b.count, lookupKey: lookupKeyFor(b.id), priceEur: ACTIVE.prices[b.id] })),
+    priceForCount: { 1: ACTIVE.prices.subject, 2: ACTIVE.prices.bundle2, 3: ACTIVE.prices.bundle3, 5: ACTIVE.prices.bundle5 },
   }, null, 2));
 
   for (const w of warnings) console.warn('warn:', w);

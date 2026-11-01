@@ -4,10 +4,24 @@
 export const EXAM_SOURCE = 'https://www.ccvx.nl/index%20-%20EN.html';
 export const SAMPLES_SOURCE = 'https://www.ccvx.nl/index%20-%20EN.html#:~:text=Example';
 
-export const PRICE_EUR = 129; // one-off, VAT included
-export const ACCESS_MONTHS = 12;
-
+// Prices live in pricing-config.mjs (ONE money file, owner updates 1 Nov 2026).
 export const SUBJECTS = [
+  {
+    id: 'phys',
+    name: 'Physics',
+    dir: 'CCVX-physics',
+    lookupKey: 'cup_phys_once',
+    exams: [
+      { label: 'Tuesday 24 November 2026', approx: false },           // verified on ccvx.nl (EXAM_SOURCE)
+      { label: 'Around Wednesday 21 April 2027', approx: true },      // verified on ccvx.nl ("about")
+      { label: 'Around Monday 19 July 2027', approx: true },          // verified on ccvx.nl ("about")
+    ],
+    // Computed as 10 working days before the sitting (same method as the repo
+    // README's verified chemistry date). TO VERIFY at go-live against the CCVX
+    // conditions, article 4.
+    registrationDeadline: 'Tuesday 10 November 2026',
+    sampleItem: null, // physics sample = the teacher's first finished subdomain (coordinator confirms); flat CCVX-physics/<code>-<name>/ folders (pin 2 covers this)
+  },
   {
     id: 'chem',
     name: 'Chemistry',
@@ -32,7 +46,7 @@ export const SUBJECTS = [
       { label: 'Around Wednesday 14 July 2027', approx: true },
     ],
     registrationDeadline: 'Thursday 19 November 2026',
-    sampleItem: null, // no subdomain has practice questions yet
+    sampleItem: 'bio-b01', // owner-chosen public sample unit (notes; practice lands with the teacher batches)
   },
   {
     id: 'matha',
@@ -45,7 +59,7 @@ export const SUBJECTS = [
       { label: 'Around Thursday 22 July 2027', approx: true },
     ],
     registrationDeadline: null,
-    sampleItem: null,
+    sampleItem: null, // math A: its first core subdomain once the teacher lands it (coordinator confirms)
   },
   {
     id: 'mathb',
@@ -58,6 +72,6 @@ export const SUBJECTS = [
       { label: 'Around Friday 23 July 2027', approx: true },
     ],
     registrationDeadline: null,
-    sampleItem: null,
+    sampleItem: 'mathb-b03', // owner-chosen public sample unit for math B
   },
 ];

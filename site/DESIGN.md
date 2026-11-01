@@ -3,6 +3,14 @@
 Direction: `one-motif` (seed 836147353), from the taste skill draw on 1 Nov 2026.
 No redraws. Full sheet: `site/.taste-skill/direction.json` (`node <skill>/scripts/draw.mjs --show`).
 
+Owner updates applied (1 Nov 2026): Physics is the fifth subject (sitting Tuesday
+24 November 2026, Educatorium rooms Alfa/Gamma, then about 21 April 2027).
+Launch pricing supersedes EUR 129: EUR 79 per subject, bundles any 2 EUR 139,
+any 3 EUR 189, all 5 EUR 279, all "Launch price", no crossed-out was-price.
+Launch-offer badge under the hero support line and on the pricing block. The
+free sample is one complete subdomain per subject (chemistry C02, biology B01,
+math B B03, others pending).
+
 ## Inventory (what only this product has)
 
 - The CCVX exam facts: 3 hours, Utrecht (Educatorium room Beta), 13:30–16:30, EUR 98 exam fee paid to the CCVX.
@@ -10,7 +18,7 @@ No redraws. Full sheet: `site/.taste-skill/direction.json` (`node <skill>/script
 - Partial credit: CCVX open questions award points per correct step; every question here has a marking scheme.
 - BINAS is allowed in the exam; all chemistry and biology follows BINAS tables.
 - English material for a Dutch exam: the audience is international pre-med, dentistry and science candidates.
-- Price: EUR 129 one-off per subject, VAT included, 12 months access. The competitor (DecentraalSucces) charges EUR 199.
+- Price: EUR 79 one-off per subject, VAT included, 12 months access; bundles any 2 EUR 139, any 3 EUR 189, all 5 EUR 279. The competitor (DecentraalSucces) charges EUR 199.
 
 ## The idea sentence
 
@@ -23,7 +31,7 @@ Three real questions from the free C02 sample (loaded from `content/sample-chem.
 ## Sections (decentraalsucces.nl structure mapped onto the dealt blueprints)
 
 1. Hero: tabbed folder stack. Folders: Chemistry, Biology, Mathematics A, Mathematics B, Free sample. Front folder (crimson) carries the action.
-2. Pricing ("Kies de training"): one giant EUR 129 figure, the four subjects as four plain linked lines, one button.
+2. Pricing ("Kies de training"): one giant EUR 79 figure, the five subjects as five plain linked lines, one button, then the three bundle offers below.
 3. How it works ("Onze aanpak", 4 steps): one question card progresses across four fields: read the notes, practise, check the worked answer with per-step marks, rehearse a timed mock. No index numbers.
 4. What's inside (features): count-driven tiles, drawn objects only (reader fragments, notes page, mock clock) plus found pictures masked by the tab.
 5. The real exam (proof): fact tiles with the official 2026/2027 exam dates from ccvx.nl, the EUR 98 fee, and the source link. No logos, no invented praise.
@@ -38,11 +46,11 @@ Hero
 - Support: English study material for the CCVX entrance exams: clear notes per outcome, original practice questions with full solutions, and timed mock exams with marking schemes.
 - Folder tabs: Chemistry · Biology · Mathematics A · Mathematics B · Free sample
 - Front folder action: `Try three real questions`
-- Small line: EUR 129 per subject, one-off · VAT included · 12 months access
+- Small line: EUR 79 per subject, one-off · VAT included · 12 months access
 
 Pricing — heading `One price per subject`
 - Para: Every subject costs the same. You get all notes, all practice questions with solutions and the mock exams with marking schemes for 12 months.
-- Figure: `€ 129` with `per subject, once`
+- Figure: `€ 79` with `per subject, once`, then bundles: any 2 EUR 139 (EUR 69.50 per subject), any 3 EUR 189 (EUR 63), all 5 EUR 279 (EUR 55.80), plain line: Medicine applicants usually need 2-3 subjects
 - Four lines: `Chemistry` / `Biology` / `Mathematics A (in preparation)` / `Mathematics B (in preparation)`; each ready subject links to its page.
 - Button: `Choose your subject`
 - Note line: The CCVX exam itself costs EUR 98 per sitting, paid to the CCVX.
@@ -62,18 +70,18 @@ The real exam — heading tile `The real exam`
 
 FAQ — heading `Questions`
 1. Is this official CCVX material? — No. This is independent study material. It is not affiliated with or endorsed by the CCVX or any university. The official sample exams are free on ccvx.nl and we link to them.
-2. What do I get for EUR 129? — One subject, fully: all notes, all original practice questions with worked solutions, and the mock exams with marking schemes. Twelve months of access, VAT included.
+2. What do I get for EUR 79? — One subject, fully: all notes, all original practice questions with worked solutions, and the mock exams with marking schemes. Twelve months of access, VAT included. Bundles cost less per subject.
 3. Which subjects are ready? — Chemistry is being finished for 26 November 2026. Biology, Mathematics A and Mathematics B are in preparation; the page of each subject says what is inside today.
 4. Is everything in English? — Yes. The notes, questions and mock exams are in English and follow the English CCVX syllabus and BINAS conventions.
 5. Can I get a refund? — Access starts immediately after payment. At checkout you confirm that you waive the 14-day withdrawal right, as the law allows for digital content that starts right away. The refund page explains the details.
-6. Does EUR 129 include the exam? — No. You register and pay the CCVX separately (EUR 98 per sitting).
+6. Does EUR 79 include the exam? — No. You register and pay the CCVX separately (EUR 98 per sitting).
 7. What may I bring to the exam? — The CCVX allows a BINAS book. Our notes use BINAS table numbers so the book feels familiar on exam day.
 8. Can I study on my phone? — Yes. The reader works on desktop and mobile; a printed BINAS and real paper for working out are still worth it.
 
 Final CTA
 - Sentence: `In June, I will have passed CCVX [subject ▾].`
 - Button word: `Start`
-- Sub-line: EUR 129 once, VAT included, 12 months of access.
+- Sub-line: launch offer, EUR 79 per subject, VAT included, 12 months of access.
 
 Footer
 - Wordmark built from blocks: CCVX ULTIMATE PREP
