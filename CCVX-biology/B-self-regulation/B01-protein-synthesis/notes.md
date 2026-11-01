@@ -1,6 +1,6 @@
 # B1 — Protein Synthesis: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question. Diagrams are original SVGs.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), M1 *Eiwitsynthese* (M1.1–M1.2). A citation like *(CvTE M1.2 spec 2)* means specification 2 of M1.2; its numbers don't match the CCVX numbers.
@@ -21,9 +21,9 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Base pairing (*basenparing*) is complementary: A pairs with T through two hydrogen bonds and G with C through three. A double-ring base (A, G) always faces a single-ring base (T, C), so the double strand is equally wide everywhere.
 - One strand therefore fixes the other: 5'-ATGC-3' pairs with 3'-TACG-5'.
 
-![Chemical structure of a piece of double-stranded DNA](img/dna-chemical-structure.png)
+![Schematic of a short double strand of DNA](img/dna-double-strand.svg)
 
-*Part of a DNA double strand. The two strands run in opposite directions, each with a backbone of phosphate and deoxyribose and a 5' and a 3' end; A–T pairs are held by two hydrogen bonds (dotted) and G–C pairs by three. Image: Madprime, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:DNA_chemical_structure.svg).*
+*Part of a DNA double strand (original diagram). The two sugar–phosphate backbones are antiparallel (5'→3' opposite 3'→5'). Base pairing is complementary: A–T with two hydrogen bonds (dashed), G–C with three. That is why %A = %T and %G = %C in double-stranded DNA.*
 
 - In double-stranded DNA %A = %T and %G = %C: DNA with 30% A has 30% T, 20% G and 20% C.
 - DNA rich in G–C pairs needs more heat to separate its strands: 10 base pairs with 4 G–C and 6 A–T pairs are held by 4 × 3 + 6 × 2 = 24 hydrogen bonds.
@@ -37,10 +37,6 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 | Strands | two, as a double helix | one, often folded |
 | Length | very long (millions of base pairs) | short (one gene or less) |
 | Where | nucleus, mitochondria, chloroplasts | made in the nucleus, works mainly outside it |
-
-![RNA as a single strand next to DNA as a double helix, with their bases](img/dna-vs-rna.png)
-
-*RNA (left) is a single strand with uracil (U); DNA (right) is a double helix with thymine (T). Image: Sponk, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-EN.svg).*
 
 - In eukaryotes each chromosome (*chromosoom*) is one very long DNA molecule packed with proteins (*eiwitten*); a human body cell has 46 chromosomes in its nucleus.
 - The DNA is wound around histones (*histonen*): small, positively charged proteins that attract the negatively charged phosphate groups.
@@ -136,9 +132,9 @@ flowchart LR
 - Elongation: the tRNA whose anticodon fits the next codon brings its amino acid, the rRNA joins it to the chain with a peptide bond, the ribosome moves three bases on, and the empty tRNA leaves to be reloaded.
 - Termination: no tRNA fits a stop codon; a release protein binds instead, the chain is released and the subunits come apart.
 
-![A ribosome reading mRNA while tRNAs bring amino acids](img/translation-ribosome.png)
+![A ribosome translating mRNA into a polypeptide](img/translation.svg)
 
-*Translation. tRNAs bring amino acids, their anticodons pair with the codons of the mRNA, and the chain grows by one amino acid per codon. The A site and P site are where the incoming tRNA and the tRNA holding the chain sit; you don't need these names. Image: Mariana Ruiz (LadyofHats), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_en.svg).*
+*Translation (original diagram). The ribosome reads the mRNA 5'→3' in triplets (codons). Each tRNA pairs its anticodon with the complementary codon and delivers one amino acid; the rRNA of the large subunit links the amino acids with peptide bonds, so the chain grows by one amino acid per codon.*
 
 - Several ribosomes read one mRNA at the same time (a polysome), so one mRNA produces many copies of the protein.
 - Proteins for use in the cytoplasm, such as the enzymes of glycolysis, are made on free ribosomes. Proteins for export, for the cell membrane or for lysosomes start with a signal sequence that docks their ribosome onto the rough endoplasmic reticulum (*ruw endoplasmatisch reticulum*, RER).

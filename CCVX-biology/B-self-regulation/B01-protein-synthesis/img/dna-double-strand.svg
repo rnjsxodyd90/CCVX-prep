@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 330" role="img" aria-labelledby="t d">
+<title id="t">Double-stranded DNA (schematic)</title>
+<desc id="d">Two antiparallel sugar-phosphate backbones joined by complementary base pairs: A-T with two hydrogen bonds, G-C with three.</desc>
+<rect width="660" height="330" fill="#ffffff"/>
+<text x="330" y="30" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#0f172a">Double-stranded DNA (schematic)</text>
+<!-- backbones -->
+<rect x="40" y="62" width="580" height="24" rx="12" fill="#cbd5e1" stroke="#94a3b8"/>
+<rect x="40" y="218" width="580" height="24" rx="12" fill="#cbd5e1" stroke="#94a3b8"/>
+<text x="30" y="80" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">5'</text>
+<text x="630" y="80" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">3'</text>
+<text x="30" y="236" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">3'</text>
+<text x="630" y="236" text-anchor="start" font-family="sans-serif" font-size="15" font-weight="bold" fill="#334155">5'</text>
+<line x1="58" y1="102" x2="120" y2="102" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker></defs>
+<text x="60" y="122" font-family="sans-serif" font-size="12" fill="#475569">sugar–phosphate</text>
+<text x="60" y="136" font-family="sans-serif" font-size="12" fill="#475569">backbone</text>
+<!-- rung 1: A-T -->
+<rect x="118" y="86" width="64" height="54" rx="8" fill="#86efac" stroke="#16a34a"/>
+<text x="150" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#14532d">A</text>
+<line x1="142" y1="140" x2="142" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="158" y1="140" x2="158" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="118" y="164" width="64" height="54" rx="8" fill="#fca5a5" stroke="#dc2626"/>
+<text x="150" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#7f1d1d">T</text>
+<!-- rung 2: G-C -->
+<rect x="238" y="86" width="64" height="54" rx="8" fill="#93c5fd" stroke="#2563eb"/>
+<text x="270" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a">G</text>
+<line x1="258" y1="140" x2="258" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="270" y1="140" x2="270" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="282" y1="140" x2="282" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="238" y="164" width="64" height="54" rx="8" fill="#fde047" stroke="#ca8a04"/>
+<text x="270" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#713f12">C</text>
+<!-- rung 3: T-A -->
+<rect x="358" y="86" width="64" height="54" rx="8" fill="#fca5a5" stroke="#dc2626"/>
+<text x="390" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#7f1d1d">T</text>
+<line x1="382" y1="140" x2="382" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="398" y1="140" x2="398" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="358" y="164" width="64" height="54" rx="8" fill="#86efac" stroke="#16a34a"/>
+<text x="390" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#14532d">A</text>
+<!-- rung 4: C-G -->
+<rect x="478" y="86" width="64" height="54" rx="8" fill="#fde047" stroke="#ca8a04"/>
+<text x="510" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#713f12">C</text>
+<line x1="498" y1="140" x2="498" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="510" y1="140" x2="510" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="522" y1="140" x2="522" y2="164" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="478" y="164" width="64" height="54" rx="8" fill="#93c5fd" stroke="#2563eb"/>
+<text x="510" y="198" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a">G</text>
+<!-- legend -->
+<line x1="150" y1="284" x2="150" y2="304" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="162" y1="284" x2="162" y2="304" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="174" y1="284" x2="174" y2="304" stroke="#0f766e" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="186" y="298" font-family="sans-serif" font-size="13" fill="#334155">hydrogen bonds: A–T = 2, G–C = 3</text>
+<text x="330" y="322" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#64748b">The strands are antiparallel; in double-stranded DNA %A = %T and %G = %C.</text>
+</svg>
