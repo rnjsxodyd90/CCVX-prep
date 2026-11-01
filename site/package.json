@@ -1,0 +1,22 @@
+{
+  "name": "ccvx-ultimate-prep-site",
+  "private": true,
+  "type": "module",
+  "description": "CCVX Ultimate Prep website: static site + Firebase (emulator) + Stripe test mode.",
+  "scripts": {
+    "build": "node scripts/build-content.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "upload": "node scripts/upload-content.mjs",
+    "grant": "node scripts/grant.mjs",
+    "test:rules": "node scripts/test-rules.mjs",
+    "emulators": "firebase emulators:start --project demo-ccvx --only auth,firestore,functions,hosting"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^4.0.1",
+    "firebase": "^11.3.1",
+    "firebase-tools": "^13.29.0"
+  }
+}

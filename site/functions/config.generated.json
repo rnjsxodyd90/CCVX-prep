@@ -1,0 +1,28 @@
+{
+  "subjects": [
+    {
+      "id": "chem",
+      "lookupKey": "cup_chem_once",
+      "priceEur": 129,
+      "accessMonths": 12
+    },
+    {
+      "id": "bio",
+      "lookupKey": "cup_bio_once",
+      "priceEur": 129,
+      "accessMonths": 12
+    },
+    {
+      "id": "matha",
+      "lookupKey": "cup_matha_once",
+      "priceEur": 129,
+      "accessMonths": 12
+    },
+    {
+      "id": "mathb",
+      "lookupKey": "cup_mathb_once",
+      "priceEur": 129,
+      "accessMonths": 12
+    }
+  ]
+}
