@@ -258,7 +258,7 @@ Estimate the sucrose concentration that is isotonic with the potato cell sap. Sh
 
 #### Answer
 
-Zero mass change lies between 0.10 mol L⁻¹ (+6.0%) and 0.20 mol L⁻¹ (−2.1%).
+Zero mass change lies between 0.10 and 0.20 mol L⁻¹; interpolation gives 0.10 + 6.0 / 8.1 × 0.10 ≈ 0.17 mol L⁻¹.
 
 #### Solution
 
@@ -279,7 +279,7 @@ A red blood cell placed in pure water bursts, but a potato cell placed in pure w
 
 #### Answer
 
-A red blood cell has no cell wall: entering water only has the flexible membrane to resist, the cell swells and bursts (haemolysis).
+A red blood cell has no cell wall, so it swells and bursts; a potato cell has a cellulose wall, and the rising turgor pressure of the wall stops further water uptake before the membrane is damaged.
 
 #### Solution
 
@@ -300,7 +300,7 @@ In the cells of the cylinder in the 0.5 mol L⁻¹ solution the cell contents ha
 
 #### Answer
 
-Water leaves the vacuole and the cytoplasm to the more concentrated outside solution, so the cell contents shrink and the membrane detaches from the wall.
+Water leaves the vacuole and cytoplasm, so the cell contents shrink away from the wall; the gap fills with the outside sucrose solution, because the cell wall is freely permeable.
 
 #### Solution
 
@@ -334,7 +334,7 @@ With which labelled substance can researchers demonstrate that the released O₂
 
 #### Answer
 
-Experiment with the heavy oxygen isotope ¹⁸O: give plants water labelled with ¹⁸O (H₂¹⁸O) and normal CO₂ — the released O₂ is then heavy ¹⁸O₂.
+Label with the heavy isotope ¹⁸O: with H₂¹⁸O the released O₂ is heavy; with C¹⁸O₂ and normal water the released O₂ is normal — so the O₂ comes from the water.
 
 #### Solution
 
@@ -478,7 +478,7 @@ A second group first heats the liver extract to 80 °C and then lets it cool to 
 
 #### Answer
 
-The claim is wrong.
+The claim is wrong: heat denaturation is irreversible, so cooling does not restore the enzyme's activity.
 
 #### Solution
 
@@ -529,7 +529,7 @@ Explain why fermentation yields so much less ATP per glucose than aerobic dissim
 
 #### Answer
 
-Without O₂ only glycolysis runs, netting 2 ATP per glucose.
+Without O₂ only glycolysis runs (2 ATP net): O₂ is the final electron acceptor of the electron transport chain, so without it oxidative phosphorylation and the citric acid cycle stop, and fermentation only regenerates NAD⁺ without yielding ATP.
 
 #### Solution
 
@@ -597,7 +597,7 @@ A brewer lets the yeast convert 1.80 kg of glucose completely by alcoholic ferme
 
 #### Answer
 
-Amount of glucose: 1800 g / 180 g mol⁻¹ = 10 mol.
+1800 g / 180 g mol⁻¹ = 10 mol glucose, giving 20 mol ethanol = 920 g (0.92 kg) and 20 mol CO₂ = 880 g (0.88 kg).
 
 #### Solution
 
@@ -648,7 +648,7 @@ Nitrification runs in two steps, each carried out by a different group of bacter
 
 #### Answer
 
-Step 1 (ammonia oxidisers): 2 NH₃ + 3 O₂ → 2 NO₂⁻ + 2 H⁺ + 2 H₂O.
+Step 1 (ammonia oxidisers): 2 NH₃ + 3 O₂ → 2 NO₂⁻ + 2 H⁺ + 2 H₂O. Step 2 (nitrite oxidisers): 2 NO₂⁻ + O₂ → 2 NO₃⁻.
 
 #### Solution
 
@@ -665,7 +665,7 @@ Explain why nitrification nearly stops in the waterlogged field.
 
 #### Answer
 
-In a waterlogged soil the air-filled pores are filled with water, and O₂ diffuses through water extremely slowly, so the soil contains almost no O₂.
+A waterlogged soil contains almost no O₂ (O₂ diffuses through water extremely slowly), and both nitrification steps need O₂, so the bacteria get no energy and nitrate formation nearly stops.
 
 #### Solution
 
