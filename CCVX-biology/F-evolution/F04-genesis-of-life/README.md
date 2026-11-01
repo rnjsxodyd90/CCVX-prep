@@ -23,4 +23,5 @@ Self-organization, primeval soup, archaea, chemical evolution, Miller-Urey exper
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed).
+- [practice.md](practice.md): 25 original practice items in strict CCVX block format (65 points, including 3 calculation items and a timeline-reading item).
