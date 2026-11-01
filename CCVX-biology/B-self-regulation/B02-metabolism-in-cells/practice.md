@@ -1,8 +1,8 @@
 # B2 — Metabolism in Cells: practice questions
 
-Original practice items in CCVX style (one scored item per block), with full worked answers and marking points. In the exam you may use BINAS; needed data are given with each item.
+Original practice items in CCVX style (one scored item per block), covering B2.1 (homeostasis), B2.2 (transport) and B2.3 (assimilation and dissimilation), all outcomes. In the exam you may use BINAS; needed data are given with each item. Total: 84 points.
 
-### bio-b02-q01 | points 3 | outcome B2.1.1 | difficulty medium
+### bio-b02-q01 | points 3 | outcome B2.1.1 | difficulty easy
 
 #### Question
 
@@ -16,10 +16,10 @@ Bacterial cells differ from eukaryotic cells for example in their DNA organisati
 
 #### Solution
 
-Bacterial cells differ from eukaryotic cells for example in their DNA organisation, their organelles and their wall.
-*Marking (any three):* • no nucleus: one circular chromosome free in the cytoplasm (nucleoid) (1) • no membrane-bound organelles such as mitochondria (1) • cell wall of peptidoglycan, not cellulose (1) • smaller ribosomes than eukaryotes (1) • often plasmids, small extra rings of DNA (1)
+Bacterial cells differ from eukaryotic cells for example in their DNA organisation, their organelles and their wall. Accept any three of: no nucleus (one circular chromosome lies free in the cytoplasm, in the nucleoid); no membrane-bound organelles (no mitochondria, ER, and so on); a cell wall of peptidoglycan instead of cellulose; smaller ribosomes than in eukaryotic cytoplasm; often plasmids, small extra rings of DNA.
+*Marking:* • a first correct characteristic, with a correct contrast to a eukaryotic cell (1) • a second, different correct characteristic (1) • a third, different correct characteristic (1)
 
-### bio-b02-q02 | points 2 | outcome B2.1.1 | difficulty medium
+### bio-b02-q02 | points 2 | outcome B2.1.1 | difficulty easy
 
 #### Question
 
@@ -29,7 +29,7 @@ Calculate how many Salmonella cells are on the worktop at 02:00, if all cells ke
 
 #### Answer
 
-From 20:00 to 02:00 is 6 hours = 12 divisions of 30 minutes.
+6 hours is 12 divisions, so 200 × 2¹² = 200 × 4096 = 819,200 cells.
 
 #### Solution
 
@@ -46,14 +46,14 @@ The cook has the flu and says: "I will take antibiotics; my doctor also prescrib
 
 #### Answer
 
-The claim is wrong.
+The claim is wrong: a virus is not a cell and has no metabolism, and antibiotics act on bacterial structures, so they do not help against flu.
 
 #### Solution
 
 The claim is wrong. Flu is caused by a virus, which is not a cell: it has no metabolism of its own and multiplies only inside host cells. Antibiotics attack bacterial structures, such as the cell wall of peptidoglycan or the smaller bacterial ribosomes, so they do nothing against viruses.
 *Marking:* • claim rejected: virus is not a cell / has no metabolism (1) • antibiotics act on bacterial structures and therefore not on viruses (1)
 
-### bio-b02-q04 | points 3 | outcome B2.1.2 | difficulty medium
+### bio-b02-q04 | points 3 | outcome B2.1.2 | difficulty easy
 
 #### Question
 
@@ -70,7 +70,7 @@ The mitochondrion carries out aerobic dissimilation and produces most of the cel
 The mitochondrion carries out aerobic dissimilation and produces most of the cell's ATP. The ribosome carries out protein synthesis (translation). The cell nucleus holds the chromosomes (DNA) and controls the cell through the proteins it codes for; it is also the site of transcription.
 *Marking:* • mitochondrion: aerobic dissimilation / ATP production (1) • ribosome: protein synthesis (1) • nucleus: holds the DNA / controls the cell (1)
 
-### bio-b02-q05 | points 2 | outcome B2.1.2 | difficulty medium
+### bio-b02-q05 | points 2 | outcome B2.1.3 | difficulty medium
 
 #### Question
 
@@ -87,7 +87,7 @@ Muscle and brain cells use ATP continuously at a high rate, for ion pumps, prote
 Muscle and brain cells use ATP continuously at a high rate, for ion pumps, protein turnover, transport and contraction, so they depend on a large, steady ATP production by oxidative phosphorylation. Cells keep working only while their chemical reactions continue, and those reactions need ATP; when defective mitochondria cut the ATP supply, the cells with the highest demand fail first.
 *Marking:* • these tissues need a lot of ATP continuously (1) • cells stay alive only through ATP-driven chemical reactions, so an impaired ATP supply hits the highest consumers first (1)
 
-### bio-b02-q06 | points 2 | outcome B2.1.2 | difficulty medium
+### bio-b02-q06 | points 2 | outcome B2.1.3 | difficulty hard
 
 #### Question
 
@@ -104,7 +104,7 @@ The ATP comes from glycolysis alone, with lactic acid fermentation regenerating 
 The ATP comes from glycolysis alone, with lactic acid fermentation regenerating the NAD⁺. But without a nucleus and ribosomes the cell cannot make new proteins (enzymes) to replace worn-out components, so its self-maintenance stops after some time (a red blood cell lives about 120 days).
 *Marking:* • glycolysis (with fermentation) (1) • no new proteins can be made, so worn-out parts cannot be replaced (1)
 
-### bio-b02-q07 | points 3 | outcome B2.1.5 | difficulty medium
+### bio-b02-q07 | points 3 | outcome B2.1.4 | difficulty hard
 
 #### Question
 
@@ -121,7 +121,7 @@ The pump continuously transports Na⁺ out and K⁺ in, at a rate that exactly b
 The pump continuously transports Na⁺ out and K⁺ in, at a rate that exactly balances the leakage in the opposite direction; the ATP costs are met by dissimilation. Inflow thus equals outflow at a constant level: a dynamic equilibrium (a steady state of an open system).
 *Marking:* • leak balanced by active pumping against the gradients (1) • it costs ATP (1) • dynamic equilibrium (1)
 
-### bio-b02-q08 | points 3 | outcome B2.1.5 | difficulty medium
+### bio-b02-q08 | points 3 | outcome B2.1.4 | difficulty hard
 
 #### Question
 
@@ -148,7 +148,7 @@ ATP inhibits an early enzyme of glycolysis (end-product inhibition). Describe ho
 
 #### Answer
 
-Signal: the ATP concentration of the cell.
+Signal is the ATP concentration; the effector is an early enzyme of glycolysis. When ATP falls, the inhibition is released, so glycolysis speeds up and ATP production rises (negative feedback).
 
 #### Solution
 
@@ -165,7 +165,7 @@ An LDL particle is much too large for channel or carrier proteins. Describe the 
 
 #### Answer
 
-The LDL particle binds to the LDL receptor, a specific receptor protein in the cell membrane.
+The LDL particle binds to the LDL receptor, a specific receptor protein in the cell membrane; the membrane then folds inwards around the particle and pinches off a vesicle inside the cell: receptor-mediated endocytosis.
 
 #### Solution
 
@@ -189,7 +189,7 @@ With few working receptors the liver cells take up only a small fraction of the 
 With few working receptors the liver cells take up only a small fraction of the LDL particles, so LDL is removed from the blood too slowly and its concentration in the blood stays high.
 *Marking:* • less/no uptake by liver cells (1) • removal too slow, so blood LDL stays high (1)
 
-### bio-b02-q12 | points 2 | outcome B2.2.1 | difficulty medium
+### bio-b02-q12 | points 2 | outcome B2.2.4 | difficulty easy
 
 #### Question
 
@@ -199,13 +199,14 @@ After uptake, the vesicle travels through the cytoplasm to a lysosome. Name the 
 
 #### Answer
 
-Tracks: microtubules of the cytoskeleton (1).
+Tracks: microtubules of the cytoskeleton. Movers: motor proteins, such as kinesin and dynein, which use ATP.
 
 #### Solution
 
-Tracks: microtubules of the cytoskeleton (1). Movers: motor proteins, such as kinesin and dynein, which use ATP (1).
+The vesicle is carried along the microtubules of the cytoskeleton; the actual moving is done by motor proteins such as kinesin and dynein, which step along the microtubules at the cost of ATP.
+*Marking:* • (microtubules of the) cytoskeleton as the track (1) • motor proteins, using ATP, as the movers (1)
 
-### bio-b02-q13 | points 1 | outcome B2.2.1 | difficulty medium
+### bio-b02-q13 | points 1 | outcome B2.2.3 | difficulty easy
 
 #### Question
 
@@ -215,14 +216,14 @@ Water and small apolar molecules can leave the vesicle, but the lysosome enzymes
 
 #### Answer
 
-(Selective) permeability: the membrane is selectively permeable.
+The selective permeability of the membrane: it lets some substances pass and holds others, such as the enzymes, back.
 
 #### Solution
 
 (Selective) permeability: the membrane is selectively permeable.
 *Marking:* • selective permeability (1)
 
-### bio-b02-q14 | points 3 | outcome B2.2.2 | difficulty medium
+### bio-b02-q14 | points 3 | outcome B2.2.3 | difficulty medium
 
 #### Question
 
@@ -236,14 +237,14 @@ Explain the mass gain in pure water and the mass loss in the 0.5 mol L⁻¹ solu
 
 #### Answer
 
-In pure water the solution outside has a lower osmotic value (higher water potential) than the cell sap, so through the selectively permeable membrane more water enters than leaves: the cylinder gains mass.
+In pure water the outside solution has a lower osmotic value, so water enters through the selectively permeable membrane and the cylinder gains mass; the 0.5 mol L⁻¹ solution has a higher osmotic value, so water leaves the cells and the cylinder loses mass.
 
 #### Solution
 
 In pure water the solution outside has a lower osmotic value (higher water potential) than the cell sap, so through the selectively permeable membrane more water enters than leaves: the cylinder gains mass. In 0.5 mol L⁻¹ sucrose the outside solution has a higher osmotic value (lower water potential) than the cell sap, so water leaves the cells and the cylinder loses mass.
 *Marking:* • direction of osmosis linked to the higher osmotic value / lower water potential side (1) • selectively permeable membrane mentioned (1) • both cases explained (1)
 
-### bio-b02-q15 | points 2 | outcome B2.2.2 | difficulty medium
+### bio-b02-q15 | points 2 | outcome B2.2.3 | difficulty medium
 
 #### Question
 
@@ -306,7 +307,7 @@ Water leaves the vacuole and the cytoplasm to the more concentrated outside solu
 Water leaves the vacuole and the cytoplasm to the more concentrated outside solution, so the cell contents shrink and the membrane detaches from the wall. Because the cell wall is freely permeable, the space between wall and membrane fills with the outside sucrose solution.
 *Marking:* • water leaves the vacuole/cytoplasm, contents shrink away from the wall (1) • gap fills with the outside solution, through the permeable wall (1)
 
-### bio-b02-q18 | points 2 | outcome B2.3.6 | difficulty medium
+### bio-b02-q18 | points 2 | outcome B2.3.6 | difficulty easy
 
 #### Question
 
@@ -323,7 +324,7 @@ Give the net equation of photosynthesis.
 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂ (with light energy, in chloroplasts).
 *Marking:* • correct substances on both sides (1) • correctly balanced (1)
 
-### bio-b02-q19 | points 2 | outcome B2.3.6 | difficulty medium
+### bio-b02-q19 | points 2 | outcome B2.3.3 | difficulty hard
 
 #### Question
 
@@ -340,7 +341,7 @@ Experiment with the heavy oxygen isotope ¹⁸O: give plants water labelled with
 Experiment with the heavy oxygen isotope ¹⁸O: give plants water labelled with ¹⁸O (H₂¹⁸O) and normal CO₂ — the released O₂ is then heavy ¹⁸O₂. Give instead C¹⁸O₂ with normal water — the released O₂ is normal. The O₂ therefore comes from the water.
 *Marking:* • isotope ¹⁸O used to label either H₂O or CO₂ (1) • O₂ is labelled only when the water was labelled, so it comes from water (1)
 
-### bio-b02-q20 | points 2 | outcome B2.3.6 | difficulty medium
+### bio-b02-q20 | points 2 | outcome B2.3.3 | difficulty medium
 
 #### Question
 
@@ -357,7 +358,7 @@ The Calvin cycle uses the ATP and the NADPH of the light reaction; it returns AD
 The Calvin cycle uses the ATP and the NADPH of the light reaction; it returns ADP and Pᵢ, and NADP⁺, which the light reaction recharges.
 *Marking:* • ATP and NADPH used (1) • ADP (+ Pᵢ) and NADP⁺ returned (1)
 
-### bio-b02-q21 | points 2 | outcome B2.3.6 | difficulty medium
+### bio-b02-q21 | points 2 | outcome B2.3.2 | difficulty medium
 
 #### Question
 
@@ -374,7 +375,7 @@ Light energy is converted into chemical energy, first in ATP and NADPH in the li
 Light energy is converted into chemical energy, first in ATP and NADPH in the light reaction, then in glucose in the Calvin cycle. No energy conversion has an efficiency of 100%: at every step part of the energy is lost as heat, which cannot drive cell chemistry.
 *Marking:* • light → chemical energy via ATP/NADPH into glucose (1) • every conversion loses part as heat (1)
 
-### bio-b02-q22 | points 2 | outcome B2.3.7 | difficulty medium
+### bio-b02-q22 | points 2 | outcome B2.3.1 | difficulty easy
 
 #### Question
 
@@ -484,7 +485,7 @@ The claim is wrong.
 The claim is wrong. Heating to 80 °C denatures the enzyme irreversibly: the folding and the active site are destroyed and do not return on cooling. (Cooling only works the other way: cold slows an enzyme without denaturing it.)
 *Marking:* • heat denaturation is irreversible (1)
 
-### bio-b02-q27 | points 2 | outcome B2.3.5 | difficulty medium
+### bio-b02-q27 | points 2 | outcome B2.3.6 | difficulty easy
 
 #### Question
 
@@ -501,7 +502,7 @@ C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O.
 C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O.
 *Marking:* • correct substances (1) • correctly balanced (1)
 
-### bio-b02-q28 | points 2 | outcome B2.3.5 | difficulty medium
+### bio-b02-q28 | points 2 | outcome B2.3.6 | difficulty medium
 
 #### Question
 
@@ -518,7 +519,7 @@ C₆H₁₂O₆ → 2 C₃H₆O₃ (lactic acid).
 C₆H₁₂O₆ → 2 C₃H₆O₃ (lactic acid).
 *Marking:* • glucose on the left, lactic acid on the right (1) • correctly balanced, no CO₂ (1)
 
-### bio-b02-q29 | points 3 | outcome B2.3.5 | difficulty medium
+### bio-b02-q29 | points 3 | outcome B2.3.5 | difficulty hard
 
 #### Question
 
@@ -545,14 +546,14 @@ Show with a calculation how many times more ATP aerobic dissimilation yields per
 
 #### Answer
 
-30 / 2 = **15 times more** ATP per glucose (30–32⁄2 = 15–16×).
+30 / 2 = **15 times more** ATP per glucose (with 30–32 ATP: 15–16× as much).
 
 #### Solution
 
-30 / 2 = **15 times more** ATP per glucose (30–32⁄2 = 15–16×). The muscle cell still uses fermentation because glycolysis then keeps running and keeps producing (some) ATP at a high rate while the O₂ supply cannot match the demand — little ATP is better than none.
+30 / 2 = **15 times more** ATP per glucose (with 30–32 ATP: 15–16× as much). The muscle cell still uses fermentation because glycolysis then keeps running and keeps producing (some) ATP at a high rate while the O₂ supply cannot match the demand — little ATP is better than none.
 *Marking:* • 30/2 = 15× (accept 15–16×) (1) • keeps ATP production going when O₂ supply is insufficient (1)
 
-### bio-b02-q31 | points 2 | outcome B2.3.8 | difficulty medium
+### bio-b02-q31 | points 2 | outcome B2.3.6 | difficulty medium
 
 #### Question
 
@@ -569,7 +570,7 @@ C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂.
 C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂.
 *Marking:* • correct substances (1) • correctly balanced (1)
 
-### bio-b02-q32 | points 3 | outcome B2.3.8 | difficulty medium
+### bio-b02-q32 | points 3 | outcome B2.3.5 | difficulty medium
 
 #### Question
 
@@ -579,14 +580,14 @@ Explain the purpose of the aeration step and of the closing step, using the term
 
 #### Answer
 
-Aeration: with O₂ present the yeast carries out aerobic dissimilation, yielding about 30 ATP per glucose, so the cells can multiply quickly (1).
+Aeration lets the yeast dissimilate aerobically (much ATP, so fast growth); closing the tank forces alcoholic fermentation, producing the ethanol (and CO₂).
 
 #### Solution
 
-Aeration: with O₂ present the yeast carries out aerobic dissimilation, yielding about 30 ATP per glucose, so the cells can multiply quickly (1). Closing: without O₂ the yeast switches to alcoholic fermentation, producing the ethanol (and CO₂) the beer needs (2).
+The aeration step comes first: with O₂ present the yeast carries out aerobic dissimilation, yielding about 30 ATP per glucose, so the cells can multiply quickly. The closing step comes second: without O₂ the yeast is forced into alcoholic fermentation, so it produces the ethanol (and CO₂) the beer needs.
 *Marking:* • aerobic: much ATP, fast growth (1) • anaerobic: ethanol and CO₂ production (1) • so the aeration window comes first, the closed stage second (1)
 
-### bio-b02-q33 | points 3 | outcome B2.3.8 | difficulty medium
+### bio-b02-q33 | points 3 | outcome B2.3.5 | difficulty medium
 
 #### Question
 
@@ -603,7 +604,7 @@ Amount of glucose: 1800 g / 180 g mol⁻¹ = 10 mol.
 Amount of glucose: 1800 g / 180 g mol⁻¹ = 10 mol. Per mole of glucose, 2 mol of ethanol and 2 mol of CO₂ form, so 20 mol of each. Ethanol: 20 × 46 = **920 g (0.92 kg)**. CO₂: 20 × 44 = **880 g (0.88 kg)**. (Check: 0.92 + 0.88 = 1.80 kg, as the equation predicts.)
 *Marking:* • 10 mol glucose (1) • 20 mol ethanol = 920 g (1) • 20 mol CO₂ = 880 g (1)
 
-### bio-b02-q34 | points 1 | outcome B2.3.8 | difficulty medium
+### bio-b02-q34 | points 1 | outcome B2.3.8 | difficulty easy
 
 #### Question
 
@@ -620,7 +621,7 @@ For example: yoghurt (or cheese, or sauerkraut) is made with lactic acid bacteri
 For example: yoghurt (or cheese, or sauerkraut) is made with lactic acid bacteria; bread is made with yeast.
 *Marking:* • a correct product–microorganism pair (1)
 
-### bio-b02-q35 | points 3 | outcome B2.3.9 | difficulty medium
+### bio-b02-q35 | points 3 | outcome B2.3.9 | difficulty hard
 
 #### Question
 
@@ -671,7 +672,7 @@ In a waterlogged soil the air-filled pores are filled with water, and O₂ diffu
 In a waterlogged soil the air-filled pores are filled with water, and O₂ diffuses through water extremely slowly, so the soil contains almost no O₂. Both nitrification steps oxidise their substrate with O₂, so the bacteria then get no energy for their Calvin cycle and nitrate formation nearly stops.
 *Marking:* • waterlogged soil is almost O₂-free (1) • both oxidation steps lack O₂, so no energy/no nitrate (1)
 
-### bio-b02-q38 | points 3 | outcome B2.3.9 | difficulty medium
+### bio-b02-q38 | points 3 | outcome B2.3.4 | difficulty medium
 
 #### Question
 
@@ -681,8 +682,9 @@ Plants use nitrate, together with glucose from photosynthesis, for continued ass
 
 #### Answer
 
-The four classes: building materials, fuels, reserve substances and enzymes (2).
+The four classes: building materials, fuels, reserve substances and enzymes. Nitrate is needed for the building materials (proteins) and the enzymes.
 
 #### Solution
 
-The four classes: building materials, fuels, reserve substances and enzymes (2). Nitrate supplies nitrogen, which is needed for amino acids, so it goes into the building materials (proteins) and the enzymes (1).
+Assimilation yields four classes of product: building materials (such as proteins, phospholipids and cellulose), fuels (glucose, fatty acids), reserve substances (starch, glycogen, fat) and enzymes. Nitrate supplies nitrogen, which is needed for amino acids, so it goes into the building materials (proteins) and the enzymes. (Score: if only two or three classes are named, 1 of the 2 class-points.)
+*Marking:* • all four classes named: building materials, fuels, reserve substances, enzymes (2) • nitrate supplies nitrogen for amino acids, so for building materials (proteins) and enzymes (1)
