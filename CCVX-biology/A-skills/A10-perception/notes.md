@@ -1,6 +1,6 @@
 # A10 — Perception: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** school exam only (CvTE §1.4).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A10 *Beleven*. A10 has only an attainment target (*eindterm*); a citation like *(CvTE A10)* means that attainment target.
@@ -19,3 +19,9 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - The C03 world-view context, municipal biologists researching public attitudes to nature for land-use plans ([C03](../../C-self-organization/C03-self-organization-of-ecosystems/README.md)), is in Dutch research into *natuurbeleving van burgers*, how citizens experience nature. *(CvTE appendix 4)*
 - The F03 world-view context, a conservation group discussing the claim in Bas Haring's book Plastic Panda's that species extinction is not a problem ([F03](../../F-evolution/F03-biodiversity/README.md)), is a discussion where scientific arguments, values and feelings about nature meet.
 - **Trap:** "a forest makes people calm" describes an experience; it becomes a scientific claim only once it is measured, for example in a study of stress levels.
+
+## How the exam tests this
+
+- Recognise which statements in a context express a feeling or a meaning someone attaches to nature, and keep them apart from scientific arguments ([A09](../A09-evaluation-and-judgment/README.md) item 2).
+- Name the kind of value a person or group in a context attaches to nature: use, beauty and rest, or intrinsic value.
+- Expect nothing further: feelings themselves cannot be examined in writing, so this subdomain never carries a question on its own.

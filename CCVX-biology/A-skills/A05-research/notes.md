@@ -1,6 +1,6 @@
 # A5 — Research: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A5 *Onderzoeken*. A citation like *(CvTE A5 spec 9)* means specification 9 of A5; here the numbers match the CCVX numbers.
@@ -16,7 +16,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 ## 2. From problem to research question
 
 - A research question (*onderzoeksvraag*) asks for the effect of an independent variable (*onafhankelijke variabele*), which the researcher changes, on a dependent variable (*afhankelijke variabele*), which is measured. *(CvTE A5 spec 2)*
-- Example: "what is the effect of light intensity on the rate of photosynthesis of pondweed?", measured as O₂ bubbles per minute, with temperature, CO₂ and the plant kept the same.
+- Example: "what is the effect of light intensity on the rate of photosynthesis of pondweed?", measured as O₂ bubbles per minute, with temperature, CO₂ and the plant kept the same. The variables kept the same are the control variables (*constante variabelen*).
 - **Trap:** changing two variables at once, such as light and temperature, makes it impossible to tell which one caused the effect.
 
 ## 3. Linking the question to scientific knowledge
@@ -83,3 +83,12 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - **In both:** all twelve items, with the same numbers, but the CvTE prints items 5 and 10 grey, so they aren't tested in the Dutch central exam. *(CvTE A5)*
 - **Dutch syllabus only:** accuracy (*nauwkeurigheid*) in item 9.
 - **CCVX only:** nothing.
+
+## How the exam tests this
+
+- Turn a described problem into a research question, or a question into a hypothesis plus the expectation you would measure if the hypothesis holds (items 1–4).
+- Identify in a described set-up the independent variable, the dependent variable and the control variables, and say what the control condition or control group is for (items 2, 5–6).
+- Process given results: complete a table or graph, or reduce repeats to a mean or a rate (item 7).
+- Judge whether a conclusion actually follows from the data and stays within the range tested (item 8).
+- Evaluate a described study with the words validity and reliability: name the factor that was not kept constant, or explain why repeats are needed (item 9).
+- Assess a claim drawn from non-experimental research: does a correlation justify "causes", or is probability language needed (items 11–12)?

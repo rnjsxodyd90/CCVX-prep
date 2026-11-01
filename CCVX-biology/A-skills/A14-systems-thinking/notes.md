@@ -1,6 +1,6 @@
 # A14 — Systems Thinking: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A14 *Systeemdenken*. The CvTE splits the attainment target into three specifications that CCVX doesn't list; a citation like *(CvTE A14 spec 2)* means specification 2 of A14.
@@ -31,3 +31,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - CCVX's example is the biological clock: single clock cells peak at different times of day, but together they can register day length and the time of year ([C-self-organization](../../C-self-organization/README.md)).
 - A population has a density, a birth rate and allele frequencies, which no single organism has ([F02](../../F-evolution/F02-speciation/README.md)); an ecosystem has food webs and nutrient cycles, which no single population has ([C03](../../C-self-organization/C03-self-organization-of-ecosystems/README.md)).
 - **Trap:** a total such as the biomass of an ecosystem is only the sum of its parts, not an emergent property; an emergent property comes from the interactions between the parts.
+
+## How the exam tests this
+
+- Place a described phenomenon at the right level of organisation (molecule, cell, organ, organism, population, ecosystem) and name the level below or above that influences it.
+- Explain how a unit at one level maintains itself: which parts and relationships form the regulation, such as negative feedback keeping blood glucose constant.
+- Trace how an effect travels between levels: a mutation up through protein, cell and organ to the organism, or a hormone from the organism down to gene activity in one cell type.
+- Explain regulation or feedback running at more than one level, for example self-regulation of blood glucose in the body and of population size in an ecosystem.
+- Recognise an emergent property of a higher level, and distinguish it from a quantity that is merely the sum of the parts.

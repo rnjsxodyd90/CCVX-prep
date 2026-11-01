@@ -1,6 +1,6 @@
 # A8 — Scientific Instruments: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A8 *Natuurwetenschappelijk instrumentarium*. A citation like *(CvTE A8 spec 6)* means specification 6 of A8; the CvTE inserts a list of quantities and units as spec 3, so CCVX items 1–6 are CvTE specs 1, 2, 4, 5, 6 and 7.
@@ -46,6 +46,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 ## 5. Arithmetical and mathematical skills
 
 - The exam verbs "calculate" (*berekenen*) and "determine" (*bepalen*) require the values used and the steps, the right unit unless the question gives it, and rounding as asked. *(CvTE A8 spec 6; CvTE appendix 5)*
+- Significant figures (*significante cijfers*): a result cannot be more precise than the data it comes from; with inputs in two significant figures, such as 5.0 L min⁻¹ and 70 min⁻¹, give two, so 71 mL and not 71.4 mL. If the question states a rounding, follow that instead.
 - Fractions and powers: 1 cm³ = 10⁻⁶ m³ = 1 mL; ten rounds of cell division turn one cell into 2¹⁰ = 1024 cells.
 - Ratios, percentages and averages: a dihybrid cross AaBb × AaBb of unlinked genes with complete dominance gives 9 : 3 : 3 : 1, so 9/16 = 56.25% of the offspring show both dominant traits ([E03](../../E-reproduction/E03-reproduction-of-organisms/README.md)); the mean of 12, 14 and 13 mL is 13 mL.
 - Area and volume: a cube of 1 cm has 6 cm² of surface per cm³, a cube of 2 cm only 24 / 8 = 3 cm² per cm³; for a sphere the ratio is 3/r, so smaller cells have more surface per volume. Villi, alveoli and root hairs enlarge the exchange surface ([B03](../../B-self-regulation/B03-metabolism-in-organisms/README.md)).
@@ -66,3 +67,12 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - **In both:** CCVX items 1–6, as CvTE specs 1, 2, 4, 5, 6 and 7. The ICT part of item 1 and all of item 4 (CvTE spec 5) are printed grey, so they are not in the Dutch central exam. *(CvTE A8)*
 - **Dutch syllabus only:** spec 3, the list of quantities and units with the prefixes from nano to giga, which CCVX partly lists under basic knowledge instead ([01-chemistry](../../0-basic-knowledge/01-chemistry/README.md), [02-physics](../../0-basic-knowledge/02-physics/README.md)); calculating with probabilities in spec 6, such as 1/4 for an aa child from Aa × Aa and 1/4 × 1/4 = 1/16 for two in a row ([E03](../../E-reproduction/E03-reproduction-of-organisms/README.md)); and spec 8, explaining how each variable in a formula affects the process, such as a thicker membrane slowing diffusion in Fick's law ([B03](../../B-self-regulation/B03-metabolism-in-organisms/README.md)).
 - **CCVX only:** converting formulas and reading a logarithmic graph, which the CvTE doesn't list in spec 6.
+
+## How the exam tests this
+
+- Read values with their units from a graph, table or diagram, watching axis factors such as "× 10³ per mL" (item 1); look up a constant such as a molar mass in a named Binas table and use it.
+- Name the technique or apparatus that measures a given quantity, such as a spirometer for lung volumes or gel electrophoresis for DNA fragment lengths (item 3).
+- Calculate with fractions, powers, ratios, percentages and averages; convert units, for example cm³ to mL, or mmol to g with the molar mass from Binas; and give the answer to the right number of significant figures (item 5).
+- Convert a formula before using it, such as stroke volume = cardiac output / heart rate (item 5).
+- Draw a graph with the independent variable on the x-axis and the dependent variable on the y-axis, each with quantity and unit; and read a semi-log graph, where a straight line means exponential growth (items 2, 5).
+- Describe a relationship in a table or graph as a trend, in words and without claiming a cause from correlation alone (item 6).

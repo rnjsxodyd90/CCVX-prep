@@ -1,8 +1,8 @@
 # A4 — Studies and Professions: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
-- **In Dutch VWO:** the CvTE §1.4 table marks A4 for the central and the school exam, but prints the A4 end term grey, so the Dutch central exam doesn't test it. CCVX keeps it and tests it inside content questions.
+- **In Dutch VWO:** the CvTE §1.4 table marks A4 for the central and the school exam, but prints the A4 end term grey, so the Dutch central exam doesn't test it. CCVX doesn't test it in the written exam either.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A, A4 *Studie en beroep*. A1–A4 have only an attainment target (*eindterm*), which the CvTE doesn't specify further; a citation like *(CvTE A4)* means that attainment target.
 
 Dutch terms are in brackets. Binas tables are named, not numbered, because the numbers differ between editions.
@@ -11,6 +11,7 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 
 - Describing how scientific knowledge is used in studies and professions (*studie en beroep*), and putting your own interest in them into words. *(CvTE A4)*
 - The personal part can't be tested in writing, and CCVX leaves out what can't *(CCVX syllabus §1)*; what remains is seeing which biology a profession uses.
+- **Exam status:** the general skills A1–A4 are not tested in the written exam as such, because they cannot be examined in writing on their own *(CCVX syllabus §1)*; the exam covers them only in conjunction with the questions on domains B–F. The professional settings below belong to [A16](../A16-contexts/README.md).
 
 ## How it shows up in a written exam
 

@@ -6,4 +6,4 @@ The candidate is able to search for, judge, select and process information syste
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).

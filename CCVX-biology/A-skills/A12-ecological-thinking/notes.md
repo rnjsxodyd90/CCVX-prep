@@ -1,6 +1,6 @@
 # A12 — Ecological Thinking: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A12 *Ecologisch denken*. The CvTE splits the attainment target into three specifications that CCVX doesn't list; a citation like *(CvTE A12 spec 2)* means specification 2 of A12.
@@ -32,3 +32,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Burning fossil fuels raises the CO₂ concentration in the air, which strengthens the greenhouse effect and changes climate and ecosystems worldwide ([B08](../../B-self-regulation/B08-regulation-of-ecosystems/README.md)).
 - The B08 context, importing soya from Brazil as pig feed, connects land clearance for soya there with manure surpluses, and so extra nitrate and phosphate, in the Netherlands.
 - **Trap:** skipping links in the chain: "fertiliser kills fish" leaves out the algae, the decomposers and the O₂.
+
+## How the exam tests this
+
+- Argue step by step what an internal change (a growing population, succession, a disappearing species) or an external change (drought, an introduced species, human action) does to a community or ecosystem, naming each link.
+- Follow an effect through a food web over several trophic levels, using the one-way energy flow of roughly 10% per level.
+- Reason through the carbon and nitrogen cycles when a chain passes decomposers or producers, as in eutrophication.
+- Connect a human action at a lower level to its large-scale effect higher up, such as accumulation of a persistent substance up the food chain or CO₂ emissions changing the climate.
+- Evaluate a proposed sustainability measure by its expected chain of effects, not by its intention.

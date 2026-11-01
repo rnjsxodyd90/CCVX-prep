@@ -6,4 +6,4 @@ The candidate is able in sustainability contexts to argue what the effects of in
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).

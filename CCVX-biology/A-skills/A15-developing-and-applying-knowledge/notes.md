@@ -1,6 +1,6 @@
 # A15 — Developing and Applying Knowledge: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A15 *Kennisontwikkeling en -toepassing*. A15 has only an attainment target (*eindterm*); a citation like *(CvTE A15)* means that attainment target. The table in CvTE §1.4 swaps the names of A15 and A16, but the specifications and appendix 1 use A15 for this skill, as CCVX does.
@@ -28,4 +28,6 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 ## How it shows up in a written exam
 
 - A context describes a historical or recent study, and the questions ask what the researchers wanted to know, which result supports which conclusion, or why a control was needed.
+- Reconstruct how a classic experiment led to a conclusion: what was manipulated or measured, what was observed, and what the result does and does not show.
+- Explain how a new technique (microscopy, PCR, DNA sequencing) made new knowledge possible, or how existing knowledge enabled a new application such as GM insulin production.
 - **Trap:** "evolution is just a theory" confuses the everyday meaning of theory, a guess, with a scientific theory: a well-tested explanation supported by many independent lines of evidence.
