@@ -28,7 +28,7 @@ From the following particles, pick out the bases of the sb18 list and state what
 #### Answer
 The bases are: O²⁻ (strong), OH⁻ (strong), CO₃²⁻ (weak), NH₃ (weak); each takes up an H⁺ (proton acceptor). Na⁺, H₃O⁺, SO₄²⁻ are not bases of the list.
 #### Solution
-1. A base is a proton acceptor. Oxide O²⁻ takes up one H⁺ and then another (a strong base, completely to OH⁻).
+1. A base is a proton acceptor. Oxide O²⁻ reacts completely with water: O²⁻ + H₂O → 2 OH⁻ (a strong base).
 2. Hydroxide OH⁻ takes up H⁺ to H₂O (strong).
 3. Carbonate CO₃²⁻ takes up H⁺ to HCO₃⁻ (weak base).
 4. Ammonia NH₃ takes up H⁺ to NH₄⁺ (weak base).

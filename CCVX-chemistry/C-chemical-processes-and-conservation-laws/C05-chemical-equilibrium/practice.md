@@ -92,7 +92,7 @@ pH = 2.94
 1. C₂H₅COOH + H₂O ⇌ C₂H₅COO⁻ + H₃O⁺. Let x = [H₃O⁺] = [C₂H₅COO⁻]; then [C₂H₅COOH] = 0.10 − x.
 2. K_z = x² / (0.10 − x). Approximation: x ≪ 0.10, so x = √(K_z × c) = √(1.3·10⁻⁵ × 0.10) = 1.14·10⁻³ mol L⁻¹.
 3. pH = −log (1.14·10⁻³) = 2.94.
-4. Check: x / c = 1.14·10⁻³ / 0.10 ≈ 1%, well under 5%, so the approximation is allowed. (The exact quadratic route gives the same x.)
+4. Check: x / c = 1.14·10⁻³ / 0.10 ≈ 1%, well under 5%, so the approximation is allowed.
 5. Two significant figures in the data give two decimals in the pH.
 
 ### chem-c05-q09 | points 5 | outcome C5.5 | difficulty medium
@@ -114,7 +114,7 @@ A solution of ethanoic acid (CH₃COOH) has a pH of 3.15 at 298 K; K_z = 1.8·10
 #### Solution
 1. x = [H₃O⁺] = 10^(−pH) = 10^(−3.15) = 7.08·10⁻⁴ mol L⁻¹; also [CH₃COO⁻] = x.
 2. K_z = x² / (c − x), so c = x + x² / K_z.
-3. c = 7.08·10⁻⁴ + (7.08·10⁻⁴)² / 1.8·10⁻⁵ = 7.08·10⁻⁴ + 2.79·10⁻² = 2.9·10⁻² mol L⁻¹.
+3. c = 7.08·10⁻⁴ + (7.08·10⁻⁴)² / 1.8·10⁻⁵ = 7.08·10⁻⁴ + 2.78·10⁻² = 2.9·10⁻² mol L⁻¹.
 4. The concentration is much larger than [H₃O⁺], as expected for a weak acid (c = 10^(−pH) would only hold for a strong acid). Two significant figures: 0.029 mol L⁻¹.
 
 ### chem-c05-q11 | points 5 | outcome C5.2 | difficulty hard

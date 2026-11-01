@@ -67,7 +67,7 @@ A power plant scrubs its flue gas: 1000 m³ of flue gas per hour contains 0.30 v
 #### Answer
 1. 7.8 kg SO₂ per hour; 2. 17 kg CaSO₄ per hour.
 #### Solution
-1. SO₂ volume: 0.30% of 1000 m³ = 3.0 m³ = 3.0·10³ L. n = 3.0·10³ / 24.5 = 122 mol h⁻¹. M(SO₂) = 32.07 + 2 × 16.00 = 64.07 g mol⁻¹. m = 122 × 64.07 = 7.8·10³ g h⁻¹ = 7.8 kg h⁻¹ (two significant figures, as 0.30% has two).
+1. SO₂ volume: 0.30% of 1000 m³ = 3.0 m³ = 3.0·10³ L. n = 3.0·10³ / 24.5 = 122 mol h⁻¹. M(SO₂) = 32.06 + 2 × 16.00 = 64.06 g mol⁻¹. m = 122 × 64.06 = 7.8·10³ g h⁻¹ = 7.8 kg h⁻¹ (two significant figures, as 0.30% has two).
 2. The mole ratio SO₂ : CaSO₄ is 2 : 2 = 1 : 1, so n(CaSO₄) = 122 mol h⁻¹; m = 122 × 136.1 = 1.7·10⁴ g h⁻¹ = 17 kg h⁻¹.
 3. This is an element balance applied to a plant: every sulfur atom entering with the flue gas leaves in the gypsum — nothing lost, only moved.
 

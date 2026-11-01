@@ -79,7 +79,7 @@ Percentages: chem-c02-q09, chem-c02-q14; ppm and ppb: chem-c02-q11.
 
 ### Mass ratio
 
-- The numbers in u in a reaction equation can be read as grams, so masses scale in a fixed ratio. From Mg + S → MgS: 24.31 g Mg reacts with 32.07 g S to give 56.38 g MgS. Every sample of this reaction obeys that same ratio (law of constant composition).
+- The numbers in u in a reaction equation can be read as grams, so masses scale in a fixed ratio. From Mg + S → MgS: 24.31 g Mg reacts with 32.06 g S to give 56.37 g MgS. Every sample of this reaction obeys that same ratio (law of constant composition).
 - This method is always allowed, but it only compares masses. The moment particles, volumes or concentrations enter the problem, work through moles.
 
 ### Mole ratio and the five-step method

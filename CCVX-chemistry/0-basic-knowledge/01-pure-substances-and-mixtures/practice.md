@@ -14,7 +14,7 @@ Tap water: mixture; diamond: pure substance; air: mixture; iodine crystals: pure
 4. Iodine crystals consist of I₂ molecules only: a pure substance.
 5. Cola contains water, sugar, dissolved CO₂ and more: a mixture.
 
-### chem-01-q02 | points 3 | outcome sb3 | difficulty easy
+### chem-01-q02 | points 3 | outcome sb2 | difficulty easy
 #### Question
 Give the name of each phase transition:
 1. solid → gas, for example mothballs slowly disappearing in a wardrobe;
@@ -37,7 +37,7 @@ A is a mixture (melting range); B is a pure substance (sharp melting point).
 2. A melts over a range (128–141 °C): a mixture.
 3. Micro level: a mixture contains different kinds of particles, bonded to their neighbours with different strengths. The weaker-bonded parts melt at a lower temperature and the stronger-bonded parts only higher up, so melting spreads over a range instead of one temperature.
 
-### chem-01-q04 | points 4 | outcome sb2 | difficulty medium
+### chem-01-q04 | points 4 | outcome sb4 | difficulty medium
 #### Question
 Classify each mixture as a solution, a suspension or an emulsion, and give the micro-level reason: (1) clear seawater, (2) muddy river water, (3) full-fat milk, (4) mayonnaise.
 #### Answer

@@ -18,7 +18,7 @@ A lab technician dissolves 6.24 g of sodium sulfate (Na₂SO₄) in water and ma
 #### Answer
 0.351 mol L⁻¹
 #### Solution
-1. M(Na₂SO₄) = 2 × 22.99 + 32.07 + 4 × 16.00 = 142.04 g mol⁻¹.
+1. M(Na₂SO₄) = 2 × 22.99 + 32.06 + 4 × 16.00 = 142.04 g mol⁻¹.
 2. n(Na₂SO₄) = 6.24 / 142.04 = 4.39·10⁻² mol in 250.0 mL = 0.2500 L.
 3. c(Na₂SO₄) = 4.39·10⁻² / 0.2500 = 0.176 mol L⁻¹.
 4. Each Na₂SO₄ gives two Na⁺ ions: [Na⁺] = 2 × 0.176 = 0.351 mol L⁻¹ (three significant figures).
@@ -140,8 +140,8 @@ Hydrogen peroxide decomposes: 2 H₂O₂ → 2 H₂O + O₂. Calculate the volum
 5.40 L
 #### Solution
 1. M(H₂O₂) = 2 × 1.008 + 2 × 16.00 = 34.02 g mol⁻¹; n = 15.0 / 34.02 = 0.441 mol.
-2. Mole ratio H₂O₂ : O₂ = 2 : 1, so n(O₂) = 0.441 / 2 = 0.220 mol.
-3. V = n × V_m = 0.220 × 24.5 = 5.40 L (three significant figures).
+2. Mole ratio H₂O₂ : O₂ = 2 : 1, so n(O₂) = 0.441 / 2 = 0.220 mol (unrounded: 0.2205).
+3. V = n × V_m = 0.2205 × 24.5 = 5.40 L (three significant figures).
 
 ### chem-c02-q14 | points 6 | outcome C2.2 | difficulty hard
 #### Question

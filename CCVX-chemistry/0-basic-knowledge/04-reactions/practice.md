@@ -97,7 +97,7 @@ The gas is carbon dioxide: Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂.
 
 ### chem-04-q10 | points 4 | outcome sb13 | difficulty medium
 #### Question
-A bottle of hydrogen peroxide (H₂O₂) slowly loses its strength in daylight, as the peroxide decomposes into water and oxygen. (1) Give the equation for this decomposition. (2) Which type of decomposition is it, and what catalyses/light influences it? (3) How would you show that the gas formed is oxygen?
+A bottle of hydrogen peroxide (H₂O₂) slowly loses its strength in daylight, as the peroxide decomposes into water and oxygen. (1) Give the equation for this decomposition. (2) Which type of decomposition is it, what catalyses it, and how does light influence it? (3) How would you show that the gas formed is oxygen?
 #### Answer
 1. 2 H₂O₂ → 2 H₂O + O₂. 2. Photolysis (accelerated by light and by catalysts such as manganese dioxide). 3. A glowing splint flares up again in the gas.
 #### Solution

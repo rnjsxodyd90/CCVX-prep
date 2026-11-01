@@ -34,7 +34,7 @@ State which bonds are broken when (1) solid iodine evaporates and (2) solid sodi
 
 ### chem-c01-q04 | points 3 | outcome C1.5 | difficulty medium
 #### Question
-A mixture of ethanol (boiling point 78 °C) and water is distilled. Explain, in terms of the bonds between the particles, (1) why the first distillate is richer in ethanol than the mixture was, and (2) why distillation can never separate the molecules by breaking them apart. (3) A brown dye solution is stirred with activated carbon and then filtered clear. Explain which bonds hold the dye to the carbon.
+A mixture of ethanol (boiling point 78 °C) and water is distilled. Explain, in terms of the bonds between the particles: (1) why the first distillate is richer in ethanol than the mixture was; (2) why the molecules themselves stay intact during distillation. (3) A brown dye solution is stirred with activated carbon and then filtered clear: explain which bonds hold the dye to the carbon.
 #### Answer
 1. The Van der Waals bonds and hydrogen bridges between ethanol molecules are on balance weaker, so ethanol evaporates more easily; 2. no atomic bonds break, so the molecules stay whole; 3. Van der Waals bonds between the large, rather apolar dye molecules and the surface of the carbon.
 #### Solution
@@ -101,12 +101,12 @@ HCl is strong (fully ionised, higher [H₃O⁺], lower pH); ethanoic acid is wea
 ### chem-c01-q10 | points 3 | outcome C1.11 | difficulty medium
 #### Question
 Give the equations for the following acid-base reactions; leave out spectator ions and use the correct particle notation (strong acid as ions, weak acid as molecules).
-1. Hydrochloric acid is dripped onto marble chips (CaCO₃).
+1. Hydrochloric acid is dripped onto witherite (barium carbonate, BaCO₃).
 2. Hydrochloric acid is added to a sodium acetate (sodium ethanoate) solution.
 #### Answer
-1. 2 H₃O⁺(aq) + CaCO₃(s) → Ca²⁺(aq) + CO₂(g) + 3 H₂O(l); 2. H₃O⁺(aq) + CH₃COO⁻(aq) → CH₃COOH(aq) + H₂O(l)
+1. 2 H₃O⁺(aq) + BaCO₃(s) → Ba²⁺(aq) + CO₂(g) + 3 H₂O(l); 2. H₃O⁺(aq) + CH₃COO⁻(aq) → CH₃COOH(aq) + H₂O(l)
 #### Solution
-1. Particles present: H₃O⁺ and Cl⁻ (strong acid), and CaCO₃ is an insoluble salt (Binas, table of salt solubilities), so write it as (s). The carbonate takes up two protons and leaves as CO₂ gas: 2 H₃O⁺(aq) + CaCO₃(s) → Ca²⁺(aq) + CO₂(g) + 3 H₂O(l). Cl⁻ is the spectator ion.
+1. Particles present: H₃O⁺ and Cl⁻ (strong acid), and BaCO₃ is an insoluble salt (Binas, table of salt solubilities), so write it as (s). The carbonate takes up two protons and leaves as CO₂ gas: 2 H₃O⁺(aq) + BaCO₃(s) → Ba²⁺(aq) + CO₂(g) + 3 H₂O(l). Cl⁻ is the spectator ion.
 2. H₃O⁺ is a much stronger acid than CH₃COOH (Binas, table of acid and base constants), so the ethanoate ion takes the proton: H₃O⁺(aq) + CH₃COO⁻(aq) → CH₃COOH(aq) + H₂O(l). Na⁺ is the spectator ion.
 3. Both equations satisfy the element and charge balance.
 
@@ -125,14 +125,14 @@ A buffer solution contains ammonia (NH₃) and ammonium chloride in comparable a
 
 ### chem-c01-q12 | points 3 | outcome C1.13 | difficulty medium
 #### Question
-Use the standard electrode potentials in Binas (V₀(Br₂/Br⁻) = +1.36 V; V₀(I₂/I⁻) = +0.54 V).
+Use the standard electrode potentials in Binas (V₀(Br₂/Br⁻) = +1.07 V; V₀(I₂/I⁻) = +0.54 V).
 1. Explain whether iodine reacts with a solution of bromide ions.
 2. Explain whether bromine reacts with a solution of iodide ions, and give the equation if it does.
 #### Answer
-1. No reaction: the oxidator I₂ (+0.54 V) is weaker than the oxidator belonging to the reductor Br⁻ (+1.36 V). 2. Yes: Br₂ + 2 I⁻ → 2 Br⁻ + I₂.
+1. No reaction: the oxidator I₂ (+0.54 V) is weaker than the oxidator belonging to the reductor Br⁻ (+1.07 V). 2. Yes: Br₂ + 2 I⁻ → 2 Br⁻ + I₂.
 #### Solution
-1. For a reaction to run, the oxidator must have a higher V₀ than the reductor. Here the oxidator would be I₂ (+0.54 V) and the reductor Br⁻; the belonging oxidator Br₂ has +1.36 V. +0.54 is not higher than +1.36, so there is no reaction (the "reaction" would have to run backwards).
-2. Now the oxidator is Br₂ (+1.36 V) and the reductor I⁻ (belonging oxidator I₂, +0.54 V). +1.36 V > +0.54 V, so the reaction runs: Br₂ + 2 I⁻ → 2 Br⁻ + I₂. (Half-reactions: Br₂ + 2 e⁻ → 2 Br⁻ and 2 I⁻ → I₂ + 2 e⁻; add with equal electrons.)
+1. For a reaction to run, the oxidator must have a higher V₀ than the reductor. Here the oxidator would be I₂ (+0.54 V) and the reductor Br⁻; the belonging oxidator Br₂ has +1.07 V. +0.54 is not higher than +1.07, so there is no reaction (the "reaction" would have to run backwards).
+2. Now the oxidator is Br₂ (+1.07 V) and the reductor I⁻ (belonging oxidator I₂, +0.54 V). +1.07 V > +0.54 V, so the reaction runs: Br₂ + 2 I⁻ → 2 Br⁻ + I₂. (Half-reactions: Br₂ + 2 e⁻ → 2 Br⁻ and 2 I⁻ → I₂ + 2 e⁻; add with equal electrons.)
 
 ### chem-c01-q13 | points 4 | outcome C1.14 | difficulty medium
 #### Question

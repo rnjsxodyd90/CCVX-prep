@@ -71,8 +71,8 @@ Natural chlorine consists of 75.8% chlorine-35 (34.97 u) and 24.2% chlorine-37 (
 35.5 u, matching the periodic-table value 35.45 u.
 #### Solution
 1. Average = fraction₁ × mass₁ + fraction₂ × mass₂.
-2. 0.758 × 34.97 + 0.242 × 36.97 = 26.51 + 8.95 = 35.5 u.
-3. This agrees with the 35.45 u in the Binas table of atomic masses (the natural chlorine mixture also contains traces of other isotopes and more precise abundances). Atomic masses in Binas are averages over the natural isotope mixture.
+2. 0.758 × 34.97 + 0.242 × 36.97 = 26.507 + 8.947 = 35.45 u.
+3. This matches the 35.45 u in the Binas table of atomic masses. Atomic masses in Binas are averages over the natural isotope mixture.
 
 ### chem-03-q08 | points 3 | outcome sb11 | difficulty hard
 #### Question

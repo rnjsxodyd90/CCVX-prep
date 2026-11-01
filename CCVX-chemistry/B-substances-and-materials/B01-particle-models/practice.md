@@ -78,7 +78,7 @@ Epsom salt is magnesium sulfate heptahydrate, MgSO₄·7H₂O. (1) Explain what 
 1. Each formula unit of the salt contains seven molecules of crystal water, built into the crystal lattice. 2. 51.2%.
 #### Solution
 1. The dot-reads "with": crystal water; the solid lattice holds seven H₂O molecules per MgSO₄ unit; they are released on heating (the white powder that remains is anhydrous MgSO₄).
-2. M(MgSO₄·7H₂O) = 24.31 + 32.07 + 4 × 16.00 + 7 × 18.016 = 246.5 g mol⁻¹; the 7 waters weigh 126.1 g mol⁻¹.
+2. M(MgSO₄·7H₂O) = 24.31 + 32.06 + 4 × 16.00 + 7 × 18.016 = 246.5 g mol⁻¹; the 7 waters weigh 126.1 g mol⁻¹.
 3. Water percentage: 126.1 / 246.5 × 100% = 51.2%.
 
 ### chem-b01-q09 | points 4 | outcome B1.12 | difficulty medium
