@@ -6,8 +6,9 @@ Fixed product decisions:
 
 - Brand: CCVX Ultimate Prep. Domain for copy: ccvxultimateprep.com. Not bought. Do not buy.
 - Language: English only.
-- Subjects: Chemistry, Biology, Mathematics A, Mathematics B, Physics (owner update 3, 1 Nov 2026; one subject card and page, EUR 129).
-- Price: EUR 129 per subject, one-off, VAT included. 12 months access.
+- Subjects: Chemistry, Biology, Mathematics A, Mathematics B, Physics (owner update 3, 1 Nov 2026; one subject card and page).
+- Launch pricing (owner update, 1 Nov 2026, supersedes every earlier price): single subject EUR 79 one-off, VAT included, 12 months access. Bundles, customer picks the subjects: any 2 EUR 139, any 3 EUR 189, all 5 EUR 279; a bundle purchase writes one grant per chosen subject. Label: "Launch price". Never a crossed-out was-price (nothing was ever charged; EU price-indication rule). Launch-offer poster: "Launch offer: EUR 79 per subject for the first month after launch", with the concrete end date; regular prices after the first month are set by the owner in one config file (LAUNCH_START, LAUNCH_END = start + 1 month, regular prices) before go-live; until then no "then EUR X" text; the site switches to regular prices automatically after LAUNCH_END (with a test for the switch).
+- Free sample: exactly one complete subdomain per subject is public without login (notes + practice with solutions). Confirmed: chemistry chem-c02, biology bio-b01, math B mathb-b03, math A its first core subdomain (math-teacher names it), physics phys-teacher's first finished subdomain. Firestore rules and the leak scan allow only these units publicly.
 - Seller: Sura Steel (eenmanszaak), KvK 98957015, Jan Krosstraat 172, 2571 DD 's-Gravenhage. In footer and terms.
 - Not affiliated: every page footer and the landing page carry "Independent study material. Not affiliated with or endorsed by the CCVX or any university."
 - Nothing in this run touches production: no Firebase project, no live Stripe, no deploy, no domain, no visibility change, no push to main.
@@ -55,8 +56,8 @@ Audit duties:
 
 | Page | File | Contents |
 |---|---|---|
-| Landing | public/index.html | hero with the promise, 4 subject offer cards at EUR 129, approach in 4 steps (explanation, practice, feedback, strategy), what is inside each subject with counts from the built content, exam dates 2026/2027 from ccvx.nl with source link, FAQ, not-affiliated note, footer |
-| Subject | public/chemistry.html, biology.html, math-a.html, math-b.html | syllabus map (domains and subdomains from catalog), free sample (first subdomain's notes and 3 questions with solutions), what you get, exam date and registration deadline, link to official CCVX samples, buy button |
+| Landing | public/index.html | hero with the promise, 5 subject offer cards at EUR 79 launch price plus a pricing block (single EUR 79; bundles any 2 EUR 139, any 3 EUR 189, all 5 EUR 279; the line "Medicine applicants usually need 2-3 subjects"; launch-offer banner with end date), approach in 4 steps (explanation, practice, feedback, strategy), what is inside each subject with counts from the built content, exam dates 2026/2027 from ccvx.nl with source link, FAQ, not-affiliated note, footer |
+| Subject | public/chemistry.html, biology.html, math-a.html, math-b.html, physics.html | syllabus map (domains and subdomains from catalog), free sample (the subject's one free subdomain, complete: notes and all practice with solutions), what you get, exam date and registration deadline, link to official CCVX samples, buy button |
 | Checkout | public/checkout.html | sign-in (email link or Google), subject choice, withdrawal-waiver checkbox, then Stripe Checkout test mode |
 | Account | public/account.html | purchased subjects (the library), purchase state, sign-out |
 | Reader | public/learn.html plus app JS | notes per subdomain, practice with show-solution, timed mock mode (3 hours, question list, submit, marking scheme after submit) |
@@ -111,12 +112,12 @@ Firestore:
   - data for a mock: { introHtml, durationMinutes, questions: [...], markingSchemeHtml }.
   - One doc per subdomain keeps docs far below the 1 MB Firestore limit; a whole subject is about 1.5 to 2.5 MB.
 - entitlements/{uid}: { grants: [subject ids], activeUntil, stripeCustomerId, updatedAt }. Read by the owner of the doc. Written only by the webhook (Admin SDK). grants is a union: a new purchase adds a subject, never removes others. activeUntil = purchase time + 12 months.
-- subjects config lives in the static catalog, not in Firestore (price never changes at runtime; see stripe config below).
+- subjects config lives in the static catalog, not in Firestore; prices come from the one offer config file (launch prices until LAUNCH_END, regular prices afterwards; see stripe config below).
 
 Public static files (no paid content, Hard rule 5):
 
 - public/content/catalog.json: per subject: name, price, exam dates with source link, registration deadline, subdomain list (id, title, domain), counts (subdomains, questions, mocks), sample item id.
-- public/content/sample-<subject>.json: the free sample only: first subdomain's notes and 3 questions with solutions, marked free.
+- public/content/sample-<subject>.json: the free sample only: the subject's one free subdomain, complete (all notes, all practice questions with answers and solutions), marked free.
 
 Security rules (firestore.rules):
 
@@ -141,10 +142,10 @@ Pipeline order: content tasks commit markdown; build; validate; upload; test the
 ## 7. Payment flow (Stripe Checkout, test mode)
 
 1. Visitor picks a subject, signs in on checkout.html (email link or Google), ticks the withdrawal-waiver checkbox ("I understand that access starts immediately and I waive my 14-day withdrawal right").
-2. The page calls the callable function createCheckout with { subject }.
-3. createCheckout: looks up the Stripe price by lookup key cup_<subject>_once in test mode, creates or reuses a Stripe customer for the uid, creates a Checkout Session (mode payment, EUR 129, VAT-inclusive price, metadata uid and subject, success_url account page), returns the session URL.
+2. The page calls the callable function createCheckout with { subjects: [subject ids] } (one id for a single purchase, more for a bundle).
+3. createCheckout: picks the Stripe price by lookup key cup_<subject>_once (EUR 79) for a single subject, or cup_bundle2_once (EUR 139), cup_bundle3_once (EUR 189), cup_bundle5_once (EUR 279) for bundles, all test mode, VAT-inclusive prices; creates or reuses a Stripe customer for the uid, creates a Checkout Session (mode payment, metadata: uid and the chosen subject ids, success_url account page), returns the session URL. Prices themselves come from the offer config (launch prices now, regular prices after LAUNCH_END).
 4. Test checkout with the Stripe test card.
-5. stripeWebhook on checkout.session.completed: checks the event id for idempotency, writes the grant into entitlements/{uid} (union, activeUntil +12 months).
+5. stripeWebhook on checkout.session.completed: checks the event id for idempotency, validates the metadata subject count against the purchased bundle size, writes one grant per chosen subject into entitlements/{uid} (union, activeUntil +12 months).
 6. account.html shows the subject; the reader unlocks through the rules.
 
 Local webhook delivery: stripe listen forwards to the functions emulator. Test prices are created in test mode by site/scripts/stripe-products.mjs (test-mode products are allowed; live products are an owner decision).
@@ -202,7 +203,8 @@ Workflow for every task: coder (Kimi K3) implements in its own worktree and comm
 The run stops and prints an OWNER DECISION line before any of these:
 
 - Firebase project creation and any real (non-emulator) Firebase use.
-- Live Stripe products and prices at EUR 129.
+- Live Stripe products and prices (single EUR 79 launch and the three bundles, then the regular prices).
+- Setting LAUNCH_START and LAUNCH_END and the regular (post-launch) prices in the offer config.
 - Buying or connecting the domain ccvxultimateprep.com.
 - Deploying to production, changing repo visibility, pushing to main.
 
