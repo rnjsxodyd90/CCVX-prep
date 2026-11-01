@@ -360,7 +360,7 @@ X and Y are most closely related (only 4 differences).
 #### Solution
 
 X and Y are most closely related (only 4 differences); then V and W (8 differences). Explanation: kinship is the degree of relatedness — the fewer the differences in DNA, the more recently the two species shared a common ancestor from which they both descend. Larger numbers of differences (19–22) mean the common ancestor lies further back in time.
-*Marking:* • X and Y closest, because fewest DNA differences (1) • V and W next (8) (1) • explanation: fewer differences = more recent common ancestor (1)
+*Marking:* • X and Y closest, because fewest DNA differences (1) • V and W next, with 8 differences (1) • explanation: fewer differences means a more recent common ancestor (1)
 
 ### bio-f03-q21 | points 2 | outcome F3.1.4 | difficulty medium
 

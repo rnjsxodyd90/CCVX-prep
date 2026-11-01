@@ -387,7 +387,7 @@ Any two of: the roots bind the sand, so it no longer drifts and shrubs can take 
 #### Solution
 
 Development of this ecosystem is driven by the pioneers changing the abiotic environment: (1) rooting binds the wind-blown sand; (2) shading creates a cooler, moister microclimate at the soil surface; (3) dead remains form humus, which retains water and returns minerals. Each change lets species in that the bare sand could not support. Maintenance (once established): density-dependent biotic factors — intraspecific competition that grows with density, and diseases or predators that strike dense populations more easily — act as negative feedback and hold the population near the carrying capacity.
-*Marking:* • two correct abiotic changes caused by the pioneer plants (1+1) • a correct density-dependent biotic check on an established population (1)
+*Marking:* • first correct abiotic change caused by the pioneer plants (1) • second correct abiotic change caused by the pioneer plants (1) • a correct density-dependent biotic check on an established population (1)
 
 ### bio-d05-q21 | points 2 | outcome D5.2.5 | difficulty easy
 
