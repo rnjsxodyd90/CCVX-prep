@@ -65,4 +65,5 @@ Mutation, recombination, phenotype, genotype, gene pool, genetic modification.
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).
+- [practice.md](practice.md): 27 original practice items in CCVX style (67 points) with full worked answers and marking points.
