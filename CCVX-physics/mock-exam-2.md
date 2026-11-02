@@ -7,7 +7,7 @@
 - **Time: 3 hours (180 minutes).** Written exam, open questions; partial credit for correct steps — always show your working: formula, substitution, result with unit.
 - You may use **BINAS** (5th edition or later, English edition allowed) **with no notes in it**, one simple scientific calculator (no graphing calculator), pen and pencil (pencil only for graphs), a set square and a watch (no smartwatch).
 - Constants not in the question should be taken from BINAS. Use **g = 9.81 m/s²**, unless stated otherwise. Give answers with a sensible number of significant figures and always with a unit.
-- This exam has **16 questions**, total **69 points**. Your grade now = 1 + 9 × (score/69). Time guide: about 2¾ minutes per point.
+- This exam has **16 questions**, total **69 points**. Your grade now = 1 + 9 × (score/69). Time guide: about 2½ minutes per point.
 - The [marking scheme](mock-exam-2-marking-scheme.md) gives the points per step. Check your work only after your full attempt.
 
 ---
@@ -41,7 +41,7 @@ A parachutist (m = 80 kg, c_w·A = 0.80 m², air density 1.29 kg/m³) jumps from
 
 a. State her acceleration in the first moment after the jump, and explain why it is (nearly) g.
 b. Compute her terminal velocity.
-c. After falling 2.0·10² m at essentially the terminal velocity, compute how much heat the air has gained. Use an energy ledger.
+c. After falling 2.0·10² m from rest, she has essentially reached the terminal velocity of part (b). Compute with an energy ledger how much heat the air has gained over those 2.0·10² m.
 
 ### phys-mock2-q04 | points 4 | subdomain P4 | difficulty easy
 
@@ -71,46 +71,46 @@ On the Moon (M = 7.35·10²² kg, R = 1.738·10⁶ m — G·M = 4.905·10¹² m�
 
 a. Compute the Moon's surface g.
 b. Compute the fall time and the impact speed.
-c. The Moon's escape velocity is 2.4 km/s. Explain, with this low value and thermal molecular speeds, why the Moon keeps no atmosphere.
+c. The Moon's escape velocity is 2.4 km/s. Compute the escape *energy per kg* from the Moon's surface and compare it with the Earth's 6.3·10⁷ J/kg (given): why do engineers dream of launching from the Moon for deep-space missions?
 
 ### phys-mock2-q07 | points 5 | subdomain P6 | difficulty medium
 
 #### Question
 
-A thermostat sensor is a series circuit on 24 V: a fixed resistor R = 15 kΩ and an NTC, and the electronics read the voltage across the NTC. Data: at 20 °C the NTC is 12 kΩ; at 60 °C it is 3.0 kΩ.
+An automatic garden light uses a series divider on 12 V: a fixed resistor R = 22 kΩ and an LDR (daylight: 2.0 kΩ; darkness: 40 kΩ). The lamp electronics read the voltage across the *fixed resistor* and switch the lamp ON when that voltage falls below 5.0 V.
 
-a. Compute the sensor output voltage at 20 °C.
-b. Compute the sensor output voltage at 60 °C.
-c. The alarm triggers when the output drops below 4.5 V. Estimate the temperature at which this happens (linear interpolation in the NTC resistance is allowed).
+a. Compute the voltage across the fixed resistor in daylight.
+b. Compute it in the dark, and state whether the lamp is on.
+c. Explain why the LDR is placed in a series divider at all, instead of connecting it straight to the 12 V supply.
 
 ### phys-mock2-q08 | points 3 | subdomain P6 | difficulty easy
 
 #### Question
 
-A dishwasher draws 1.8 kW during a standard 1.2 h programme, run 312 times per year (electricity at €0.25/kWh, given).
+An electric-car home charger runs at 7.4 kW for 2.5 h per charging day, on 240 days a year (electricity at €0.30/kWh, given).
 
 a. Compute the yearly energy use in kWh and the yearly cost.
-b. Convert one single programme's energy use into joules.
+b. Convert one charging day's energy use into joules.
 
 ### phys-mock2-q09 | points 5 | subdomain P7 | difficulty medium
 
 #### Question
 
-In a picture tube electrons are accelerated from rest through a voltage of 2.0·10⁴ V (m_e = 9.109·10⁻³¹ kg, e = 1.602·10⁻¹⁹ C).
+In an X-ray tube, electrons are accelerated from rest through a voltage of 4.0·10⁴ V before they hit the anode (m_e = 9.109·10⁻³¹ kg, e = 1.602·10⁻¹⁹ C, h = 6.626·10⁻³⁴ J·s, c = 3.00·10⁸ m/s).
 
-a. Output the kinetic energy of a delivered electron, in eV and in J.
-b. Compute its speed.
-c. After the acceleration stage the beam passes between two charged deflection plates. Describe and explain the shape of the path there, and name the force behind it.
+a. Compute the kinetic energy delivered per electron, in eV and in J.
+b. Occasionally one electron's *entire* kinetic energy becomes a single photon. Compute that photon's energy and its wavelength, and state the radiation kind. (This endpoint is the tube's hardest radiation.)
+c. Most emitted photons are weaker (longer wavelength) than the endpoint. Explain with the braking process why the tube emits a continuous spectrum rather than a single line.
 
 ### phys-mock2-q10 | points 4 | subdomain P7 | difficulty medium
 
 #### Question
 
-A coil has N = 250 turns. A magnet is moved away from the coil's opening so that the flux through the coil drops by 5.0·10⁻⁴ Wb in 0.20 s.
+In a 3000 rpm alternator, one coil frame (area A = 4.0·10⁻³ m²) rotates in a homogeneous field B = 0.60 T. The coil has N = 800 turns on a circuit with total resistance 40 Ω. In every quarter turn the flux through the frame swings by B·A.
 
-a. Give the product value N·ΔΦ/Δt (the proportionality measure for the induced voltage).
-b. A second coil identical in size but with half the turns undergoes the same flux change. By which factor does its induced voltage change, and why?
-c. The departing magnet induces a current in the coil. Describe with Lenz's reasoning what the direction of the induced magnetic field of the coil tries to do, and why that fits energy conservation.
+a. The rotation period is 0.020 s (3000 rpm = 50 rev/s). Compute the flux change ΔΦ in a quarter turn, and the product N·ΔΦ/Δt over that quarter turn.
+b. Give the corresponding induced-current number U_ind/R.
+c. State two independent changes that would each *quadruple* the peak induced voltage, naming the proportionality that makes each work.
 
 ### phys-mock2-q11 | points 4 | subdomain P8 | difficulty easy
 
@@ -136,18 +136,20 @@ c. Inflating the tyre, the pump gets warm. Give a molecular explanation for this
 
 #### Question
 
-a. A kingfisher watches a fish hanging motionless 2.0 m below the surface of a pond (n = 1.33). At what depth does the bird *see* the fish for near-vertical viewing? Use apparent depth d′ = d/n.
-b. State how the bird's dive aim compares with the image position, with the reason in refraction terms.
-c. A crystal shop shows a "brilliant-cut" piece of crown glass (g = 41°) next to a diamond (g = 24°). Explain with the critical angle why the diamond flashes stronger than the glass.
+The prisms inside binoculars are 45°–45°–90° prisms of crown glass (n = 1.52).
+
+a. Compute the critical angle of this glass against air.
+b. Inside the prism a ray meets a long face at 45° to the normal. Show with numbers that total internal reflection occurs, and state the resulting deviation of the beam.
+c. Give one practical advantage of such a TIR prism over a metal-coated mirror in binoculars.
 
 ### phys-mock2-q14 | points 5 | subdomain P10 | difficulty medium
 
 #### Question
 
-Hydrogen's Balmer line Hβ comes from the n = 4 → n = 2 transition, a jump of 2.55 eV.
+Hydrogen's Lyman α line comes from the n = 2 → n = 1 transition, a jump of 10.2 eV.
 
-a. Compute the wavelength of this line (h = 6.626·10⁻³⁴ J·s, c = 3.00·10⁸ m/s, e = 1.602·10⁻¹⁹ C; shortcut λ[nm] ≈ 1240/E[eV] allowed) and state its colour region.
-b. In the spectrum of a receding star cluster this line sits at 486.3 nm while it belongs at 486.1 nm. Compute the cluster's radial velocity (formula from the syllabus: v = (Δλ/λ)·c).
+a. Compute the photon energy in J and the wavelength of this line (shortcuts h = 6.626·10⁻³⁴ J·s, c = 3.00·10⁸ m/s, e = 1.602·10⁻¹⁹ C; λ[nm] ≈ 1240/E[eV] allowed), and state the spectral region.
+b. In a quasar's spectrum this line sits at 121.8 nm while its laboratory value is 121.6 nm. Compute the quasar's radial velocity and give the sign of its motion (syllabus form: v = (Δλ/λ)·c).
 
 ### phys-mock2-q15 | points 3 | subdomain P10 | difficulty easy
 

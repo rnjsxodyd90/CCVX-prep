@@ -42,35 +42,35 @@ c. **1 pt**: 90% remains: h′ = 0.90·2.55 = 2.3 m (E ∝ h at the top).
 
 a. **2 pts**: g = G·M/R² = 4.905·10¹²/(1.738·10⁶)² = 4.905·10¹²/3.02·10¹² = 1.6 m/s² (1.62 m/s²; 1 pt formula μ = GM used correctly, 1 pt value).
 b. **2 pts**: t = √(2h/g) = √(2.8/1.62) = 1.3 s (1 pt); v = g·t = 2.1 m/s (1 pt; or via mgh = ½mv² ✓).
-c. **1 pt**: with escape velocity only 2.4 km/s, the fast tail of thermally moving molecules exceeds it continuously, so over time the gases escaped — the Moon cannot bind an atmosphere (Earth's 11.2 km/s binds air).
-*Final: a. 1.6 m/s²; b. 1.3 s, 2.1 m/s.*
+c. **1 pt**: escape energy per kg = G·M/R = 4.905·10¹²/1.738·10⁶ = 2.8·10⁶ J/kg — just 4.5% of Earth's 6.3·10⁷ J/kg: launching costs ~22× less energy per kg, and no atmosphere in the way either — hence those Moon-base plans.
+*Final: a. 1.6 m/s²; b. 1.3 s, 2.1 m/s; c. 2.8·10⁶ J/kg ≈ 1/22 of Earth's.*
 
 ### phys-mock2-q07 | points 5
 
-a. **2 pts**: voltage divider: U_NTC = 24·12/(15 + 12) = 10.7 V (10.67 V; 1 pt the division form, 1 pt the value).
-b. **1 pt**: U_NTC = 24·3.0/(15 + 3.0) = 4.0 V.
-c. **2 pts**: threshold: U_NTC = 4.5 V → R/(15 + R)·24 = 4.5 → R = 3.46 kΩ (1 pt); interpolation between 12 kΩ (20 °C) and 3.0 kΩ (60 °C): T ≈ 20 + (12 − 3.46)/(12 − 3.0)·40 = 58 °C (≈ 55–60 °C; 1 pt).
-*Final: a. 10.7 V; b. 4.0 V; c. ≈ 58 °C.*
+a. **2 pts**: voltage divider across the fixed resistor: U_R = 12·22/(22 + 2.0) = 264/24 = 11.0 V (1 pt the division form, 1 pt the value).
+b. **2 pts**: U_R = 12·22/(22 + 40) = 264/62 = 4.3 V (1 pt); 4.3 < 5.0 → the lamp is ON — exactly what a garden light must do in the dark (1 pt the comparison with the threshold and the conclusion).
+c. **1 pt**: the divider converts the LDR's resistance change into a *voltage* change the electronics can read; connected straight to 12 V the LDR would always sit at 12 V, and the switch would hear nothing.
+*Final: a. 11.0 V; b. 4.3 V, lamp ON.*
 
 ### phys-mock2-q08 | points 3
 
-a. **2 pts**: per run E = 1.8·1.2 = 2.16 kWh (1 pt); yearly: 2.16·312 = 6.7·10² kWh (674 kWh) → cost 674·0.25 = €1.7·10² (€169) (1 pt).
-b. **1 pt**: E = 2.16 kWh = 2.16·3.6·10⁶ = 7.8·10⁶ J (per programme; or P·t = 1800·4320 ✓).
-*Final: a. 6.7·10² kWh, €1.7·10²; b. 7.8·10⁶ J.*
+a. **2 pts**: per charging day E = 7.4·2.5 = 18.5 kWh (1 pt); yearly: 18.5·240 = 4.4·10³ kWh (4440 kWh) → cost 4440·0.30 = €1.3·10³ (€1332) (1 pt).
+b. **1 pt**: E = 18.5 kWh = 18.5·3.6·10⁶ = 6.7·10⁷ J per charging day (or P·t = 7400·9000 ✓).
+*Final: a. 4.4·10³ kWh, €1.3·10³; b. 6.7·10⁷ J.*
 
 ### phys-mock2-q09 | points 5
 
-a. **1 pt**: E_k = q·U = e·2.0·10⁴ = 20 keV = 3.2·10⁻¹⁵ J (3.204·10⁻¹⁵; either unit answers fully, both given here).
-b. **2 pts**: ½m_e·v² = E_k → v = √(2·3.204·10⁻¹⁵/9.109·10⁻³¹) = 8.4·10⁷ m/s (1 pt the energy-kinetic link, 1 pt the value).
-c. **2 pts**: between the plates the homogeneous electric field exerts F_el = q·E, constant and perpendicular to the beam: the electron curves on a **parabola** (constant v_x, uniformly accelerating v_y — the same mathematics as the horizontal throw); the electric force is the motor of the deflection (1 pt parabola identification, 1 pt the force/field reasoning).
-*Final: a. 20 keV = 3.2·10⁻¹⁵ J; b. 8.4·10⁷ m/s; c. parabola.*
+a. **1 pt**: E_k = q·U = e·4.0·10⁴ = 40 keV = 6.4·10⁻¹⁵ J (6.408·10⁻¹⁵).
+b. **2 pts**: the photon takes the whole 40 keV (1 pt); λ = hc/E = 1.986·10⁻²⁵/6.41·10⁻¹⁵ = 3.1·10⁻¹¹ m = 0.031 nm — X-radiation (1 pt).
+c. **2 pts**: most electrons brake in *several* collisions inside the anode before stopping (bremsstrahlung): each collision converts a *fraction* of E_k into a photon (1 pt) — so photons arrive at every energy below the endpoint, plus much plain heat: a continuous spectrum with a hard edge at 0.031 nm (1 pt).
+*Final: a. 40 keV = 6.4·10⁻¹⁵ J; b. 40 keV, λ = 3.1·10⁻¹¹ m (X-ray); c. continuous bremsstrahlung spectrum.*
 
 ### phys-mock2-q10 | points 4
 
-a. **2 pts**: N·ΔΦ/Δt = 250·(5.0·10⁻⁴/0.20) = 250·2.5·10⁻³ = 0.625 (1 pt ΔΦ/Δt, 1 pt the product).
-b. **1 pt**: factor ½ — U_ind ∝ N, so half the turns gives half the induced voltage (same flux change).
-c. **1 pt**: the departing magnet *decreases* the flux; the induced current flows in the direction that builds a field *reinforcing/topping up* that decreasing flux inside the coil — the coil tries to hold the magnet back, i.e. you must do work against that resistance, and exactly that work becomes electrical energy (energy conservation: the coil never pushes the magnet out for free).
-*Final: a. 0.625; b. ½.*
+a. **2 pts**: quarter-turn flux change: ΔΦ = B·A = 0.60·4.0·10⁻³ = 2.4·10⁻³ Wb (1 pt); over a quarter turn (0.020/4 = 5.0·10⁻³ s): N·ΔΦ/Δt = 800·2.4·10⁻³/5.0·10⁻³ = 800·0.48 = 3.8·10² (384; 1 pt).
+b. **1 pt**: I = U_ind/R = 384/40 = 9.6 A (the voltage number still follows the syllabus proportionality form).
+c. **1 pt**: e.g. quadruple the number of turns N (U_ind ∝ N) or quadruple the spin rate (dΦ/dt ∝ turning speed); also acceptable: quadruple B or A (Φ = B⊥A). Any two distinct levers with their proportionality named earn the point.
+*Final: a. ΔΦ = 2.4·10⁻³ Wb, N·ΔΦ/Δt = 3.8·10²; b. 9.6 A.*
 
 ### phys-mock2-q11 | points 4
 
@@ -88,16 +88,16 @@ c. **1 pt**: compressing does work on the gas (the piston pushes molecules back 
 
 ### phys-mock2-q13 | points 4
 
-a. **1 pt**: d′ = d/n = 2.0/1.33 = 1.5 m (1.504 m — the fish looks half a metre shallower).
-b. **1 pt**: the bird must dive *steeper/deeper* than the image suggests: rays from the fish bend *away* from the normal while exiting the water, so the bird's straight-line reading places the fish too shallow — aiming for the image misses in front.
-c. **2 pts**: smaller critical angle → a far wider range of internal incidence angles exceeds g → nearly every internal contact is a lossless total internal reflection, so light entering the stone dances inside and exits concentrated as flashes (1 pt mechanism); glass (g = 41°) lets much of the light refract out the back at the same facet angles — less fire (1 pt comparison).
-*Final: a. 1.5 m.*
+a. **1 pt**: sin g = 1/n = 1/1.52 = 0.658 → g = 41° (41.1°).
+b. **2 pts**: incidence 45° > g = 41.1° → total internal reflection, so no refraction out at this face (1 pt the comparison and conclusion); with i = t = 45° at that one face the beam is deviated by exactly 90° (1 pt).
+c. **1 pt**: total internal reflection is essentially lossless and needs no metal coating: brighter images and nothing to age, scratch or peel — unlike a silvered mirror.
+*Final: a. 41°; b. TIR, deviation 90°; c. lossless reflection without a coating.*
 
 ### phys-mock2-q14 | points 5
 
-a. **2 pts**: λ = hc/ΔE = 1240/2.55 = 4.9·10² nm (486 nm; 1 pt), blue-green visible (1 pt, from the f = c/λ reasoning into the visible table); the long route (J → Hz → m) earns the same points when numbers match.
-b. **3 pts**: Δλ = +0.2 nm (longer → receding; 1 pt sign with redshift); v = (Δλ/λ)·c = (0.2/486.1)·3.00·10⁸ (1 pt) = 1.2·10⁵ m/s (1.23·10⁵; 1 pt).
-*Final: a. 486 nm, blue-green; b. 1.2·10⁵ m/s, receding.*
+a. **2 pts**: E = 10.2 eV = 10.2·1.602·10⁻¹⁹ = 1.63·10⁻¹⁸ J (1 pt); λ = hc/E = 1240/10.2 = 1.22·10² nm (121.6 nm) — ultraviolet, far beyond the visible (1 pt).
+b. **3 pts**: Δλ = +0.2 nm: the line sits at a longer wavelength → redshift, the quasar recedes (1 pt sign); v = (Δλ/λ)·c = (0.2/121.6)·3.00·10⁸ (1 pt) = 4.9·10⁵ m/s (4.93·10⁵; 1 pt).
+*Final: a. 1.63·10⁻¹⁸ J, 122 nm (UV); b. 4.9·10⁵ m/s, receding.*
 
 ### phys-mock2-q15 | points 3
 
