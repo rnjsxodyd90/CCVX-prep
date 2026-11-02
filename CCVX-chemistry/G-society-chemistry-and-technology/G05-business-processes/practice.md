@@ -16,7 +16,7 @@ Globally: fermentation from renewable sugar with a natural catalyst (yeast/fungi
 #### Question
 Dow Benelux in Terneuzen exports its cracking by-product hydrogen to the neighbouring Yara ammonia plant by pipeline. Describe this business process in terms of sustainability and living environment.
 #### Answer
-The hydrogen Mizushima-like by-product of Dow's cracking would otherwise be flared or delivered at high logistics cost; the pipeline transfers it into Yara's ammonia feedstock — a substance cycle across companies (industrial symbiosis): fewer deliveries (energy and traffic), less waste (less flaring = less CO₂), and the dependency of neighbours on each other keeps the region's industry economically strong.
+The hydrogen by-product of Dow's cracking would otherwise be flared or delivered at high logistics cost; the pipeline transfers it into Yara's ammonia feedstock — a substance cycle across companies (industrial symbiosis): fewer deliveries (energy and traffic), less waste (less flaring = less CO₂), and the dependency of neighbours on each other keeps the region's industry economically strong.
 #### Solution
 1. Industrial symbiosis: one plant's by-product is the other's feedstock — a substance-cycle at park level (F4/F5 idea in regional business terms).
 2. Sustainability: less flaring, less transport = lower emissions.

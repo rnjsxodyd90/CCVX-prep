@@ -24,7 +24,7 @@ c. At 0.0500 mol L⁻¹: 1.9%; at 0.00500 mol L⁻¹: 6.0%. Dilution raises the 
 #### Solution
 1. a: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻; x = [OH⁻] = √(K_b × c) = √(1.8·10⁻⁵ × 0.0500) = 9.5·10⁻⁴ mol L⁻¹ (check: x ≪ c). pOH = 3.02 → pH = 14.00 − 3.02 = 10.98.
 2. b: n(NH₃) = 25.00 mL × 0.0500 mol L⁻¹ = 1.25 mmol = n(H₃O⁺); V = 1.25 mmol / 0.0400 mol L⁻¹ = 31.3 mL.
-3. c: dilute: c = 0.00500 mol L⁻¹: x = √(1.8·10⁻⁵ × 0.00500) = 3.0·10⁻⁴ mol L⁻¹. Fractions: 9.5·10⁻⁴/0.0500 = 1.9%; 3.0·10⁻⁴/0.00500 = 6.0%. K_b = x²/(c − x): dividing every concentration by 10 makes the quotient smaller (one power fewer in the denominator than in the numerator), so more NH₃ must react until Q = K again: the degree of ionisation rises.
+3. c: dilute: c = 0.00500 mol L⁻¹: x = √(1.8·10⁻⁵ × 0.00500) = 3.0·10⁻⁴ mol L⁻¹. Fractions: 9.5·10⁻⁴/0.0500 = 1.9%; 3.0·10⁻⁴/0.00500 = 6.0%. (The exact quadratic route on the diluted case gives x = 2.9·10⁻⁴ mol L⁻¹ and a fraction of 5.8%.) K_b = x²/(c − x): dividing every concentration by 10 makes the quotient smaller (one power fewer in the denominator than in the numerator), so more NH₃ must react until Q = K again: the degree of ionisation rises.
 
 ### chem-mock2-q02 | points 13 | outcome C1 | difficulty medium
 #### Question

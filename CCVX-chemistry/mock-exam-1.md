@@ -23,12 +23,12 @@ d (2p). The bottle is opened. Explain with the reaction quotient Q what happens 
 a. CO₂(g) + 2 H₂O(l) ⇌ H₃O⁺(aq) + HCO₃⁻(aq)
 b. pH = 3.59
 c. [H₃O⁺] = 2.6·10⁻⁴ mol L⁻¹ is small in absolute terms but a thousand times larger than in neutral water, so it is plainly acidic; K_z being tiny only means a small fraction reacts — not that the effect disappears.
-d. CO₂ escapes, [CO₂] drops, so Q < K and the equilibrium re-adjusts to the right, releasing more H₃O⁺ — the water keeps fizzing and slowly goes flatter.
+d. CO₂ escapes, [CO₂] drops, so Q becomes larger than K; the equilibrium reacts left (H₃O⁺ + HCO₃⁻ recombine into CO₂ + water) and dissolved CO₂ keeps leaving the open bottle until Q = K again — the water keeps fizzing and slowly goes flatter.
 #### Solution
 1. a: 'H₂CO₃' ⇌ HCO₃⁻ + H₃O⁺, written with CO₂ + 2 H₂O ⇌ H₃O⁺ + HCO₃⁻; one equilibrium arrow.
 2. b: K_z = x²/(0.15 − x) ≈ x²/0.15 → x = [H₃O⁺] = √(4.5·10⁻⁷ × 0.15) = 2.6·10⁻⁴ mol L⁻¹ (check: x ≪ 0.15); pH = −log(2.6·10⁻⁴) = 3.59.
 3. c: neutral water holds 1.0·10⁻⁷ mol L⁻¹; 2.6·10⁻⁴ is ~2600 times more; taste and indicators respond to [H₃O⁺].
-4. d: opening drops the CO₂ pressure, so dissolved CO₂ leaves; Q = [H₃O⁺][HCO₃⁻]/[CO₂] becomes larger than K, and the equilibrium shifts left — wait: Q rises above K, so net reaction to the left (products recombine into CO₂ which escapes until Q = K again for the new, lower [CO₂]).
+4. d: opening drops the CO₂ pressure, so dissolved CO₂ leaves the liquid; Q = [H₃O⁺][HCO₃⁻]/[CO₂] then rises above K, so the net reaction goes to the left: H₃O⁺ and HCO₃⁻ recombine into CO₂ + water until Q = K again at the lower [CO₂].
 
 ### chem-mock1-q02 | points 13 | outcome B4/C1 | difficulty medium
 #### Question
@@ -73,7 +73,7 @@ b. 6.7·10² kg
 c. Chloride ions penetrate concrete and destroy the steel's protective oxide layer (pitting corrosion of rebar); acetate does not attack the passive layer, and CMA supplies no chloride at all, so the reinforcement stays protected.
 d. 71.8%
 #### Solution
-1. a: weak acid as molecule; carbonate insoluble salt as (s): CaCO₃(s) + 2 CH₃COOH(aq) → Ca²⁺ + 2 CH₃COO⁻ + CO₂(g) + H₂O(l); check: charge 2− on left, on right +2 −2 = 0... wait: left: neutral + neutral = 0; right: 2+ − 2 = 0 ✓; elements balance ✓.
+1. a: weak acid as molecule; carbonate insoluble salt as (s): CaCO₃(s) + 2 CH₃COOH(aq) → Ca²⁺ + 2 CH₃COO⁻ + CO₂(g) + H₂O(l); charge check: left 0, right +2 − 2 = 0 ✓; elements balance ✓.
 2. b: n(CaCO₃) = 500,000/100.09 = 4.996·10³ mol; ratio 1:1 → n(CMA) = 4.996·10³ mol; theoretical 4.996·10³ × 158.17 = 790 kg; with 85%: 0.85 × 790 = 672 kg. Answer: 6.7·10² kg.
 3. c: Cl⁻ destroys the passive Fe₂O₃-rich layer on steel (pitting) — the reason for concrete spalling; acetate ion is a far weaker corrosive agent and there is no Cl⁻ source.
 4. d: AE = 158.17 / (100.09 + 2×60.05) = 158.17/220.19 = 0.718 = 71.8%.

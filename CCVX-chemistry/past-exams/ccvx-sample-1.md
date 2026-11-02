@@ -104,9 +104,9 @@ d1. The salt leaves the process as it entered (reactor 2 restores it), so it is 
 
 **Solution (ours):**
 
-a. 4 C₃H₅N₃O₉(l) → 12 CO₂(g) + 10 H₂O(g) + 6 N₂(g) + O₂(g). ΔE = [12 × (−3.935·10⁵) + 10 × (−2.858·10⁵) + 0 + 0] − 4 × (−3.56·10⁵) = −7.580·10⁶ + 1.424·10⁶ = −6.156·10⁶ J per 4 mol. Per mole of glyceryltrinitrate: −1.54·10⁶ J mol⁻¹. (Using the formation of liquid water, matching the official key; with gaseous water you get −1.43·10⁶ J mol⁻¹: quote the one your data line implies, the official paper reports liquid-water formation heats.)
+a. 4 C₃H₅N₃O₉(l) → 12 CO₂(g) + 10 H₂O(g) + 6 N₂(g) + O₂(g). The explosion writes water as a gas, so use the formation of gaseous water (−2.42·10⁵ J mol⁻¹): ΔE = [12 × (−3.935·10⁵) + 10 × (−2.42·10⁵) + 0 + 0] − 4 × (−3.56·10⁵) = −7.142·10⁶ + 1.424·10⁶ = −5.718·10⁶ J per 4 mol. Per mole of glyceryltrinitrate: **−1.43·10⁶ J mol⁻¹** (the official key's value). (If you instead used the formation of liquid water you'd reach ≈ −1.54·10⁶ J mol⁻¹: the explosion equation itself dictates the gaseous state.)
 
-b. Esterification: C₃H₈O₃ + 3 HNO₃ → C₃H₅N₃O₉ + 3 H₂O. n(glycerol) = 100·10³/92.09 = 1.086·10³ mol → n(trinitrate) = same; m = 1.086·10³ × 227.10 = 247 kg. Reactor input: 100 + 250 + 150 = 500 kg total, unchanged (gas doesn't leave the listed contents). Mass percentage of trinitrate: 247/500 × 100% = 49%.
+b. Esterification: C₃H₈O₃ + 3 HNO₃ → C₃H₅N₃O₉ + 3 H₂O. n(glycerol) = 100·10³/92.1 = 1.086·10³ mol → n(trinitrate) = same; m = 1.086·10³ × 227.1 = 246.5 kg. Reactor input: 100 + 250 + 150 = 500 kg total, unchanged (gas doesn't leave the listed contents). Mass percentage of trinitrate: 246.5/500 × 100% = 49.3%.
 
 c. The cellulose unit C₆H₁₀O₅ carries three OH groups; esterifying all three with HNO₃ trades three O–H atoms for three –O–NO₂: unit C₆H₇N₃O₁₁, hence guncotton = (C₆H₇N₃O₁₁)ₙ.
 

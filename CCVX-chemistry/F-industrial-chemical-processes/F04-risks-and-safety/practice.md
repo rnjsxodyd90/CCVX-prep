@@ -59,6 +59,6 @@ A regulator asks a phosgene-using plant for a "risk reduction plan" before renew
 #### Answer
 Probability: (1) make phosgene only in pipes/reactor, never in a tank (continuous processing: minimum inventory at any moment); (2) closed sampling systems and double mechanical seals everywhere people connect equipment. Effect: (1) the unit is at the far end of the site with a water/alkaline scrubber curtain at the fence line; (2) all adjacent processes are automated: the minimum number of people nearby at any time. Philosophy: "just-in-time" production and immediate conversion (no storage) — and as a substance-cycle side point, the CO by-product of the downstream conversion can be caught and fed back, so the loop closes without emitting either gas.
 #### Solution
-1. Jan Kletz's principle (intensification): the safest phosgene is the phosgene that does not exist yet; continuous pipes make inventory hours instead of tonnes.
+1. Trevor Kletz's principle (intensification): the safest phosgene is the phosgene that does not exist yet; continuous pipes make inventory hours instead of tonnes.
 2. Probability also drops by sealing people out of the loop; effect drops by distance, scrubbing and fewer people in the zone.
 3. This is the risk design F4 describes: probability (inventory, sealing), effect (location, scrubbing, people) and the substance-cycle idea as neighbour (recycle of CO): risk and process design join.

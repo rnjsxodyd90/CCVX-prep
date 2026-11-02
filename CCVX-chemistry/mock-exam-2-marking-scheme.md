@@ -24,8 +24,8 @@ b (4p)
 - 1p: unit and 3 significant figures.
 
 c (4p)
-- 1p: before: x = 9.5·10⁻⁴ → 1.9%.
-- 1p: after: x = 3.0·10⁻⁴ → 6.0%.
+- 1p: before: x = 9.5·10⁻⁴ → 1.9% (accept 1.9–2.0%).
+- 1p: after: x = 3.0·10⁻⁴ → 6.0% (exact quadratic gives 5.8%; accept 5.8–6.1%).
 - 1p: conclusion: dilution raises the degree of ionisation.
 - 1p: explanation in terms of the equilibrium expression (quotient drops on dilution → further reaction until Q = K).
 
