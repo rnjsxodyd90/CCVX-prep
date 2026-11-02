@@ -20,7 +20,7 @@ export const SUBJECTS = [
     // README's verified chemistry date). TO VERIFY at go-live against the CCVX
     // conditions, article 4.
     registrationDeadline: 'Tuesday 10 November 2026',
-    sampleItem: null, // physics sample = the teacher's first finished subdomain (coordinator confirms); flat CCVX-physics/<code>-<name>/ folders (pin 2 covers this)
+    sampleItem: 'phys-p01', // owner-confirmed: P01 oscillations and waves, the teacher's first finished subdomain; flat folders (pin 2)
   },
   {
     id: 'chem',
@@ -59,7 +59,7 @@ export const SUBJECTS = [
       { label: 'Around Thursday 22 July 2027', approx: true },
     ],
     registrationDeadline: null,
-    sampleItem: null, // math A: its first core subdomain once the teacher lands it (coordinator confirms)
+    sampleItem: 'matha-a01', // coordinator decision: A01 numbers and algebra, the math A core
   },
   {
     id: 'mathb',

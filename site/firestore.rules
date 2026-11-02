@@ -26,5 +26,10 @@ service cloud.firestore {
       allow get: if request.auth != null && request.auth.uid == uid;
       allow list, write: if false;
     }
+
+    // Everything else is closed by default; server paths (content upload,
+    // webhook grants, event markers) run through the Admin SDK, which bypasses
+    // these rules.
+    match /{d=**} { allow read, write: if false; }
   }
 }

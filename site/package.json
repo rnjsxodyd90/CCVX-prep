@@ -8,12 +8,13 @@
     "validate": "node scripts/validate-content.mjs",
     "upload": "node scripts/upload-content.mjs",
     "grant": "node scripts/grant.mjs",
-    "test:rules": "firebase emulators:exec --only firestore --project demo-ccvx 'node scripts/test-rules.mjs'",
+    "test:rules": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 node scripts/test-rules.mjs",
     "test:build": "node scripts/test-build.mjs",
     "emulators": "firebase emulators:start --project demo-ccvx --only auth,firestore,functions,hosting --import .emulator-data --export-on-exit",
     "test:pricing": "node scripts/test-pricing.mjs",
     "check:links": "node scripts/check-exam-links.mjs",
-    "stripe:products": "node scripts/stripe-products.mjs"
+    "stripe:products": "node scripts/stripe-products.mjs",
+    "test:webhook": "node scripts/test-webhook.mjs"
   },
   "dependencies": {
     "marked": "^15.0.0"

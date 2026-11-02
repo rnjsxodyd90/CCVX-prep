@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T06:04:29.638Z",
+  "generated": "2026-11-02T11:58:35.869Z",
   "pricing": {
     "offer": "launch",
     "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
@@ -63,7 +63,7 @@
         "mocks": 0,
         "walkthroughs": 0
       },
-      "sampleItemId": null
+      "sampleItemId": "phys-p01"
     },
     {
       "id": "chem",
@@ -901,7 +901,7 @@
         "mocks": 0,
         "walkthroughs": 0
       },
-      "sampleItemId": null
+      "sampleItemId": "matha-a01"
     },
     {
       "id": "mathb",

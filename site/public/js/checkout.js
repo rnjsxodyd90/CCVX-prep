@@ -97,7 +97,7 @@ payBtn.addEventListener('click', async () => {
   payBtn.disabled = true;
   payBtn.textContent = 'Preparing your Stripe checkout…';
   try {
-    const { data } = await callable('createCheckout')({ subjects: [...chosen], waiverAccepted: true });
+    const { data } = await callable('createCheckout')({ subjects: [...chosen], waiverAccepted: waiverEl.checked === true });
     location.href = data.url;
   } catch (e) {
     console.error(e);

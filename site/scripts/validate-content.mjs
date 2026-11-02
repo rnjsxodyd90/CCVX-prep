@@ -73,8 +73,11 @@ walk(path.join(SITE, 'public'));
 const publicText = publicFiles.map((p) => fs.readFileSync(p, 'utf8')).join('\n');
 for (const it of items.filter((i) => !i.free)) {
   const probe = (t, label) => {
-    const s = strip(t).slice(0, 100);
-    if (s.length >= 40 && publicText.includes(s)) fail(`${it.id} ${label} leaks into public/: "${s.slice(0, 60)}..."`);
+    const flat = strip(t);
+    const bits = [flat.slice(0, 120), flat.slice(-120)];
+    for (const s of bits) {
+      if (s.length >= 40 && publicText.includes(s)) fail(`${it.id} ${label} leaks into public/: "${s.slice(0, 60)}..."`);
+    }
   };
   probe(it.data.notesHtml, 'notes');
   for (const q of it.data.questions || []) {

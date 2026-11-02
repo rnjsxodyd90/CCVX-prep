@@ -15,7 +15,8 @@ Content pipeline and site, fully local (Firebase Emulator Suite + Stripe TEST mo
 ## Test results
 
 - `npm run test:build` — 9 checks: single-level subjects, id gate rejects wrong ids, sanitizer, excluded-file proof, walkthrough parse + bad-subdomain rejection. PASS.
-- `npm run test:rules` — 18 checks on the real rules in the Firestore emulator: anonymous reads only free; grants work per subject; no client writes; no list. PASS.
+- `npm run test:rules` — 18 checks on the real rules in the Firestore emulator: anonymous reads only free; grants work per subject; no client writes; no list; explicit catch-all deny. PASS (against a running emulator; `npm run emulators` first).
+- `npm run test:webhook` — 17 checks on the Stripe webhook core (functions/webhook-core.js, injected Stripe client + Firestore emulator): grant on success, idempotent replay, nothing marked when Stripe fails, retry-after-500 grants the customer with marker+grants in one transaction, price/metadata mismatch terminal without grant, bad metadata throws (retryable). PASS (fix for the reviewer-found lockout defect of commit 35c420a).
 - `npm run test:pricing` — 21 checks: launch window logic (inside/after LAUNCH_END, missing regulars fallback), badge text forms, bundle mapping (1/2/3/5 ok, 4/dupes/unknown rejected). PASS.
 - `npm run check:links` — 84/84 official exam links HTTP 200 on 1 Nov 2026.
 - `npm run build` + `validate` — 95 items (53 chem + 41 bio subdomains, 1 walkthrough), 2 free (chem-c02, bio-b01), 283 sources all on the allow-list, leak scan clean. PASS.

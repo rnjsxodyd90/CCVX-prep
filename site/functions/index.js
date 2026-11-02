@@ -18,27 +18,8 @@ const STRIPE_SECRET_KEY = defineSecret('STRIPE_SECRET_KEY');
 const STRIPE_WEBHOOK_SECRET = defineSecret('STRIPE_WEBHOOK_SECRET');
 const SITE_URL = defineString('SITE_URL', { default: 'http://localhost:5002' });
 
-const SUBJECTS = Object.fromEntries(config.subjects.map((s) => [s.id, s]));
-const BUNDLES = Object.fromEntries((config.bundles || []).map((b) => [b.count, b]));
+const { offerFor } = require('./webhook-core');
 const stripeClient = () => new Stripe(STRIPE_SECRET_KEY.value());
-const MONTH_MS = 30.44 * 24 * 3600 * 1000;
-
-// Maps the chosen subjects to the expected Stripe price. Mirrors
-// scripts/pricing-config.mjs bundleFor() against the generated config.
-function offerFor(subjects) {
-  const unique = [...new Set(subjects)];
-  if (!unique.length || unique.length > 5) return null;
-  if (unique.length !== subjects.length) return null;
-  if (unique.some((s) => !SUBJECTS[s])) return null;
-  const n = unique.length;
-  if (n === 1) {
-    const s = SUBJECTS[unique[0]];
-    return { kind: 'subject', subject: unique[0], lookupKey: s.lookupKey, priceEur: s.priceEur, count: 1 };
-  }
-  const b = BUNDLES[n];
-  if (!b) return null; // 4 subjects has no bundle price: pay as singles or take all 5
-  return { kind: 'bundle', subject: null, lookupKey: b.lookupKey, priceEur: b.priceEur, count: n };
-}
 
 async function customerFor(stripe, uid, email) {
   const ref = db.collection('entitlements').doc(uid);
@@ -80,23 +61,8 @@ exports.createCheckout = onCall({ secrets: [STRIPE_SECRET_KEY] }, async (req) =>
   return { url: session.url };
 });
 
-async function writeGrants(uid, subjects) {
-  const ref = db.collection('entitlements').doc(uid);
-  await db.runTransaction(async (t) => {
-    const snap = await t.get(ref);
-    const data = snap.exists ? snap.data() : {};
-    const grants = new Set(data.grants || []);
-    subjects.forEach((s) => grants.add(s));
-    // Never shorten anyone's access: 12 more months from now, or keep the
-    // later date the user already has.
-    const until = Math.max(Date.now() + 12 * MONTH_MS, data.activeUntil?.toMillis?.() || 0);
-    t.set(ref, {
-      grants: [...grants].sort(),
-      activeUntil: admin.firestore.Timestamp.fromMillis(until),
-      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
-    }, { merge: true });
-  });
-}
+
+const { processCheckoutCompleted } = require('./webhook-core');
 
 exports.stripeWebhook = onRequest({ secrets: [STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET] }, async (req, res) => {
   let event;
@@ -108,36 +74,11 @@ exports.stripeWebhook = onRequest({ secrets: [STRIPE_SECRET_KEY, STRIPE_WEBHOOK_
   }
   try {
     if (event.type === 'checkout.session.completed') {
-      const s = event.data.object;
-      // Idempotency: Stripe delivers events at least once.
-      const processedRef = db.collection('processedStripeEvents').doc(event.id);
-      const fresh = await db.runTransaction(async (t) => {
-        const snap = await t.get(processedRef);
-        if (snap.exists) return false;
-        t.create(processedRef, { type: event.type, at: admin.firestore.FieldValue.serverTimestamp() });
-        return true;
-      });
-      if (fresh) {
-        const subjects = String(s.metadata?.subjects || '').split(',').filter(Boolean);
-        const offer = offerFor(subjects);
-        // Validate that the price actually paid matches the bundle the
-        // metadata claims, so a forged session cannot unlock the wrong grant.
-        if (offer && s.metadata?.uid) {
-          const stripe = stripeClient();
-          const lines = await stripe.checkout.sessions.listLineItems(s.id, { limit: 5 });
-          const paidKey = lines.data[0]?.price?.lookup_key;
-          if (paidKey === offer.lookupKey) {
-            await writeGrants(s.metadata.uid, subjects);
-          } else {
-            console.error('stripeWebhook: price/metadata mismatch, no grant written', { subjects, paidKey, expected: offer.lookupKey });
-          }
-        } else {
-          console.error('stripeWebhook: unusable session metadata, no grant written', { subjects, uid: s.metadata?.uid });
-        }
-      }
+      await processCheckoutCompleted(db, stripeClient(), event);
     }
     res.json({ received: true });
   } catch (e) {
+    // Retryable: nothing was marked, Stripe will deliver the event again.
     console.error('stripeWebhook failed', e);
     res.status(500).send('webhook failed');
   }
