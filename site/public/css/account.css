@@ -1,0 +1,28 @@
+/* Account / library page */
+.acc-main { padding: 10vh var(--margin) 0; max-width: 1080px; }
+.acc-main h1 { font-size: var(--step-head); }
+.acc-card { background: var(--surface-2); padding: clamp(20px, 4vw, 44px); max-width: 640px; }
+.acc-card p { color: var(--muted); }
+.acc-actions { display: grid; gap: 26px; margin-top: 26px; }
+.acc-emailform label { display: block; font-weight: 500; margin-bottom: 8px; }
+.acc-row { display: flex; gap: 10px; }
+.acc-row input {
+  flex: 1; font: inherit; padding: 14px 16px;
+  background: var(--field-1); color: var(--field-1-ink); border: 0;
+}
+.acc-row input:focus { outline: 2px solid var(--accent); }
+.acc-note { font-size: 0.95rem; }
+.acc-who { color: var(--muted); }
+.acc-wait { color: var(--muted); }
+.acc-footnote { color: var(--muted); margin-top: 26px; }
+
+.lib-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; margin-top: 3vh; }
+.lib-tile { background: var(--surface-2); padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; text-decoration: none; }
+a.lib-tile:hover { background: var(--surface-3); }
+.lib-name { font-size: 1.2rem; font-weight: 600; }
+.lib-state { color: var(--muted); font-size: 0.92rem; }
+.lib-go { margin-top: 8px; font-weight: 500; }
+.lib-owned { background: var(--accent); color: var(--accent-ink); }
+.lib-owned .lib-state { color: rgba(255,255,255,0.8); }
+a.lib-owned:hover { filter: brightness(1.08); background: var(--accent); }
+.lib-buy { color: var(--accent-ink); background: var(--surface-4); align-self: flex-start; padding: 8px 14px; font-size: 0.92rem; text-decoration: none; margin-top: 8px; }

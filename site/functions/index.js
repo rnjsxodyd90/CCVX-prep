@@ -16,7 +16,7 @@ const db = admin.firestore();
 
 const STRIPE_SECRET_KEY = defineSecret('STRIPE_SECRET_KEY');
 const STRIPE_WEBHOOK_SECRET = defineSecret('STRIPE_WEBHOOK_SECRET');
-const SITE_URL = defineString('SITE_URL', { default: 'http://localhost:5000' });
+const SITE_URL = defineString('SITE_URL', { default: 'http://localhost:5002' });
 
 const SUBJECTS = Object.fromEntries(config.subjects.map((s) => [s.id, s]));
 const BUNDLES = Object.fromEntries((config.bundles || []).map((b) => [b.count, b]));
