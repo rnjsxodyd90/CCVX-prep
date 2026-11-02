@@ -26,11 +26,11 @@ Exam totals: 20 questions in 6 problems, 75 points. This CvTE exam allowed a gra
 
 **Asked:** in which year a playing strength of 2853 would have been reached if the linear growth of figure 1 had continued past 1995.
 
-**Solution.** Read two points from the trend line, e.g. (1989, 2150) and (1995, 2390) — the key allows read-off spread. Yearly increase: (2390 − 2150)/6 = 40. Solve 2390 + 40t = 2853 (t = years after 1995): t = 463/40 ≈ 11.6, so during the 12th year after 1995.
+**Solution.** Read two points from the trend line, e.g. (1989, 2150) and (1995, 2390) — the key allows read-off spread. Yearly increase: (2390 − 2150)/6 = 40. Solve 2390 + 40t = 2853 (t = years after 1 Jan 1995): t = 463/40 ≈ 11.6, i.e. midway through 1995 + 11.6.
 
-**Answer:** 2007.
+**Answer:** 2006.
 
-**Common mistakes.** Averaging the two read-off years' strengths; t added to 1989 instead of 1995; answering 2006 (t = 11.57 lies inside the 12th year — round up in context).
+**Common mistakes.** Averaging the two read-off years' strengths; t added to 1989 instead of 1995; the year conversion — t ≈ 11.6 after 1 Jan 1995 IS the year 2006 (the 12th year starts on 1 Jan 2006; answering 2007 overshoots by one).
 
 **Points:** 4 — two read-off points, the slope, the equation, the year.
 
