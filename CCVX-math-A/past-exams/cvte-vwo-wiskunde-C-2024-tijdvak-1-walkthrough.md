@@ -1,4 +1,4 @@
-# Walkthrough — CvTE VWO examen wiskunde C, 2024 tijdvak 1 (supplementary reasoning practice for wiskunde A)
+# Walkthrough — CvTE VWO examen wiskunde C, 2024 tijdvak 1 — supplementary practice for wiskunde A students (topics overlap)
 
 - **Official paper:** VWO wiskunde C, centraal examen 2024 period 1, college code VW-1026-a-24-1-o.
 - **Paper (PDF, examenblad.nl):** <https://www.examenblad.nl/system/files/exam-document/2024-07/vw-1026-a-24-1-o-spr.pdf>
