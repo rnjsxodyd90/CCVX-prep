@@ -105,12 +105,12 @@ b. When 16 A flows, compute the voltage drop over that wire and the power dissip
 
 #### Answer
 
-a. R = 0.28 Ω; b. U = 4.5 V, P = 72 W
+a. R = 0.28 Ω (0.283 Ω); b. U = 4.5 V, P = 73 W (72.5 W with unrounded R, 72 W with R = 0.28 Ω)
 
 #### Solution
 
 a. R = ρℓ/A = 17·10⁻⁹·25/1.5·10⁻⁶ = 4.25·10⁻⁷/1.5·10⁻⁶ = 0.283 ≈ 0.28 Ω.
-b. U = I·R = 16·0.283 = 4.5 V; P = I²·R = 16²·0.283 = 72 W — and the *return* wire doubles these values. A coiled 16 A reel in the sun is a small room heater; that is why reels must be unrolled for heavy loads.
+b. U = I·R = 16·0.283 = 4.5 V; P = I²·R = 16²·0.2833 = 72.5 ≈ 73 W (with the rounded R = 0.28 Ω you get 72 W — same story). And the *return* wire doubles these values. A coiled 16 A reel in the sun is a small room heater; that is why reels must be unrolled for heavy loads.
 
 ### phys-p06-q07 | points 5 | outcome o2 | difficulty medium
 

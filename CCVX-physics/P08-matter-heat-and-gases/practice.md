@@ -35,7 +35,7 @@ Q = m·c·ΔT = 2.0·4.18·10³·60 = 5.02·10⁵ ≈ 5.0·10⁵ J. (For water, 
 
 #### Question
 
-A person of 70 kg stands still on skis in the snow.
+A person of 70 kg stands still in the snow.
 
 a. Both shoes have a total contact area of 3.0·10⁻² m². Compute the pressure on the snow in shoes.
 b. With snowshoes the contact area is 6.0·10⁻² m². Compute the pressure now, and the conclusion for snow travel.
@@ -137,7 +137,7 @@ V₂ = 4.8 m³
 
 #### Solution
 
-Same amount of gas: p₁V₁/T₁ = p₂V₂/T₂ → V₂ = V₁·(p₁/p₂)·(T₂/T₁) = 3.0·(1.01·10⁵/5.5·10⁴)·(253/288) = 3.0·1.836·0.878 = 4.8 m³. The pressure drop (+84%) wins over the cooling (−12%): balloons swell as they climb — and must be launched half-sagging so the envelope can grow.
+Same amount of gas: p₁V₁/T₁ = p₂V₂/T₂ → V₂ = V₁·(p₁/p₂)·(T₂/T₁) = 3.0·(1.01·10⁵/5.5·10⁴)·(253/288) = 3.0·1.836·0.878 = 4.8 m³. The lower pressure drives the volume up (factor 1.84) while the lower temperature pulls it down (factor 0.88): the pressure effect wins, so balloons swell as they climb — and must be launched half-sagging so the envelope can grow.
 
 ### phys-p08-q10 | points 4 | outcome o6 | difficulty hard
 

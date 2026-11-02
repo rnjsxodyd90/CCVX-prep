@@ -92,7 +92,7 @@ An electron is locked in an infinitely deep box of L = 1.0 nm.
 a. Compute the three lowest energies in eV.
 b. The electron drops from level 2 to level 1. Compute the wavelength of the emitted photon and name the spectral region.
 
-**Solution.** a. E_1 = h²/(8·m·L²) = (6.626·10⁻³⁴)²/(8·9.109·10⁻³¹·(1.0·10⁻⁹)²) = 6.0·10⁻²⁰ J = 0.38 eV; E_2 = 4·0.376 = 1.5 eV; E_3 = 9·0.376 = 3.4 eV. b. ΔE = 1.50 − 0.38 = 1.1 eV → λ = 1240/1.12 = 1.1·10⁻⁶ m: infrared. Nano-size confinement lifts the spacings to photon energies — one line of reasoning from a box to colour.
+**Solution.** a. E_1 = h²/(8·m·L²) = (6.626·10⁻³⁴)²/(8·9.109·10⁻³¹·(1.0·10⁻⁹)²) = 6.0·10⁻²⁰ J = 0.38 eV; E_2 = 4·0.376 = 1.5 eV; E_3 = 9·0.376 = 3.4 eV. b. ΔE = 1.50 − 0.38 = 1.12 eV → λ = 1240/1.12 = 1.1·10⁻⁶ m: infrared. Nano-size confinement lifts the spacings to photon energies — one line of reasoning from a box to colour.
 
 ## Example 4 — what the interference pattern tells a single photon
 

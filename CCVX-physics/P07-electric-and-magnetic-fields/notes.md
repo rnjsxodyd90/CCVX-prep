@@ -56,7 +56,7 @@ Fully worked examples for the outcomes in [README.md](README.md). All examples a
 
 Two Na⁺ ions of a salt crystal sit 2.0·10⁻¹⁰ m apart (each charge +e). Compute the repulsion between them and compare with the gravitational attraction between them (m_Na ≈ 3.8·10⁻²⁶ kg).
 
-**Solution.** F_el = f·qQ/r² = 8.99·10⁹·(1.602·10⁻¹⁹)²/(2.0·10⁻¹⁰)² = 8.99·10⁹·2.566·10⁻³⁸/4.0·10⁻²⁰ = 5.8·10⁻⁹ N. F_g = G·m²/r² = 6.674·10⁻¹¹·(3.8·10⁻²⁶)²/4.0·10⁻²⁰ = 2.4·10⁻⁴³ N. Ratio ≈ 10³⁴: gravity is utterly irrelevant between ions — chemistry is electric.
+**Solution.** F_el = f·qQ/r² = 8.99·10⁹·(1.602·10⁻¹⁹)²/(2.0·10⁻¹⁰)² = 8.99·10⁹·2.566·10⁻³⁸/4.0·10⁻²⁰ = 5.8·10⁻⁹ N. F_g = G·m²/r² = 6.674·10⁻¹¹·(3.8·10⁻²⁶)²/4.0·10⁻²⁰ = 6.674·10⁻¹¹·1.444·10⁻⁵¹/4.0·10⁻²⁰ = 2.4·10⁻⁴² N. Ratio ≈ 5.8·10⁻⁹/2.4·10⁻⁴² = 2.4·10³³: gravity is utterly irrelevant between ions — chemistry is electric.
 
 ## Example 2 — electrons for the dentist's X-ray photo
 

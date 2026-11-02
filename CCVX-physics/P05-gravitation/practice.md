@@ -48,7 +48,7 @@ g_Mars = 3.7 m/s², about 0.38 × the Earth's
 
 #### Solution
 
-g = G·M/R² = 6.674·10⁻¹¹·6.42·10²³/(3.396·10⁶)² = 4.285·10¹³/1.153·10¹³ = 3.71 ≈ 3.7 m/s². Ratio 3.71/9.81 = 0.38. A 70 kg astronaut would *weigh* (support force normal force) only 2.6·10² N on Mars — same mass, different weight.
+g = G·M/R² = 6.674·10⁻¹¹·6.42·10²³/(3.396·10⁶)² = 4.285·10¹³/1.153·10¹³ = 3.71 ≈ 3.7 m/s². Ratio 3.71/9.81 = 0.38. A 70 kg astronaut would *weigh* (i.e. the normal force would be) only 2.6·10² N on Mars — same mass, different weight.
 
 ### phys-p05-q04 | points 5 | outcome o1 | difficulty medium
 
@@ -154,7 +154,7 @@ a. g = 8.9 m/s² (91% of surface value); b. gravity is very much present and pro
 #### Solution
 
 a. r = 6.678·10⁶ m: g = G·M/r² = 3.986·10¹⁴/(6.678·10⁶)² = 8.94 ≈ 8.9 m/s².
-b. With 8.9 m/s² there is clearly gravity — without it the station would fly off tangentially into space! That 8.9 m/s² is precisely the centripetal acceleration v²/r of the orbit (satellite v ≈ 7.7·10³ m/s: check v²/r = 5.95·10⁷/6.678·10⁶ = 8.9 ✓). Station and crew both free-fall with that same acceleration, so the floor pushes on nobody: normal force zero → apparent weightlessness. It is falling around the Earth, not floating beyond its pull.
+b. With 8.9 m/s² there is clearly gravity — without it the station would fly off tangentially into space! That 8.9 m/s² is precisely the centripetal acceleration v²/r of the orbit (satellite v ≈ 7.7·10³ m/s: check v²/r = 5.97·10⁷/6.678·10⁶ = 8.9 ✓). Station and crew both free-fall with that same acceleration, so the floor pushes on nobody: normal force zero → apparent weightlessness. It is falling around the Earth, not floating beyond its pull.
 
 ### phys-p05-q10 | points 4 | outcome o2 | difficulty hard
 

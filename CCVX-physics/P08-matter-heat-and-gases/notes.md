@@ -14,7 +14,7 @@ English notes on the learning outcomes in [README.md](README.md). Dutch terms ar
 - Three mechanisms (*geleiding, stroming, straling*): conduction — particles pass the jiggle on (dominant in solids); convection — warm fluid moves itself (radiators, sea wind, blood); radiation — electromagnetic waves (the Sun through vacuum, a glowing stove).
 - Heat current (*warmtestroom*) through a flat wall of area A and thickness d, with faces at ΔT apart:
 
-  **P = λ·A·ΔT/d** (W), with λ the thermal conductivity of the material (BINAS: e.g. brick ≈ 1.3, glass ≈ 0.80, polystyrene foam ≈ 0.030 W/(m·K)).
+  **P = λ·A·ΔT/d** (W), with λ the thermal conductivity of the material (BINAS thermal-conductivity table: e.g. brick ≈ 1.3, glass ≈ 0.80, polystyrene foam ≈ 0.030 W/(m·K)).
 
   The formula says it all for insulation (*energiebesparing door isolatie*): thicker wall → half the loss; better material (small λ) → small loss; bigger ΔT → bigger loss.
 - In this formula P plays the same role as "heat per second": P = ΔQ/Δt.
@@ -110,7 +110,7 @@ A steel wire (ℓ = 2.0 m, A = 0.50 mm²) carries a 250 N load.
 a. Compute stress, strain and elongation (steel E = 2.0·10¹¹ Pa).
 b. Would the same wire in aluminium (E = 0.71·10¹¹ Pa) stretch more or less?
 
-**Solution.** a. σ = F/A = 250/0.50·10⁻⁶ = 5.0·10⁸ Pa; ε = σ/E = 5.0·10⁸/2.0·10¹¹ = 2.5·10⁻³; Δℓ = ε·ℓ₀ = 2.5·10⁻³·2.0 = 5.0 mm. b. ε = σ/E: E_alu ≈ one-third of steel's → the aluminium wire stretches about three times further (≈ 1.5 cm): stiffness is material, not thickness.
+**Solution.** a. σ = F/A = 250/0.50·10⁻⁶ = 5.0·10⁸ Pa; ε = σ/E = 5.0·10⁸/2.0·10¹¹ = 2.5·10⁻³; Δℓ = ε·ℓ₀ = 2.5·10⁻³·2.0 = 5.0 mm. b. ε = σ/E: E_alu ≈ 0.71·10¹¹ Pa, factor 2.0/0.71 = 2.8 less stiff → the aluminium wire stretches 2.8 times further (≈ 1.4 cm): stiffness is material, not thickness.
 
 ## Example 6 — Torricelli's mercury barometer
 

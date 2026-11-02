@@ -52,7 +52,7 @@ a. 13.6 eV; b. 3.40 eV; c. from n = 2 the electron is already partway out: it la
 
 a. From −13.6 eV to 0 (free): E_ion = 13.6 eV.
 b. From −3.40 eV to 0: E_ion = 3.40 eV.
-c. The ionisation energy is whatever energy the electron still misses to just escape (E = 0). The excited electron sits higher in the well, so the step left is smaller — 9.77 eV (n = 1→ 2's lift) already paid for.
+c. The ionisation energy is whatever energy the electron still misses to just escape (E = 0). The excited electron sits higher in the well, so the step left is smaller — 10.2 eV (the n = 1 → 2 lift) already paid for.
 
 ### phys-p10-q04 | points 3 | outcome o2 | difficulty easy
 
@@ -70,7 +70,7 @@ a. A: main-sequence sun-like star; B: red giant — cool yet extremely luminous 
 #### Solution
 
 a. A sits on the middle of the main sequence (like the Sun). B is cooler than A yet radiates 10⁴ times more, and since P = σAT⁴ with a *lower* T⁴ factor, the area A must be enormous: top-right of the HR diagram — a red giant.
-b. A ∝ P/T⁴: B's huge power at modest temperature forces a giant surface → giant radius. The red giant wins by roughly two orders of magnitude.
+b. A ∝ P/T⁴: B's huge power at modest temperature forces a giant surface → giant radius. A ratio-computation gives a factor of about 2.9·10² in area (roughly 2.5 orders of magnitude; see the same technique in the notes, Example 4).
 
 ### phys-p10-q05 | points 3 | outcome o5 | difficulty medium
 

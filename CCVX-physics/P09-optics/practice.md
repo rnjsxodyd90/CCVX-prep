@@ -24,7 +24,7 @@ b. The two rays lie 35° + 35° = 70° apart.
 
 #### Question
 
-A point source hangs 1.2 m in front of an opaque cardboard figure of height 0.30 m. A wall stands 3.6 m behind the source–figure line (the figure halfway between source and wall: figure at 1.2 m, wall at 2.4 m from the figure).
+A point source hangs 1.2 m in front of an opaque cardboard figure of height 0.30 m. Behind the figure, at 2.4 m from the figure, stands a wall on the same line from the source.
 
 a. Compute the height of the shadow on the wall.
 b. Why is the shadow sharp here, and when would it show a penumbra?

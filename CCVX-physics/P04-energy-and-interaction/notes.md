@@ -13,12 +13,12 @@ English notes on the learning outcomes in [README.md](README.md). Dutch terms ar
   <line x1="40" y1="160" x2="40" y2="20" stroke="#333" stroke-width="1"/>
   <text x="24" y="26" font-size="12" font-family="sans-serif">F (N)</text>
   <text x="318" y="178" font-size="12" font-family="sans-serif">x (m)</text>
-  <polygon points="40,160 140,50 290,50 290,160" fill="#c8e6c9" opacity="0.6"/>
-  <polyline points="40,160 140,50 290,50" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
-  <line x1="140" y1="50" x2="140" y2="160" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="60" y="140" font-size="11" font-family="sans-serif" fill="#333">triangle</text>
-  <text x="185" y="110" font-size="11" font-family="sans-serif" fill="#333">rectangle</text>
-  <text x="132" y="178" font-size="11" font-family="sans-serif" fill="#333">0.50</text>
+  <polygon points="40,160 165,50 290,50 290,160" fill="#c8e6c9" opacity="0.6"/>
+  <polyline points="40,160 165,50 290,50" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="165" y1="50" x2="165" y2="160" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="73" y="140" font-size="11" font-family="sans-serif" fill="#333">triangle</text>
+  <text x="200" y="110" font-size="11" font-family="sans-serif" fill="#333">rectangle</text>
+  <text x="157" y="178" font-size="11" font-family="sans-serif" fill="#333">0.50</text>
   <text x="282" y="178" font-size="11" font-family="sans-serif" fill="#333">1.00</text>
   <text x="30" y="53" font-size="11" font-family="sans-serif" fill="#333">200</text>
 </svg>

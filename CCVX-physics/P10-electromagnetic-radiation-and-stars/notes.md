@@ -124,4 +124,4 @@ Compute the energy released when 4 hydrogen atoms fuse into one helium atom: mas
 
 The Sun radiates P = 3.85·10²⁶ W. How much mass does it lose per second, and per year? And what fraction of a solar mass (M_sun = 1.989·10³⁰ kg) is that per 10¹⁰ years?
 
-**Solution.** m = P/c² = 3.85·10²⁶/(3.00·10⁸)² = 3.85·10²⁶/8.99·10¹⁶ = 4.28·10⁹ kg/s ≈ 4.3 million tonnes per second. Per year (3.156·10⁷ s): 1.35·10¹⁷ kg. Per 10¹⁰ years: 1.35·10²⁷ kg = 6.8·10⁻⁴ of a solar mass — spectacular per second, modest per aeon. (Not even counting the solar wind.)
+**Solution.** m = P/c² = 3.85·10²⁶/(3.00·10⁸)² = 3.85·10²⁶/9.00·10¹⁶ = 4.28·10⁹ kg/s ≈ 4.3 million tonnes per second. Per year (3.156·10⁷ s): 1.35·10¹⁷ kg. Per 10¹⁰ years: 1.35·10²⁷ kg = 6.8·10⁻⁴ of a solar mass — spectacular per second, modest per aeon. (Not even counting the solar wind.)

@@ -1,6 +1,6 @@
 # P11 — Quantum world: practice
 
-Eleven original practice questions, written for this prep. Nothing is copied from CCVX or CvTE exams. Outcome codes o1–o5 match the numbered learning outcomes in [README.md](README.md). Constants (BINAS): h = 6.626·10⁻³⁴ J·s, c = 3.00·10⁸ m/s, m_e = 9.109·10⁻³¹ kg, e = 1.602·10⁻¹⁹ C; handy λ[nm] ≈ 1240/E[eV].
+Twelve original practice questions, written for this prep. Nothing is copied from CCVX or CvTE exams. Outcome codes o1–o5 match the numbered learning outcomes in [README.md](README.md). Constants (BINAS): h = 6.626·10⁻³⁴ J·s, c = 3.00·10⁸ m/s, m_e = 9.109·10⁻³¹ kg, e = 1.602·10⁻¹⁹ C; handy λ[nm] ≈ 1240/E[eV].
 
 ### phys-p11-q01 | points 3 | outcome o2 | difficulty easy
 
@@ -202,6 +202,24 @@ a. photons with E ≥ E_gap lift electrons into the conduction band → more car
 
 #### Solution
 
-a. Darkness: only a few electrons sit in the conduction band — high resistance. Photons with energy ≥ the gap kick electrons up; each promoted electron (plus the hole it left) is a mobile carrier → the brighter the light, the more carriers, the lower the resistance. A window-clean light-to-resistance conversion.
+a. Darkness: only a few electrons sit in the conduction band — high resistance. Photons with energy ≥ the gap kick electrons up; each promoted electron (plus the hole it left) is a mobile carrier → the brighter the light, the more carriers, the lower the resistance: a clean light-to-resistance conversion.
 b. In the NTC's semiconductor the same gap exists, now crossed by thermal energy: faster warming promotes more carriers than the extra lattice scattering costs → R falls as T rises. In a metal there is no gap to cross: carriers are already at maximum; heating only adds scattering → R *rises* (PTC signature). The presence of the small gap flips the temperature sign.
 c. Trailing the changing component in a **series voltage divider** (fixed resistor + sensor) makes its changing resistance read as a changing voltage — directly measured by the control electronics (the pattern of [P06](../P06-electric-circuits/) Example 2). In parallel the total voltage would stay nailed to the source and the sensor would vanish in the wash.
+
+### phys-p11-q12 | points 3 | outcome o4 | difficulty medium
+
+#### Question
+
+a. State Pauli's exclusion principle (*uitsluitingsprincipe van Pauli*) in your own words, and explain with the "little magnet" model of electron spin how two electrons can nevertheless share one orbital.
+b. A single atom has neatly spaced energy levels. Describe what happens to those levels when 10²³ such atoms join into a solid.
+c. "A completely *filled* energy band cannot carry current." Defend that with the Pauli principle.
+
+#### Answer
+
+a. at most one electron per complete state; spin is a tiny magnet that can point with or against an external field, so two electrons with opposite spins occupy the same orbital as two different states; b. the levels smear into almost continuous energy bands, possibly with band gaps between them; c. in a full band every state is already occupied (Pauli), so no electron can change state to build a net motion — no current
+
+#### Solution
+
+a. Pauli's exclusion principle: in one system no two electrons may occupy the *same complete state* (all quantum numbers identical). Spin adds one property to the state: the electron behaves as a tiny magnet that can align with or against an external field ("spin up"/"spin down"). Two electrons with *opposite* spins differ in that one quantum number — they are different states — so precisely two of them fit in one orbital.
+b. When atoms pack together, each electron state of each atom slightly overlaps the neighbours: the one atomic level splits into an astronomical number of extremely closely spaced levels — an almost continuous **energy band**, with forbidden intervals (band gaps) between the bands.
+c. Current needs electrons to *change* state (to pick up a directed motion). A filled band has every Pauli-allowed seat taken: an electron wanting extra motion finds only occupied states inside its band, and the next free states lie beyond the gap — out of reach. So a completely full band cannot carry current: the deep reason insulators start as full-band materials.

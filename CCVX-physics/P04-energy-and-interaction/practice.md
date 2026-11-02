@@ -170,11 +170,11 @@ A pendulum bob (m = 0.20 kg) swings through its lowest point at 2.0 m/s (measure
 
 a. Compute its kinetic energy there.
 b. Compute how high it rises above the lowest point in the turning points (friction negligible), and sketch the energy budget during one half period: turning point → equilibrium → turning point.
-c. Where along the swing is the bob's acceleration zero?
+c. Where along the swing is the *tangential* component of the acceleration (the one that changes the bob's speed) zero?
 
 #### Answer
 
-a. 0.40 J; b. 0.20 m; all E_k ↔ E_z and back; c. in the equilibrium position (resultant force along the motion is zero there — but note: the *centripetal* acceleration is not, see [P05](../P05-gravitation/))
+a. 0.40 J; b. 0.20 m; all E_k ↔ E_z and back; c. in the equilibrium position the tangential component is zero (the resultant force along the path vanishes there; the *centripetal* component is not zero — it points up the rope, see [P05](../P05-gravitation/))
 
 #### Solution
 
@@ -194,13 +194,13 @@ c. The tour is 10 climbs. Estimate the food energy spent, in J and in kcal (1 kc
 
 #### Answer
 
-a. P_nuttig ≈ 5.2·10² W; b. P_in ≈ 2.3·10³ W; c. E_ch ≈ 6.2·10⁴ J ≈ 15 kcal per climb… for 10 climbs: 6.2·10⁵ J ≈ 1.5·10² kcal
+a. P_nuttig ≈ 5.2·10² W; b. P_in ≈ 2.3·10³ W; c. per climb 2.8·10⁴ J ≈ 6.7 kcal; 10 climbs: E_ch ≈ 2.8·10⁵ J (281 kJ) ≈ 67 kcal
 
 #### Solution
 
 a. ΔE_z = m·g·Δh = 75·9.81·(3·2.8) = 6.2·10³ J; P_nuttig = 6.2·10³/12 = 5.2·10² W.
-b. η = P_nuttig/P_in → P_in = 5.2·10²/0.22 = 2.3·10³ W.
-c. Per climb: E_ch = 6.2·10³/0.22 = 2.8·10⁴ J; ten climbs: 2.8·10⁵ J ≈ 6.2·10⁴ J… note the ledger: total = 10·(6.2·10³/0.22) = 2.81·10⁵ J = 281 kJ ≈ 67 kcal. About one small chocolate bar — the body is wonderfully efficient at *not* slimming down.
+b. η = P_nuttig/P_in → P_in = 5.2·10²/0.22 = 2.3·10³ W (2.34·10³ W).
+c. Per climb the chemical energy is E_ch = ΔE_z/η = 6.2·10³/0.22 = 2.8·10⁴ J = 2.81·10⁴/4.2·10³ = 6.7 kcal. The full tour: E_ch,tot = 10·2.81·10⁴ = 2.8·10⁵ J = 281 kJ ≈ 67 kcal — about one small chocolate bar; the body is wonderfully efficient at *not* slimming down.
 
 ### phys-p04-q12 | points 5 | outcome o2 | difficulty hard
 
