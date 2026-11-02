@@ -16,7 +16,7 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   }
 })();
 
-// Free-sample quiz: three real questions from the public sample file.
+// Free-sample quiz: three practice questions from the public sample file.
 (async () => {
   const box = $('#quiz');
   if (!box) return;
@@ -32,7 +32,7 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   // First paint: a real button in the first screen; the question opens on click.
   box.innerHTML = `
     <h2>From Chemistry C02: chemical calculations</h2>
-    <p class="quiz-meta">Three real questions from the free Chemistry sample. Write your answer, then compare it with the worked solution and the marking points.</p>
+    <p class="quiz-meta">Three practice questions from the free Chemistry sample. Write your answer, then compare it with the worked solution and the marking points.</p>
     <button class="btn" type="button" data-start>Start with question 1</button>`;
   box.querySelector('[data-start]').addEventListener('click', render);
 
