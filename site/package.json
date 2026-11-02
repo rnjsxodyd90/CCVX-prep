@@ -4,7 +4,7 @@
   "type": "module",
   "description": "CCVX Ultimate Prep website: static site + Firebase (emulator) + Stripe test mode.",
   "scripts": {
-    "build": "node scripts/build-content.mjs && node scripts/build-exam-pages.mjs && node scripts/build-subject-pages.mjs",
+    "build": "node scripts/build-content.mjs && node scripts/build-exam-pages.mjs && node scripts/build-subject-pages.mjs && node scripts/build-legal-pages.mjs",
     "validate": "node scripts/validate-content.mjs",
     "upload": "node scripts/upload-content.mjs",
     "grant": "node scripts/grant.mjs",
