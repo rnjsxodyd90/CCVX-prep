@@ -236,7 +236,7 @@ The actual plate shows 136 colonies after plating 0.10 mL of the dilution. Calcu
 
 #### Answer
 
-Dilution: 136 colonies from 0.10 mL → 136 / 0.10 = 1.36 × 10³ bacteria per mL.
+Dilution: 136 colonies from 0.10 mL → 136 / 0.10 = 1.36 × 10³ bacteria per mL. The sample was 100× diluted, so the undiluted sample contained 1.36 × 10³ × 100 = **1.36 × 10⁵ bacteria per mL**.
 
 #### Solution
 
@@ -253,7 +253,7 @@ A treated sample gives only 4 colonies. The team concludes the antiseptic "kills
 
 #### Answer
 
-Treated sample: 4 / 0.10 × 100 = 4.0 × 10³ per mL.
+Treated sample: 4 / 0.10 × 100 = 4.0 × 10³ per mL. Killed fraction: 1 − (4.0 × 10³ / 1.36 × 10⁵) = 1 − 0.029 = 0.971 ≈ **97%**.
 
 #### Solution
 
@@ -322,11 +322,11 @@ Public-health researchers follow the immune response after an influenza vaccinat
 
 One year later the volunteer is vaccinated again with the same vaccine.
 
-Explain which cells are responsible for the difference you described in question 5a, and where they came from.
+Explain which cells are responsible for the difference from item bio-b05-q16, and where they came from.
 
 #### Answer
 
-Memory cells (memory B cells, helped by memory T cells).
+Memory cells (memory B cells, helped by memory T cells). They were made during the first vaccination, when the selected B-cell clones divided into plasma cells and memory cells.
 
 #### Solution
 
@@ -490,7 +490,7 @@ The other person must have the same one of the 16 possible combinations: probabi
 
 A newspaper reports on kidney transplantation: "The chance that two unrelated Dutch people have exactly the same MHC (HLA) type is less than 1%." For this question, assume that one particular MHC gene has four equally common alleles in the population, on each of the two chromosome copies, so 4 × 4 = 16 allele combinations per gene are possible in a person. Assume for simplicity that all 16 combinations are equally common.
 
-The newspaper's "less than 1%" is more precise than your answer to 7a. Give one reason why a calculation with more MHC genes would give a lower probability than your answer.
+The newspaper's "less than 1%" is more precise than your answer to item bio-b05-q23. Give one reason why a calculation with more MHC genes would give a lower probability than your answer.
 
 #### Answer
 
@@ -634,7 +634,7 @@ Name the two types of external defence CCVX distinguishes in plants, and give fo
 
 #### Answer
 
-Mechanical defence, e.g.
+Mechanical defence, e.g. thorns (or the waxy cuticle, bark, spines, lignified walls). Chemical defence, e.g. lavender scents (or cyanide in clover, tannins, nicotine).
 
 #### Solution
 
@@ -647,11 +647,11 @@ Mechanical defence, e.g. thorns (or the waxy cuticle, bark, spines, lignified wa
 
 A grower cultivates roses in greenhouses for cut flowers. He wants to protect them against fungi and aphids without spraying more pesticide than necessary. A colleague suggests he should choose a thornless rose variety "because thorns are useless against aphids". The grower also considers planting border strips of lavender, which produces scents, to repel insects, and he knows some rose varieties are officially "mildew-resistant".
 
-Explain why thorns protect roses against some attackers but not against aphids, and classify thorns into one of the two defence types from question 10a.
+Explain why thorns protect roses against some attackers but not against aphids, and classify thorns into one of the two defence types from item bio-b05-q32.
 
 #### Answer
 
-Thorns are a mechanical (physical) defence: they deter larger grazing animals that would bite or browse the plant.
+Thorns are a mechanical (physical) defence: they deter larger grazing animals that would bite or browse the plant. Aphids are very small insects that walk between the thorns and pierce the phloem with their mouthparts, so thorns do not stop them.
 
 #### Solution
 

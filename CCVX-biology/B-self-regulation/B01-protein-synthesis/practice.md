@@ -12,7 +12,7 @@ Give the percentages of the other three bases in this DNA. Explain your answers.
 
 #### Answer
 
-Guanine pairs with cytosine, so %G = %C = 37%.
+Guanine pairs with cytosine, so %G = %C = 37%. The remaining bases: 100 − (37 + 37) = 26%, so %A = %T = 13%.
 
 #### Solution
 
@@ -46,7 +46,7 @@ A fragment of the hot-spring DNA of exactly 1000 base pairs has the same base co
 
 #### Answer
 
-The fragment has 1000 base pairs = 2000 bases.
+The fragment has 1000 base pairs = 2000 bases. Composition: 37% C and 37% G → 740 G–C pairs; 13% A and 13% T → 260 A–T pairs. Hydrogen bonds: 740 × 3 + 260 × 2 = 2220 + 520 = **2740**.
 
 #### Solution
 
@@ -63,7 +63,7 @@ Does the rule "%A = %T and %G = %C" also hold for the mRNA of this bacterium? Ex
 
 #### Answer
 
-No.
+No. mRNA is single-stranded, so there is no complementary strand to enforce pairing; %A need not equal %U and %G need not equal %C.
 
 #### Solution
 
@@ -80,7 +80,7 @@ Explain why the bacteria are given a cDNA copy made from mRNA instead of the gen
 
 #### Answer
 
-The chromosomal insulin gene contains introns, and *E.
+The chromosomal insulin gene contains introns, and *E. coli* cannot remove introns (no splicing). cDNA is copied from mature mRNA, so it contains only the exons and can be expressed correctly in bacteria.
 
 #### Solution
 
@@ -97,7 +97,7 @@ Name the enzyme that is used to make cDNA from mRNA, and name the group of virus
 
 #### Answer
 
-Enzyme: reverse transcriptase.
+Enzyme: reverse transcriptase. Origin: retroviruses.
 
 #### Solution
 
@@ -114,11 +114,12 @@ The cDNA is built into a plasmid before it is brought into the bacteria. Give tw
 
 #### Answer
 
-Any two of: • an origin of replication, so the bacterium copies the plasmid (1) • one or more restriction sites, to insert the cDNA (1) • a marker gene, for example for antibiotic resistance, to select bacteria that took up the plasmid (1) • a promoter that works in the host cell (1)
+Any two of: an origin of replication, so the bacterium copies the plasmid; one or more restriction sites, to insert the cDNA; a marker gene, for example for antibiotic resistance, to select bacteria that took up the plasmid; a promoter that works in the host cell.
 
 #### Solution
 
-Any two of: • an origin of replication, so the bacterium copies the plasmid (1) • one or more restriction sites, to insert the cDNA (1) • a marker gene, for example for antibiotic resistance, to select bacteria that took up the plasmid (1) • a promoter that works in the host cell (1)
+Any two of: an origin of replication, so the bacterium copies the plasmid; one or more restriction sites, to insert the cDNA; a marker gene, for example for antibiotic resistance, to select bacteria that took up the plasmid; a promoter that works in the host cell.
+*Marking:* • a first correct property (1) • a second, different correct property (1)
 
 ### bio-b01-q08 | points 1 | outcome B1.2.1 | difficulty easy
 
@@ -147,7 +148,7 @@ PCR repeats one cycle of three temperature steps. Name these three steps and des
 
 #### Answer
 
-Denaturation, about 95 °C: the strands separate (hydrogen bonds break).
+Denaturation, about 95 °C: the strands separate (hydrogen bonds break). Annealing, about 50–65 °C: the primers pair with their complementary sequences on both strands. Extension, about 72 °C: Taq polymerase builds the new strands from the primers with free nucleotides.
 
 #### Solution
 
@@ -384,7 +385,7 @@ Give the anticodon of the tRNA that delivers lysine, written with the 3' and 5' 
 
 #### Answer
 
-Anticodon 3'-UUC-5'.
+Anticodon 3'-UUC-5'. The anticodon pairs complementarily (and antiparallel) with the codon AAG in the mRNA, so the tRNA delivers its amino acid (lysine) at exactly the right position.
 
 #### Solution
 
@@ -485,11 +486,11 @@ Researchers study mutations in a human gene for an enzyme involved in pigment fo
 
 Genetic code (from the BINAS table): AUG Met, GGC Gly, GGT Gly, UUU Phe, UUG Leu, CAG Gln, UAG stop, UAA stop.
 
-In a third patient, a single nucleotide in the second codon has been deleted. Explain why this mutation usually has much more serious consequences for the protein than the substitution in question 7a, and explain why a deletion of exactly three nucleotides in this region is usually less serious than a deletion of one.
+In a third patient, a single nucleotide in the second codon has been deleted. Explain why this mutation usually has much more serious consequences for the protein than the substitution in item bio-b01-q25, and explain why a deletion of exactly three nucleotides in this region is usually less serious than a deletion of one.
 
 #### Answer
 
-Deleting one nucleotide shifts the reading frame for the whole rest of the mRNA: every downstream codon is read differently, so most or all following amino acids are wrong and a stop codon usually appears early.
+Deleting one nucleotide shifts the reading frame for the whole rest of the mRNA: every downstream codon is read differently, so most or all following amino acids are wrong and a stop codon usually appears early. Deleting exactly three nucleotides removes one complete codon: the frame is kept and only one amino acid is missing.
 
 #### Solution
 

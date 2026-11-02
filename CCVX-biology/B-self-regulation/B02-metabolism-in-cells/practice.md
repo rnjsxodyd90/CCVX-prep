@@ -29,7 +29,7 @@ Calculate how many Salmonella cells are on the worktop at 02:00, if all cells ke
 
 #### Answer
 
-6 hours is 12 divisions, so 200 × 2¹² = 200 × 4096 = 819,200 cells.
+From 20:00 to 02:00 is 6 hours = 12 divisions of 30 minutes. Number of bacteria = 200 × 2¹² = 200 × 4096 = **819,200 cells**.
 
 #### Solution
 
@@ -114,7 +114,7 @@ The Na⁺ and K⁺ concentrations inside a healthy heart muscle cell stay roughl
 
 #### Answer
 
-The pump continuously transports Na⁺ out and K⁺ in, at a rate that exactly balances the leakage in the opposite direction; the ATP costs are met by dissimilation.
+The pump continuously transports Na⁺ out and K⁺ in, at a rate that exactly balances the leakage in the opposite direction; the ATP costs are met by dissimilation. Inflow thus equals outflow at a constant level: a dynamic equilibrium (a steady state of an open system).
 
 #### Solution
 
@@ -199,7 +199,7 @@ After uptake, the vesicle travels through the cytoplasm to a lysosome. Name the 
 
 #### Answer
 
-Tracks: microtubules of the cytoskeleton. Movers: motor proteins, such as kinesin and dynein, which use ATP.
+The vesicle is carried along the microtubules of the cytoskeleton; the actual moving is done by motor proteins such as kinesin and dynein, which step along the microtubules at the cost of ATP.
 
 #### Solution
 
@@ -216,7 +216,7 @@ Water and small apolar molecules can leave the vesicle, but the lysosome enzymes
 
 #### Answer
 
-The selective permeability of the membrane: it lets some substances pass and holds others, such as the enzymes, back.
+(Selective) permeability: the membrane is selectively permeable.
 
 #### Solution
 
@@ -258,7 +258,7 @@ Estimate the sucrose concentration that is isotonic with the potato cell sap. Sh
 
 #### Answer
 
-Zero mass change lies between 0.10 and 0.20 mol L⁻¹; interpolation gives 0.10 + 6.0 / 8.1 × 0.10 ≈ 0.17 mol L⁻¹.
+Zero mass change lies between 0.10 mol L⁻¹ (+6.0%) and 0.20 mol L⁻¹ (−2.1%). Interpolating: 0.10 + 6.0 / (6.0 + 2.1) × 0.10 = 0.10 + 0.074 = **about 0.17 mol L⁻¹** (accept 0.16–0.18).
 
 #### Solution
 
@@ -529,7 +529,7 @@ Explain why fermentation yields so much less ATP per glucose than aerobic dissim
 
 #### Answer
 
-Without O₂ only glycolysis runs (2 ATP net): O₂ is the final electron acceptor of the electron transport chain, so without it oxidative phosphorylation and the citric acid cycle stop, and fermentation only regenerates NAD⁺ without yielding ATP.
+Without O₂ only glycolysis runs, netting 2 ATP per glucose. O₂ is the final electron acceptor of the electron transport chain: with no O₂ the chain stops, NADH cannot be re-oxidised to NAD⁺, so the citric acid cycle and oxidative phosphorylation stop. Lactic acid fermentation merely hands the electrons of NADH to pyruvic acid to regenerate NAD⁺, which produces no ATP — the lactic acid still contains most of the glucose's energy.
 
 #### Solution
 
@@ -580,7 +580,7 @@ Explain the purpose of the aeration step and of the closing step, using the term
 
 #### Answer
 
-Aeration lets the yeast dissimilate aerobically (much ATP, so fast growth); closing the tank forces alcoholic fermentation, producing the ethanol (and CO₂).
+The aeration step comes first: with O₂ present the yeast carries out aerobic dissimilation, yielding about 30 ATP per glucose, so the cells can multiply quickly. The closing step comes second: without O₂ the yeast is forced into alcoholic fermentation, so it produces the ethanol (and CO₂) the beer needs.
 
 #### Solution
 
@@ -597,7 +597,7 @@ A brewer lets the yeast convert 1.80 kg of glucose completely by alcoholic ferme
 
 #### Answer
 
-1800 g / 180 g mol⁻¹ = 10 mol glucose, giving 20 mol ethanol = 920 g (0.92 kg) and 20 mol CO₂ = 880 g (0.88 kg).
+Amount of glucose: 1800 g / 180 g mol⁻¹ = 10 mol. Per mole of glucose, 2 mol of ethanol and 2 mol of CO₂ form, so 20 mol of each. Ethanol: 20 × 46 = **920 g (0.92 kg)**. CO₂: 20 × 44 = **880 g (0.88 kg)**. (Check: 0.92 + 0.88 = 1.80 kg, as the equation predicts.)
 
 #### Solution
 
@@ -631,7 +631,7 @@ Explain the difference between chemosynthesis and photosynthesis in terms of the
 
 #### Answer
 
-Photosynthesis uses light energy and takes the electrons for reducing CO₂ from water (so O₂ is released); it can therefore take place only in the light (daytime, the sunlit layer of water).
+Photosynthesis uses light energy and takes the electrons for reducing CO₂ from water (so O₂ is released); it can therefore take place only in the light (daytime, the sunlit layer of water). Chemosynthesis uses the energy released by oxidising an inorganic substance and takes the electrons from that substance (no O₂ is released, O₂ is usually consumed); it can therefore also take place in the dark, wherever the inorganic substance and usually O₂ are available (soil, sediments, deep sea).
 
 #### Solution
 
@@ -682,7 +682,7 @@ Plants use nitrate, together with glucose from photosynthesis, for continued ass
 
 #### Answer
 
-The four classes: building materials, fuels, reserve substances and enzymes. Nitrate is needed for the building materials (proteins) and the enzymes.
+Assimilation yields four classes of product: building materials (such as proteins, phospholipids and cellulose), fuels (glucose, fatty acids), reserve substances (starch, glycogen, fat) and enzymes. Nitrate supplies nitrogen, which is needed for amino acids, so it goes into the building materials (proteins) and the enzymes. (Score: if only two or three classes are named, 1 of the 2 class-points.)
 
 #### Solution
 

@@ -50,7 +50,7 @@ Algae → water fleas: 1 400 / 11 700 × 100% ≈ **12%**.
 Algae → water fleas: 1 400 / 11 700 × 100% ≈ **12%**. Water fleas → fish: 112 / 1 400 × 100% = **8%**.
 *Marking:* • 1 400 / 11 700 with a correct percentage ≈ 12% (1) • 112 / 1 400 = 8% (1)
 
-### bio-b08-q03 | points 3 | outcome B8.1.2 | difficulty medium
+### bio-b08-q03 | points 3 | outcome B8.1.1 | difficulty medium
 
 #### Question
 
@@ -135,7 +135,7 @@ Calculate how many times more energy the same hectare yields as chicken meat tha
 
 #### Answer
 
-Beef: 45 000 × 4% = 1 800 MJ.
+Beef: 45 000 × 4% = 1 800 MJ. Ratio: 4 500 / 1 800 = **2.5 times as much**.
 
 #### Solution
 
@@ -248,7 +248,7 @@ Fill in the name of each process 1–4.
 
 #### Answer
 
-1.
+1. nitrogen fixation; 2. ammonification; 3. nitrification; 4. denitrification.
 
 #### Solution
 
@@ -272,7 +272,7 @@ Name the group of organisms that carries out each process 1–4.
 
 #### Answer
 
-1.
+1. nitrogen-fixing bacteria, such as rhizobia in the root nodules of legumes (also free-living soil bacteria or cyanobacteria); 2. decomposers (bacteria and fungi); 3. nitrifying bacteria, such as Nitrosomonas (step 1) and Nitrobacter (step 2); 4. denitrifying bacteria.
 
 #### Solution
 
@@ -425,7 +425,7 @@ Give two measures that together can limit the enhanced greenhouse effect — one
 
 #### Answer
 
-Example answer: (1) burn less fossil fuel (insulate buildings, use sun and wind) — this reduces the combustion flux that returns long-stored carbon to the air as CO₂.
+Example answer: (a) burn less fossil fuel (insulate buildings, use sun and wind) — this reduces the combustion flux that returns long-stored carbon to the air as CO₂.
 
 #### Solution
 
@@ -498,7 +498,7 @@ Species B will decline and may disappear from the aquarium: with complete niche 
 Species B will decline and may disappear from the aquarium: with complete niche overlap, the stronger competitor (the faster-reproducing A) uses up the shared resource faster, so B gets too little food to maintain its population (competitive exclusion). This is faster than in the pond because no refuge (separate depth/food) exists.
 *Marking:* • prediction: B strongly declines / is excluded (1) • explanation via full niche overlap and stronger competitor (1)
 
-### bio-b08-q24 | points 2 | outcome B8.3.3 | difficulty easy
+### bio-b08-q24 | points 2 | outcome B8.3.1 | difficulty easy
 
 #### Question
 

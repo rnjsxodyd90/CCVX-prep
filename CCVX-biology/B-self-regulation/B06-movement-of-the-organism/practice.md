@@ -500,7 +500,7 @@ Design, in outline, the rehabilitation of the footballer's Achilles tendon: give
 
 #### Answer
 
-Outline (example): (1) first weeks: little load, exercises to recover the range of motion and keep the surrounding muscles active; (2) then gradually increasing strength training of the calf muscles, because pain and swelling set the pace; (3) finally coordination/balance work and sport-specific loading such as hopping.
+Outline (example): (a) first weeks: little load, exercises to recover the range of motion and keep the surrounding muscles active; (b) then gradually increasing strength training of the calf muscles, because pain and swelling set the pace; (c) finally coordination/balance work and sport-specific loading such as hopping.
 
 #### Solution
 
@@ -681,7 +681,7 @@ Name the three levels at which movement is neurally regulated, from the most aut
 
 #### Answer
 
-(1) Spinal cord: fast automatic reflexes, e.g.
+(a) Spinal cord: fast automatic reflexes, e.g. the stretch reflexes that keep you standing in a moving bus. (b) Brainstem and cerebellum: posture, balance and coordination, e.g. keeping balance and making movements smooth. (c) Cerebral cortex: voluntary, planned movements, e.g. deliberately stepping aside.
 
 #### Solution
 

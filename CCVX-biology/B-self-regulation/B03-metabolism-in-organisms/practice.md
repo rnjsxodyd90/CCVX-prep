@@ -2,7 +2,7 @@
 
 Original practice items in CCVX style (one scored item per block), with full worked answers and marking points. In the exam you may use BINAS; needed data are given with each item.
 
-### bio-b03-q01 | points 2 | outcome B3.2.2 | difficulty medium
+### bio-b03-q01 | points 2 | outcome B3.2.1 | difficulty medium
 
 #### Question
 
@@ -24,7 +24,7 @@ Give the net reaction equation of photosynthesis.
 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂, driven by light energy absorbed by chlorophyll.
 *Marking:* • reactants 6 CO₂ and 6 H₂O (1) • products C₆H₁₂O₆ and 6 O₂, balanced (1)
 
-### bio-b03-q02 | points 2 | outcome B3.2.2 | difficulty medium
+### bio-b03-q02 | points 2 | outcome B3.2.3 | difficulty medium
 
 #### Question
 
@@ -39,7 +39,7 @@ Calculate by what percentage the net CO₂ uptake increases at light intensity 4
 
 #### Answer
 
-Increase = 7.4 − 4.8 = 2.6 mg/(m²·h).
+Increase = 7.4 − 4.8 = 2.6 mg/(m²·h). Percentage = (2.6 / 4.8) × 100% = 54.17% ≈ **54%**.
 
 #### Solution
 
@@ -68,7 +68,7 @@ At light intensity 1 the two rates are almost equal (1 vs 1.5): extra CO₂ hard
 At light intensity 1 the two rates are almost equal (1 vs 1.5): extra CO₂ hardly helps, so light is the limiting factor. At light intensity 5 at 0.04% CO₂ the rate no longer rises with more light (it stays 5.0) but does rise with extra CO₂ (to 8.0), so CO₂ is the limiting factor there. The limiting factor is the condition in shortest supply: raising any other factor changes nothing.
 *Marking:* • at light 1, light limiting, argued from the nearly equal rates (1) • at light 5, CO₂ limiting, argued from the higher rate at 0.10% CO₂ (1) • general reasoning: the limiting factor is the one whose increase raises the rate (1)
 
-### bio-b03-q04 | points 3 | outcome B3.2.2 | difficulty medium
+### bio-b03-q04 | points 3 | outcome B3.3.5 | difficulty medium
 
 #### Question
 
@@ -90,7 +90,7 @@ All living leaf cells dissimilate day and night: they oxidise glucose to obtain 
 All living leaf cells dissimilate day and night: they oxidise glucose to obtain ATP, taking up O₂ and releasing CO₂. At night there is no light, so photosynthesis stops and only dissimilation remains, giving net O₂ uptake and CO₂ release. The compensation point is the light intensity at which photosynthesis and dissimilation are exactly equal: there is no net gas exchange (net CO₂ uptake zero).
 *Marking:* • dissimilation continues day and night, using O₂ and releasing CO₂ (1) • no photosynthesis without light, so at night only dissimilation shows (1) • compensation point: photosynthesis = dissimilation, net gas exchange zero (1)
 
-### bio-b03-q05 | points 1 | outcome B3.3.2 | difficulty medium
+### bio-b03-q05 | points 1 | outcome B3.3.1 | difficulty medium
 
 #### Question
 
@@ -107,7 +107,7 @@ Vital capacity = tidal volume + inspiratory reserve + expiratory reserve = 0.45 
 Vital capacity = tidal volume + inspiratory reserve + expiratory reserve = 0.45 + 2.2 + 1.0 = **3.65 L**.
 *Marking:* • correct sum and 3.65 L (1)
 
-### bio-b03-q06 | points 2 | outcome B3.3.2 | difficulty medium
+### bio-b03-q06 | points 2 | outcome B3.3.3 | difficulty medium
 
 #### Question
 
@@ -117,14 +117,14 @@ Calculate the volume of fresh air that reaches her alveoli per minute at rest. S
 
 #### Answer
 
-Fresh air per breath = tidal volume − dead space = 0.45 − 0.15 = 0.30 L.
+Fresh air per breath = tidal volume − dead space = 0.45 − 0.15 = 0.30 L. Per minute: 14 × 0.30 = **4.2 L fresh air per minute**.
 
 #### Solution
 
 Fresh air per breath = tidal volume − dead space = 0.45 − 0.15 = 0.30 L. Per minute: 14 × 0.30 = **4.2 L fresh air per minute**.
 *Marking:* • subtracting the dead space from the tidal volume (1) • multiplying by 14 and answer 4.2 L/min (1)
 
-### bio-b03-q07 | points 3 | outcome B3.3.2 | difficulty medium
+### bio-b03-q07 | points 3 | outcome B3.3.3 | difficulty medium
 
 #### Question
 
@@ -141,7 +141,7 @@ The diaphragm contracts and flattens, and the external intercostal muscles pull 
 The diaphragm contracts and flattens, and the external intercostal muscles pull the ribs up and out. The volume of the chest (and with it the lungs, which follow the chest wall) increases, so the pressure in the lungs drops below atmospheric pressure and air flows in.
 *Marking:* • diaphragm contracts and flattens (1) • external intercostal muscles raise the ribs, chest volume increases (1) • pressure in lungs falls below atmospheric, air flows in (1)
 
-### bio-b03-q08 | points 2 | outcome B3.3.2 | difficulty medium
+### bio-b03-q08 | points 2 | outcome B3.3.1 | difficulty medium
 
 #### Question
 
@@ -280,7 +280,7 @@ CO₂ diffuses from the muscle cells into the blood and into the red blood cells
 CO₂ diffuses from the muscle cells into the blood and into the red blood cells. There the enzyme carbonic anhydrase speeds up CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. The HCO₃⁻ moves out into the plasma, which carries most of it to the lungs; the H⁺ that forms at the same time is taken up by haemoglobin, which buffers it, keeping the blood pH about constant. In the lungs the reaction runs the other way and CO₂ is exhaled.
 *Marking:* • carbonic anhydrase in red blood cells speeds up CO₂ + H₂O → H⁺ + HCO₃⁻ (1) • HCO₃⁻ leaves for the plasma as the main transport form (1) • H⁺ buffered by haemoglobin (1)
 
-### bio-b03-q15 | points 3 | outcome B3.4.3 | difficulty medium
+### bio-b03-q15 | points 3 | outcome B3.4.1 | difficulty medium
 
 #### Question
 
@@ -314,7 +314,7 @@ Every enzyme has its own optimum pH: pepsin works best at about pH 2, exactly th
 Every enzyme has its own optimum pH: pepsin works best at about pH 2, exactly the pH that the hydrochloric acid of the gastric juice creates, while salivary amylase works best near neutral (about pH 7) and is inactivated, eventually denatured, by the strong acid.
 *Marking:* • gastric juice is strongly acidic (about pH 2), optimum for pepsin (1) • amylase has optimum about pH 7, so it is inactivated/denatured by the acid (1)
 
-### bio-b03-q17 | points 2 | outcome B3.4.3 | difficulty medium
+### bio-b03-q17 | points 2 | outcome B3.1.2 | difficulty medium
 
 #### Question
 
@@ -331,7 +331,7 @@ Emulsification is the breaking up of large fat drops into tiny droplets, brought
 Emulsification is the breaking up of large fat drops into tiny droplets, brought about by the bile salts in bile (made by the liver, stored in the gall bladder): each bile salt sits with a fat-soluble part in the droplet and a water-soluble part in the water. It raises the surface area for lipase, but no molecule is split and bile contains no enzymes, so it is mechanical, not chemical, digestion.
 *Marking:* • bile salts in bile break fat drops into tiny droplets, larger surface for lipase (1) • not chemical digestion: nothing is split, bile contains no enzyme (1)
 
-### bio-b03-q18 | points 3 | outcome B3.4.3 | difficulty medium
+### bio-b03-q18 | points 3 | outcome B3.4.2 | difficulty medium
 
 #### Question
 
@@ -375,7 +375,7 @@ Calculate what percentage of the filtered water is reabsorbed.
 
 #### Answer
 
-Water excreted: 1.8 L, so water reabsorbed = 180 − 1.8 = 178.2 L.
+Water excreted: 1.8 L, so water reabsorbed = 180 − 1.8 = 178.2 L. Percentage = (178.2 / 180) × 100% = **99.0% reabsorbed**.
 
 #### Solution
 
@@ -399,7 +399,7 @@ Glucose filtered per day = 180 L × 1.0 g/L = **180 g per day**.
 Glucose filtered per day = 180 L × 1.0 g/L = **180 g per day**. Yet the urine contains no glucose because in the first, coiled part of the renal tubule (the proximal tubule) all filtered glucose is reabsorbed by active transport from the ultrafiltrate into the surrounding capillaries; nothing is left for the urine. The tubule cells doing this have many mitochondria for the ATP needed.
 *Marking:* • 180 × 1.0 = 180 g filtered per day (1) • complete reabsorption in the (proximal) tubule (1) • by active transport (1)
 
-### bio-b03-q22 | points 2 | outcome B3.5.1 | difficulty medium
+### bio-b03-q22 | points 2 | outcome B3.5.2 | difficulty medium
 
 #### Question
 
@@ -433,7 +433,7 @@ The raised osmotic value of the blood is detected by the hypothalamus.
 The raised osmotic value of the blood is detected by the hypothalamus. The pituitary gland (hypophysis) then releases more ADH. ADH makes the walls of the collecting ducts of the nephrons permeable to water; because the surrounding medullary tissue has a high osmotic value, water is reabsorbed from the ducts by osmosis. Little water is left in the ducts, so a small volume of concentrated urine results.
 *Marking:* • hypothalamus detects → pituitary releases more ADH (1) • ADH makes collecting ducts permeable to water (1) • water reabsorbed by osmosis into the salty medulla → small volume of concentrated urine (1)
 
-### bio-b03-q24 | points 2 | outcome B3.5.3 | difficulty medium
+### bio-b03-q24 | points 2 | outcome B3.1.5 | difficulty medium
 
 #### Question
 
@@ -460,7 +460,7 @@ Calculate his cardiac output at rest and during the mountain stage, in L per min
 
 #### Answer
 
-Cardiac output = heart rate × stroke volume.
+Cardiac output = heart rate × stroke volume. At rest: 65 × 80 mL = 5200 mL = **5.2 L per minute**. During the stage: 190 × 125 mL = 23,750 mL ≈ **23.8 L per minute**.
 
 #### Solution
 
@@ -484,7 +484,7 @@ Time for one complete round = blood volume ÷ cardiac output = 5.5 L ÷ 5.2 L/mi
 Time for one complete round = blood volume ÷ cardiac output = 5.5 L ÷ 5.2 L/min = 1.06 min ≈ **1.1 minute** (so the heart turns the whole blood volume over about once a minute).
 *Marking:* • division of blood volume by cardiac output (1) • answer about 1.1 min / about once a minute (1)
 
-### bio-b03-q27 | points 2 | outcome B3.6.1 | difficulty medium
+### bio-b03-q27 | points 2 | outcome B3.6.2 | difficulty medium
 
 #### Question
 
@@ -501,7 +501,7 @@ Both ventricles pump the same stroke volume, but the left ventricle pushes blood
 Both ventricles pump the same stroke volume, but the left ventricle pushes blood through the large (systemic) circulation — the whole body with its long vessels and high resistance — at high pressure (systolic about 120 mmHg), while the right ventricle pushes it only through the nearby lungs at low pressure. More force requires more muscle, hence the thicker left wall.
 *Marking:* • left ventricle supplies the whole body at high pressure, right only the lungs at low pressure (1) • more resistance/force demands more muscle mass (1)
 
-### bio-b03-q28 | points 2 | outcome B3.6.1 | difficulty medium
+### bio-b03-q28 | points 2 | outcome B3.1.3 | difficulty medium
 
 #### Question
 
@@ -518,7 +518,7 @@ In the fish the blood loses much of its pressure when it passes the capillaries 
 In the fish the blood loses much of its pressure when it passes the capillaries of the gills, and the pressure is not restored afterwards: the blood reaches the body capillaries slowly and at low pressure. In a mammal the blood passes the heart twice per round — after the lungs it returns to the heart, which pumps it up to full pressure again for the body, giving fast, high-pressure flow.
 *Marking:* • pressure falls in the gill capillaries and is not restored (1) • double circulation re-pressurises the blood in the heart before the body (1)
 
-### bio-b03-q29 | points 2 | outcome B3.6.1 | difficulty medium
+### bio-b03-q29 | points 2 | outcome B3.6.3 | difficulty medium
 
 #### Question
 
@@ -569,7 +569,7 @@ At the source (the leaf) sugar is actively loaded into the sieve tubes by the co
 At the source (the leaf) sugar is actively loaded into the sieve tubes by the companion cells; the osmotic value in the sieve tube rises, water follows from the xylem by osmosis and the pressure rises. At the sink (the fruit) sugar is unloaded for growth and storage, water leaves again and the pressure falls. Sap therefore flows under this pressure difference from source to sink.
 *Marking:* • active loading of sugar at the leaf raises the osmotic value (1) • water follows by osmosis → high pressure at the source (1) • unloading at the fruit lowers the pressure → flow from source to sink (1)
 
-### bio-b03-q32 | points 2 | outcome B3.6.6 | difficulty hard
+### bio-b03-q32 | points 2 | outcome B3.1.4 | difficulty hard
 
 #### Question
 
@@ -603,7 +603,7 @@ At the arterial end of a capillary the blood pressure — the filtration pressur
 At the arterial end of a capillary the blood pressure — the filtration pressure — is higher than the colloid osmotic pressure of the plasma proteins, so water with small dissolved substances is pushed out through the capillary wall: this fluid is tissue fluid. Along the capillary the blood pressure falls, while the colloid osmotic pressure stays about the same, so at the venous end the colloid osmotic pressure wins and most of the fluid is drawn back in.
 *Marking:* • at the arterial end, filtration (blood) pressure pushes fluid out (1) • colloid osmotic pressure of the plasma proteins draws water back (1) • at the venous end the colloid osmotic pressure exceeds the blood pressure, so most fluid returns (1)
 
-### bio-b03-q34 | points 3 | outcome B3.6.4 | difficulty hard
+### bio-b03-q34 | points 3 | outcome B3.6.5 | difficulty hard
 
 #### Question
 
@@ -619,3 +619,35 @@ With little albumin the colloid osmotic pressure falls, so the venous-end pull i
 
 With little albumin the colloid osmotic pressure falls, so the venous-end pull is too weak to recover the filtered fluid: more tissue fluid is formed than returns, and the surplus accumulates in the tissues (and the surplus that should be drained by the lymph also grows). The cause lies in an organ other than where the symptom appears: the failing liver makes too little albumin, so the transport system (blood capillaries) fails to keep the water balance, and the symptom shows in the body cavity.
 *Marking:* • low albumin → low colloid osmotic pressure → less fluid drawn back (1) • net formation exceeds return: oedema (1) • cause is the failing liver (making too little albumin), not the swollen abdomen itself (1)
+
+### bio-b03-q35 | points 3 | outcome B3.1.1 | difficulty easy
+
+#### Question
+
+The lining of the small intestine consists of one layer of cells (an epithelium). Together with smooth-muscle tissue and connective tissue, this epithelium forms the small intestine, and the small intestine cooperates with the stomach, the pancreas, the liver and more in the digestive tract.
+
+(a) Give the levels of biological organization that this description shows, from the smallest to the largest unit. (b) Explain what is meant by the statement that the cells in a tissue "perform a joint function by virtue of their organization". Use the epithelium of the small intestine as your example.
+
+#### Answer
+
+(a) cell → tissue → organ → organ system. (b) The cells of the epithelium are so similarly built and so connected that together they carry out one shared task that a single cell could not do: they form a continuous lining that absorbs food molecules and divides it between the gut contents and the blood.
+
+#### Solution
+
+(a) cell, tissue, organ, organ system (here: cell → epithelium → small intestine → digestive tract/system). (b) Organization means the cells are specialized, connected and arranged so that their joint activity is one function: the epithelial cells all take up the same digestion products, their membranes form closed cell junctions, so the tissue as a whole — not any single cell — separates the gut contents from the blood and performs the absorption step of digestion.
+*Marking:* • the four levels in the right order (1) • organization: cells connected/specialized, the function needs their joint activity (1) • the example used correctly (1)
+
+### bio-b03-q36 | points 2 | outcome B3.3.2 | difficulty easy
+
+#### Question
+
+Give two structural properties of human alveoli and explain for each property how it serves the function of gas exchange between air and blood. (If you use Fick's law, name the variable in it.)
+
+#### Answer
+
+The alveoli combine into a very large exchange surface, and their wall is only one cell thick against one-cell-thick capillary walls, so the diffusion distance is very short.
+
+#### Solution
+
+Any two of: (a) hundreds of millions of alveoli give a huge surface area (variable in Fick's law: the area), so much O₂ and CO₂ can diffuse at the same time; (b) walls of one layer of flattened cells plus capillary walls of one layer give a very short diffusion distance (variable: the thickness), which makes diffusion fast; (c) dense capillary network keeps a steep concentration gradient (variable: the concentration difference).
+*Marking:* • first structural property linked correctly to exchange function (1) • second structural property linked correctly (1)

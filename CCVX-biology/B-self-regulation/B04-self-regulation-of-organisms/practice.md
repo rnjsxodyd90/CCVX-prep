@@ -2,7 +2,7 @@
 
 Original practice items in CCVX style (one scored item per block), with full worked answers and marking points. In the exam you may use BINAS; needed data are given with each item.
 
-### bio-b04-q01 | points 2 | outcome B4.1.3 | difficulty medium
+### bio-b04-q01 | points 2 | outcome B4.1.1 | difficulty medium
 
 #### Question
 
@@ -23,7 +23,7 @@ Insulin.
 Insulin. It is secreted by the B cells (β cells) of the pancreatic islets (islets of Langerhans), which detect the rising glucose level themselves.
 *Marking:* • insulin (1) • B cells of the pancreatic islets (1)
 
-### bio-b04-q02 | points 3 | outcome B4.1.3 | difficulty medium
+### bio-b04-q02 | points 3 | outcome B4.2.2 | difficulty medium
 
 #### Question
 
@@ -33,11 +33,11 @@ An exercise physiologist measures the blood glucose level of a cyclist. At t = 0
 |---|---|---|---|---|---|
 | blood glucose (mmol L⁻¹) | 5.0 | 8.2 | 6.6 | 5.2 | 4.7 |
 
-Explain how the hormone from question 1a brings the glucose level back towards the norm. Name two target organs and describe what the hormone causes there.
+Explain how the hormone from item bio-b04-q01 brings the glucose level back towards the norm. Name two target organs and describe what the hormone causes there.
 
 #### Answer
 
-Liver cells and muscle cells have insulin receptors; under the influence of insulin they take up more glucose from the blood and store it as glycogen.
+Liver cells and muscle cells have insulin receptors; under the influence of insulin they take up more glucose from the blood and store it as glycogen. Fat cells also take up glucose and convert it into fat. Because glucose moves from the blood into the cells, the blood glucose level falls back towards the norm.
 
 #### Solution
 
@@ -58,14 +58,14 @@ Calculate by what percentage the glucose level fell between t = 30 and t = 120.
 
 #### Answer
 
-Fall = 8.2 − 5.2 = 3.0 mmol L⁻¹.
+Fall = 8.2 − 5.2 = 3.0 mmol L⁻¹. Percentage = 3.0 / 8.2 × 100% = 36.6% ≈ **37%**.
 
 #### Solution
 
 Fall = 8.2 − 5.2 = 3.0 mmol L⁻¹. Percentage = 3.0 / 8.2 × 100% = 36.6% ≈ **37%**.
 *Marking:* • fall of 3.0 mmol L⁻¹ (1) • correct percentage, about 37% (1)
 
-### bio-b04-q04 | points 2 | outcome B4.1.3 | difficulty medium
+### bio-b04-q04 | points 2 | outcome B4.2.1 | difficulty medium
 
 #### Question
 
@@ -199,7 +199,7 @@ Receptors: temperature receptors in the skin (also temperature-sensitive cells i
 Receptors: temperature receptors in the skin (also temperature-sensitive cells in the hypothalamus itself). Control centre: the hypothalamus. Effectors: the sweat glands and the arterioles (blood vessels) of the skin.
 *Marking:* • temperature receptors in the skin (1) • hypothalamus as control centre (1) • sweat glands and skin arterioles as effectors (1)
 
-### bio-b04-q10 | points 2 | outcome B4.1.3 | difficulty medium
+### bio-b04-q10 | points 2 | outcome B4.1.2 | difficulty medium
 
 #### Question
 
@@ -233,7 +233,7 @@ The response (stronger contractions of the uterus) increases the original deviat
 The response (stronger contractions of the uterus) increases the original deviation (stretching of the cervix) instead of reducing it, so the process reinforces itself: that is positive feedback. The cycle ends when the baby is born, because the cervix is no longer stretched and the stimulus for oxytocin release disappears.
 *Marking:* • the response strengthens the deviation / the process reinforces itself (1) • it ends at birth, when the stretching stops (1)
 
-### bio-b04-q12 | points 2 | outcome B4.1.3 | difficulty medium
+### bio-b04-q12 | points 2 | outcome B4.1.4 | difficulty medium
 
 #### Question
 
@@ -369,7 +369,7 @@ Any three of: • heart beats faster and harder, so more O₂ and glucose reach 
 Any three of: • heart beats faster and harder, so more O₂ and glucose reach the muscles • bronchioles widen, so more air (O₂) enters the lungs • the liver releases glucose, so blood glucose rises for the working muscles • the pupils widen, letting in more light • digestion slows, making blood and energy available elsewhere. (Usefulness must match each effect.)
 *Marking:* • first correct effect with matching advantage (1) • second correct effect with matching advantage (1) • third correct effect with matching advantage (1)
 
-### bio-b04-q20 | points 2 | outcome B4.3.4 | difficulty medium
+### bio-b04-q20 | points 2 | outcome B4.2.4 | difficulty medium
 
 #### Question
 
@@ -386,7 +386,7 @@ Adrenaline is released by the adrenal medulla.
 Adrenaline is released by the adrenal medulla. It is called a neuro-hormonal link because the chain starts as a nerve signal (sympathetic impulses to the adrenal medulla) and continues as a hormone: the adrenaline travels through the blood to target organs all over the body.
 *Marking:* • adrenal medulla (1) • nerve signal converted into a hormone carried by the blood (1)
 
-### bio-b04-q21 | points 1 | outcome B4.3.4 | difficulty medium
+### bio-b04-q21 | points 1 | outcome B4.2.4 | difficulty medium
 
 #### Question
 
@@ -403,7 +403,7 @@ A nerve impulse reaches the heart within a fraction of a second and stops as soo
 A nerve impulse reaches the heart within a fraction of a second and stops as soon as the firing stops. Adrenaline must first be transported by the blood and is broken down only slowly (by the liver and kidneys), so its effect starts later but lasts for minutes.
 *Marking:* • nervous transmission is fast and brief, hormonal is slower and longer-lasting because of transport and breakdown (1)
 
-### bio-b04-q22 | points 2 | outcome B4.3.4 | difficulty medium
+### bio-b04-q22 | points 2 | outcome B4.1.1 | difficulty medium
 
 #### Question
 
@@ -430,7 +430,7 @@ Calculate the volume of red blood cells before and after the altitude camp, and 
 
 #### Answer
 
-Before: 0.44 × 5.0 L = 2.2 L of red blood cells.
+Before: 0.44 × 5.0 L = 2.2 L of red blood cells. After: 0.52 × 5.0 L = 2.6 L. Increase = 2.6 − 2.2 = **0.4 L (400 mL)**.
 
 #### Solution
 
@@ -652,7 +652,7 @@ Calculate the extra conduction time over 0.90 m after the myelin is lost.
 
 #### Answer
 
-With myelin: t = 0.90 / 100 = 0.009 s (9 ms).
+With myelin: t = 0.90 / 100 = 0.009 s (9 ms). Without myelin: t = 0.90 / 1 = 0.9 s. Extra time = 0.9 − 0.009 = **0.891 s ≈ 0.9 s**.
 
 #### Solution
 
@@ -795,7 +795,7 @@ The same sensory signal activates inhibitory relay neurons that synapse on the m
 The same sensory signal activates inhibitory relay neurons that synapse on the motor neurons of the extensor; their synapses hyperpolarise those motor neurons, so they stay below threshold and the extensor does not contract while the flexor does.
 *Marking:* • inhibitory relay neurons act on the motor neuron of the extensor (1) • hyperpolarisation keeps it below threshold → extensor stays relaxed (1)
 
-### bio-b04-q43 | points 1 | outcome B4.3.2 | difficulty medium
+### bio-b04-q43 | points 1 | outcome B4.3.3 | difficulty medium
 
 #### Question
 

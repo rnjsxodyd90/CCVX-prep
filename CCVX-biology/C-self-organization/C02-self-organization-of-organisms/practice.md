@@ -80,7 +80,7 @@ Calculate the length of the locust after the fifth moult. Give your answer in mm
 
 #### Answer
 
-Each moult multiplies the length by 1.45.
+Each moult multiplies the length by 1.45. After five moults: 10.0 × 1.45⁵ = 10.0 × 6.410 = **64.1 mm**.
 
 #### Solution
 
@@ -199,7 +199,7 @@ Calculate the due date (day and month).
 
 #### Answer
 
-The due date is 40 weeks = 280 days after 5 June.
+The due date is 40 weeks = 280 days after 5 June. Counting on 280 days from 5 June gives **12 March** (of the following year). (Quick check: 40 weeks ≈ 9 calendar months + 1 week; 5 June + 9 months = 5 March, + 1 week = 12 March.)
 
 #### Solution
 
@@ -632,11 +632,11 @@ A greenhouse horticulturist grows tomatoes and wants the highest possible produc
 | high (extra LED lighting) | 400 ppm | 610 |
 | high | 900 ppm | 780 |
 
-Explain, using the results from 10a, which factor limits growth at low light.
+Explain, using the results in the table, which factor limits growth at low light.
 
 #### Answer
 
-If CO₂ were the limiting factor at low light, adding CO₂ would raise growth strongly.
+If CO₂ were the limiting factor at low light, adding CO₂ would raise growth strongly. In reality extra CO₂ gives only 14% more growth at low light, while extra light raises the growth from 250 to 610 g per plant per week — an increase of 144% at the same CO₂ level. So at low light it is light, not CO₂, that limits growth; extra CO₂ only pays off when light is abundant (+28%).
 
 #### Solution
 

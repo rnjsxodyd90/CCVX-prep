@@ -42,11 +42,11 @@ When there is no lurulose, the two proteins are useless; regulating the genes sa
 
 The gut bacterium strain Ku-12 lives on plant remains and can use the sugar lurulose, which is released in the gut when seaweed is eaten. Two structural genes lie under one promoter and one operator: *lurA*, which codes for a transport protein that takes lurulose into the cell, and *lurP*, which codes for an enzyme that splits lurulose into smaller sugars. A separate regulator gene with its own promoter continuously produces a repressor protein. With no lurulose, the repressor is bound to the operator.
 
-The regulator gene itself is transcribed continuously. Explain why this does not undo the advantage from question 1b.
+The regulator gene itself is transcribed continuously. Explain why this does not undo the advantage from item bio-d01-q02.
 
 #### Answer
 
-The repressor is a single protein needed in only small amounts, so continuously making it costs little.
+The repressor is a single protein needed in only small amounts, so continuously making it costs little. The structural proteins, by contrast, are needed in large amounts when lurulose is used; switching off their mass production when lurulose is absent saves far more than the small cost of the repressor. The net saving therefore remains.
 
 #### Solution
 
@@ -57,7 +57,7 @@ The repressor is a single protein needed in only small amounts, so continuously 
 
 #### Question
 
-For the same bacterium strain Ku-12 (question 1), researchers measure the activity of the LurP enzyme (µmol lurulose split per minute per mg cell protein) in four strains, grown with and without lurulose:
+For the same bacterium strain Ku-12, researchers measure the activity of the LurP enzyme (µmol lurulose split per minute per mg cell protein) in four strains, grown with and without lurulose:
 
 | strain | without lurulose | with lurulose |
 |---|---|---|
@@ -72,7 +72,7 @@ Explain the two enzyme activities of the wild type, using the parts of the opero
 
 #### Answer
 
-Without lurulose the repressor sits on the operator and blocks transcription, so almost no LurP is made (0.2).
+Without lurulose the repressor sits on the operator and blocks transcription, so almost no LurP is made (0.2). With lurulose, lurulose inactivates the repressor, RNA polymerase transcribes *lurP* (and *lurA*), and enzyme activity is high (48).
 
 #### Solution
 
@@ -83,7 +83,7 @@ Without lurulose the repressor sits on the operator and blocks transcription, so
 
 #### Question
 
-For the same bacterium strain Ku-12 (question 1), researchers measure the activity of the LurP enzyme (µmol lurulose split per minute per mg cell protein) in four strains, grown with and without lurulose:
+For the same bacterium strain Ku-12, researchers measure the activity of the LurP enzyme (µmol lurulose split per minute per mg cell protein) in four strains, grown with and without lurulose:
 
 | strain | without lurulose | with lurulose |
 |---|---|---|
@@ -98,7 +98,7 @@ Match each mutation (i), (ii) and (iii) to mutant X, Y or Z. Explain your choice
 
 #### Answer
 
-X = mutation (i): without a working operator the repressor cannot block transcription, so the genes are always on, with or without lurulose.
+X = mutation (i): without a working operator the repressor cannot block transcription, so the genes are always on, with or without lurulose. Y = mutation (ii): a repressor that cannot bind lurulose stays on the operator even when lurulose is present, so the operon stays off. Z = mutation (iii): a weaker promoter is inducible (off without lurulose, on with it) but transcription is about ten times lower (5.1 instead of 48).
 
 #### Solution
 
@@ -109,7 +109,7 @@ X = mutation (i): without a working operator the repressor cannot block transcri
 
 #### Question
 
-For the same bacterium strain Ku-12 (question 1), researchers measure the activity of the LurP enzyme (µmol lurulose split per minute per mg cell protein) in four strains, grown with and without lurulose:
+For the same bacterium strain Ku-12, researchers measure the activity of the LurP enzyme (µmol lurulose split per minute per mg cell protein) in four strains, grown with and without lurulose:
 
 | strain | without lurulose | with lurulose |
 |---|---|---|
@@ -124,7 +124,7 @@ A student claims: "A mutation in the regulator gene, so that no repressor is mad
 
 #### Answer
 
-The claim is wrong.
+The claim is wrong. The mutation removes regulation: the cell makes the transport protein and the enzyme continuously, also when there is no lurulose. That wastes energy and amino acids, so growth is slower (or at best unchanged), not faster. The time saved by "not switching" is negligible compared with the cost of useless protein production.
 
 #### Solution
 
@@ -354,7 +354,7 @@ RNAi acts on mRNA that has already been transcribed: it destroys the mRNA or blo
 
 The virus ToMV-2 infects tomato plants; its RNA codes for a coat protein that it needs to spread through the crop. Plant breeders give tomato plants an added gene that produces a long double-stranded RNA with exactly the same sequence as part of the viral coat-protein RNA. The modified plants stay healthy after infection.
 
-In an operon (question 1) a repressor protein prevents transcription. State one difference between regulation by a repressor and regulation by iRNA, regarding what is recognised.
+In an operon a repressor protein prevents transcription. State one difference between regulation by a repressor and regulation by iRNA, regarding what is recognised.
 
 #### Answer
 
@@ -478,7 +478,7 @@ A consumer organisation claims: "The cisgenic tree is not really different from 
 
 #### Answer
 
-Example position — against the claim, so "yes, it stays a GMO": (1) the gene could indeed be crossed in classically, but in cisgenesis it was isolated and inserted with recombinant DNA techniques, a fundamentally different method that can place the gene anywhere in the genome; (2) crossing transfers the gene together with thousands of other genes (and linkage drag), while the cisgenic plant carries only the single chosen gene — a biological difference from a classical cross.
+Example position — against the claim, so "yes, it stays a GMO": (a) the gene could indeed be crossed in classically, but in cisgenesis it was isolated and inserted with recombinant DNA techniques, a fundamentally different method that can place the gene anywhere in the genome; (b) crossing transfers the gene together with thousands of other genes (and linkage drag), while the cisgenic plant carries only the single chosen gene — a biological difference from a classical cross.
 
 #### Solution
 
@@ -544,7 +544,7 @@ The constructs were built by fusing pieces of DNA of different origin. Name the 
 
 #### Answer
 
-Cut with a restriction enzyme; join with DNA ligase.
+Cut with a restriction enzyme; join with DNA ligase. Bring into the plant cells for example with the bacterium *Agrobacterium tumefaciens* (or another vector such as a plasmid or particle gun).
 
 #### Solution
 

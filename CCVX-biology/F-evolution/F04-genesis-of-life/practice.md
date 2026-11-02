@@ -29,7 +29,7 @@ Calculate (1) for what fraction of the Earth's existence life has (at least) exi
 
 #### Answer
 
-(1) 3.5 / 4.6 ≈ 0.76, so at least about three-quarters (76%) of the Earth's history.
+(a) 3.5 / 4.6 ≈ 0.76, so at least about three-quarters (76%) of the Earth's history.
 
 #### Solution
 

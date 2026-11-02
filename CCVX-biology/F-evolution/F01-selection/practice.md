@@ -265,7 +265,7 @@ Sunlight causes a thymine dimer in the DNA of a skin cell. Describe the three st
 
 #### Answer
 
-(1) Repair enzymes recognize the distortion and cut the damaged part out of one strand. (2) DNA polymerase fills the gap with new nucleotides, using the intact complementary strand as template. (3) DNA ligase seals the sugar–phosphate backbone.
+(a) Repair enzymes recognize the distortion and cut the damaged part out of one strand. (b) DNA polymerase fills the gap with new nucleotides, using the intact complementary strand as template. (c) DNA ligase seals the sugar–phosphate backbone.
 
 #### Solution
 
@@ -327,7 +327,7 @@ During meiosis, two processes ensure that every reproductive cell gets a unique 
 
 #### Answer
 
-(1) Independent assortment of the homologous chromosome pairs, in metaphase I: each pair lines up at random, so whole chromosomes are shuffled. (2) Crossing-over between non-sister chromatids of homologous chromosomes, in prophase I: matching pieces of chromosomes are swapped.
+(a) Independent assortment of the homologous chromosome pairs, in metaphase I: each pair lines up at random, so whole chromosomes are shuffled. (b) Crossing-over between non-sister chromatids of homologous chromosomes, in prophase I: matching pieces of chromosomes are swapped.
 
 #### Solution
 
@@ -446,7 +446,7 @@ To make Bt maize, researchers build a DNA construct with three parts: (1) the Bt
 
 #### Answer
 
-(1) The Bt gene is the desired gene: it gives the maize the insecticidal protein. (2) The promoter is the switch that makes the maize cell actually read the Bt gene — a bacterial gene has no plant promoter of its own. (3) The marker gene reveals which plant cells took up the construct: only those cells survive on herbicide, so the modified cells can be selected.
+(a) The Bt gene is the desired gene: it gives the maize the insecticidal protein. (b) The promoter is the switch that makes the maize cell actually read the Bt gene — a bacterial gene has no plant promoter of its own. (c) The marker gene reveals which plant cells took up the construct: only those cells survive on herbicide, so the modified cells can be selected.
 
 #### Solution
 

@@ -12,7 +12,7 @@ Calculate the length of intron 2, and show with a calculation that this gene con
 
 #### Answer
 
-Exons total 300 + 240 + 120 = 660 base pairs, so the two introns together are 2100 − 660 = 1440 base pairs.
+Exons total 300 + 240 + 120 = 660 base pairs, so the two introns together are 2100 − 660 = 1440 base pairs. Intron 2 = 1440 − 900 = **540 base pairs**. Share of introns: 1440 / 2100 × 100% = 68.6%, well over half, so the gene consists largely of introns.
 
 #### Solution
 
@@ -36,7 +36,7 @@ During splicing the introns are cut out of the pre-mRNA and the three exons are 
 During splicing the introns are cut out of the pre-mRNA and the three exons are joined, so the mature mRNA is 300 + 240 + 120 = **660 nucleotides** long.
 *Marking:* • splicing removes the introns and joins the exons (1) • 660 nucleotides (1)
 
-### bio-c01-q03 | points 2 | outcome C1.1.1 | difficulty medium
+### bio-c01-q03 | points 2 | outcome C1.1.2 | difficulty medium
 
 #### Question
 
@@ -46,7 +46,7 @@ The coding sequence starts with the start codon AUG at the beginning of exon 1, 
 
 #### Answer
 
-660 nucleotides form 660 / 3 = 220 codons.
+660 nucleotides form 660 / 3 = 220 codons. The stop codon codes for no amino acid, so the enzyme contains at most 220 − 1 = **219 amino acids**.
 
 #### Solution
 

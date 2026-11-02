@@ -535,11 +535,11 @@ Students measure their reaction time with the ruler-drop test: one student lets 
 | dominant hand (ms) | 168 | 172 | 151 | 180 | 164 |
 | non-dominant hand (ms) | 185 | 203 | 176 | 190 | 196 |
 
-In athletics, a sprinter who leaves the starting blocks sooner than 0.100 s after the starting shot is punished for a false start. Argue, using the parts of the reaction time named in 8b, why such an early start cannot be a reaction to the sound itself.
+In athletics, a sprinter who leaves the starting blocks sooner than 0.100 s after the starting shot is punished for a false start. Argue, using the parts of the reaction time named in item bio-b07-q26, why such an early start cannot be a reaction to the sound itself.
 
 #### Answer
 
-A real reaction to the shot must include detection by the hair cells, conduction to the brainstem and cortex, processing, conduction along the motor neurons and the start of muscle contraction; each of these steps takes time, so the fastest possible true reaction is about 0.1 s.
+A real reaction to the shot must include detection by the hair cells, conduction to the brainstem and cortex, processing, conduction along the motor neurons and the start of muscle contraction; each of these steps takes time, so the fastest possible true reaction is about 0.1 s. An athlete leaving the blocks in less than 0.100 s must therefore have started before the information of the shot could have been processed — he anticipated (guessed) the moment instead of reacting to the sound, which the rule forbids.
 
 #### Solution
 

@@ -63,7 +63,7 @@ Show with a calculation that binding of one signal molecule can lead to 10⁶ ac
 
 #### Answer
 
-Each step multiplies the number of active molecules by 100.
+Each step multiplies the number of active molecules by 100. Three steps after one bound signal molecule give 100 × 100 × 100 = 100³ = **10⁶** molecules of glycogen phosphorylase.
 
 #### Solution
 
@@ -199,7 +199,7 @@ After the activity, the Na/K pump restores the ion gradients. Per cycle the pump
 
 #### Answer
 
-Number of pump cycles = 3.0 × 10⁷ Na⁺ / 3 per cycle = 1.0 × 10⁷ cycles.
+Number of pump cycles = 3.0 × 10⁷ Na⁺ / 3 per cycle = 1.0 × 10⁷ cycles. K⁺ pumped in: 2 × 1.0 × 10⁷ = **2.0 × 10⁷ ions**. ATP used: 1 per cycle = **1.0 × 10⁷ ATP molecules**.
 
 #### Solution
 

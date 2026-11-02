@@ -46,7 +46,7 @@ A glucose molecule is a single molecule. Give the total number of atoms in one m
 
 #### Answer
 
-Glucose: 6 + 12 + 6 = 24 atoms.
+Glucose: 6 + 12 + 6 = 24 atoms. O₂: 2 atoms.
 
 #### Solution
 
@@ -80,7 +80,7 @@ Give what happens chemically when a peptide bond forms (name of the reaction typ
 
 #### Answer
 
-Formation: condensation, releasing water (H₂O).
+Formation: condensation, releasing water (H₂O). Breakdown by pepsin: hydrolysis, taking up water.
 
 #### Solution
 
@@ -97,7 +97,7 @@ The keratin chain is folded and held in shape by bridges. Name the weak bridges 
 
 #### Answer
 
-Weak bridges: hydrogen bonds (hydrogen bridges).
+Weak bridges: hydrogen bonds (hydrogen bridges). Strong covalent bridges: disulfide bridges (sulfur bridges, S–S).
 
 #### Solution
 
@@ -114,7 +114,7 @@ Calculate the ratio between [H⁺] in gastric juice and [H⁺] in blood plasma. 
 
 #### Answer
 
-Difference in pH: 7.4 − 1.5 = 5.9 units; each unit is a factor 10 in [H⁺], and the lower pH has the higher [H⁺].
+Difference in pH: 7.4 − 1.5 = 5.9 units; each unit is a factor 10 in [H⁺], and the lower pH has the higher [H⁺]. Ratio = 10⁵·⁹ ≈ **8 × 10⁵** (gastric juice has about eight hundred thousand times more H⁺).
 
 #### Solution
 
@@ -318,7 +318,7 @@ Give which substance is the reducing agent and which is the oxidising agent in t
 
 #### Answer
 
-Reducing agent: glucose (C₆H₁₂O₆).
+Reducing agent: glucose (C₆H₁₂O₆). Oxidising agent: oxygen (O₂).
 
 #### Solution
 
@@ -403,7 +403,7 @@ Explain why the mercury concentration is much higher in this predatory fish than
 
 #### Answer
 
-Mercury is not (or barely) broken down or excreted: each organism keeps what it eats, so the concentration rises at every step of the food chain and is highest in the top predator.
+Mercury is not (or barely) broken down or excreted: each organism keeps what it eats, so the concentration rises at every step of the food chain and is highest in the top predator. This is called (bio)accumulation (or biomagnification).
 
 #### Solution
 

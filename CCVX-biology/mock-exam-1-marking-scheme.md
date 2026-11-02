@@ -149,12 +149,12 @@ Sea level: 98 − 75 = 23 percentage points delivered. Camp: 95 − 75 = 20 poin
 
 #### Answer
 
-Stroke volume = cardiac output ÷ heart rate = 22 000 mL ÷ 176 = **125 mL**.
+Stroke volume = cardiac output ÷ heart rate = 27 000 mL ÷ 180 = **150 mL**.
 
 #### Solution
 
-Stroke volume = cardiac output ÷ heart rate = 22 000 mL ÷ 176 = **125 mL**.
-• output ÷ rate (1) • 125 mL (1)
+Stroke volume = cardiac output ÷ heart rate = 27 000 mL ÷ 180 = **150 mL**.
+• output ÷ rate (1) • 150 mL (1)
 
 ### bio-mock1-q15 | points 2 | outcome B5.1.1 | difficulty easy
 
@@ -325,7 +325,7 @@ While doramectin is used, worms with allele d (homozygous dd survive, Dd partly)
 
 #### Answer
 
-freq(d) = q = 0.41, so p = 0.59.
+freq(d) = q = 0.41, so p = 0.59. Heterozygotes: 2pq = 2 × 0.59 × 0.41 = 0.4838 ≈ **48%**.
 
 #### Solution
 
@@ -356,4 +356,4 @@ A worm must then carry resistance to both medicines at once to survive; such dou
 
 ---
 
-*Coverage map: Q1 B1/E1 (protein synthesis, gene technology) · Q2 B2 (osmosis, transport) · Q3 B3/B4 (respiration, homeostasis) · Q4 B5 (defence) · Q5 B8 (cycles) · Q6 D3 (behaviour) · Q7 F1/F2 (mutation, selection, Hardy–Weinberg).*
+*Coverage map: Q1 B1 (protein synthesis, gene technology) · Q2 B2 (osmosis, transport) · Q3 B3/B4 (respiration, homeostasis) · Q4 B5 (defence) · Q5 B8 (cycles) · Q6 D3 (behaviour) · Q7 F1/F2 (mutation, selection, Hardy–Weinberg).*
