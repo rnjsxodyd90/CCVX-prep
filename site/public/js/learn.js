@@ -151,19 +151,27 @@ function renderMock(it) {
 }
 
 function renderWalkthrough(it) {
+  const links = [
+    it.data.paperUrl ? `<a href="${it.data.paperUrl}" target="_blank" rel="noopener">exam (${it.data.year})</a>` : '',
+    it.data.answersUrl ? `<a href="${it.data.answersUrl}" target="_blank" rel="noopener">official answers</a>` : '',
+  ].filter(Boolean).join(' · ');
   $('#main').innerHTML = `
     <header class="lr-itemhead">
       <h1>${esc(it.data.officialTitle)}</h1>
-      <p class="smallnote">Official paper: <a href="${it.data.paperUrl}" target="_blank" rel="noopener">exam (${it.data.year})</a> · <a href="${it.data.answersUrl}" target="_blank" rel="noopener">official answers</a>. The asks are paraphrased; the solutions and mistakes notes are ours.</p>
+      <p class="smallnote">${links ? `Official paper: ${links}. ` : ''}The asks are paraphrased; the solutions, binas hints and mistakes notes are ours.</p>
     </header>
     <div class="content lr-wtintro">${it.data.introHtml}</div>
     ${it.data.questions.map((q) => `
       <article class="lr-q" id="${q.id}">
-        <header><span>Question ${q.index} of the official paper</span><span class="lr-qmeta">${q.points} points · ${esc(q.subdomainId)} · BINAS: ${esc(q.binas)}</span></header>
+        <header>
+          <span>Question ${esc(q.paperRef || q.index)} of the official paper${q.mc ? ' · mc' : ''}</span>
+          <span class="lr-qmeta">${q.title ? esc(q.title) + ' · ' : ''}${q.points} points${q.binas ? ' · BINAS: ' + esc(q.binas) : ''}</span>
+        </header>
         <p class="lr-ask">${q.askHtml}</p>
         <details><summary>The walkthrough<span class="plus"></span></summary>
           <div class="lr-sol">${q.solutionHtml}</div>
-          <p class="lr-mistake"><strong>Where marks leak away:</strong> ${q.mistakesHtml}</p>
+          ${q.answerHtml ? `<p class="lr-ansline">Answer: ${q.answerHtml}</p>` : ''}
+          ${q.mistakesHtml ? `<p class="lr-mistake"><strong>Where marks leak away:</strong> ${q.mistakesHtml}</p>` : ''}
         </details>
       </article>`).join('')}`;
 }

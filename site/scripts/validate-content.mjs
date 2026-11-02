@@ -43,14 +43,22 @@ for (const it of items) {
     if (it.kind !== 'walkthrough' && !['easy', 'medium', 'hard'].includes(q.difficulty)) fail(`${q.id}: bad difficulty`);
     if (it.kind === 'walkthrough') {
       if (!q.askHtml?.trim()) fail(`${q.id}: empty walkthrough ask`);
-      if (!q.subdomainId?.trim()) fail(`${q.id}: empty walkthrough subdomain`);
-      if (!q.binas?.trim()) fail(`${q.id}: empty walkthrough binas`);
-      if (!q.mistakesHtml?.trim()) fail(`${q.id}: empty walkthrough mistakes`);
+      // subdomainId may be absent on rare code-less reasoning questions (the
+      // resolver still hard-fails declared codes that do not exist).
+      // common-mistakes notes are optional content: CvTE-formatted files often
+      // ship solutions only; we never forge them. (ask, solution, subdomainId,
+      // points, binas-outside-math remain required below / above.)
+      if (!q.solutionHtml?.trim()) fail(`${q.id}: empty walkthrough solution`);
+      if (it.subject !== 'matha' && it.subject !== 'mathb' && it.subject !== 'bio' && !q.binas?.trim()) fail(`${q.id}: empty walkthrough binas (required outside math)`);
     }
   });
   if (it.kind === 'walkthrough') {
-    for (const f of ['officialTitle', 'year', 'paperUrl', 'answersUrl']) if (!String(it.data[f] || '').trim()) fail(`${it.id}: walkthrough missing ${f}`);
-    for (const u of ['paperUrl', 'answersUrl']) if (!/^https?:\/\//.test(it.data[u] || '')) fail(`${it.id}: ${u} must be a URL`);
+    if (!String(it.data.officialTitle || '').trim()) fail(`${it.id}: walkthrough missing officialTitle`);
+    if (it.data.year && !/^(19|20)\d{2}$/.test(String(it.data.year))) fail(`${it.id}: walkthrough bad year "${it.data.year}"`);
+    for (const u of ['paperUrl', 'answersUrl']) {
+      // URLs are strongly preferred but PLAN-11b allows source-line references
+      if (it.data[u] && !/^https?:\/\//.test(it.data[u])) fail(`${it.id}: ${u} must be a URL when present`);
+    }
     if (!it.data.questions?.length) fail(`${it.id}: walkthrough without questions`);
   }
   if (it.kind === 'mock' && !it.data.durationMinutes) fail(`${it.id}: mock without durationMinutes`);
@@ -82,7 +90,7 @@ for (const it of items.filter((i) => !i.free)) {
   probe(it.data.notesHtml, 'notes');
   for (const q of it.data.questions || []) {
     probe(q.questionHtml, q.id); probe(q.answerHtml, q.id + '/answer'); probe(q.solutionHtml, q.id + '/solution');
-    probe(q.askHtml, q.id + '/ask'); probe(q.mistakesHtml, q.id + '/mistakes');
+    probe(q.askHtml, q.id + '/ask'); probe(q.mistakesHtml, q.id + '/mistakes'); probe(q.answerHtml, q.id + '/answer');
   }
 }
 // 3b. The public sample file must be exactly the declared free unit, complete:

@@ -47,9 +47,24 @@ landing-1440.png, landing-390.png, subject-chemistry-1440.png, subject-chemistry
 5. **Deploy** to production and repo visibility; pushing to `main` never.
 6. **Math A free-sample subdomain**: coordinator+math-teacher to name it (config `sampleItem` in content-config.mjs); physics sample = physics teacher's first finished subdomain.
 
+## Union-tree proof (2 Nov 2026)
+
+Teachers landed the full course content and the PLAN-11d walkthroughs; the
+tolerant parser accepts all observed formats (bold or plain labels, one-line
+bold combos, `## Question N (official paper)` and `### QN (Np)` under
+`## Opgave` groups with group-level Subdomains/BINAS inherited, `**Solution:**`
+/ `**Solution (ours):**` / `**Solve:**` / `**Method description.**` variants,
+`**Answer:**` and `**Answer (described | one example …).**` emitted into
+answerHtml, `**Subdomain(s):**` codes as `C05 (...)`, math `[B07](...)` links,
+backticked `bio-b03` ids; cross-subject resolution across the pool. Union run
+against `/tmp/ccvx-union` (symlinks into the four teacher worktrees):
+
+    built 185 items, 5 free; catalog subjects: phys(11 sub, 129 q, 2 mock) chem(53 sub, 395 q, 2 mock) bio(41 sub, 774 q, 2 mock) matha(16 sub, 150 q, 2 mock) mathb(14 sub, 131 q, 2 mock)
+    OK: 185 items, 2579 questions, 465 sources read, all checks passed.
+
 ## Notes for other workers
 
 - chem-c02 notes still reference excluded files in prose ("exercises.md", spec files) — pipeline strips the LINKS; the TEACHER's notes upgrade removes the references from source text (PLAN §2).
-- Walkthrough format for teachers: `CCVX-<subject>/past-exams/<slug>.md` with header lines `official/year/paper/answers`, then `## Question N (official paper)` blocks with labelled lines `ask/subdomain/binas/points/mistakes` and a `solution:` markdown block. Question numbering must be 1,2,3… in order; subdomain ids must exist.
+- Walkthrough formats the parser accepts (PLAN-11b observed): `# Walkthrough — …` or bold `**Official paper:**` (+ legacy key lines), year from the first 8 lines, links by anchor text; `## Question N(letter)? (official paper)` AND `### QN (Np) — title` under `## Opgave` groups (group-level `**Subdomains:**`/`**BINAS:**` inherited); labels `asked|subdomain(s)|binas|solution|solve|method description|answer [(…)]|common mistakes|marking|points`, bold or plain; cross-subject codes resolve across the pool (Math A → Math B allowed); code-less reasoning questions are attached to none with a build warning. Question ordering stays enforced (<itemid>-qNN ascending); catalog carries walkthroughs and walkthroughQuestions counts.
 - font: the taste draw re-rolls type/palette per run even inside a pinned direction; `site/.taste-skill/direction.json` is hand-stabilized to the original deal (Albert Sans, black and crimson, seed 836147353). Do not re-run draw.mjs inside site/ without checking the json afterwards.
 - Token Factory spend: not visible from this worker; the coordinator aggregates.

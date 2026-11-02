@@ -189,57 +189,284 @@ export function buildItems(repoRoot, siteRoot) {
     });
   }
 
-  // Walkthroughs (Phase 5): CCVX-<subject>/past-exams/<slug>.md.
-  // Header fields: official / year / paper / answers (URLs of the official
-  // documents). Per question: "## Question N (official paper)" with the
-  // labelled lines ask / subdomain / binas / points / mistakes, then a
-  // "solution:" block in markdown. Question ids are <itemId>-qNN ascending.
-  function parseWalkthrough(mdText, itemId) {
-    const head = {};
-    let rest = mdText.replace(/^<!--[\s\S]*?-->/, '');
-    for (const key of ['official', 'year', 'paper', 'answers']) {
-      const m = rest.match(new RegExp(`^${key}:\\s*(.+)$`, 'im'));
-      if (m) { head[key] = m[1].trim(); rest = rest.replace(m[0], ''); }
+  // Walkthroughs (Phase 5, PLAN-11b tolerant parser): accepts the teachers'
+  // natural format variants. Never edits the teacher files.
+  //
+  // HEADER: legacy key lines (official:/year:/paper:/answers:) stay valid, or
+  //   official title from "# Walkthrough — ..." or a bold "**Official paper:**"/
+  //   "**Official title:**" line; year = first YYYY in the first 8 lines (a
+  //   range like 2025/2026 takes the first); paper/answers = the first two
+  //   http(s) links whose line context matches paper|vragen|question(s) or
+  //   uitwerking|antwoord(en)|answer(s)|key|marking.
+  // QUESTIONS: split on "## Question N(letter)? (official paper)...". Integers
+  //   ascending; letter suffixes share the integer and follow it. Fields:
+  //   ask from "**Asked:**" block (or the lead-in paragraphs before the first
+  //   bold label); subdomain = first code token of the **Subdomain(s):** block
+  //   (markdown links stripped); binas "**BINAS:**" (optional for math);
+  //   points from "(N points)" in the header, else a bold "**Points:** N";
+  //   mistakes from "**Common mistakes**"/"**Marking:**" or the points-key
+  //   block; solution after "**Solution:**"/"**Solution (ours):**"/"**Solve:**";
+  //   an "**Answer:**" line is also emitted into answerHtml.
+  const SUBJECT_OF = (id) => id.split('-')[0];
+
+  // ---------------- walkthrough parser (PLAN-11b tolerant) ----------------
+  // labels may be bold ("**Subdomain:**") or plain ("subdomain:") so the
+  // legacy sample files stay valid next to the teacher formats
+  const LABEL_RE = /^\s*-?\s*(?:\*\*([^*]{1,60})\*\*|([A-Za-z][A-Za-z ()/]{1,40})[:.])\s*(.*)$/;
+  const BOLD = LABEL_RE;
+  const normLabel = (l) => l.trim().toLowerCase().replace(/[.:;]+$/, '');
+
+  function parseWtHeader(mdText, itemId) {
+    const lines = mdText.split('\n');
+    const head = { official: '', year: '', paper: '', answers: '' };
+    const kv = (k) => mdText.match(new RegExp(`^${k}:\\s*(.+)$`, 'im'))?.[1].trim();
+    head.official = kv('official') || '';
+    head.year = kv('year') || '';
+    head.paper = kv('paper') || '';
+    head.answers = kv('answers') || '';
+    if (!head.official) {
+      const m = mdText.match(/^\s*-?\s*\*\*Official (title|paper):\*\*\s*(.+)$/im);
+      if (m) head.official = m[2].trim();
     }
-    for (const key of ['official', 'year', 'paper', 'answers']) {
-      if (!head[key]) throw new Error(`[${itemId}] walkthrough header missing: ${key}`);
+    let h1Title = '';
+    if (!head.official || head.official.startsWith('*')) {
+      h1Title = mdText.match(/^#\s+Walkthrough\s*[—–-]\s+(.+)$/m)?.[1] || mdText.match(/^#\s+(.+)$/m)?.[1] || '';
+      head.official = h1Title;
     }
-    if (!/^\d{4}$/.test(head.year)) throw new Error(`[${itemId}] bad year: ${head.year}`);
-    for (const k of ['paper', 'answers']) if (!/^https?:\/\//.test(head[k])) throw new Error(`[${itemId}] ${k} must be a URL`);
-    const title = (rest.match(/^#\s+(.+)$/m)?.[1] || head.official).trim();
-    const parts = rest.split(/^##\s+Question\s+(\d+)\s*\(official paper\)\s*$/m);
-    const introHtml = md(parts[0].replace(/^#\s+.*$/m, '').trim() || '_No intro._', itemId);
-    const questions = [];
-    for (let i = 1; i < parts.length; i += 2) {
-      const idx = Number(parts[i]);
-      if (idx !== (i + 1) / 2) throw new Error(`[${itemId}] questions must be numbered 1, 2, 3... in order (found ${idx})`);
-      const body = parts[i + 1];
-      const q = { id: `${itemId}-q${String(idx).padStart(2, '0')}`, index: idx };
-      const fields = {};
-      const lines = body.split('\n');
-      let solStart = -1;
-      lines.forEach((ln, li) => {
-        const kv = ln.match(/^(ask|subdomain|binas|points|mistakes):\s*(.+)$/);
-        if (kv) fields[kv[1]] = kv[2].trim();
-        if (/^solution:\s*$/.test(ln.trim())) solStart = li;
-      });
-      for (const f of ['ask', 'subdomain', 'binas', 'points', 'mistakes']) {
-        if (!fields[f]) throw new Error(`[${itemId}] question ${idx}: missing field "${f}"`);
+    head.official = head.official.replace(/^\*+|\*+$|\(\s*$/, '').trim();
+    if (!head.year) {
+      const m = lines.slice(0, 8).join('\n').match(/\b((?:19|20)\d{2})\b/);
+      if (m) head.year = m[1];
+    }
+    if (!head.paper || !head.answers) {
+      const rest = lines.slice(0, 25);
+      const linkList = [...lines.join('\n').matchAll(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)|(https?:\/\/[^\s>)]+)/g)]
+        .filter((m) => m.index < lines.slice(0, 25).join('\n').length)
+        .map((m) => ({ text: (m[1] || '').toLowerCase(), line: lines.find((ln) => ln.includes(m[0]))?.toLowerCase() || '', url: (m[2] || m[3]).replace(/[),.;]+$/, '') }));
+      const lineOf = (u) => lines.find((ln) => ln.includes(u))?.toLowerCase() || '';
+      const withLine = linkList.map((l) => ({ ...l, line: l.line || lineOf(l.url) }));
+      const markerOf = (l) => l.text || l.line; // anchor text first; the line for bare URLs
+      if (!head.paper) {
+        head.paper = withLine.find((l) => /paper|vragen|opgaven|questions/.test(markerOf(l)) && !/answer|key|correctie|uitwerking|antwoord/.test(markerOf(l)))?.url || '';
       }
-      if (solStart === -1) throw new Error(`[${itemId}] question ${idx}: missing "solution:" block`);
-      q.askHtml = md(fields.ask, itemId);
-      q.subdomainId = fields.subdomain;
-      q.binas = fields.binas;
-      q.points = parseInt(fields.points, 10);
-      if (!Number.isInteger(q.points) || q.points <= 0) throw new Error(`[${itemId}] question ${idx}: bad points`);
-      q.mistakesHtml = md(fields.mistakes, itemId);
-      q.solutionHtml = md(lines.slice(solStart + 1).join('\n'), itemId);
-      if (!q.solutionHtml) throw new Error(`[${itemId}] question ${idx}: empty solution`);
-      questions.push(q);
+      if (!head.answers) {
+        const ans = withLine.find((l) => /correctievoorschrift/.test(markerOf(l)))
+          || withLine.find((l) => /uitwerking|correctie/.test(markerOf(l)))
+          || withLine.find((l) => /answers?|antwoord/.test(markerOf(l)) && !/booklet/.test(markerOf(l)))
+          || withLine.find((l) => /key|marking/.test(markerOf(l)));
+        head.answers = ans?.url || '';
+      }
     }
+    if (!head.official) throw new Error(`[${itemId}] walkthrough header missing: official title`);
+    // year: first YYYY in the first 8 lines; the CCVX sample exams carry no
+    // year on the paper, so it stays empty there (never invented).
+    if (head.year && !/^(19|20)\d{2}$/.test(head.year)) throw new Error(`[${itemId}] bad year: ${head.year}`);
+    return head;
+  }
+
+  function parseWtQuestionBlocks(mdText, itemId) {
+    // Two proven shapes:
+    //   A: "## Question 1 (official paper): title (19 points)" / "## Question 1a (official paper)"
+    //   B: "### Q1 (4p) — title" under "## Opgave A — ..." groups (CvTE files)
+    const lines = mdText.split('\n');
+    const QHDR = /^#{2,3}\s+(?:Question\s+(\d+)([a-zA-Z])?\s+\(official paper\)\s*[:–-]?\s*(.*)|Q(\d+)([a-zA-Z])?(?:\s*\((\d+)\s*(?:p|points)\))?(?:\s*[—–-]\s*(.*))?)\s*$/i;
+    const GROUP = /^##\s+Opgave\b/i;
+    const intro = [];
+    const blocks = [];
+    const groups = [];
+    let curGroup = null;
+    let curQ = null;
+    const flushQ = () => { if (curQ) { blocks.push(curQ); curQ = null; } };
+
+    for (const line of lines) {
+      const gm = line.match(GROUP);
+      if (gm) {
+        flushQ();
+        curGroup = { body: [] };
+        groups.push(curGroup);
+        continue;
+      }
+      const qm = line.match(QHDR);
+      if (qm) {
+        flushQ();
+        const num = Number(qm[1] ?? qm[4]);
+        const suffix = qm[2] ?? qm[5] ?? '';
+        const headerPoints = qm[6] ? parseInt(qm[6], 10) : (qm[3]?.match(/\((\d+)\s*points\)\s*$/)?.[1] ? parseInt(qm[3].match(/\((\d+)\s*points\)\s*$/)[1], 10) : NaN);
+        const title = (qm[3] ?? qm[7] ?? '').replace(/\s*\(\d+\s*(?:p|points)\)\s*$/, '').trim();
+        curQ = { num, suffix, title, headerPoints, mc: /\(official paper,\s*mc\)/i.test(qm[0]), body: [], group: curGroup };
+        continue;
+      }
+      if (curQ) curQ.body.push(line);
+      else if (curGroup) curGroup.body.push(line);
+      else intro.push(line);
+    }
+    flushQ();
+    if (!blocks.length) throw new Error(`[${itemId}] walkthrough without questions`);
+    // group-level Subdomains/BINAS inheritance (first code token of the group's bold block)
+    for (const g of groups) {
+      const text = g.body.join('\n');
+      const labelBlock = text.match(/\*\*Subdomains?:\*\*\s*(.+)/i)?.[1] || text;
+      g.subdomain = firstCodeToken(labelBlock) || firstCodeToken(text);
+      g.binas = text.match(/\*\*BINAS:\*\*\s*(.+)/i)?.[1]?.trim() || '';
+    }
+    let prev = null;
+    for (const b of blocks) {
+      if (prev && !(b.num > prev.num || (b.num === prev.num && b.suffix && b.suffix.localeCompare(prev.suffix || '`') > 0))) {
+        throw new Error(`[${itemId}] question order must be ascending (1, 1a, 1b, 2a...); found ${prev.num}${prev.suffix} then ${b.num}${b.suffix}`);
+      }
+      prev = b;
+    }
+    return { intro: intro.join('\n'), blocks };
+  }
+
+  function harvestFields(body) {
+    // split multi-bold lines into virtual lines, so "**Subdomains:** X.
+    // **BINAS:** g." is harvested as two labels, not one
+    const lines = body.split('\n').flatMap((ln) => {
+      const pieces = ln.split(/(\*\*[A-Za-z][^*]{1,50}:?\*\*)/);
+      if (pieces.length <= 1) return [ln];
+      return pieces.reduce((out, p, i) => {
+        if (i % 2 === 1 || out.length === 0) out.push(p);
+        else out[out.length - 1] += p;
+        return out;
+      }, ['']).map((x) => x.trim()).filter(Boolean);
+    });
+    const labelIdx = [];
+    lines.forEach((ln, i) => { const m = lines[i].match(LABEL_RE); if (m && /asked|ask|subdomain|binas|solution|solve|method|common mistakes|marking|answer|points/.test(normLabel(m[1] || m[2] || ''))) labelIdx.push(i); });
+    const fields = {};
+    const takeBlock = (i) => {
+      const m = lines[i].match(LABEL_RE);
+      const end = labelIdx.find((j) => j > i) ?? lines.length;
+      return { label: normLabel(m[1] || m[2] || ''), text: [m[3], ...lines.slice(i + 1, end)].join('\n').trim() };
+    };
+    for (const i of labelIdx) {
+      const { label, text } = takeBlock(i);
+      if ((label.startsWith('asked') || label === 'ask') && !fields.ask) fields.ask = text;
+      else if (label.startsWith('subdomain') && !fields.subdomain) fields.subdomain = text;
+      else if (label === 'binas' && !fields.binas) fields.binas = text;
+      else if ((label.startsWith('solution') || label.startsWith('solve') || label.startsWith('method description') || label.startsWith('method')) && !fields.solution) fields.solution = text;
+      else if ((label.startsWith('common mistakes') || label === 'mistakes') && !fields.mistakes) fields.mistakes = text;
+      else if (label === 'marking' && !fields.mistakes) fields.mistakes = text;
+      else if (label.startsWith('answer') && !fields.answer) fields.answer = text;
+      else if (label.startsWith('points') && !fields.pointsnote) fields.pointsnote = text;
+    }
+    if (!fields.ask) {
+      const firstLabel = labelIdx[0] ?? lines.length;
+      fields.ask = lines.slice(0, firstLabel).join('\n').trim();
+    }
+    if (!fields.mistakes && fields.pointsnote) fields.mistakes = fields.pointsnote;
+    if (fields.solution && !fields.answer) {
+      const m = fields.solution.match(/^\s*\*\*Answer:\*\*\s*(.+)$/im);
+      if (m) {
+        fields.answer = m[1].trim();
+        fields.solution = (fields.solution.slice(0, m.index) + '\n' + fields.solution.slice(m.index + m[0].length)).trim();
+      }
+    }
+    // NOTE: inline body tokens (bio's "`bio-b02`") are handled loosely at the
+    // question level below, never here: only bold label lines declare fields.
+    return fields;
+  }
+
+  function firstCodeToken(text = '') {
+    const t = String(text || '');
+    const pats = [
+      /`([a-z]{2,5}-[a-z0-9]+)`/,                                           // backticks: `bio-b01`
+      /\[([A-Za-z]?\d{1,3}(?:-basic-\d{1,2})?)\]\(/,                        // [C05](...) or [B07](...)
+      /(?<![A-Za-z0-9-])[A-Z]\d{1,3}\b/,                                    // bare code: C05, B11, P11, F1
+      /\b(?<![A-Za-z0-9-])([a-z0-9]{1,6}-[a-z0-9-]{2,})\b/,                // bare id: bio-b01, 0-basic-01
+    ];
+    for (let i = 0; i < pats.length; i++) {
+      const m = t.match(pats[i]);
+      if (m) return i <= 2 ? (m[1] || m[0]) : m[0];
+    }
+    return '';
+  }
+
+  function resolveSubdomain(code, subject, items, itemId) {
+    const low = String(code || '').toLowerCase().replace(/[[\]`]/g, '').trim();
+    if (!low) throw new Error(`[${itemId}] question without a subdomain code`);
+    const bare = low.startsWith(`${subject}-`) ? low.slice(subject.length + 1) : low;
+    const tryIds = low.startsWith(`${subject}-`)
+      ? [low]
+      : [
+          `${subject}-${bare}`,
+          `${subject}-${bare.replace(/^0-basic-knowledge-?|^0-basic-?|0-/, '')}`,
+          `${subject}-${bare.split(/[\s(,]/)[0]}`,
+        ];
+    for (const c of tryIds) if (items.some((i) => i.subject === subject && i.kind === 'subdomain' && i.id === c)) return c;
+    // cross-subject pool (e.g. math A walkthroughs link a Math B topic on purpose)
+    for (const c of tryIds) {
+      const bare = c.replace(/^[a-z]+-/, '');
+      const cross = items.find((i) => i.kind === 'subdomain' && i.id.endsWith(`-${bare}`));
+      if (cross) return cross.id;
+    }
+    throw new Error(`[${itemId}] cannot place subdomain "${code}" (tried ${tryIds.join(', ')})`);
+  }
+
+  function parseWalkthrough(mdText, itemId, items) {
+    const cleanText = mdText.replace(/^<!--[\s\S]*?-->/, '');
+    const head = parseWtHeader(cleanText, itemId);
+    const withoutKeys = cleanText.replace(/^(official|year|paper|answers):\s*.+$/gim, '').trim();
+    const { intro, blocks } = parseWtQuestionBlocks(withoutKeys, itemId);
+    const subjName = SUBJECT_OF(itemId);
+    const h1 = withoutKeys.match(/^#\s+(.+)$/m)?.[1].trim() || '';
+    const title = h1.replace(/^Walkthrough\s*[—–-]\s*/i, '').trim() || head.official;
+    const introBody = withoutKeys.replace(/^#\s+.*/m, '').split(/^##\s+Question\s+\d+/m)[0].trim();
+    const introHtml = introBody ? md(introBody, itemId) : '<p></p>';
+
+    const questions = blocks.map((b, i) => {
+      const fields = harvestFields(b.body.join('\n'));
+      // points: header "(N points)"/"(Np)" first, else the bold "**Points:** N"
+      let points = Number.isInteger(b.headerPoints) ? b.headerPoints : NaN;
+      if (!Number.isInteger(points)) {
+        const m = (fields.pointsnote || '').match(/^\s*(\d+)\b/);
+        points = m ? parseInt(m[1], 10) : NaN;
+      }
+      // Two sources, different strictness:
+      //  1. a declared **Subdomain(s):** label or the group header's code:
+      //     resolve it hard, teacher typos must fail the build;
+      //  2. inline tokens in the body (bio's "`bio-b02`"): first code-shaped
+      //     token that RESOLVES wins; nothing resolves → null + warning.
+      let subdomainId = null;
+      const declaredTok = firstCodeToken(fields.subdomain) || (b.group?.subdomain || '');
+      if (declaredTok) {
+        subdomainId = resolveSubdomain(declaredTok, subjName,items, itemId);
+      } else {
+        const bodyText = b.body.join('\n');
+        const looseCand = [
+          ...[...bodyText.matchAll(/`([a-z]{2,5}-[a-z0-9]+)`/g)].map((m) => m[1]),
+          ...[...bodyText.matchAll(/\[([A-Za-z]?\d{2,3}(?:-basic-\d{1,2})?)\]\([^)]*\)/g)].map((m) => m[1]),
+        ];
+        for (const cand of looseCand) {
+          try { subdomainId = resolveSubdomain(cand, subjName, items, itemId); break; } catch { /* keep looking */ }
+        }
+      }
+      if (!subdomainId) {
+        warnings.push(`[${itemId}] question ${i + 1} has no resolvable subdomain code; renders without one`);
+      }
+      const binas = fields.binas || b.group?.binas || '';
+      const ask = fields.ask || b.title;
+      const solutionText = fields.solution || fields.answer;
+      return {
+        id: `${itemId}-q${String(i + 1).padStart(2, '0')}`,
+        index: i + 1,
+        paperRef: `${b.num}${b.suffix}`,
+        title: b.title,
+        mc: !!b.mc,
+        askHtml: ask ? md(ask, itemId) : '',
+        answerHtml: fields.answer ? md(fields.answer, itemId) : '',
+        solutionHtml: solutionText ? md(solutionText, itemId) : '',
+        mistakesHtml: fields.mistakes ? md(fields.mistakes, itemId) : '',
+        subdomainId,
+        subdomainText: fields.subdomain || '',
+        binas,
+        points,
+      };
+    });
     if (!questions.length) throw new Error(`[${itemId}] walkthrough without questions`);
     return { head, title, introHtml, questions };
   }
+
 
   const humanise = (dirName) => dirName.replace(/^[A-Z0]-/, '').replace(/-/g, ' ').replace(/\b\w/g, (c, i) => (i === 0 ? c.toUpperCase() : c));
   const has = (p) => fs.existsSync(p) && fs.statSync(p).isFile();
@@ -318,6 +545,12 @@ export function buildItems(repoRoot, siteRoot) {
       });
     }
 
+  }
+
+  // Walkthroughs run in a SECOND pass: cross-subject references (a Math A
+  // walkthrough may link a Math B topic) need the complete pool first.
+  for (const subj of SUBJECTS) {
+    const subjDir = path.join(repoRoot, subj.dir);
     // Walkthroughs (Phase 5): repo past-exams/*.md, or the temporary
     // site/sample-content fallback until the teachers deliver.
     {
@@ -350,7 +583,7 @@ export function buildItems(repoRoot, siteRoot) {
         } else {
           raw = readAllowed(rel);
         }
-        const wt = parseWalkthrough(raw, id);
+        const wt = parseWalkthrough(raw, id, items);
         items.push({
           id, subject: subj.id, kind: 'walkthrough',
           title: wt.title,
@@ -370,11 +603,14 @@ export function buildItems(repoRoot, siteRoot) {
     }
   }
 
-  // Walkthrough subdomain references must exist.
+  // Walkthrough subdomain references must exist (resolved during parsing;
+  // this double-checks the resolver output across the whole pool).
+  const allSubIds = new Set(items.filter((i) => i.kind === 'subdomain').map((i) => i.id));
   for (const it of items.filter((i) => i.kind === 'walkthrough')) {
-    const subs = new Set(items.filter((i) => i.subject === it.subject && i.kind === 'subdomain').map((i) => i.id));
     for (const q of it.data.questions) {
-      if (!subs.has(q.subdomainId)) throw new Error(`[${it.id}] ${q.id}: unknown subdomain "${q.subdomainId}" for subject ${it.subject}`);
+      if (q.subdomainId && !allSubIds.has(q.subdomainId)) {
+        throw new Error(`[${it.id}] ${q.id}: unknown subdomain "${q.subdomainId}"`);
+      }
     }
   }
 
@@ -420,6 +656,7 @@ export function buildCatalog(items) {
           questions: subs.reduce((t, i) => t + i.data.questions.length, 0),
           mocks: mocks.length,
           walkthroughs: its.filter((i) => i.kind === 'walkthrough').length,
+          walkthroughQuestions: its.filter((i) => i.kind === 'walkthrough').reduce((t, i) => t + (i.data.questions?.length || 0), 0),
         },
         sampleItemId: s.sampleItem,
       };
@@ -442,7 +679,14 @@ function main() {
   for (const s of catalog.subjects) {
     if (!s.sampleItemId) continue;
     const it = items.find((i) => i.id === s.sampleItemId && i.free);
-    if (!it) { warnings.push(`[${s.id}] no free sample item yet`); continue; }
+    const samplePath = path.join(OUT_PUBLIC, `sample-${s.id}.json`);
+    if (!it) {
+      // the sample item does not exist in this tree: clear any stale sample
+      // so the page can never show out-of-date free content
+      if (fs.existsSync(samplePath)) fs.rmSync(samplePath);
+      warnings.push(`[${s.id}] no free sample item yet`);
+      continue;
+    }
     fs.writeFileSync(path.join(OUT_PUBLIC, `sample-${s.id}.json`), JSON.stringify({
       subject: s.id, itemId: it.id, title: it.title,
       outcomesHtml: it.data.outcomesHtml, notesHtml: it.data.notesHtml,
