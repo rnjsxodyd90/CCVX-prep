@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout | CCVX Ultimate Prep</title>
+<meta name="description" content="Buy your CCVX subjects: EUR 79 per subject (launch price), bundles any 2 for EUR 139, any 3 for EUR 189, all 5 for EUR 279. One-off, VAT included, 12 months access.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/account.css">
+<link rel="stylesheet" href="css/checkout.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 28V8l5-4h14l5 4v20z' fill='%23b11226'/></svg>">
+</head>
+<body>
+<header class="topbar">
+  <a class="toplink toplink--left" href="/">← All subjects</a>
+  <a class="wordmark" href="/">CCVX Ultimate Prep</a>
+  <a class="toplink" href="account.html">Sign in</a>
+</header>
+<main class="co-main">
+  <h1>Your subjects, one payment</h1>
+  <p class="co-intro">Pick any combination. One subject is EUR 79; bundles are cheaper per subject. One-off payment, VAT included, access for 12 months. This is a launch price.</p>
+
+  <div id="picker" class="pick-grid" role="group" aria-label="Choose your subjects"></div>
+
+  <div class="co-summary tab">
+    <p id="note" class="co-note"></p>
+    <p id="total" class="co-total" aria-live="polite"></p>
+  </div>
+
+  <div id="authbox" class="co-auth"></div>
+
+  <label class="waiver">
+    <input type="checkbox" id="waiver">
+    <span>I understand that access starts immediately after payment, and I <strong>waive my 14-day withdrawal right</strong>, as the law allows for digital content that starts right away. See the <a href="refund.html">refund policy</a>.</span>
+  </label>
+
+  <p id="err" class="co-err" role="alert"></p>
+  <button id="payBtn" class="btn co-pay" type="button">Pay with Stripe</button>
+  <p class="smallnote co-testnote">Local test run: Stripe test mode. Use card 4242 4242 4242 4242, any future date, any CVC.</p>
+</main>
+<footer class="site-footer">
+  <div class="blockmark" aria-hidden="true" data-mv></div>
+  <div class="cols">
+    <nav aria-label="Subjects">
+      <h3>Subjects</h3>
+      <a href="physics.html">Physics</a>
+      <a href="chemistry.html">Chemistry</a>
+      <a href="biology.html">Biology</a>
+      <a href="math-a.html">Mathematics A</a>
+      <a href="math-b.html">Mathematics B</a>
+    </nav>
+    <nav aria-label="Prepare">
+      <h3>Prepare</h3>
+      <a href="chemistry.html#sample">Free sample</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#exam-dates">Exam dates</a>
+      <a href="chemistry-exams.html">Past exams</a>
+    </nav>
+    <nav aria-label="Legal">
+      <h3>Legal</h3>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refund policy</a>
+    </nav>
+    <div class="seller">
+      <p>Sura Steel · KvK 98957015<br>
+      Jan Krosstraat 172<br>
+      2571 DD ’s-Gravenhage</p>
+    </div>
+  </div>
+  <p class="legal-line"><span>Independent study material. Not affiliated with or endorsed by the CCVX or any university.</span><span>© 2026 Sura Steel · ccvxultimateprep.com</span></p>
+</footer>
+<script src="js/chrome.js" type="module"></script>
+<script src="js/checkout.js" type="module"></script>
+</body>
+</html>
