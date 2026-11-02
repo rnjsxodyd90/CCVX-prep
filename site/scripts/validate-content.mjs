@@ -34,17 +34,30 @@ for (const it of items) {
     qids.add(q.id);
     const expected = `${it.id}-q${String(i + 1).padStart(2, '0')}`;
     if (q.id !== expected) fail(`${it.id}: question ${i + 1} has id "${q.id}", expected exactly "${expected}"`);
-    if (!q.questionHtml?.trim()) fail(`${q.id}: empty question`);
-    if (!q.answerHtml?.trim()) fail(`${q.id}: empty answer`);
-    if (!q.solutionHtml?.trim()) fail(`${q.id}: empty solution`);
+    if (it.kind !== 'walkthrough') {
+      if (!q.questionHtml?.trim()) fail(`${q.id}: empty question`);
+      if (!q.answerHtml?.trim()) fail(`${q.id}: empty answer`);
+      if (!q.solutionHtml?.trim()) fail(`${q.id}: empty solution`);
+    }
     if (!Number.isInteger(q.points) || q.points <= 0) fail(`${q.id}: bad points`);
-    if (!['easy', 'medium', 'hard'].includes(q.difficulty)) fail(`${q.id}: bad difficulty`);
+    if (it.kind !== 'walkthrough' && !['easy', 'medium', 'hard'].includes(q.difficulty)) fail(`${q.id}: bad difficulty`);
+    if (it.kind === 'walkthrough') {
+      if (!q.askHtml?.trim()) fail(`${q.id}: empty walkthrough ask`);
+      if (!q.subdomainId?.trim()) fail(`${q.id}: empty walkthrough subdomain`);
+      if (!q.binas?.trim()) fail(`${q.id}: empty walkthrough binas`);
+      if (!q.mistakesHtml?.trim()) fail(`${q.id}: empty walkthrough mistakes`);
+    }
   });
+  if (it.kind === 'walkthrough') {
+    for (const f of ['officialTitle', 'year', 'paperUrl', 'answersUrl']) if (!String(it.data[f] || '').trim()) fail(`${it.id}: walkthrough missing ${f}`);
+    for (const u of ['paperUrl', 'answersUrl']) if (!/^https?:\/\//.test(it.data[u] || '')) fail(`${it.id}: ${u} must be a URL`);
+    if (!it.data.questions?.length) fail(`${it.id}: walkthrough without questions`);
+  }
   if (it.kind === 'mock' && !it.data.durationMinutes) fail(`${it.id}: mock without durationMinutes`);
 }
 
 // 2. Allow list proof over the recorded sources
-const ALLOWED = /(^|\/)README\.md$|(^|\/)notes\.md$|(^|\/)practice\.md$|(^|\/)mock-exam-\d+(-marking-scheme)?\.md$/;
+const ALLOWED = /(^|\/)README\.md$|(^|\/)notes\.md$|(^|\/)practice\.md$|(^|\/)mock-exam-\d+(-marking-scheme)?\.md$|(^|\/)past-exams\/[a-z0-9-]+\.md$/i;
 for (const s of sources) {
   const inRepo = !s.startsWith('sample-content/');
   if (!ALLOWED.test(s)) fail(`source not on allow list: ${s}`);
@@ -64,7 +77,10 @@ for (const it of items.filter((i) => !i.free)) {
     if (s.length >= 40 && publicText.includes(s)) fail(`${it.id} ${label} leaks into public/: "${s.slice(0, 60)}..."`);
   };
   probe(it.data.notesHtml, 'notes');
-  for (const q of it.data.questions || []) { probe(q.questionHtml, q.id); probe(q.answerHtml, q.id + '/answer'); probe(q.solutionHtml, q.id + '/solution'); }
+  for (const q of it.data.questions || []) {
+    probe(q.questionHtml, q.id); probe(q.answerHtml, q.id + '/answer'); probe(q.solutionHtml, q.id + '/solution');
+    probe(q.askHtml, q.id + '/ask'); probe(q.mistakesHtml, q.id + '/mistakes');
+  }
 }
 // 3b. The public sample file must be exactly the declared free unit, complete:
 // full notes and ALL of its questions, no other subjects' content.

@@ -27,6 +27,7 @@ import { ACCESS_MONTHS, BUNDLES, activePrices, launchBadge, lookupKeyFor } from 
 const ACTIVE = activePrices(); // launch until the owner flips regular prices on
 
 const ALLOWED_BASENAME = /^README\.md$|^notes\.md$|^practice\.md$|^mock-exam-\d+(-marking-scheme)?\.md$/;
+const ALLOWED_PAST_EXAMS = /(^|\/)past-exams\/[a-z0-9-]+\.md$/i;
 const EXCLUDED_SEGMENT = new Set(['source', 'img', 'syllabus']);
 const EXCLUDED_NAME = /^ccvx1-|^cvte24-/i;
 
@@ -46,7 +47,7 @@ export function buildItems(repoRoot, siteRoot) {
     const norm = rel.split(path.sep).join('/');
     const parts = norm.split('/');
     const base = parts.at(-1);
-    if (!ALLOWED_BASENAME.test(base)) throw new Error(`allow-list violation: ${norm}`);
+    if (!ALLOWED_BASENAME.test(base) && !ALLOWED_PAST_EXAMS.test(norm)) throw new Error(`allow-list violation: ${norm}`);
     if (parts.some((p) => EXCLUDED_SEGMENT.has(p))) throw new Error(`excluded folder: ${norm}`);
     if (EXCLUDED_NAME.test(base)) throw new Error(`excluded name: ${norm}`);
     sourcesRead.push(norm);
@@ -137,6 +138,58 @@ export function buildItems(repoRoot, siteRoot) {
     });
   }
 
+  // Walkthroughs (Phase 5): CCVX-<subject>/past-exams/<slug>.md.
+  // Header fields: official / year / paper / answers (URLs of the official
+  // documents). Per question: "## Question N (official paper)" with the
+  // labelled lines ask / subdomain / binas / points / mistakes, then a
+  // "solution:" block in markdown. Question ids are <itemId>-qNN ascending.
+  function parseWalkthrough(mdText, itemId) {
+    const head = {};
+    let rest = mdText.replace(/^<!--[\s\S]*?-->/, '');
+    for (const key of ['official', 'year', 'paper', 'answers']) {
+      const m = rest.match(new RegExp(`^${key}:\\s*(.+)$`, 'im'));
+      if (m) { head[key] = m[1].trim(); rest = rest.replace(m[0], ''); }
+    }
+    for (const key of ['official', 'year', 'paper', 'answers']) {
+      if (!head[key]) throw new Error(`[${itemId}] walkthrough header missing: ${key}`);
+    }
+    if (!/^\d{4}$/.test(head.year)) throw new Error(`[${itemId}] bad year: ${head.year}`);
+    for (const k of ['paper', 'answers']) if (!/^https?:\/\//.test(head[k])) throw new Error(`[${itemId}] ${k} must be a URL`);
+    const title = (rest.match(/^#\s+(.+)$/m)?.[1] || head.official).trim();
+    const parts = rest.split(/^##\s+Question\s+(\d+)\s*\(official paper\)\s*$/m);
+    const introHtml = md(parts[0].replace(/^#\s+.*$/m, '').trim() || '_No intro._', itemId);
+    const questions = [];
+    for (let i = 1; i < parts.length; i += 2) {
+      const idx = Number(parts[i]);
+      if (idx !== (i + 1) / 2) throw new Error(`[${itemId}] questions must be numbered 1, 2, 3... in order (found ${idx})`);
+      const body = parts[i + 1];
+      const q = { id: `${itemId}-q${String(idx).padStart(2, '0')}`, index: idx };
+      const fields = {};
+      const lines = body.split('\n');
+      let solStart = -1;
+      lines.forEach((ln, li) => {
+        const kv = ln.match(/^(ask|subdomain|binas|points|mistakes):\s*(.+)$/);
+        if (kv) fields[kv[1]] = kv[2].trim();
+        if (/^solution:\s*$/.test(ln.trim())) solStart = li;
+      });
+      for (const f of ['ask', 'subdomain', 'binas', 'points', 'mistakes']) {
+        if (!fields[f]) throw new Error(`[${itemId}] question ${idx}: missing field "${f}"`);
+      }
+      if (solStart === -1) throw new Error(`[${itemId}] question ${idx}: missing "solution:" block`);
+      q.askHtml = md(fields.ask, itemId);
+      q.subdomainId = fields.subdomain;
+      q.binas = fields.binas;
+      q.points = parseInt(fields.points, 10);
+      if (!Number.isInteger(q.points) || q.points <= 0) throw new Error(`[${itemId}] question ${idx}: bad points`);
+      q.mistakesHtml = md(fields.mistakes, itemId);
+      q.solutionHtml = md(lines.slice(solStart + 1).join('\n'), itemId);
+      if (!q.solutionHtml) throw new Error(`[${itemId}] question ${idx}: empty solution`);
+      questions.push(q);
+    }
+    if (!questions.length) throw new Error(`[${itemId}] walkthrough without questions`);
+    return { head, title, introHtml, questions };
+  }
+
   const humanise = (dirName) => dirName.replace(/^[A-Z0]-/, '').replace(/-/g, ' ').replace(/\b\w/g, (c, i) => (i === 0 ? c.toUpperCase() : c));
   const has = (p) => fs.existsSync(p) && fs.statSync(p).isFile();
   const dirsIn = (p) => fs.readdirSync(p).filter((d) => {
@@ -213,6 +266,65 @@ export function buildItems(repoRoot, siteRoot) {
         },
       });
     }
+
+    // Walkthroughs (Phase 5): repo past-exams/*.md, or the temporary
+    // site/sample-content fallback until the teachers deliver.
+    {
+      const peDir = path.join(subjDir, 'past-exams');
+      let peFiles = [];
+      let peBaseRel = path.join(subj.dir, 'past-exams');
+      let tempPe = false;
+      if (fs.existsSync(peDir)) {
+        peFiles = fs.readdirSync(peDir).filter((f) => /^[a-z0-9-]+\.md$/i.test(f) && !EXCLUDED_NAME.test(f)).sort();
+      }
+      if (!peFiles.length) {
+        const tempDir = path.join(siteRoot, 'sample-content/past-exams');
+        const mine = fs.existsSync(tempDir) ? fs.readdirSync(tempDir).filter((f) => f.startsWith(`${subj.id}-`) && f.endsWith('.md')).sort() : [];
+        if (mine.length) {
+          peFiles = mine;
+          peBaseRel = 'sample-content/past-exams';
+          tempPe = true;
+        }
+      }
+      let wi = 0;
+      for (const f of peFiles) {
+        const rel = path.join(peBaseRel, f);
+        const slug = f.replace(/\.md$/i, '');
+        const id = slug.startsWith(`${subj.id}-`) ? slug : `${subj.id}-${slug}`;
+        let raw;
+        if (tempPe) {
+          sourcesRead.push(rel);
+          raw = fs.readFileSync(path.join(siteRoot, rel), 'utf8');
+          warnings.push(`[${id}] TEMPORARY sample walkthrough from site/sample-content (replace when the teacher delivers)`);
+        } else {
+          raw = readAllowed(rel);
+        }
+        const wt = parseWalkthrough(raw, id);
+        items.push({
+          id, subject: subj.id, kind: 'walkthrough',
+          title: wt.title,
+          domain: 'past-exams', domainName: 'Past exams',
+          order: 900 + (wi += 1),
+          free: false, grantKeys: [subj.id],
+          data: {
+            officialTitle: wt.head.official,
+            year: wt.head.year,
+            paperUrl: wt.head.paper,
+            answersUrl: wt.head.answers,
+            introHtml: wt.introHtml,
+            questions: wt.questions,
+          },
+        });
+      }
+    }
+  }
+
+  // Walkthrough subdomain references must exist.
+  for (const it of items.filter((i) => i.kind === 'walkthrough')) {
+    const subs = new Set(items.filter((i) => i.subject === it.subject && i.kind === 'subdomain').map((i) => i.id));
+    for (const q of it.data.questions) {
+      if (!subs.has(q.subdomainId)) throw new Error(`[${it.id}] ${q.id}: unknown subdomain "${q.subdomainId}" for subject ${it.subject}`);
+    }
   }
 
   const ids = new Set();
@@ -251,7 +363,13 @@ export function buildCatalog(items) {
         domains: [...new Map(subs.map((i) => [i.domain, i.domainName])).entries()].map(([id, name]) => ({ id, name })),
         subdomains: subs.map((i) => ({ id: i.id, title: i.title, domain: i.domain, questions: i.data.questions.length, free: i.free })),
         mocks: mocks.map((i) => ({ id: i.id, title: i.title, questions: i.data.questions.length, minutes: i.data.durationMinutes })),
-        counts: { subdomains: subs.length, questions: subs.reduce((t, i) => t + i.data.questions.length, 0), mocks: mocks.length },
+        walkthroughs: its.filter((i) => i.kind === 'walkthrough').map((i) => ({ id: i.id, title: i.title, officialTitle: i.data.officialTitle, year: i.data.year, questions: i.data.questions.length })),
+        counts: {
+          subdomains: subs.length,
+          questions: subs.reduce((t, i) => t + i.data.questions.length, 0),
+          mocks: mocks.length,
+          walkthroughs: its.filter((i) => i.kind === 'walkthrough').length,
+        },
         sampleItemId: s.sampleItem,
       };
     }),

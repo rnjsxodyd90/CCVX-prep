@@ -14,6 +14,7 @@ await testEnv.withSecurityRulesDisabled(async (ctx) => {
   await setDoc(doc(db, 'items', 'chem-c02'), { subject: 'chem', free: true, grantKeys: ['chem'], data: { notesHtml: 'free sample' } });
   await setDoc(doc(db, 'items', 'chem-c05'), { subject: 'chem', free: false, grantKeys: ['chem'], data: { notesHtml: 'paid chem secret' } });
   await setDoc(doc(db, 'items', 'bio-b01'), { subject: 'bio', free: false, grantKeys: ['bio'], data: { notesHtml: 'paid bio secret' } });
+  await setDoc(doc(db, 'items', 'chem-ccvx-sample-1'), { subject: 'chem', kind: 'walkthrough', free: false, grantKeys: ['chem'], data: { introHtml: 'paid walkthrough secret' } });
   await setDoc(doc(db, 'entitlements', 'u-granted'), { grants: ['chem'], activeUntil: new Date(Date.now() + 864e5) });
   await setDoc(doc(db, 'entitlements', 'u-expired'), { grants: ['chem'], activeUntil: new Date(Date.now() - 864e5) });
 });
@@ -43,6 +44,8 @@ await check('client cannot delete/write via update', setDoc(doc(db('u-granted'),
 // Signed in with a chemistry grant.
 await check('granted user can read their subject', getDoc(doc(db('u-granted'), 'items', 'chem-c05')), assertSucceeds);
 await check('granted user cannot read another subject', getDoc(doc(db('u-granted'), 'items', 'bio-b01')), assertFails);
+await check('granted user can read their walkthroughs', getDoc(doc(db('u-granted'), 'items', 'chem-ccvx-sample-1')), assertSucceeds);
+await check('user without grant cannot read walkthroughs', getDoc(doc(db('u-none'), 'items', 'chem-ccvx-sample-1')), assertFails);
 await check('granted user can read their entitlements', getDoc(doc(db('u-granted'), 'entitlements', 'u-granted')), assertSucceeds);
 
 // Expired grant.

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T00:25:02.153Z",
+  "generated": "2026-11-02T00:26:41.616Z",
   "pricing": {
     "offer": "launch",
     "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
@@ -56,10 +56,12 @@
       "domains": [],
       "subdomains": [],
       "mocks": [],
+      "walkthroughs": [],
       "counts": {
         "subdomains": 0,
         "questions": 0,
-        "mocks": 0
+        "mocks": 0,
+        "walkthroughs": 0
       },
       "sampleItemId": null
     },
@@ -495,10 +497,20 @@
         }
       ],
       "mocks": [],
+      "walkthroughs": [
+        {
+          "id": "chem-ccvx-sample-1",
+          "title": "CCVX example exam Chemistry 1",
+          "officialTitle": "CCVX example exam Chemistry 1",
+          "year": "2023",
+          "questions": 2
+        }
+      ],
       "counts": {
         "subdomains": 53,
         "questions": 8,
-        "mocks": 0
+        "mocks": 0,
+        "walkthroughs": 1
       },
       "sampleItemId": "chem-c02"
     },
@@ -846,10 +858,12 @@
         }
       ],
       "mocks": [],
+      "walkthroughs": [],
       "counts": {
         "subdomains": 41,
         "questions": 0,
-        "mocks": 0
+        "mocks": 0,
+        "walkthroughs": 0
       },
       "sampleItemId": "bio-b01"
     },
@@ -880,10 +894,12 @@
       "domains": [],
       "subdomains": [],
       "mocks": [],
+      "walkthroughs": [],
       "counts": {
         "subdomains": 0,
         "questions": 0,
-        "mocks": 0
+        "mocks": 0,
+        "walkthroughs": 0
       },
       "sampleItemId": null
     },
@@ -914,10 +930,12 @@
       "domains": [],
       "subdomains": [],
       "mocks": [],
+      "walkthroughs": [],
       "counts": {
         "subdomains": 0,
         "questions": 0,
-        "mocks": 0
+        "mocks": 0,
+        "walkthroughs": 0
       },
       "sampleItemId": "mathb-b03"
     }

@@ -73,5 +73,59 @@ Out of order.
 assert.throws(() => buildItems(repo, site), /expected exactly "mathb-b01-q01"/, 'non-ascending id rejected');
 passed++;
 
+// Walkthrough ingestion: valid file parses; bad subdomain id must throw.
+// Restore the good math practice first (block 2 left a bad one on purpose).
+w('CCVX-math-B/B01-functions/practice.md', `# B1 — practice
+
+### mathb-b01-q01 | points 2 | outcome B1.1 | difficulty easy
+#### Question
+Given f(x) = x² + 3, calculate f(4).
+#### Answer
+19
+#### Solution
+1. f(4) = 4² + 3 = 16 + 3 = 19.
+`);
+w('CCVX-chemistry/C-chemical-processes-and-conservation-laws/C02-chemical-calculations/README.md', '# C2 — Chemical Calculations\n\n## Learning outcomes\n\n1. The candidate can calculate.\n');
+w('CCVX-chemistry/C-chemical-processes-and-conservation-laws/C02-chemical-calculations/notes.md', '# Notes\n\npH = −log [H3O+].');
+w('CCVX-chemistry/past-exams/sample-one.md', `official: CCVX example exam Chemistry 1
+year: 2023
+paper: https://www.ccvx.nl/a.pdf
+answers: https://www.ccvx.nl/b.pdf
+
+## Question 1 (official paper)
+ask: Find the concentration of a weak acid from the equivalence volume.
+subdomain: chem-c02
+binas: tables 7, 49
+points: 4
+mistakes: Reading the jump at the wrong height.
+solution:
+1. n(OH−) = c × V at equivalence.
+`);
+{
+  const { items } = buildItems(repo, site);
+  const wt = items.find((i) => i.kind === 'walkthrough');
+  assert.ok(wt, 'walkthrough built');
+  assert.equal(wt.data.questions[0].id, 'chem-sample-one-q01', 'walkthrough question id');
+  assert.equal(wt.data.questions[0].subdomainId, 'chem-c02');
+  passed++;
+}
+// unknown subdomain must throw
+w('CCVX-chemistry/past-exams/sample-one.md', `official: X
+year: 2023
+paper: https://www.ccvx.nl/a.pdf
+answers: https://www.ccvx.nl/b.pdf
+
+## Question 1 (official paper)
+ask: Something.
+subdomain: chem-z99
+binas: table 7
+points: 2
+mistakes: None.
+solution:
+1. X.
+`);
+assert.throws(() => buildItems(repo, site), /unknown subdomain "chem-z99"/, 'bad walkthrough subdomain rejected');
+passed++;
+
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(`OK: ${passed + 5} build checks passed (single-level subjects, id gate, sanitizer, exclude proof).`);
