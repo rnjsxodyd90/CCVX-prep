@@ -1,6 +1,6 @@
 # B4 — Self-Regulation of Organisms: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam (CE).
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), O2 *Zelfregulatie van het organisme* (O2.1–O2.3); O2.3 also refers to M4.2 *Celcommunicatie en interactie met (a)biotische factoren* for signal processing. A citation like *(CvTE O2.1 spec 3)* means specification 3 of O2.1; its numbers don't match the CCVX numbers.

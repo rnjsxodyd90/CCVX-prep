@@ -6,4 +6,4 @@ The candidate is able to use the skills listed under Domain A and Domains B-F at
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).

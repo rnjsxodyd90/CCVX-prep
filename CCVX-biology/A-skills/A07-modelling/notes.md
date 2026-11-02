@@ -1,6 +1,6 @@
 # A7 — Modelling: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A7 *Modelvorming*. A citation like *(CvTE A7 spec 5)* means specification 5 of A7; the CvTE has 9 specifications in newer wording against 8 CCVX items, so they are matched by content, and *(closest: CvTE A7 spec 6)* marks an item without a real match.
@@ -53,3 +53,12 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - **In both:** choosing parameters and simplifying (CCVX 1–2, CvTE 1–2), choosing a suitable model (CCVX 3, CvTE 4–5), predicting with it (CCVX 5, CvTE 7), comparing it with reality (CCVX 7, CvTE 3) and presenting it (CCVX 8, CvTE 9, printed grey, so not in the Dutch central exam). *(CvTE A7)*
 - **Dutch syllabus only:** the range of validity (spec 3) and proposing improvements or extensions (spec 8).
 - **CCVX only:** estimating parameters with margins of error (item 4) and computing with a time step (item 6). Their closest CvTE match, setting up or adjusting a model (spec 6), is printed grey.
+
+## How the exam tests this
+
+- Name the parameters, relationships and assumptions of a described model, and say which are left out and why (items 1–2).
+- Choose which kind of model fits a question: a scheme to explain, a formula or graph to predict (item 3).
+- Estimate a parameter value from given data and give it with a margin of error, such as 20 ± 2 min (item 4).
+- State a verifiable expectation of a model, such as a straight line for exponential growth on a logarithmic y-axis (item 5).
+- Compute one or two steps of a model rule by hand with a given time step, as in item 6 above; running many steps needs a computer and is not examined.
+- Judge a model against measurements within the margins of error, and name the assumption that fails outside its range (item 7).

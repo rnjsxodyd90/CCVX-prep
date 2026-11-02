@@ -33,4 +33,5 @@ Unicellular, multicellular, reproductive cells, somatic cell, chromosome, mitosi
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).
+- [practice.md](practice.md): 29 original practice items in CCVX style with full worked answers and marking points (72 points total).

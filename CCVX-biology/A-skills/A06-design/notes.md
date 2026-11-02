@@ -1,6 +1,6 @@
 # A6 — Design: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A6 *Ontwerpen*. A citation like *(CvTE A6 spec 4)* means specification 4 of A6; the CvTE has 10 specifications against 9 CCVX items, so they are matched by content.
@@ -57,3 +57,12 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - **In both:** all nine CCVX items, matched by content to CvTE specs 1 and 3–10, and priorities (*prioriteiten*). The Dutch central exam tests only CCVX items 1, 3 and 8 (CvTE specs 1, 4 and 9); the CvTE prints the others grey. *(CvTE A6)*
 - **Dutch syllabus only:** splitting the problem into sub-problems (*deelproblemen*, spec 2) and boundary conditions (*randvoorwaarden*, spec 3), conditions set from outside such as the budget or the law; both printed grey.
 - **CCVX only:** nothing.
+
+## How the exam tests this
+
+- Analyse a described design problem: state what the product or method must achieve, for whom and under which conditions (item 1).
+- Draw up or complete a schedule of requirements: separate testable requirements from mere preferences (item 2).
+- Explain which biological or physical principle makes a property of the design work, such as why the dialysis membrane lets urea through but keeps cells in (item 3).
+- Compare two versions of a design against the requirements and argue a choice between them (items 4–5).
+- Judge a test result against the requirements and propose a concrete improvement, arguing why it removes the weakness found (items 7–8).
+- Building a prototype (item 6) and presenting a design (item 9) cannot be examined in writing, so expect them at most as description.

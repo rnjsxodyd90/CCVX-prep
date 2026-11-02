@@ -43,4 +43,5 @@ Genome, autosomes, X and Y chromosomes, genotype, phenotype, allele, gene, monoh
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question).
+- [practice.md](practice.md): 31 original practice items in CCVX style, 78 points in total, with worked solutions and marking schemes.

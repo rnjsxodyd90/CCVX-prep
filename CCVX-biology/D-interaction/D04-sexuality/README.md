@@ -29,4 +29,5 @@ Sexuality, bisexual, homosexual, heterosexual, coming out, contraceptives, arous
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above. Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
+- [practice.md](practice.md): 28 original practice items in CCVX style with full worked answers and marking points.

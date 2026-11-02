@@ -1,6 +1,6 @@
 # A13 — Evolutionary Thinking: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A13 *Evolutionair denken*. The CvTE splits the attainment target into three specifications that CCVX doesn't list; a citation like *(CvTE A13 spec 2)* means specification 2 of A13.
@@ -29,3 +29,11 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Allopatric speciation follows geographic separation, as in Darwin's finches on different Galápagos islands; sympatric speciation happens in the same area, for example by polyploidy in plants ([F02](../../F-evolution/F02-speciation/README.md)).
 - Common descent shows in homologous structures and in the universal genetic code, which CCVX names as a scientific argument for the kinship of all life ([F-evolution](../../F-evolution/README.md)).
 - **Trap:** "the bacteria became resistant in order to survive" or "giraffes stretched their necks, so their young had longer necks" is goal-directed or Lamarckian reasoning; individuals don't adapt genetically, a population changes because individuals with certain alleles leave more offspring.
+
+## How the exam tests this
+
+- Explain a described change in a population with variation and selection: which heritable differences existed, which individuals left more offspring, and why the allele frequencies shifted — never "in order to".
+- Name the source of new variation asked for: mutation for new alleles, recombination and fertilisation for new combinations, gene flow for alleles arriving; and recognise drift after a founder effect or bottleneck.
+- Predict how selection changes when the environment changes, as when malaria keeps the sickle-cell allele common in heterozygotes.
+- Argue whether two populations have become separate species: is there reproductive isolation, and by which mechanism?
+- Use homologous structures, DNA comparisons or the universal genetic code as arguments for common descent.

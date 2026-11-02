@@ -41,4 +41,5 @@ Amino acid, primary, secondary, tertiary and quaternary structure, protein, pept
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus), with original SVG diagrams.
+- [practice.md](practice.md): 38 original practice items in CCVX style with full worked answers and marking points.

@@ -1,6 +1,6 @@
 # A11 — Thinking in terms of Form and Function: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A11 *Vorm-functie denken*. The CvTE splits the attainment target into three specifications that CCVX doesn't list; a citation like *(CvTE A11 spec 2)* means specification 2 of A11.
@@ -32,3 +32,10 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - In sickle-cell anaemia one amino acid in haemoglobin changes (glutamic acid to valine), the molecules clump together at low O₂, the red blood cells become sickle-shaped and they block capillaries ([B01](../../B-self-regulation/B01-protein-synthesis/README.md), [F01](../../F-evolution/F01-selection/README.md)); more on levels in [A14](../A14-systems-thinking/README.md).
 - A similar form for a similar function doesn't prove common descent: the wings of insects and birds are analogous, not homologous ([F02](../../F-evolution/F02-speciation/README.md)).
 - **Trap:** naming a structure ("villi") isn't enough; say how its form serves the function ("villi enlarge the surface, so more nutrients are absorbed per unit of time").
+
+## How the exam tests this
+
+- Argue from a given structure to the function it enables: name the form feature and complete the chain with "so that" (thin, folded membrane → large diffusion surface → fast exchange).
+- Argue in the opposite direction: from a required function, state which demands the form of the parts must meet (gas exchange → large, thin, moist surface with good blood supply).
+- Explain a phenomenon by linking levels of organisation, as one molecular change works up through cell and organ to the whole organism.
+- Judge whether a similar form really points to a similar function, and beware of concluding common descent from analogy alone.

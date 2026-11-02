@@ -1,6 +1,6 @@
 # A16 — Contexts: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A16 *Contexten*. The CvTE splits the attainment target into three specifications that CCVX doesn't list; a citation like *(CvTE A16 spec 2)* means specification 2 of A16. The table in CvTE §1.4 swaps the names of A15 and A16, but the specifications and appendix 1 use A16 for contexts, as CCVX does.
@@ -30,3 +30,10 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - Relate the terms in the context to biological concepts; a context may introduce new terms, which it then explains itself. *(CvTE A16 spec 3; CvTE §2.3)*
 - Example: an athlete trains at altitude (context): the thinner air holds less O₂ per litre, the kidneys release more EPO, the bone marrow makes more red blood cells, and back at sea level the blood carries more O₂ ([B04](../../B-self-regulation/B04-self-regulation-of-organisms/README.md)).
 - **Trap:** a general textbook answer that ignores the context, or a summary of the context that never names the biological concept, both miss what is asked.
+
+## How the exam tests this
+
+- Work in any of the three kinds of context — scientific, professional or everyday-life — by extracting the biological question from an unfamiliar setting.
+- Translate terms from the context into syllabus concepts, including terms the context introduces and explains itself.
+- Keep the meanings of the same word apart between contexts: resistance of bacteria versus resistance of a person, adaptation in evolution versus in the senses.
+- Answer with the context's own data and situation, naming the biological concept that connects them.

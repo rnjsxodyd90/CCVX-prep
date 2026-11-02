@@ -6,4 +6,4 @@ The candidate is able to reflect on his interests, motivation and learning proce
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).

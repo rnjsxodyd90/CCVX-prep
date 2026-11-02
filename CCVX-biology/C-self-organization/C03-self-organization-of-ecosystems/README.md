@@ -29,4 +29,5 @@ Succession, pioneer species, climax ecosystem, ecotone (‘gradient ecosystem’
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus and standard VWO biology).
+- [practice.md](practice.md): 29 original practice items in CCVX style with full worked answers and marking points.

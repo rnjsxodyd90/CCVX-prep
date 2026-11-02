@@ -1,6 +1,6 @@
 # A9 — Evaluation and Judgment: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus, the Dutch CvTE syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** central exam and school exam (CvTE §1.4), always inside a content question.
 - **Dutch source:** [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) (version 2, July 2025), domain A *Vaardigheden*, A9 *Waarderen en oordelen*. A citation like *(CvTE A9 spec 2)* means specification 2 of A9; here the numbers match the CCVX numbers.
@@ -37,3 +37,10 @@ Dutch terms are in brackets. Binas tables are named, not numbered, because the n
 - **In both:** all four items, with the same numbers and meaning, but the CvTE prints items 3 and 4 grey, so the Dutch central exam doesn't test them. *(CvTE A9)*
 - **Dutch syllabus only:** nothing.
 - **CCVX only:** nothing.
+
+## How the exam tests this
+
+- Make a reasoned choice between alternatives in a described situation, weighing the given data against your syllabus knowledge, for example chemical pest control versus biological control (item 1).
+- Classify statements from a context as a scientific argument, a normative social consideration or a personal view; in questions on heredity or reproduction, separate biological from ethical arguments (item 2).
+- Support a claim by referring to the source given in the question ("figure 3 shows that …") (item 3).
+- Assess whether an offered source or report is reliable and relevant for the question asked: who wrote it, on what research, with what interest (item 4).

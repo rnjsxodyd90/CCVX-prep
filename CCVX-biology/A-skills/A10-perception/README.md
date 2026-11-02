@@ -6,4 +6,4 @@ The candidate is able in particular contexts to put into words feelings and mean
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).

@@ -1,6 +1,6 @@
 # F4 — The Genesis of Life: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX syllabus and standard VWO biology, not yet checked against an open source text or exam question.
+These are English explanations of every learning outcome in [README.md](README.md). Status: reviewed against the CCVX syllabus (21 September 2017) and standard VWO biology; not yet checked against an open source text or exam question.
 
 - **In Dutch VWO:** school exam (SE) only, as P6 *Ontstaan van het leven*, so the [CvTE syllabus biologie vwo 2027](https://www.examenblad.nl/2027/vwo/documenten/syllabus-biologie-vwo-2027) doesn't specify it. CCVX still tests it.
 - **Overlap:** CvTE M2.1 spec 3 (*endosymbiose*), M2.3 spec 14 (photosynthesis versus chemosynthesis, the energy source at black smokers) and P4.4 spec 2 (*(radioactieve) isotoop*, for dating). A citation like *(overlap: CvTE M2.1 spec 3)* points there.

@@ -68,4 +68,5 @@ Species, sex, cladogram, clade, taxon, homology, analogy, genetic drift, coevolu
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus and standard VWO biology).
+- [practice.md](practice.md): 26 original practice items (72 points) in CCVX style with full worked answers and marking points.

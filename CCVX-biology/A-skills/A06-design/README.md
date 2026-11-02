@@ -20,4 +20,4 @@ The candidate is able, using relevant concepts, theory and skills and valid, con
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: reviewed against the CCVX syllabus).
