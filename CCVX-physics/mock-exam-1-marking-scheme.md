@@ -10,16 +10,16 @@ b. **1 pt**: v_max = 2πA/T = 0.60 m/s (0.6014).
 
 ### phys-mock1-q02 | points 4
 
-a. **1 pt**: between two emissions the horn moves towards you, so the wavefronts ahead lie closer together (smaller λ), and fronts arriving at unchanged sound speed means larger f.
-b. **1 pt**: insight λ′ = (v_sound − v_source)/f_source. **1 pt**: λ′ = (343 − 28)/440 = 0.716 ≈ 0.72 m.
-c. **1 pt**: f′ = v_sound/λ′ = 343/0.716 = 4.8·10² Hz (479 Hz).
-*Final: b. 0.72 m; c. 4.8·10² Hz.*
+a. **1 pt**: the front spacing in still air is unchanged (the source stands still), but riding into the fronts shortens the time between arrivals: more fronts per second → higher heard frequency.
+b. **1 pt**: λ = v_sound/f = 343/440 = 0.7795 ≈ 0.780 m.
+c. **2 pts**: closing speed through the wavefront field: 343 + 12 = 355 m/s (1 pt); fronts met per second: f′ = 355/0.780 = 4.6·10² Hz (455 Hz; 1 pt).
+*Final: b. 0.780 m; c. 4.6·10² Hz.*
 
 ### phys-mock1-q03 | points 4
 
 a. **2 pts**: areas in the (v,t): ½·5.0·15 = 37.5 m; 10·15 = 150 m; ½·(15 + 6.0)·2.5 = 26.25 m; 5.0·6.0 = 30 m (all four correct; award 1 pt when exactly two or three are correct). **1 pt**: total = 2.44·10² m (243.75 m).
 b. **1 pt**: v_gem = 243.75/22.5 = 10.8 m/s.
-*Final: a. 37.5 m, 150 m, 26 m, 30 m; total 2.44·10² m; b. 10.8 m/s.*
+*Final: a. 37.5 m, 150 m, 26.25 m, 30 m; total 2.44·10² m; b. 10.8 m/s.*
 
 ### phys-mock1-q04 | points 5
 
@@ -45,33 +45,32 @@ c. **1 pt**: η = Q/E = 2.94·10⁵/3.6·10⁵ = 0.82 → 82%.
 
 ### phys-mock1-q07 | points 5
 
-a. **1 pt**: 1/R_∥ = 1/12 + 1/4.0 = 1/3 → R_∥ = 3.0 Ω (the current parallel rule; the conductance route G_tot = G₂ + G₃ = 0.0833 S + 0.25 S = 0.333 S → R_∥ = 1/G_tot = 3.0 Ω is equally correct).
-b. **1 pt**: R_tot = 8.0 + 3.0 = 11 Ω → I_tot = 24/11 = 2.2 A (2.182 A).
-c. **1 pt**: U_∥ = I_tot·R_∥ = 2.182·3.0 = 6.5 V. **1 pt**: U₁ = 24 − 6.5 = 17.5 V (or I·R₁ = 2.182·8.0 ✓; the sum check is the point).
-d. **1 pt**: I₃ = U_∥/R₃ = 6.55/4.0 = 1.6 A (check: I₂ = 0.55 A; sum 2.2 ✓).
-*Final: a. 3.0 Ω; b. 2.2 A; c. 6.5 V and 17.5 V; d. 1.6 A.*
+a. **1 pt**: 1/R_pair = 1/18 + 1/36 = 3/36 = 1/12 → R_pair = 12 Ω (conductance route: G = 0.0556 + 0.0278 = 0.0833 S → 12 Ω equally correct).
+b. **1 pt**: R_tot = 6.0 + 12 = 18 Ω → I_tot = 12/18 = 0.67 A (0.667 A).
+c. **1 pt**: U_A = I·R_A = 0.667·6.0 = 4.0 V. **1 pt**: U_pair = I·R_pair = 0.667·12 = 8.0 V (sum 4.0 + 8.0 = 12 ✓ is the checkpoint).
+d. **1 pt**: I_B = 8.0/18 = 0.44 A, I_C = 8.0/36 = 0.22 A; powers: P_A = 4.0·0.667 = 2.7 W, P_B = 8.0·0.44 = 3.6 W, P_C = 8.0·0.22 = 1.8 W → bulb B burns brightest (largest converted power).
+*Final: a. 12 Ω; b. 0.67 A; c. 4.0 V and 8.0 V; d. bulb B (3.6 W > 2.7 W > 1.8 W).*
 
 ### phys-mock1-q08 | points 5
 
-a. **1 pt**: F_g = F_mpz → G·M·m/r² = m·v²/r → v = √(G·M/r). **1 pt**: r = R + h = 6.378·10⁶ + 1.30·10⁶ = 7.678·10⁶ m. **1 pt**: v = √(3.986·10¹⁴/7.678·10⁶) = 7.2·10³ m/s (7.21 km/s).
-b. **1 pt**: T = 2πr/v = 6.7·10³ s = 1.9·10² min ≈ 1.9 h (6693 s = 111.6 min).
-c. **1 pt**: no — geostationary needs T = 24 h above the equator; this is ~1.9 h (and polar, so it sweeps latitudes).
-*Final: a. 7.2·10³ m/s; b. 6.7·10³ s ≈ 112 min; c. no — its period is ≈ 13 times shorter than the required 24 h (and it crosses latitudes instead of hovering above the equator).*
+a. **2 pts**: G·M·m/r² = m·v²/r → M = v²·r/G (1 pt derivation); M = (1.02·10³)²·3.844·10⁸/6.674·10⁻¹¹ = 6.0·10²⁴ kg (5.99·10²⁴; 1 pt value).
+b. **2 pts**: T = 2πr/v = 2π·3.844·10⁸/1.02·10³ = 2.37·10⁶ s ≈ 27.4 d (1 pt); that matches the sidereal lunar period (~27.3 d) — Newton really did weigh the Earth with the Moon (1 pt the comparison).
+c. **1 pt**: the satellite mass cancels: both F_g = G·M·m/r² and F_mpz = m·v²/r are proportional to m, so m divides out — any test mass at this r with this v orbits identically.
+*Final: a. M ≈ 6.0·10²⁴ kg; b. T ≈ 27.4 d.*
 
 ### phys-mock1-q09 | points 5
 
-a. **1 pt**: ¹³¹₅₃I → ¹³¹₅₄Xe + ⁰₋₁e (top: 131 = 131 ✓, bottom: 53 = 54 − 1 ✓).
-b. **1 pt**: 16 d = 2 half-lives → A = 2.5·10⁸·½² = 6.3·10⁷ Bq (62.5 MBq).
-c. **2 pts**: N = A·t½/ln 2 = 2.5·10⁸·(8.0·8.64·10⁴)/0.693 = 2.5·10¹⁴ (1 pt for t½ = 6.912·10⁵ s and the formula, 1 pt for 2.5·10¹⁴).
-d. **1 pt**: β⁻ is strongly ionising with short range: its dose lands inside the thyroid — the intended destroyer; γ is penetrating (weakly ionising, low dose per photon): it exits the body to the gamma camera and *images* where the iodine went — therapy and diagnosis in one isotope.
-*Final: b. 6.3·10⁷ Bq; c. 2.5·10¹⁴ nuclei.*
+a. **1 pt**: ⁹⁹ᵐ₄₃Tc → ⁹⁹₄₃Tc + ⁰₀γ — only gamma radiation (isomeric transition: A and Z unchanged, just the excitation energy as a photon).
+b. **2 pts**: from 03:00 to 15:00 is 12 h = 2 half-lives (1 pt) → A_prepare = 2.0·10⁸·2² = 8.0·10⁸ Bq (1 pt the backwards ×4).
+c. **2 pts**: t½ = 6.0·3.6·10³ = 2.16·10⁴ s (1 pt); N = A·t½/ln 2 = 8.0·10⁸·2.16·10⁴/0.693 = 2.5·10¹³ nuclei (2.49·10¹³; 1 pt).
+*Final: a. gamma only; b. 8.0·10⁸ Bq; c. 2.5·10¹³ nuclei.*
 
 ### phys-mock1-q10 | points 4
 
-a. **1 pt**: two γ photons leaving in exactly opposite directions, each 0.511 MeV.
-b. **2 pts**: E = m_e·c² = 9.109·10⁻³¹·(3.00·10⁸)² = 8.2·10⁻¹⁴ J (1 pt); = 8.2·10⁻¹⁴/1.602·10⁻¹⁹ = 5.1·10⁵ eV = 0.51 MeV (1 pt).
-c. **1 pt**: conservation of momentum: the pair had ≈ zero momentum, so the two photons must carry equal and opposite momenta.
-*Final: b. E_photon = 8.2·10⁻¹⁴ J = 0.51 MeV.*
+a. **2 pts**: Δm = 0.0071·1.0 = 7.1·10⁻³ kg (1 pt); E = Δm·c² = 7.1·10⁻³·(3.00·10⁸)² = 6.4·10¹⁴ J (6.39·10¹⁴; 1 pt).
+b. **1 pt**: m_petrol = E/r_m = 6.39·10¹⁴/4.4·10⁷ = 1.5·10⁷ kg (≈ 15 kilotonnes of petrol for one kilogram of hydrogen fuel).
+c. **1 pt**: per kilogram of fuel, fusion liberates ~10⁷ times more energy than chemistry — that factor, not fashion, is why small stellar fuel hops keep engineers chasing fusion.
+*Final: a. 6.4·10¹⁴ J; b. 1.5·10⁷ kg (factor ≈ 1.5·10⁷).*
 
 ### phys-mock1-q11 | points 5
 
@@ -101,16 +100,17 @@ b. **3 pts**: equal σ drops out: A ∝ P/T⁴ → A_Z/A_Sun = (P_Z/P_Sun)·(T_S
 
 ### phys-mock1-q15 | points 5
 
-a. **2 pts**: E₁ = h²/(8·m·L²) = (6.626·10⁻³⁴)²/(8·9.109·10⁻³¹·(5.0·10⁻¹⁰)²) = 2.4·10⁻¹⁹ J (1 pt); = 2.4·10⁻¹⁹/1.602·10⁻¹⁹ = 1.5 eV (1 pt).
-b. **3 pts**: E₃ = 3²·E₁ = 13.5 eV (1 pt); ΔE = 13.5 − 1.50 = 12.0 eV (1 pt); λ = hc/ΔE = 1.03·10⁻⁷ m ≈ 103 nm, ultraviolet (1 pt; shortcut 1240 eV·nm/12.0 eV accepted).
-*Final: a. 2.4·10⁻¹⁹ J = 1.5 eV; b. E₃ = 13.5 eV, λ = 1.0·10⁻⁷ m (UV).*
+a. **2 pts**: E₁ = h²/(8·m·L²) = (6.626·10⁻³⁴)²/(8·1.673·10⁻²⁷·(5.0·10⁻¹⁵)²) = 1.31·10⁻¹² J (1 pt); = 1.31·10⁻¹²/1.602·10⁻¹⁹ = 8.2·10⁶ eV ≈ 8.2 MeV (1 pt).
+b. **2 pts**: ΔE = E₂ − E₁ = (4 − 1)·E₁ = 3.94·10⁻¹² J = 24.6 MeV (1 pt); λ = hc/ΔE = 5.0·10⁻¹⁴ m (5.05·10⁻¹⁴) — γ radiation (1 pt).
+c. **1 pt**: E₁ ∝ 1/(m·L²): swapping the electron for the 1836× heavier proton *divides* the spacings by ~2·10³, but shrinking L from 10⁻⁹ to 5·10⁻¹⁵ m multiplies them by (2·10⁵)² = 4·10¹⁰ — the squared length wins by roughly seven orders of magnitude.
+*Final: a. 1.31·10⁻¹² J = 8.2 MeV; b. ΔE = 24.6 MeV, λ = 5.0·10⁻¹⁴ m (γ).*
 
 ### phys-mock1-q16 | points 5
 
-a. **2 pts**: F_L = B·q·v = 8.0·10⁻³·1.602·10⁻¹⁹·1.2·10⁷ = 1.5·10⁻¹⁴ N (1.538·10⁻¹⁴; 1 pt law, 1 pt value).
-b. **2 pts**: B·q·v = m·v²/r → r = m·v/(q·B) = 9.109·10⁻³¹·1.2·10⁷/(1.602·10⁻¹⁹·8.0·10⁻³) = 8.5·10⁻³ m (8.5 mm; 1 pt the F_L = F_mpz identification, 1 pt the value).
-c. **1 pt**: the left-hand rule gives F_L always perpendicular to the velocity (and to B): a constant-magnitude sideway pull bends the path into a circle at constant speed — perpendicular force does no work, so E_k stays constant.
-*Final: a. 1.5·10⁻¹⁴ N; b. 8.5·10⁻³ m; c. circular at constant speed.*
+a. **2 pts**: F_L = B·q·v = 1.5·1.602·10⁻¹⁹·3.0·10⁶ = 7.2·10⁻¹³ N (1 pt law, 1 pt value).
+b. **2 pts**: B·q·v = m·v²/r → r = m·v/(q·B) = 1.673·10⁻²⁷·3.0·10⁶/(1.602·10⁻¹⁹·1.5) = 2.1·10⁻² m (1 pt the F_L = F_mpz identification, 1 pt the value).
+c. **1 pt**: T½ = πr/v = π·m·v/(q·B·v) = πm/(qB): the speed cancels (radius grows exactly with v), so every proton crosses the chamber in the same time (≈ 2.2·10⁻⁸ s) — a clean, speed-independent timing window for the detector.
+*Final: a. 7.2·10⁻¹³ N; b. 2.1·10⁻² m; c. T½ = πm/(qB) ≈ 2.2·10⁻⁸ s, independent of v.*
 
 ---
 

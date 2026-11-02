@@ -25,11 +25,11 @@ b. Compute the maximum speed of the block.
 
 #### Question
 
-A car drives towards you at 28 m/s, sounding its horn at 440 Hz. The speed of sound is 343 m/s.
+A church bell rings at 440 Hz. A cyclist rides straight towards it at 12 m/s through still air (speed of sound 343 m/s).
 
-a. Explain, with the spacing of the wavefronts, why you hear a pitch higher than 440 Hz.
-b. Compute the wavelength of the sound ahead of the car.
-c. Compute the frequency you hear.
+a. Explain, with the arrival of wavefronts, why she hears a pitch higher than 440 Hz even though the wavefront spacing in the air is unchanged.
+b. Compute the wavelength of the sound in the still air.
+c. Compute the frequency she hears, by counting how many wavefronts she meets per second.
 
 ### phys-mock1-q03 | points 4 | subdomain P3 | difficulty easy
 
@@ -75,43 +75,42 @@ c. Compute the efficiency of the kettle.
 
 #### Question
 
-A battery of 24 V feeds a circuit: R₁ = 8.0 Ω in series with a parallel pair R₂ = 12 Ω and R₃ = 4.0 Ω.
+A 12 V battery feeds a bulb A (6.0 Ω) in series with a parallel pair of bulbs B (18 Ω) and C (36 Ω).
 
 a. Compute the replacement resistance of the parallel pair. (Use the rule as printed in the current syllabus: 1/R_tot = 1/R₁ + 1/R₂ + …)
 b. Compute the total current delivered by the battery.
-c. Compute the voltage across the parallel pair and across R₁.
-d. Compute the current through R₃.
+c. Compute the voltage across bulb A and across the parallel pair.
+d. Which bulb burns brightest? Justify your answer with power computations.
 
 ### phys-mock1-q08 | points 5 | subdomain P5 | difficulty medium
 
 #### Question
 
-A polar-orbiting satellite flies a circular orbit at height h = 1.30·10³ km above the Earth (M_Earth = 5.972·10²⁴ kg, R_Earth = 6.378·10⁶ m, G = 6.674·10⁻¹¹, all BINAS).
+You may *weigh the Earth* with the Moon. The Moon circles the Earth at mean distance r = 3.844·10⁸ m with orbital speed v = 1.02·10³ m/s (G = 6.674·10⁻¹¹ N·m²/kg², BINAS).
 
-a. Show that its orbital speed follows from v = √(G·M/r), and compute that speed.
-b. Compute the orbital period in seconds and in minutes.
-c. Is this a geostationary orbit? Answer with a reason.
+a. Derive, from the requirement F_g = F_mpz, the Earth's mass in terms of v, r and G, and compute it in kg.
+b. Compute the Moon's orbital period in days, and comment on the known lunar cycle of about 27⅓ days.
+c. Explain why the Moon's own mass does not enter this computation.
 
 ### phys-mock1-q09 | points 5 | subdomain P2 | difficulty medium
 
 #### Question
 
-For a thyroid treatment a patient receives iodine-131 (¹³¹₅₃I), with half-life t½ = 8.0 d and administered activity 2.5·10⁸ Bq. (1 d = 8.64·10⁴ s.)
+For a kidney scintigram at 15:00 a technetium dose of Tc-99m (t½ = 6.0 h) with activity 2.0·10⁸ Bq is needed. (1 h = 3.6·10³ s.)
 
-a. Give the decay equation of I-131 to xenon (Xe).
-b. Compute the activity after 16 d.
-c. Compute the number of I-131 nuclei in the administered dose at administration.
-d. The patient's thyroid absorbs the β electrons right there, while the γ photons are used for imaging. Explain, with the properties of both radiation kinds, why this fits the medical purpose.
+a. Tc-99m is an excited, metastable nucleus (⁹⁹ᵐ₄₃Tc). Give its decay equation to Tc-99, and name the only kind of radiation produced in this step.
+b. Compute the activity the lab must prepare at 03:00 the night before.
+c. Compute the number of Tc-99m nuclei in that prepared amount (use A = (ln 2/t½)·N).
 
-### phys-mock1-q10 | points 4 | subdomain P2 | difficulty medium
+### phys-mock1-q10 | points 4 | subdomain P10 | difficulty medium
 
 #### Question
 
-In a PET scanner a positron annihilates with an electron.
+In a star's core, fusing hydrogen into helium converts about 0.71% of the hydrogen's mass into radiation (given).
 
-a. Describe what is produced in the annihilation of one positron with one electron (directions included).
-b. Verify with E = mc² (m_e = 9.109·10⁻³¹ kg, c = 3.00·10⁸ m/s, e = 1.602·10⁻¹⁹ C) the energy of one such photon in J and in MeV.
-c. State the conservation law that forces the directions of part (a).
+a. Compute with E = Δm·c² (c = 3.00·10⁸ m/s) the energy released when 1.0 kg of hydrogen is completely fused.
+b. Petrol has a calorific value r_m = 44 MJ/kg (given). Compute how many kilograms of petrol release the same energy as 1.0 kg of hydrogen fuel.
+c. Give, with your factor from (b), a one-line conclusion on why fusion research keeps trying.
 
 ### phys-mock1-q11 | points 5 | subdomain P8 | difficulty medium
 
@@ -155,20 +154,21 @@ b. Using P = σ·A·T⁴, compute the ratio A_Z/A_Sun of the surface areas, and 
 
 #### Question
 
-An electron (m = 9.109·10⁻³¹ kg) is confined in an infinitely deep one-dimensional box of width L = 5.0·10⁻¹⁰ m.
+A proton (m = 1.673·10⁻²⁷ kg) is confined to a nuclear-sized, infinitely deep one-dimensional box of width L = 5.0·10⁻¹⁵ m.
 
-a. Compute the ground-state energy in J and in eV (h = 6.626·10⁻³⁴ J·s).
-b. Compute the energy of state n = 3 and the wavelength of the photon emitted when the electron falls from n = 3 to the ground state (state the spectral region).
+a. Compute the ground-state energy in J and in MeV (h = 6.626·10⁻³⁴ J·s, e = 1.602·10⁻¹⁹ C).
+b. The proton drops from level n = 2 to the ground state. Compute the photon energy and wavelength, and name the radiation kind.
+c. An electron in a nano-box (L = 1.0·10⁻⁹ m) has level spacings of about 1 eV. Explain with the box formula why the nuclear well's spacings dwarf those by about seven orders of magnitude.
 
 ### phys-mock1-q16 | points 5 | subdomain P7 | difficulty hard
 
 #### Question
 
-An electron moves at v = 1.2·10⁷ m/s perpendicular into a homogeneous magnetic field B = 8.0·10⁻³ T (m_e and e from BINAS).
+In a mass spectrometer a proton (m = 1.673·10⁻²⁷ kg, charge +e) enters a homogeneous field B = 1.5 T perpendicularly at v = 3.0·10⁶ m/s.
 
-a. Compute the Lorentz force on the electron.
-b. Compute the radius of its path, using F_L = B·q·v as centripetal force.
-c. Explain, with the direction of the Lorentz force, why the path is a circle and why the speed does not change.
+a. Compute the Lorentz force on the proton.
+b. Compute the radius of its circular path.
+c. Derive that the time for half a circle, T½ = π·m/(q·B), is independent of the speed, and name why that is useful in a spectrometer.
 
 ---
 
