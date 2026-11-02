@@ -7,7 +7,7 @@
 - **Time: 3 hours (180 minutes).** Utrecht-style written exam, open questions; partial credit for correct steps — always show your working: formula, substitution, result with unit.
 - You may use **BINAS** (5th edition or later, English edition allowed) **with no notes in it**, one simple scientific calculator (no graphing calculator), pen and pencil (pencil only for graphs), a set square and a watch (no smartwatch).
 - Constants not in the question should be taken from BINAS. Use **g = 9.81 m/s²**, unless stated otherwise. Give answers with a sensible number of significant figures and always with a unit.
-- This exam has **16 questions**, total **68 points**. Your grade now = 1 + 9 × (score/68). Time guide: about 2½ minutes per point.
+- This exam has **16 questions**, total **72 points**. Your grade now = 1 + 9 × (score/72). Time guide: about 2½ minutes per point.
 - The [marking scheme](mock-exam-1-marking-scheme.md) gives the points per step. Check your work only after your full attempt.
 
 ---
@@ -172,4 +172,4 @@ c. Explain, with the direction of the Lorentz force, why the path is a circle an
 
 ---
 
-*End of mock exam 1. Total: 68 points. The marking scheme is in [mock-exam-1-marking-scheme.md](mock-exam-1-marking-scheme.md).*
+*End of mock exam 1. Total: 72 points. The marking scheme is in [mock-exam-1-marking-scheme.md](mock-exam-1-marking-scheme.md).*

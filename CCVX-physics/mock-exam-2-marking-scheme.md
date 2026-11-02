@@ -1,6 +1,6 @@
 # CCVX Physics — Mock exam 2: marking scheme
 
-Companion to [mock-exam-2.md](mock-exam-2.md). Points per step, with full answers. **Try the whole exam first; score yourself afterwards.** Total 65 points; grade = 1 + 9 × (score/65). Alternative correct methods earn the same points. A calculation error in an early step costs that step's point but not the follow-through points if the physics afterwards is right ("doorrekenen"). Sloppy unit or significant-figure handling: subtract at most 1 point per question.
+Companion to [mock-exam-2.md](mock-exam-2.md). Points per step, with full answers. **Try the whole exam first; score yourself afterwards.** Total 69 points; grade = 1 + 9 × (score/69). Alternative correct methods earn the same points. A calculation error in an early step costs that step's point but not the follow-through points if the physics afterwards is right ("doorrekenen"). Sloppy unit or significant-figure handling: subtract at most 1 point per question.
 
 ### phys-mock2-q01 | points 4
 
@@ -114,4 +114,4 @@ c. **1 pt**: in the dark its conduction band is nearly empty (high R); room ligh
 
 ---
 
-*65 points in total. Grade: 1 + 9 × (your total/65), rounded per CCVX rules.*
+*69 points in total. Grade: 1 + 9 × (your total/69), rounded per CCVX rules.*

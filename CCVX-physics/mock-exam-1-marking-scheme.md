@@ -1,6 +1,6 @@
 # CCVX Physics — Mock exam 1: marking scheme
 
-Companion to [mock-exam-1.md](mock-exam-1.md). Points per step, as the real correctievoorschrift does. Full answers included. **Try the whole exam first; score yourself afterwards.** Total 68 points; grade = 1 + 9 × (score/68). Alternative correct methods earn the same points. A calculation error in an early step costs that step's point but not the follow-through points if the physics afterwards is right ("doorrekenen"). Sloppy unit or significant-figure handling: subtract at most 1 point per question.
+Companion to [mock-exam-1.md](mock-exam-1.md). Points per step, as the real correctievoorschrift does. Full answers included. **Try the whole exam first; score yourself afterwards.** Total 72 points; grade = 1 + 9 × (score/72). Alternative correct methods earn the same points. A calculation error in an early step costs that step's point but not the follow-through points if the physics afterwards is right ("doorrekenen"). Sloppy unit or significant-figure handling: subtract at most 1 point per question.
 
 ### phys-mock1-q01 | points 3
 
@@ -114,4 +114,4 @@ c. **1 pt**: the left-hand rule gives F_L always perpendicular to the velocity (
 
 ---
 
-*68 points in total. Grade: 1 + 9 × (your total/68), rounded per CCVX rules.*
+*72 points in total. Grade: 1 + 9 × (your total/72), rounded per CCVX rules.*
