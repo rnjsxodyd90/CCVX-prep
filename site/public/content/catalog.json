@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T13:02:04.536Z",
+  "generated": "2026-11-02T15:25:32.362Z",
   "pricing": {
     "offer": "launch",
     "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
@@ -36,7 +36,7 @@
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_phys_once",
-      "ready": false,
+      "ready": true,
       "exams": [
         {
           "label": "Tuesday 24 November 2026",
@@ -53,16 +53,162 @@
       ],
       "registrationDeadline": "Tuesday 10 November 2026",
       "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
-      "domains": [],
-      "subdomains": [],
-      "mocks": [],
-      "walkthroughs": [],
+      "domains": [
+        {
+          "id": "P",
+          "name": "Domain P"
+        }
+      ],
+      "subdomains": [
+        {
+          "id": "phys-p01",
+          "title": "P1 – Oscillations and waves",
+          "domain": "P",
+          "questions": 12,
+          "free": true
+        },
+        {
+          "id": "phys-p02",
+          "title": "P2 – Medical imaging and radiation",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p03",
+          "title": "P3 – Force and motion",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p04",
+          "title": "P4 – Energy and interaction",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p05",
+          "title": "P5 – Gravitation",
+          "domain": "P",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "phys-p06",
+          "title": "P6 – Electric circuits",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p07",
+          "title": "P7 – Electric and magnetic fields",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p08",
+          "title": "P8 – Matter, heat and gases",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p09",
+          "title": "P9 – Optics",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        },
+        {
+          "id": "phys-p10",
+          "title": "P10 – Electromagnetic radiation and stars",
+          "domain": "P",
+          "questions": 11,
+          "free": false
+        },
+        {
+          "id": "phys-p11",
+          "title": "P11 – Quantum world",
+          "domain": "P",
+          "questions": 12,
+          "free": false
+        }
+      ],
+      "mocks": [
+        {
+          "id": "phys-mock1",
+          "title": "Physics mock exam 1",
+          "questions": 16,
+          "minutes": 180
+        },
+        {
+          "id": "phys-mock2",
+          "title": "Physics mock exam 2",
+          "questions": 16,
+          "minutes": 180
+        }
+      ],
+      "walkthroughs": [
+        {
+          "id": "phys-ccvx-sample-1",
+          "title": "CCVX sample exam 1 (physics, 2017)",
+          "officialTitle": "CCVX sample exam 1 (physics, 2017)",
+          "year": "2017",
+          "questions": 5
+        },
+        {
+          "id": "phys-ccvx-sample-2",
+          "title": "CCVX sample exam 2 (physics, 2017)",
+          "officialTitle": "CCVX sample exam 2 (physics, 2017)",
+          "year": "2017",
+          "questions": 5
+        },
+        {
+          "id": "phys-cvte-2021-1",
+          "title": "CvTE vwo natuurkunde 2021, tijdvak 1",
+          "officialTitle": "CvTE vwo natuurkunde 2021, tijdvak 1",
+          "year": "2021",
+          "questions": 25
+        },
+        {
+          "id": "phys-cvte-2022-1",
+          "title": "CvTE vwo natuurkunde 2022, tijdvak 1",
+          "officialTitle": "CvTE vwo natuurkunde 2022, tijdvak 1",
+          "year": "2022",
+          "questions": 25
+        },
+        {
+          "id": "phys-cvte-2023-1",
+          "title": "CvTE vwo natuurkunde 2023, tijdvak 1",
+          "officialTitle": "CvTE vwo natuurkunde 2023, tijdvak 1",
+          "year": "2023",
+          "questions": 25
+        },
+        {
+          "id": "phys-cvte-2024-1",
+          "title": "CvTE vwo natuurkunde 2024, tijdvak 1",
+          "officialTitle": "CvTE vwo natuurkunde 2024, tijdvak 1",
+          "year": "2024",
+          "questions": 24
+        },
+        {
+          "id": "phys-cvte-2025-1",
+          "title": "CvTE vwo natuurkunde 2025, tijdvak 1",
+          "officialTitle": "CvTE vwo natuurkunde 2025, tijdvak 1",
+          "year": "2025",
+          "questions": 25
+        }
+      ],
       "counts": {
-        "subdomains": 0,
-        "questions": 0,
-        "mocks": 0,
-        "walkthroughs": 0,
-        "walkthroughQuestions": 0
+        "subdomains": 11,
+        "questions": 129,
+        "mocks": 2,
+        "walkthroughs": 7,
+        "walkthroughQuestions": 134
       },
       "sampleItemId": "phys-p01"
     },
@@ -129,35 +275,35 @@
           "id": "chem-01",
           "title": "sb1–sb5 – Pure Substances and Mixtures",
           "domain": "0",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-02",
           "title": "sb6–sb10 – Elements and Compounds",
           "domain": "0",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-03",
           "title": "sb11 – Atomic Structure",
           "domain": "0",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-04",
           "title": "sb12–sb16 – Reactions",
           "domain": "0",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-05",
           "title": "sb17–sb18 – Acids and Bases",
           "domain": "0",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
@@ -192,327 +338,382 @@
           "id": "chem-a05",
           "title": "A5 – Research",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a06",
           "title": "A6 – Design",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a07",
           "title": "A7 – Modelling",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a08",
           "title": "A8 – Scientific Instruments",
           "domain": "A",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-a09",
           "title": "A9 – Evaluation and Judgment",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a10",
           "title": "A10 – Using Chemical Concepts",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a11",
           "title": "A11 – Reasoning in terms of Context and Concepts",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a12",
           "title": "A12 – Reasoning in terms of Structure and Properties",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a13",
           "title": "A13 – Reasoning about Systems, Change and Energy",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a14",
           "title": "A14 – Reasoning in terms of Sustainability",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-a15",
           "title": "A15 – Reasoning about the Development of Chemical Knowledge",
           "domain": "A",
-          "questions": 0,
+          "questions": 5,
           "free": false
         },
         {
           "id": "chem-b01",
           "title": "B1 – Particle Models",
           "domain": "B",
-          "questions": 0,
+          "questions": 15,
           "free": false
         },
         {
           "id": "chem-b02",
           "title": "B2 – Properties and Models",
           "domain": "B",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-b03",
           "title": "B3 – Bonds and Properties",
           "domain": "B",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-b04",
           "title": "B4 – Bonds, Structures and Properties",
           "domain": "B",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-c01",
           "title": "C1 – Chemical Processes",
           "domain": "C",
-          "questions": 0,
+          "questions": 15,
           "free": false
         },
         {
           "id": "chem-c02",
           "title": "C2 – Chemical Calculations",
           "domain": "C",
-          "questions": 8,
+          "questions": 14,
           "free": true
         },
         {
           "id": "chem-c03",
           "title": "C3 – Laws of Conservation and Cycles",
           "domain": "C",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-c04",
           "title": "C4 – Reaction Kinetics",
           "domain": "C",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-c05",
           "title": "C5 – Chemical Equilibrium",
           "domain": "C",
-          "questions": 0,
+          "questions": 12,
           "free": false
         },
         {
           "id": "chem-c06",
           "title": "C6 – Energy Calculations",
           "domain": "C",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-c07",
           "title": "C7 – Classification of Reactions",
           "domain": "C",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-c08",
           "title": "C8 – Technological Aspects",
           "domain": "C",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-c09",
           "title": "C9 – Quality of Energy",
           "domain": "C",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-c10",
           "title": "C10 – Activation Energy",
           "domain": "C",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-d01",
           "title": "D1 – Chemical Techniques",
           "domain": "D",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-d02",
           "title": "D2 – Safety",
           "domain": "D",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-d03",
           "title": "D3 – Chemical Synthesis",
           "domain": "D",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-d04",
           "title": "D4 – Molecular Modelling",
           "domain": "D",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-e01",
           "title": "E1 – Chemical Research",
           "domain": "E",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-e02",
           "title": "E2 – Selectivity and Specificity",
           "domain": "E",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-e03",
           "title": "E3 – Sustainability",
           "domain": "E",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-e04",
           "title": "E4 – New Materials",
           "domain": "E",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-e05",
           "title": "E5 – Research and Design",
           "domain": "E",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-f01",
           "title": "F1 – Industrial Processes",
           "domain": "F",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-f02",
           "title": "F2 – Green Chemistry",
           "domain": "F",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-f03",
           "title": "F3 – Energy Conversion",
           "domain": "F",
-          "questions": 0,
+          "questions": 10,
           "free": false
         },
         {
           "id": "chem-f04",
           "title": "F4 – Risks and Safety",
           "domain": "F",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-f05",
           "title": "F5 – Sustainable Production Processes",
           "domain": "F",
-          "questions": 0,
+          "questions": 6,
           "free": false
         },
         {
           "id": "chem-g01",
           "title": "G1 – The Chemistry of Life",
           "domain": "G",
-          "questions": 0,
+          "questions": 15,
           "free": false
         },
         {
           "id": "chem-g02",
           "title": "G2 – Environmental Impact Assessment",
           "domain": "G",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-g03",
           "title": "G3 – Energy and Industry",
           "domain": "G",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-g04",
           "title": "G4 – Environmental Requirements",
           "domain": "G",
-          "questions": 0,
+          "questions": 8,
           "free": false
         },
         {
           "id": "chem-g05",
           "title": "G5 – Business Processes",
           "domain": "G",
-          "questions": 0,
+          "questions": 6,
           "free": false
         }
       ],
-      "mocks": [],
+      "mocks": [
+        {
+          "id": "chem-mock1",
+          "title": "Chemistry mock exam 1",
+          "questions": 7,
+          "minutes": 180
+        },
+        {
+          "id": "chem-mock2",
+          "title": "Chemistry mock exam 2",
+          "questions": 7,
+          "minutes": 180
+        }
+      ],
       "walkthroughs": [
         {
           "id": "chem-ccvx-sample-1",
-          "title": "CCVX example exam Chemistry 1",
-          "officialTitle": "CCVX example exam Chemistry 1",
+          "title": "CCVX sample exam 1 (chemistry)",
+          "officialTitle": "CCVX sample exam 1 (chemistry)",
+          "year": "",
+          "questions": 5
+        },
+        {
+          "id": "chem-ccvx-sample-2",
+          "title": "CCVX sample exam 2 (chemistry)",
+          "officialTitle": "CCVX sample exam 2 (chemistry)",
+          "year": "",
+          "questions": 6
+        },
+        {
+          "id": "chem-cvte-2021-1",
+          "title": "CvTE vwo scheikunde 2021, tijdvak 1",
+          "officialTitle": "CvTE vwo scheikunde 2021, tijdvak 1",
+          "year": "2021",
+          "questions": 23
+        },
+        {
+          "id": "chem-cvte-2022-1",
+          "title": "CvTE vwo scheikunde 2022, tijdvak 1",
+          "officialTitle": "CvTE vwo scheikunde 2022, tijdvak 1",
+          "year": "2022",
+          "questions": 24
+        },
+        {
+          "id": "chem-cvte-2023-1",
+          "title": "CvTE vwo scheikunde 2023, tijdvak 1",
+          "officialTitle": "CvTE vwo scheikunde 2023, tijdvak 1",
           "year": "2023",
-          "questions": 2
+          "questions": 25
+        },
+        {
+          "id": "chem-cvte-2024-1",
+          "title": "CvTE vwo scheikunde 2024, tijdvak 1",
+          "officialTitle": "CvTE vwo scheikunde 2024, tijdvak 1",
+          "year": "2024",
+          "questions": 23
+        },
+        {
+          "id": "chem-cvte-2025-1",
+          "title": "CvTE vwo scheikunde 2025, tijdvak 1",
+          "officialTitle": "CvTE vwo scheikunde 2025, tijdvak 1",
+          "year": "2025",
+          "questions": 25
         }
       ],
       "counts": {
         "subdomains": 53,
-        "questions": 8,
-        "mocks": 0,
-        "walkthroughs": 1,
-        "walkthroughQuestions": 2
+        "questions": 395,
+        "mocks": 2,
+        "walkthroughs": 7,
+        "walkthroughQuestions": 131
       },
       "sampleItemId": "chem-c02"
     },
@@ -575,14 +776,14 @@
           "id": "bio-01",
           "title": "Basic Knowledge of Chemistry",
           "domain": "0",
-          "questions": 0,
+          "questions": 24,
           "free": false
         },
         {
           "id": "bio-02",
           "title": "Basic Knowledge of Physics",
           "domain": "0",
-          "questions": 0,
+          "questions": 20,
           "free": false
         },
         {
@@ -701,172 +902,228 @@
           "id": "bio-b01",
           "title": "B1 – Protein Synthesis",
           "domain": "B",
-          "questions": 0,
+          "questions": 38,
           "free": true
         },
         {
           "id": "bio-b02",
           "title": "B2 – Metabolism in Cells",
           "domain": "B",
-          "questions": 0,
+          "questions": 38,
           "free": false
         },
         {
           "id": "bio-b03",
           "title": "B3 – Metabolism in Organisms",
           "domain": "B",
-          "questions": 0,
+          "questions": 36,
           "free": false
         },
         {
           "id": "bio-b04",
           "title": "B4 – Self-Regulation of Organisms",
           "domain": "B",
-          "questions": 0,
+          "questions": 43,
           "free": false
         },
         {
           "id": "bio-b05",
           "title": "B5 – Defence in Organisms",
           "domain": "B",
-          "questions": 0,
+          "questions": 36,
           "free": false
         },
         {
           "id": "bio-b06",
           "title": "B6 – Movement of the Organism",
           "domain": "B",
-          "questions": 0,
+          "questions": 35,
           "free": false
         },
         {
           "id": "bio-b07",
           "title": "B7 – Perception by Organisms",
           "domain": "B",
-          "questions": 0,
+          "questions": 34,
           "free": false
         },
         {
           "id": "bio-b08",
           "title": "B8 – Regulation of Ecosystems",
           "domain": "B",
-          "questions": 0,
+          "questions": 29,
           "free": false
         },
         {
           "id": "bio-c01",
           "title": "C1 – Self-Organization of Cells",
           "domain": "C",
-          "questions": 0,
+          "questions": 30,
           "free": false
         },
         {
           "id": "bio-c02",
           "title": "C2 – Self-Organization of Organisms",
           "domain": "C",
-          "questions": 0,
+          "questions": 37,
           "free": false
         },
         {
           "id": "bio-c03",
           "title": "C3 – Self-Organization of Ecosystems",
           "domain": "C",
-          "questions": 0,
+          "questions": 29,
           "free": false
         },
         {
           "id": "bio-d01",
           "title": "D1 – Molecular Interaction",
           "domain": "D",
-          "questions": 0,
+          "questions": 30,
           "free": false
         },
         {
           "id": "bio-d02",
           "title": "D2 – Cellular Interaction",
           "domain": "D",
-          "questions": 0,
+          "questions": 31,
           "free": false
         },
         {
           "id": "bio-d03",
           "title": "D3 – Behaviour and Interaction",
           "domain": "D",
-          "questions": 0,
+          "questions": 31,
           "free": false
         },
         {
           "id": "bio-d04",
           "title": "D4 – Sexuality",
           "domain": "D",
-          "questions": 0,
+          "questions": 28,
           "free": false
         },
         {
           "id": "bio-d05",
           "title": "D5 – Interaction in Ecosystems",
           "domain": "D",
-          "questions": 0,
+          "questions": 26,
           "free": false
         },
         {
           "id": "bio-e01",
           "title": "E1 – DNA Replication",
           "domain": "E",
-          "questions": 0,
+          "questions": 37,
           "free": false
         },
         {
           "id": "bio-e02",
           "title": "E2 – Cell Life Cycle",
           "domain": "E",
-          "questions": 0,
+          "questions": 29,
           "free": false
         },
         {
           "id": "bio-e03",
           "title": "E3 – Reproduction of Organisms",
           "domain": "E",
-          "questions": 0,
+          "questions": 31,
           "free": false
         },
         {
           "id": "bio-f01",
           "title": "F1 – Selection",
           "domain": "F",
-          "questions": 0,
+          "questions": 27,
           "free": false
         },
         {
           "id": "bio-f02",
           "title": "F2 – Speciation",
           "domain": "F",
-          "questions": 0,
+          "questions": 26,
           "free": false
         },
         {
           "id": "bio-f03",
           "title": "F3 – Biodiversity",
           "domain": "F",
-          "questions": 0,
+          "questions": 24,
           "free": false
         },
         {
           "id": "bio-f04",
           "title": "F4 – The Genesis of Life",
           "domain": "F",
-          "questions": 0,
+          "questions": 25,
           "free": false
         }
       ],
-      "mocks": [],
-      "walkthroughs": [],
+      "mocks": [
+        {
+          "id": "bio-mock1",
+          "title": "Biology mock exam 1",
+          "questions": 32,
+          "minutes": 180
+        },
+        {
+          "id": "bio-mock2",
+          "title": "Biology mock exam 2",
+          "questions": 38,
+          "minutes": 180
+        }
+      ],
+      "walkthroughs": [
+        {
+          "id": "bio-ccvx-sample-exam-walkthrough",
+          "title": "CCVX sample exam, Biology (English)",
+          "officialTitle": "CCVX sample exam, Biology (English)",
+          "year": "",
+          "questions": 19
+        },
+        {
+          "id": "bio-cvte-2022-tv1-walkthrough",
+          "title": "CvTE central exam VWO biologie 2022, tijdvak 1 (English)",
+          "officialTitle": "CvTE central exam VWO biologie 2022, tijdvak 1 (English)",
+          "year": "2022",
+          "questions": 29
+        },
+        {
+          "id": "bio-cvte-2023-tv1-walkthrough",
+          "title": "Dutch central exam (CvTE), VWO Biology 2023, first sitting (tijdvak 1) (English)",
+          "officialTitle": "Dutch central exam (CvTE), VWO Biology 2023, first sitting (tijdvak 1) (English)",
+          "year": "2023",
+          "questions": 30
+        },
+        {
+          "id": "bio-cvte-2024-tv1-walkthrough",
+          "title": "CvTE central exam VWO Biology 2024, tijdvak 1 (English)",
+          "officialTitle": "CvTE central exam VWO Biology 2024, tijdvak 1 (English)",
+          "year": "2024",
+          "questions": 31
+        },
+        {
+          "id": "bio-cvte-2025-tv1-walkthrough",
+          "title": "Dutch central exam (CvTE) VWO Biology, 2025 tijdvak 1 (English)",
+          "officialTitle": "Dutch central exam (CvTE) VWO Biology, 2025 tijdvak 1 (English)",
+          "year": "2025",
+          "questions": 31
+        },
+        {
+          "id": "bio-cvte-2026-tv1-walkthrough",
+          "title": "CvTE central exam VWO Biology, 2026 tijdvak 1",
+          "officialTitle": "CvTE central exam VWO Biology, 2026 tijdvak 1",
+          "year": "2026",
+          "questions": 31
+        }
+      ],
       "counts": {
         "subdomains": 41,
-        "questions": 0,
-        "mocks": 0,
-        "walkthroughs": 0,
-        "walkthroughQuestions": 0
+        "questions": 774,
+        "mocks": 2,
+        "walkthroughs": 6,
+        "walkthroughQuestions": 171
       },
       "sampleItemId": "bio-b01"
     },
@@ -877,7 +1134,7 @@
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_matha_once",
-      "ready": false,
+      "ready": true,
       "exams": [
         {
           "label": "Monday 14 December 2026",
@@ -894,16 +1151,232 @@
       ],
       "registrationDeadline": null,
       "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
-      "domains": [],
-      "subdomains": [],
-      "mocks": [],
-      "walkthroughs": [],
+      "domains": [
+        {
+          "id": "A",
+          "name": "Domain A"
+        }
+      ],
+      "subdomains": [
+        {
+          "id": "matha-a01",
+          "title": "A1 – Numbers and algebra",
+          "domain": "A",
+          "questions": 10,
+          "free": true
+        },
+        {
+          "id": "matha-a02",
+          "title": "A2 – Linear relations",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a03",
+          "title": "A3 – Power and quadratic relations",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a04",
+          "title": "A4 – Exponential growth",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a05",
+          "title": "A5 – Logarithms",
+          "domain": "A",
+          "questions": 9,
+          "free": false
+        },
+        {
+          "id": "matha-a06",
+          "title": "A6 – Differentiation",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a07",
+          "title": "A7 – Applications of the derivative",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a08",
+          "title": "A8 – Sequences",
+          "domain": "A",
+          "questions": 9,
+          "free": false
+        },
+        {
+          "id": "matha-a09",
+          "title": "A9 – Sine functions",
+          "domain": "A",
+          "questions": 8,
+          "free": false
+        },
+        {
+          "id": "matha-a10",
+          "title": "A10 – Descriptive statistics",
+          "domain": "A",
+          "questions": 8,
+          "free": false
+        },
+        {
+          "id": "matha-a11",
+          "title": "A11 – Systematic counting",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a12",
+          "title": "A12 – Probability",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a13",
+          "title": "A13 – Random variables",
+          "domain": "A",
+          "questions": 9,
+          "free": false
+        },
+        {
+          "id": "matha-a14",
+          "title": "A14 – The binomial distribution",
+          "domain": "A",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "matha-a15",
+          "title": "A15 – The normal distribution",
+          "domain": "A",
+          "questions": 9,
+          "free": false
+        },
+        {
+          "id": "matha-a16",
+          "title": "A16 – Hypothesis testing",
+          "domain": "A",
+          "questions": 8,
+          "free": false
+        }
+      ],
+      "mocks": [
+        {
+          "id": "matha-mock1",
+          "title": "Mathematics A mock exam 1",
+          "questions": 19,
+          "minutes": 180
+        },
+        {
+          "id": "matha-mock2",
+          "title": "Mathematics A mock exam 2",
+          "questions": 20,
+          "minutes": 180
+        }
+      ],
+      "walkthroughs": [
+        {
+          "id": "matha-ccvx-wiskunde-A-2025-04-17-walkthrough",
+          "title": "Tentamen Wiskunde A, 17 April 2025 (CCVX sample exam A 20)",
+          "officialTitle": "Tentamen Wiskunde A of 17 April 2025, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde A 20*.",
+          "year": "2025",
+          "questions": 18
+        },
+        {
+          "id": "matha-ccvx-wiskunde-A-2025-07-21-walkthrough",
+          "title": "Tentamen Wiskunde A, 21 July 2025 (CCVX sample exam A 21)",
+          "officialTitle": "Tentamen Wiskunde A of 21 July 2025, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde A 21*.",
+          "year": "2025",
+          "questions": 18
+        },
+        {
+          "id": "matha-ccvx-wiskunde-A-2025-12-15-walkthrough",
+          "title": "Tentamen Wiskunde A, 15 December 2025 (CCVX sample exam A 22)",
+          "officialTitle": "Tentamen Wiskunde A of 15 December 2025, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde A 22*.",
+          "year": "2025",
+          "questions": 19
+        },
+        {
+          "id": "matha-ccvx-wiskunde-A-2026-04-17-walkthrough",
+          "title": "Tentamen Wiskunde A, 17 April 2026 (CCVX sample exam A 23)",
+          "officialTitle": "Tentamen Wiskunde A of 17 April 2026, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde A 23*.",
+          "year": "2026",
+          "questions": 20
+        },
+        {
+          "id": "matha-ccvx-wiskunde-A-2026-07-20-walkthrough",
+          "title": "Tentamen Wiskunde A, 20 July 2026 (CCVX sample exam A 24)",
+          "officialTitle": "Tentamen Wiskunde A of 20 July 2026, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde A 24*.",
+          "year": "2026",
+          "questions": 16
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-A-2025-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde A, 2025 tijdvak 1 (May 2025)",
+          "officialTitle": "VWO wiskunde A, centraal examen 2025 period 1, college code VW-1024-a-25-1-o.",
+          "year": "2025",
+          "questions": 23
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-A-2026-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde A, 2026 tijdvak 1 (May 2026)",
+          "officialTitle": "VWO wiskunde A, centraal examen 2026 period 1, college code VW-1024-a-26-1-o.",
+          "year": "2026",
+          "questions": 20
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-C-2022-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde C, 2022 tijdvak 1 — supplementary practice for wiskunde A students (topics overlap)",
+          "officialTitle": "VWO wiskunde C, centraal examen 2022 period 1, college code VW-1026-a-22-1-o.",
+          "year": "2022",
+          "questions": 21
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-C-2023-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde C, 2023 tijdvak 1 — supplementary practice for wiskunde A students (topics overlap)",
+          "officialTitle": "VWO wiskunde C, centraal examen 2023 period 1, college code VW-1026-a-23-1-o.",
+          "year": "2023",
+          "questions": 22
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-C-2024-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde C, 2024 tijdvak 1 — supplementary practice for wiskunde A students (topics overlap)",
+          "officialTitle": "VWO wiskunde C, centraal examen 2024 period 1, college code VW-1026-a-24-1-o.",
+          "year": "2024",
+          "questions": 24
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-C-2025-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde C, 2025 tijdvak 1 — supplementary practice for wiskunde A students (topics overlap)",
+          "officialTitle": "VWO wiskunde C, centraal examen 2025 period 1, college code VW-1026-a-25-1-o.",
+          "year": "2025",
+          "questions": 24
+        },
+        {
+          "id": "matha-cvte-vwo-wiskunde-C-2026-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde C, 2026 tijdvak 1 — supplementary practice for wiskunde A students (topics overlap)",
+          "officialTitle": "VWO wiskunde C, centraal examen 2026 period 1, college code VW-1026-a-26-1-o.",
+          "year": "2026",
+          "questions": 23
+        }
+      ],
       "counts": {
-        "subdomains": 0,
-        "questions": 0,
-        "mocks": 0,
-        "walkthroughs": 0,
-        "walkthroughQuestions": 0
+        "subdomains": 16,
+        "questions": 150,
+        "mocks": 2,
+        "walkthroughs": 12,
+        "walkthroughQuestions": 248
       },
       "sampleItemId": "matha-a01"
     },
@@ -914,7 +1387,7 @@
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_mathb_once",
-      "ready": false,
+      "ready": true,
       "exams": [
         {
           "label": "Tuesday 15 December 2026",
@@ -931,16 +1404,204 @@
       ],
       "registrationDeadline": null,
       "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
-      "domains": [],
-      "subdomains": [],
-      "mocks": [],
-      "walkthroughs": [],
+      "domains": [
+        {
+          "id": "B",
+          "name": "Domain B"
+        }
+      ],
+      "subdomains": [
+        {
+          "id": "mathb-b01",
+          "title": "B1 – Algebraic skills",
+          "domain": "B",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "mathb-b02",
+          "title": "B2 – Functions and graphs",
+          "domain": "B",
+          "questions": 9,
+          "free": false
+        },
+        {
+          "id": "mathb-b03",
+          "title": "B3 – Power and root functions",
+          "domain": "B",
+          "questions": 9,
+          "free": true
+        },
+        {
+          "id": "mathb-b04",
+          "title": "B4 – Exponential and logarithmic functions",
+          "domain": "B",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "mathb-b05",
+          "title": "B5 – Trigonometry",
+          "domain": "B",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "mathb-b06",
+          "title": "B6 – Trigonometric functions",
+          "domain": "B",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "mathb-b07",
+          "title": "B7 – Differentiation",
+          "domain": "B",
+          "questions": 10,
+          "free": false
+        },
+        {
+          "id": "mathb-b08",
+          "title": "B8 – Function investigation: limits, asymptotes, extrema",
+          "domain": "B",
+          "questions": 11,
+          "free": false
+        },
+        {
+          "id": "mathb-b09",
+          "title": "B9 – Integration",
+          "domain": "B",
+          "questions": 11,
+          "free": false
+        },
+        {
+          "id": "mathb-b10",
+          "title": "B10 – Lines and distances (coordinate geometry)",
+          "domain": "B",
+          "questions": 8,
+          "free": false
+        },
+        {
+          "id": "mathb-b11",
+          "title": "B11 – Triangle geometry",
+          "domain": "B",
+          "questions": 8,
+          "free": false
+        },
+        {
+          "id": "mathb-b12",
+          "title": "B12 – Vectors",
+          "domain": "B",
+          "questions": 8,
+          "free": false
+        },
+        {
+          "id": "mathb-b13",
+          "title": "B13 – Circle geometry",
+          "domain": "B",
+          "questions": 9,
+          "free": false
+        },
+        {
+          "id": "mathb-b14",
+          "title": "B14 – Parametric curves (motion equations)",
+          "domain": "B",
+          "questions": 8,
+          "free": false
+        }
+      ],
+      "mocks": [
+        {
+          "id": "mathb-mock1",
+          "title": "Mathematics B mock exam 1",
+          "questions": 19,
+          "minutes": 180
+        },
+        {
+          "id": "mathb-mock2",
+          "title": "Mathematics B mock exam 2",
+          "questions": 21,
+          "minutes": 180
+        }
+      ],
+      "walkthroughs": [
+        {
+          "id": "mathb-ccvx-wiskunde-B-2025-04-22-walkthrough",
+          "title": "Tentamen Wiskunde B, 22 April 2025 (CCVX sample exam B 20)",
+          "officialTitle": "Tentamen Wiskunde B of 22 April 2025, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde B 20*.",
+          "year": "2025",
+          "questions": 15
+        },
+        {
+          "id": "mathb-ccvx-wiskunde-B-2025-07-22-walkthrough",
+          "title": "Tentamen Wiskunde B, 22 July 2025 (CCVX sample exam B 21)",
+          "officialTitle": "Tentamen Wiskunde B of 22 July 2025, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde B 21*.",
+          "year": "2025",
+          "questions": 14
+        },
+        {
+          "id": "mathb-ccvx-wiskunde-B-2025-12-16-walkthrough",
+          "title": "Tentamen Wiskunde B, 16 December 2025 (CCVX sample exam B 22)",
+          "officialTitle": "Tentamen Wiskunde B of 16 December 2025, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde B 22*.",
+          "year": "2025",
+          "questions": 14
+        },
+        {
+          "id": "mathb-ccvx-wiskunde-B-2026-04-20-walkthrough",
+          "title": "Tentamen Wiskunde B, 20 April 2026 (CCVX sample exam B 23)",
+          "officialTitle": "Tentamen Wiskunde B of 20 April 2026, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde B 23*.",
+          "year": "2026",
+          "questions": 16
+        },
+        {
+          "id": "mathb-ccvx-wiskunde-B-2026-07-21-walkthrough",
+          "title": "Tentamen Wiskunde B, 21 July 2026 (CCVX sample exam B 24)",
+          "officialTitle": "Tentamen Wiskunde B of 21 July 2026, published by the Centrale Commissies Voortentamen as *Voorbeeldtentamen wiskunde B 24*.",
+          "year": "2026",
+          "questions": 16
+        },
+        {
+          "id": "mathb-cvte-vwo-wiskunde-B-2022-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde B, 2022 tijdvak 1 (20 May 2022)",
+          "officialTitle": "VWO wiskunde B, centraal examen 2022 period 1 (with answer sheet), college code VW-1025-a-22-1-o.",
+          "year": "2022",
+          "questions": 17
+        },
+        {
+          "id": "mathb-cvte-vwo-wiskunde-B-2023-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde B, 2023 tijdvak 1 (11 May 2023)",
+          "officialTitle": "VWO wiskunde B, centraal examen 2023 period 1, college code VW-1025-a-23-1-o.",
+          "year": "2023",
+          "questions": 19
+        },
+        {
+          "id": "mathb-cvte-vwo-wiskunde-B-2024-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde B, 2024 tijdvak 1 (May 2024)",
+          "officialTitle": "VWO wiskunde B, centraal examen 2024 period 1, college code VW-1025-a-24-1-o.",
+          "year": "2024",
+          "questions": 18
+        },
+        {
+          "id": "mathb-cvte-vwo-wiskunde-B-2025-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde B, 2025 tijdvak 1 (May 2025)",
+          "officialTitle": "VWO wiskunde B, centraal examen 2025 period 1, college code VW-1025-a-25-1-o.",
+          "year": "2025",
+          "questions": 18
+        },
+        {
+          "id": "mathb-cvte-vwo-wiskunde-B-2026-tijdvak-1-walkthrough",
+          "title": "CvTE VWO examen wiskunde B, 2026 tijdvak 1 (13 May 2026)",
+          "officialTitle": "VWO wiskunde B, centraal examen 2026 period 1 (13 May 2026), college code VW-1025-a-26-1-o.",
+          "year": "2026",
+          "questions": 17
+        }
+      ],
       "counts": {
-        "subdomains": 0,
-        "questions": 0,
-        "mocks": 0,
-        "walkthroughs": 0,
-        "walkthroughQuestions": 0
+        "subdomains": 14,
+        "questions": 131,
+        "mocks": 2,
+        "walkthroughs": 10,
+        "walkthroughQuestions": 164
       },
       "sampleItemId": "mathb-b03"
     }

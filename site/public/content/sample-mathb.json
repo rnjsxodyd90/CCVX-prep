@@ -1,0 +1,90 @@
+{
+  "subject": "mathb",
+  "itemId": "mathb-b03",
+  "title": "B3 – Power and root functions",
+  "outcomesHtml": "<p>The candidate can:</p>\n<ol>\n<li>Work with powers (<em>machten</em>): know the special exponents a¹ = a, a⁰ = 1 (a ≠ 0), a⁻ⁿ = 1/aⁿ (a ≠ 0) and a^(1/n) = the n-th root of a (a ≥ 0 for even n), and apply the power rules (<em>rekenregels voor machten</em>):<ul>\n<li>aᵐ · aⁿ = aᵐ⁺ⁿ;</li>\n<li>aᵐ/aⁿ = aᵐ⁻ⁿ;</li>\n<li>(aᵐ)ⁿ = aᵐⁿ;</li>\n<li>(a·b)ⁿ = aⁿ · bⁿ and (a/b)ⁿ = aⁿ/bⁿ;</li>\n<li>knowing that (a + b)² ≠ a² + b².</li>\n</ul>\n</li>\n<li>Draw and recognise the graphs of the power functions (<em>machtsfuncties</em>) f(x) = xⁿ with rational n, and describe their behaviour: symmetry, vertices and limits.</li>\n<li>Use the constant function f(x) = c and the linear function (<em>eerstegraads functie</em>) f(x) = ax + b with its straight-line graph.</li>\n<li>Analyse quadratic functions (<em>tweedegraads functies</em>) f(x) = ax² + bx + c:<ul>\n<li>the graph is a parabola with axis of symmetry (<em>symmetrieas</em>) x = −b/(2a);</li>\n<li>opening upwards (<em>dalparabool</em>) for a &gt; 0, downwards (<em>bergparabool</em>) for a &lt; 0;</li>\n<li>the number of x-intercepts follows from the discriminant (<em>discriminant</em>) D = b² − 4ac;</li>\n<li>the vertex is a minimum of a <em>dalparabool</em> and a maximum of a <em>bergparabool</em>.</li>\n</ul>\n</li>\n<li>Use the root functions (<em>wortelfuncties</em>): f(x) = √x = x^(1/2), the inverse of x² for x ≥ 0, with domain x ≥ 0 and range y ≥ 0 (a half sideways parabola), and f(x) = ∛x = x^(1/3), the inverse of x³, with domain and range <strong>R</strong>.</li>\n<li>Combine the power rules with these functions: simplify expressions, solve power and root equations, and compare growth of different power functions.</li>\n</ol>",
+  "notesHtml": "<h1>B3 — Power and root functions: notes</h1>\n<p>English notes on the learning outcomes in README.md. Dutch terms are in brackets and italics.</p>\n<h2>1. Powers and their rules</h2>\n<ul>\n<li>aⁿ is a <em>power</em> (<em>macht</em>) with base (<em>grondtal</em>) a and exponent (<em>exponent</em>) n; n is rational in this syllabus.</li>\n<li>Special exponents: a¹ = a; a⁰ = 1 for a ≠ 0; a⁻ⁿ = 1/aⁿ = (1/a)ⁿ for a ≠ 0 (so a⁻¹ = 1/a); a^(1/n) = ⁿ√a, the n-th root of a (n = 2, 3, 4, …); for even n both a ≥ 0 and ⁿ√a ≥ 0. In particular a^(1/2) = √a.</li>\n<li>Rational exponents mix both: a^(m/n) = (ⁿ√a)ᵐ = ⁿ√(aᵐ).</li>\n<li>The rules: aᵐ·aⁿ = aᵐ⁺ⁿ (add exponents on multiplication); aᵐ/aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; (a·b)ⁿ = aⁿbⁿ; (a/b)ⁿ = aⁿ/bⁿ.</li>\n<li>The classic trap: (a + b)² ≠ a² + b² — there is <strong>no</strong> sum rule for powers.</li>\n<li>Roots as powers make root algebra much easier: √x · ∛x = x^(1/2)·x^(1/3) = x^(5/6).</li>\n</ul>\n<h2>2. Power functions</h2>\n<ul>\n<li>f(x) = xⁿ. For even n ≥ 2: y-axis symmetry, vertex (0,0) is a minimum, y → ∞ as x → ±∞. For odd n ≥ 3: point symmetry in (0,0), increasing through (0,0) with a horizontal tangent there.</li>\n<li>Negative exponent: f(x) = x⁻¹ = 1/x has vertical asymptote x = 0 and horizontal asymptote y = 0 (see B08).</li>\n<li>Comparing growth: between two power functions, the one with the larger exponent eventually wins: x⁴ overtakes 100x² for x &gt; 10.</li>\n</ul>\n<h2>3. Constant and linear functions</h2>\n<ul>\n<li>f(x) = c is the constant function — a horizontal line (it is c·x⁰).</li>\n<li>f(x) = ax + b is linear (<em>eerstegraads</em>); the graph is the line y = ax + b with slope a and y-intercept b.</li>\n</ul>\n<h2>4. Quadratic functions</h2>\n<ul>\n<li>f(x) = ax² + bx + c, a ≠ 0: a parabola (<em>parabool</em>), opening upwards (<em>dalparabool</em>) for a &gt; 0 and downwards (<em>bergparabool</em>) for a &lt; 0.</li>\n<li>Axis of symmetry (<em>symmetrieas</em>): x = −b/(2a); the vertex (<em>top</em>) lies on it and is a minimum (dalparabool) or maximum (bergparabool).</li>\n<li>The x-intercepts come from the quadratic formula; their number is set by D = b² − 4ac: two (D &gt; 0), one touching (D = 0), none (D &lt; 0).</li>\n<li>Completing the square (<em>kwadraat afsplitsen</em>) rewrites ax² + bx + c as a(x − p)² + q with (p, q) the vertex: x² + 6x + 5 = (x + 3)² − 9 + 5 = (x + 3)² − 4, vertex (−3, −4). This technique is needed again for circle equations in B13.</li>\n</ul>\n<h2>5. Root functions</h2>\n<ul>\n<li>f(x) = √x = x^(1/2): inverse of x² for x ≥ 0; domain x ≥ 0, range y ≥ 0; the graph is the upper half of the sideways parabola y² = x; it starts at (0,0) with a vertical tangent and is decreasingly increasing.</li>\n<li>f(x) = ∛x = x^(1/3): inverse of x³; domain and range <strong>R</strong>; point symmetry in (0,0).</li>\n<li>General shifted root functions like f(x) = 2 + √(x − 3): starting point (translated vertex) (3, 2), domain x ≥ 3, range y ≥ 2.</li>\n</ul>\n<h2>6. Equations</h2>\n<ul>\n<li>Powers: xⁿ = a — see B01 for exact solving and substitution techniques (x⁴ − 5x² + 4 = 0 via y = x²).</li>\n<li>Mixed powers: x³·x^(1/2) = x^(7/2); x⁵/x² = x³; (x²)³ = x⁶.</li>\n<li>Roots: isolate, square (check conditions!), verify. A root function can meet a line in 0, 1 or 2 points; after squaring, check every candidate in the original equation.</li>\n</ul>\n<h2>Worked examples</h2>\n<p>Fully worked examples for the outcomes in README.md. All examples are original.</p>\n<h2>Example 1 — power arithmetic</h2>\n<p>Simplify to one power of x: (a) x⁶ · x⁻²; (b) (x³)²/x⁴; (c) √x · x³ · x^(1/2).</p>\n<p><strong>Solution.</strong> (a) x⁶⁻² = x⁴. (b) x⁶/x⁴ = x². (c) x^(1/2) · x³ · x^(1/2) = x^(1/2+3+1/2) = x⁴.</p>\n<h2>Example 2 — vertex via axis of symmetry and via completing the square</h2>\n<p>Find the vertex of the parabola y = 2x² − 8x + 5.</p>\n<p><strong>Solution.</strong> Axis of symmetry: x = −(−8)/(2·2) = 2; y(2) = 8 − 16 + 5 = −3, so the vertex is (2, −3). Check by completing the square: 2(x² − 4x) + 5 = 2((x − 2)² − 4) + 5 = 2(x − 2)² − 8 + 5 = 2(x − 2)² − 3. Vertex (2, −3), dalparabool (a = 2 &gt; 0), minimum value −3.</p>\n<h2>Example 3 — intercepts and discriminant</h2>\n<p>How many intersections with the x-axis does y = 3x² − 2x + 4 have? And y = x² − 6x + 9?</p>\n<p><strong>Solution.</strong> First: D = (−2)² − 4·3·4 = 4 − 48 = −44 &lt; 0: none (the parabola lies entirely above the x-axis, as a = 3 &gt; 0). Second: D = 36 − 36 = 0: exactly one, a touching point, x = 3 (indeed (x − 3)²).</p>\n<h2>Example 4 — root function analysis</h2>\n<p>Give the starting point, domain and range of f(x) = −1 + 2√(x − 4), and compute f(8) and f(13).</p>\n<p><strong>Solution.</strong> Start point (4, −1); domain x ≥ 4; the coefficient 2 &gt; 0, so range y ≥ −1. f(8) = −1 + 2√4 = 3; f(13) = −1 + 2·3 = 5.</p>\n<h2>Example 5 — line meets root graph</h2>\n<p>Compute the intersections of y = x − 2 and y = √(x + 4) − 2.</p>\n<p><strong>Solution.</strong> x − 2 = √(x + 4) − 2 ⇔ x = √(x + 4). Square (both sides must be ≥ 0, so x ≥ 0): x² = x + 4 ⇔ x² − x − 4 = 0 ⇔ x = (1 ± √17)/2. Only x = (1 + √17)/2 ≈ 2.56 satisfies x ≥ 0; the other is negative. Then y = x − 2 = (√17 − 3)/2. One intersection: ((1 + √17)/2, (√17 − 3)/2).</p>\n<h2>Example 6 — comparing growth</h2>\n<p>For which x &gt; 0 does x³ exceed 10x²?</p>\n<p><strong>Solution.</strong> x³ &gt; 10x² ⇔ x²(x − 10) &gt; 0. Since x² &gt; 0 for x ≠ 0, this ⇔ x &gt; 10.</p>",
+  "questions": [
+    {
+      "id": "mathb-b03-q01",
+      "points": 2,
+      "outcome": "o1",
+      "difficulty": "easy",
+      "questionHtml": "<p>Simplify to one power of each letter: (x² y⁻¹)³ · y⁴.</p>",
+      "answerHtml": "<p>x⁶y</p>",
+      "solutionHtml": "<p>(x²)³ · (y⁻¹)³ · y⁴ = x⁶ · y⁻³ · y⁴ = x⁶ y¹ = x⁶y.</p>"
+    },
+    {
+      "id": "mathb-b03-q02",
+      "points": 3,
+      "outcome": "o1",
+      "difficulty": "easy",
+      "questionHtml": "<p>Compute exactly: (a) 27^(2/3); (b) 16^(−3/4).</p>",
+      "answerHtml": "<p>(a) 9; (b) 1/8</p>",
+      "solutionHtml": "<p>(a) 27^(2/3) = (27^(1/3))² = 3² = 9. (b) 16^(−3/4) = (16^(1/4))⁻³ = 2⁻³ = 1/8.</p>"
+    },
+    {
+      "id": "mathb-b03-q03",
+      "points": 3,
+      "outcome": "o4",
+      "difficulty": "easy",
+      "questionHtml": "<p>Find the vertex of the parabola y = −3x² + 12x − 7 and state whether it is a minimum or a maximum.</p>",
+      "answerHtml": "<p>Vertex (2, 5), a maximum of 5</p>",
+      "solutionHtml": "<p>Axis of symmetry: x = −b/(2a) = −12/(−6) = 2. y(2) = −12 + 24 − 7 = 5. Since a = −3 &lt; 0 it is a <em>bergparabool</em>, so the vertex (2, 5) gives the maximum value 5.</p>"
+    },
+    {
+      "id": "mathb-b03-q04",
+      "points": 4,
+      "outcome": "o4",
+      "difficulty": "medium",
+      "questionHtml": "<p>a. Write y = x² − 10x + 28 in the form (x − p)² + q and give the vertex.</p>\n<p>b. How many x-intercepts does the parabola have? Justify your answer.</p>",
+      "answerHtml": "<p>a. (x − 5)² + 3, vertex (5, 3); b. none</p>",
+      "solutionHtml": "<p>a. x² − 10x = (x − 5)² − 25, so y = (x − 5)² + 3; vertex (5, 3). b. The minimum value is 3 &gt; 0, so no x-intercepts. Check with D: 100 − 112 = −12 &lt; 0. ✓</p>"
+    },
+    {
+      "id": "mathb-b03-q05",
+      "points": 3,
+      "outcome": "o6",
+      "difficulty": "medium",
+      "questionHtml": "<p>Solve: √(3x + 1) = x − 1.</p>",
+      "answerHtml": "<p>x = 5</p>",
+      "solutionHtml": "<p>Need x ≥ 1. Square: 3x + 1 = x² − 2x + 1 ⇔ x² − 5x = 0 ⇔ x(x − 5) = 0 ⇔ x = 0 or x = 5. Only x = 5 satisfies x ≥ 1. Check: √16 = 4 = 5 − 1 ✓. (x = 0 gives √1 = 1 ≠ −1.)</p>"
+    },
+    {
+      "id": "mathb-b03-q06",
+      "points": 4,
+      "outcome": "o6",
+      "difficulty": "medium",
+      "questionHtml": "<p>Compute the intersection(s) of the line y = 2x − 3 and the graph of y = √x.</p>",
+      "answerHtml": "<p>One intersection: (9/4, 3/2)</p>",
+      "solutionHtml": "<p>√x = 2x − 3 needs 2x − 3 ≥ 0, so x ≥ 3/2. Square: x = 4x² − 12x + 9 ⇔ 4x² − 13x + 9 = 0. D = 169 − 144 = 25, x = (13 ± 5)/8, so x = 9/4 or x = 1. Only x = 9/4 ≥ 3/2; then y = 2·(9/4) − 3 = 3/2. Check: √(9/4) = 3/2 ✓. So one intersection: (9/4, 3/2).</p>"
+    },
+    {
+      "id": "mathb-b03-q07",
+      "points": 4,
+      "outcome": "o5",
+      "difficulty": "medium",
+      "questionHtml": "<p>Given f(x) = 3 − √(2 − x).</p>\n<p>a. Give the starting point of the graph.</p>\n<p>b. Give the domain and range.</p>\n<p>c. Describe the shape of the graph (direction of opening, rising or falling).</p>",
+      "answerHtml": "<p>a. (2, 3); b. domain x ≤ 2, range y ≤ 3; c. lower half of a sideways parabola opening to the left, falling as you move left</p>",
+      "solutionHtml": "<p>a. The root expression vanishes at x = 2, and f(2) = 3: starting point (2, 3). b. Need 2 − x ≥ 0, so domain x ≤ 2; √ ≥ 0, so f(x) ≤ 3, range y ≤ 3. c. The minus sign reflects the root graph in the x-axis, so from (2, 3) the graph runs to the left and downwards: moving left from x = 2 the root grows, so f falls. It is the lower half of the sideways parabola (y − 3)² = 2 − x, opening to the left.</p>"
+    },
+    {
+      "id": "mathb-b03-q08",
+      "points": 3,
+      "outcome": "o6",
+      "difficulty": "hard",
+      "questionHtml": "<p>Solve: x⁴ &gt; 4x².</p>",
+      "answerHtml": "<p>x &lt; −2 ∨ x &gt; 2</p>",
+      "solutionHtml": "<p>Factor instead of dividing by x² (which would hide the special case x = 0): x⁴ − 4x² &gt; 0 ⇔ x²(x² − 4) &gt; 0 ⇔ x²(x − 2)(x + 2) &gt; 0. The zeros of the left side are −2, 0, 2; x² is never negative, and (x − 2)(x + 2) &gt; 0 for x &lt; −2 or x &gt; 2. At x = 0 the left side is 0, not &gt; 0. So x &lt; −2 ∨ x &gt; 2.</p>"
+    },
+    {
+      "id": "mathb-b03-q09",
+      "points": 4,
+      "outcome": "o3",
+      "difficulty": "medium",
+      "questionHtml": "<p>The edge s of a cube and its volume V satisfy V = s³.</p>\n<p>a. Express s in terms of V.</p>\n<p>b. The volume of a cube is tripled. By what exact factor does its edge change, and by what percentage (1 decimal)?</p>",
+      "answerHtml": "<p>a. s = ∛V; b. factor ∛3 ≈ 1.442, i.e. +44.2%</p>",
+      "solutionHtml": "<p>a. s = ∛V = V^(1/3). b. New edge s′ = ∛(3V) = ∛3 · ∛V = ∛3 · s, so the factor is ∛3 ≈ 1.442, an increase of about 44.2%.</p>"
+    }
+  ]
+}

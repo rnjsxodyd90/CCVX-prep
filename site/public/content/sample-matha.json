@@ -1,0 +1,99 @@
+{
+  "subject": "matha",
+  "itemId": "matha-a01",
+  "title": "A1 – Numbers and algebra",
+  "outcomesHtml": "<p>The candidate can:</p>\n<ol>\n<li>Compute with percentages and percentage change: (new − old)/old × 100%, in both directions; use scientific notation (wetenschappelijke notatie), e.g. 0.0000123 = 1.23 × 10⁻⁵.</li>\n<li>Compute with fractions: adding and subtracting (with common denominators), multiplying, simplifying, dividing (a / (b/c) = a·c/b); use ratios with a ratio table — the cross products are equal.</li>\n<li>Compute with variables (<em>rekenen met variabelen</em>): expand brackets, and isolate a variable (<em>variabelen vrijmaken</em>), e.g. from y = 1/(x + 1) to x = 1/y − 1.</li>\n<li>Compute with units consistently, converting between them (km/h, m/s, per-minute rates).</li>\n<li>Work with powers and roots (<em>machten en wortels</em>): aⁿ with rational n; the n-th root of a; the special exponents a¹ = a, a⁰ = 1 (a ≠ 0), a⁻ⁿ = 1/aⁿ and a^(1/n) = ⁿ√a (a ≥ 0 for even n); and the power rules aᵐ·aⁿ = aᵐ⁺ⁿ, aᵐ/aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ, (ab)ⁿ = aⁿbⁿ, (a/b)ⁿ = aⁿ/bⁿ, knowing that (a + b)² ≠ a² + b².</li>\n<li>Solve the standard equations of the syllabus, exactly:<ul>\n<li>linear: ax + b = px + q;</li>\n<li>quadratic: ax² + bx + c = 0, with the quadratic formula (formula sheet) or factoring;</li>\n<li>power equations: xⁿ = a with even n (x = ±ⁿ√a, a ≥ 0) or odd n (x = ⁿ√a); xⁿ = a ⇔ x = a^(1/n);</li>\n<li>root equations: √x = a ⇔ x = a² with x, a ≥ 0;</li>\n<li>exponential equations gˣ = a ⇔ x = ᵍlog(a) (logarithms in A05).</li>\n</ul>\n</li>\n<li>Solve inequalities, computing the intersection points of the graphs algebraically.</li>\n<li>Solve systems of two linear equations by elimination and/or substitution; split equations (A·B = 0 ⇔ A = 0 ∨ B = 0; A² = B² ⇔ A = ±B; A·B = A·C ⇔ A = 0 ∨ B = C); factor out; cross-multiply (A/B = C/D ⇔ AD = BC ∧ BD ≠ 0); substitute formulas into formulas with correct brackets.</li>\n</ol>",
+  "notesHtml": "<h1>A1 — Numbers and algebra: notes</h1>\n<p>English notes on the learning outcomes in README.md. Dutch terms are in brackets and italics. In the exam all computation is algebraic: leave answers exact (fractions, roots) unless a rounding is asked.</p>\n<h2>1. Percentages and scientific notation</h2>\n<ul>\n<li>Percentage change: (new − old)/old × 100%. New from percentage: new = old × (1 ± p/100). Backwards: old = new / (1 ± p/100) — do not just subtract the percentage of the <em>new</em> price.</li>\n<li>Chain percentage changes multiply: +10% then −10% gives ×1.10 × 0.90 = 0.99, a 1% loss.</li>\n<li>Scientific notation (<em>wetenschappelijke notatie</em>): a × 10ⁿ with 1 ≤ a &lt; 10. 0.0000123 = 1.23 × 10⁻⁵; 4.7 million = 4.7 × 10⁶. Calculators show 1.23ᴱ−5.</li>\n</ul>\n<h2>2. Fractions and ratios</h2>\n<ul>\n<li>Add via the common denominator: 2/3 + 3/4 = 8/12 + 9/12 = 17/12. Multiply: numerators × numerators. Divide: multiply by the reciprocal. Simplify before computing when you can cross-cancel.</li>\n<li>Ratio table (<em>verhoudingstabel</em>): equal ratios give equal cross products: if 5 muffins cost €3.75, then 1 costs €0.75 and 12 cost €9. Cross-multiplying is the same idea for equations: A/B = C/D ⇔ AD = BC (with BD ≠ 0).</li>\n<li>Keep exact fractions as long as possible; convert to decimals only at the end.</li>\n</ul>\n<h2>3. Variables and brackets</h2>\n<ul>\n<li>Expand: (a + b)(c + d) = ac + ad + bc + bd. Watch signs with a minus before brackets: −(e − f) = −e + f.</li>\n<li>Isolate a variable: y = 1/(x + 1) ⇔ x + 1 = 1/y ⇔ x = 1/y − 1 (valid for y ≠ 0, x ≠ −1).</li>\n<li>Substitute formulas with <strong>brackets</strong>: if r = p·q and p = 50 − 2q, then r = (50 − 2q)·q = 50q − 2q².</li>\n</ul>\n<h2>4. Units</h2>\n<ul>\n<li>Convert between rates by multiplying by 1 in disguise: 12 km per 5 minutes = 2.4 km/min = 40 m/s = 144 km/h (× 1000/1000 and × 60/60 consciously).</li>\n<li>Check plausibility: a car doing 900 km/h signals a unit slip.</li>\n</ul>\n<h2>5. Powers and roots</h2>\n<ul>\n<li>aⁿ: base a, exponent n (rational in this syllabus). Special cases: a¹ = a; a⁰ = 1 (a ≠ 0); a⁻ⁿ = 1/aⁿ; a^(1/n) = ⁿ√a, with a ≥ 0 for even n (then also ⁿ√a ≥ 0).</li>\n<li>Rules: aᵐ·aⁿ = aᵐ⁺ⁿ; aᵐ/aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; (ab)ⁿ = aⁿbⁿ; (a/b)ⁿ = aⁿ/bⁿ. Trap: (a + b)² ≠ a² + b².</li>\n<li>Write roots as powers: √x = x^(1/2), 1/x³ = x⁻³. It unifies everything into one rule set.</li>\n</ul>\n<h2>6. Standard equations</h2>\n<ul>\n<li>Linear: collect x on one side: 5x − 3 = 2x + 6 ⇔ 3x = 9 ⇔ x = 3.</li>\n<li>Quadratic: ax² + bx + c = 0. Factor when you see the pattern; otherwise the abc-formula from the <em>formula sheet</em>: x = (−b ± √(b² − 4ac))/(2a).</li>\n<li>Power equations: xⁿ = a. n odd → one solution x = ⁿ√a. n even → x = ±ⁿ√a, only for a ≥ 0. Otherwise x = a^(1/n) (a ≥ 0).</li>\n<li>Root equations: √x = a ⇔ x = a², conditions x ≥ 0, a ≥ 0. After squaring, always check candidates in the original equation.</li>\n<li>Splitting: A·B = 0 ⇔ A = 0 ∨ B = 0. A² = B² ⇔ A = ±B. A·B = A·C ⇔ A = 0 ∨ B = C. Never divide by something that could be 0: x² = 3x gives x = 0 or x = 3 by factoring — dividing by x would lose x = 0.</li>\n</ul>\n<h2>7. Inequalities</h2>\n<ul>\n<li>Solve f(x) ≤ g(x): first solve f = g exactly, then read the answer from a sketch or sign chart. x² &lt; 9 ⇔ −3 &lt; x &lt; 3 (parabola below the line between its zeros).</li>\n<li>Multiplying by a negative number reverses the sign: −2x &gt; 8 ⇔ x &lt; −4.</li>\n</ul>\n<h2>8. Systems and cross-multiplication</h2>\n<ul>\n<li>Systems of two linear equations: eliminate or substitute; check both equations at the end.</li>\n<li>Cross-multiplication: A/B = C/D ⇔ AD = BC with BD ≠ 0. Example: (x + 1)/(x − 2) = 3 ⇔ x + 1 = 3x − 6 ⇔ x = 7/2.</li>\n</ul>\n<h2>Worked examples</h2>\n<p>Fully worked examples for the outcomes above. All examples are original.</p>\n<h3>Example 1 — percentage both ways</h3>\n<p>A jacket costs €96 after a 20% discount. What was the original price? And if the original price later rises 25%, what happens?</p>\n<p><strong>Solution.</strong> old × 0.80 = 96 ⇔ old = 96/0.80 = €120. A 25% rise from €120: 120 × 1.25 = €150. (Net effect of −20% then +25% on the original: 0.80 × 1.25 = 1.00, back to €120 — percentages multiply, they don&#39;t cancel by adding.)</p>\n<h3>Example 2 — fractions as a ratio</h3>\n<p>An iv line delivers 480 mL in 4 hours. How many mL per minute, and how long for 300 mL?</p>\n<p><strong>Solution.</strong> 480/240 min = 2 mL/min. 300/2 = 150 minutes (2½ hours).</p>\n<h3>Example 3 — isolating and substituting</h3>\n<p>Revenue R = p·q (price × quantity). Given p = 120 − 3q, express R as a function of q and find the production with maximal revenue axis position (the value of q at the vertex).</p>\n<p><strong>Solution.</strong> R(q) = (120 − 3q)q = −3q² + 120q: a <em>bergparabool</em>, vertex at q = −120/(2·(−3)) = 20. Maximal revenue at q = 20 (R = 1200; price then 60).</p>\n<h3>Example 4 — power equation types</h3>\n<p>Solve: (a) x³ = −27; (b) x⁴ = 81; (c) x² = −9.</p>\n<p><strong>Solution.</strong> (a) odd exponent: x = −3. (b) even exponent: x = ±3 (81 ≥ 0). (c) no solution (x² ≥ 0).</p>\n<h3>Example 5 — root equation with a check</h3>\n<p>Solve: √(x + 5) = x − 1.</p>\n<p><strong>Solution.</strong> Need x ≥ 1. Square: x + 5 = x² − 2x + 1 ⇔ x² − 3x − 4 = 0 ⇔ (x − 4)(x + 1) = 0 ⇔ x = 4 or x = −1. Only x = 4 survives the domain: √9 = 3 = 4 − 1 ✓.</p>",
+  "questions": [
+    {
+      "id": "matha-a01-q01",
+      "points": 2,
+      "outcome": "o1",
+      "difficulty": "easy",
+      "questionHtml": "<p>A webshop raises a price by 15% and later lowers the new price by 10%. The original price was €80. Compute the final price, and the net percentage change.</p>",
+      "answerHtml": "<p>€82.80; +3.5%</p>",
+      "solutionHtml": "<p>80 × 1.15 = 92; 92 × 0.90 = 82.80. Net factor 1.15 × 0.90 = 1.035, so +3.5% — not +5% (percentages multiply, they do not add).</p>"
+    },
+    {
+      "id": "matha-a01-q02",
+      "points": 2,
+      "outcome": "o1",
+      "difficulty": "easy",
+      "questionHtml": "<p>Write in scientific notation: (a) 0.00000045; (b) 3.2 million.</p>",
+      "answerHtml": "<p>(a) 4.5 × 10⁻⁷; (b) 3.2 × 10⁶</p>",
+      "solutionHtml": "<p>Move the decimal point until the coefficient lies in [1, 10): (a) 0.00000045 = 4.5 × 10⁻⁷ (seven places left); (b) 3 200 000 = 3.2 × 10⁶.</p>"
+    },
+    {
+      "id": "matha-a01-q03",
+      "points": 3,
+      "outcome": "o2",
+      "difficulty": "easy",
+      "questionHtml": "<p>Compute exactly, as simplified fractions: (a) 5/6 − 3/4; (b) (2/3)/(4/9).</p>",
+      "answerHtml": "<p>(a) 1/12; (b) 3/2</p>",
+      "solutionHtml": "<p>(a) Common denominator 12: 10/12 − 9/12 = 1/12. (b) Dividing by 4/9 is multiplying by 9/4: (2/3)×(9/4) = 18/12 = 3/2.</p>"
+    },
+    {
+      "id": "matha-a01-q04",
+      "points": 3,
+      "outcome": "o4",
+      "difficulty": "medium",
+      "questionHtml": "<p>Convert: (a) 90 km/h to m/s; (b) an infusion rate of 0.75 L per 20 seconds to L/min.</p>",
+      "answerHtml": "<p>(a) 25 m/s; (b) 2.25 L/min</p>",
+      "solutionHtml": "<p>(a) 90 km = 90 000 m, 1 h = 3600 s: 90 000/3600 = 25 m/s. (b) Per second: 0.75/20 = 0.0375 L/s; per minute: 0.0375 × 60 = 2.25 L/min.</p>"
+    },
+    {
+      "id": "matha-a01-q05",
+      "points": 3,
+      "outcome": "o3",
+      "difficulty": "medium",
+      "questionHtml": "<p>The area of a trapezium is A = ½·(b + B)·h. Express B in terms of A, b and h.</p>",
+      "answerHtml": "<p>B = 2A/h − b</p>",
+      "solutionHtml": "<p>2A = (b + B)·h ⇔ 2A/h = b + B ⇔ B = 2A/h − b.</p>"
+    },
+    {
+      "id": "matha-a01-q06",
+      "points": 3,
+      "outcome": "o8",
+      "difficulty": "medium",
+      "questionHtml": "<p>Solve: 3/(x − 2) = 2/(x + 1).</p>",
+      "answerHtml": "<p>x = −7</p>",
+      "solutionHtml": "<p>Cross-multiply (x ≠ 2, −1): 3(x + 1) = 2(x − 2) ⇔ 3x + 3 = 2x − 4 ⇔ x = −7. Check: 3/(−9) = −1/3 and 2/(−6) = −1/3 ✓.</p>"
+    },
+    {
+      "id": "matha-a01-q07",
+      "points": 4,
+      "outcome": "o6",
+      "difficulty": "medium",
+      "questionHtml": "<p>a. Solve exactly: x² − 6x + 8 = 0.</p>\n<p>b. Solve the inequality x² − 6x + 8 &gt; 0.</p>",
+      "answerHtml": "<p>a. x = 2 ∨ x = 4; b. x &lt; 2 ∨ x &gt; 4</p>",
+      "solutionHtml": "<p>a. Factoring: (x − 2)(x − 4) = 0 ⇔ x = 2 or x = 4. (abc check: D = 36 − 32 = 4, x = (6 ± 2)/2 ✓.) b. The parabola opens upwards and lies above zero outside the roots: x &lt; 2 or x &gt; 4.</p>"
+    },
+    {
+      "id": "matha-a01-q08",
+      "points": 3,
+      "outcome": "o6",
+      "difficulty": "easy",
+      "questionHtml": "<p>Solve: √(2x − 3) = 3.</p>",
+      "answerHtml": "<p>x = 6</p>",
+      "solutionHtml": "<p>Square (both sides ≥ 0 ✓): 2x − 3 = 9 ⇔ x = 6. Check: √9 = 3 ✓.</p>"
+    },
+    {
+      "id": "matha-a01-q09",
+      "points": 3,
+      "outcome": "o8",
+      "difficulty": "easy",
+      "questionHtml": "<p>Solve the system: 2a + 5b = 21 and a − b = 7.</p>",
+      "answerHtml": "<p>a = 8, b = 1</p>",
+      "solutionHtml": "<p>From the second equation: a = b + 7. Substitute: 2(b + 7) + 5b = 21 ⇔ 7b + 14 = 21 ⇔ b = 1, then a = 8. Check: 16 + 5 = 21 ✓; 8 − 1 = 7 ✓.</p>"
+    },
+    {
+      "id": "matha-a01-q10",
+      "points": 4,
+      "outcome": "o6",
+      "difficulty": "hard",
+      "questionHtml": "<p>Solve: x³ = 4x. (Hint: do not divide by x.)</p>",
+      "answerHtml": "<p>x = −2, 0 or 2</p>",
+      "solutionHtml": "<p>Bring all to one side and factor — dividing by x would lose the solution x = 0: x³ − 4x = 0 ⇔ x(x² − 4) = 0 ⇔ x(x − 2)(x + 2) = 0 ⇔ x = 0, x = 2 or x = −2. All three check in the original equation.</p>"
+    }
+  ]
+}
