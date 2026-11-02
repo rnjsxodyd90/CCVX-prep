@@ -22,14 +22,20 @@ async function loadCatalog() { catalog = await (await fetch('/content/catalog.js
 
 function renderLogin() {
   $('#app').innerHTML = `
-    <div class="lr-login tab">
-      <h1>The study reader</h1>
-      <p>Sign in to read your subjects. The complete sample subdomains are free on the subject pages.</p>
-      <div class="acc-actions">
-        <button class="btn" data-g>Continue with Google</button>
-        <form data-e class="acc-row"><input type="email" name="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email for a sign-in link"><button class="btn btn--light" type="submit">Email me a link</button></form>
+    <div class="lr-loginwrap">
+      <div class="lr-pitch">
+        <h1>The study reader</h1>
+        <p>Your library opened: notes per outcome, practice questions with worked solutions, timed mock exams and past-exam walkthroughs, one subject at a time.</p>
+        <p>The complete sample subdomains are free on the subject pages: no account needed.</p>
       </div>
-      <p class="smallnote" data-n hidden>Link sent. In this local run it also appears in the Firebase emulator log.</p>
+      <div class="lr-login tab" data-mv>
+        <h2>Sign in</h2>
+        <div class="acc-actions">
+          <button class="btn" data-g>Continue with Google</button>
+          <form data-e class="acc-row"><input type="email" name="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email for a sign-in link"><button class="btn btn--light" type="submit">Email me a link</button></form>
+        </div>
+        <p class="smallnote" data-n hidden>Link sent. In this local run it also appears in the Firebase emulator log.</p>
+      </div>
     </div>`;
   $('[data-g]').onclick = () => googleLogin();
   $('[data-e]').onsubmit = async (ev) => { ev.preventDefault(); await emailLinkLogin(new FormData(ev.target).get('email')); $('[data-n]').hidden = false; };
@@ -59,7 +65,7 @@ function renderShell() {
     const locked = !it.free && !owned;
     return `<a class="lr-row ${it.id === itemIdOfRoute() ? 'on' : ''} ${locked ? 'lock' : ''}" href="learn.html#${it.id}">
       <span class="lr-title">${esc(it.title)}</span>
-      <span class="lr-meta">${it.kind === 'mock' ? 'mock · 180 min' : it.kind === 'walkthrough' ? 'walkthrough' : it.free ? 'free sample' : `${it.q} questions`}${locked ? ' · 🔒' : ''}</span>
+      <span class="lr-meta">${it.kind === 'mock' ? 'mock · 180 min' : it.kind === 'walkthrough' ? 'walkthrough' : it.free ? 'free sample' : `${it.q} questions`}${locked ? ' · members' : ''}</span>
     </a>`;
   }).join('');
   $('#app').innerHTML = `
@@ -96,7 +102,7 @@ function renderSubdomain(it) {
       <h1>${esc(it.title)}</h1>
       ${it.free ? '<p class="lr-free tab">Free sample · this complete subdomain is public</p>' : ''}
     </header>
-    <div class="lr-notes content"><h2>Notes</h2>${it.data.notesHtml}</div>
+    <div class="lr-notes content"><h2>Notes</h2>${it.data.notesHtml.replace(/^<h1>(.*?)<\/h1>/, '<h3>$1</h3>')}</div>
     <div class="lr-outcomes content"><h2>Syllabus outcomes</h2>${it.data.outcomesHtml}</div>
     <h2>Practice (${it.data.questions.length})</h2>
     ${it.data.questions.length ? it.data.questions.map((q, i) => qCard(q, i)).join('') : '<p class="smallnote">Practice questions for this subdomain are being written.</p>'}`;

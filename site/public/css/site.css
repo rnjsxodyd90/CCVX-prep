@@ -109,20 +109,20 @@ a:hover { text-decoration-color: var(--ink); }
   padding: 64px var(--margin) 40px;
   margin-top: 96px;
 }
-.blockmark { display: flex; gap: 4px; align-items: flex-end; height: clamp(64px, 10vw, 150px); margin-bottom: 56px; }
+.blockmark { display: flex; gap: 4px; align-items: flex-end; min-height: clamp(64px, 10vw, 150px); max-width: 100%; margin-bottom: 56px; }
+.blockmark, .blockmark span { flex: 1 1 0; min-width: 0; }
 .blockmark span {
   display: grid;
   place-items: center;
   background: var(--field-1-ink);
   color: var(--field-1);
   font-weight: 600;
-  font-size: clamp(20px, 4.5vw, 56px);
+  font-size: clamp(20px, 4vw, 44px);
   letter-spacing: -0.03em;
-  padding: 0 0.18em;
-  min-width: 1.1em;
+  padding: 0;
 }
-.blockmark span:nth-child(odd) { height: 100%; }
-.blockmark span:nth-child(even) { height: 68%; }
+.blockmark span:nth-child(odd) { height: clamp(44px, 9vw, 130px); }
+.blockmark span:nth-child(even) { height: clamp(30px, 6.2vw, 88px); }
 .blockmark span.is-accent { background: var(--accent); }
 .blockmark span.is-space { background: transparent; min-width: 0.4em; }
 .site-footer .cols {
@@ -142,8 +142,6 @@ a:hover { text-decoration-color: var(--ink); }
   .site-footer .cols { grid-template-columns: 1fr 1fr; }
   .site-footer .cols nav { grid-column: auto; }
   .site-footer .cols .seller { grid-column: 1 / -1; }
-  .blockmark { flex-wrap: wrap; height: auto; }
-  .blockmark span { height: clamp(44px, 12vw, 64px) !important; }
 }
 
 /* Shared reader/content styles (notes HTML from the build) */

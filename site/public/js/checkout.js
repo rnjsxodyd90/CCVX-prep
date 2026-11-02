@@ -26,7 +26,7 @@ try {
 const picker = $('#picker');
 picker.innerHTML = SUBJECTS.map(([id, name]) => {
   const ok = purchasable.has(id);
-  return `<label class="pick ${ok ? '' : 'pick--off'}" data-id="${id}">
+  return `<label class="pick ${ok ? '' : 'pick--off'}" data-mv data-id="${id}">
     <input type="checkbox" name="subject" value="${id}" ${ok ? '' : 'disabled'}>
     <span class="pick-name">${name}</span>
     <span class="pick-meta">${ok ? '€ 79' : 'in preparation'}</span>
@@ -70,8 +70,8 @@ function renderAuth() {
     box.innerHTML = `
       <p>Sign in first: your purchase needs an account to land in.</p>
       <div class="authrow">
-        <button class="btn btn--light" data-g type="button">Continue with Google</button>
-        <form data-e class="acc-row"><input type="email" name="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email for a sign-in link"><button class="btn btn--light" type="submit">Email me a link</button></form>
+        <button class="btn btn--light" data-g data-mv type="button">Continue with Google</button>
+        <form data-mv data-e class="acc-row"><input type="email" name="email" required placeholder="you@example.com" autocomplete="email" aria-label="Email for a sign-in link"><button class="btn btn--light" type="submit">Email me a link</button></form>
       </div>
       <p class="smallnote" data-n hidden>Link sent. In this local run it also appears in the Firebase emulator log.</p>`;
     $('[data-g]', box).onclick = () => googleLogin();

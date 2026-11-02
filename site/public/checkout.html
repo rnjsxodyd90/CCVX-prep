@@ -20,26 +20,31 @@
   <a class="toplink" href="account.html">Sign in</a>
 </header>
 <main class="co-main">
-  <h1>Your subjects, one payment</h1>
-  <p class="co-intro">Pick any combination. One subject is EUR 79; bundles are cheaper per subject. One-off payment, VAT included, access for 12 months. This is a launch price.</p>
-
-  <div id="picker" class="pick-grid" role="group" aria-label="Choose your subjects"></div>
-
-  <div class="co-summary tab">
-    <p id="note" class="co-note"></p>
-    <p id="total" class="co-total" aria-live="polite"></p>
+  <h1 data-mv>Your subjects, one payment</h1>
+  <div class="co-hero" data-mv>
+    <p class="co-intro">Pick any combination. One subject is EUR 79; bundles are cheaper per subject. One-off payment, VAT included, access for 12 months. This is a launch price.</p>
+    <figure class="co-heropic tab"><img src="assets/educatoriumcollegezaal.jpg" alt="A lecture hall in the Educatorium, Utrecht University, where the CCVX exams take place." width="1920" height="1440" loading="lazy" decoding="async"></figure>
+    <figure class="co-heropic co-heropic2 tab"><img src="assets/woman-teaching-geometry.jpg" alt="A teacher with set square and dividers, from a 14th-century manuscript." width="1039" height="1148" loading="lazy" decoding="async"></figure>
   </div>
 
-  <div id="authbox" class="co-auth"></div>
+  <div class="co-cols">
+    <div class="co-left">
+      <div id="picker" data-mv class="pick-grid" role="group" aria-label="Choose your subjects"></div>
+      <p class="smallnote co-testnote" data-mv>Local test run: Stripe test mode. Use card 4242 4242 4242 4242, any future date, any CVC.</p>
+    </div>
 
-  <label class="waiver">
-    <input type="checkbox" id="waiver">
-    <span>I understand that access starts immediately after payment, and I <strong>waive my 14-day withdrawal right</strong>, as the law allows for digital content that starts right away. See the <a href="refund.html">refund policy</a>.</span>
-  </label>
-
-  <p id="err" class="co-err" role="alert"></p>
-  <button id="payBtn" class="btn co-pay" type="button">Pay with Stripe</button>
-  <p class="smallnote co-testnote">Local test run: Stripe test mode. Use card 4242 4242 4242 4242, any future date, any CVC.</p>
+    <div class="co-panel tab" data-mv>
+      <p id="note" class="co-note"></p>
+      <p id="total" class="co-total" aria-live="polite"></p>
+      <div id="authbox" class="co-auth"></div>
+      <label class="waiver">
+        <input type="checkbox" id="waiver">
+        <span>I understand that access starts immediately after payment, and I <strong>waive my 14-day withdrawal right</strong>, as the law allows for digital content that starts right away. See the <a href="refund.html">refund policy</a>.</span>
+      </label>
+      <p id="err" class="co-err" role="alert"></p>
+      <button id="payBtn" class="btn co-pay" type="button">Pay with Stripe</button>
+    </div>
+  </div>
 </main>
 <footer class="site-footer">
   <div class="blockmark" aria-hidden="true" data-mv></div>
@@ -73,6 +78,7 @@
   </div>
   <p class="legal-line"><span>Independent study material. Not affiliated with or endorsed by the CCVX or any university.</span><span>© 2026 Sura Steel · ccvxultimateprep.com</span></p>
 </footer>
+<script src="js/motion.js" type="module"></script>
 <script src="js/chrome.js" type="module"></script>
 <script src="js/checkout.js" type="module"></script>
 </body>

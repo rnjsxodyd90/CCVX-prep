@@ -10,7 +10,7 @@ const NAMES = { phys: 'Physics', chem: 'Chemistry', bio: 'Biology', matha: 'Math
 
 function renderLogin() {
   view.innerHTML = `
-    <div class="acc-card tab" data-mv>
+    <div class="acc-card tab">
       <h1>Sign in to your library</h1>
       <p>The fastest way in is Google. Or get a sign-in link by email: no password needed.</p>
       <div class="acc-actions">

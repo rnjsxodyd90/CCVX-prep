@@ -26,7 +26,7 @@ const $ = (s, r = document) => r.querySelector(s);
   box.innerHTML = `
     <section class="sa-notes">
       <h3>Notes</h3>
-      <div class="sa-notesbody">${sample.notesHtml}</div>
+      <div class="sa-notesbody">${sample.notesHtml.replace(/^<h1>(.*?)<\/h1>/, '<h2>$1</h2>')}</div>
     </section>
     <section class="sa-practice">
       <h3>Practice questions (${sample.questions.length})</h3>

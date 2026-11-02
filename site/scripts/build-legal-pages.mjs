@@ -20,10 +20,23 @@ const shell = (title, desc, body) => `<!doctype html>
 <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css">
 <style>
-.legal-main { padding: 10vh var(--margin) 0; max-width: 76ch; }
-.legal-main h1 { font-size: var(--step-head); }
+.legal-main { padding: 10vh var(--margin) 0; }
+.legal-wrap { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 2fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
+.legal-main h1 { max-width: 18ch; }
+.legal-rail { position: sticky; top: 96px; display: grid; gap: 10px; }
+.legal-rail .railcard { background: var(--surface-2); padding: 20px 22px; }
+.legal-rail .railcard h2 { font-size: 1.05rem !important; margin: 0 0 8px !important; }
+.legal-rail p { font-size: 0.95rem; margin: 0; color: var(--muted); }
+.legal-rail .railpic { padding: 0; }
+.legal-rail .railpics { display: grid; gap: 8px; padding: 14px; }
+.legal-rail .railpic > figure { margin: 0; }
+.legal-rail .railpic img { width: 100%; height: 118px; object-fit: cover; display: block; filter: grayscale(1); }
+
+@media (max-width: 900px) { .legal-wrap { grid-template-columns: 1fr; } .legal-rail { position: static; } }
+.legal-main h1 { font-size: clamp(2.6rem, 5vw, 4.72rem); }
 .legal-main h2 { font-size: 1.3rem; margin-top: 6vh; }
-.legal-main p, .legal-main li { max-width: 68ch; }
+.legal-main article { min-width: 0; }
+.legal-main p, .legal-main li { max-width: 68ch; overflow-wrap: break-word; }
 .legal-main li { margin-bottom: 0.4em; }
 .legal-main ul { padding-left: 1.2em; }
 .legal-main .who { background: var(--surface-2); padding: 18px 22px; }
@@ -36,7 +49,16 @@ const shell = (title, desc, body) => `<!doctype html>
   <a class="wordmark" href="/">CCVX Ultimate Prep</a>
   <a class="toplink" href="account.html">Sign in</a>
 </header>
-<main class="legal-main">${body}</main>
+<main class="legal-main"><div class="legal-wrap"><article>${body}</article><aside class="legal-rail">
+  <div class="railcard"><h2>Seller</h2><p>${SELLER}</p></div>
+  <div class="railcard"><h2>Prices</h2><p>Launch price: EUR 79 per subject; bundles any 2 EUR 139, any 3 EUR 189, all 5 EUR 279. One-off, VAT included, 12 months access.</p></div>
+  <div class="railcard railpics" data-mv>
+  <figure class="railpic"><img src="assets/educatoriumcollegezaal.jpg" alt="A lecture hall in the Educatorium, Utrecht University, where the CCVX exams take place." width="1920" height="1440" loading="lazy" decoding="async"></figure>
+  <figure class="railpic"><img src="assets/woman-teaching-geometry.jpg" alt="A teacher with set square and dividers, from a 14th-century manuscript." width="1039" height="1148" loading="lazy" decoding="async"></figure>
+  <figure class="railpic"><img src="assets/commercial-chemical-laboratory-of-the-mid-18th.jpg" alt="An 18th-century commercial chemical laboratory, from a contemporary line engraving." width="1920" height="1098" loading="lazy" decoding="async"></figure>
+  <figure class="railpic"><img src="assets/birmingham-proton-synchrotron-11.jpg" alt="The Birmingham proton synchrotron in 1947." width="1920" height="1152" loading="lazy" decoding="async"></figure>
+  </div>
+</aside></div></main>
 <footer class="site-footer">
   <div class="blockmark" aria-hidden="true" data-mv></div>
   <div class="cols">
@@ -68,6 +90,7 @@ const shell = (title, desc, body) => `<!doctype html>
     </div>
   </div>
   <p class="legal-line"><span>Independent study material. Not affiliated with or endorsed by the CCVX or any university.</span><span>© 2026 Sura Steel · ccvxultimateprep.com</span></p>
+  <p class="credits">Pictures on this page: “EducatoriumCollegezaal”, “Woman teaching geometry”, “Commercial chemical laboratory of the mid 18th Century” (CC BY 4.0), “Birmingham proton synchrotron 11” — all public domain except where noted, via Wikimedia Commons.</p>
 </footer>
 <script src="js/motion.js" type="module"></script>
 <script src="js/chrome.js" type="module"></script>
@@ -122,6 +145,7 @@ const privacy = shell('Privacy', 'Which personal data CCVX Ultimate Prep process
 
 const refund = shell('Refund and withdrawal policy', 'Refund and withdrawal policy for digital content: what the 14-day withdrawal right means when access starts immediately, and what happens if something is broken.', `
   <h1>Refund and withdrawal policy</h1>
+  <p><a class="btn" href="account.html">Your library and purchases</a></p>
   <h2>The 14-day rule, honestly explained</h2>
   <p>EU consumer law normally gives you 14 days to withdraw from an online purchase. For digital content that you use right away, the law lets the seller ask you to waive that right before delivery starts. That is what the checkout checkbox does:</p>
   <p class="who">"I understand that access starts immediately after payment, and I waive my 14-day withdrawal right, as the law allows for digital content that starts right away."</p>
@@ -138,6 +162,12 @@ const refund = shell('Refund and withdrawal policy', 'Refund and withdrawal poli
   <p>If we cannot solve a complaint together, you can bring it to the Dutch consumer dispute system; we will tell you how in our answer.</p>
 `);
 
+const mv = (html) => html.replace(/<h1>/, '<h1 data-mv>').replace(/<h2>/g, '<h2 data-mv>').replace(/class="who">/g, 'class="who" data-mv>');
+fs.writeFileSync(path.join(OUT, 'terms.html'), mv(terms));
+fs.writeFileSync(path.join(OUT, 'privacy.html'), mv(privacy));
+fs.writeFileSync(path.join(OUT, 'refund.html'), mv(refund));
+console.log('legal pages built: terms.html, privacy.html, refund.html (with motion tags)');
+process.exit(0);
 fs.writeFileSync(path.join(OUT, 'terms.html'), terms);
 fs.writeFileSync(path.join(OUT, 'privacy.html'), privacy);
 fs.writeFileSync(path.join(OUT, 'refund.html'), refund);

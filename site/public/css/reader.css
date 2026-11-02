@@ -1,7 +1,7 @@
 /* The study reader */
 .lr-tabs { display: flex; gap: 8px; align-items: center; padding: 14px var(--margin); flex-wrap: wrap; }
 .lr-tab { background: var(--surface-2); padding: 10px 18px; text-decoration: none; }
-.lr-tab.on { background: var(--accent); color: var(--accent-ink); }
+.lr-tab.on { background: var(--surface-4); color: var(--ink); }
 .lr-tab.lock { opacity: 0.55; }
 .lr-home { margin-left: auto; color: var(--muted); font-size: 0.95rem; }
 .lr-cols { display: grid; grid-template-columns: 300px 1fr; gap: 0; align-items: start; }
@@ -13,7 +13,10 @@
 .lr-meta { color: var(--muted); font-size: 0.8rem; }
 .lr-main { padding: 0 var(--margin) 12vh clamp(16px, 4vw, 56px); max-width: 900px; }
 .lr-wait { color: var(--muted); padding: 8vh 0; }
-.lr-login { background: var(--surface-2); max-width: 640px; padding: clamp(20px, 4vw, 44px); margin: 10vh var(--margin); }
+.lr-loginwrap { display: block; max-width: 680px; margin: 8vh auto 0; padding: 0 var(--margin); }
+.lr-loginwrap .lr-pitch h1 { font-size: 1.5rem; letter-spacing: -0.02em; }
+.lr-loginwrap .lr-pitch p { color: var(--muted); max-width: 52ch; }
+.lr-login { background: var(--surface-2); padding: clamp(20px, 4vw, 44px); margin-top: 32px; }
 .lr-login p { color: var(--muted); }
 .lr-paywall { background: var(--surface-2); padding: clamp(20px, 4vw, 44px); max-width: 640px; }
 .lr-paywall h2 { font-size: clamp(1.4rem, 2vw, 2rem); }

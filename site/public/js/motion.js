@@ -20,4 +20,6 @@
     }
   }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
   els.forEach((el) => io.observe(el));
+  // Safety: once the reader starts scrolling, never keep content hidden.
+  addEventListener('scroll', () => root.classList.add('mv-all'), { once: true, passive: true });
 })();
