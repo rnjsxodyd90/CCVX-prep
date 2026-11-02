@@ -56,7 +56,7 @@ In an exothermic industrial oxidation, the hot product gases leave the reactor a
 #### Question
 A description reads: "Syngas (CO + 2 H₂) and recycle gas are mixed, compressed to 80 bar and heated; they react over a copper catalyst to methanol vapour; the vapour is cooled so the methanol condenses and is stored; the gas overhead returns to the compressor; a small part is continuously purged." (1) Identify the reactors and the separation plant. (2) Name the recirculation stream and the purge. (3) Why is methanol the only condensed component?
 #### Answer
-1. Reactor: the converter with the copper catalyst; separation plant: the cooler/condenser (methanol out as liquid). 2. Recirculation: the gaseous N₂/H₂/CO left above the condensate, sent back to the compressor; the purge is the small continuous side stream of that same gas. 3. Methanol condenses at the cooling temperature because of its much higher boiling point (64.7 °C, and its hydrogen bridges) compared with the permanent gases.
+1. Reactor: the converter with the copper catalyst; separation plant: the cooler/condenser (methanol out as liquid). 2. Recirculation: the unconverted H₂/CO gas (plus inert gases such as methane) left above the condensate, sent back to the compressor; the purge is the small continuous side stream of that same gas. 3. Methanol condenses at the cooling temperature because of its much higher boiling point (64.7 °C, and its hydrogen bridges) compared with the permanent gases.
 #### Solution
 1. Conversion happens in the catalyst converter; the separation is done in the cooler, where CH₃OH(l) is split off.
 2. Loop: unconverted gas back to the compressor. The small side stream is the purge against inert build-up (see f01-q04).

@@ -51,7 +51,7 @@ A report on the sports-drink study of chem-e05-q03 shows that the drink group de
 #### Solution
 1. A conclusion answers the research question with data, gives the average effect, its spread and its limits (no over-claim): "weakly supports" is the honest strength here.
 2. Every study suggests its own sequel: larger N or a smarter design; and a rigor check of bias sources (a blind placebo for taste).
-3. The skill is in saying no more than the measurements bear — the E5//A09-style discipline of judging.
+3. The skill is in saying no more than the measurements bear — the E5/A09-style discipline of judging.
 
 ### chem-e05-q06 | points 4 | outcome E5 | difficulty hard
 #### Question

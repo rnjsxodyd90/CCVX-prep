@@ -59,7 +59,7 @@ The hydroxyl radical ·OH is called "the detergent of the atmosphere". (1) Expla
 1. ·OH oxidises most pollutants — CO to CO₂, CH₄ and other VOCs towards CO₂ and water — so the air cleans itself of them: it is the atmosphere's detergent. 2. Ozone photolysis in moist air: O₃ + hν → O₂ + O(¹D), then O(¹D) + H₂O → 2 ·OH. 3. It lives only fractions of a second (it reacts at first contact), so it cannot be stored or transported; you can only generate it where you need it (that is exactly what advanced oxidation water treatment does).
 #### Solution
 1. A radical with an unpaired electron attacks almost anything (see C04): ·OH is the prime atmospheric oxidant of the daylit troposphere.
-2. The chain starts from ozone and sunlight in the presence of water vapour; in polluted air VOC+N₂O also feeds radicals.
+2. The chain starts from ozone and sunlight in the presence of water vapour; in polluted air VOC and NOₓ also feed radicals.
 3. Extremely reactive species are by definition non-storable (lifetime ≪ 1 s): atmospheric chemistry is written in the language of radicals that never sit still — C8's point of the chemistry of atmospheric radicals.
 
 ### chem-c08-q07 | points 3 | outcome C8 | difficulty medium

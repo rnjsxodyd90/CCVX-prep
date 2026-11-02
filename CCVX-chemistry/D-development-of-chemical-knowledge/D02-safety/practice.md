@@ -36,7 +36,7 @@ Sink: only allowed if the filtrate holds no hazardous or metal-containing substa
 #### Question
 Your experiment must detect iron(II) ions and then purify the product. Explain how you use (1) a property to analyse and (2) a property to purify, and state one safety measure for each step.
 #### Answer
-1. Analyse: add NaOH/SCN⁻ solution — a greenish precipitate of Fe(OH)₂ (or dark green-blue) shows the iron(II) ion, a property: precipitation of specific hydroxides at the ion level. 2. Purify: use recrystallisation or washing the filtered precipitate with a little ice-cold water — a property: different solubility (impurities stay in solution/washing water). Safety: add drops with a pipette and gloves at (1) (NaOH is corrosive); cold hands/cold water and careful flask handling at (2) (hot solution can crack).
+1. Analyse: add sodium hydroxide solution — a green precipitate of Fe(OH)₂ shows the iron(II) ion, a property: precipitation of specific hydroxides at the ion level. 2. Purify: use recrystallisation or washing the filtered precipitate with a little ice-cold water — a property: different solubility (impurities stay in solution/washing water). Safety: add drops with a pipette and gloves at (1) (NaOH is corrosive); cold hands/cold water and careful flask handling at (2) (hot solution can crack).
 #### Solution
 1. Analysing uses a characteristic, visible change (a reagent, see 04 — reactions): here a precipitation that identifies Fe²⁺.
 2. Purifying exploits a different solubility between product and impurities (recrystallisation/washing; see D01).

@@ -87,7 +87,7 @@ Barium ions are toxic, yet patients swallow a "barium meal" of BaSO₄ for stoma
 
 ### chem-b03-q09 | points 4 | outcome B3.4 | difficulty hard
 #### Question
-The boiling points of propane and of methanol are −42 °C and 65 °C respectively, although their molar masses differ by only about 14 u. Explain in detail why methanol boils so much higher than propane. In your answer, state which bonds exist between the molecules of each substance and which of those bonds have to break when the liquid boils.
+The boiling points of propane and of methanol are −42 °C and 65 °C respectively, although their molar masses differ by only about 12 u. Explain in detail why methanol boils so much higher than propane. In your answer, state which bonds exist between the molecules of each substance and which of those bonds have to break when the liquid boils.
 #### Answer
 Between propane molecules only Van der Waals bonds act; between methanol molecules both Van der Waals bonds and hydrogen bridges act (via the –OH group). The hydrogen bridge is much stronger than the Van der Waals bond, so boiling methanol — which breaks all intermolecular bonds — costs much more energy: a much higher boiling point.
 #### Solution

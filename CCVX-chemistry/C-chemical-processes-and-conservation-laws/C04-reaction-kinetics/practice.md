@@ -88,9 +88,9 @@ The reaction of methane with chlorine under UV light is a chain reaction with fr
 #### Question
 A reactant's concentration is measured over time: at t = 0, [A] = 0.100 mol L⁻¹; at t = 20 s, 0.050 mol L⁻¹; at 40 s, 0.025; at 60 s, 0.013. (1) Calculate the average reaction rate in mol L⁻¹ s⁻¹ over the first 20 s and over the interval 40–60 s. (2) Explain the difference. (3) How would you obtain the instantaneous rate at t = 20 s from the graph?
 #### Answer
-1. 2.5·10⁻³ mol L⁻¹ s⁻¹ (0–20 s); 6·10⁻⁴ mol L⁻¹ s⁻¹ (40–60 s). 2. The rate falls because the concentration falls (fewer collisions per second). 3. Draw the tangent line to the concentration–time curve at t = 20 s and take its slope (with a minus sign for a disappearing reactant).
+1. 2.5·10⁻³ mol L⁻¹ s⁻¹ (0–20 s); 6.0·10⁻⁴ mol L⁻¹ s⁻¹ (40–60 s). 2. The rate falls because the concentration falls (fewer collisions per second). 3. Draw the tangent line to the concentration–time curve at t = 20 s and take its slope (with a minus sign for a disappearing reactant).
 #### Solution
-1. 0–20 s: s = Δc/Δt = (0.100 − 0.050) / 20 = 2.5·10⁻³ mol L⁻¹ s⁻¹. 40–60 s: (0.025 − 0.013) / 20 = 6·10⁻⁴ mol L⁻¹ s⁻¹.
+1. 0–20 s: s = Δc/Δt = (0.100 − 0.050) / 20 = 2.5·10⁻³ mol L⁻¹ s⁻¹. 40–60 s: (0.025 − 0.013) / 20 = 6.0·10⁻⁴ mol L⁻¹ s⁻¹.
 2. As A is consumed, its concentration drops; fewer A particles per litre means fewer collisions per second, so the instantaneous rate drops too (the curve flattens).
 3. The instantaneous rate at one moment is the slope of the tangent line at that point of the [A]-versus-t curve; taking a big interval only yields an average.
 
