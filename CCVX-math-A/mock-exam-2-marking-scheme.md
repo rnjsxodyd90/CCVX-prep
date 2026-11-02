@@ -76,7 +76,7 @@ Exam: [mock-exam-2.md](mock-exam-2.md). Total 76 points. Grade = 1 + 9 × (score
 ## Problem 4 — The exit poll (22 points)
 
 **a. (2 points; matha-mock2-q16)**
-- Condition: np = 85 ≥ 5 ✓ (1 pt)
+- Condition: np = 85 ≥ 5 (and n(1−p) = 165 ≥ 5 for the usual textbook condition) (1 pt)
 - μ = 85, σ = √(250·0.34·0.66) = √56.1 ≈ 7.49 (1 pt)
 
 **b. (4 points; matha-mock2-q17)**

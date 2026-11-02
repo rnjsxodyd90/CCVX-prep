@@ -38,7 +38,7 @@ Z = (X − μ)/σ is standard normal, and P(X < g) = P(Z < (g − μ)/σ). You m
 
 ## 6. Normal approximation of the binomial distribution
 
-- For a binomial X with **np ≥ 5**, approximate with a normal Y having μ = np and σ = √(np(1−p)).
+- For a binomial X with **np ≥ 5**, approximate with a normal Y having μ = np and σ = √(np(1−p)) — this is the CCVX syllabus' own condition; many textbooks additionally require n(1−p) ≥ 5, so check both when p is far from 0.5.
 - Continuity correction (*continuïteitscorrectie*): the discrete bar at k is approximated by the strip up to its middle: P(X ≤ k) ≈ P(Y < k + ½); P(X ≥ k) ≈ P(Y > k − ½).
 - Here too the exam picks boundaries at rule-of-thumb positions, so a calculation closes cleanly.
 

@@ -75,7 +75,7 @@ Exam: [mock-exam-1.md](mock-exam-1.md). Total 76 points. Grade = 1 + 9 × (score
 - = 4·0.614125·0.15 = 0.3685 (1 pt)
 
 **d. (4 points; matha-mock1-q14)**
-- Approximation allowed: np₀ = 85 ≥ 5 (1 pt)
+- Approximation allowed: np₀ = 85 ≥ 5 (and n(1−p₀) = 15 ≥ 5 for the usual textbook condition) (1 pt)
 - μ_T = 85, σ_T = √12.75 ≈ 3.5707 (1 pt)
 - Critical value: g = 85 − 1.645·3.5707 ≈ 79.13 (no continuity correction needed) (1 pt)
 - Outcome 79 < 79.13: in the rejection region → reject H₀; at the 5% level there is sufficient reason to believe the germination rate is below 85% (1 pt)
@@ -88,23 +88,23 @@ Exam: [mock-exam-1.md](mock-exam-1.md). Total 76 points. Grade = 1 + 9 × (score
 
 ## Problem 4 — The health screening (20 points)
 
-**a. (3 points; matha-mock1-q16)**
+**a. (4 points; matha-mock1-q16)**
 - Healthy: g = 130 = 110 + 20 = μ_H + σ_H: upper σ-tail → 16% flagged (2 pts)
-- Carriers: not flagged means X_C < 130 = μ_C − σ_C: lower σ-tail → 16% not flagged (1 pt)
+- Carriers: not flagged means X_C < 130 = μ_C − σ_C: lower σ-tail → 16% not flagged (2 pts)
 
-**b. (4 points; matha-mock1-q17)**
+**b. (5 points; matha-mock1-q17)**
 - 2.5% flagged = upper 2σ tail (1 pt)
 - g = μ_H + 2σ_H (1 pt)
-- g = 110 + 40 = 150 mg/dL (2 pts)
+- g = 110 + 40 = 150 mg/dL (3 pts)
 
-**c. (4 points; matha-mock1-q18)**
+**c. (5 points; matha-mock1-q18)**
 - Per 10 000: 400 carriers (4%) and 9600 healthy (1 pt)
-- With g = 150: carriers flagged 50% → 200; healthy flagged 2.5% → 240 (1 pt)
+- With g = 150: carriers flagged 50% → 200; healthy flagged 2.5% → 240 (2 pts)
 - Table totals: flagged 440; not flagged: carriers 200, healthy 9360 (1 pt)
 - P(carrier given flagged) = 200/440 ≈ 45.5% (1 pt)
 
-**d. (5 points; matha-mock1-q19)**
+**d. (6 points; matha-mock1-q19)**
 - Mean test, right-sided: H₀: μ = 110, H₁: μ > 110, α = 0.05 (1 pt)
 - σ(X̄) = 20/√9 ≈ 6.67 stated (1 pt)
 - Critical value: g = 110 + 1.645·6.67 ≈ 120.97 (2 pts)
-- Group mean 118.4 < 120.97: not in the rejection region — no sufficient reason at 5% to call the group's mean level elevated (1 pt)
+- Group mean 118.4 < 120.97: not in the rejection region — no sufficient reason at 5% to call the group's mean level elevated (2 pts)

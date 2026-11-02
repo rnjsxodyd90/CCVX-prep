@@ -70,12 +70,12 @@ e. (5; matha-mock1-q15) The exceedance probability of the outcome "79 or fewer g
 
 In a screening program, blood values of healthy people are normally distributed with μ_H = 110 (mg/dL) and σ_H = 20; values of carriers of the condition are normally distributed with μ_C = 150 and σ_C = 20. A person is *flagged* when their measured value exceeds the threshold g.
 
-a. (3; matha-mock1-q16) The program first sets g = 130. Estimate with the rules of thumb: the percentage of healthy people who are flagged, and the percentage of carriers who are NOT flagged.
+a. (4; matha-mock1-q16) The program first sets g = 130. Estimate with the rules of thumb: the percentage of healthy people who are flagged, and the percentage of carriers who are NOT flagged.
 
-b. (4; matha-mock1-q17) Instead, the threshold is chosen so that exactly 2.5% of healthy people are flagged. Compute g.
+b. (5; matha-mock1-q17) Instead, the threshold is chosen so that exactly 2.5% of healthy people are flagged. Compute g.
 
 A random person from the population is tested; 4% of the population carries the condition. Use g = 150.
 
-c. (4; matha-mock1-q18) Fill in the 2 × 2 table with whole counts per 10 000 people (flagged vs not flagged), and compute P(carrier given flagged) (1 decimal %).
+c. (5; matha-mock1-q18) Fill in the 2 × 2 table with whole counts per 10 000 people (flagged vs not flagged), and compute P(carrier given flagged) (1 decimal %).
 
-d. (5; matha-mock1-q19) Groups of 9 healthy employees are screened via their group mean; its standard deviation is σ(X̄) = 20/√9 ≈ 6.67. Test at α = 0.05 right-sided against "the group's mean level is elevated": H₀: μ = 110. Compute the critical value and draw the conclusion for a group mean of 118.4.
+d. (6; matha-mock1-q19) Groups of 9 healthy employees are screened via their group mean; its standard deviation is σ(X̄) = 20/√9 ≈ 6.67. Test at α = 0.05 right-sided against "the group's mean level is elevated": H₀: μ = 110. Compute the critical value and draw the conclusion for a group mean of 118.4.
