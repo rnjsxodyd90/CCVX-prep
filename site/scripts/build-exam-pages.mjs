@@ -64,7 +64,7 @@ for (const subj of SUBJECTS) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Past and sample exams, free: ${esc(subj.name)} CCVX prep | CCVX Ultimate Prep</title>
+<title>Past and sample exams: ${esc(subj.name)} CCVX prep | CCVX Ultimate Prep</title>
 <meta name="description" content="Every official free exam for CCVX ${esc(subj.name)} in one table: the CCVX sample exams in English and the Dutch vwo exams with marking schemes. Links to the official sources only.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +82,7 @@ for (const subj of SUBJECTS) {
 <main>
 <section class="x-hero x-herogrid">
   <div data-mv>
-  <h1 data-mv>Past and sample exams: ${esc(subj.name)}</h1>
+  <h1 data-mv>Past exams: ${esc(subj.name)}</h1>
   <p class="lead" data-mv>Every official free exam that matters for the CCVX ${esc(subj.name)} exam, in one table: the CCVX's own sample exams in English first, then the newest Dutch vwo exams, which cover the same vwo-level material. We link to the official sources; we never copy or rehost exam content.</p>
   ${badge ? `<p class="offer-strip" data-launch-badge>${esc(badge)}</p>` : ''}
   <p><a class="btn" href="${SUBJECT_PAGES[subj.id]}#sample">Try the free ${esc(subj.name)} sample</a></p>

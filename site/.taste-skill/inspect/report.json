@@ -1,755 +1,28 @@
 {
- "url": "http://localhost:5002/privacy.html",
- "at": "2026-11-02T02:18:01.559Z",
+ "url": "http://localhost:5002/chemistry-exams.html",
+ "at": "2026-11-02T02:52:33.457Z",
  "allow": [],
  "viewports": [
-  {
-   "width": 1440,
-   "height": 900,
-   "load": "load",
-   "screens": 3,
-   "filled": [
-    0.33,
-    0.56,
-    0.68
-   ],
-   "motion": {
-    "elements": 11,
-    "css": 0,
-    "transitions": 11,
-    "scripted": 0,
-    "videos": 0,
-    "playingVideos": 0
-   },
-   "metrics": {
-    "viewport": {
-     "w": 1440,
-     "h": 900
-    },
-    "page": {
-     "height": 2097,
-     "screens": 2.3,
-     "words": 357,
-     "img": 4,
-     "video": 0,
-     "canvas": 0,
-     "svg": 0,
-     "sections": 0,
-     "horizontalOverflow": 0,
-     "overflowCulprits": [],
-     "uiFragments": 0,
-     "uiAbuse": false,
-     "realPictures": 4,
-     "videoCount": 0,
-     "uiPictures": 0,
-     "pictureSamples": [
-      "educatoriumcollegezaal.jpg",
-      "woman-teaching-geometry.jpg",
-      "commercial-chemical-laboratory-of-the-mid-18th.j",
-      "birmingham-proton-synchrotron-11.jpg"
-     ],
-     "blendText": 0,
-     "sideScrollers": 0,
-     "brokenImages": [],
-     "emoji": [],
-     "videosNoPoster": 0
-    },
-    "hero": {
-     "text": "Privacy",
-     "words": 1,
-     "chars": 7,
-     "lines": 1,
-     "size": 72,
-     "vw": 5,
-     "font": "Albert Sans",
-     "weight": 600,
-     "tracking": -0.035,
-     "leading": 1,
-     "upper": false,
-     "italic": false,
-     "mono": false,
-     "align": "left",
-     "position": "left",
-     "widthRatio": 0.58,
-     "top": 154,
-     "tag": "h1",
-     "kind": "heading"
-    },
-    "h1": {
-     "text": "Privacy",
-     "words": 1,
-     "lines": 1,
-     "size": 72,
-     "font": "Albert Sans"
-    },
-    "headings": [
-     {
-      "text": "Privacy",
-      "words": 1,
-      "chars": 7,
-      "lines": 1,
-      "size": 72,
-      "vw": 5,
-      "font": "Albert Sans",
-      "weight": 600,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.58,
-      "top": 154,
-      "tag": "h1",
-      "kind": "heading"
-     },
-     {
-      "text": "C C V X U L T I M A T E P R E P",
-      "words": 16,
-      "chars": 31,
-      "lines": 1,
-      "size": 44,
-      "vw": 3.1,
-      "font": "Albert Sans",
-      "weight": 600,
-      "tracking": -0.03,
-      "leading": 1.5,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.93,
-      "top": 1593,
-      "tag": "div",
-      "kind": "heading"
-     }
-    ],
-    "headingSummary": {
-     "count": 2,
-     "maxLines": 1,
-     "over2Lines": 0,
-     "statements": 0,
-     "centered": 0,
-     "medianWords": 16,
-     "mixedFontHeadings": 0
-    },
-    "type": {
-     "families": [
-      {
-       "family": "Albert Sans",
-       "share": 1,
-       "mono": false
-      }
-     ],
-     "familyCount": 1,
-     "sizes": [
-      14,
-      15,
-      16,
-      17,
-      19,
-      21,
-      44,
-      72
-     ],
-     "sizeCount": 8,
-     "notLoaded": [],
-     "body": {
-      "font": "Albert Sans",
-      "size": 19,
-      "leading": 1.5,
-      "weight": 400,
-      "tracking": 0,
-      "contrast": 17.2
-     },
-     "measureChars": 86,
-     "max": {
-      "size": 72,
-      "vw": 5,
-      "font": "Albert Sans",
-      "text": "Privacy"
-     },
-     "monoShare": 0,
-     "monoProseShare": 0,
-     "monoFamilies": [],
-     "monoSamples": [],
-     "microLabels": 0,
-     "microLabelShare": 0,
-     "microSamples": [],
-     "upperShare": 0,
-     "centerShare": 0,
-     "smallText": 0
-    },
-    "eyebrows": [],
-    "numbered": [],
-    "color": {
-     "bodyBg": "#0a0a0a",
-     "bodyBgHsl": {
-      "h": 0,
-      "s": 0,
-      "l": 0.04
-     },
-     "dark": true,
-     "sectionBgs": [
-      {
-       "color": "#efefef",
-       "top": 1529,
-       "hsl": {
-        "h": 0,
-        "s": 0,
-        "l": 0.94
-       }
-      }
-     ],
-     "textColors": [
-      {
-       "color": "#efefef",
-       "share": 0.72
-      },
-      {
-       "color": "#9a9a9a",
-       "share": 0.12
-      },
-      {
-       "color": "#0a0a0a",
-       "share": 0.1
-      },
-      {
-       "color": "#3d3d3d",
-       "share": 0.06
-      }
-     ],
-     "button": null,
-     "lowContrast": []
-    },
-    "buttons": {
-     "count": 0,
-     "inHero": 0,
-     "withShadow": 0,
-     "withGradient": 0,
-     "mono": 0,
-     "upper": 0,
-     "heroLabels": []
-    },
-    "surfaces": {
-     "shadowStatic": 0,
-     "shadowOverlay": 0,
-     "shadowSamples": [],
-     "gradients": 0,
-     "scrims": 0,
-     "gradientSamples": [],
-     "gradientText": 0,
-     "hairlines": 0,
-     "hairlineSamples": [],
-     "outlinedBoxes": 0,
-     "dashed": 0,
-     "blurred": 0,
-     "roundedBoxes": 0,
-     "boxRadius": 0,
-     "squareMedia": 0,
-     "roundedMedia": 0,
-     "mediaRadius": 0,
-     "textShadow": 0,
-     "cardRows": []
-    },
-    "heroMedia": [],
-    "nav": {
-     "links": 3,
-     "fixed": false,
-     "height": 64,
-     "floatingPill": false,
-     "blur": false
-    },
-    "fontsLoaded": [
-     "albert sans"
-    ]
-   },
-   "layout": {
-    "viewport": {
-     "w": 1440,
-     "h": 900
-    },
-    "pageH": 2097,
-    "margins": {
-     "left": 48,
-     "right": 48
-    },
-    "sections": [
-     {
-      "sel": "main.legal-main",
-      "tag": "main",
-      "top": 64,
-      "height": 1369,
-      "words": 286,
-      "media": 4,
-      "middle": 181,
-      "heading": {
-       "text": "Privacy",
-       "size": 72,
-       "tag": "h1"
-      },
-      "left": 48,
-      "right": 79,
-      "textLeft": 48,
-      "textRight": 79,
-      "fullBleed": false,
-      "footer": false,
-      "hero": true,
-      "continues": false,
-      "pinned": true
-     },
-     {
-      "sel": "footer.site-footer",
-      "tag": "footer",
-      "top": 1529,
-      "height": 568,
-      "words": 52,
-      "media": 0,
-      "middle": 317,
-      "heading": {
-       "text": "Subjects",
-       "size": 16,
-       "tag": "h3"
-      },
-      "left": 48,
-      "right": 48,
-      "textLeft": 48,
-      "textRight": 48,
-      "fullBleed": false,
-      "footer": true,
-      "hero": false,
-      "continues": false,
-      "pinned": false
-     }
-    ],
-    "gaps": [
-     {
-      "top": 1436,
-      "height": 352
-     }
-    ],
-    "h1s": [
-     {
-      "text": "Privacy",
-      "size": 72,
-      "top": 154,
-      "firstScreen": true
-     }
-    ],
-    "edgeText": [],
-    "edges": [
-     {
-      "x": 48,
-      "n": 13
-     },
-     {
-      "x": 1051,
-      "n": 4
-     }
-    ],
-    "leftBlocks": 17,
-    "bodySize": 19,
-    "stage": false,
-    "explains": true,
-    "slivers": [],
-    "voidShare": 0.07,
-    "voidBox": {
-     "x": 900,
-     "y": 120,
-     "w": 120,
-     "h": 780
-    }
-   },
-   "app": null,
-   "consoleErrors": []
-  },
-  {
-   "width": 768,
-   "height": 1024,
-   "load": "load",
-   "screens": 3,
-   "filled": [
-    0.45,
-    0.68,
-    0.82
-   ],
-   "motion": {
-    "elements": 11,
-    "css": 0,
-    "transitions": 11,
-    "scripted": 0,
-    "videos": 0,
-    "playingVideos": 0
-   },
-   "metrics": {
-    "viewport": {
-     "w": 768,
-     "h": 1024
-    },
-    "page": {
-     "height": 3025,
-     "screens": 3,
-     "words": 357,
-     "img": 4,
-     "video": 0,
-     "canvas": 0,
-     "svg": 0,
-     "sections": 0,
-     "horizontalOverflow": 0,
-     "overflowCulprits": [],
-     "uiFragments": 0,
-     "uiAbuse": false,
-     "realPictures": 4,
-     "videoCount": 0,
-     "uiPictures": 0,
-     "pictureSamples": [
-      "educatoriumcollegezaal.jpg",
-      "woman-teaching-geometry.jpg",
-      "commercial-chemical-laboratory-of-the-mid-18th.j",
-      "birmingham-proton-synchrotron-11.jpg"
-     ],
-     "blendText": 0,
-     "sideScrollers": 0,
-     "brokenImages": [],
-     "emoji": [],
-     "videosNoPoster": 0
-    },
-    "hero": {
-     "text": "Privacy",
-     "words": 1,
-     "chars": 7,
-     "lines": 1,
-     "size": 41.6,
-     "vw": 5.4,
-     "font": "Albert Sans",
-     "weight": 600,
-     "tracking": -0.035,
-     "leading": 1,
-     "upper": false,
-     "italic": false,
-     "mono": false,
-     "align": "left",
-     "position": "left",
-     "widthRatio": 0.63,
-     "top": 166,
-     "tag": "h1",
-     "kind": "heading"
-    },
-    "h1": {
-     "text": "Privacy",
-     "words": 1,
-     "lines": 1,
-     "size": 41.6,
-     "font": "Albert Sans"
-    },
-    "headings": [
-     {
-      "text": "Privacy",
-      "words": 1,
-      "chars": 7,
-      "lines": 1,
-      "size": 41.6,
-      "vw": 5.4,
-      "font": "Albert Sans",
-      "weight": 600,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "left",
-      "widthRatio": 0.63,
-      "top": 166,
-      "tag": "h1",
-      "kind": "heading"
-     },
-     {
-      "text": "C C V X U L T I M A T E P R E P",
-      "words": 16,
-      "chars": 31,
-      "lines": 1,
-      "size": 30.7,
-      "vw": 4,
-      "font": "Albert Sans",
-      "weight": 600,
-      "tracking": -0.03,
-      "leading": 1.5,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 2515,
-      "tag": "div",
-      "kind": "heading"
-     }
-    ],
-    "headingSummary": {
-     "count": 2,
-     "maxLines": 1,
-     "over2Lines": 0,
-     "statements": 0,
-     "centered": 0,
-     "medianWords": 16,
-     "mixedFontHeadings": 0
-    },
-    "type": {
-     "families": [
-      {
-       "family": "Albert Sans",
-       "share": 1,
-       "mono": false
-      }
-     ],
-     "familyCount": 1,
-     "sizes": [
-      14,
-      15,
-      16,
-      17,
-      18,
-      21,
-      31,
-      42
-     ],
-     "sizeCount": 8,
-     "notLoaded": [],
-     "body": {
-      "font": "Albert Sans",
-      "size": 17.9,
-      "leading": 1.5,
-      "weight": 400,
-      "tracking": 0,
-      "contrast": 17.2
-     },
-     "measureChars": 79,
-     "max": {
-      "size": 41.6,
-      "vw": 5.4,
-      "font": "Albert Sans",
-      "text": "Privacy"
-     },
-     "monoShare": 0,
-     "monoProseShare": 0,
-     "monoFamilies": [],
-     "monoSamples": [],
-     "microLabels": 0,
-     "microLabelShare": 0,
-     "microSamples": [],
-     "upperShare": 0,
-     "centerShare": 0,
-     "smallText": 0
-    },
-    "eyebrows": [],
-    "numbered": [],
-    "color": {
-     "bodyBg": "#0a0a0a",
-     "bodyBgHsl": {
-      "h": 0,
-      "s": 0,
-      "l": 0.04
-     },
-     "dark": true,
-     "sectionBgs": [
-      {
-       "color": "#1c1c1c",
-       "top": 1687,
-       "hsl": {
-        "h": 0,
-        "s": 0,
-        "l": 0.11
-       }
-      },
-      {
-       "color": "#efefef",
-       "top": 2451,
-       "hsl": {
-        "h": 0,
-        "s": 0,
-        "l": 0.94
-       }
-      }
-     ],
-     "textColors": [
-      {
-       "color": "#efefef",
-       "share": 0.72
-      },
-      {
-       "color": "#9a9a9a",
-       "share": 0.12
-      },
-      {
-       "color": "#0a0a0a",
-       "share": 0.1
-      },
-      {
-       "color": "#3d3d3d",
-       "share": 0.06
-      }
-     ],
-     "button": null,
-     "lowContrast": []
-    },
-    "buttons": {
-     "count": 0,
-     "inHero": 0,
-     "withShadow": 0,
-     "withGradient": 0,
-     "mono": 0,
-     "upper": 0,
-     "heroLabels": []
-    },
-    "surfaces": {
-     "shadowStatic": 0,
-     "shadowOverlay": 0,
-     "shadowSamples": [],
-     "gradients": 0,
-     "scrims": 0,
-     "gradientSamples": [],
-     "gradientText": 0,
-     "hairlines": 0,
-     "hairlineSamples": [],
-     "outlinedBoxes": 0,
-     "dashed": 0,
-     "blurred": 0,
-     "roundedBoxes": 0,
-     "boxRadius": 0,
-     "squareMedia": 0,
-     "roundedMedia": 0,
-     "mediaRadius": 0,
-     "textShadow": 0,
-     "cardRows": []
-    },
-    "heroMedia": [],
-    "nav": {
-     "links": 3,
-     "fixed": false,
-     "height": 64,
-     "floatingPill": false,
-     "blur": false
-    },
-    "fontsLoaded": [
-     "albert sans"
-    ]
-   },
-   "layout": {
-    "viewport": {
-     "w": 768,
-     "h": 1024
-    },
-    "pageH": 3025,
-    "margins": {
-     "left": 31,
-     "right": 35
-    },
-    "sections": [
-     {
-      "sel": "main.legal-main",
-      "tag": "main",
-      "top": 64,
-      "height": 2291,
-      "words": 286,
-      "media": 4,
-      "middle": 0,
-      "heading": {
-       "text": "Privacy",
-       "size": 42,
-       "tag": "h1"
-      },
-      "left": 31,
-      "right": 35,
-      "textLeft": 31,
-      "textRight": 35,
-      "fullBleed": false,
-      "footer": false,
-      "hero": true,
-      "continues": false,
-      "pinned": false
-     },
-     {
-      "sel": "footer.site-footer",
-      "tag": "footer",
-      "top": 2451,
-      "height": 574,
-      "words": 52,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Subjects",
-       "size": 16,
-       "tag": "h3"
-      },
-      "left": 31,
-      "right": 69,
-      "textLeft": 31,
-      "textRight": 69,
-      "fullBleed": false,
-      "footer": true,
-      "hero": false,
-      "continues": false,
-      "pinned": false
-     }
-    ],
-    "gaps": [
-     {
-      "top": 2324,
-      "height": 320
-     }
-    ],
-    "h1s": [
-     {
-      "text": "Privacy",
-      "size": 42,
-      "top": 166,
-      "firstScreen": true
-     }
-    ],
-    "edgeText": [],
-    "edges": [
-     {
-      "x": 31,
-      "n": 13
-     },
-     {
-      "x": 53,
-      "n": 4
-     }
-    ],
-    "leftBlocks": 17,
-    "bodySize": 18,
-    "stage": false,
-    "explains": false,
-    "slivers": [],
-    "voidShare": 0,
-    "voidBox": null
-   },
-   "app": null,
-   "consoleErrors": []
-  },
   {
    "width": 390,
    "height": 844,
    "load": "load",
-   "screens": 5,
+   "screens": 6,
    "filled": [
-    0.48,
-    0.52,
-    0.86,
-    0.86,
-    0.92
+    0.6,
+    0.33,
+    0.51,
+    0.35,
+    0.84,
+    1
    ],
    "motion": {
-    "elements": 11,
+    "elements": 10,
     "css": 0,
-    "transitions": 11,
+    "transitions": 10,
     "scripted": 0,
-    "videos": 0,
-    "playingVideos": 0
+    "videos": 1,
+    "playingVideos": 1
    },
    "metrics": {
     "viewport": {
@@ -757,26 +30,23 @@
      "h": 844
     },
     "page": {
-     "height": 3554,
-     "screens": 4.2,
-     "words": 357,
-     "img": 4,
-     "video": 0,
+     "height": 4465,
+     "screens": 5.3,
+     "words": 514,
+     "img": 3,
+     "video": 1,
      "canvas": 0,
      "svg": 0,
-     "sections": 0,
+     "sections": 3,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 4,
-     "videoCount": 0,
+     "realPictures": 2,
+     "videoCount": 1,
      "uiPictures": 0,
      "pictureSamples": [
-      "educatoriumcollegezaal.jpg",
-      "woman-teaching-geometry.jpg",
-      "commercial-chemical-laboratory-of-the-mid-18th.j",
-      "birmingham-proton-synchrotron-11.jpg"
+      "educatoriumcollegezaal.jpg"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -785,10 +55,10 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "Privacy",
-     "words": 1,
-     "chars": 7,
-     "lines": 1,
+     "text": "Past exams: Chemistry",
+     "words": 3,
+     "chars": 21,
+     "lines": 2,
      "size": 41.6,
      "vw": 10.7,
      "font": "Albert Sans",
@@ -801,23 +71,23 @@
      "align": "left",
      "position": "center",
      "widthRatio": 0.92,
-     "top": 148,
+     "top": 160,
      "tag": "h1",
      "kind": "heading"
     },
     "h1": {
-     "text": "Privacy",
-     "words": 1,
-     "lines": 1,
+     "text": "Past exams: Chemistry",
+     "words": 3,
+     "lines": 2,
      "size": 41.6,
      "font": "Albert Sans"
     },
     "headings": [
      {
-      "text": "Privacy",
-      "words": 1,
-      "chars": 7,
-      "lines": 1,
+      "text": "Past exams: Chemistry",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
       "size": 41.6,
       "vw": 10.7,
       "font": "Albert Sans",
@@ -830,18 +100,60 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 148,
+      "top": 160,
       "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "CCVX sample exams",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1085,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Dutch vwo exams, newest first",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1913,
+      "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 1,
-     "maxLines": 1,
+     "count": 3,
+     "maxLines": 2,
      "over2Lines": 0,
      "statements": 0,
      "centered": 0,
-     "medianWords": null,
+     "medianWords": 5,
      "mixedFontHeadings": 0
     },
     "type": {
@@ -854,30 +166,31 @@
      ],
      "familyCount": 1,
      "sizes": [
+      13,
       14,
       15,
       16,
       17,
       20,
-      21,
+      24,
       42
      ],
-     "sizeCount": 7,
+     "sizeCount": 8,
      "notLoaded": [],
      "body": {
       "font": "Albert Sans",
       "size": 17,
       "leading": 1.5,
-      "weight": 400,
+      "weight": 500,
       "tracking": 0,
-      "contrast": 17.2
+      "contrast": 7
      },
-     "measureChars": 42,
+     "measureChars": 55,
      "max": {
       "size": 41.6,
       "vw": 10.7,
       "font": "Albert Sans",
-      "text": "Privacy"
+      "text": "Past exams: Chemistry"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -902,17 +215,8 @@
      "dark": true,
      "sectionBgs": [
       {
-       "color": "#1c1c1c",
-       "top": 2010,
-       "hsl": {
-        "h": 0,
-        "s": 0,
-        "l": 0.11
-       }
-      },
-      {
        "color": "#efefef",
-       "top": 2766,
+       "top": 3547,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -922,33 +226,49 @@
      ],
      "textColors": [
       {
-       "color": "#efefef",
-       "share": 0.72
+       "color": "#9a9a9a",
+       "share": 0.56
       },
       {
-       "color": "#9a9a9a",
-       "share": 0.12
+       "color": "#efefef",
+       "share": 0.15
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.09
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
       },
       {
        "color": "#0a0a0a",
-       "share": 0.1
-      },
-      {
-       "color": "#3d3d3d",
-       "share": 0.06
+       "share": 0.07
       }
      ],
-     "button": null,
+     "button": {
+      "bg": "#b11226",
+      "hsl": {
+       "h": 352,
+       "s": 0.82,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
      "lowContrast": []
     },
     "buttons": {
-     "count": 0,
-     "inHero": 0,
+     "count": 1,
+     "inHero": 1,
+     "radius": 0,
+     "height": 61,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
-     "heroLabels": []
+     "heroLabels": [
+      "Try the free Chemistry sample"
+     ]
     },
     "surfaces": {
      "shadowStatic": 0,
@@ -988,41 +308,121 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 3554,
+    "pageH": 4465,
     "margins": {
      "left": 16,
-     "right": 18
+     "right": 16
     },
     "sections": [
      {
-      "sel": "main.legal-main",
-      "tag": "main",
+      "sel": "section.x-hero.x-herogrid",
+      "tag": "section",
       "top": 64,
-      "height": 2606,
-      "words": 286,
-      "media": 4,
+      "height": 970,
+      "words": 95,
+      "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Privacy",
+       "text": "Past exams: Chemistry",
        "size": 42,
        "tag": "h1"
       },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.x-sec.mv-on",
+      "tag": "section",
+      "top": 1034,
+      "height": 829,
+      "words": 95,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "CCVX sample exams",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "p",
+      "tag": "p",
+      "top": 1947,
+      "height": 128,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
       "left": 16,
       "right": 18,
       "textLeft": 16,
       "textRight": 18,
       "fullBleed": false,
       "footer": false,
-      "hero": true,
-      "continues": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "table.x-table",
+      "tag": "table",
+      "top": 2096,
+      "height": 1191,
+      "words": 130,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 36,
+      "textLeft": 16,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "p.x-note",
+      "tag": "p",
+      "top": 3314,
+      "height": 137,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 27,
+      "textLeft": 16,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
       "pinned": false
      },
      {
       "sel": "footer.site-footer",
       "tag": "footer",
-      "top": 2766,
-      "height": 787,
-      "words": 52,
+      "top": 3547,
+      "height": 918,
+      "words": 98,
       "media": 0,
       "middle": 0,
       "heading": {
@@ -1031,9 +431,9 @@
        "tag": "h3"
       },
       "left": 16,
-      "right": 52,
+      "right": 22,
       "textLeft": 16,
-      "textRight": 52,
+      "textRight": 22,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -1043,15 +443,15 @@
     ],
     "gaps": [
      {
-      "top": 2640,
-      "height": 308
+      "top": 3448,
+      "height": 280
      }
     ],
     "h1s": [
      {
-      "text": "Privacy",
+      "text": "Past exams: Chemistry",
       "size": 42,
-      "top": 148,
+      "top": 160,
       "firstScreen": true
      }
     ],
@@ -1059,17 +459,17 @@
     "edges": [
      {
       "x": 16,
-      "n": 13
+      "n": 9
      },
      {
-      "x": 38,
-      "n": 4
+      "x": 36,
+      "n": 1
      }
     ],
-    "leftBlocks": 17,
+    "leftBlocks": 10,
     "bodySize": 17,
     "stage": false,
-    "explains": false,
+    "explains": true,
     "slivers": [],
     "voidShare": 0,
     "voidBox": null
@@ -1078,62 +478,8 @@
    "consoleErrors": []
   }
  ],
- "findings": [
-  {
-   "level": "WARN",
-   "id": "first-action",
-   "width": 1440,
-   "message": "No visible button in the first screen.",
-   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
-   "alsoAt": [
-    768,
-    390
-   ]
-  },
-  {
-   "level": "WARN",
-   "id": "no-footage",
-   "width": 1440,
-   "message": "No video anywhere on the page.",
-   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
-  },
-  {
-   "level": "WARN",
-   "id": "still-page",
-   "width": 1440,
-   "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
-   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
-  },
-  {
-   "level": "WARN",
-   "id": "name-only-title",
-   "width": 768,
-   "message": "The h1 is a bare name (\"Privacy\") and nothing else on the first screen says what this is.",
-   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
-   "alsoAt": [
-    390
-   ]
-  }
- ],
+ "findings": [],
  "images": [
-  {
-   "viewport": "desktop",
-   "width": 1440,
-   "fold": "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/desktop-fold.jpg",
-   "pages": [
-    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/desktop-page-01.jpg"
-   ],
-   "film": []
-  },
-  {
-   "viewport": "tablet",
-   "width": 768,
-   "fold": "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/tablet-fold.jpg",
-   "pages": [
-    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/tablet-page-01.jpg"
-   ],
-   "film": []
-  },
   {
    "viewport": "mobile",
    "width": 390,

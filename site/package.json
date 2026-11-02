@@ -12,7 +12,8 @@
     "test:build": "node scripts/test-build.mjs",
     "emulators": "firebase emulators:start --project demo-ccvx --only auth,firestore,functions,hosting --import .emulator-data --export-on-exit",
     "test:pricing": "node scripts/test-pricing.mjs",
-    "check:links": "node scripts/check-exam-links.mjs"
+    "check:links": "node scripts/check-exam-links.mjs",
+    "stripe:products": "node scripts/stripe-products.mjs"
   },
   "dependencies": {
     "marked": "^15.0.0"

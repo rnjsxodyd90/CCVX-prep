@@ -97,7 +97,26 @@ Footer
 - Moving: one honest clip if assets.mjs --video finds something from this world (writing on paper, lab glass); otherwise a slow drift on a photograph.
 ## Motion plan
 
-- Signature: index-with-preview on the four subject rows (hover a subject, the reader fragment crossfades in one frame; rows show inline on touch).
-- Entrances: heading, text, tile stagger per section (60–90 ms), rise 16–32 px, once.
+- Signature: index-with-preview on the four subject rows (hover a subject, the preview crossfades in one fixed frame; rows tap on touch).
+- Entrances: heading, text, tile stagger per section (~75 ms), rise 24 px, once, via `js/motion.js` with first-scroll + reduced-motion fallbacks.
 - Feedback: press/hover/focus on every control; the folder tabs lift on hover.
-- One moving picture as above.
+- One moving picture: the haematology lab clip (muted loop, poster frame).
+
+## Final taste report addendum (2 Nov 2026)
+
+- **Direction dealt**: one-motif, seed 836147353. Hero: tabbed folder stack. Type: Albert Sans. Colour: black and crimson. No redraws. The dealt sheet is hand-frozen in `site/.taste-skill/direction.json` (later draws re-roll type/palette inside a pinned direction).
+- **App sheet for the reader**: editorial-greeting, seed 788670149, open-plane shell, palette/type mapped from the brand. No redraws.
+- **Idea + live thing**: the candidate's exam dossier as the folder tab running the system (hero stack, band masks, button chamfers); three real C02 questions with worked answers and marking points in the front folder of the hero.
+- **Last gate round (final scores)**: 0 FAIL on every page (see the sweep); remaining defended WARNs: card-rows and size-count on the landing (both dealt), size-count on subpages (same source), no-footage on text pages without an honest clip, still-page 9–13 on quieter pages (entrances fire; inspector's own count), off-centre 48/92 on Biology (notes inset inside its surface), blank-gap on the account sign-in gate (the one deliberate rest). Critique round: margins symmetric, sections full, the first screen answers the ask at both 1440 and 390.
+- **Found pictures and credits** (all in `site/public/assets`, credited in each page's footer):<br>
+  Educatorium Collegezaal photo (Steinbach assumed, public domain) → landing hall band, physics/math buy bands, biology sample, legal rails, exam strips.<br>
+  Wellcome engraving: a large chemical laboratory filled with distilling apparatus (CC BY 4.0) → landing tile, chemistry hero, chemistry-exams hero.<br>
+  Wellcome engraving: commercial chemical laboratory of the mid 18th century (CC BY 4.0) → landing index preview, chemistry sample, legal rails.<br>
+  Botany plate, 1821 grammar of botany (James Edward Smith, public domain) → landing tile + preview, biology hero.<br>
+  Birmingham proton synchrotron 11, 1947 (public domain) → physics facts, physics-exams hero, legal rails.<br>
+  Light projection apparatus, Zahn's Oculus 1685 (NLM, no known restrictions) → physics links, physics-exams hero.<br>
+  Woman teaching geometry, 14th-century manuscript (Meliacin Master, public domain) → math heroes, math-exams heroes.<br>
+  Byrne's Euclid diagrams, 1847 (public domain) → math facts, math-exams heroes.<br>
+  Clip: haematology lab footage (CDC, public domain) → landing tile, chemistry/biology subjects + exam pages.
+- **Drawn-in-code instead of photography**: the question cards in the approach strip, the notes page/BINAS/clock/calendar objects on the landing tiles, the math preview graphs, the block wordmark in the footer. All in the dealt flat languages and palette.
+- **Sample content to swap before launch**: `site/sample-content/**` (chem-c02 practice questions, chem-ccvx-sample-1 walkthrough) is web-dev placeholder; delete when the teacher files land. Subject page counts come from the built catalog and update on rebuild.
