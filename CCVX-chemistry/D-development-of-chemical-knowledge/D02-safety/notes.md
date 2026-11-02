@@ -1,16 +1,16 @@
 # D2 — Safety: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO D2)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO D2)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
 ## Analysis, synthesis, purification and separation
 
-- Analysis (*analyse*): finding out which substances a sample contains (qualitative) and how much of each (quantitative), for example with chromatography, mass spectrometry or a titration ([D01](../D01-chemical-techniques/notes.md)). *(SLO D2; CvTE R&A2.3, R&A2.4)*
-- Synthesis (*synthese*): making a wanted substance from other substances by one or more reactions ([D03](../D03-chemical-synthesis/notes.md)). *(SLO D2)*
+- Analysis (*analyse*): finding out which substances a sample contains (qualitative) and how much of each (quantitative), for example with chromatography, mass spectrometry or a titration (D01 — chemical techniques). *(SLO D2; CvTE R&A2.3, R&A2.4)*
+- Synthesis (*synthese*): making a wanted substance from other substances by one or more reactions (D03 — chemical synthesis). *(SLO D2)*
 - Separation (*scheiden*): splitting a mixture into its components by a difference in a property such as boiling point or solubility. Purification (*zuiveren*) is a separation in which one component, usually the product of a synthesis, is wanted as pure as possible. *(SLO D2; CvTE R&A2.2)*
 - Recrystallisation (*herkristallisatie*) purifies a solid. Dissolve it in as little hot solvent as possible, filter the hot solution to remove insoluble impurities and let it cool. The product crystallises because it dissolves less in the cold solvent, while the small amounts of soluble impurities stay dissolved; then filter off the crystals and dry them. *(SLO D2)*
-- Example: a synthesised solid such as aspirin is purified by recrystallisation, and its purity is then checked with its melting point or a titration ([D01](../D01-chemical-techniques/notes.md)). *(SLO D2; CvTE M2.2)*
+- Example: a synthesised solid such as aspirin is purified by recrystallisation, and its purity is then checked with its melting point or a titration (D01 — chemical techniques). *(SLO D2; CvTE M2.2)*
 - At every step, the properties of the substances (flammability, reactivity, toxicity) decide how they must be handled safely, which the next topics are about. *(SLO D2)*
 - **Trap:** purifying raises the purity but lowers the yield, because some product is lost in every step: it stays dissolved or sticks to the equipment. Purity (*zuiverheid*) and yield (*rendement*) are different things.
 
@@ -33,7 +33,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 | health hazard | long-term damage to health, such as cancer | benzene |
 | environment | toxic to aquatic life | copper(II) sulfate |
 
-- Older bottles may still carry the previous EU system: orange squares with black symbols, with risk phrases (*R-zinnen*) and safety phrases (*S-zinnen*) instead of H and P statements. GHS labels replaced them for pure substances in 2010 and for mixtures in 2015 ([F04](../../F-industrial-chemical-processes/F04-risks-and-safety/notes.md)). *(SLO D2)*
+- Older bottles may still carry the previous EU system: orange squares with black symbols, with risk phrases (*R-zinnen*) and safety phrases (*S-zinnen*) instead of H and P statements. GHS labels replaced them for pure substances in 2010 and for mixtures in 2015 (F04 — risks and safety). *(SLO D2)*
 - **Trap:** one substance often has several pictograms (methanol has the flame, the skull and crossbones and the health hazard), and a pictogram alone doesn't tell you what to do: read the H and P statements as well.
 
 ## Reactivity and toxicity
@@ -47,7 +47,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## Safety on a small scale and lab practice
 
-- Safety on a small scale (*veiligheid op kleine schaal*) is safety in the laboratory, as opposed to the large scale of a factory ([F04](../../F-industrial-chemical-processes/F04-risks-and-safety/notes.md)). One measure is to work with the smallest amounts that still give a result, which limits the damage of a fire, a spill or a reaction that gets out of hand, and makes less waste. *(SLO D2)*
+- Safety on a small scale (*veiligheid op kleine schaal*) is safety in the laboratory, as opposed to the large scale of a factory (F04 — risks and safety). One measure is to work with the smallest amounts that still give a result, which limits the damage of a fire, a spill or a reaction that gets out of hand, and makes less waste. *(SLO D2)*
 - Before an experiment, read the safety data sheet (*veiligheidsinformatieblad*) of every substance: it gives the hazards, protective measures, first aid, fire fighting, storage and disposal. *(CvTE A8.5)*
 - In the lab, wear safety goggles (*veiligheidsbril*) and a lab coat; work with volatile, toxic or smelly substances in a fume hood (*zuurkast*); heat flammable liquids in a water bath or on a hotplate, never over an open flame; and never taste anything or pipette by mouth. *(CvTE A8.5)*
 - Label every container with the name and concentration of its contents and the pictograms, so that nobody mistakes it for something else. *(CvTE A8.5)*
@@ -57,5 +57,5 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## CCVX versus the Dutch syllabus
 
-- **CCVX only:** the text printed under D2 in the CCVX syllabus. It repeats the outcome of C10 by mistake (activation energy, catalyst, enzymes, energy diagram and element conservation), which is covered in [C10](../../C-chemical-processes-and-conservation-laws/C10-activation-energy/notes.md).
-- **Dutch syllabus only:** the actual D2 outcome, which these notes follow: analysing and purifying substances in experiments while handling substances, materials and equipment safely (CvTE syllabus 2027, Bijlage 1, eindterm 31). It is school-exam material *(SLO D2)*, and responsible handling of materials also appears in the CvTE skills specifications *(CvTE A8.5)*, see [A08](../../A-skills/A08-scientific-instruments/notes.md).
+- **CCVX only:** the text printed under D2 in the CCVX syllabus. It repeats the outcome of C10 by mistake (activation energy, catalyst, enzymes, energy diagram and element conservation), which is covered in C10 — activation energy.
+- **Dutch syllabus only:** the actual D2 outcome, which these notes follow: analysing and purifying substances in experiments while handling substances, materials and equipment safely (CvTE syllabus 2027, Bijlage 1, eindterm 31). It is school-exam material *(SLO D2)*, and responsible handling of materials also appears in the CvTE skills specifications *(CvTE A8.5)*, see A08 — scientific instruments.

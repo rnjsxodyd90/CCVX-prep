@@ -1,8 +1,8 @@
 # C1 — Chemical Processes: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later); all examples are original. Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE R1.7)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## C1.1 Dissolving molecular substances and salts
 
@@ -11,7 +11,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Molecular substances
 
 - The Van der Waals bonds (molecular bonds, *vanderwaalsbindingen, molecuulbindingen*) between the molecules break, and so do the hydrogen bridges between them if the molecules have OH or NH groups. New hydrogen bridges and Van der Waals bonds form between the dissolved molecules and water molecules. Glucose: C₆H₁₂O₆(s) → C₆H₁₂O₆(aq). *(CvTE M3.1, M3.9)*
-- Molecules that can form hydrogen bridges with water, such as small molecules with OH or NH₂ groups, are hydrophilic (*hydrofiel*) and dissolve well. Apolar molecules such as hexane form only weak Van der Waals bonds with water, which don't make up for the hydrogen bridges between water molecules that would have to break, so they hardly dissolve: they are hydrophobic (*hydrofoob*). More in [B03](../../B-substances-and-materials/B03-bonds-and-properties/notes.md). *(CvTE M3.6, M3.7)*
+- Molecules that can form hydrogen bridges with water, such as small molecules with OH or NH₂ groups, are hydrophilic (*hydrofiel*) and dissolve well. Apolar molecules such as hexane form only weak Van der Waals bonds with water, which don't make up for the hydrogen bridges between water molecules that would have to break, so they hardly dissolve: they are hydrophobic (*hydrofoob*). More in B03 — bonds and properties. *(CvTE M3.6, M3.7)*
 
 ### Salts
 
@@ -21,7 +21,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## C1.2 Dissolving and ionising acids and bases
 
-- An acid (*zuur*) is a particle that can give off an H⁺ ion, a proton: a proton donor. A base (*base*) is a particle that can take up an H⁺ ion: a proton acceptor. Recognise the acids HCl, H₂SO₄, HNO₃, H₂O + CO₂ ('H₂CO₃'), H₃PO₄ and CH₃COOH and the bases NH₃, OH⁻, CO₃²⁻, O²⁻ and HCO₃⁻ ([B01](../../B-substances-and-materials/B01-particle-models/notes.md)). *(CvTE R1.5, R1.6)*
+- An acid (*zuur*) is a particle that can give off an H⁺ ion, a proton: a proton donor. A base (*base*) is a particle that can take up an H⁺ ion: a proton acceptor. Recognise the acids HCl, H₂SO₄, HNO₃, H₂O + CO₂ ('H₂CO₃'), H₃PO₄ and CH₃COOH and the bases NH₃, OH⁻, CO₃²⁻, O²⁻ and HCO₃⁻ (B01 — particle models). *(CvTE R1.5, R1.6)*
 
 ### Acids
 
@@ -46,7 +46,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
     - Molecular substances: Van der Waals bonds, plus dipole-dipole bonds (*dipool-dipoolbindingen*) and hydrogen bridges where the molecules form them, but never the atomic bonds inside the molecules. When ice melts and water evaporates, hydrogen bridges and Van der Waals bonds between H₂O molecules break.
     - Salts: ion bonds. Metals: metallic bonds (*metaalbindingen*).
     - An atomic lattice (*atoomrooster*) such as quartz, SiO₂, is the exception: melting it breaks atomic bonds, which is why its melting point is so high.
-- Breaking bonds costs energy, so melting and evaporation are endothermic, and solidification and condensation exothermic. The stronger the bonds between the particles, the higher the melting and boiling points ([B03](../../B-substances-and-materials/B03-bonds-and-properties/notes.md)). *(CvTE M3.3, R5.1)*
+- Breaking bonds costs energy, so melting and evaporation are endothermic, and solidification and condensation exothermic. The stronger the bonds between the particles, the higher the melting and boiling points (B03 — bonds and properties). *(CvTE M3.3, R5.1)*
 - **Trap:** the bubbles in boiling water are water vapour, H₂O(g), not hydrogen and oxygen: no O–H atomic bonds break.
 - **Trap:** condensation as a phase change (*condenseren*) has nothing to do with a condensation reaction (*condensatiereactie*, C1.16), in which two molecules join and split off water.
 
@@ -61,13 +61,13 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
     - A hydrate also releases its crystal water (*kristalwater*): CuSO₄·5H₂O(s) → Cu²⁺(aq) + SO₄²⁻(aq) + 5 H₂O(l) *(CvTE M1.11)*
 - Acids, ammonia and oxides react with water, so H₂O(l) is a reactant: HNO₃(l) + H₂O(l) → H₃O⁺(aq) + NO₃⁻(aq), and the equations in C1.2. *(CvTE R1.2, R1.7)*
 - Give the notation from the name and back: hydrochloric acid (*zoutzuur*) is H₃O⁺(aq) + Cl⁻(aq), caustic soda (*natronloog*) Na⁺(aq) + OH⁻(aq), and ammonia (*ammonia*) NH₃(aq). *(CvTE R1.4)*
-- Check every equation with an element balance (*elementbalans*: the same number of atoms of each element on both sides) and a charge balance (*ladingsbalans*: the same total charge on both sides); the conservation laws are in [C03](../C03-conservation-laws-and-cycles/notes.md). Change only the coefficients (*coëfficiënten*), never the indices (*indices*) in a formula. *(CvTE R1.1, M1.3)*
+- Check every equation with an element balance (*elementbalans*: the same number of atoms of each element on both sides) and a charge balance (*ladingsbalans*: the same total charge on both sides); the conservation laws are in C03 — conservation laws and cycles. Change only the coefficients (*coëfficiënten*), never the indices (*indices*) in a formula. *(CvTE R1.1, M1.3)*
 - **Trap:** two chloride ions are 2 Cl⁻, not Cl₂⁻; Cl₂ is chlorine.
 - **Trap:** writing H₂O as a reactant for a salt that only dissolves, or leaving out the crystal water of a hydrate, makes the equation unbalanced.
 
 ## C1.5 Bonds in distillation and adsorption
 
-- The Dutch syllabus dropped this outcome, but CCVX still lists it. The principle of separation is now in R&A2.1–R&A2.2, and the techniques themselves are in [D01](../../D-development-of-chemical-knowledge/D01-chemical-techniques/notes.md). *(CvTE R&A2.1, R&A2.2)*
+- The Dutch syllabus dropped this outcome, but CCVX still lists it. The principle of separation is now in R&A2.1–R&A2.2, and the techniques themselves are in D01 — chemical techniques. *(CvTE R&A2.1, R&A2.2)*
 
 ### Distillation
 
@@ -79,7 +79,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - In adsorption (*adsorberen*) particles stick to the surface of a solid by forming bonds with it. Activated carbon (*actieve kool*) is porous, with a very large surface area, and mostly apolar, so it binds particles mainly by Van der Waals bonds. *(CvTE M3.8, R&A2.1)*
 - The particles that bind most strongly to the surface are held back; the rest stay in the liquid or gas. On activated carbon, large and apolar molecules (many colourings, smells and organic pollutants) adsorb well, because they form many Van der Waals bonds with the surface. Water, small polar molecules and ions adsorb poorly, because they stay bound to water by hydrogen bridges or ion-dipole bonds; a particle adsorbed from a solution first has to break those bonds with the solvent. The carbon is then filtered off. *(CvTE M3.8)*
-- Activated carbon purifies drinking water, decolourises solutions and removes smells in cooker hoods and gas masks. In chromatography the balance between adsorbing to the stationary phase and dissolving in the mobile phase separates the substances ([D01](../../D-development-of-chemical-knowledge/D01-chemical-techniques/notes.md)). *(CvTE R&A2.1)*
+- Activated carbon purifies drinking water, decolourises solutions and removes smells in cooker hoods and gas masks. In chromatography the balance between adsorbing to the stationary phase and dissolving in the mobile phase separates the substances (D01 — chemical techniques). *(CvTE R&A2.1)*
 - **Trap:** adsorption is sticking to a surface; absorption is taking a substance up into the whole material, as a sponge does.
 
 ## C1.6 Combustion and other reaction equations
@@ -98,16 +98,16 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ### Other processes
 
-- When the reactants and products are given, write their formulas first (names in [B01](../../B-substances-and-materials/B01-particle-models/notes.md)), then balance with coefficients and check the element and charge balance. *(CvTE R1.1, R1.2)*
+- When the reactants and products are given, write their formulas first (names in B01 — particle models), then balance with coefficients and check the element and charge balance. *(CvTE R1.1, R1.2)*
     - thermolysis of limestone: CaCO₃(s) → CaO(s) + CO₂(g)
     - photosynthesis: 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂
 - The Dutch syllabus also asks for equations in which one reactant or product isn't given: find it from the atoms left over. "Iron(III) oxide reacts with carbon monoxide to form iron and a gas": the O atoms leaving Fe₂O₃ have to end up with C, so the gas is CO₂, and Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂. *(CvTE R1.2)*
-- The coefficients give the mole ratio for calculations ([C02](../C02-chemical-calculations/notes.md)). *(CvTE R&A1.1)*
+- The coefficients give the mole ratio for calculations (C02 — chemical calculations). *(CvTE R&A1.1)*
 - **Trap:** H₂, N₂, O₂ and the halogens (F₂, Cl₂, Br₂, I₂) are diatomic; and never balance by changing a formula.
 
 ## C1.7 Donor-acceptor reactions
 
-- In a donor-acceptor reaction (*donor-acceptorreactie*) one particle, the donor, passes a particle to another, the acceptor. Classifying reaction types in general is in [C07](../C07-classification-of-reactions/notes.md). *(CvTE R1.3)*
+- In a donor-acceptor reaction (*donor-acceptorreactie*) one particle, the donor, passes a particle to another, the acceptor. Classifying reaction types in general is in C07 — classification of reactions. *(CvTE R1.3)*
 
 ### Acid-base reactions: proton transfer
 
@@ -130,22 +130,21 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Inside the cell the charge is carried by ions (ion transport, *ionentransport*). A salt bridge (*zoutbrug*, a tube with a salt solution) or a membrane (*membraan*) joins the two electrolytes: it lets ions through but keeps the oxidator away from the reductor. Positive ions move towards the positive electrode and negative ions towards the negative electrode, so each half-cell stays electrically neutral. *(CvTE R1.14)*
 - Daniell cell: a zinc electrode in a solution with Zn²⁺ and a copper electrode in a solution with Cu²⁺, joined by a salt bridge. Negative electrode: Zn → Zn²⁺ + 2 e⁻. Positive electrode: Cu²⁺ + 2 e⁻ → Cu. Total: Zn + Cu²⁺ → Zn²⁺ + Cu. *(CvTE R1.14)*
 
-```mermaid
-flowchart LR
-    N["negative electrode: Zn → Zn²⁺ + 2 e⁻"] -->|electrons through the wire| P["positive electrode: Cu²⁺ + 2 e⁻ → Cu"]
-    N -.->|positive ions through the salt bridge| P
-    P -.->|negative ions through the salt bridge| N
+```text
+electrons:      negative electrode (Zn → Zn²⁺ + 2 e⁻) ── wire ──► positive electrode (Cu²⁺ + 2 e⁻ → Cu)
+positive ions:  negative half-cell ── salt bridge ──► positive half-cell
+negative ions:  positive half-cell ── salt bridge ──► negative half-cell
 ```
 
 - The cell voltage (*bronspanning*) under standard conditions is ΔV = V₀(oxidator) − V₀(reductor), with both values from the Binas table of standard electrode potentials. For the Daniell cell: 0.34 − (−0.76) = 1.10 V. *(CvTE R1.10, R1.14)*
 - The current (*stroomsterkte*, in ampere) is the charge that passes per second, so it shows how fast the electrode reactions run. *(CvTE R1.14)*
-- A battery is empty when its reductor or oxidator is used up. A fuel cell (*brandstofcel*) is supplied continuously with fuel (the reductor, such as H₂ or methanol) and oxygen, so it keeps working; its half-reactions are in C1.14. Rechargeable batteries are in C1.9, and the sustainability of batteries and fuel cells in [F03](../../F-industrial-chemical-processes/F03-energy-conversion/notes.md). *(CvTE R1.14)*
+- A battery is empty when its reductor or oxidator is used up. A fuel cell (*brandstofcel*) is supplied continuously with fuel (the reductor, such as H₂ or methanol) and oxygen, so it keeps working; its half-reactions are in C1.14. Rechargeable batteries are in C1.9, and the sustainability of batteries and fuel cells in F03 — energy conversion. *(CvTE R1.14)*
 - **Trap:** electrons never go through the electrolyte or the salt bridge, and ions never go through the wire.
 - **Trap:** English books call the electrode where oxidation happens the anode and the one where reduction happens the cathode, so the anode is the negative electrode in a battery but the positive electrode in electrolysis. Dutch and CCVX questions say positive and negative electrode; reason with those.
 
 ## C1.9 Electrolysis
 
-- Electrolysis (*elektrolyse*) is a redox reaction that doesn't run by itself and is forced by a direct-current source (*gelijkspanningsbron*): electrical energy is turned into chemical energy. When one substance is split up, as water into hydrogen and oxygen, it's a decomposition reaction (*ontledingsreactie*), like thermolysis and photolysis ([C07](../C07-classification-of-reactions/notes.md)). *(CvTE R1.3, T6.5)*
+- Electrolysis (*elektrolyse*) is a redox reaction that doesn't run by itself and is forced by a direct-current source (*gelijkspanningsbron*): electrical energy is turned into chemical energy. When one substance is split up, as water into hydrogen and oxygen, it's a decomposition reaction (*ontledingsreactie*), like thermolysis and photolysis (C07 — classification of reactions). *(CvTE R1.3, T6.5)*
 - The source pushes electrons into the negative electrode, where the strongest oxidator present takes them up: reduction at the negative electrode. It pulls electrons out of the positive electrode, where the strongest reductor present gives them off: oxidation at the positive electrode. *(CvTE R1.14)*
 - Consider every particle present, including water, and at the positive electrode the electrode metal itself unless it's inert, like platinum or carbon (graphite). The strongest oxidator has the highest V₀ and the strongest reductor the lowest (C1.13). *(CvTE R1.10)*
 - Example: a copper(II) sulfate solution with carbon electrodes. At the negative electrode Cu²⁺ (+0.34 V) is a stronger oxidator than water (−0.83 V): Cu²⁺ + 2 e⁻ → Cu. At the positive electrode water is the strongest reductor (sulfate ions are a far weaker one): 2 H₂O → O₂ + 4 H⁺ + 4 e⁻. Total: 2 Cu²⁺ + 2 H₂O → 2 Cu + O₂ + 4 H⁺. *(CvTE R1.10, R1.13)*
@@ -172,7 +171,7 @@ flowchart LR
 
 - A strong acid (*sterk zuur*) reacts completely with water (*aflopende reactie*): the solution contains no acid molecules. A weak acid (*zwak zuur*) reacts only partly, in an equilibrium (*evenwicht*) in which most acid particles stay intact. *(CvTE R1.8, R4.1)*
 - Strong acids: HCl, HNO₃, and H₂SO₄ in its first step, H₂SO₄ + H₂O → H₃O⁺ + HSO₄⁻ (HSO₄⁻ is itself a weak acid). HBr and HI are strong as well. Weak acids: CH₃COOH, HCOOH, HF, H₃PO₄, NH₄⁺ and CO₂ + H₂O. *(CvTE R1.5, R1.8)*
-- The Binas table of acid and base constants gives the strength of weak acids and bases: the larger K<sub>z</sub>, the stronger the acid, and the larger K<sub>b</sub>, the stronger the base. K<sub>z</sub>(HCOOH) = 1.8·10⁻⁴ is larger than K<sub>z</sub>(CH₃COOH) = 1.8·10⁻⁵, so methanoic acid is the stronger acid. Calculations with K<sub>z</sub> and K<sub>b</sub> are in [C05](../C05-chemical-equilibrium/notes.md). *(CvTE R1.8, R&A1.6)*
+- The Binas table of acid and base constants gives the strength of weak acids and bases: the larger K<sub>z</sub>, the stronger the acid, and the larger K<sub>b</sub>, the stronger the base. K<sub>z</sub>(HCOOH) = 1.8·10⁻⁴ is larger than K<sub>z</sub>(CH₃COOH) = 1.8·10⁻⁵, so methanoic acid is the stronger acid. Calculations with K<sub>z</sub> and K<sub>b</sub> are in C05 — chemical equilibrium. *(CvTE R1.8, R&A1.6)*
 - The stronger an acid, the weaker its conjugate base. For a conjugate pair K<sub>z</sub> × K<sub>b</sub> = K<sub>w</sub>: for CH₃COOH and CH₃COO⁻, 1.8·10⁻⁵ × 5.6·10⁻¹⁰ = 1.0·10⁻¹⁴. The conjugate base of a strong acid, such as Cl⁻ or NO₃⁻, is too weak to react as a base in water. *(CvTE R&A1.6)*
 - At equal concentration a strong acid has a higher [H₃O⁺], so a lower pH, a better conductivity (more ions) and a faster reaction with, for example, magnesium or marble. 0.10 M hydrochloric acid has pH 1.00; 0.10 M ethanoic acid has a pH of about 2.9. *(CvTE R1.8, R&A1.5)*
 - Notation: a solution of a strong acid as its ions, such as H₃O⁺(aq) + Cl⁻(aq) or H₃O⁺(aq) + NO₃⁻(aq); a solution of a weak acid as molecules, CH₃COOH(aq). *(CvTE R1.4, R1.8)*
@@ -196,7 +195,7 @@ flowchart LR
     - ammonia and hydrochloric acid: NH₃(aq) + H₃O⁺(aq) → NH₄⁺(aq) + H₂O(l)
     - calcium oxide and hydrochloric acid: CaO(s) + 2 H₃O⁺(aq) → Ca²⁺(aq) + 3 H₂O(l)
 - **Trap:** a weak acid stays a molecule in the equation (CH₃COOH, not H₃O⁺), and a salt that doesn't dissolve stays (s).
-- **Trap:** with enough acid, carbonate and hydrogencarbonate give CO₂ gas and water (it fizzes); the Dutch write 'H₂CO₃' in quotes because it is really CO₂ + H₂O. With too little acid, CO₃²⁻ takes up only one H⁺: H₃O⁺ + CO₃²⁻ → HCO₃⁻ + H₂O. Check which reactant is in excess (*overmaat*), as in [C02](../C02-chemical-calculations/notes.md).
+- **Trap:** with enough acid, carbonate and hydrogencarbonate give CO₂ gas and water (it fizzes); the Dutch write 'H₂CO₃' in quotes because it is really CO₂ + H₂O. With too little acid, CO₃²⁻ takes up only one H⁺: H₃O⁺ + CO₃²⁻ → HCO₃⁻ + H₂O. Check which reactant is in excess (*overmaat*), as in C02 — chemical calculations.
 
 ## C1.12 Buffer systems
 
@@ -207,7 +206,7 @@ flowchart LR
     - NH₃ + H₃O⁺ → NH₄⁺ + H₂O and NH₄⁺ + OH⁻ → NH₃ + H₂O
     - blood: HCO₃⁻ + H₃O⁺ → CO₂ + 2 H₂O and CO₂ + OH⁻ → HCO₃⁻
 - You can make a buffer by mixing the two, or by adding a strong base to a weak acid (or a strong acid to a weak base) until part of it has reacted; when half has reacted, acid and base are present in equal amounts. *(CvTE R1.9)*
-- The pH of a buffer follows from K<sub>z</sub> and the ratio of acid to base; that calculation belongs to [C05](../C05-chemical-equilibrium/notes.md). *(CvTE R&A1.6)*
+- The pH of a buffer follows from K<sub>z</sub> and the ratio of acid to base; that calculation belongs to C05 — chemical equilibrium. *(CvTE R&A1.6)*
 - **Trap:** a buffer has a limited capacity (*buffercapaciteit*): once one of its two particles is used up, the pH changes sharply.
 - **Trap:** a strong acid with its conjugate base, such as HCl with NaCl, is no buffer, because Cl⁻ doesn't take up H⁺.
 
@@ -234,10 +233,10 @@ flowchart LR
 | Na⁺ + e⁻ → Na | −2.71 |
 
 - A redox reaction can run when the oxidator has a higher V₀ than the reductor. Zn + Cu²⁺ → Zn²⁺ + Cu runs, because +0.34 V is higher than −0.76 V; Cu with Zn²⁺ doesn't react. Cl₂ + 2 I⁻ → 2 Cl⁻ + I₂ runs, because +1.36 V is higher than +0.54 V. *(CvTE R1.10, R1.11)*
-- Metals with a negative V₀, such as Mg, Zn and Fe, react with hydrochloric acid and give H₂; copper and silver, with a positive V₀, don't. The weaker a metal is as a reductor, the more noble (*edel*) it is and the less easily it corrodes, unless a protective layer changes that ([B04](../../B-substances-and-materials/B04-bonds-structures-and-properties/notes.md)). *(CvTE R1.10, M4.1)*
+- Metals with a negative V₀, such as Mg, Zn and Fe, react with hydrochloric acid and give H₂; copper and silver, with a positive V₀, don't. The weaker a metal is as a reductor, the more noble (*edel*) it is and the less easily it corrodes, unless a protective layer changes that (B04 — bonds structures and properties). *(CvTE R1.10, M4.1)*
 - Some oxidators are stronger in acid: O₂ has +1.23 V in acidic solution but +0.40 V in basic solution, and Binas lists both half-reactions. *(CvTE R1.10)*
 - **Trap:** use both V₀ values as printed; don't change the sign of the reductor's value because its half-reaction runs backwards.
-- **Trap:** V₀ tells you whether a reaction can run under standard conditions, not how fast it goes ([C04](../C04-reaction-kinetics/notes.md)).
+- **Trap:** V₀ tells you whether a reaction can run under standard conditions, not how fast it goes (C04 — reaction kinetics).
 
 ## C1.14 Half-reactions
 
@@ -288,7 +287,7 @@ flowchart LR
 - Buta-1,3-diene, CH₂=CH–CH=CH₂, has two double bonds separated by one single bond, and adds Br₂ in two ways. *(CvTE R1.15)*
     - 1,2-addition: CH₂=CH–CH=CH₂ + Br₂ → CH₂Br–CHBr–CH=CH₂ (3,4-dibromobut-1-ene). Br binds to C1 and C2; the other double bond stays.
     - 1,4-addition: CH₂=CH–CH=CH₂ + Br₂ → CH₂Br–CH=CH–CH₂Br (1,4-dibromobut-2-ene). Br binds to C1 and C4; both double bonds break and a new double bond forms between C2 and C3.
-- Resonance (mesomeric) structures (*grensstructuren, mesomerie*) explain the two products. The Br–Br bond breaks: one Br atom binds to C1, using the electron pair of the C1=C2 bond, and the other leaves as Br⁻. That leaves a positive charge on C2, and this positive ion has a second resonance structure with the charge on C4, so the charge is spread over C2 and C4. Br⁻ then binds to C2 (1,2-addition) or to C4 (1,4-addition). Electron-pair arrows for such mechanisms are in [C04](../C04-reaction-kinetics/notes.md). *(CvTE M1.15, R2.5)*
+- Resonance (mesomeric) structures (*grensstructuren, mesomerie*) explain the two products. The Br–Br bond breaks: one Br atom binds to C1, using the electron pair of the C1=C2 bond, and the other leaves as Br⁻. That leaves a positive charge on C2, and this positive ion has a second resonance structure with the charge on C4, so the charge is spread over C2 and C4. Br⁻ then binds to C2 (1,2-addition) or to C4 (1,4-addition). Electron-pair arrows for such mechanisms are in C04 — reaction kinetics. *(CvTE M1.15, R2.5)*
 
 ```text
 CH₂=CH–CH=CH₂ + Br₂  →  CH₂Br–CH⁺–CH=CH₂ + Br⁻
@@ -303,7 +302,7 @@ CH₂Br–CH⁺–CH=CH₂   ↔   CH₂Br–CH=CH–CH₂⁺
 
 - Write every molecule as a structural formula (*structuurformule*) and check that the atoms balance, just as with molecular formulas. A C atom forms four bonds, N three, O two, H and the halogens one. *(CvTE R1.16, M1.12)*
 - CvTE drawing rules: you may leave out the C–H bond lines if each C shows its right number of H atoms; in OH and NH₂ groups always write the H atoms and draw the bond from the O or N atom to the carbon chain; always draw a carbonyl group (C=O) out. In a Lewis structure (*lewisstructuur*) also draw the lone pairs, as a line or two dots, and put a formal charge on the atom that carries it. *(CvTE Bijlage 3A, M1.15, M1.17)*
-- To turn the four drawings below into Lewis structures, add two lone pairs to every O atom, one to every N atom and three to every Cl and Br atom; none of these atoms carries a charge. Drawing Lewis structures is in [B01](../../B-substances-and-materials/B01-particle-models/notes.md). *(CvTE R1.16, M1.12)*
+- To turn the four drawings below into Lewis structures, add two lone pairs to every O atom, one to every N atom and three to every Cl and Br atom; none of these atoms carries a charge. Drawing Lewis structures is in B01 — particle models. *(CvTE R1.16, M1.12)*
 
 ### Condensation
 
@@ -346,7 +345,7 @@ H – C – C – N – C – H  +  H – O – H
 ### Hydrolysis
 
 - Hydrolysis (*hydrolyse*) is the reverse of condensation: water splits an ester into a carbon acid and an alkanol, and an amide or peptide into a carbon acid and an amine. The dipeptide from C1.16 plus water gives glycine and alanine back; in digestion, enzymes hydrolyse proteins into amino acids. *(CvTE R1.16)*
-- With OH⁻ instead of water, an ester gives an alkanoate ion and an alcohol (saponification, *verzeping*): CH₃COOCH₂CH₃ + OH⁻ → CH₃COO⁻ + CH₃CH₂OH. Saponifying fats gives soap ([C07](../C07-classification-of-reactions/notes.md)). *(CvTE R1.16)*
+- With OH⁻ instead of water, an ester gives an alkanoate ion and an alcohol (saponification, *verzeping*): CH₃COOCH₂CH₃ + OH⁻ → CH₃COO⁻ + CH₃CH₂OH. Saponifying fats gives soap (C07 — classification of reactions). *(CvTE R1.16)*
 
 ### Addition
 
@@ -362,7 +361,7 @@ H – C – C – N – C – H  +  H – O – H
 
 ### Substitution
 
-- In a substitution (*substitutie*) an atom or group is replaced by another. Under UV light chlorine replaces an H atom of methane (a radical mechanism, [C04](../C04-reaction-kinetics/notes.md)); further substitution gives CH₂Cl₂, CHCl₃ and CCl₄. The C–H and Cl–Cl bonds break, and C–Cl and H–Cl bonds form. *(CvTE R1.16)*
+- In a substitution (*substitutie*) an atom or group is replaced by another. Under UV light chlorine replaces an H atom of methane (a radical mechanism, C04 — reaction kinetics); further substitution gives CH₂Cl₂, CHCl₃ and CCl₄. The C–H and Cl–Cl bonds break, and C–Cl and H–Cl bonds form. *(CvTE R1.16)*
 
 ```text
     H                         H
@@ -373,7 +372,7 @@ H – C – H  +  Cl – Cl  →  H – C – Cl  +  H – Cl
 ```
 
 - Bromoethane and hydroxide ions: CH₃CH₂Br + OH⁻ → CH₃CH₂OH + Br⁻, in which the OH⁻ ion replaces the Br atom. In Lewis structures the O of OH⁻ has three lone pairs and carries the negative charge, the Br in C–Br has three lone pairs, the O in ethanol two, and Br⁻ four, with the negative charge. *(CvTE R1.16, M1.15)*
-- Addition and condensation polymerisation are the same reactions repeated over and over ([D03](../../D-development-of-chemical-knowledge/D03-chemical-synthesis/notes.md)). *(CvTE R2.1)*
+- Addition and condensation polymerisation are the same reactions repeated over and over (D03 — chemical synthesis). *(CvTE R2.1)*
 - **Trap:** count the bonds on every C atom; a carbon with three or five bonds is wrong.
 
 ## C1.18 Analogue reactions
@@ -381,13 +380,13 @@ H – C – H  +  Cl – Cl  →  H – C – Cl  +  H – Cl
 - Exam questions often give one reaction and ask for the same reaction with related, analogue compounds (*analoge verbindingen*). Find which groups react and which bonds break and form, keep the rest of the molecule unchanged, make the same change in the new compound, and balance. *(CvTE R1.17)*
 - Given that ethanoic acid and ethanol form ethyl ethanoate and water, methanol and propanoic acid give methyl propanoate and water: CH₃CH₂COOH + CH₃OH ⇌ CH₃CH₂COOCH₃ + H₂O. *(CvTE R1.17)*
 - Given the addition of Br₂ to ethene, propene gives 1,2-dibromopropane: CH₂=CH–CH₃ + Br₂ → CH₂Br–CHBr–CH₃. *(CvTE R1.17)*
-- **Trap:** a molecule with two reacting groups can react twice: ethane-1,2-diol and ethanoic acid can form a diester, HO–CH₂–CH₂–OH + 2 CH₃COOH ⇌ CH₃COO–CH₂–CH₂–OOCCH₃ + 2 H₂O. With two reacting groups on both molecules, long chains form: condensation polymers ([D03](../../D-development-of-chemical-knowledge/D03-chemical-synthesis/notes.md)).
+- **Trap:** a molecule with two reacting groups can react twice: ethane-1,2-diol and ethanoic acid can form a diester, HO–CH₂–CH₂–OH + 2 CH₃COOH ⇌ CH₃COO–CH₂–CH₂–OOCCH₃ + 2 H₂O. With two reacting groups on both molecules, long chains form: condensation polymers (D03 — chemical synthesis).
 - **Trap:** keep the carbon skeleton as it is; only the reacting group changes.
 
 ## CCVX versus the Dutch syllabus
 
 - **In both:** everything above except C1.5. CCVX C1 matches CvTE R1 (R1.1–R1.17), with dissolving and phase changes in M3.1, M3.4 and M3.9 and electrolysis also in T6.5.
 - **CCVX only:** C1.5, the bonds broken and formed in distillation and adsorption; the Dutch syllabus dropped it and moved the principle of separation to R&A2.1–R&A2.2. Also the term oxonium ion, which the omnummeringstabel says was dropped from M3.9 (Dutch exams still write H₃O⁺).
-- **Dutch syllabus only:** equations in which one reactant or product isn't given (R1.2); recognising transesterification (*omestering*: an ester and an alcohol giving another ester and another alcohol) as a reaction type (R1.3), which CCVX only meets through biodiesel production in [F03](../../F-industrial-chemical-processes/F03-energy-conversion/notes.md); and half-reactions for any given redox couple (R1.12), where CCVX C1.14 names batteries and fuel cells as the context.
+- **Dutch syllabus only:** equations in which one reactant or product isn't given (R1.2); recognising transesterification (*omestering*: an ester and an alcohol giving another ester and another alcohol) as a reaction type (R1.3), which CCVX only meets through biodiesel production in F03 — energy conversion; and half-reactions for any given redox couple (R1.12), where CCVX C1.14 names batteries and fuel cells as the context.
 - **Wording:** C1.16 says resonance (mesomeric) structures where R1.15 now says Lewis structures; resonance structures are still in M1.15 and R2.5, so the 1,4-addition explanation is needed for both.
 - **Numbering:** CCVX inserted item C1.8 (electrochemical cell), so CCVX C1.9–C1.18 are old Dutch C1.8–C1.17 in the omnummeringstabel; CCVX C1.10 (strong and weak acids), for example, is old C1.9 and now R1.8. Match by content.

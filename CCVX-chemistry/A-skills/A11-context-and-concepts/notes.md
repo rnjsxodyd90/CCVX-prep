@@ -1,8 +1,8 @@
 # A11 — Reasoning in terms of Context and Concepts: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## A11 Context and concepts
 
@@ -14,9 +14,9 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ## Worked outline: an unfamiliar context
 
 - Context: an antacid tablet against heartburn contains 0.500 g of magnesium hydroxide, Mg(OH)₂. How much stomach acid can one tablet neutralise? Suppose stomach acid is hydrochloric acid with [H₃O⁺] = 0.10 mol L⁻¹. *(CvTE A11.1)*
-- Step 1, recognise the concepts. OH⁻ is a base and H₃O⁺ an acid, so this is an acid–base reaction ([C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md)). Magnesium hydroxide hardly dissolves in water (Binas: solubility of salts), so it reacts as a solid.
+- Step 1, recognise the concepts. OH⁻ is a base and H₃O⁺ an acid, so this is an acid–base reaction (C01 — chemical processes). Magnesium hydroxide hardly dissolves in water (Binas: solubility of salts), so it reacts as a solid.
 - Step 2, write the equation: Mg(OH)₂(s) + 2 H₃O⁺(aq) → Mg²⁺(aq) + 4 H₂O(l).
-- Step 3, calculate ([C02](../../C-chemical-processes-and-conservation-laws/C02-chemical-calculations/notes.md)). M(Mg(OH)₂) = 24.31 + 2 × (16.00 + 1.008) = 58.33 g mol⁻¹, so the tablet contains 0.500 / 58.33 = 8.57·10⁻³ mol. That reacts with 2 × 8.57·10⁻³ = 1.71·10⁻² mol H₃O⁺, which is in 1.71·10⁻² / 0.10 = 0.17 L = 1.7·10² mL of stomach acid.
+- Step 3, calculate (C02 — chemical calculations). M(Mg(OH)₂) = 24.31 + 2 × (16.00 + 1.008) = 58.33 g mol⁻¹, so the tablet contains 0.500 / 58.33 = 8.57·10⁻³ mol. That reacts with 2 × 8.57·10⁻³ = 1.71·10⁻² mol H₃O⁺, which is in 1.71·10⁻² / 0.10 = 0.17 L = 1.7·10² mL of stomach acid.
 - Step 4, predict and argue. The pH in the stomach rises as H₃O⁺ is used up. An antacid with sodium hydrogen carbonate instead would also form a gas: HCO₃⁻(aq) + H₃O⁺(aq) → CO₂(g) + 2 H₂O(l), which can be a reason to prefer magnesium hydroxide.
 - **Trap:** one Mg(OH)₂ neutralises two H₃O⁺; using a 1 : 1 ratio gives half the right volume.
 

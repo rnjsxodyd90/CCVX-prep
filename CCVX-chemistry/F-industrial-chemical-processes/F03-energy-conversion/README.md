@@ -47,4 +47,5 @@ The candidate is able in the context of sustainability to describe what chemical
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: checked against the CCVX syllabus and Binas). Start here.
+- [practice.md](practice.md): 10 original practice questions with full worked solutions, in CCVX style.

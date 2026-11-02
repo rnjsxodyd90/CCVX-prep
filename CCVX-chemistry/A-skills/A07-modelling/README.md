@@ -19,4 +19,5 @@ The candidate is able, using consistent arguments and relevant arithmetical and 
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: checked against the CCVX syllabus and Binas). Start here.
+- [practice.md](practice.md): 5 original practice questions with full worked solutions, in CCVX style.

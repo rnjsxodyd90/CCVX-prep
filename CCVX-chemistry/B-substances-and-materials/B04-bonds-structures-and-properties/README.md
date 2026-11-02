@@ -34,4 +34,5 @@ The candidate is able to explain the properties of substances and materials base
 
 ## Study material
 
-- [notes.md](notes.md): explanations of every outcome above (status: drafted).
+- [notes.md](notes.md): explanations of every outcome above (status: checked against the CCVX syllabus and Binas). Start here.
+- [practice.md](practice.md): 10 original practice questions with full worked solutions, in CCVX style.

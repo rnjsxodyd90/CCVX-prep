@@ -1,8 +1,8 @@
 # A12 — Reasoning in terms of Structure and Properties: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## Micro level
 
@@ -33,7 +33,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Diamond and graphite are both pure carbon. In diamond each carbon atom has four atomic bonds in a three-dimensional network, so diamond is very hard and doesn't conduct. In graphite each atom is bonded to three others in flat layers, and the remaining electrons can move within the layers: graphite conducts along the layers, and the layers slide over each other easily, which makes it soft.
 - Thermoplastic versus thermoset: the separate chains of a thermoplastic can slide past each other once the Van der Waals bonds are weakened by heating, so it softens and can be moulded again. The cross-linked network of a thermoset can't do that, so it doesn't soften on heating and decomposes when heated strongly.
 - Predicting from a structure: ethanol (46 u) is a liquid at room temperature while propane (44 u) is a gas, because the –OH group lets ethanol molecules form hydrogen bridges. So a substance with –OH or –NH groups is expected to have a higher boiling point, and to mix better with water, than one of similar mass without them.
-- More practice: [B03](../../B-substances-and-materials/B03-bonds-and-properties/notes.md) (bonds and properties), [B04](../../B-substances-and-materials/B04-bonds-structures-and-properties/notes.md) (structures and material properties such as deformability, conductivity and hardness) and [E04](../../E-innovation-and-chemical-research/E04-new-materials/notes.md) (new materials).
+- More practice: B03 — bonds and properties (bonds and properties), B04 — bonds structures and properties (structures and material properties such as deformability, conductivity and hardness) and E04 — new materials (new materials).
 
 ## CCVX versus the Dutch syllabus
 

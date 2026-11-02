@@ -1,20 +1,20 @@
 # sb11 — Atomic Structure: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## sb11 Structure of atoms and ions
 
 ### Atomic nucleus, protons and neutrons
 
 - An atom (*atoom*) has a tiny nucleus (*atoomkern*) at its centre, which holds almost all of its mass, surrounded by a much larger electron cloud (*elektronenwolk*). *(CvTE M1.4)*
-- The nucleus contains protons (*protonen*), each with a charge of +1, and neutrons (*neutronen*), which have no charge. A proton and a neutron each have a mass of about 1 u; the exact charges and masses of the three kinds of particle are in [B01](../../B-substances-and-materials/B01-particle-models/notes.md). *(CvTE M1.4)*
+- The nucleus contains protons (*protonen*), each with a charge of +1, and neutrons (*neutronen*), which have no charge. A proton and a neutron each have a mass of about 1 u; the exact charges and masses of the three kinds of particle are in B01 — particle models. *(CvTE M1.4)*
 
 ### Nuclear charge and atomic number
 
 - The atomic number (*atoomnummer*) is the number of protons in the nucleus. The nuclear charge (*kernlading*) is the charge of the nucleus, so it equals the atomic number with a plus sign: carbon has atomic number 6 and a nuclear charge of +6. *(CvTE M1.4)*
-- The atomic number defines the atomic species: every atom with 6 protons is a carbon atom (sb6 in [02-elements-and-compounds](../02-elements-and-compounds/notes.md)). The periodic table is ordered by atomic number. *(CvTE M1.5)*
+- The atomic number defines the atomic species: every atom with 6 protons is a carbon atom (sb6 in 02 — elements and compounds). The periodic table is ordered by atomic number. *(CvTE M1.5)*
 
 ### Mass number and isotopes
 
@@ -30,14 +30,14 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 | ³⁷Cl | 17 | 20 |
 
 - Isotopes have the same electron cloud and therefore the same chemical properties. They differ in mass, and some, such as ¹⁴C, are radioactive.
-- About three quarters of the chlorine atoms in nature are ³⁵Cl and about one quarter ³⁷Cl, so a chlorine atom has an average mass of roughly 0.75 × 35 u + 0.25 × 37 u ≈ 35.5 u; Binas gives the atomic mass (*atoommassa*) of chlorine as 35.45 u. Isotopes in mass spectra are in [D01](../../D-development-of-chemical-knowledge/D01-chemical-techniques/notes.md). *(CvTE R&A2.1)*
+- About three quarters of the chlorine atoms in nature are ³⁵Cl and about one quarter ³⁷Cl, so a chlorine atom has an average mass of roughly 0.75 × 35 u + 0.25 × 37 u ≈ 35.5 u; Binas gives the atomic mass (*atoommassa*) of chlorine as 35.45 u. Isotopes in mass spectra are in D01 — chemical techniques. *(CvTE R&A2.1)*
 - **Trap:** the mass number counts the particles in one nucleus, so it's a whole number without a unit. The atomic mass in Binas, in u, is the average over the natural mixture of isotopes and usually isn't a whole number (chlorine 35.45 u). The Dutch syllabus uses the symbol A for the atomic mass *(CvTE R&A1.2)*, while English texts often use A for the mass number.
 
 ### Electrons and the electron cloud
 
 - Electrons (*elektronen*) have a charge of −1 and almost no mass. They move around the nucleus and together form the electron cloud. In a neutral atom the number of electrons equals the number of protons: a sodium atom has 11 protons and 11 electrons. *(CvTE M1.4)*
-- In the shell model the electrons are arranged in shells (*schillen*) K, L, M and so on: sodium has 2 electrons in the K shell, 8 in the L shell and 1 in the M shell (2, 8, 1). Shells, electron configurations and valence electrons are in [B01](../../B-substances-and-materials/B01-particle-models/notes.md). *(CvTE M1.4, M1.6)*
-- In a chemical reaction only the electrons, mainly the outer ones, take part; the nuclei don't change, which is why every atom keeps its identity (sb12 in [04-reactions](../04-reactions/notes.md)).
+- In the shell model the electrons are arranged in shells (*schillen*) K, L, M and so on: sodium has 2 electrons in the K shell, 8 in the L shell and 1 in the M shell (2, 8, 1). Shells, electron configurations and valence electrons are in B01 — particle models. *(CvTE M1.4, M1.6)*
+- In a chemical reaction only the electrons, mainly the outer ones, take part; the nuclei don't change, which is why every atom keeps its identity (sb12 in 04 — reactions).
 
 ### Ions and ion charge
 

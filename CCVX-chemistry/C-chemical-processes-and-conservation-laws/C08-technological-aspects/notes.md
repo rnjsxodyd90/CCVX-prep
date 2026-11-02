@@ -1,8 +1,8 @@
 # C8 — Technological Aspects: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO C8)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions. This subdomain is school-exam only in the Netherlands, so the CvTE syllabus doesn't specify it: *(SLO C8)* points to the [SLO handreiking](https://www.slo.nl/handreikingen/havo-vwo/handreiking-se-schei-hv/toetsen-schoolexamen/vakinhoudelijke-0/), which names the same concepts, and CvTE codes mark overlap with the central exam.
 
 ## Increasing scale
 
@@ -10,7 +10,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Surface-to-volume ratio: if every length of a vessel becomes 10 times larger, its volume grows 10³ = 1000 times but its wall area only 10² = 100 times, so the area per unit of volume becomes 10 times smaller. A cube with 1 dm edges has 6 dm² / 1 dm³ = 6 dm⁻¹; a cube with 10 dm edges has 600 dm² / 1000 dm³ = 0.6 dm⁻¹. *(SLO C8)*
 - Heat removal: the heat that an exothermic reaction produces grows with the volume, but the heat that can leave through the wall grows only with the area. A large reactor therefore needs extra cooling (cooling coils, an external heat exchanger); otherwise the temperature rises, the reaction speeds up, it releases heat even faster, and it can run away. *(SLO C8; CvTE T1.1)*
 - Mixing and heating also take longer in a large vessel, so the temperature and concentrations are less even, which can cause side reactions (*nevenreacties*) and a lower yield. *(CvTE T2.1)*
-- Safety: larger amounts mean larger consequences of a leak, a fire or a runaway reaction; large-scale risks are in [F04](../../F-industrial-chemical-processes/F04-risks-and-safety/notes.md). *(CvTE T4.1)*
+- Safety: larger amounts mean larger consequences of a leak, a fire or a runaway reaction; large-scale risks are in F04 — risks and safety. *(CvTE T4.1)*
 - **Trap:** a reaction that stays at a steady temperature in a test tube can overheat in a 10 m³ reactor. The cause is the smaller surface-to-volume ratio, not a different reaction.
 
 ## Reactors and reactivity
@@ -19,7 +19,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Batch process (*batchproces*): the reactor is filled, the reaction runs, and the reactor is emptied, so the concentrations change in time. It is flexible and suits small amounts of fine chemicals (*fijnchemie*), such as medicines. *(CvTE T1.1)*
 - Continuous process (*continuproces*): reactants flow in and products flow out all the time, and the conditions at each point stay the same. It suits large amounts of bulk chemicals (*bulkchemie*), such as ammonia. *(CvTE T1.1)*
 - Common reactor types are a stirred tank (batch, or continuous with a steady flow in and out); a tubular reactor (*buisreactor*), a long tube in which the mixture reacts as it flows and which is easy to cool or heat through its wall; and a fixed-bed reactor, a tube packed with a solid catalyst through which the gases flow. *(CvTE T1.1)*
-- Matching conditions to reactivity: a slow reaction is helped by a higher temperature, higher concentrations or pressure, a larger surface area of reacting substances (*verdelingsgraad*) or a catalyst; a fast, strongly exothermic reaction needs good cooling or dilution ([C04](../C04-reaction-kinetics/notes.md)). *(CvTE R3.1, R3.2)*
+- Matching conditions to reactivity: a slow reaction is helped by a higher temperature, higher concentrations or pressure, a larger surface area of reacting substances (*verdelingsgraad*) or a catalyst; a fast, strongly exothermic reaction needs good cooling or dilution (C04 — reaction kinetics). *(CvTE R3.1, R3.2)*
 - **Trap:** a catalyst makes a reactor work faster but doesn't shift an equilibrium, so it doesn't raise the equilibrium yield. *(CvTE R4.3)*
 
 ## Thermal management
@@ -32,8 +32,8 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## Separation techniques and block diagram
 
-- After the reactor, separation steps (*scheidingsmethodes*, carried out in separation units, *scheidingsinstallaties*) split the mixture into the product, unreacted starting materials and by-products. Each method uses a difference in one property, such as boiling point in distillation or solubility in extraction ([D01](../../D-development-of-chemical-knowledge/D01-chemical-techniques/notes.md)). *(CvTE T1.1, R&A2.2)*
-- A block diagram (*blokschema*) shows a process as blocks (reactors, separation units, mixers) joined by arrows for the substance flows (*stofstromen*). Unreacted starting materials usually go back to the reactor (recirculation, *recirculatie*), and energy flows can be drawn as well. Drawing and calculating with block diagrams is in [F01](../../F-industrial-chemical-processes/F01-industrial-processes/notes.md). *(CvTE T1.1, T1.2)*
+- After the reactor, separation steps (*scheidingsmethodes*, carried out in separation units, *scheidingsinstallaties*) split the mixture into the product, unreacted starting materials and by-products. Each method uses a difference in one property, such as boiling point in distillation or solubility in extraction (D01 — chemical techniques). *(CvTE T1.1, R&A2.2)*
+- A block diagram (*blokschema*) shows a process as blocks (reactors, separation units, mixers) joined by arrows for the substance flows (*stofstromen*). Unreacted starting materials usually go back to the reactor (recirculation, *recirculatie*), and energy flows can be drawn as well. Drawing and calculating with block diagrams is in F01 — industrial processes. *(CvTE T1.1, T1.2)*
 - Example, ammonia: N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) is an equilibrium, so only part of the N₂ and H₂ reacts in the reactor. Cooling the gas mixture condenses the ammonia, because its hydrogen bridges give it a much higher boiling point than N₂ and H₂, and the unreacted N₂ and H₂ are recycled. *(CvTE T1.2, T1.3)*
 
 ```mermaid
@@ -59,7 +59,7 @@ flowchart LR
 - Nanoprocesses work on the scale of 1–100 nm (1 nm = 10⁻⁹ m), with particles from a few atoms to hundreds of atoms across. *(SLO C8)*
 - Nanoparticles have a very large surface area per gram. Cutting a 1 cm cube into cubes with 10 nm edges gives 10¹⁸ small cubes with a total area of 600 m², a million times the original 6 cm². *(CvTE R3.1)*
 - This is why catalysts are used as nanoparticles, e.g. platinum metals spread as tiny particles over a ceramic support in a car's catalytic converter: a larger surface area of reacting substances (*verdelingsgraad*) means more collisions per second and a higher rate. *(CvTE R3.1, R3.2)*
-- Properties can change at this scale: gold nanoparticles in water look red, not golden. Nanoparticles are also used in coatings ([E04](../../E-innovation-and-chemical-research/E04-new-materials/notes.md)). Their health effects are not fully known, because they can get deep into the lungs and into cells. *(SLO C8)*
+- Properties can change at this scale: gold nanoparticles in water look red, not golden. Nanoparticles are also used in coatings (E04 — new materials). Their health effects are not fully known, because they can get deep into the lungs and into cells. *(SLO C8)*
 - **Trap:** for the same mass, smaller particles have a larger total surface area; explain a higher rate with the larger area (more collisions), not with "smaller particles react better".
 
 ## Chemistry of atmospheric radicals

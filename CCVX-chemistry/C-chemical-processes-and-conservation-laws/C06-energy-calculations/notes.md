@@ -1,8 +1,8 @@
 # C6 — Energy Calculations: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## C6.1 Energy diagrams
 
@@ -35,7 +35,7 @@ activation energy = height of T above R;  ΔE = level of P minus level of R
 ### Transition state (activated state)
 
 - The transition state or activated state (*overgangstoestand*, *geactiveerde toestand*) is the unstable arrangement at the top of the hump, in which old bonds are partly broken and new bonds partly formed. It has the highest energy on the route, and it is not a substance you can isolate. *(CvTE R5.1)*
-- For a reaction in steps, draw one hump per step; each intermediate sits in a dip between two humps, and the step with the largest activation energy is usually the slowest, the rate-determining step ([C04](../C04-reaction-kinetics/notes.md)).
+- For a reaction in steps, draw one hump per step; each intermediate sits in a dip between two humps, and the step with the largest activation energy is usually the slowest, the rate-determining step (C04 — reaction kinetics).
 
 ### The influence of a catalyst
 
@@ -68,14 +68,14 @@ R, P and ΔE are the same for both routes
 - Endothermic (*endotherm*): the reacting system takes up energy from the surroundings, ΔE > 0. Examples: photosynthesis, a thermolysis such as CaCO₃(s) → CaO(s) + CO₂(g), and the electrolysis of water. Exothermic (*exotherm*): the system gives off energy, ΔE < 0. Examples: combustion, respiration in cells, and the neutralisation of an acid by a base. *(CvTE R5.1)*
 - Every substance, or mixture of substances, has its own level of chemical energy (*energieniveau*). Only differences between levels can be measured; heats of formation give each compound a level relative to its elements, which are set at 0. *(CvTE R5.1)*
 - Heat of formation (*vormingswarmte*), written E<sub>f</sub> here: the energy effect when 1 mol of a compound is formed from its elements in their standard states, at 298 K and standard pressure. For water, H₂(g) + ½ O₂(g) → H₂O(l), E<sub>f</sub> = −2.86·10⁵ J mol⁻¹. Binas: heats of formation lists the values in 10⁵ J mol⁻¹. An element in its standard state, such as H₂(g), O₂(g), N₂(g), C(s) or Br₂(l), has E<sub>f</sub> = 0. *(CvTE R5.1)*
-- Activation energy (*activeringsenergie*): the energy needed to reach the transition state, measured from the reactant level up to the top of the hump. Its effect on the reaction rate is in [C04](../C04-reaction-kinetics/notes.md). *(CvTE R5.1)*
+- Activation energy (*activeringsenergie*): the energy needed to reach the transition state, measured from the reactant level up to the top of the hump. Its effect on the reaction rate is in C04 — reaction kinetics. *(CvTE R5.1)*
 - Ignition temperature (*ontbrandingstemperatuur*): the lowest temperature to which a fuel must be heated before it starts to burn in air. Heating supplies the activation energy; after that the heat of the combustion keeps the reaction going. A fire needs fuel, oxygen and a temperature at or above the ignition temperature. *(CvTE R5.1)*
 - The energy diagram links these concepts. For the reverse reaction ΔE changes sign, and its activation energy is the height of the top above the product level. Example: suppose E<sub>act</sub> = 1.5·10⁵ J mol⁻¹ and ΔE = −0.9·10⁵ J mol⁻¹. Then the reverse reaction has E<sub>act</sub> = 1.5·10⁵ + 0.9·10⁵ = 2.4·10⁵ J mol⁻¹ and ΔE = +0.9·10⁵ J mol⁻¹.
 - **Trap:** keep the sign of ΔE. "8.91·10⁵ J is released per mol of methane" means ΔE = −8.91·10⁵ J mol⁻¹; a positive ΔE for a combustion is wrong.
 
 ## C6.3 Heat of reaction from heats of formation
 
-- Rule: ΔE = Σ(n·E<sub>f</sub>, products) − Σ(n·E<sub>f</sub>, reactants), with n the coefficients in the equation. ΔE is then per mol of reaction as written. Write the heat of reaction as ΔE, not ΔH; enthalpy itself is a topic of [C09](../C09-quality-of-energy/notes.md). *(CvTE R5.3)*
+- Rule: ΔE = Σ(n·E<sub>f</sub>, products) − Σ(n·E<sub>f</sub>, reactants), with n the coefficients in the equation. ΔE is then per mol of reaction as written. Write the heat of reaction as ΔE, not ΔH; enthalpy itself is a topic of C09 — quality of energy. *(CvTE R5.3)*
 - Why it works: imagine first breaking the reactants down into their elements (−E<sub>f</sub> for each) and then forming the products from those elements (+E<sub>f</sub> for each). Because energy is conserved, the energy effect doesn't depend on the route; the usual English name for this is Hess's law. *(CvTE R&A3.1)*
 - Steps: (1) write the balanced equation with state symbols; (2) look up every E<sub>f</sub>, with 0 for elements and the right state, H₂O(l) or H₂O(g); (3) multiply each by its coefficient; (4) take products minus reactants; (5) give the unit, J mol⁻¹, and keep the sign.
 
@@ -94,7 +94,7 @@ R, P and ΔE are the same for both routes
 ### Per mol of reaction as written
 
 - For N₂(g) + 3 H₂(g) → 2 NH₃(g), with E<sub>f</sub>(NH₃(g)) = −0.46·10⁵ J mol⁻¹: ΔE = 2 × (−0.46·10⁵) − 0 = −0.92·10⁵ J per mol of this reaction, which is −0.46·10⁵ J per mol NH₃. Halving all coefficients halves ΔE.
-- For N₂(g) + O₂(g) → 2 NO(g), with E<sub>f</sub>(NO(g)) = +0.90·10⁵ J mol⁻¹: ΔE = +1.80·10⁵ J, so endothermic. Because it is endothermic, a higher temperature shifts this equilibrium to the right ([C05](../C05-chemical-equilibrium/notes.md)); NO forms in noticeable amounts only at high temperatures, such as in car engines and in lightning.
+- For N₂(g) + O₂(g) → 2 NO(g), with E<sub>f</sub>(NO(g)) = +0.90·10⁵ J mol⁻¹: ΔE = +1.80·10⁵ J, so endothermic. Because it is endothermic, a higher temperature shifts this equilibrium to the right (C05 — chemical equilibrium); NO forms in noticeable amounts only at high temperatures, such as in car engines and in lightning.
 - **Trap:** multiply every E<sub>f</sub> by its coefficient, put 0 for the elements, take products minus reactants (not the other way round), and check whether the water is H₂O(l) or H₂O(g).
 
 ### Backwards: a heat of formation from a heat of reaction
@@ -105,11 +105,11 @@ R, P and ΔE are the same for both routes
 ## C6.4 Conservation of energy: heat and electrical energy
 
 - The first law of thermodynamics (the law of conservation of energy): the chemical energy released in a reaction is all converted into other forms, such as heat, light, electrical energy and work. None is lost, but usually only part of it ends up in the form you want. *(CvTE R5.5, R&A3.1)*
-- Chemical energy becomes electrical energy either indirectly, in a power station (combustion, steam, turbine and generator), or directly, in an electrochemical cell such as a battery or a fuel cell ([C01](../C01-chemical-processes/notes.md), [F03](../../F-industrial-chemical-processes/F03-energy-conversion/notes.md)).
+- Chemical energy becomes electrical energy either indirectly, in a power station (combustion, steam, turbine and generator), or directly, in an electrochemical cell such as a battery or a fuel cell (C01 — chemical processes, F03 — energy conversion).
 - Efficiency (*rendement*) = useful energy / energy supplied, as a fraction or × 100%. *(CvTE R5.5)*
 - Heat taken up by water: q = m·c·ΔT, with c = 4.18·10³ J kg⁻¹ K⁻¹ (Binas), m in kg and ΔT in K; a change of 1 K is the same as a change of 1 °C.
 - Electrical energy: E = P·t, in J, with P in W (J s⁻¹) and t in s; 1 kWh = 1000 W × 3600 s = 3.6·10⁶ J.
-- **Trap:** in Dutch *rendement* means both the efficiency of an energy conversion (here) and the yield of a reaction ([C02](../C02-chemical-calculations/notes.md)).
+- **Trap:** in Dutch *rendement* means both the efficiency of an energy conversion (here) and the yield of a reaction (C02 — chemical calculations).
 - **Trap:** going from the useful energy back to the fuel you need, divide by the efficiency (you need more fuel); going from the fuel to the useful energy, multiply.
 
 ### Worked example: heating water with methane
@@ -124,7 +124,7 @@ R, P and ΔE are the same for both routes
 - Suppose a power station turns 40% of the heat of combustion of methane into electrical energy, and the water leaves as vapour (ΔE = −8.03·10⁵ J per mol CH₄).
 - Energy needed from combustion: 3.6·10⁶ J / 0.40 = 9.0·10⁶ J per kWh.
 - n(CH₄) = 9.0·10⁶ / 8.03·10⁵ = 11.2 mol (keep an extra digit in between), so m(CH₄) = 11.2 × 16.04 = 1.8·10² g per kWh, in 2 significant figures because of the 40%.
-- 1 mol CH₄ gives 1 mol CO₂, so this also releases 11.2 × 44.01 = 4.9·10² g CO₂ per kWh. Comparing fuels by the CO₂ they produce per joule is part of [F03](../../F-industrial-chemical-processes/F03-energy-conversion/notes.md).
+- 1 mol CH₄ gives 1 mol CO₂, so this also releases 11.2 × 44.01 = 4.9·10² g CO₂ per kWh. Comparing fuels by the CO₂ they produce per joule is part of F03 — energy conversion.
 
 ### Worked example: an electric kettle
 
@@ -133,5 +133,5 @@ R, P and ΔE are the same for both routes
 
 ## CCVX versus the Dutch syllabus
 
-- **In both:** everything else above. The Dutch R5.1 names ignition temperature as assumed knowledge (printed in italics); CCVX lists it in the basic knowledge ([sb14](../../0-basic-knowledge/04-reactions/notes.md)) and in [A10](../../A-skills/A10-using-chemical-concepts/notes.md).
+- **In both:** everything else above. The Dutch R5.1 names ignition temperature as assumed knowledge (printed in italics); CCVX lists it in the basic knowledge (sb14, 04 — reactions) and in A10 — using chemical concepts.
 - **Dutch syllabus only:** calculating a heat of formation from a given heat of reaction (R5.4), with the same arithmetic as C6.3; and the term energy levels (*energieniveaus*) in R5.1. *(CvTE R5.4, R5.1)*

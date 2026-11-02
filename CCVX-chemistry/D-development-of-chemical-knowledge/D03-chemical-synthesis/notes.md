@@ -1,8 +1,8 @@
 # D3 — Chemical Synthesis: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## D3.1 Polymers and their monomers
 
@@ -28,8 +28,8 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Condensation polymers (*condensatiepolymeren*) form from monomers with two reactive groups each, such as –OH, –COOH and –NH₂. Every link forms in a condensation reaction that splits off a small molecule, usually H₂O, and the main chain contains, for example, ester groups (polyesters) or amide groups (polyamides). *(CvTE R2.1, R1.15)*
 - PET, a polyester, forms from benzene-1,4-dicarboxylic acid, HOOC–C₆H₄–COOH, and ethane-1,2-diol, HO–CH₂–CH₂–OH: n HOOC–C₆H₄–COOH + n HO–CH₂–CH₂–OH → –(CO–C₆H₄–CO–O–CH₂–CH₂–O)ₙ– + 2n H₂O. Strictly, 2n − 1 H₂O forms, because the two chain ends keep an H and an OH, but for a long chain that difference doesn't matter. *(CvTE R2.1)*
 - Nylon-6,6, a polyamide, forms from hexanedioic acid, HOOC–(CH₂)₄–COOH, and hexane-1,6-diamine, H₂N–(CH₂)₆–NH₂, with the repeating unit –CO–(CH₂)₄–CO–NH–(CH₂)₆–NH–. The two sixes in the name are the numbers of C atoms in the two monomers. *(CvTE R2.1)*
-- Proteins are condensation polymers of amino acids, which have both an –NH₂ and a –COOH group, linked by peptide bonds –CO–NH– ([G01](../../G-society-chemistry-and-technology/G01-chemistry-of-life/notes.md)). *(CvTE R2.1, L1.3)*
-- From polymer to monomers: cut every ester or amide group in the main chain between the C of the C=O and the O or N, and add H₂O. The C=O side gets an OH and becomes a carbon acid; the O or N side gets an H and becomes an alcohol or an amine. This is the hydrolysis of the polymer ([C07](../../C-chemical-processes-and-conservation-laws/C07-classification-of-reactions/notes.md)). *(CvTE R2.1, R1.16)*
+- Proteins are condensation polymers of amino acids, which have both an –NH₂ and a –COOH group, linked by peptide bonds –CO–NH– (G01 — chemistry of life). *(CvTE R2.1, L1.3)*
+- From polymer to monomers: cut every ester or amide group in the main chain between the C of the C=O and the O or N, and add H₂O. The C=O side gets an OH and becomes a carbon acid; the O or N side gets an H and becomes an alcohol or an amine. This is the hydrolysis of the polymer (C07 — classification of reactions). *(CvTE R2.1, R1.16)*
 - **Trap:** in an ester group –CO–O–CH₂–, the link is the bond between the C of C=O and the O, not the O–CH₂ bond. And every link that forms releases one H₂O, so count the water.
 
 ### Copolymers
@@ -64,7 +64,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Crosslinks
 
 - Crosslinks (*crosslinks*) are atomic bonds (covalent bonds) between polymer chains. They form when some monomers can link to more than two others: in addition polymerisation a monomer with two C=C bonds, such as 1,4-diethenylbenzene, CH₂=CH–C₆H₄–CH=CH₂, and in condensation polymerisation a monomer with three reactive groups, such as propane-1,2,3-triol (glycerol), HO–CH₂–CH(OH)–CH₂–OH, which can form three ester bonds. *(CvTE R2.3)*
-- With many crosslinks the chains form one three-dimensional network: a thermoset (*thermoharder*), which doesn't soften when heated but decomposes, because softening would mean breaking atomic bonds. Chains without crosslinks, held together only by Van der Waals bonds or hydrogen bridges, form a thermoplastic (*thermoplast*), which softens when heated ([B04](../../B-substances-and-materials/B04-bonds-structures-and-properties/notes.md)). *(CvTE R2.3, M4.1)*
-- A few crosslinks give an elastic material that stretches and springs back, such as vulcanised rubber, which has sulfur bridges between its chains ([E01](../../E-innovation-and-chemical-research/E01-chemical-research/notes.md)). *(CvTE M4.1)*
+- With many crosslinks the chains form one three-dimensional network: a thermoset (*thermoharder*), which doesn't soften when heated but decomposes, because softening would mean breaking atomic bonds. Chains without crosslinks, held together only by Van der Waals bonds or hydrogen bridges, form a thermoplastic (*thermoplast*), which softens when heated (B04 — bonds structures and properties). *(CvTE R2.3, M4.1)*
+- A few crosslinks give an elastic material that stretches and springs back, such as vulcanised rubber, which has sulfur bridges between its chains (E01 — chemical research). *(CvTE M4.1)*
 - Relation to the mechanism: the larger the share of monomers with two C=C bonds or three reactive groups, the more crosslinks form and the harder and more rigid the network becomes. *(CvTE R2.3)*
 - **Trap:** crosslinks are atomic bonds between chains, not hydrogen bridges or Van der Waals bonds. Monomers with only two reactive groups, or one C=C bond, give long chains but no network.

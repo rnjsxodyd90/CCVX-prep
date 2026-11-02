@@ -1,8 +1,8 @@
 # D1 — Chemical Techniques: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## D1.1 Separation techniques
 
@@ -19,13 +19,13 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - Filtration: the mixture is poured through a filter. Solid particles that are too large to pass stay behind as the residue (*residu*), and the liquid that passes is the filtrate (*filtraat*). Example: sand and salt water; the salt stays dissolved and passes with the water. *(CvTE R&A2.1, R&A2.2)*
 - Settling: in a suspension, solid particles that are denser than the liquid sink to the bottom, and the clear liquid can then be poured off (*decanteren*). Centrifuging speeds this up by spinning the tubes fast, which helps with particles that settle too slowly, such as blood cells in blood. *(CvTE R&A2.1, R&A2.2)*
-- "Precipitation" in the CCVX list corresponds to settling (*bezinken*) in the Dutch list. A related step removes an unwanted ion with a precipitation reaction: add an ion that forms a poorly soluble salt with it, then filter off the solid. Example, phosphate from waste water with iron(III) ions: Fe³⁺(aq) + PO₄³⁻(aq) → FePO₄(s). Precipitation reactions are in [C07](../../C-chemical-processes-and-conservation-laws/C07-classification-of-reactions/notes.md). *(CvTE M3.10)*
+- "Precipitation" in the CCVX list corresponds to settling (*bezinken*) in the Dutch list. A related step removes an unwanted ion with a precipitation reaction: add an ion that forms a poorly soluble salt with it, then filter off the solid. Example, phosphate from waste water with iron(III) ions: Fe³⁺(aq) + PO₄³⁻(aq) → FePO₄(s). Precipitation reactions are in C07 — classification of reactions. *(CvTE M3.10)*
 - Distillation: a liquid mixture is heated, the component with the lowest boiling point evaporates first, and its vapour is cooled in a condenser and collected as the distillate (*destillaat*). It works when the boiling points differ enough, e.g. ethanol (boiling point about 78 °C) from water (100 °C). Crude oil is split into fractions in the same way in a column. *(CvTE R&A2.1, R&A2.2)*
 - Concentration by evaporation: a solution is heated until the solvent has evaporated and the dissolved solid remains, e.g. salt from seawater. Use it when only the solid is wanted; distillation also recovers the solvent. *(CvTE R&A2.1, R&A2.2)*
 - Extraction: a substance is dissolved out of a mixture with an extraction solvent (*extractiemiddel*) in which it dissolves well and the rest doesn't, such as making tea with hot water. Iodine can be extracted from water with hexane, which doesn't mix with water and dissolves the apolar iodine much better, and the two layers are separated in a separating funnel (*scheitrechter*). *(CvTE R&A2.1, R&A2.2, M3.7)*
 - Washing is extraction used to remove an unwanted substance, e.g. rinsing a precipitate on a filter with water to remove dissolved ions, or passing a gas through a liquid that dissolves an impurity. *(CvTE R&A2.1)*
 - Adsorption: particles stick to the surface of a solid, the adsorbent. Activated carbon (*actieve kool*) has a very large surface area and is used to remove coloured or smelly impurities from water or air. Polar substances stick best to a polar surface and apolar substances to an apolar one. *(CvTE R&A2.1, M3.8)*
-- In a process, the choice also depends on what you want to keep, on energy costs (distillation uses a lot of heat) and on whether the solvent can be recovered, which is why industrial processes often combine several steps ([C08](../../C-chemical-processes-and-conservation-laws/C08-technological-aspects/notes.md)). *(CvTE R&A2.2, T1.3)*
+- In a process, the choice also depends on what you want to keep, on energy costs (distillation uses a lot of heat) and on whether the solvent can be recovered, which is why industrial processes often combine several steps (C08 — technological aspects). *(CvTE R&A2.2, T1.3)*
 - **Trap:** name the property and compare the values, e.g. "distillation, because ethanol has a lower boiling point than water", not "because the mixture is heated". And filtration can't separate a dissolved substance from its solvent.
 
 ## D1.2 Checking a separation
@@ -84,5 +84,5 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ## CCVX versus the Dutch syllabus
 
 - **In both:** separation techniques and the properties they use, chromatography with retention times and peak areas, and mass spectrometry with fragments and peak heights *(CvTE R&A2.1–R&A2.4)*. The numbering differs: D1.1 and D1.3 became R&A2.2, with the terms in R&A2.1; D1.4 and D1.5 became the qualitative parts of R&A2.3 and R&A2.4, and D1.6 their quantitative parts. D1.2 is no longer a specification of its own but underlies R&A2.1–R&A2.3; it also uses melting ranges *(CvTE M2.2)*.
-- **Dutch syllabus only:** the new Dutch list names the R<sub>f</sub> value, the stationary phase, the m/z ratio and the natural abundance of isotopes explicitly *(CvTE R&A2.1)*. It also has the mobile phase, titration, indicator and reagent, but CCVX lists those too, among the concepts of [A10](../../A-skills/A10-using-chemical-concepts/notes.md). These notes use all of them.
+- **Dutch syllabus only:** the new Dutch list names the R<sub>f</sub> value, the stationary phase, the m/z ratio and the natural abundance of isotopes explicitly *(CvTE R&A2.1)*. It also has the mobile phase, titration, indicator and reagent, but CCVX lists those too, among the concepts of A10 — using chemical concepts. These notes use all of them.
 - **CCVX only:** "precipitation" in the list of D1.1, where the Dutch list has settling (*bezinken*). D1.1 covers both.

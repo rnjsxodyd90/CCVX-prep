@@ -1,8 +1,8 @@
 # A13 — Reasoning about Systems, Change and Energy: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## A13 Systems, change and energy
 
@@ -25,7 +25,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ### Input, output and circularity of energy and matter flows
 
-- Name what flows into and out of the system (substances, heat, electrical energy) and what is recycled within it (*invoer, uitstroom en circulariteit van energie- en materiestromen*), and use these flows in your reasoning. Mass and energy are conserved, so the inputs must add up to the outputs plus whatever builds up inside ([C03](../../C-chemical-processes-and-conservation-laws/C03-conservation-laws-and-cycles/notes.md)). *(CvTE A13.1)*
+- Name what flows into and out of the system (substances, heat, electrical energy) and what is recycled within it (*invoer, uitstroom en circulariteit van energie- en materiestromen*), and use these flows in your reasoning. Mass and energy are conserved, so the inputs must add up to the outputs plus whatever builds up inside (C03 — conservation laws and cycles). *(CvTE A13.1)*
 - **Trap:** a substance that leaves the system, such as a gas that bubbles away, is no longer available for the reverse reaction.
 
 ## Worked example: charging a battery
@@ -34,15 +34,15 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - System and parts: two electrodes, the acid as electrolyte, and the external circuit. The reductor is zinc, the oxidator H₃O⁺. Negative electrode (zinc): Zn(s) → Zn²⁺(aq) + 2 e⁻. Positive electrode (copper): 2 H₃O⁺(aq) + 2 e⁻ → H₂(g) + 2 H₂O(l). Zinc also reacts with the acid directly at its own surface, and that part of the zinc gives no current.
 - Hierarchy: H₃O⁺ is a stronger oxidator than Zn²⁺ (Binas: standard electrode potentials, 0.00 V against −0.76 V), so electrons flow from the zinc through the wire to the copper, and the cell voltage under standard conditions is 0.00 − (−0.76) = 0.76 V. The amounts set the capacity: with the acid in excess, 0.654 g of zinc gives 0.0200 mol of electrons.
 - Change over time and space: while the battery discharges, zinc dissolves and hydrogen bubbles off at the copper, 0.0100 mol × 24.5 L mol⁻¹ = 0.245 L at 298 K and p₀ for 0.654 g of zinc. The hydrogen leaves the system, so charging can't reverse the reaction: this battery is not rechargeable. In a lead-acid battery, by contrast, the product of discharging (lead(II) sulfate) stays on the electrodes, so it is still there when the battery is charged.
-- Flows and a closed circuit: electrons flow through the wire, and inside the battery ions move through the acid, which closes the circuit. In a standard cell with two separate half-cells a salt bridge or membrane does that job; without an ion path there is no current. Discharging converts chemical energy into electrical energy (and some heat); charging a rechargeable battery puts electrical energy back in *(CvTE T6.5)*. See [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md) and [F03](../../F-industrial-chemical-processes/F03-energy-conversion/notes.md).
+- Flows and a closed circuit: electrons flow through the wire, and inside the battery ions move through the acid, which closes the circuit. In a standard cell with two separate half-cells a salt bridge or membrane does that job; without an ion path there is no current. Discharging converts chemical energy into electrical energy (and some heat); charging a rechargeable battery puts electrical energy back in *(CvTE T6.5)*. See C01 — chemical processes and F03 — energy conversion.
 
 ## Worked example: an industrial process
 
 - This example follows the second one in Bijlage 4, about making an industrial process sustainable, which links industrial processes and green chemistry to the conservation laws. Take the ammonia synthesis: N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g). *(CvTE A13.1)*
-- System and parts: draw a block diagram ([F01](../../F-industrial-chemical-processes/F01-industrial-processes/notes.md)): a reactor; a cooler in which ammonia condenses and is separated; and a recycle stream that returns the unreacted nitrogen and hydrogen to the reactor, because the equilibrium doesn't lie completely to the right ([C05](../../C-chemical-processes-and-conservation-laws/C05-chemical-equilibrium/notes.md)).
+- System and parts: draw a block diagram (F01 — industrial processes): a reactor; a cooler in which ammonia condenses and is separated; and a recycle stream that returns the unreacted nitrogen and hydrogen to the reactor, because the equilibrium doesn't lie completely to the right (C05 — chemical equilibrium).
 - Scale and order of magnitude: find which step is largest in material and energy, since that is where optimising pays off most. Mass balance per tonne of ammonia: 1.000 t NH₃ is 1.000·10⁶ / 17.03 = 5.87·10⁴ mol, which needs 0.822 t N₂ and 0.178 t H₂, together again 1.000 t.
 - Change over time and space: the plant runs continuously, day and night. Some effects stay local, such as the risk of an ammonia leak (toxic) or a hydrogen fire, while others are global, such as CO₂ emissions.
-- Flows: inputs are nitrogen from the air, hydrogen and energy; outputs are ammonia and heat, because the reaction is exothermic, and heat exchangers reuse that heat. If the hydrogen is made from natural gas, CO₂ is a by-product: overall CH₄(g) + 2 H₂O(g) → CO₂(g) + 4 H₂(g). Judge the flows with the principles of green chemistry ([F02](../../F-industrial-chemical-processes/F02-green-chemistry/notes.md)): the synthesis step itself puts every atom into the product, recycling makes the material flow circular, and hydrogen from electrolysis of water with renewable electricity would avoid the CO₂.
+- Flows: inputs are nitrogen from the air, hydrogen and energy; outputs are ammonia and heat, because the reaction is exothermic, and heat exchangers reuse that heat. If the hydrogen is made from natural gas, CO₂ is a by-product: overall CH₄(g) + 2 H₂O(g) → CO₂(g) + 4 H₂(g). Judge the flows with the principles of green chemistry (F02 — green chemistry): the synthesis step itself puts every atom into the product, recycling makes the material flow circular, and hydrogen from electrolysis of water with renewable electricity would avoid the CO₂.
 - **Trap:** a mass balance over the reactor alone misses the recycle stream; draw the boundary around the whole process to compare what goes in with what comes out.
 
 ## CCVX versus the Dutch syllabus

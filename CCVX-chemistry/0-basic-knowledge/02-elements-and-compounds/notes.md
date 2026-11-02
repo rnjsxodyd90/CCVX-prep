@@ -1,8 +1,8 @@
 # sb6–sb10 — Elements and Compounds: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## sb6 Elements and compounds
 
@@ -10,7 +10,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ### Element as an atomic species
 
-- An element in the sense of an atomic species (*atoomsoort*) is a kind of atom: all atoms with the same number of protons, the atomic number. Every atom with 8 protons is an oxygen atom, whether it sits in O₂, H₂O or CO₂, and in this sense water "contains the element oxygen". The symbols of the atomic species are in sb7; atomic number and isotopes are in [03-atomic-structure](../03-atomic-structure/notes.md). *(CvTE M1.4)*
+- An element in the sense of an atomic species (*atoomsoort*) is a kind of atom: all atoms with the same number of protons, the atomic number. Every atom with 8 protons is an oxygen atom, whether it sits in O₂, H₂O or CO₂, and in this sense water "contains the element oxygen". The symbols of the atomic species are in sb7; atomic number and isotopes are in 03 — atomic structure. *(CvTE M1.4)*
 
 ### Element as a non-decomposable substance
 
@@ -20,8 +20,8 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Compound as a decomposable substance
 
 - The CCVX PDF's third bullet reads "an element as a decomposable substance", which contradicts the second. As the README notes, it probably means a compound as a decomposable substance (*ontleedbare stof*, *verbinding*), the other half of the pair in CvTE M1.8.
-- A compound (*verbinding*) is a pure substance made of two or more atomic species bonded in a fixed ratio. It can be decomposed into other substances by heat, electric current or light (thermolysis, electrolysis and photolysis, sb13 in [04-reactions](../04-reactions/notes.md)), and in the end into non-decomposable substances. Water is decomposed by electrolysis into hydrogen and oxygen: 2 H₂O(l) → 2 H₂(g) + O₂(g). Other compounds: carbon dioxide CO₂, sodium chloride NaCl, glucose C₆H₁₂O₆. *(CvTE M1.8)*
-- The micro-level difference is CCVX B2.4 in [B02](../../B-substances-and-materials/B02-properties-and-models/notes.md).
+- A compound (*verbinding*) is a pure substance made of two or more atomic species bonded in a fixed ratio. It can be decomposed into other substances by heat, electric current or light (thermolysis, electrolysis and photolysis, sb13 in 04 — reactions), and in the end into non-decomposable substances. Water is decomposed by electrolysis into hydrogen and oxygen: 2 H₂O(l) → 2 H₂(g) + O₂(g). Other compounds: carbon dioxide CO₂, sodium chloride NaCl, glucose C₆H₁₂O₆. *(CvTE M1.8)*
+- The micro-level difference is CCVX B2.4 in B02 — properties and models.
 - **Trap:** "water contains oxygen" is true of the atomic species, not of the substance. Pure water contains no O₂ molecules, so you can't breathe it; read which meaning a question uses.
 - **Trap:** a compound isn't a mixture of its elements. A mixture of hydrogen and oxygen gas contains H₂ and O₂ molecules in any ratio and has the properties of both gases; water has its own properties and always 2 H to 1 O.
 
@@ -65,7 +65,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - Metals (*metalen*) are shiny, conduct electricity and heat in the solid state, and are malleable (*vervormbaar*). All are solid at room temperature except mercury, the only liquid metal. *(CvTE M1.5)*
 - Non-metals (*niet-metalen*) are gases (hydrogen, helium, nitrogen, oxygen, fluorine, neon, chlorine, argon) or solids that don't conduct, such as sulfur and iodine; bromine is the only liquid non-metal. Two exceptions: graphite (carbon) conducts electricity, and silicon is a semiconductor (a metalloid), but the CvTE list counts both as non-metals. *(CvTE M1.1, M1.5)*
-- In the periodic table the metals are on the left and in the middle, the non-metals at the top right, plus hydrogen. The periodic table and the other symbols on the Dutch list (boron, cadmium, chromium, cobalt, lithium, manganese) are in [B01](../../B-substances-and-materials/B01-particle-models/notes.md). *(CvTE M1.5)*
+- In the periodic table the metals are on the left and in the middle, the non-metals at the top right, plus hydrogen. The periodic table and the other symbols on the Dutch list (boron, cadmium, chromium, cobalt, lithium, manganese) are in B01 — particle models. *(CvTE M1.5)*
 - The CCVX PDF spells bromine "bromium"; the README uses the usual English name.
 - **Trap:** capitals matter: Co is cobalt but CO is carbon monoxide, and silicon is Si, not SI. Dutch *jood* is I, not J.
 
@@ -93,11 +93,11 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 | sulfur dioxide | SO₂ | *zwaveldioxide* | gas |
 | sulfuric acid | H₂SO₄ | *zwavelzuur* | liquid |
 
-- Seven elements of sb7 form two-atom molecules as non-decomposable substances: H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂. The noble gases are single atoms (He, Ne, Ar), and metals and carbon are written with the symbol alone (Fe, Cu, C). The formulas of all non-decomposable substances are in [B01](../../B-substances-and-materials/B01-particle-models/notes.md). *(CvTE M1.1)*
+- Seven elements of sb7 form two-atom molecules as non-decomposable substances: H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂. The noble gases are single atoms (He, Ne, Ar), and metals and carbon are written with the symbol alone (Fe, Cu, C). The formulas of all non-decomposable substances are in B01 — particle models. *(CvTE M1.1)*
 - The names of binary molecular substances such as CO, CO₂ and SO₂ use number prefixes: mono 1, di 2, tri 3, tetra 4, penta 5, hexa 6, so SO₃ is sulfur trioxide. "Mono" is left out for the first element: carbon monoxide, not monocarbon monoxide. *(CvTE M1.2)*
-- 'Carbonic acid' is in quotes because the H₂CO₃ molecule hardly exists: in a solution of carbon dioxide in water (sparkling water) most of it stays as dissolved CO₂ molecules, and only a small part forms H₂CO₃. The CvTE writes the acid as H₂O + CO₂ / 'H₂CO₃'. *(CvTE R1.5)* Its acid properties are in [05-acids-and-bases](../05-acids-and-bases/notes.md).
+- 'Carbonic acid' is in quotes because the H₂CO₃ molecule hardly exists: in a solution of carbon dioxide in water (sparkling water) most of it stays as dissolved CO₂ molecules, and only a small part forms H₂CO₃. The CvTE writes the acid as H₂O + CO₂ / 'H₂CO₃'. *(CvTE R1.5)* Its acid properties are in 05 — acids and bases.
 - Hydrogen chloride HCl is a gas; its solution in water is hydrochloric acid (*zoutzuur*), written H₃O⁺(aq) + Cl⁻(aq). Likewise ammonia NH₃ (*ammoniak*) is a gas, and its solution in water is Dutch *ammonia*, NH₃(aq). *(CvTE R1.4)*
-- More formulas (acetic acid, the nitrogen oxides, phosphoric acid, sulfur trioxide, the first ten alkanes) are CCVX B1.6 in [B01](../../B-substances-and-materials/B01-particle-models/notes.md).
+- More formulas (acetic acid, the nitrogen oxides, phosphoric acid, sulfur trioxide, the first ten alkanes) are CCVX B1.6 in B01 — particle models.
 - **Trap:** one atom more or less is another substance: O₂ (oxygen) and O₃ (ozone), H₂O (water) and H₂O₂ (hydrogen peroxide), CO and CO₂. Write oxygen gas as O₂, not O.
 
 ## sb9 Names and formulas of salts
@@ -153,9 +153,9 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
     - FeCl₃: three Cl⁻ ions make −3, so the iron ion is Fe³⁺: iron(III) chloride.
     - Fe₂O₃: three O²⁻ ions make −6, shared by two iron ions, so Fe³⁺: iron(III) oxide.
     - CuO is copper(II) oxide, SnF₂ tin(II) fluoride, HgS mercury(II) sulfide, Ag₂SO₃ silver sulfite, K₃PO₄ potassium phosphate, Mg(OH)₂ magnesium hydroxide.
-- Interpreting a formula also means reading which ions it contains and how many: Al₂(SO₄)₃ contains Al³⁺ and SO₄²⁻ in the ratio 2 : 3, so dissolving it gives Al₂(SO₄)₃(s) → 2 Al³⁺(aq) + 3 SO₄²⁻(aq). *(CvTE M1.10)* Dissolving equations are in [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md).
-- The carbonate ion CO₃²⁻ (*carbonaat*) isn't in the sb9 list, although sb18 needs it: sodium carbonate Na₂CO₃, calcium carbonate CaCO₃. [B01](../../B-substances-and-materials/B01-particle-models/notes.md) adds it with the other ions of the Dutch list (Au⁺, Au³⁺, Hg⁺, Li⁺, Pb⁴⁺, Sn⁴⁺, U³⁺, U⁶⁺, MnO₄⁻, S₂O₃²⁻). *(CvTE M1.1)*
-- A hydrate contains crystal water (*kristalwater*), written after a dot: CuSO₄·5H₂O is copper(II) sulfate pentahydrate (sb16 in [04-reactions](../04-reactions/notes.md)). *(CvTE M1.11)*
+- Interpreting a formula also means reading which ions it contains and how many: Al₂(SO₄)₃ contains Al³⁺ and SO₄²⁻ in the ratio 2 : 3, so dissolving it gives Al₂(SO₄)₃(s) → 2 Al³⁺(aq) + 3 SO₄²⁻(aq). *(CvTE M1.10)* Dissolving equations are in C01 — chemical processes.
+- The carbonate ion CO₃²⁻ (*carbonaat*) isn't in the sb9 list, although sb18 needs it: sodium carbonate Na₂CO₃, calcium carbonate CaCO₃. B01 — particle models adds it with the other ions of the Dutch list (Au⁺, Au³⁺, Hg⁺, Li⁺, Pb⁴⁺, Sn⁴⁺, U³⁺, U⁶⁺, MnO₄⁻, S₂O₃²⁻). *(CvTE M1.1)*
+- A hydrate contains crystal water (*kristalwater*), written after a dot: CuSO₄·5H₂O is copper(II) sulfate pentahydrate (sb16 in 04 — reactions). *(CvTE M1.11)*
 - **Trap:** the Roman numeral is the charge of one metal ion, not the number of metal ions: iron(III) oxide is Fe₂O₃.
 - **Trap:** Ca(OH)₂ contains two OH⁻ ions; CaOH₂ is wrong. Without the brackets the index would apply to the H only.
 - **Trap:** similar names: sulfide S²⁻, sulfite SO₃²⁻ and sulfate SO₄²⁻; nitrite NO₂⁻ and nitrate NO₃⁻.
@@ -164,14 +164,14 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - State symbols (*toestandsaanduidingen*) go directly after a formula: (s) solid (*vast*), (l) liquid (*vloeibaar*), (g) gas (*gasvormig*), and (aq) dissolved in water (aqueous, from Latin aqua; *opgelost in water*). *(CvTE M1.3)*
 - Examples: 2 H₂(g) + O₂(g) → 2 H₂O(l); a salt dissolving, NaCl(s) → Na⁺(aq) + Cl⁻(aq); a precipitate forming, Ag⁺(aq) + Cl⁻(aq) → AgCl(s); hydrogen chloride reacting with water, HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq).
-- A state symbol gives the state under the conditions in the question: water formed in a flame is H₂O(g), and after cooling to room temperature H₂O(l). It matters in energy calculations, because Binas gives different heats of formation for H₂O(l) and H₂O(g): −2.86·10⁵ and −2.42·10⁵ J mol⁻¹ ([C06](../../C-chemical-processes-and-conservation-laws/C06-energy-calculations/notes.md)). *(CvTE R5.3)*
-- CCVX lists the state symbols again under A10, in [A10](../../A-skills/A10-using-chemical-concepts/notes.md).
+- A state symbol gives the state under the conditions in the question: water formed in a flame is H₂O(g), and after cooling to room temperature H₂O(l). It matters in energy calculations, because Binas gives different heats of formation for H₂O(l) and H₂O(g): −2.86·10⁵ and −2.42·10⁵ J mol⁻¹ (C06 — energy calculations). *(CvTE R5.3)*
+- CCVX lists the state symbols again under A10, in A10 — using chemical concepts.
 - **Trap:** (l) means that the pure substance is liquid, not that it is dissolved. Pure ethanol is C₂H₅OH(l), ethanol mixed with water C₂H₅OH(aq), and molten sodium chloride NaCl(l). Liquid water is H₂O(l), never H₂O(aq).
 - **Trap:** (aq) means dissolved in water only, not in another solvent.
 
 ## CCVX versus the Dutch syllabus
 
-- **In both:** everything above except ozone. The Dutch list in M1.1 has more elements and ions than sb7–sb9, and names two substances that sb8 doesn't (acetic acid and phosphoric acid); CCVX lists the extra elements and ions in [B01](../../B-substances-and-materials/B01-particle-models/notes.md).
+- **In both:** everything above except ozone. The Dutch list in M1.1 has more elements and ions than sb7–sb9, and names two substances that sb8 doesn't (acetic acid and phosphoric acid); CCVX lists the extra elements and ions in B01 — particle models.
 - **Dutch syllabus only:** giving the formula of any binary molecular substance from its systematic name and vice versa *(CvTE M1.2)*; CCVX only names particular substances.
 - **CCVX only:** ozone (O₃), which the CvTE syllabus doesn't name.
 - **CCVX PDF wording:** sb6's third bullet says "an element as a decomposable substance" (probably meant: a compound, *ontleedbare stof*, as in CvTE M1.8), and sb7 spells bromine "bromium".

@@ -1,8 +1,8 @@
 # C5 — Chemical Equilibrium: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later); all worked examples are original and machine-checked. Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE R4.1)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## C5.1 Irreversible and reversible reactions, equilibrium
 
@@ -29,7 +29,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ### Stoichiometric ratio
 
-- The changes in chemical quantity (*chemische hoeveelheid*), or in concentration at a fixed volume, are in the ratio of the coefficients, the same mole ratio as in [C02](../C02-chemical-calculations/notes.md). That gives the "change" row of an equilibrium table, and the coefficients are also the powers in K. *(CvTE R&A1.1, R&A1.6)*
+- The changes in chemical quantity (*chemische hoeveelheid*), or in concentration at a fixed volume, are in the ratio of the coefficients, the same mole ratio as in C02 — chemical calculations. That gives the "change" row of an equilibrium table, and the coefficients are also the powers in K. *(CvTE R&A1.1, R&A1.6)*
 
 ### Worked example: calculating K
 
@@ -78,12 +78,12 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Change in the equilibrium constant
 
 - A change in temperature changes K itself. Raising the temperature shifts the equilibrium in the endothermic direction: K increases if the forward reaction is endothermic and decreases if it is exothermic. *(CvTE R4.2)*
-- The formation of NO₂ from N₂O₄ is endothermic, so heating the mixture gives more brown NO₂. The ammonia synthesis is exothermic (ΔE = −0.92·10⁵ J per mol of reaction as written, see [C06](../C06-energy-calculations/notes.md)), so a higher temperature gives less NH₃ at equilibrium, even though the equilibrium is reached faster.
+- The formation of NO₂ from N₂O₄ is endothermic, so heating the mixture gives more brown NO₂. The ammonia synthesis is exothermic (ΔE = −0.92·10⁵ J per mol of reaction as written, see C06 — energy calculations), so a higher temperature gives less NH₃ at equilibrium, even though the equilibrium is reached faster.
 - **Trap:** only a temperature change changes K. Concentration, pressure and dilution change Q, and the system then returns to the same K.
 
 ## C5.4 The influence of a catalyst
 
-- Reaction rate: a catalyst lowers the activation energy of the forward and the reverse reaction by the same amount, so both reactions go faster ([C04](../C04-reaction-kinetics/notes.md)). *(CvTE R4.3)*
+- Reaction rate: a catalyst lowers the activation energy of the forward and the reverse reaction by the same amount, so both reactions go faster (C04 — reaction kinetics). *(CvTE R4.3)*
 - Time needed to reach equilibrium (*insteltijd*): shorter, because both rates are higher. *(CvTE R4.3)*
 - Position of equilibrium: unchanged. A catalyst doesn't change K, which depends only on the temperature, and it doesn't appear in Q, so the equilibrium mixture has the same composition; it is only reached sooner. *(CvTE R4.3)*
 - In industry a catalyst lets an equilibrium reaction run fast enough at a lower temperature. That helps when the forward reaction is exothermic, as in the ammonia synthesis with its iron catalyst.
@@ -91,9 +91,9 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ## C5.5 pH calculations
 
-- Use pH = −log [H₃O⁺], pOH = −log [OH⁻] and pH + pOH = 14.00 (at 298 K), and back again [H₃O⁺] = 10<sup>−pH</sup> and [OH⁻] = 10<sup>−pOH</sup>; these relations are in [C02](../C02-chemical-calculations/notes.md). *(CvTE R&A1.4)*
+- Use pH = −log [H₃O⁺], pOH = −log [OH⁻] and pH + pOH = 14.00 (at 298 K), and back again [H₃O⁺] = 10<sup>−pH</sup> and [OH⁻] = 10<sup>−pOH</sup>; these relations are in C02 — chemical calculations. *(CvTE R&A1.4)*
 - A pH gets as many decimals as the concentration has significant figures, and the other way round: [H₃O⁺] = 2.5·10⁻³ mol L⁻¹ gives pH 2.60, and pH 2.60 gives [H₃O⁺] = 2.5·10⁻³ mol L⁻¹. *(CvTE A8.3)*
-- Univalent (*éénwaardig*) means that one particle of the acid gives off one H⁺, or one particle of the base takes up one H⁺. The difference between strong and weak acids is in [C01](../C01-chemical-processes/notes.md); the K<sub>z</sub> and K<sub>b</sub> values are in the Binas table of acid and base constants. *(CvTE R&A1.5, R1.8)*
+- Univalent (*éénwaardig*) means that one particle of the acid gives off one H⁺, or one particle of the base takes up one H⁺. The difference between strong and weak acids is in C01 — chemical processes; the K<sub>z</sub> and K<sub>b</sub> values are in the Binas table of acid and base constants. *(CvTE R&A1.5, R1.8)*
 
 ### Strong acid
 

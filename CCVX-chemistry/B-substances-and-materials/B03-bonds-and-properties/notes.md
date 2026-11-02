@@ -1,8 +1,8 @@
 # B3 — Bonds and Properties: notes
 
-These are English explanations of every learning outcome in [README.md](README.md), and every topic is *drafted*: written from the CCVX and CvTE syllabi and standard VWO chemistry, not yet checked against an open source text or exam question (see [PLAN.md](../../PLAN.md) for the statuses).
+Status: checked against the CCVX syllabus and Binas (5th edition or later). Practice questions with full solutions are in [practice.md](practice.md).
 
-Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching specification in the [CvTE 2027 syllabus](../../syllabus/cvte-syllabus-scheikunde-vwo-2027.pdf); Binas tables are named by subject, because their numbers differ between editions.
+These notes cover every learning outcome in [README.md](README.md). Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching section of the CvTE 2027 syllabus; Binas tables are named by subject, because their numbers differ between editions.
 
 ## B3.1 Lattice structures
 
@@ -19,8 +19,8 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 ### Metallic lattice and metallic bond
 
-- In a metal the atoms give up their valence electrons, which move freely through the whole lattice (free electrons, *vrije elektronen*). The metallic bond (*metaalbinding*) is the attraction between the positive metal ions and these free electrons. It acts in all directions, which is why metals can be deformed (see [B04](../B04-bonds-structures-and-properties/notes.md)). *(CvTE M3.1; CvTE M3.2)*
-- In an alloy, atoms of another element take places in this lattice (see [B02](../B02-properties-and-models/notes.md)). *(CvTE M3.2)*
+- In a metal the atoms give up their valence electrons, which move freely through the whole lattice (free electrons, *vrije elektronen*). The metallic bond (*metaalbinding*) is the attraction between the positive metal ions and these free electrons. It acts in all directions, which is why metals can be deformed (see B04 — bonds structures and properties). *(CvTE M3.1; CvTE M3.2)*
+- In an alloy, atoms of another element take places in this lattice (see B02 — properties and models). *(CvTE M3.2)*
 - **Trap:** a metal is not made of neutral atoms that share electron pairs. It is a lattice of positive ions held together by free electrons, which is also why it conducts.
 
 ### Ionic lattice and ion bond
@@ -33,7 +33,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - In a molecular lattice the atoms inside each molecule are held together by atomic bonds, and the molecules are held together by three kinds of much weaker bond, described below. *(CvTE M3.1; CvTE M3.2)*
 - The Van der Waals bond (*vanderwaalsbinding*), also called molecular bond (*molecuulbinding*), is a weak attraction that acts between all molecules, polar or not. It gets stronger as the molecular mass increases and as the contact area between the molecules gets larger: unbranched molecules can lie closer together than branched ones of the same mass. *(CvTE M3.1)*
-- The dipole-dipole bond (*dipool-dipoolbinding*) is the extra attraction between molecules that are dipoles: the δ+ end of one molecule attracts the δ− end of the next. Propanone, CH₃–CO–CH₃, is an example: its C=O bond is polar (B3.3) and the molecule is a dipole (see [B04](../B04-bonds-structures-and-properties/notes.md)). *(CvTE M3.1)*
+- The dipole-dipole bond (*dipool-dipoolbinding*) is the extra attraction between molecules that are dipoles: the δ+ end of one molecule attracts the δ− end of the next. Propanone, CH₃–CO–CH₃, is an example: its C=O bond is polar (B3.3) and the molecule is a dipole (see B04 — bonds structures and properties). *(CvTE M3.1)*
 - A hydrogen bridge (*waterstofbrug*; in usual English a hydrogen bond) forms between an H atom bonded to N or O (or F) in one molecule and a lone pair (*vrij elektronenpaar*) on an N, O or F atom of another molecule, as in O–H•••O. The H atom is strongly δ+ because N, O and F pull the shared electron pair towards themselves. Water, ammonia, alkanols, carbon acids and amines with an NH₂ group form hydrogen bridges between their molecules. *(CvTE M3.1)*
 - Draw a hydrogen bridge as a dotted line between the H atom and the N, O or F atom it is attracted to, so that it is clear which two atoms are involved. *(CvTE Bijlage 3E)*
 - Example: in ice every H₂O molecule forms hydrogen bridges with four neighbours. This gives an open lattice, which is why ice is less dense than liquid water. *(CvTE M3.2)*
@@ -59,7 +59,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 ### Atomic bond (covalent bond)
 
 - In an atomic bond (covalent bond, *atoombinding*) two atoms share a common electron pair (*gemeenschappelijk elektronenpaar*), which both nuclei attract. One shared pair is a single bond (H–H, O–H), two pairs a double bond (C=O in CO₂, C=C in ethene) and three pairs a triple bond (N≡N, C≡C in ethyne). Atomic bonds form between non-metal atoms. *(CvTE M3.1)*
-- The number of atomic bonds an atom forms is its covalence (*covalentie*): H 1, O 2, N 3, C 4. Lewis structures and covalence are in [B01](../B01-particle-models/notes.md). *(CvTE M1.6)*
+- The number of atomic bonds an atom forms is its covalence (*covalentie*): H 1, O 2, N 3, C 4. Lewis structures and covalence are in B01 — particle models. *(CvTE M1.6)*
 - **Trap:** a double bond is two shared electron pairs, so four electrons, not two.
 
 ### Polar atomic bond
@@ -68,11 +68,11 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - The CCVX rule, the old Dutch rule, is the one to use in the CCVX exam: bonds of N, O or F with other atoms are polar, with the δ− on the N, O or F atom. Examples: O–H in water and alkanols, N–H in ammonia and amines, C=O in propanone, and C–F. The reason is electronegativity: N, O and F are among the most electronegative elements. *(CvTE M3.1)*
 - The current Dutch syllabus decides with the electronegativity difference, using the values in Binas. Typical school boundaries are about 0.4 and about 1.7: up to about 0.4 the bond counts as apolar (*apolair*), between the two as polar, and above 1.7 as an ion bond. C–H counts as apolar. These boundaries are rough guides: BF₃, with a difference of about 2, is still a molecular substance. *(CvTE M3.1)*
 - The two methods can differ: C–Cl and H–Cl are polar by electronegativity but fall outside the N/O/F rule. If a question gives electronegativity values, use them. *(CvTE M3.1)*
-- **Trap:** a polar bond doesn't make a polar molecule. CO₂ has two polar C=O bonds but is not a dipole, because they cancel; see [B04](../B04-bonds-structures-and-properties/notes.md).
+- **Trap:** a polar bond doesn't make a polar molecule. CO₂ has two polar C=O bonds but is not a dipole, because they cancel; see B04 — bonds structures and properties.
 
 ### Ion bond
 
-- An ion bond (*ionbinding*) is the attraction between positive and negative ions. It forms when a metal reacts with a non-metal and the metal atoms give electrons to the non-metal atoms. For sodium and chlorine: Na → Na⁺ + e⁻ and Cl₂ + 2 e⁻ → 2 Cl⁻, overall 2 Na(s) + Cl₂(g) → 2 NaCl(s). The charge of the ion is the electrovalence (*elektrovalentie*), see [B01](../B01-particle-models/notes.md). *(CvTE M3.1; CvTE M1.6)*
+- An ion bond (*ionbinding*) is the attraction between positive and negative ions. It forms when a metal reacts with a non-metal and the metal atoms give electrons to the non-metal atoms. For sodium and chlorine: Na → Na⁺ + e⁻ and Cl₂ + 2 e⁻ → 2 Cl⁻, overall 2 Na(s) + Cl₂(g) → 2 NaCl(s). The charge of the ion is the electrovalence (*elektrovalentie*), see B01 — particle models. *(CvTE M3.1; CvTE M1.6)*
 - An ion bond acts in all directions: each ion attracts all the neighbouring ions of opposite charge, which is why a salt forms a lattice and not molecules. *(CvTE M3.1)*
 - **Trap:** an ion bond is not a shared electron pair, and it is not a bond between one particular Na⁺ ion and one particular Cl⁻ ion.
 
@@ -88,7 +88,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Shape: pentane and 2,2-dimethylpropane are isomers (both C₅H₁₂, M = 72.15 g mol⁻¹), but the compact, branched 2,2-dimethylpropane boils at a lower temperature, because its molecules have a smaller contact area. *(CvTE M3.1; CvTE M3.3)*
 - Dipole-dipole bond: propanone (C₃H₆O, M = 58.08 g mol⁻¹) is a liquid at room temperature and butane (C₄H₁₀, M = 58.12 g mol⁻¹) a gas, because propanone molecules are dipoles. *(CvTE M3.1; CvTE M3.3)*
 - Hydrogen bridges: ethanol and methoxymethane are isomers (C₂H₆O, M = 46.07 g mol⁻¹), but ethanol boils at 78 °C, while methoxymethane, without an O–H group, is a gas at room temperature. Water (M = 18.02 g mol⁻¹) boils at 100 °C, while methane (M = 16.04 g mol⁻¹) is a gas. Water boils higher than ethanol because each H₂O molecule can form more hydrogen bridges (two O–H groups and two lone pairs) than an ethanol molecule (one O–H group). *(CvTE M3.1; CvTE M3.3)*
-- The equations of phase changes, and which bonds break when substances dissolve, are in [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md).
+- The equations of phase changes, and which bonds break when substances dissolve, are in C01 — chemical processes.
 - **Trap:** the classic mistake is "when water boils, the O–H bonds break" or "the bubbles are hydrogen and oxygen". Evaporating a molecular substance breaks only the bonds between the molecules; the bubbles are water vapour, H₂O(g).
 - **Trap:** a hydrogen bridge doesn't always beat Van der Waals bonds. Large apolar molecules can attract each other more strongly than small molecules with hydrogen bridges: candle wax, with only Van der Waals bonds, is a solid at room temperature while water is a liquid. So compare molecules of similar mass and shape.
 
@@ -107,8 +107,8 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - Hydrogen bridges: substances with OH or NH groups form hydrogen bridges with water, and so do molecules with an O or N atom whose lone pair accepts a hydrogen bridge from a water molecule. These substances are hydrophilic. *(CvTE M3.6)*
 - Dipole-dipole bonds: dipole molecules attract water molecules, which are dipoles themselves, so they mix with water more easily than apolar molecules. *(CvTE M3.6)*
 - Van der Waals bonds only: apolar molecules such as alkanes and fats can form only these with water, which doesn't make up for the hydrogen bridges between water molecules, so they are hydrophobic. *(CvTE M3.6)*
-- Polar (*polair*) substances consist of dipole molecules, apolar (*apolair*) substances of molecules that are not dipoles; [B04](../B04-bonds-structures-and-properties/notes.md) shows how to decide. Polar substances, especially those that form hydrogen bridges, tend to be hydrophilic; apolar substances are hydrophobic and mix with each other: hexane dissolves fats and oils. *(CvTE M3.7)*
-- Salts dissolve in water because the ions attract the polar water molecules (ion-dipole bonds and hydration); see [C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md). *(CvTE M3.1; CvTE M3.9)*
+- Polar (*polair*) substances consist of dipole molecules, apolar (*apolair*) substances of molecules that are not dipoles; B04 — bonds structures and properties shows how to decide. Polar substances, especially those that form hydrogen bridges, tend to be hydrophilic; apolar substances are hydrophobic and mix with each other: hexane dissolves fats and oils. *(CvTE M3.7)*
+- Salts dissolve in water because the ions attract the polar water molecules (ion-dipole bonds and hydration); see C01 — chemical processes. *(CvTE M3.1; CvTE M3.9)*
 - Adhesion (*hechting*) to a surface follows the same rule: particles stick to a surface when they can form bonds with its particles. Water spreads out on clean glass, which is hydrophilic, but forms beads on wax, which is apolar and hydrophobic; grease sticks to apolar surfaces such as many plastics. *(CvTE M3.8)*
 - **Trap:** hydrophobic substances are not repelled by water. Water molecules do attract them weakly with Van der Waals bonds; the substances don't dissolve because the water molecules attract each other much more strongly.
 - **Trap:** a substance can be hydrophilic without forming hydrogen bridges between its own molecules. Propanone has no O–H group, so its molecules form no hydrogen bridges with each other, but its O atom accepts hydrogen bridges from water molecules, so it mixes with water in every ratio.
@@ -117,7 +117,7 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 
 - The Binas table of salt solubilities shows, for each combination of a positive and a negative ion, how well the salt dissolves in water. Use it to decide whether a combination of ions is well soluble (*goed oplosbaar*) or poorly soluble (*slecht oplosbaar*). *(CvTE M3.10)*
 - Some patterns to check against the table: salts of Na⁺, K⁺ and NH₄⁺, and all nitrates, dissolve well; AgCl, BaSO₄ and CaCO₃ dissolve poorly. *(CvTE M3.10)*
-- When two solutions are mixed and a poorly soluble combination of ions is present, it forms a precipitate (*neerslag*): Ag⁺(aq) + Cl⁻(aq) → AgCl(s). The other ions stay in solution as spectator ions (*tribune-ionen*). Precipitation reactions are also in [C07](../../C-chemical-processes-and-conservation-laws/C07-classification-of-reactions/notes.md). *(CvTE M3.10)*
+- When two solutions are mixed and a poorly soluble combination of ions is present, it forms a precipitate (*neerslag*): Ag⁺(aq) + Cl⁻(aq) → AgCl(s). The other ions stay in solution as spectator ions (*tribune-ionen*). Precipitation reactions are also in C07 — classification of reactions. *(CvTE M3.10)*
 - Barium sulfate as an X-ray contrast agent: Ba²⁺ ions are toxic, but BaSO₄ is so poorly soluble that hardly any Ba²⁺ gets into the body, while the barium absorbs X-rays and makes the gut visible. *(CvTE M3.10)*
 - Silver nitrate to detect chloride: AgNO₃ dissolves well, and adding its solution to a solution with Cl⁻ ions gives a white precipitate of AgCl. *(CvTE M3.10)*
 - Fertilisers such as ammonium nitrate and potassium salts must dissolve well, so that plants can take up the ions from the water in the soil. *(CvTE M3.10)*
@@ -129,4 +129,4 @@ Dutch terms are in brackets. A code such as *(CvTE M1.4)* points to the matching
 - **In both:** lattices and bonds (B3.1, B3.3), bond strength and phase transitions (B3.4), hydrophilic and hydrophobic (B3.5, B3.6) and the solubility and uses of salts (B3.7).
 - **CCVX only:** intermediate forms of lattices (B3.2), which the Dutch syllabus dropped, and the N/O/F rule for polar bonds (B3.3), which the Dutch replaced by the electronegativity difference.
 - **Dutch syllabus only:** adhesion to surfaces as a specification of its own (M3.8), and molecular mass and molecular shape named for the Van der Waals bond (M3.1). Both are covered above.
-- **Numbering:** B3.1 is split over M3.1 (bonds) and M3.2 (lattices), and B3.3 is part of M3.1. B3.4 is M3.3; which bonds break in each phase change is M3.4, which is CCVX C1.3. Ion-dipole bonds and hydration are in M3.1 and M3.9, but in CCVX C1.1 ([C01](../../C-chemical-processes-and-conservation-laws/C01-chemical-processes/notes.md)).
+- **Numbering:** B3.1 is split over M3.1 (bonds) and M3.2 (lattices), and B3.3 is part of M3.1. B3.4 is M3.3; which bonds break in each phase change is M3.4, which is CCVX C1.3. Ion-dipole bonds and hydration are in M3.1 and M3.9, but in CCVX C1.1 (C01 — chemical processes).
