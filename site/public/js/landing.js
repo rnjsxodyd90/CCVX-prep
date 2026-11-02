@@ -1,20 +1,7 @@
-// Landing page: block wordmark, free-sample quiz, subject index preview, catalog counts.
+// Landing page: free-sample quiz, subject index preview, catalog counts.
+// The block wordmark is shared and lives in js/chrome.js.
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-
-// Block wordmark in the footer (decorative; the readable name is in the top bar).
-(() => {
-  const el = $('.blockmark');
-  if (!el) return;
-  const word = 'CCVX ULTIMATE PREP';
-  let i = 0;
-  for (const ch of word) {
-    const s = document.createElement('span');
-    if (ch === ' ') { s.className = 'is-space'; s.innerHTML = '&nbsp;'; }
-    else { s.textContent = ch; if (++i % 6 === 3) s.classList.add('is-accent'); }
-    el.appendChild(s);
-  }
-})();
 
 // Free-sample quiz: three practice questions from the public sample file.
 (async () => {
@@ -28,13 +15,6 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   } catch { return; }
   const qs = sample.questions.slice(0, 3);
   let i = 0;
-
-  // First paint: a real button in the first screen; the question opens on click.
-  box.innerHTML = `
-    <h2>From Chemistry C02: chemical calculations</h2>
-    <p class="quiz-meta">Three practice questions from the free Chemistry sample. Write your answer, then compare it with the worked solution and the marking points.</p>
-    <button class="btn" type="button" data-start>Start with question 1</button>`;
-  box.querySelector('[data-start]').addEventListener('click', render);
 
   const marksLine = (q) => `${q.points} ${q.points === 1 ? 'mark' : 'marks'} when every step is right.`;
   const render = () => {
@@ -64,7 +44,13 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
     $('[data-again]', box)?.addEventListener('click', render);
     $('[data-next]', box)?.addEventListener('click', () => { i += 1; render(); });
   };
-  render();
+
+  // First paint: the start tile; the first question opens on click.
+  box.innerHTML = `
+    <h2>From Chemistry C02: chemical calculations</h2>
+    <p class="quiz-meta">Three practice questions from the free Chemistry sample. Write your answer, then compare it with the worked solution and the marking points.</p>
+    <button class="btn" type="button" data-start>Start with question 1</button>`;
+  box.querySelector('[data-start]').addEventListener('click', render);
 })();
 
 // Subject index with preview.

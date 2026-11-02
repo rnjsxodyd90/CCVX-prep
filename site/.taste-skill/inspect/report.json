@@ -1,51 +1,59 @@
 {
- "url": "http://localhost:5002/chemistry-exams.html",
- "at": "2026-11-02T02:52:33.457Z",
+ "url": "http://localhost:5002/chemistry.html",
+ "at": "2026-11-02T06:05:46.816Z",
  "allow": [],
  "viewports": [
   {
-   "width": 390,
-   "height": 844,
+   "width": 1440,
+   "height": 900,
    "load": "load",
-   "screens": 6,
+   "screens": 12,
    "filled": [
-    0.6,
-    0.33,
+    0.81,
+    0.58,
+    0.62,
+    0.62,
+    0.62,
+    0.62,
+    0.62,
+    0.56,
+    0.62,
     0.51,
-    0.35,
-    0.84,
-    1
+    0.52,
+    0.61
    ],
    "motion": {
-    "elements": 10,
+    "elements": 20,
     "css": 0,
-    "transitions": 10,
+    "transitions": 20,
     "scripted": 0,
     "videos": 1,
     "playingVideos": 1
    },
    "metrics": {
     "viewport": {
-     "w": 390,
-     "h": 844
+     "w": 1440,
+     "h": 900
     },
     "page": {
-     "height": 4465,
-     "screens": 5.3,
-     "words": 514,
+     "height": 11718,
+     "screens": 13,
+     "words": 2508,
      "img": 3,
      "video": 1,
      "canvas": 0,
-     "svg": 0,
-     "sections": 3,
+     "svg": 1,
+     "sections": 15,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 2,
+     "realPictures": 4,
      "videoCount": 1,
      "uiPictures": 0,
      "pictureSamples": [
+      "a-large-chemical-laboratory-filled-with-distilli",
+      "commercial-chemical-laboratory-of-the-mid-18th.j",
       "educatoriumcollegezaal.jpg"
      ],
      "blendText": 0,
@@ -55,12 +63,12 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "Past exams: Chemistry",
-     "words": 3,
-     "chars": 21,
-     "lines": 2,
-     "size": 41.6,
-     "vw": 10.7,
+     "text": "Chemistry",
+     "words": 1,
+     "chars": 9,
+     "lines": 1,
+     "size": 72,
+     "vw": 5,
      "font": "Albert Sans",
      "weight": 600,
      "tracking": -0.035,
@@ -69,27 +77,27 @@
      "italic": false,
      "mono": false,
      "align": "left",
-     "position": "center",
-     "widthRatio": 0.92,
-     "top": 160,
+     "position": "left",
+     "widthRatio": 0.4,
+     "top": 136,
      "tag": "h1",
      "kind": "heading"
     },
     "h1": {
-     "text": "Past exams: Chemistry",
-     "words": 3,
-     "lines": 2,
-     "size": 41.6,
+     "text": "Chemistry",
+     "words": 1,
+     "lines": 1,
+     "size": 72,
      "font": "Albert Sans"
     },
     "headings": [
      {
-      "text": "Past exams: Chemistry",
-      "words": 3,
-      "chars": 21,
-      "lines": 2,
-      "size": 41.6,
-      "vw": 10.7,
+      "text": "Chemistry",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
       "font": "Albert Sans",
       "weight": 600,
       "tracking": -0.035,
@@ -98,19 +106,19 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 160,
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 136,
       "tag": "h1",
       "kind": "heading"
      },
      {
-      "text": "CCVX sample exams",
-      "words": 3,
-      "chars": 17,
+      "text": "Free sample: C2 – Chemical Calculations",
+      "words": 6,
+      "chars": 39,
       "lines": 1,
-      "size": 24,
-      "vw": 6.2,
+      "size": 37.4,
+      "vw": 2.6,
       "font": "Albert Sans",
       "weight": 600,
       "tracking": -0.035,
@@ -120,18 +128,18 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.92,
-      "top": 1085,
+      "widthRatio": 0.93,
+      "top": 937,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "Dutch vwo exams, newest first",
-      "words": 5,
-      "chars": 29,
+      "text": "The syllabus map",
+      "words": 3,
+      "chars": 16,
       "lines": 1,
-      "size": 24,
-      "vw": 6.2,
+      "size": 37.4,
+      "vw": 2.6,
       "font": "Albert Sans",
       "weight": 600,
       "tracking": -0.035,
@@ -141,19 +149,82 @@
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 0.92,
-      "top": 1913,
+      "widthRatio": 0.93,
+      "top": 8324,
       "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get Chemistry",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 28.5,
+      "vw": 2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 10010,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "€ 79 per subject, once · VAT included · 12 months access · launch price",
+      "words": 15,
+      "chars": 71,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 10050,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "C C V X U L T I M A T E P R E P",
+      "words": 16,
+      "chars": 31,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 11122,
+      "tag": "div",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 3,
-     "maxLines": 2,
+     "count": 6,
+     "maxLines": 1,
      "over2Lines": 0,
-     "statements": 0,
+     "statements": 1,
      "centered": 0,
-     "medianWords": 5,
+     "medianWords": 6,
      "mixedFontHeadings": 0
     },
     "type": {
@@ -171,26 +242,34 @@
       15,
       16,
       17,
+      18,
+      19,
       20,
+      21,
       24,
-      42
+      26,
+      29,
+      37,
+      44,
+      64,
+      72
      ],
-     "sizeCount": 8,
+     "sizeCount": 16,
      "notLoaded": [],
      "body": {
       "font": "Albert Sans",
-      "size": 17,
+      "size": 16,
       "leading": 1.5,
       "weight": 500,
       "tracking": 0,
-      "contrast": 7
+      "contrast": 17.2
      },
-     "measureChars": 55,
+     "measureChars": 52,
      "max": {
-      "size": 41.6,
-      "vw": 10.7,
+      "size": 72,
+      "vw": 5,
       "font": "Albert Sans",
-      "text": "Past exams: Chemistry"
+      "text": "Chemistry"
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -215,8 +294,26 @@
      "dark": true,
      "sectionBgs": [
       {
+       "color": "#b11226",
+       "top": 64,
+       "hsl": {
+        "h": 352,
+        "s": 0.82,
+        "l": 0.38
+       }
+      },
+      {
+       "color": "#1c1c1c",
+       "top": 1102,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
        "color": "#efefef",
-       "top": 3547,
+       "top": 11058,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -226,48 +323,48 @@
      ],
      "textColors": [
       {
-       "color": "#9a9a9a",
-       "share": 0.56
-      },
-      {
        "color": "#efefef",
-       "share": 0.15
+       "share": 0.86
       },
       {
-       "color": "#6b6b6b",
-       "share": 0.09
+       "color": "#9a9a9a",
+       "share": 0.07
       },
       {
        "color": "#ffffff",
-       "share": 0.08
+       "share": 0.02
       },
       {
        "color": "#0a0a0a",
-       "share": 0.07
+       "share": 0.02
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.02
       }
      ],
      "button": {
-      "bg": "#b11226",
+      "bg": "#1c1c1c",
       "hsl": {
-       "h": 352,
-       "s": 0.82,
-       "l": 0.38
+       "h": 0,
+       "s": 0,
+       "l": 0.11
       },
-      "fg": "#ffffff"
+      "fg": "#efefef"
      },
      "lowContrast": []
     },
     "buttons": {
-     "count": 1,
+     "count": 43,
      "inHero": 1,
      "radius": 0,
-     "height": 61,
+     "height": 69,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
      "upper": 0,
      "heroLabels": [
-      "Try the free Chemistry sample"
+      "Buy Chemistry · € 79"
      ]
     },
     "surfaces": {
@@ -285,7 +382,1459 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 8,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6445
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "albert sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 11718,
+    "margins": {
+     "left": 48,
+     "right": 48
+    },
+    "sections": [
+     {
+      "sel": "section.sp-hero.tab",
+      "tag": "section",
+      "top": 64,
+      "height": 783,
+      "words": 70,
+      "media": 1,
+      "middle": 77,
+      "heading": {
+       "text": "Chemistry",
+       "size": 72,
+       "tag": "h1"
+      },
+      "left": 112,
+      "right": 112,
+      "textLeft": 112,
+      "textRight": 769,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sample.sp-sample",
+      "tag": "section",
+      "top": 847,
+      "height": 7386,
+      "words": 2159,
+      "media": 2,
+      "middle": 56,
+      "heading": {
+       "text": "Free sample: C2 – Chemical Calculations",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 8625,
+      "height": 294,
+      "words": 103,
+      "media": 0,
+      "middle": 24,
+      "heading": {
+       "text": "A · Skills",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 9110,
+      "height": 197,
+      "words": 65,
+      "media": 0,
+      "middle": 52,
+      "heading": {
+       "text": "C · Chemical processes and conservation laws",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#buy.sp-buy.tab",
+      "tag": "section",
+      "top": 9962,
+      "height": 454,
+      "words": 34,
+      "media": 1,
+      "middle": 143,
+      "heading": {
+       "text": "€ 79",
+       "size": 64,
+       "tag": "p"
+      },
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 716,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-links.mv-on",
+      "tag": "section",
+      "top": 10416,
+      "height": 546,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Official resources",
+       "size": 21,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 487,
+      "textLeft": 48,
+      "textRight": 487,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 11058,
+      "height": 660,
+      "words": 98,
+      "media": 0,
+      "middle": 317,
+      "heading": {
+       "text": "Subjects",
+       "size": 16,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 10960,
+      "height": 356
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Chemistry",
+      "size": 72,
+      "top": 136,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 921,
+      "n": 21
+     },
+     {
+      "x": 48,
+      "n": 13
+     },
+     {
+      "x": 899,
+      "n": 8
+     },
+     {
+      "x": 112,
+      "n": 2
+     },
+     {
+      "x": 96,
+      "n": 1
+     },
+     {
+      "x": 132,
+      "n": 1
+     },
+     {
+      "x": 244,
+      "n": 1
+     },
+     {
+      "x": 877,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 48,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 0,
+     "y": 780,
+     "w": 1440,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.96,
+    0.67,
+    0.92,
+    0.92,
+    0.92,
+    0.86,
+    0.86,
+    0.66,
+    0.66,
+    0.69,
+    0.67,
+    0.65
+   ],
+   "motion": {
+    "elements": 20,
+    "css": 0,
+    "transitions": 20,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 12859,
+     "screens": 12.6,
+     "words": 2508,
+     "img": 3,
+     "video": 1,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 15,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "a-large-chemical-laboratory-filled-with-distilli",
+      "commercial-chemical-laboratory-of-the-mid-18th.j",
+      "educatoriumcollegezaal.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chemistry",
+     "words": 1,
+     "chars": 9,
+     "lines": 1,
+     "size": 41.6,
+     "vw": 5.4,
+     "font": "Albert Sans",
+     "weight": 600,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.56,
+     "top": 120,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Chemistry",
+     "words": 1,
+     "lines": 1,
+     "size": 41.6,
+     "font": "Albert Sans"
+    },
+    "headings": [
+     {
+      "text": "Chemistry",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 5.4,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 120,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Free sample: C2 – Chemical Calculations",
+      "words": 6,
+      "chars": 39,
+      "lines": 1,
+      "size": 27.2,
+      "vw": 3.5,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1225,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The syllabus map",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 27.2,
+      "vw": 3.5,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7739,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get Chemistry",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 11270,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "€ 79 per subject, once · VAT included · 12 months access · launch price",
+      "words": 15,
+      "chars": 71,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 11307,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "C C V X U L T I M A T E P R E P",
+      "words": 16,
+      "chars": 31,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 12257,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Albert Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23,
+      24,
+      27,
+      31,
+      38,
+      42
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Albert Sans",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 17.2
+     },
+     "measureChars": 80,
+     "max": {
+      "size": 41.6,
+      "vw": 5.4,
+      "font": "Albert Sans",
+      "text": "Chemistry"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#b11226",
+       "top": 64,
+       "hsl": {
+        "h": 352,
+        "s": 0.82,
+        "l": 0.38
+       }
+      },
+      {
+       "color": "#1c1c1c",
+       "top": 1649,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#efefef",
+       "top": 12193,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#efefef",
+       "share": 0.86
+      },
+      {
+       "color": "#9a9a9a",
+       "share": 0.07
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#0a0a0a",
+       "share": 0.02
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#1c1c1c",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.11
+      },
+      "fg": "#efefef"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 51,
+     "inHero": 1,
+     "radius": 0,
+     "height": 69,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Buy Chemistry · € 79"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.38
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "albert sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 12859,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section.sp-hero.tab",
+      "tag": "section",
+      "top": 64,
+      "height": 1059,
+      "words": 70,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Chemistry",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sample.sp-sample.mv-on",
+      "tag": "section",
+      "top": 1123,
+      "height": 6514,
+      "words": 2160,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Free sample: C2 – Chemical Calculations",
+       "size": 27,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 7872,
+      "height": 255,
+      "words": 32,
+      "media": 0,
+      "middle": 30,
+      "heading": {
+       "text": "0 · Basic knowledge",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 8168,
+      "height": 701,
+      "words": 103,
+      "media": 0,
+      "middle": 24,
+      "heading": {
+       "text": "A · Skills",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 8910,
+      "height": 177,
+      "words": 29,
+      "media": 0,
+      "middle": 90,
+      "heading": {
+       "text": "B · Substances and materials",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 9128,
+      "height": 410,
+      "words": 65,
+      "media": 0,
+      "middle": 9,
+      "heading": {
+       "text": "C · Chemical processes and conservation laws",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 9578,
+      "height": 177,
+      "words": 25,
+      "media": 0,
+      "middle": 119,
+      "heading": {
+       "text": "D · Development of chemical knowledge",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 9796,
+      "height": 255,
+      "words": 32,
+      "media": 0,
+      "middle": 84,
+      "heading": {
+       "text": "E · Innovation and chemical research",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 10092,
+      "height": 255,
+      "words": 32,
+      "media": 0,
+      "middle": 144,
+      "heading": {
+       "text": "F · Industrial chemical processes",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain.mv-on",
+      "tag": "section",
+      "top": 10388,
+      "height": 255,
+      "words": 35,
+      "media": 0,
+      "middle": 24,
+      "heading": {
+       "text": "G · Society chemistry and technology",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#buy.sp-buy.tab",
+      "tag": "section",
+      "top": 10724,
+      "height": 795,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 61,
+      "right": 61,
+      "textLeft": 61,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-links.mv-on",
+      "tag": "section",
+      "top": 11519,
+      "height": 578,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Official resources",
+       "size": 21,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 85,
+      "textLeft": 31,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 12193,
+      "height": 666,
+      "words": 98,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Subjects",
+       "size": 16,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 69,
+      "textLeft": 31,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Chemistry",
+      "size": 42,
+      "top": 120,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 53,
+      "n": 30
+     },
+     {
+      "x": 31,
+      "n": 15
+     },
+     {
+      "x": 20,
+      "n": 2
+     },
+     {
+      "x": 150,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 48,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.99,
+    0.71,
+    0.92,
+    0.92,
+    0.92,
+    0.92,
+    0.92,
+    0.92,
+    0.92,
+    0.89,
+    0.92,
+    0.92
+   ],
+   "motion": {
+    "elements": 20,
+    "css": 0,
+    "transitions": 20,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 17234,
+     "screens": 20.4,
+     "words": 2508,
+     "img": 3,
+     "video": 1,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 15,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "a-large-chemical-laboratory-filled-with-distilli",
+      "commercial-chemical-laboratory-of-the-mid-18th.j"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Chemistry",
+     "words": 1,
+     "chars": 9,
+     "lines": 1,
+     "size": 41.6,
+     "vw": 10.7,
+     "font": "Albert Sans",
+     "weight": 600,
+     "tracking": -0.035,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 120,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Chemistry",
+     "words": 1,
+     "lines": 1,
+     "size": 41.6,
+     "font": "Albert Sans"
+    },
+    "headings": [
+     {
+      "text": "Chemistry",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 10.7,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 120,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "53",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 460,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "8",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 460,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "2",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 553,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "1",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.02,
+      "top": 553,
+      "tag": "strong",
+      "kind": "statement"
+     },
+     {
+      "text": "Free sample: C2 – Chemical Calculations",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 27.2,
+      "vw": 7,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1170,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The syllabus map",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 27.2,
+      "vw": 7,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10293,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get Chemistry",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 15402,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "€ 79 per subject, once · VAT included · 12 months access · launch price",
+      "words": 15,
+      "chars": 71,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Albert Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 15437,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Albert Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      24,
+      26,
+      27,
+      38,
+      42
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Albert Sans",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": 17.2
+     },
+     "measureChars": 38,
+     "max": {
+      "size": 41.6,
+      "vw": 10.7,
+      "font": "Albert Sans",
+      "text": "Chemistry"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0a0a",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#b11226",
+       "top": 64,
+       "hsl": {
+        "h": 352,
+        "s": 0.82,
+        "l": 0.38
+       }
+      },
+      {
+       "color": "#1c1c1c",
+       "top": 1612,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#efefef",
+       "top": 16316,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#efefef",
+       "share": 0.86
+      },
+      {
+       "color": "#9a9a9a",
+       "share": 0.07
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      },
+      {
+       "color": "#0a0a0a",
+       "share": 0.02
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#1c1c1c",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.11
+      },
+      "fg": "#efefef"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 51,
+     "inHero": 1,
+     "radius": 0,
+     "height": 69,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Buy Chemistry · € 79"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -308,29 +1857,29 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 4465,
+    "pageH": 17234,
     "margins": {
      "left": 16,
      "right": 16
     },
     "sections": [
      {
-      "sel": "section.x-hero.x-herogrid",
+      "sel": "section.sp-hero.tab",
       "tag": "section",
       "top": 64,
-      "height": 970,
-      "words": 95,
-      "media": 0,
+      "height": 1021,
+      "words": 70,
+      "media": 1,
       "middle": 0,
       "heading": {
-       "text": "Past exams: Chemistry",
+       "text": "Chemistry",
        "size": 42,
        "tag": "h1"
       },
       "left": 16,
       "right": 16,
       "textLeft": 16,
-      "textRight": 21,
+      "textRight": 20,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -338,22 +1887,22 @@
       "pinned": false
      },
      {
-      "sel": "section.x-sec.mv-on",
+      "sel": "section#sample.sp-sample",
       "tag": "section",
-      "top": 1034,
-      "height": 829,
-      "words": 95,
+      "top": 1085,
+      "height": 9123,
+      "words": 2159,
       "media": 2,
       "middle": 0,
       "heading": {
-       "text": "CCVX sample exams",
-       "size": 24,
+       "text": "Free sample: C2 – Chemical Calculations",
+       "size": 27,
        "tag": "h2"
       },
       "left": 16,
       "right": 16,
       "textLeft": 16,
-      "textRight": 26,
+      "textRight": 16,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -361,18 +1910,22 @@
       "pinned": false
      },
      {
-      "sel": "p",
-      "tag": "p",
-      "top": 1947,
-      "height": 128,
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 10441,
+      "height": 410,
       "words": 32,
       "media": 0,
-      "middle": 0,
-      "heading": null,
+      "middle": 23,
+      "heading": {
+       "text": "0 · Basic knowledge",
+       "size": 18,
+       "tag": "h3"
+      },
       "left": 16,
-      "right": 18,
+      "right": 16,
       "textLeft": 16,
-      "textRight": 18,
+      "textRight": 16,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -380,18 +1933,22 @@
       "pinned": false
      },
      {
-      "sel": "table.x-table",
-      "tag": "table",
-      "top": 2096,
-      "height": 1191,
-      "words": 130,
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 10885,
+      "height": 1263,
+      "words": 103,
       "media": 0,
       "middle": 0,
-      "heading": null,
+      "heading": {
+       "text": "A · Skills",
+       "size": 18,
+       "tag": "h3"
+      },
       "left": 16,
-      "right": 36,
+      "right": 16,
       "textLeft": 16,
-      "textRight": 36,
+      "textRight": 16,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -399,18 +1956,183 @@
       "pinned": false
      },
      {
-      "sel": "p.x-note",
-      "tag": "p",
-      "top": 3314,
-      "height": 137,
-      "words": 47,
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 12181,
+      "height": 332,
+      "words": 29,
+      "media": 0,
+      "middle": 40,
+      "heading": {
+       "text": "B · Substances and materials",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 12547,
+      "height": 815,
+      "words": 65,
       "media": 0,
       "middle": 0,
-      "heading": null,
+      "heading": {
+       "text": "C · Chemical processes and conservation laws",
+       "size": 18,
+       "tag": "h3"
+      },
       "left": 16,
-      "right": 27,
+      "right": 16,
       "textLeft": 16,
-      "textRight": 27,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 13396,
+      "height": 332,
+      "words": 25,
+      "media": 0,
+      "middle": 5,
+      "heading": {
+       "text": "D · Development of chemical knowledge",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 13762,
+      "height": 410,
+      "words": 32,
+      "media": 0,
+      "middle": 37,
+      "heading": {
+       "text": "E · Innovation and chemical research",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 14205,
+      "height": 410,
+      "words": 32,
+      "media": 0,
+      "middle": 36,
+      "heading": {
+       "text": "F · Industrial chemical processes",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-domain",
+      "tag": "section",
+      "top": 14648,
+      "height": 410,
+      "words": 35,
+      "media": 0,
+      "middle": 28,
+      "heading": {
+       "text": "G · Society chemistry and technology",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#buy.sp-buy.tab",
+      "tag": "section",
+      "top": 15125,
+      "height": 599,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "€ 79",
+       "size": 38,
+       "tag": "p"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.sp-links",
+      "tag": "section",
+      "top": 15724,
+      "height": 495,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Official resources",
+       "size": 21,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -420,7 +2142,7 @@
      {
       "sel": "footer.site-footer",
       "tag": "footer",
-      "top": 3547,
+      "top": 16316,
       "height": 918,
       "words": 98,
       "media": 0,
@@ -443,31 +2165,31 @@
     ],
     "gaps": [
      {
-      "top": 3448,
-      "height": 280
+      "top": 16220,
+      "height": 276
      }
     ],
     "h1s": [
      {
-      "text": "Past exams: Chemistry",
+      "text": "Chemistry",
       "size": 42,
-      "top": 160,
+      "top": 120,
       "firstScreen": true
      }
     ],
     "edgeText": [],
     "edges": [
      {
-      "x": 16,
-      "n": 9
+      "x": 36,
+      "n": 32
      },
      {
-      "x": 36,
-      "n": 1
+      "x": 16,
+      "n": 16
      }
     ],
-    "leftBlocks": 10,
-    "bodySize": 17,
+    "leftBlocks": 48,
+    "bodySize": 16,
     "stage": false,
     "explains": true,
     "slivers": [],
@@ -478,14 +2200,48 @@
    "consoleErrors": []
   }
  ],
- "findings": [],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "16 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 21, 24, 26, 29, 37, 44, 64, 72).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
  "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/desktop-page-01.jpg",
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/desktop-page-02.jpg",
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/tablet-page-01.jpg",
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
   {
    "viewport": "mobile",
    "width": 390,
    "fold": "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/mobile-fold.jpg",
    "pages": [
-    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/mobile-page-01.jpg"
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/mobile-page-01.jpg",
+    "/Users/taea/orca/workspaces/CCVX-prep/ccvx-web/site/.taste-skill/inspect/mobile-page-02.jpg"
    ],
    "film": []
   }

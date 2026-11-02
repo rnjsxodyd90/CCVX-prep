@@ -128,7 +128,9 @@ for (const subj of SUBJECTS) {
       ${counts}
       <p class="sp-actions">${ready && purchasable
         ? `<a class="btn btn--light" href="checkout.html?subject=${subj.id}">Buy ${esc(subj.name)} · € 79</a>`
-        : `<a class="btn btn--light" href="#sample">Try the free sample</a>`}
+        : ready
+          ? `<a class="btn btn--light" href="#sample">Try the free sample</a>`
+          : `<a class="btn btn--light" href="${examsFile}">Start with the official past exams</a>`}
         <a class="sp-more" href="${examsFile}">Official past exams →</a></p>
     </div>
     <figure class="sp-hero-pic tab" data-mv><img src="${PICTURE.src}" alt="${esc(PICTURE.alt)}" width="1920" height="1440" style="object-position: 50% ${PICTURE.pos}" decoding="async"></figure>

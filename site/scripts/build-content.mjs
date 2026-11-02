@@ -69,6 +69,57 @@ export function buildItems(repoRoot, siteRoot) {
   // Markdown -> HTML: links to non-shipped files become plain text, images are
   // dropped (text-first v1), and the result is sanitized (pin 3).
   const EXCLUDED_HREF = /(^|\/)exercises\.md$|(^|\/)spec\.[a-z-]*\.md$|\/source\/|\/img\//i;
+  // Mermaid guard: mermaid code blocks never render raw in the product.
+  // The one calculation scheme lives in chem-c02; it is replaced by an
+  // ORIGINAL flat drawing of the standard mole-ratio scheme (not copied from
+  // any source). Any other mermaid block is dropped with a warning until the
+  // teacher draws an original SVG for it (PLAN.md image rule).
+  const CALC_SCHEME_SVG = `<figure class="calcscheme" role="img" aria-label="Every conversion between volume, mass, amount of substance, number of particles, gas volume and concentration runs through the amount of substance n.">
+<svg viewBox="0 0 680 250" width="680" height="250" xmlns="http://www.w3.org/2000/svg" font-family="Albert Sans, sans-serif">
+  <defs><style>
+    .bx { fill: #efefef; } .bx-acc { fill: #b11226; }
+    .t { fill: #0a0a0a; font-size: 15px; font-weight: 500; }
+    .ta { fill: #ffffff; font-size: 15px; font-weight: 600; }
+    .ln { stroke: #efefef; stroke-width: 2; }
+    .lb { fill: #b11226; font-size: 13px; font-weight: 600; }
+  </style></defs>
+  <rect class="bx" x="20" y="92" width="128" height="66"/>
+  <text class="t" x="84" y="120" text-anchor="middle">volume</text>
+  <text class="t" x="84" y="140" text-anchor="middle">solid / liquid</text>
+  <rect class="bx" x="205" y="92" width="100" height="66"/>
+  <text class="t" x="255" y="133" text-anchor="middle">mass m</text>
+  <rect class="bx-acc" x="362" y="92" width="126" height="66"/>
+  <text class="ta" x="425" y="120" text-anchor="middle">amount n</text>
+  <text class="ta" x="425" y="140" text-anchor="middle">in mol</text>
+  <rect class="bx" x="545" y="92" width="115" height="66"/>
+  <text class="t" x="602" y="120" text-anchor="middle">number of</text>
+  <text class="t" x="602" y="140" text-anchor="middle">particles N</text>
+  <rect class="bx" x="360" y="18" width="130" height="56"/>
+  <text class="t" x="425" y="41" text-anchor="middle">gas volume</text>
+  <rect class="bx" x="360" y="176" width="130" height="56"/>
+  <text class="t" x="425" y="199" text-anchor="middle">solution</text>
+  <text class="t" x="425" y="219" text-anchor="middle">volume × c(X)</text>
+  <path class="ln" d="M148 125 H205 M176 112 l12 13 -12 13 M181 125 h-0.5"/>
+  <path class="ln" d="M305 125 H362 M332 112 l12 13 -12 13 M338 125 h-0.5"/>
+  <path class="ln" d="M488 125 H545 M516 112 l12 13 -12 13 M522 125 h-0.5"/>
+  <path class="ln" d="M470 74 V92 M483 79 l-13 8 0.7 13"/>
+  <path class="ln" d="M425 158 V176"/>
+  <text class="lb" x="176" y="102" text-anchor="middle">× ρ</text>
+  <text class="lb" x="176" y="160" text-anchor="middle">÷ ρ</text>
+  <text class="lb" x="333" y="102" text-anchor="middle">÷ M</text>
+  <text class="lb" x="333" y="160" text-anchor="middle">× M</text>
+  <text class="lb" x="516" y="102" text-anchor="middle">× N<tspan baseline-shift="sub" font-size="10">A</tspan></text>
+  <text class="lb" x="516" y="160" text-anchor="middle">÷ N<tspan baseline-shift="sub" font-size="10">A</tspan></text>
+  <text class="lb" x="500" y="66" text-anchor="middle">÷ V<tspan baseline-shift="sub" font-size="10">m</tspan> / × V<tspan baseline-shift="sub" font-size="10">m</tspan></text>
+  <text class="lb" x="500" y="212" text-anchor="middle">× c / ÷ c</text>
+</svg></figure>`;
+  const MERMAID_REPLACEMENTS = { 'chem-c02': CALC_SCHEME_SVG };
+  const mermaidGuard = (html, ctx) => html.replace(/<pre><code class="language-mermaid">([\s\S]*?)<\/code><\/pre>/g, () => {
+    if (MERMAID_REPLACEMENTS[ctx]) return MERMAID_REPLACEMENTS[ctx];
+    warnings.push(`[${ctx}] mermaid block dropped (text-first v1); teacher draws an original SVG instead`);
+    return '';
+  });
+
   const md = (text, ctx) => {
     const r = new marked.Renderer();
     r.link = function ({ href, text: t }) {
@@ -81,7 +132,7 @@ export function buildItems(repoRoot, siteRoot) {
       warnings.push(`[${ctx}] image dropped (text-first v1): ${href}`);
       return '';
     };
-    return sanitize(marked.parse(text, { renderer: r, gfm: true }).trim());
+    return mermaidGuard(sanitize(marked.parse(text, { renderer: r, gfm: true }).trim()), ctx);
   };
 
   const titleOf = (readmeMd) => {

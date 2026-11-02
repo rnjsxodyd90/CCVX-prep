@@ -14,6 +14,9 @@ const SUBJECTS = [
 ];
 const PRICES = { 1: 79, 2: 139, 3: 189, 5: 279 };
 const eur = (n) => `€ ${n}`;
+if (['localhost', '127.0.0.1'].includes(location.hostname)) {
+  for (const el of document.querySelectorAll('.co-testnote')) el.hidden = false;
+}
 
 let user = null;
 // purchasable subjects from the catalog (others show "in preparation")
@@ -54,6 +57,7 @@ function sync() {
   totalEl.textContent = n ? (price === null ? 'no bundle for 4' : `${eur(price)} · launch price`) : 'choose your subjects';
   payBtn.disabled = !n || price === null || !waiverEl.checked || !user;
   payBtn.textContent = !user ? 'Sign in to continue' : (price === null ? 'Choose a different set' : `Pay ${eur(price)} with Stripe`);
+  $('#err').textContent = $('#err').textContent; // keep, hidden when empty by CSS
 }
 picker.addEventListener('change', (ev) => {
   const id = ev.target.value;
@@ -64,8 +68,10 @@ waiverEl.addEventListener('change', sync);
 
 function renderAuth() {
   const box = $('#authbox');
+  const pay = $('#payBtn');
   if (user) {
     box.innerHTML = `<p class="ok">Signed in as <strong>${user.email || 'user'}</strong>. <a href="account.html">Your library</a></p>`;
+    pay.hidden = false;
   } else {
     box.innerHTML = `
       <p>Sign in first: your purchase needs an account to land in.</p>
@@ -80,7 +86,10 @@ function renderAuth() {
       await emailLinkLogin(new FormData(ev.target).get('email'));
       $('[data-n]', box).hidden = false;
     };
+    // when signed out the sign-in controls ARE the panel action; no dead button
+    pay.hidden = true;
   }
+  renderAuth.called = true;
   sync();
 }
 

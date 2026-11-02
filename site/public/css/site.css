@@ -185,6 +185,9 @@ a:hover { text-decoration-color: var(--ink); }
   .hallband img { animation: none !important; }
 }
 
+.calcscheme { margin: 16px 0; }
+.calcscheme svg { max-width: 100%; height: auto; display: block; background: transparent; }
+
 /* Small helpers */
 .muted { color: var(--muted); }
 .small { font-size: var(--step-small); }
