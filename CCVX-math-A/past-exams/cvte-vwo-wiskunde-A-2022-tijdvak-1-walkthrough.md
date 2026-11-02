@@ -98,7 +98,7 @@ Exam totals: 21 questions in 5 problems, 76 points. This CvTE exam allowed a gra
 
 **Answer:** 7 minutes.
 
-**Common mistakes.** Comparing against 1 hour flat (the rule scales WITH thickness); rounding 1.4223 h to 1.4 h before converting (that still gives 78 − 84... keep full precision until the end).
+**Common mistakes.** Comparing against 1 hour flat (the rule scales WITH thickness); rounding the formula's 1.4223 h to 1.4 h before converting (that yields 6 minutes instead of 7 — keep full precision until the end).
 
 **Points:** 3 — the rule-of-thumb minutes, the formula value, the whole-minute difference.
 
