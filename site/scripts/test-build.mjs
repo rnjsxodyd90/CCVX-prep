@@ -124,7 +124,7 @@ mistakes: None.
 solution:
 1. X.
 `);
-assert.throws(() => buildItems(repo, site), /unknown subdomain "chem-z99"/, 'bad walkthrough subdomain rejected');
+assert.throws(() => buildItems(repo, site), /cannot place subdomain "chem-z99"/, 'bad walkthrough subdomain rejected');
 passed++;
 
 fs.rmSync(tmp, { recursive: true, force: true });

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T11:58:35.869Z",
+  "generated": "2026-11-02T13:02:04.536Z",
   "pricing": {
     "offer": "launch",
     "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
@@ -61,7 +61,8 @@
         "subdomains": 0,
         "questions": 0,
         "mocks": 0,
-        "walkthroughs": 0
+        "walkthroughs": 0,
+        "walkthroughQuestions": 0
       },
       "sampleItemId": "phys-p01"
     },
@@ -510,7 +511,8 @@
         "subdomains": 53,
         "questions": 8,
         "mocks": 0,
-        "walkthroughs": 1
+        "walkthroughs": 1,
+        "walkthroughQuestions": 2
       },
       "sampleItemId": "chem-c02"
     },
@@ -863,7 +865,8 @@
         "subdomains": 41,
         "questions": 0,
         "mocks": 0,
-        "walkthroughs": 0
+        "walkthroughs": 0,
+        "walkthroughQuestions": 0
       },
       "sampleItemId": "bio-b01"
     },
@@ -899,7 +902,8 @@
         "subdomains": 0,
         "questions": 0,
         "mocks": 0,
-        "walkthroughs": 0
+        "walkthroughs": 0,
+        "walkthroughQuestions": 0
       },
       "sampleItemId": "matha-a01"
     },
@@ -935,7 +939,8 @@
         "subdomains": 0,
         "questions": 0,
         "mocks": 0,
-        "walkthroughs": 0
+        "walkthroughs": 0,
+        "walkthroughQuestions": 0
       },
       "sampleItemId": "mathb-b03"
     }
