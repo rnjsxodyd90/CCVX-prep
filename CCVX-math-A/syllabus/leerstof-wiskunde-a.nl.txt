@@ -1,0 +1,825 @@
+CENTRALE COMMISSIE VOORTENTAMEN WISKUNDE
+
+
+               Programma voortentamen Wiskunde A
+                             Ingaande december 2018
+
+Het voortentamen wiskunde A wordt afgenomen als een schriftelijk tentamen met
+open vragen. De tentamentijd is 3 uur. Informatie over de tentamendata en over de
+inschrijving voor deze tentamens vindt u op www.ccvx.nl .
+Het programma van het voortentamen wiskunde A van de CCVW is gebaseerd op
+het eindexamenprogramma wiskunde A van het vwo voor 2019 zoals gepubliceerd
+op www.examenblad.nl . Ten opzichte van het Centraal Examen van het vwo zijn er
+twee belangrijke verschillen:
+   1. Bij het voortentamen wiskunde A mag er geen gebruik gemaakt worden
+      van een grafische rekenmachine of overige ICT.
+   2. Het domein Statistiek en Kansrekening wordt op het voortentamen
+      wiskunde A ook getoetst. Op het vwo wordt dit domein alleen in het
+      schoolexamen getoetst.
+De nadere vaststelling van het examenprogramma op www.examenblad.nl is daarom
+niet van toepassing.
+In dit document vindt u
+   -   Het tentamenprogramma
+   -   Tentamenbenodigdheden
+   -   De formulelijst die op het tentamen wordt afgedrukt
+   -   Uitwerking van het tentamenprogramma in een lijst van begrippen,
+       eigenschappen en vaardigheden
+   -   Overzicht van algebraïsche vaardigheden
+   -   Aanbevolen leermateriaal
+
+
+
+
+ Bij het voortentamen dienen alle berekeningen algebraïsch uitgevoerd te worden,
+ het gebruik van een grafische rekenmachine of een rekenmachine met de
+ mogelijkheid om integralen te berekenen is daarom niet toegestaan.
+ Wel toegestaan is het gebruik van een standaard rekenmachine met
+ exponentiële, logaritmische en goniometrische functies van een type vergelijkbaar
+ met de Casio fx 82 serie en de TI 30 serie
+Tentamenprogramma wiskunde A
+1    De kandidaat kan probleemsituaties die zich daartoe lenen in wiskundige termen analyseren,
+     oplossen en het resultaat naar de betrokken context terugvertalen.
+2    De kandidaat beheerst de bij het examenprogramma passende wiskundige vaardigheden,
+     waaronder modelleren en algebraïseren, ordenen en structureren, analytisch denken en
+     probleemoplossen, formules manipuleren, abstraheren, en logisch redeneren.
+3    De kandidaat kan berekeningen uitvoeren met getallen en variabelen, daarbij gebruik makend
+     van rekenkundige en algebraïsche basisbewerkingen en van het werken met haakjes.
+4    De kandidaat kan van eerstegraadsfuncties, tweedegraadsfuncties, machtsfuncties,
+     exponentiële functies, logaritmische functies en sinusfuncties de kenmerken in grafiek, tabel en
+     formule herkennen en gebruiken.
+5    De kandidaat kan van combinaties en samenstellingen van de bij 4 genoemde types functies
+     formules en functievoorschriften opstellen en bewerken, de bijbehorende grafieken tekenen,
+     vergelijkingen en ongelijkheden oplossen met algebraïsche methoden, dus zonder gebruik van
+     een grafische rekenmachine, en de uitkomst interpreteren in termen van een context.
+6    De kandidaat kan van eerstegraadsfuncties, tweedegraadsfuncties, machtsfuncties,
+     exponentiële functies en logaritmische functies de afgeleide bepalen, de rekenregels voor het
+     differentiëren gebruiken en aan de hand van de afgeleide het veranderingsgedrag van een
+     functie beschrijven. Het gebruik van de kettingregel wordt daarbij beperkt tot functies van de
+     vorm 𝑘(𝑥) = 𝑓(𝑔(𝑥)) waarin 𝑓 en 𝑔 enkelvoudige functies van de in de vorige zin genoemde
+     typen zijn.
+7    De kandidaat kan met behulp van de afgeleide functie de plaats van de minima en de maxima
+     van een grafiek berekenen door de daarbij behorende vergelijkingen algebraïsch op te lossen
+     en kan met behulp van een schets van de grafiek de aard van deze extremen bepalen.
+8    De kandidaat kan het gedrag van een rij herkennen en beschrijven en berekeningen aan een rij
+     uitvoeren, in het bijzonder voor rekenkundige en meetkundige rijen.
+9    De kandidaat kan telproblemen structureren en schematiseren en dat gebruiken bij
+     berekeningen en redeneringen.
+10   De kandidaat kan de modus en de mediaan van een serie losse waarnemingsgetallen bepalen
+     en kan met behulp van een eenvoudige rekenmachine het gemiddelde en de
+     standaardafwijking van een populatie van beperkte omvang berekenen.
+11   De kandidaat kan het kansbegrip gebruiken om bij een toevalsproces de kans op een bepaalde
+     uitkomst of gebeurtenis te bepalen aan de hand van een kans(boom)diagram, van
+     combinatoriek en van kansregels.
+12   De kandidaat kan voor toevalsvariabelen met een beperkt aantal uitkomsten de kansverdeling
+     opstellen en de verwachtingswaarde en de standaardafwijking berekenen.
+13   De kandidaat kan aangeven of er in een bepaalde situatie sprake is van een binomiale
+     kansverdeling, kan de parameters van deze kansverdeling aangeven en kan de daarbij
+     behorende formules gebruiken voor het berekenen van kansen, verwachtingswaarde en
+     standaardafwijking.
+14   De kandidaat kan de parameters van de normale verdeling hanteren, dit zijn het gemiddelde
+     (ofwel de verwachtingswaarde) en de standaardafwijking, en kan de vuistregels voor de ligging
+     van 68% en 95% van de waarnemingen hanteren.
+15       De kandidaat kan de verwachtingswaarde en de standaardafwijking van de som van twee
+         onafhankelijke toevalsvariabelen bepalen en kan de verwachtingswaarde en de standaard-
+         afwijking bepalen van de som en het gemiddelde van de uitkomsten van n onafhankelijke
+         herhalingen van hetzelfde toevalsexperiment.
+16       De kandidaat kan vanuit een daartoe geschikte probleemsituatie een statistische
+         toetsingsprocedure opzetten en daarbij
+         - aangeven of het een gemiddelde dan wel een proportietoets betreft
+         - de nulhypothese formuleren
+         - aangeven of de procedure linkszijdig, rechtszijdig dan wel tweezijdig moet worden uitgevoerd
+         - aangeven hoe een gegeven steekproefuitkomst moet worden omgerekend naar een
+         overschrijdingskans
+         - de gegeven waarde van een overschrijdingskans interpreteren
+         - de grenswaarden van het verwerpingsgebied (het kritieke gebied) berekenen met de tabel in
+         de formulelijst en met behulp hiervan de gegeven steekproefuitkomst interpreteren.
+
+
+
+
+Tentamenbenodigdheden
+Naar het tentamen moet u meenemen:
+     -    Identiteitsbewijs
+          Paspoort, rijbewijs, Europese ID kaart, verblijfsdocument
+     -    Schrijfgerei: pen
+          Een potlood mag alleen gebruikt worden voor het tekenen van grafieken.
+     -    Liniaal of geodriehoek
+     -    Rekenmachine met exponentiële, logaritmische en goniometrische functies
+          Grafische rekenmachines en rekenmachines met de mogelijkheid om integralen te
+          berekenen zijn niet toegestaan.
+     -    Een horloge (geen smartwatch) of een klok (niet de klok van uw telefoon)
+     -    Eten en drinken
+
+
+
+
+ Zorg ervoor dat u de juiste rekenmachine meeneemt. Als u alleen een grafische
+ rekenmachine bij u heeft, dan zult u het tentamen zonder rekenmachine moeten
+ maken.
+Formulelijst
+Onderstaande lijst wordt afgedrukt op de laatste twee bladzijden van het voortentamen Wiskunde A
+
+
+
+Tweedegraads vergelijkingen
+
+ De oplossingen van de vergelijking 𝑎𝑥 2 + 𝑏𝑥 + 𝑐 = 0 met 𝑎 ≠ 0 en 𝑏 2 − 4𝑎𝑐 ≥ 0 zijn
+                                                  −𝑏 + √𝑏 2 − 4𝑎𝑐        −𝑏 − √𝑏 2 − 4𝑎𝑐
+                                             𝑥=                   en 𝑥 =
+                                                        2𝑎                     2𝑎
+
+
+
+Differentiëren
+
+ Naam van de regel                          Functie                   Afgeleide
+
+ Somregel                                   𝑠(𝑥) = 𝑓(𝑥) + 𝑔(𝑥)        𝑠 ′ (𝑥) = 𝑓 ′ (𝑥) + 𝑔′(𝑥)
+
+ Productregel                               𝑝(𝑥) = 𝑓(𝑥) ⋅ 𝑔(𝑥)        𝑝′ (𝑥) = 𝑓 ′ (𝑥) ⋅ 𝑔(𝑥) + 𝑓(𝑥) ⋅ 𝑔′(𝑥)
+
+                                                   𝑓(𝑥)                           𝑓 ′ (𝑥) ⋅ 𝑔(𝑥) − 𝑓(𝑥) ⋅ 𝑔′ (𝑥)
+ Quotiëntregel                              𝑞(𝑥) =                    𝑞 ′ (𝑥) =                      2
+                                                   𝑔(𝑥)                                     (𝑔(𝑥))
+
+                                                                                                              𝑑𝑘 𝑑𝑓 𝑑𝑔
+ Kettingregel                               𝑘(𝑥) = 𝑓(𝑔(𝑥))            𝑘 ′ (𝑥) = 𝑓 ′ (𝑔(𝑥)) ⋅ 𝑔′ (𝑥) ofwel       =  ⋅
+                                                                                                              𝑑𝑥 𝑑𝑔 𝑑𝑥
+
+
+
+Logaritmen
+
+ Regel                                                                Voorwaarden
+ 𝑔             𝑔              𝑔
+     log 𝑎 +       log 𝑏 =        log 𝑎𝑏                              𝑔 > 0, 𝑔 ≠ 1, 𝑎 > 0, 𝑏 > 0
+
+ 𝑔             𝑔              𝑔         𝑎
+     log 𝑎 −       log 𝑏 =        log                                 𝑔 > 0, 𝑔 ≠ 1, 𝑎 > 0, 𝑏 > 0
+                                        𝑏
+ 𝑔                    𝑔
+     log 𝑎𝑝 = 𝑝 ⋅         log 𝑎                                       𝑔 > 0, 𝑔 ≠ 1, 𝑎 > 0
+
+               𝑝
+ 𝑔                 log 𝑎
+     log 𝑎 = 𝑝                                                        𝑔 > 0, 𝑔 ≠ 1, 𝑎 > 0, 𝑝 > 0, 𝑝 ≠ 1
+                 log 𝑔
+
+
+
+Rijen
+                                                          1
+ rekenkundige rij:                                𝑆𝑜𝑚 = 2 ⋅ 𝑎𝑎𝑛𝑡𝑎𝑙 𝑡𝑒𝑟𝑚𝑒𝑛 ⋅ (𝑢𝑒 + 𝑢𝑙 )
+
+                                                          𝑢𝑙+1 − 𝑢𝑒
+ meetkundige rij:                                 𝑆𝑜𝑚 =               (𝑟 ≠ 1)
+                                                            𝑟−1
+
+ In beide formules geldt:                         e = rangnummer eerste term;          l = rangnummer laatste term
+Kansrekening
+
+Voor alle toevalsvariabelen X en Y geldt: 𝐸(𝑋 + 𝑌) = 𝐸(𝑋) + 𝐸(𝑌)
+Voor onafhankelijke toevalsvariabelen X en Y geldt: 𝜎(𝑋 + 𝑌) = √𝜎 2 (𝑋) + 𝜎 2 (𝑌)
+
+√𝑛-wet:
+Bij een serie van n onafhankelijk van elkaar herhaalde experimenten geldt voor de som S en voor
+het gemiddelde 𝑋 van de uitkomsten X:
+    𝐸(𝑆) = 𝑛 ⋅ 𝐸(𝑋)                         𝜎(𝑆) = √𝑛 ⋅ 𝜎(𝑋)
+                                                    𝜎(𝑋)
+    𝐸(𝑋) = 𝐸(𝑋)                            𝜎(𝑋) =
+                                                    √𝑛
+
+
+Binomiale verdeling
+
+Voor de binomiaal verdeelde toevalsvariabele X, waarbij n het aantal experimenten is en p de kans
+op succes per keer, geldt:
+              𝑛
+  𝑃(𝑋 = 𝑘) = ( ) ⋅ 𝑝𝑘 ⋅ (1 − 𝑝)𝑛−𝑘 met 𝑘 = 0, 1, 2, … , 𝑛
+              𝑘
+    Verwachtingswaarde: 𝐸(𝑋) = 𝑛𝑝                    Standaardafwijking: 𝜎(𝑋) = √𝑛 ⋅ 𝑝 ⋅ (1 − 𝑝)
+n en p zijn de parameters van de binomiale verdeling.
+
+
+Normale verdeling
+
+Voor een toevalsvariabele X die normaal verdeeld is met gemiddelde 𝜇 en standaardafwijking 𝜎
+geldt:
+         𝑋−𝜇                                                        𝑔−𝜇
+    𝑍=         is standaard normaal verdeeld en 𝑃(𝑋 < 𝑔) = 𝑃 (𝑍 <         )
+          𝜎                                                          𝜎
+
+𝜇 en 𝜎 zijn de parameters van de normale verdeling.
+
+
+Toetsen van hypothesen
+
+Bij een toetsingsprocedure waarbij de toetsingsgrootheid T normaal verdeeld is met gemiddelde 𝜇 𝑇
+en standaardafwijking 𝜎𝑇 zijn de grenswaarden van het verwerpingsgebied (het kritieke gebied):
+𝛼                linkszijdig                  rechtszijdig                    tweezijdig
+0,05             𝑔 = 𝜇 𝑇 − 1,645𝜎𝑇            𝑔 = 𝜇 𝑇 + 1,645𝜎𝑇               𝑔𝑙 = 𝜇 𝑇 − 1,96𝜎𝑇
+                                                                              𝑔𝑟 = 𝜇 𝑇 + 1,96𝜎𝑇
+0,01             𝑔 = 𝜇 𝑇 − 2,33𝜎𝑇             𝑔 = 𝜇 𝑇 + 2,33𝜎𝑇                𝑔𝑙 = 𝜇 𝑇 − 2,58𝜎𝑇
+                                                                              𝑔𝑟 = 𝜇 𝑇 + 2,58𝜎𝑇
+Uitwerking van het tentamenprogramma
+Hieronder wordt het tentamenprogramma nader uitgewerkt in een lijst van begrippen,
+eigenschappen en vaardigheden. Deze lijst is bedoeld als ondersteuning bij de
+voorbereiding op het voortentamen, maar niet als vervanging van het
+tentamenprogramma. Hoewel deze lijst met de grootst mogelijke zorg is
+samengesteld, kan het daarom voorkomen dat een tentamenvraag die wel onder het
+tentamenprogramma valt, niet aan de orde komt in deze lijst.
+
+
+
+
+ Begrip / Eigenschap / Vaardigheid        Opmerking / Toelichting
+
+
+
+ Diverse berekeningen
+
+ Rekenen met procenten;                   𝑁𝑖𝑒𝑢𝑤 − 𝑂𝑢𝑑
+ procentuele verandering                              × 100%
+                                              𝑂𝑢𝑑
+ Wetenschappelijke notatie                0,0000123 = 1,23 × 10−5
+
+                                          Optellen, aftrekken, vermenigvuldigen
+                                          Gelijknamig maken
+ Rekenen met breuken                      Vereenvoudigen
+                                          Delen door een breuk is vermenig-
+                                          vuldigen met het omgekeerde
+
+                                          In een verhoudingentabel zijn de
+ Verhoudingen
+                                          kruisproducten gelijk
+
+ Rekenen met variabelen:                  Bijvoorbeeld:
+
+                                          (𝑎 + 𝑏)(𝑐 + 𝑑) − (𝑒 + 𝑓) =
+ Haakjes wegwerken
+                                                 𝑎𝑐 + 𝑎𝑑 + 𝑏𝑐 + 𝑏𝑑 − 𝑒 − 𝑓
+                                                1      1
+ Een variabele vrijmaken                  𝑦=       ⇔𝑥 = −1
+                                               𝑥+1     𝑦
+
+                                          De trein rijdt 12 km in 5 minuten.
+                                          Dat is 2,4 km/minuut
+ Rekenen met eenheden
+                                          Ofwel 40 m/s
+                                          Ofwel 144 km/u
+Machten en wortels
+
+𝑎𝑛 is een macht met grondtal 𝑎 en   𝑛 is een rationaal getal (een breuk)
+exponent 𝑛
+𝑛
+√𝑎 is het getal waarvan de n-de     𝑛 = 2, 3, 4,5, …
+                                                              𝑛
+macht gelijk is aan 𝑎               Voor even 𝑛 zijn 𝑎 ≥ 0 en √𝑎 ≥ 0
+
+Bijzondere exponenten
+
+𝑎2 = 𝑎 ⋅ 𝑎; 𝑎3 = 𝑎 ⋅ 𝑎 ⋅ 𝑎 etc.
+
+𝑎1 = 𝑎
+
+𝑎0 = 1                              𝑎≠0
+
+    −𝑛
+           1  1 𝑛                   𝑎≠0
+𝑎        = 𝑛=( )                              1     1
+          𝑎   𝑎                     𝑎−1 =         =
+                                              𝑎 1   𝑎
+    1
+         𝑛                          𝑛 = 2, 3, 4,5, …
+𝑎 𝑛 = √𝑎                                                          1
+                                    Voor even 𝑛 zijn 𝑎 ≥ 0 en 𝑎𝑛 ≥ 0
+                                     1
+                                          2
+                                    𝑎 2 = √𝑎 = √𝑎
+
+Rekenregels voor machten
+
+𝑎𝑚 ⋅ 𝑎𝑛 = 𝑎𝑚+𝑛
+
+𝑎𝑚
+  𝑛
+    = 𝑎𝑚−𝑛
+𝑎
+                                     𝑚        1         1 𝑚       𝑚
+(𝑎𝑚 )𝑛 = 𝑎𝑚⋅𝑛                       𝑎 𝑛 = 𝑎𝑛⋅𝑚 = (𝑎𝑛 ) = ( √𝑎 )
+                                                              𝑛
+
+
+
+
+(𝑎 ⋅ 𝑏)𝑛 = 𝑎𝑛 ⋅ 𝑏 𝑛                 (𝑎 + 𝑏)2 ≠ 𝑎2 + 𝑏 2
+
+ 𝑎 𝑛 𝑎𝑛
+( ) = 𝑛
+ 𝑏   𝑏
+Rechte lijnen en lineaire verbanden
+
+                                            De lijn met vergelijking 3𝑥 + 4𝑦 = 12
+Algemene vergelijking: 𝑚𝑥 + 𝑛𝑦 = 𝑐
+                                            gaat door de punten (4,0) en (0,3)
+
+𝑛 = 0 geeft een verticale lijn              3𝑥 + 0 ⋅ 𝑦 = 12 geeft 𝑥 = 4
+
+𝑚 = 0 geeft een horizontale lijn            0 ⋅ 𝑥 + 4𝑦 = 12 geeft 𝑦 = 3
+
+Als de lijn niet verticaal is, dan kun je
+                                                                        3
+de vergelijking ook schrijven in de vorm    3𝑥 + 4𝑦 = 12 geeft 𝑦 = − 4 𝑥 + 3
+𝑦 = 𝑎𝑥 + 𝑏
+
+Richtingscoëfficiënt van de lijn door de
+punten 𝐴(𝑥𝐴 , 𝑦𝐴 ) en 𝐵(𝑥𝐵 , 𝑦𝐵 ):          Dit is gelijk aan 𝑎 in de formule
+Δ𝑦 𝑦𝐵 − 𝑦𝐴                                  𝑦 = 𝑎𝑥 + 𝑏
+  =
+Δ𝑥 𝑥𝐵 − 𝑥𝐴
+
+                                            Substitueer de richtingscoëfficiënt en
+Vergelijking opstellen met de richtings-
+                                            de coördinaten van een punt in de
+coëfficiënt
+                                            formule 𝑦 = 𝑎𝑥 + 𝑏
+
+Snijpunten berekenen van twee rechte        Elimineer 𝑦 uit het stelsel van twee
+lijnen                                      vergelijkingen
+
+Interpoleren en extrapoleren
+
+Recht evenredig en omgekeerd
+evenredig
+
+Machtsverbanden
+
+𝑦 = 𝑎𝑥 𝑛 met n even                         De grafiek heeft een top in (0,0)
+
+                                            (0,0) is het punt van symmetrie van de
+𝑦 = 𝑎𝑥 𝑛 met n oneven
+                                            grafiek
+
+                                            𝑦 = 3(𝑥 − 4)2 + 5 krijg je door y-
+Horizontale verschuiving                    coördinaten van de grafiek van 𝑦 = 𝑥 2
+                                            drie keer zo groot te maken en
+Verticale verschuiving
+                                            vervolgens de grafiek 4 naar rechts en
+Herschaling in verticale richting           5 omhoog te verschuiven. De grafiek is
+                                            dan een dalparabool met top (4,5).
+Groeiformules
+
+Exponentiële groei met beginwaarde b
+                                           𝑁(𝑡) = 𝑏 ⋅ 𝑔𝑡
+en groeifactor g
+
+De grafiek van 𝑁(𝑡) = 𝑔𝑡 is stijgend
+                                           En “ontaard” voor 𝑔 = 1
+voor 𝑔 > 1 en dalend voor 0 < 𝑔 < 1
+
+Groeifactor en groeipercentage
+
+Groeipercentage omzetten naar
+                                           Via de groeifactor
+andere tijdseenheid
+
+Verdubbelingstijd bij 𝑔 > 1                Ook terugrekenen naar de groeifactor
+                                           over een bepaalde tijdseenheid
+Halveringstijd bij 0 < 𝑔 < 1
+
+Andere groeiformules
+
+𝑁(𝑡) = 𝑎(1 − 𝑔𝑡 )                          Voor 0 < 𝑔 < 1 stijgen de grafieken
+               𝑎                           voor beide formules naar 𝑎, dat is de
+𝑁(𝑡) =                                     grenswaarde (het verzadigingsniveau)
+           1 + 𝑐 ⋅ 𝑔𝑡
+
+
+
+Logaritmen
+
+       𝑔
+𝑦 = log(𝑥) betekent 𝑔 𝑦 = 𝑥                𝑔 > 0, 𝑔 ≠ 1; 𝑥 > 0
+
+𝑔                   𝑔           𝑔
+    log(1) = 0; log(𝑔) = 1; log(𝑔𝑛 ) = 𝑛
+
+log(𝑥) = 10log(𝑥)                          log(1) = 0; log(10) = 1; log(100) = 2
+
+De grafiek is stijgend voor 𝑔 > 1 en       Als x naar 0 nadert, naderen de
+dalend voor 0 < 𝑔 < 1                      grafieken de y-as
+
+                                           Deze volgen uit de rekenregels voor
+Rekenregels voor logaritmen
+                                           machten
+𝑔             𝑔             𝑔
+    log(𝑎) + log(𝑏) = log(𝑎 ⋅ 𝑏)
+
+𝑔           𝑔        𝑔     𝑎
+    log(𝑎) − log(𝑏) = log ( )
+                           𝑏
+𝑔                       𝑔
+    log(𝑎𝑛 ) = 𝑛 ⋅ log(𝑎)                  Dit geldt voor alle getallen 𝑛
+               𝑝
+𝑔                  log(𝑎)                  Wordt vaak gebruikt met 𝑝 = 10 om
+    log(𝑎) = 𝑝                             logaritmen te berekenen met de log
+                  log(𝑔)
+                                           functie van de rekenmachine
+Differentiëren: afgeleiden van de           De afgeleide wordt ook genoteerd als
+standaardfuncties                           d𝑦
+                                            d𝑥
+𝑓(𝑥) = 𝑎 geeft 𝑓 ′ (𝑥) = 0                  Uit de somregel volgt:
+𝑓(𝑥) = 𝑎𝑥 geeft 𝑓 ′ (𝑥) = 𝑎                 𝑓(𝑥) = 𝑎𝑥 + 𝑏 geeft 𝑓 ′ (𝑥) = 𝑎
+
+                                            Ook als n een breuk of een negatief
+𝑓(𝑥) = 𝑎𝑥 𝑛 geeft 𝑓 ′ (𝑥) = 𝑛 ⋅ 𝑥 𝑎−1
+                                            getal is.
+
+𝑓(𝑥) = e𝑥 geeft 𝑓(𝑥) = e𝑥                   e ≈ 2,71828
+
+𝑓(𝑥) = 𝑔 𝑥 geeft 𝑓 ′ (𝑥) = 𝑔 𝑥 ⋅ ln (𝑔)     ln(𝑔) = elog(𝑔)     (𝑔 > 0)
+
+                                            Uit de constante factor-regel volgt:
+                        ′ (𝑥)       1
+𝑓(𝑥) = ln (𝑥) geeft 𝑓           =                   𝑔                             1
+                                    𝑥       𝑓(𝑥) = log(𝑥) geeft 𝑓 ′ (𝑥) =
+                                                                              𝑥 ln (𝑔)
+
+Regels voor het differentiëren van
+combinaties van functies
+
+Constante factorregel                       𝑔(𝑥) = 𝑐 ⋅ 𝑓(𝑥) geeft 𝑔′ (𝑥) = 𝑐 ⋅ 𝑓′(𝑥)
+Somregel                                    Zie verder de formulelijst
+Productregel
+Quotiëntregel
+Kettingregel
+
+Toepassingen van de afgeleide
+
+𝑓′(𝑎) is de helling van de (raaklijn aan    𝑓 ′ (𝑎) = richtingscoëfficiënt raaklijn in
+de) grafiek van 𝑓 in het punt (𝑎, 𝑓(𝑎))     punt (𝑎, 𝑓(𝑎))
+
+De grafiek is stijgend als 𝑓 ′ (𝑥) > 0 en
+dalend als 𝑓 ′ (𝑥) < 0
+
+In een minimum en in een maximum            Je berekent de punten waar 𝑓 een
+geldt 𝑓 ′ (𝑥) = 0                           minimum of een maximum kan hebben
+Minima en maxima worden samen               met 𝑓 ′ (𝑥) = 0. Daarna moet je in
+extremen genoemd.                           principe nog nagaan in welke punten
+                                            de grafiek een minimum dan wel een
+De punten waar de grafiek een               maximum heeft. Dit blijkt vaak al uit de
+minimum of een maximum heeft, heten         vraagstelling.
+de toppen van de grafiek.
+
+Minimale en maximale groeisnelheid          De afgeleide functie (de groeisnelheid)
+                                            kan ook gedifferentieerd worden
+Rijen
+
+                                      Berekent een term op basis van het
+Directe formule
+                                      nummer
+
+                                      Berekent een term op basis van de
+Recursieve formule
+                                      vorige term
+
+                                      Recursieve formule: 𝑢𝑛+1 = 𝑢𝑛 + 𝑎
+Rekenkundige rij                      Directe formule: 𝑢𝑛 = 𝑢0 + 𝑎 ⋅ 𝑛
+                                      Ofwel: 𝑢𝑛 = 𝑢1 + 𝑎 ⋅ (𝑛 − 1)
+
+                                      Recursieve formule: 𝑢𝑛+1 = 𝑟 ⋅ 𝑢𝑛
+Meetkundige rij                       Directe formule: 𝑢𝑛 = 𝑟 𝑛 ⋅ 𝑢0
+                                      Ofwel: 𝑢𝑛 = 𝑟 𝑛−1 ⋅ 𝑢1
+
+Somformule rekenkundige rij
+                                      Zie formulelijst
+Somformule meetkundige rij
+
+                                      Dit doe je door de directe formule gelijk
+Nummer van een term berekenen
+                                      te stellen aan de term
+
+
+
+Sinusfuncties
+
+Algemene formule:                     𝐴 = evenwichtsstand
+𝑓(𝑥) = 𝐴 + 𝐵 ⋅ sin(𝐶 ⋅ (𝑥 − 𝐷))       |𝐵| = amplitude
+De grafiek is een sinusoïde                  2𝜋
+                                      𝐶=
+Evenwichtsstand, amplitude, periode        periode
+en beginpunt aflezen in grafiek
+                                      Als 𝐵 > 0 gaat de grafiek stijgend door
+Evenwichtsstand, amplitude, periode   de evenwichtsstand in het punt (𝐷, 𝐴)
+en beginpunt bepalen met de formule   (beginpunt)
+
+Periode en symmetrie rond maximum
+en minimum gebruiken
+Beschrijvende statistiek
+Dit onderwerp komt in het voortentamen wiskunde A zeer beperkt aan de orde
+
+Modus, mediaan, gemiddelde en
+standaardafwijking voor een serie        Gemiddelde en standaardafwijking
+losse waarnemingsgetallen                mogen met de statistiekfunctie van een
+                                         gewone rekenmachine worden bepaald
+Gemiddelde en standaardafwijking bij
+een frequentieverdeling
+
+
+
+Systematisch tellen
+Ook bekend als “telproblemen”, maar voor wie deze leerstof beheerst zou tellen
+geen probleem moeten zijn.
+
+                                         Boomdiagram, wegendiagram, rooster,
+Visualiseren
+                                         kruistabel, venndiagram
+
+Vermenigvuldigingsregel                  I EN II
+
+Somregel                                 I OF II (maar niet tegelijk)
+
+Met of zonder herhaling tellen
+
+Permutaties, faculteiten                 Volgorde is van belang
+
+Combinaties                              Volgorde maakt niet uit
+
+                                         Het aantal rijtjes met 5 letters A en 3
+                                         letters B staat op de 8ste rij van de
+Driehoek van Pascal                      driehoek van Pascal en is gelijk aan
+                                          8      8        8!
+                                         ( )=( )=              = 56
+                                          3      5     3! ⋅ 5!
+                                         Het aantal rijtjes met 3 letters A, 4
+Teltechnieken combineren                 letters B en 5 letters C wordt gegeven
+                                                 12     9              12      7
+                                         door ( ) ⋅ ( ) (en door ( ) ⋅ ( ))
+                                                 3      4               5      4
+Kansrekening
+
+Een gebeurtenis is een bepaald deel
+                                          Wordt vaak aangegeven met een
+van alle mogelijke uitkomsten van een
+                                          hoofdletter, zoals G, A en B.
+toevalsexperiment
+
+Kansdefinitie van Laplace voor                     𝑎𝑎𝑛𝑡𝑎𝑙 𝑔𝑢𝑛𝑠𝑡𝑖𝑔𝑒 𝑢𝑖𝑡𝑘𝑜𝑚𝑠𝑡𝑒𝑛
+kansexperimenten met uitkomsten die       𝑃(𝐺) =
+alle even waarschijnlijk zijn                      𝑎𝑎𝑛𝑡𝑎𝑙 𝑚𝑜𝑔𝑒𝑙𝑖𝑗𝑘𝑒 𝑢𝑖𝑡𝑘𝑜𝑚𝑠𝑡𝑒𝑛
+
+Empirische kansen worden bepaald          Theoretische kansen worden vaak
+met relatieve frequenties                 berekend met systematisch tellen
+
+                                          Worden vaak berekend met behulp van
+Voorwaardelijke kansen
+                                          een kruistabel
+
+Onafhankelijke gebeurtenissen             𝑃(𝐴 𝑜𝑛𝑑𝑒𝑟 𝑑𝑒 𝑣𝑜𝑜𝑟𝑤𝑎𝑎𝑟𝑑𝑒 𝐵) = 𝑃(𝐴)
+
+Productregel voor onafhankelijke
+                                          𝑃(𝐺1 𝑒𝑛 𝐺2 ) = 𝑃(𝐺1 ) ⋅ 𝑃(𝐺2 )
+kansexperimenten
+
+Somregel voor elkaar uitsluitende
+                                          𝑃(𝐺1 𝑜𝑓 𝐺2 ) = 𝑃(𝐺1 ) + 𝑃(𝐺2 )
+gebeurtenissen
+
+De complementregel
+
+Toepassen van deze regels bij
+samengestelde kansexperimenten
+
+Toevalsvariabelen
+
+Als de uitkomsten van een
+                                          Als X het aantal ogen bij een worp met
+toevalsexperiment getallen zijn, kun je
+                                          een dobbelsteen is, dan noteren we de
+de bijbehorende kansen noteren met
+                                          kans op 4 ogen met 𝑃(𝑋 = 4)
+behulp van een toevalsvariabele
+
+De kansverdeling is een opsomming         De kansverdeling wordt vaak
+van alle mogelijke uitkomsten van een     genoteerd in een tabel, bijvoorbeeld
+toevalsvariabele met de bijbehorende          𝑥       1 2 3 4 5 6
+kansen                                     𝑃(𝑋 = 𝑥) 1 1 1 1 1 1
+                                                         6   6   6   6   6       6
+
+Verwachtingswaarde;                                  1       1               1
+                                          𝐸(𝑋) = 1 ⋅ 6 + 2 ⋅ 6 + ⋯ + 6 ⋅ 6
+verwachtingswaarde van de som =
+som van de verwachtingswaarden            𝐸(𝑋 + 𝑌) = 𝐸(𝑋) + 𝐸(𝑌)
+
+                                          Mag berekend worden met de statistiek
+Standaardafwijking
+                                          functie van een rekenmachine
+
+Standaardafwijking van de som en van
+het gemiddelde van onafhankelijke         Zie formulelijst
+toevalsvariabelen; √𝑛-wet
+De binomiale kansverdeling
+
+Bernoulli-experiment                  Uitkomst: “succes” of “mislukking”
+
+                                      Parameters:
+Binomiaal kansexperiment              𝑛 = aantal Bernoulli-experimenten
+                                      𝑝 = kans op succes per experiment
+
+Enkelvoudige kans (kans op k keer                 𝑛
+                                      𝑃(𝑋 = 𝑘) = ( ) ⋅ 𝑝𝑘 ⋅ (1 − 𝑝)𝑛−𝑘
+succes)                                           𝑘
+
+                                      𝑃(𝑋 ≤ 𝑘); 𝑃(𝑋 ≥ 𝑘); 𝑃(𝑘 ≤ 𝑋 ≤ 𝑙)
+Cumulatieve kansen                    Alleen voor de som van hooguit 3
+                                      enkelvoudige kansen.
+
+Verwachtingswaarde                    𝐸(𝑋) = 𝑛𝑝
+
+Standaardafwijking                    𝜎𝑋 = √𝑛𝑝(1 − 𝑝)
+
+De normale verdeling
+                                      Parameters:
+De normale verdeling en de            𝜇 of 𝜇𝑋 = gemiddelde
+Gausskromme als benadering van een                     (verwachtingswaarde)
+frequentieverdeling                   𝜎 of 𝜎𝑋 = standaardafwijking
+
+                                      50% van de waarnemingen ligt onder
+                                      het gemiddelde
+
+Vuistregels                           68% van de waarnemingen ligt tussen
+                                      de grenzen 𝜇 − 𝜎 en 𝜇 + 𝜎;
+                                      95% van de waarnemingen ligt tussen
+                                      de grenzen 𝜇 − 2𝜎 en 𝜇 + 2𝜎
+
+Berekenen van 𝜇 en/of 𝜎 met behulp    Bijvoorbeeld als gegeven is dat 84%
+van de vuistregels                    van een populatie meer weegt dan
+                                      80 kg en dat 2,5% van die populatie
+                                      meer weegt dan 110 kg.
+
+Normale benadering
+
+Een discreet verdeelde
+                                      Voor een binomiaal verdeelde
+toevalsvariabele kan vaak benaderd
+                                      toevalsvariabele is dit als 𝑛𝑝 ≥ 5
+worden met een normale verdeling
+
+Het gemiddelde en de standaard-       Voor de normale benadering Y van een
+afwijking van de normale benadering   binomiaal verdeelde toevalsvariabele
+zijn de verwachtingswaarde en de      met parameters n en p geldt dus
+standaardafwijking van de discreet
+                                      𝜇𝑌 = 𝑛𝑝 en 𝜎𝑦 = √𝑛𝑝(1 − 𝑝)
+verdeelde toevalsvariabele
+                                                              1
+Continuïteitscorrectie                𝑃(𝑋 ≤ 𝑘) = 𝑃 (𝑋 < 𝑘 + 2)
+Toetsen van hypothesen                  Proportietoets (binomiaaltoets) met
+                                        nulhypothese 𝐻0 : 𝑝 = 𝑝0
+Uit een omschrijving het soort
+toetsingsprocedure en de bijbehorende   of gemiddeldentoets (normale toets)
+nulhypothese afleiden                   met nulhypothese 𝐻0 : 𝜇 = 𝜇0
+
+De alternatieve hypothese afleiden      Linkszijdig, rechtszijdig of tweezijdig
+
+                                        Bij een binomiaaltoets zijn dat 𝑛 en 𝑝0 ,
+De toetsingsgrootheid bepalen met de
+                                        bij een normale toets zijn dat 𝜇0 en 𝜎,
+bijbehorende parameters
+                                        𝜎 bepaal je met de √𝑛-wet
+
+Significantieniveau                     Meestal 𝛼 = 0,05, soms 𝛼 = 0,01
+
+                                        Aangezien het gebruik van grafische
+                                        rekenmachines en tabellen verboden
+Beslissen op grond van een
+                                        is, zal de overschrijdingskans op het
+overschrijdingskans
+                                        voortentamen wiskunde A meestal
+                                        gegeven worden
+
+                                        De grenswaardes voor een normale
+                                        toets kun je berekenen met de
+Beslissen door de steekproefuitkomst
+                                        formules uit de formulelijst. Als 𝑛𝑝0 ≥ 5
+te vergelijken met de grenswaarde van
+                                        kun je deze formules ook gebruiken bij
+het verwerpingsgebied (het kritieke
+                                        een binomiaaltoets. Daarbij hoeft geen
+gebied)
+                                        rekening gehouden te worden met de
+                                        continuïteitscorrectie
+Algebraïsche vaardigheden
+Hieronder een overzicht van algebraïsche vaardigheden die de kandidaten voor het
+tentamen wiskunde A van de CCVW moeten beheersen. Ook voor deze lijst geldt dat
+hij met de uiterste zorgvuldigheid is samengesteld, maar dat het voor kan komen dat
+een vaardigheid die wel onder het tentamenprogramma valt, niet aan de orde komt in
+deze lijst.
+
+
+
+ Vaardigheid                               Opmerking / Toelichting
+
+ Standaardvergelijkingen oplossen
+
+ Eerstegraads                              𝑎𝑥 + 𝑏 = 𝑝𝑥 + 𝑞
+
+                                           𝑎𝑥 2 + 𝑏𝑥 + 𝑐 = 0
+ Tweedegraads
+                                           Mag indien mogelijk ook met ontbinden
+ Met abc-formule
+                                           in factoren
+
+ Machtsvergelijkingen met een positieve                   𝑛
+                                           𝑥 𝑛 = 𝑎 ⇔ 𝑥 = ± √𝑎 (𝑎 ≥ 0)
+ even exponent
+
+ Machtsvergelijkingen met positieve                        𝑛
+                                           𝑥 𝑛 = 𝑎 ⇔ 𝑥 = √𝑎
+ oneven exponenten
+                                                               1
+ Andere machtsvergelijkingen               𝑥 𝑛 = 𝑎 ⇔ 𝑥 = 𝑎𝑛 (𝑎 ≥ 0)
+
+ Wortelvergelijkingen                      √𝑥 = 𝑎 ⇔ 𝑥 = 𝑎2 (𝑥 ≥ 0; 𝑎 ≥ 0)
+
+ Exponentiële en logaritmische
+                                           𝑔
+ vergelijkingen die zich daartoe lenen         log(𝑔𝑛 ) = 𝑎 ⇔ 𝑔𝑛 = 𝑔𝑎 ⇔ 𝑛 = 𝑎
+ exact oplossen
+
+ Exponentiële vergelijkingen oplossen                      𝑔
+                                           𝑔 𝑥 = 𝑎 ⇔ 𝑥 = log(𝑎)
+ met behulp van logaritmen
+
+ Ongelijkheden oplossen                    Bij het grafisch oplossen van
+                                           ongelijkheden moeten de snijpunten
+                                           van de grafieken algebraïsch worden
+                                           berekend
+
+ Stelsels van vergelijkingen oplossen      Met eliminatie en/of substitutie
+
+ Opstellen van de vergelijking van         Richtingscoëfficiënt bepalen en samen
+ een rechte lijn                           met de coördinaten van een punt
+                                           invullen in één van de
+                                           standaardformules
+Vergelijkingen en formules              Bijvoorbeeld om vergelijkingen om te
+bewerken                                werken tot standaardvergelijkingen
+
+Een vergelijking splitsen               𝐴⋅𝐵 = 0⇔𝐴 = 0∨𝐵 = 0
+                                        𝐴2 = 𝐵 2 ⇔ 𝐴 = ±𝐵
+                                        𝐴⋅𝐵 =𝐴⋅𝐶 ⇔ 𝐴 =0∨𝐵 =𝐶
+
+Een factor buiten haakjes halen         𝐴 ⋅ 𝐵 + 𝐴 ⋅ 𝐶 = 𝐴(𝐵 + 𝐶)
+
+Haakjes wegwerken                       (𝐴 + 𝐵)(𝐶 + 𝐷) = 𝐴𝐶 + 𝐴𝐷 + 𝐵𝐶 + 𝐵𝐷
+
+Bewerkingen met breuken                 Optellen (gelijknamig maken)
+                                        Vermenigvuldigen en delen
+                                        Kruiselings vermenigvuldigen:
+                                        𝐴 𝐶
+                                         = ⇔ 𝐴𝐷 = 𝐵𝐶 ∧ 𝐵𝐷 ≠ 0
+                                        𝐵 𝐷
+Bewerkingen met wortels                 √𝐴 = 𝐵 ⇔ 𝐴 = 𝐵 2 ∧ 𝐴 ≥ 0
+
+Toepassen van rekenregels               Zoals voor exponenten en logaritmen
+
+Formules combineren                     Als bijvoorbeeld de prijs per stuk p en
+                                        de kosten k beide afhangen van het
+                                        aantal stuks q, dan kun je ook formules
+                                        maken voor de opbrengst: 𝑟 = 𝑝𝑞 en
+                                        voor de winst: 𝑤 = 𝑟 − 𝑘 = 𝑝𝑞 − 𝑘
+                                        Let op het juiste gebruik van haakjes
+                                        bij het invullen van de formules voor p
+                                        en k
+
+Formules met logaritmen bewerken
+
+Veranderen van grondtal                 Met de vierde rekenregel
+
+                                                      𝑔
+Een variabele vrijmaken uit een         Gebruik 𝑌 = log(𝑋) ⇔ 𝑔𝑌 = 𝑋
+exponentiële of logaritmische formule
+𝑔
+  log(𝑁) = 𝑎𝑡 + 𝑏 omzetten naar een
+formule van de vorm 𝑁 = 𝐵 ⋅ 𝐺 𝑡 en      𝐵 = 𝑔𝑏 ; 𝐺 = 𝑔𝑎
+andersom
+𝑔                 𝑔
+ log(𝑁) = 𝑎 + 𝑏 ⋅ log(𝑡) omzetten
+naar een formule van de vorm            𝐴 = 𝑔𝑎
+𝑁 = 𝐴 ⋅ 𝑡 𝑏 en andersom
+Aanbevolen leermateriaal
+Voor de onderbouwleerstof en de algebraïsche vaardigheden die deel uitmaken van
+het tentamenprogramma wiskunde A wordt aanbevolen:
+Wiswijs (Pach en Wisbrun, vierde druk 2018, ISBN 9789001876265)
+voor zelfstudie zijn oudere drukken uiteraard ook bruikbaar.
+
+De leerstof van de bovenbouw van het vwo (leerjaren 4, 5 en 6) is terug te vinden in:
+Getal en Ruimte vwo A elfde of twaalfde editie, deel 1AC, 2AC, 3A en 4A
+Bij de examentraining (deel 4A, hoofdstuk 15) dient u er rekening mee te houden dat
+de grafische rekenmachine niet toegestaan is bij het voortentamen wiskunde van de
+CCVW. Er zullen dan ook geen vragen gesteld worden die niet zonder grafische
+rekenmachine beantwoord kunnen worden. Verder bevat dit hoofdstuk geen opgaven
+over de onderwerpen Statistiek en Kansrekening.
+ISBN en overige informatie op www.getalenruimte.noordhoff.nl
+De leerstof is ook terug te vinden in de andere vwo-lesmethoden, zoals Moderne
+Wiskunde en Netwerk.
+
