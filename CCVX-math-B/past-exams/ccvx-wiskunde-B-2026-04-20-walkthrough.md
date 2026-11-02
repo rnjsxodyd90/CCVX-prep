@@ -4,7 +4,7 @@
 - **Paper (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20B%2023.pdf>
 - **Official answers (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20B%2023%20-%20Uitwerking.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, figures or data — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
 
 Exam totals: 4 problems, 81 points; grade = points · 9/81 + 1; pass at 5.5. Coverage: O1 = exponential square and log functions, volumes ([B04](../B04-exponential-and-logarithmic-functions/), [B07](../B07-differentiation/), [B09](../B09-integration/)); O2 = rational function family with parameter ([B08](../B08-function-investigation/), [B09](../B09-integration/)); O3 = parametric path ([B06](../B06-trigonometric-functions/), [B14](../B14-parametric-curves/)); O4 = touching circles ([B12](../B12-vectors/), [B13](../B13-circle-geometry/)).
 

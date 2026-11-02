@@ -4,7 +4,7 @@
 - **Paper (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20A%2021.pdf>
 - **Official answers (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20A%2021%20-%20Uitwerking.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, figures or data — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
 
 Exam totals: 6 problems, 81 points (19 + 14 + 15 + 13 + 11 + 9); grade = points · 9/81 + 1; pass at 5.5. Coverage: O1 = quartic, root-slope, exact powers ([A01](../A01-numbers-and-algebra/), [A06](../A06-differentiation/)); O2 = new-product sales model ([A06](../A06-differentiation/), [A07](../A07-applications-of-the-derivative/)); O3 = cigars and testing ([A13](../A13-random-variables/), [A15](../A15-normal-distribution/), [A16](../A16-hypothesis-testing/)); O4 = liquorice coins ([A12](../A12-probability/), [A14](../A14-binomial-distribution/)); O5 = beetle models ([A04](../A04-exponential-growth/), [A05](../A05-logarithms/)); O6 = temperature sinusoid ([A09](../A09-sine-functions/)).
 

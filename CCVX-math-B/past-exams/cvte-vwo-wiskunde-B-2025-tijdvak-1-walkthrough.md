@@ -4,7 +4,7 @@
 - **Paper (PDF, examenblad.nl):** <https://www.examenblad.nl/system/files/exam-document/2025-05/vw-1025-a-25-1-o.pdf>
 - **Official answers (correctievoorschrift, examenblad.nl):** <https://www.examenblad.nl/system/files/exam-document/2025-05/vw-1025-a-25-1-c.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, figures or data — it tells you what each question asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: College voor Toetsen en Examens (Cito).
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each question asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: College voor Toetsen en Examens (Cito).
 
 Exam totals: 18 questions, 77 points. This CvTE exam allowed a graphing calculator (unlike the CCVX exam); calculator-dependent steps are flagged. Coverage: quartic inflection ([B08](../B08-function-investigation/)), a parametric droplet ([B05](../B05-trigonometry/), [B09](../B09-integration/), [B14](../B14-parametric-curves/)), circles in a circle ([B11](../B11-triangle-geometry/), [B13](../B13-circle-geometry/)), root function and inverse ([B02](../B02-functions-and-graphs/), [B03](../B03-power-and-root-functions/), [B09](../B09-integration/)), spring masses and sinusoids ([B06](../B06-trigonometric-functions/)), tangent circles through two points ([B12](../B12-vectors/), [B13](../B13-circle-geometry/)), logarithms and limits ([B04](../B04-exponential-and-logarithmic-functions/), [B08](../B08-function-investigation/)).
 
@@ -64,9 +64,9 @@ Exam totals: 18 questions, 77 points. This CvTE exam allowed a graphing calculat
 
 **Asked:** the exact volume of the droplet solid (the enclosed y-symmetric region revolved about the y-axis).
 
-**Solution.** The region runs between the y-bounds −1 and 1 (from y = cos t). Rotation about the y-axis: V = π∫₋₁¹ x² dy = π∫₋₁¹ (−y⁴ + 2y³ − 2y + 1) dy with the result from Q4. Antiderivative: −⅕y⁵ + ½y⁴ − y² + y. Values: at 1: −0.2 + 0.5 = 0.3; at −1: 0.2 + 0.5 − 1 − 1 = −1.3. Difference: 1.6 = 8/15π·... exact: 1.6 = 8/5. So V = 3π/5.
+**Solution.** The region runs between the y-bounds −1 and 1 (from y = cos t). Rotation about the y-axis: V = π∫₋₁¹ x² dy = π∫₋₁¹ (−y⁴ + 2y³ − 2y + 1) dy with the result from Q4. Antiderivative: −⅕y⁵ + ½y⁴ − y² + y. Values: at 1: −0.2 + 0.5 = 0.3; at −1: 0.2 + 0.5 − 1 − 1 = −1.3. Difference: 0.3 − (−1.3) = 1.6 = 8/5. So V = (8/5)π = 8π/5.
 
-**Answer:** 3π/5 (= 1⅗π).
+**Answer:** 8π/5 (= 1⅗π).
 
 **Common mistakes.** x instead of x² in the integrand; evaluating only the [0, 1] part (the symmetric interval needs both bounds — here even-symmetry gives 2× the upper part, same result); fraction slips (−⅕ + ½ = 3/10 at y = 1).
 

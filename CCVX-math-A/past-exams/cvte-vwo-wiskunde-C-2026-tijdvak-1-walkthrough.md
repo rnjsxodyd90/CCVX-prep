@@ -1,10 +1,13 @@
-# Walkthrough — CvTE VWO examen wiskunde A, 2026 tijdvak 1 (May 2026)
+# Walkthrough — CvTE VWO examen wiskunde C, 2026 tijdvak 1 (supplementary reasoning practice for wiskunde A)
 
-- **Official paper:** VWO wiskunde A, centraal examen 2026 period 1, college code VW-1026-a-26-1-o.
+- **Official paper:** VWO wiskunde C, centraal examen 2026 period 1, college code VW-1026-a-26-1-o.
 - **Paper (PDF, examenblad.nl):** <https://www.examenblad.nl/system/files/exam-document/2026-05/vw-1026-a-26-1-o.pdf>
 - **Official answers (correctievoorschrift, examenblad.nl):** <https://www.examenblad.nl/system/files/exam-document/2026-05/vw-1026-a-26-1-c.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, tables, figures or data — it tells you what each question asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: College voor Toetsen en Examens (Cito). Questions that depend on a figure or worksheet (perspective drawing, a puzzle grid) get their answer described in words or as a method; for visual checks the official key's drawing is decisive.
+**Note — this is a wiskunde C exam, not wiskunde A.** College code VW-1026-a belongs to VWO wiskunde C (VWO wiskunde A carries code VW-1024-a). This walkthrough is kept in the math-A prep as supplementary reasoning practice only: percentages, algebra, exponential models, counting and formal logic here transfer directly to CCVX wiskunde A, but the exam's coverage is NOT wiskunde A coverage — wiskunde C has no differentiation, no binomial or normal distribution and no hypothesis testing, so use the filtered per-question subdomain links as pointers to the overlapping skills, not as a syllabus map. Walkthroughs of the real VWO wiskunde A exams live in `cvte-vwo-wiskunde-A-…-tijdvak-1-walkthrough.md`.
+
+
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each question asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: College voor Toetsen en Examens (Cito). Questions that depend on a figure or worksheet (perspective drawing, a puzzle grid) get their answer described in words or as a method; for visual checks the official key's drawing is decisive.
 
 Exam totals: 23 questions in 7 problems, 74 points. This CvTE exam allowed a graphing calculator (unlike the CCVX exam); calculator-dependent steps are flagged. Coverage: many short contexts — percentages and growth factors ([A01](../A01-numbers-and-algebra/), [A04](../A04-exponential-growth/)), counting ([A11](../A11-systematic-counting/)), exponent models and a forgetting curve ([A04](../A04-exponential-growth/), [A05](../A05-logarithms/)), geometry volumes/areas ([B-style 3D visualisation]), radio waves periodicity ([A01](../A01-numbers-and-algebra/), [A09](../A09-sine-functions/)), code counting ([A11](../A11-systematic-counting/)), and logical reasoning.
 
