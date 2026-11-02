@@ -4,7 +4,7 @@
 - **Paper (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20A%2023.pdf>
 - **Official answers (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20A%2023%20-%20Uitwerking.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, figures or data — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
 
 Exam totals: 6 problems, 81 points; grade = points · 9/81 + 1; pass at 5.5. Coverage: O1 = polynomials, quotients, sequences ([A01](../A01-numbers-and-algebra/), [A06](../A06-differentiation/), [A08](../A08-sequences/)); O2 = root and exponential models ([A04](../A04-exponential-growth/), [A06](../A06-differentiation/), [A07](../A07-applications-of-the-derivative/)); O3 = normal distribution and testing ([A15](../A15-normal-distribution/), [A16](../A16-hypothesis-testing/)); O4 = hypergeometric drawing and binomial continuation ([A11](../A11-systematic-counting/), [A12](../A12-probability/), [A14](../A14-binomial-distribution/)); O5 = exponential growth and saturation ([A04](../A04-exponential-growth/), [A05](../A05-logarithms/)); O6 = sinusoid reading ([A09](../A09-sine-functions/)).
 

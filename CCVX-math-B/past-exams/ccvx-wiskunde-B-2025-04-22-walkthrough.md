@@ -4,7 +4,7 @@
 - **Paper (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20B%2020.pdf>
 - **Official answers (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20B%2020%20-%20Uitwerking.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, figures or data — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
 
 Exam totals: 4 problems, 81 points (16 + 17 + 24 + 24); grade = points · 9/81 + 1; pass at 5.5. Coverage: O1 = product exponential, symmetry, primitive ([B04](../B04-exponential-and-logarithmic-functions/), [B07](../B07-differentiation/), [B09](../B09-integration/)); O2 = circles, tangents, similarities ([B10](../B10-lines-and-distances/), [B11](../B11-triangle-geometry/), [B13](../B13-circle-geometry/)); O3 = two cubics T1, tangent triangle, parabola volume ([B03](../B03-power-and-root-functions/), [B07](../B07-differentiation/), [B08](../B08-function-investigation/), [B09](../B09-integration/)); O4 = sine-cosine family, log perforation ([B04](../B04-exponential-and-logarithmic-functions/), [B05](../B05-trigonometry/), [B06](../B06-trigonometric-functions/), [B08](../B08-function-investigation/)).
 

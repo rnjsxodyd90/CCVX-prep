@@ -4,7 +4,7 @@
 - **Paper (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20A%2020.pdf>
 - **Official answers (PDF):** <https://www.ccvx.nl/VoorbeeldTentamens/VoorbeeldTentamensWiskunde/Voorbeeldtentamen%20wiskunde%20A%2020%20-%20Uitwerking.pdf>
 
-Open the official paper next to this page. This walkthrough does not repeat the question texts, figures or data — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
+Open the official paper next to this page. This walkthrough does not repeat the question texts, tables or figures, and restates only the given formulas and numbers needed to keep the solutions solvable — it tells you what each part asks for in our own words, then works out a complete solution independently derived by us. Copyright of the paper: CCVW.
 
 Exam totals: 6 problems, 81 points; grade = points · 9/81 + 1; pass at 5.5. Coverage: O1 = quadratics, rational slope, same-base exponentials ([A01](../A01-numbers-and-algebra/), [A04](../A04-exponential-growth/), [A06](../A06-differentiation/)); O2 = island cable route ([A06](../A06-differentiation/), [A07](../A07-applications-of-the-derivative/)); O3 = hotel desserts ([A13](../A13-random-variables/), [A14](../A14-binomial-distribution/)); O4 = tide laboratory sinusoid ([A09](../A09-sine-functions/)); O5 = weights and testing ([A13](../A13-random-variables/), [A15](../A15-normal-distribution/), [A16](../A16-hypothesis-testing/)); O6 = AI software growth ([A04](../A04-exponential-growth/), [A05](../A05-logarithms/), [A06](../A06-differentiation/)).
 
@@ -162,15 +162,15 @@ Exam totals: 6 problems, 81 points; grade = points · 9/81 + 1; pass at 5.5. Cov
 
 ## Question 5a (official paper)
 
-**Asked:** using the exam's figure, the probability that one man's and one woman's total weight exceeded 160 kg in 2000.
+**Asked:** the probability that one man's and one woman's total weight exceeded 160 kg in 2000.
 
-**Solution.** Independent totals: mean μ = 82 + 73 = 155 kg; σ = √(8² + 6²) = √100 = 10 kg (variances add — formula sheet). Boundary: 160 = μ + 5 = μ + 0.5σ. The asked probability = the figure's strips right of μ + 0.5σ: 0.150 + 0.092 + 0.044 + 0.023 = 0.309.
+**Solution.** Independent totals: mean μ = 82 + 73 = 155 kg; σ = √(8² + 6²) = √100 = 10 kg (variances add — formula sheet). Boundary: 160 = μ + 5 = μ + 0.5σ. The standard normal area between the mean and μ + 0.5σ is 0.191, so the right tail gives P(total > 160) = 0.5 − 0.191 = 0.309.
 
 **Answer:** ≈ 30.9%.
 
-**Common mistakes.** σ computed as 8 + 6 or 4 (variances add, σ's don't); using the 68%-rule only (the figure's strips are needed here); reading the alternative pair-boundary (this is not “each above” but the *sum* above 160).
+**Common mistakes.** σ computed as 8 + 6 or 4 (variances add, σ's don't); using the 68%-rule only (the boundary here sits at 0.5σ, which the plain 68/95 rules of thumb do not cover — you need the half-sigma area 0.191); reading the alternative pair-boundary (this is not “each above” but the *sum* above 160).
 
-**Points:** 6 — total mean, total σ via the √-rule, strip addition on the right side.
+**Points:** 6 — total mean, total σ via the √-rule, the right-side tail area 0.309.
 
 **Subdomain:** [A13](../A13-random-variables/) and [A15](../A15-normal-distribution/).
 
