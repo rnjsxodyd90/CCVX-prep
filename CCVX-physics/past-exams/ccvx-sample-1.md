@@ -26,7 +26,7 @@ f. Extend the straight descent line: slope = −15 m/s per (6.00 − 4.26) s ≈
 
 **Common mistakes:** reading the graph peak as exactly 30 m/s (grid!); for (b) computing the triangle only and staying at 61 m without checking the convex bow; taking the maximum slope at the peak of the curve instead of at t = 0; in (d) forgetting that friction-free work fills only mgh (the moving start point has kinetic energy zero anyway); in (e) saying "friction changes direction" without tying it to the slope change; in (f) comparing heights per second-vision instead of areas.
 
-**Points note (official key):** a 2p, b 3p, c 3p, d 3p, e 3p, f 4p.
+**Points note (estimated split within the official opgave total):** a 2p, b 3p, c 3p, d 3p, e 3p, f 4p.
 
 ## Question 2 (official paper): string and stopped pipe resonance (12 points)
 
@@ -46,7 +46,7 @@ d. The speed of sound drops with temperature: at the same pipe length, a *smalle
 
 **Common mistakes:** using the open-open rule ℓ = n·½λ for a stopped pipe (the 25.0 cm is a *quarter* wave, the given fallback answers would mislead you); in (b) forgetting that only multiples k·1.20 m resonate, not "ℓ = 1.20 m" exclusively; in (c) adding the two lengths instead of looking for a common multiple; in (d) blaming only the string or only the air without saying which resonance formula breaks.
 
-**Points note (official key):** a 3p, b 3p, c 4p, d 2p.
+**Points note (estimated split within the official opgave total):** a 3p, b 3p, c 4p, d 2p.
 
 ## Question 3 (official paper): heat gun on AC mains (15 points)
 
@@ -72,7 +72,7 @@ e2. In the new steady state the gun wants its usual 220 V at 9.25 A while the ma
 
 **Common mistakes:** computing the wire power with I_tot instead of the 8.50 A branch current; adding 0.75 A to the 17 A for the short-circuit current of the wire piece (the short is inside the wire branch, the 17 A is what that branch now takes); drawing the extra resistor in *parallel* in e1 (that heats the box, not drops the voltage); forgetting that the motor branch is independent in the parallel circuit.
 
-**Points note (official key):** a 2p, b 3p, c 2p, d 4p, e1 1p, e2 3p.
+**Points note (estimated split within the official opgave total):** a 2p, b 3p, c 2p, d 4p, e1 1p, e2 3p.
 
 ## Question 4 (official paper): the two decay routes of Cs-137 (8 points)
 
@@ -94,7 +94,7 @@ c. The gamma photon carries the difference between the two electron energies: 1.
 
 **Common mistakes:** in (b) giving only E/c² and forgetting the emitted electron's own rest mass (the question asks for the *nuclear* mass difference — both mass as energy and mass as particle left the Cs nucleus); using MeV directly in E = mc² without converting to joules; in (c) taking 1.18 + 0.51 instead of the difference (the 0.51 MeV already left with the electron before the gamma step).
 
-**Points note (official key):** a 2p, b 3p, c 3p.
+**Points note (estimated split within the official opgave total):** a 2p, b 3p, c 3p.
 
 ## Question 5 (official paper): Thomson-style e/m measurement (16 points)
 
@@ -120,4 +120,4 @@ e. In the field an electron accelerates vertically at a = F/m = q·E/m. Its tran
 
 **Common mistakes:** in (a) mixing up E·d direction (U = Ed, not E/d); in (b) writing an essay instead of the two numbers and their ratio; in (c) forgetting that the electron is negative, so the *current* is opposite its flight; in (e) using the full speed v instead of the horizontal v_x in the transit time, or dividing by v_y into the wrong slot — write the v_y = a·t relation symbolically first.
 
-**Points note (official key):** a 2p, b 3p, c 4p, d 3p, e 4p.
+**Points note (estimated split within the official opgave total):** a 2p, b 3p, c 4p, d 3p, e 4p.

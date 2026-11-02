@@ -32,7 +32,7 @@ i. Close by, the car does not drive straight away from the radar: only the *comp
 
 **Common mistakes:** for (a) invoking gears verbally instead of reading slopes; in (b) forgetting the work–kinetic theorem and getting stuck looking for F (that is the harder route — the answer is one line); in (c) using the full graph instead of the zoomed figure, contaminating with engine force; in (h) counting the composite's *carrier* period instead of the amplitude variation period (count the envelope!); in (i) reasoning backwards: the measured component is *less* than the true speed.
 
-**Points note (official key):** a 2p, b 4p, c 4p, d 2p, e 3p, f 2p, g 2p, h 3p, i 2p.
+**Points note (estimated split within the official opgave total):** a 2p, b 4p, c 4p, d 2p, e 3p, f 2p, g 2p, h 3p, i 2p.
 
 ## Question 2 (official paper): muscle-powered light — magnet through a coil, then LED (12 points)
 
@@ -54,7 +54,7 @@ e. An LED is a *diode*: it conducts only in one direction, and then only once th
 
 **Common mistakes:** for (a) explaining amplitude by magnet *position* instead of *speed* (flux slope!); for (b) taking half a period as the period in a mirror-symmetric AC graph; for (d) reading U at the wrong current or computing P = I·t alone; for (e) blaming the AC sign flips only, without the 3 V threshold — the LED is dark even during part of the *positive* half-cycle, which is exactly the blinking evidence.
 
-**Points note (official key):** a 2p, b 3p, c 1p, d 3p, e 3p.
+**Points note (estimated split within the official opgave total):** a 2p, b 3p, c 1p, d 3p, e 3p.
 
 ## Question 3 (official paper): a vuvuzela between two pipe models (10 points)
 
@@ -72,7 +72,7 @@ c. From the scale drawing extended to the imaginary zero-thickness tip: L/68 cm 
 
 **Common mistakes:** in (a) substituting pipe formulas instead of using the paper's graph as asked (the point is the comparison, not the formula); misreading 9T as T; in (b) matching only the fundamental and not the *family*; in (c) forgetting that L is the full cone length-to-tip, not the tube's 68 cm.
 
-**Points note (official key):** a 3p, b 3p, c 4p.
+**Points note (estimated split within the official opgave total):** a 3p, b 3p, c 4p.
 
 ## Question 4 (official paper): Glasco's vacuum window versus double glazing (12 points)
 
@@ -86,11 +86,11 @@ a. Ordinary double glazing traps a layer of air, through which heat escapes by *
 
 b. Saved power by choosing Glasco: ΔP = (3.4 − 1.1)·8.0·19 = 3.5·10² W. Over 3.0 h (1.08·10⁴ s): ΔE = 3.8·10⁶ J of heat not lost (also as E_d − E_G: 5.58 vs 1.81 MJ ✓). With r_v = 32·10⁶ J/m³ and η = 0.85: saved gas = ΔE/(η·r_v) = 3.78·10⁶/(0.85·32·10⁶) = 1.4·10⁻¹ m³. About 0.14 m³ in one evening — one good reason vacuum windows pay off.
 
-c. The 40° is to the *surface*, so the incidence angle to the normal is i = 50°. Into glass: sin r = sin i/n = sin 50°/1.51 = 0.7660/1.51 = 0.507 → r = 30.5^. The ray bends towards the normal (30.5°) through the first pane, exits to air at 50° (offset parallel), bends in again at 30.5° through the second pane, and exits parallel to the original direction. Draw all four bends; the net effect is a parallel displacement, no deviation. (Tip: at air gaps all legs in air run parallel at 50°.)
+c. The 40° is to the *surface*, so the incidence angle to the normal is i = 50°. Into glass: sin r = sin i/n = sin 50°/1.51 = 0.7660/1.51 = 0.507 → r = 30.5 degrees. The ray bends towards the normal (30.5°) through the first pane, exits to air at 50° (offset parallel), bends in again at 30.5° through the second pane, and exits parallel to the original direction. Draw all four bends; the net effect is a parallel displacement, no deviation. (Tip: at air gaps all legs in air run parallel at 50°.)
 
 **Common mistakes:** in (a) saying only "vacuum is empty" instead of naming conduction AND convection as the blocked mechanisms; in (b) taking μ_d − μ_G but forgetting the heater's 85% efficiency in the gas accounting (the saved gas feeds an 85% device); using 22 °C instead of the correct ΔT = 19 K; in (c) measuring 40° to the normal (the paper gives it to the surface!) and computing sin 40°.
 
-**Points note (official key):** a 2p, b 5p, c 5p.
+**Points note (estimated split within the official opgave total):** a 2p, b 5p, c 5p.
 
 ## Question 5 (official paper): pendulum (conical) — forces, F_mpz, T² = C·h (12 points)
 
@@ -110,4 +110,4 @@ d. C = slope of the line. Pick two far points on the best-fit line through (0,0)
 
 **Common mistakes:** drawing a third, invented "outward centrifugal" force in (a) — only F_z and F_s exist; in (b) using ℓ instead of r = √(ℓ² − h²) as the orbit radius; using 30/69.3 s as the circle time without writing T first (same thing, but show it); in (d) quoting the unit as s²·m⁻¹ sloppily or omitting it entirely (the question explicitly asks value AND unit).
 
-**Points note (official key):** a 4p, b 4p, c 2p, d 2p.
+**Points note (estimated split within the official opgave total):** a 4p, b 4p, c 2p, d 2p.
