@@ -716,9 +716,6 @@ A documentary team films re-enactments of classic experiments on the origin of l
 
 Give the order of magnitude of the time span over which life has existed on Earth, and state what evidence fixes the earliest date.
 
----
-
-*End of the exam questions. The marking scheme is in [mock-exam-2-marking-scheme.md](mock-exam-2-marking-scheme.md).*
 
 #### Answer
 
@@ -728,6 +725,9 @@ About 3.5–3.8 × 10⁹ years, i.e. of the order of magnitude of billions of ye
 
 Life has existed on Earth for roughly 3.5 to 3.8 billion years — order of magnitude 10⁹ years — while the Earth itself is about 4.6 billion years old. The earliest date comes from fossil evidence: microfossils of unicellular organisms and layered structures built by microbe communities (stromatolites) found in the oldest sedimentary rocks, dated by radiometric methods.
 *Marking:* • ~3.5–3.8 billion years / order of magnitude 10⁹ years, with fossil (stromatolite/microfossil) evidence (1)
+---
+
+*End of the exam questions. The marking scheme is in [mock-exam-2-marking-scheme.md](mock-exam-2-marking-scheme.md).*
 
 ---
 

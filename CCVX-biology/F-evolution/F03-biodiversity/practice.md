@@ -16,7 +16,7 @@ Biodiversity can be studied at three levels of organisation: genes, species and 
 
 #### Answer
 
-1.
+1. genetic (gene) diversity, 2. species diversity, 3. ecosystem diversity.
 
 #### Solution
 
@@ -77,7 +77,7 @@ Calculate the yearly value of the free pollination service that the wild insects
 
 #### Answer
 
-Rent: 25 × 4 × €90 = €9 000 per year.
+Rent: 25 × 4 × €90 = €9 000 per year; lost income: 15% × 25 × €18 000 = €67 500; total value of the free service: €9 000 + €67 500 = **€76 500 per year**.
 
 #### Solution
 
