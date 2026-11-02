@@ -162,15 +162,15 @@ Exam totals: 6 problems, 81 points; grade = points · 9/81 + 1; pass at 5.5. Cov
 
 ## Question 5a (official paper)
 
-**Asked:** using the exam's figure, the probability that one man's and one woman's total weight exceeded 160 kg in 2000.
+**Asked:** the probability that one man's and one woman's total weight exceeded 160 kg in 2000.
 
-**Solution.** Independent totals: mean μ = 82 + 73 = 155 kg; σ = √(8² + 6²) = √100 = 10 kg (variances add — formula sheet). Boundary: 160 = μ + 5 = μ + 0.5σ. The asked probability = the figure's strips right of μ + 0.5σ: 0.150 + 0.136 + 0.023 = 0.309.
+**Solution.** Independent totals: mean μ = 82 + 73 = 155 kg; σ = √(8² + 6²) = √100 = 10 kg (variances add — formula sheet). Boundary: 160 = μ + 5 = μ + 0.5σ. The standard normal area between the mean and μ + 0.5σ is 0.191, so the right tail gives P(total > 160) = 0.5 − 0.191 = 0.309.
 
 **Answer:** ≈ 30.9%.
 
-**Common mistakes.** σ computed as 8 + 6 or 4 (variances add, σ's don't); using the 68%-rule only (the figure's strips are needed here); reading the alternative pair-boundary (this is not “each above” but the *sum* above 160).
+**Common mistakes.** σ computed as 8 + 6 or 4 (variances add, σ's don't); using the 68%-rule only (the boundary here sits at 0.5σ, which the plain 68/95 rules of thumb do not cover — you need the half-sigma area 0.191); reading the alternative pair-boundary (this is not “each above” but the *sum* above 160).
 
-**Points:** 6 — total mean, total σ via the √-rule, strip addition on the right side.
+**Points:** 6 — total mean, total σ via the √-rule, the right-side tail area 0.309.
 
 **Subdomain:** [A13](../A13-random-variables/) and [A15](../A15-normal-distribution/).
 
