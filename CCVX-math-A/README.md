@@ -5,7 +5,7 @@ Study material for the [CCVX](https://www.ccvx.nl/index%20-%20EN.html) entrance 
 ## The exam
 
 - Written exam with open questions, 3 hours, in Dutch or English, in Utrecht only. Registration closes 10 days before the exam; the fee is €98 per attempt.
-- Dates in 2026/27: Monday 14 December 2026 (13:30–16:30), around 16 April 2027 and around 22 July 2027.
+- Dates in 2026/27: Monday 14 December 2026 (13:30–16:30), around 19 April 2027 and around 22 July 2027 (source: ccvx.nl).
 - No graphing calculator, and no calculator that computes integrals. A standard scientific calculator (Casio fx-82 or TI-30 class) is allowed.
 - All computations must be algebraic. The domain Statistics and Probability **is** examined (in the Dutch VWO it is only in the school exam).
 - A formula sheet (quadratic formula, differentiation rules, logarithm rules, sum formulas for sequences, probability rules, binomial and normal distribution, critical values for testing) is printed on the last two pages of the exam.

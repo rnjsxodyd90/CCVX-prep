@@ -32,8 +32,8 @@ Exam: [mock-exam-2.md](mock-exam-2.md). Total 76 points. Grade = 1 + 9 × (score
 ## Problem 2 — Harbour tide (20 points)
 
 **a. (2 points; mathb-mock2-q06)**
-- Maximum 3.8 m when cos = 1: π/6·(t − 10) = 0 → t = 10, first high at 10:00 (1 pt)
-- Minimum 2.2 m when cos = −1: t − 10 = 6 → t = 16, first low at 16:00 (1 pt)
+- Maximum 3.8 m when cos = 1: π/6·(t − 10) = 2kπ → t = 10 + 12k, first high at 10:00 (1 pt)
+- Minimum 2.2 m when cos = −1: t − 10 = 6 + 12k → t = 16 + 12k gives a low at t = 4 (k = −1) and at t = 16; the level falls from midnight, so the FIRST low after midnight is at 04:00, level 2.2 m (1 pt)
 
 **b. (3 points; mathb-mock2-q07)**
 - Equilibrium when cos(π/6·(t − 10)) = 0 (1 pt)
@@ -116,5 +116,5 @@ Exam: [mock-exam-2.md](mock-exam-2.md). Total 76 points. Grade = 1 + 9 × (score
 **e. (5 points; mathb-mock2-q21)**
 - V = π ∫ from 0 to 4 of (−x² + 4x)² dx (1 pt)
 - Expand: (x² − 4x)² = x⁴ − 8x³ + 16x² (1 pt)
-- Antiderivate: x⁵/5 − 2x⁴ + 16x³/3 (2 pts)
+- Antiderivative: x⁵/5 − 2x⁴ + 16x³/3 (2 pts)
 - Evaluate: 1024/5 − 512 + 1024/3 = (3072 − 7680 + 5120)/15 = 512/15, so V = 512π/15 (1 pt)
