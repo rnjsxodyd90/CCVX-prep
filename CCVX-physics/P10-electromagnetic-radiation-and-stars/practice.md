@@ -70,7 +70,7 @@ a. A: main-sequence sun-like star; B: red giant — cool yet extremely luminous 
 #### Solution
 
 a. A sits on the middle of the main sequence (like the Sun). B is cooler than A yet radiates 10⁴ times more, and since P = σAT⁴ with a *lower* T⁴ factor, the area A must be enormous: top-right of the HR diagram — a red giant.
-b. A ∝ P/T⁴: B's huge power at modest temperature forces a giant surface → giant radius. A ratio-computation gives a factor of about 2.9·10² in area (roughly 2.5 orders of magnitude; see the same technique in the notes, Example 4).
+b. A ∝ P/T⁴: B's huge power at modest temperature forces a giant surface → giant radius. A ratio-computation gives a factor of about 2.9·10² in radius (roughly 2.5 orders of magnitude; see the same technique in the notes, Example 4).
 
 ### phys-p10-q05 | points 3 | outcome o5 | difficulty medium
 
