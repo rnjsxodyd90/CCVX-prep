@@ -160,7 +160,7 @@ Exam totals: 24 questions in 7 problems, 75 points. This CvTE exam allowed a gra
 
 **Asked:** reason why a good distribution is impossible with 3 people.
 
-**Solution.** There are 6 ways to distribute S's, F's and R's tickets. Four of them give someone their own (wrong per Z). On each of the other two — S draws F's: then F cannot draw his own (forbidden) and cannot draw R's either... hold on: S holds F's ticket; the remaining tickets are S's and R's for F and R. F cannot hold F's: F holds S's, and R holds R's own — again someone has their own. Same mirror argument the other way. So in every case, either somebody has their own, or the drawer can deduce the full arrangement — never a good distribution. ∎
+**Solution.** There are 6 ways to distribute S's, F's and R's tickets. Four of them give someone their own ticket, which breaks rule Z. The remaining two are the 3-cycles. Take the cycle in which S holds F's ticket: the other two tickets are S's and R's, held by F and R, and since R cannot hold R's own ticket (rule Z), R must hold S's ticket and F must hold R's. So from the ticket in their own hand, S can deduce the complete arrangement — the draw is not anonymous, so it is not a good distribution. The mirror cycle works the same way. With three people every draw either breaks rule Z or is fully deducible: a good distribution is impossible. ∎
 
 **Common mistakes.** Case confusion in the small count (checking only 2 of the 6 arrangements); explaining without naming the deduction that kills anonymity.
 
