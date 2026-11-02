@@ -172,20 +172,6 @@
   .price-lines a, .price-lines .soon { font-size: 1.05rem; }
 }
 
-/* Launch-offer strip (landing + subject pages share the text from catalog.pricing.badge) */
-.offer-strip {
-  position: relative;
-  z-index: 3;
-  display: inline-block;
-  margin: 12px auto 0;
-  background: var(--accent);
-  color: var(--accent-ink);
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 10px 20px;
-  clip-path: polygon(0 8px, 8px 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
-}
-.hero .offer-strip { display: table; }
 
 /* Bundle offers */
 .bundles { margin-top: 6vh; }

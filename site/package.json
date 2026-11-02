@@ -4,14 +4,15 @@
   "type": "module",
   "description": "CCVX Ultimate Prep website: static site + Firebase (emulator) + Stripe test mode.",
   "scripts": {
-    "build": "node scripts/build-content.mjs",
+    "build": "node scripts/build-content.mjs && node scripts/build-exam-pages.mjs",
     "validate": "node scripts/validate-content.mjs",
     "upload": "node scripts/upload-content.mjs",
     "grant": "node scripts/grant.mjs",
     "test:rules": "firebase emulators:exec --only firestore --project demo-ccvx 'node scripts/test-rules.mjs'",
     "test:build": "node scripts/test-build.mjs",
     "emulators": "firebase emulators:start --project demo-ccvx --only auth,firestore,functions,hosting",
-    "test:pricing": "node scripts/test-pricing.mjs"
+    "test:pricing": "node scripts/test-pricing.mjs",
+    "check:links": "node scripts/check-exam-links.mjs"
   },
   "dependencies": {
     "marked": "^15.0.0"
