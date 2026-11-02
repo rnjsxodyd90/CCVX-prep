@@ -1,6 +1,6 @@
 # E3 — Sustainability: practice
 
-Six original questions on the E3 learning outcomes, in CCVX style. Green-chemistry formulas (atom economy, E-factor, environmental quotient EQ) are given here and must be applied; Binaskonvalues for molar masses.
+Six original questions on the E3 learning outcomes, in CCVX style. Green-chemistry formulas (atom economy, E-factor, environmental quotient EQ) are given here and must be applied; Binas values for molar masses.
 
 ### chem-e03-q01 | points 3 | outcome E3 | difficulty easy
 #### Question
@@ -16,11 +16,11 @@ Calculate the atom economy of the industrial production of ethene oxide (epoxyet
 #### Question
 Classical production of ethene oxide ran through chlorohydrin: CH₂=CH₂ + Cl₂ + Ca(OH)₂ → C₂H₄O + CaCl₂ + H₂O. (1) Calculate its atom economy (M(CH₂=CH₂) = 28.05, Cl₂ = 70.90, Ca(OH)₂ = 74.10, C₂H₄O = 44.05). (2) Compare with chem-e03-q01 and make the sustainability argument.
 #### Answer
-1. 25.5%. 2. The chlorohydrin route wastes three quarters of the mass into CaCl₂ and water: high E-factor production, plus it burns chlorine that must be town-produced — the direct oxidation route (Q1) is the green winner on every axis.
+1. 25.5%. 2. The chlorohydrin route wastes three quarters of the mass into CaCl₂ and water: high E-factor production, plus it consumes chlorine made in the energy-hungry chlor-alkali process — the direct oxidation route (Q1) is the green winner on every axis.
 #### Solution
 1. Atom economy = 44.05 / (28.05 + 70.90 + 74.10) × 100% = 44.05 / 173.05 = 25.5%.
 2. The other 75% of the mass becomes CaCl₂ waste and water.
-3. The comparison of the two routes is the classic sustainability lesson: salary-worthy reactions with by-products drive salt waste and chlorine production (with its own sulfur/mercury legacy), the modern direct route avoids them — sustainability runs through the balanced equation.
+3. The comparison of the two routes is the classic sustainability lesson: chloride-based routes with by-products drive salt waste and chlorine production (with its own legacy of mercury-cell pollution), the modern direct route avoids them — sustainability runs through the balanced equation.
 
 ### chem-e03-q03 | points 4 | outcome E3 | difficulty medium
 #### Question

@@ -99,7 +99,7 @@ O=O⁺–O⁻ ↔ ⁻O–O⁺=O; the central O carries +1, the singly bonded O c
 #### Solution
 1. Ozone has 18 valence electrons (3 × 6). Drawing O–O–O with all octets complete forces one single bond and one double bond: O=O–O, and the mirror form.
 2. Formal charge = valence electrons − (lone-pair electrons + half the bonding electrons): the central O has 6 − (2 + 3) = +1; the doubly bonded O has 6 − (4 + 2) = 0; the singly bonded O has 6 − (6 + 1) = −1.
-3. Reality is not one structure or the other but their superposition (resonance): the bond in question is 50% of the time single and 50% double, so both O–O bonds are identical with bond order 1.5.
+3. Reality is not one structure or the other but their superposition (resonance): the double bond is spread equally over both O–O positions, so both bonds are identical with bond order 1.5 — not alternating in time, but one hybrid structure.
 
 ### chem-b01-q11 | points 3 | outcome B1.14 | difficulty medium
 #### Question

@@ -45,11 +45,11 @@ Sustainable cycles. An acid plant proposes to close its water loop: all process 
 
 ### chem-f05-q05 | points 3 | outcome F5 | difficulty medium
 #### Question
-Compute the atom economy for a redesigned catalyst route of adipic acid: benzene C₆H₆ + 4 H₂O₂ → C₆H₁₀O₄ + 4 H₂O (M(adipic acid) = 146.1; M(benzene) = 78.11; M(H₂O₂) = 34.02), and compare it qualitatively against the industrial standard route (via nitric acid, which produces N₂O — a strong greenhouse gas — as a by-product).
+Compute the atom economy for a redesigned catalyst route of adipic acid: cyclohexene C₆H₁₀ + 4 H₂O₂ → C₆H₁₀O₄ + 4 H₂O (M(adipic acid) = 146.1; M(cyclohexene) = 82.14; M(H₂O₂) = 34.02), and compare it qualitatively against the industrial standard route (via nitric acid, which produces N₂O — a strong greenhouse gas — as a by-product).
 #### Answer
-Atom economy = 146.1 / (78.11 + 4 × 34.02) × 100% = 146.1 / 214.2 = 68% (two significant figures). The alternative uses a benign oxidant (H₂O₂) whose only by-product is water, whereas the N₂O route adds a ~300× CO₂-potent greenhouse gas to the air vent: the catalytic-oxidant route is clearly superior on the waste side.
+Atom economy = 146.1 / (82.14 + 4 × 34.02) × 100% = 146.1 / 218.2 ≈ 67% (two significant figures). The alternative uses a benign oxidant (H₂O₂) whose only by-product is water, whereas the N₂O route adds a ~300× CO₂-potent greenhouse gas to the air vent: the catalytic-oxidant route is clearly superior on the waste side.
 #### Solution
-1. AM = M(product) / M(total reactants) = 146.1 / 214.19 ≈ 0.68.
+1. AM = M(product) / M(total reactants) = 146.1 / (82.14 + 136.1) = 146.1/218.2 ≈ 0.67.
 2. In the classic route the unmentionable by-product is N₂O (laughing gas), a potent greenhouse gas — the kind of waste that no EQ correction with Q=1 would ever capture (here Q would be very large).
 3. The new route's waste is water and maybe unreacted peroxide (recovered): a structural green gain, not just a procedural one.
 

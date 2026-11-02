@@ -59,6 +59,6 @@ A factory runs an exothermic equilibrium reaction with a catalyst. An operator p
 #### Answer
 1. Higher temperature raises the rate, but the reaction is exothermic: heating lowers K (moves the equilibrium to the left), so the yield per pass falls — you get a faster reaction towards a worse mixture. 2. The catalyst's job is not to make the reaction possible but to keep the rate high, and without it the same temperature may still be far too slow for the plant's flow rate. 3. A higher temperature brings its own costs: more fuel, more heat management, more side reactions and possibly catalyst sintering or degradation — so "skip the catalyst" is false economy.
 #### Solution
-1. Rate and position are different things: temperature changes K (see C05 q13), the catalyst changes only the time to reach K.
+1. Rate and position are different things: temperature changes K (see C05 — chemical equilibrium, notes C5.3), the catalyst changes only the time to reach K.
 2. Removing the catalyst raises the activation energy of the route: the unguarded reaction is slower, perhaps so slow that even at the higher temperature the throughput is unattainable.
 3. Energy price + selectivity: hotter operation is more expensive and often dirtier. The decision is the joint optimisation of temperature and catalyst, never "catalyst or temperature".

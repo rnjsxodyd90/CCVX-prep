@@ -58,7 +58,7 @@ Trace the full chain from a coal plant's stack to marble statues dissolving in a
 #### Answer
 The stack's SO₂ and NOₓ travel with the wind, are oxidised and dissolved in cloud water: SO₂ → H₂SO₃ → H₂SO₄ (2 SO₂ + O₂ → 2 SO₃, SO₃ + H₂O → H₂SO₄) and NO₂ → HNO₃; acid rain then attacks carbonate stone: 2 H₃O⁺ + CaCO₃ → Ca²⁺ + CO₂ + 3 H₂O, so statues and limestone facades slowly dissolve.
 #### Solution
-1. Acid deposition chain: emission (coal with sulfur) → oxidation in the atmosphere (SO₃, NO₂ intermediates) → dissolution in rain as sulfuric and nitric acids → deposition far away (di transboundary transport).
+1. Acid deposition chain: emission (coal with sulfur) → oxidation in the atmosphere (SO₃, NO₂ intermediates) → dissolution in rain as sulfuric and nitric acids → deposition far away (transboundary transport).
 2. Carbonates react with the acid: marble and limestone fizz themselves to soluble salts and CO₂ — the very equation of C01 (acid + insoluble carbonate).
 3. The chain explains why the Netherlands/Sweden fought British coal emissions in the 1980s — and why scrubbers and low-NOₓ burners are in the F3.4/G2.1 emission story.
 

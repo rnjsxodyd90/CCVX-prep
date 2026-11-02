@@ -40,7 +40,7 @@ The apolar chain is hydrophobic and dissolves into/pass through the waxy leaf sk
 #### Solution
 1. The waxy cuticle of a leaf is apolar: a purely polar molecule does not penetrate it (hydrophilic = sticks to water instead).
 2. A purely apolar molecule penetrates the wax but cannot be delivered from water.
-3. The dual-functional group design — a hydrophilic/ionic part and an apolar part — gives amphiphilic behaviour (like an intern emulsifier), solving both steps: dissolve in the spray, penetrate the leaf.
+3. The dual-functional group design — a hydrophilic/ionic part and an apolar part — gives amphiphilic behaviour (like an emulsifier), solving both steps: dissolve in the spray, penetrate the leaf.
 
 ### chem-e01-q05 | points 4 | outcome E1.1 | difficulty medium
 #### Question

@@ -85,7 +85,7 @@ Primary aluminium production ends with the electrolysis of Al₂O₃, a very ene
 #### Question
 A route to a drug intermediate has an atom economy of 90% for the target. In the plant the conversion is 75% (a quarter of the feedstock stays unreacted and is discarded). (1) Compute the approximate E-factor of the step from these data (ignore solvents and auxiliary chemicals). (2) A competitor variant has the same atom economy but 90% conversion. How does its E-factor compare? (3) Conclude why green-chemistry engineers work on selectivity/conversion even when the equation itself is already "clean".
 #### Answer
-1. About 0.4 (per kg product: 0.25 kg unreacted discard + 0.11 kg by-product from the 10% atomic loss, over 0.68 kg product ≈ 0.53; using the simplified counting in the answer: ~0.4–0.5). 2. The 90% conversion variant wastes only 10% unreacted: E ≈ 0.2. 3. Because underperfect conversion multiplies the waste: in the plant not the equation's clean theoretical lines but the yielded kilograms set the E-factor.
+1. About 0.5 (per 100 g feed: roughly 25 g unreacted discarded + about 7 g atom-economy loss over 68 g product ≈ 0.5). 2. The 90% conversion variant wastes only 10% unreacted: E ≈ 0.2. 3. Because underperfect conversion multiplies the waste: in the plant not the equation's clean theoretical lines but the yielded kilograms set the E-factor.
 #### Solution
 1. Feed 100 g: 75 g reacts; of the reacting 75 g, 90% of the atoms go to product → about 68 g product and 7 g by-product; waste = 25 g (unreacted) + 7 g = 32 g. E = 32 / 68 ≈ 0.47 (roughly 0.5).
 2. Same with 90% conversion: waste = 10 g (unreacted) + 8 g (atom-loss on 90 g reacted: 9 g by-product) ≈ 19 g; product ≈ 81 g; E ≈ 0.24 — halved.
