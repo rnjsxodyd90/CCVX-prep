@@ -37,7 +37,7 @@ There is one folder per syllabus subdomain. Each folder has:
 | [A14-binomial-distribution](A14-binomial-distribution/) | Binomial experiments, probabilities, expectation and standard deviation | 13 |
 | [A15-normal-distribution](A15-normal-distribution/) | The 68%/95% rules, parameters, normal approximation of the binomial | 14 |
 | [A16-hypothesis-testing](A16-hypothesis-testing/) | Proportion and mean tests, critical regions, significance | 16 |
-| Mock exams at the subject root | two original full mock exams (3 hours each) with marking schemes | all |
+| Mock exams at the subject root | [mock-exam-1.md](mock-exam-1.md) + [marking scheme](mock-exam-1-marking-scheme.md), [mock-exam-2.md](mock-exam-2.md) + [marking scheme](mock-exam-2-marking-scheme.md) — each 3 hours, original | all |
 
 Syllabus points 1 and 2 (mathematical skills such as modelling and logic) are trained inside every folder, as they are in the exam itself.
 
