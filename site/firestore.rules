@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // The caller has an entitlement whose activeUntil is in the future and
+    // whose grants cover every grantKey of the item.
+    function hasAccess(keys) {
+      let ent = /databases/$(database)/documents/entitlements/$(request.auth.uid);
+      return request.auth != null
+        && exists(ent)
+        && get(ent).data.activeUntil > request.time
+        && get(ent).data.grants.hasAny(keys);
+    }
+
+    // Paid study content. Only single-document reads: free samples for
+    // everyone, the rest only with a matching grant. list is always denied,
+    // so nobody can enumerate the whole collection. Writes: never from a
+    // client; content upload goes through the server path only.
+    match /items/{itemId} {
+      allow get: if resource.data.free == true || hasAccess(resource.data.grantKeys);
+      allow list, write: if false;
+    }
+
+    // One doc per user, written only by the Stripe webhook (Admin SDK).
+    match /entitlements/{uid} {
+      allow get: if request.auth != null && request.auth.uid == uid;
+      allow list, write: if false;
+    }
+
+    // Everything else is closed by default; server paths (content upload,
+    // webhook grants, event markers) run through the Admin SDK, which bypasses
+    // these rules.
+    match /{d=**} { allow read, write: if false; }
+  }
+}

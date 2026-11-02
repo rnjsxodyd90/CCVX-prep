@@ -1,0 +1,943 @@
+{
+  "generated": "2026-11-02T11:58:35.869Z",
+  "pricing": {
+    "offer": "launch",
+    "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
+    "launchEnd": null,
+    "pricePerSubject": 79,
+    "bundles": [
+      {
+        "count": 2,
+        "id": "bundle2",
+        "priceEur": 139,
+        "perSubject": 69.5
+      },
+      {
+        "count": 3,
+        "id": "bundle3",
+        "priceEur": 189,
+        "perSubject": 63
+      },
+      {
+        "count": 5,
+        "id": "bundle5",
+        "priceEur": 279,
+        "perSubject": 55.8
+      }
+    ],
+    "vatIncluded": true,
+    "accessMonths": 12
+  },
+  "subjects": [
+    {
+      "id": "phys",
+      "name": "Physics",
+      "priceEur": 79,
+      "vatIncluded": true,
+      "accessMonths": 12,
+      "lookupKey": "cup_phys_once",
+      "ready": false,
+      "exams": [
+        {
+          "label": "Tuesday 24 November 2026",
+          "approx": false
+        },
+        {
+          "label": "Around Wednesday 21 April 2027",
+          "approx": true
+        },
+        {
+          "label": "Around Monday 19 July 2027",
+          "approx": true
+        }
+      ],
+      "registrationDeadline": "Tuesday 10 November 2026",
+      "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
+      "domains": [],
+      "subdomains": [],
+      "mocks": [],
+      "walkthroughs": [],
+      "counts": {
+        "subdomains": 0,
+        "questions": 0,
+        "mocks": 0,
+        "walkthroughs": 0
+      },
+      "sampleItemId": "phys-p01"
+    },
+    {
+      "id": "chem",
+      "name": "Chemistry",
+      "priceEur": 79,
+      "vatIncluded": true,
+      "accessMonths": 12,
+      "lookupKey": "cup_chem_once",
+      "ready": true,
+      "exams": [
+        {
+          "label": "Thursday 26 November 2026",
+          "approx": false
+        },
+        {
+          "label": "Around Monday 12 April 2027",
+          "approx": true
+        },
+        {
+          "label": "Around Friday 16 July 2027",
+          "approx": true
+        }
+      ],
+      "registrationDeadline": "Thursday 12 November 2026",
+      "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
+      "domains": [
+        {
+          "id": "0",
+          "name": "Basic knowledge"
+        },
+        {
+          "id": "A",
+          "name": "Skills"
+        },
+        {
+          "id": "B",
+          "name": "Substances and materials"
+        },
+        {
+          "id": "C",
+          "name": "Chemical processes and conservation laws"
+        },
+        {
+          "id": "D",
+          "name": "Development of chemical knowledge"
+        },
+        {
+          "id": "E",
+          "name": "Innovation and chemical research"
+        },
+        {
+          "id": "F",
+          "name": "Industrial chemical processes"
+        },
+        {
+          "id": "G",
+          "name": "Society chemistry and technology"
+        }
+      ],
+      "subdomains": [
+        {
+          "id": "chem-01",
+          "title": "sb1–sb5 – Pure Substances and Mixtures",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-02",
+          "title": "sb6–sb10 – Elements and Compounds",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-03",
+          "title": "sb11 – Atomic Structure",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-04",
+          "title": "sb12–sb16 – Reactions",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-05",
+          "title": "sb17–sb18 – Acids and Bases",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a01",
+          "title": "A1 – Using Information Skills",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a02",
+          "title": "A2 – Communication",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a03",
+          "title": "A3 – Reflecting on Learning",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a04",
+          "title": "A4 – Studies and Professions",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a05",
+          "title": "A5 – Research",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a06",
+          "title": "A6 – Design",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a07",
+          "title": "A7 – Modelling",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a08",
+          "title": "A8 – Scientific Instruments",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a09",
+          "title": "A9 – Evaluation and Judgment",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a10",
+          "title": "A10 – Using Chemical Concepts",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a11",
+          "title": "A11 – Reasoning in terms of Context and Concepts",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a12",
+          "title": "A12 – Reasoning in terms of Structure and Properties",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a13",
+          "title": "A13 – Reasoning about Systems, Change and Energy",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a14",
+          "title": "A14 – Reasoning in terms of Sustainability",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-a15",
+          "title": "A15 – Reasoning about the Development of Chemical Knowledge",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-b01",
+          "title": "B1 – Particle Models",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-b02",
+          "title": "B2 – Properties and Models",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-b03",
+          "title": "B3 – Bonds and Properties",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-b04",
+          "title": "B4 – Bonds, Structures and Properties",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c01",
+          "title": "C1 – Chemical Processes",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c02",
+          "title": "C2 – Chemical Calculations",
+          "domain": "C",
+          "questions": 8,
+          "free": true
+        },
+        {
+          "id": "chem-c03",
+          "title": "C3 – Laws of Conservation and Cycles",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c04",
+          "title": "C4 – Reaction Kinetics",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c05",
+          "title": "C5 – Chemical Equilibrium",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c06",
+          "title": "C6 – Energy Calculations",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c07",
+          "title": "C7 – Classification of Reactions",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c08",
+          "title": "C8 – Technological Aspects",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c09",
+          "title": "C9 – Quality of Energy",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-c10",
+          "title": "C10 – Activation Energy",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-d01",
+          "title": "D1 – Chemical Techniques",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-d02",
+          "title": "D2 – Safety",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-d03",
+          "title": "D3 – Chemical Synthesis",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-d04",
+          "title": "D4 – Molecular Modelling",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-e01",
+          "title": "E1 – Chemical Research",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-e02",
+          "title": "E2 – Selectivity and Specificity",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-e03",
+          "title": "E3 – Sustainability",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-e04",
+          "title": "E4 – New Materials",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-e05",
+          "title": "E5 – Research and Design",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-f01",
+          "title": "F1 – Industrial Processes",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-f02",
+          "title": "F2 – Green Chemistry",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-f03",
+          "title": "F3 – Energy Conversion",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-f04",
+          "title": "F4 – Risks and Safety",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-f05",
+          "title": "F5 – Sustainable Production Processes",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-g01",
+          "title": "G1 – The Chemistry of Life",
+          "domain": "G",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-g02",
+          "title": "G2 – Environmental Impact Assessment",
+          "domain": "G",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-g03",
+          "title": "G3 – Energy and Industry",
+          "domain": "G",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-g04",
+          "title": "G4 – Environmental Requirements",
+          "domain": "G",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "chem-g05",
+          "title": "G5 – Business Processes",
+          "domain": "G",
+          "questions": 0,
+          "free": false
+        }
+      ],
+      "mocks": [],
+      "walkthroughs": [
+        {
+          "id": "chem-ccvx-sample-1",
+          "title": "CCVX example exam Chemistry 1",
+          "officialTitle": "CCVX example exam Chemistry 1",
+          "year": "2023",
+          "questions": 2
+        }
+      ],
+      "counts": {
+        "subdomains": 53,
+        "questions": 8,
+        "mocks": 0,
+        "walkthroughs": 1
+      },
+      "sampleItemId": "chem-c02"
+    },
+    {
+      "id": "bio",
+      "name": "Biology",
+      "priceEur": 79,
+      "vatIncluded": true,
+      "accessMonths": 12,
+      "lookupKey": "cup_bio_once",
+      "ready": true,
+      "exams": [
+        {
+          "label": "Thursday 3 December 2026",
+          "approx": false
+        },
+        {
+          "label": "Around Wednesday 14 April 2027",
+          "approx": true
+        },
+        {
+          "label": "Around Wednesday 14 July 2027",
+          "approx": true
+        }
+      ],
+      "registrationDeadline": "Thursday 19 November 2026",
+      "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
+      "domains": [
+        {
+          "id": "0",
+          "name": "Basic knowledge"
+        },
+        {
+          "id": "A",
+          "name": "Skills"
+        },
+        {
+          "id": "B",
+          "name": "Self regulation"
+        },
+        {
+          "id": "C",
+          "name": "Self organization"
+        },
+        {
+          "id": "D",
+          "name": "Interaction"
+        },
+        {
+          "id": "E",
+          "name": "Reproduction"
+        },
+        {
+          "id": "F",
+          "name": "Evolution"
+        }
+      ],
+      "subdomains": [
+        {
+          "id": "bio-01",
+          "title": "Basic Knowledge of Chemistry",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-02",
+          "title": "Basic Knowledge of Physics",
+          "domain": "0",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a01",
+          "title": "A1 – Using Information Skills",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a02",
+          "title": "A2 – Communication",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a03",
+          "title": "A3 – Reflecting on Learning",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a04",
+          "title": "A4 – Studies and Professions",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a05",
+          "title": "A5 – Research",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a06",
+          "title": "A6 – Design",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a07",
+          "title": "A7 – Modelling",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a08",
+          "title": "A8 – Scientific Instruments",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a09",
+          "title": "A9 – Evaluation and Judgment",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a10",
+          "title": "A10 – Perception",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a11",
+          "title": "A11 – Thinking in terms of Form and Function",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a12",
+          "title": "A12 – Ecological Thinking",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a13",
+          "title": "A13 – Evolutionary Thinking",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a14",
+          "title": "A14 – Systems Thinking",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a15",
+          "title": "A15 – Developing and Applying Knowledge",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-a16",
+          "title": "A16 – Contexts",
+          "domain": "A",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b01",
+          "title": "B1 – Protein Synthesis",
+          "domain": "B",
+          "questions": 0,
+          "free": true
+        },
+        {
+          "id": "bio-b02",
+          "title": "B2 – Metabolism in Cells",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b03",
+          "title": "B3 – Metabolism in Organisms",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b04",
+          "title": "B4 – Self-Regulation of Organisms",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b05",
+          "title": "B5 – Defence in Organisms",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b06",
+          "title": "B6 – Movement of the Organism",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b07",
+          "title": "B7 – Perception by Organisms",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-b08",
+          "title": "B8 – Regulation of Ecosystems",
+          "domain": "B",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-c01",
+          "title": "C1 – Self-Organization of Cells",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-c02",
+          "title": "C2 – Self-Organization of Organisms",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-c03",
+          "title": "C3 – Self-Organization of Ecosystems",
+          "domain": "C",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-d01",
+          "title": "D1 – Molecular Interaction",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-d02",
+          "title": "D2 – Cellular Interaction",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-d03",
+          "title": "D3 – Behaviour and Interaction",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-d04",
+          "title": "D4 – Sexuality",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-d05",
+          "title": "D5 – Interaction in Ecosystems",
+          "domain": "D",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-e01",
+          "title": "E1 – DNA Replication",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-e02",
+          "title": "E2 – Cell Life Cycle",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-e03",
+          "title": "E3 – Reproduction of Organisms",
+          "domain": "E",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-f01",
+          "title": "F1 – Selection",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-f02",
+          "title": "F2 – Speciation",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-f03",
+          "title": "F3 – Biodiversity",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        },
+        {
+          "id": "bio-f04",
+          "title": "F4 – The Genesis of Life",
+          "domain": "F",
+          "questions": 0,
+          "free": false
+        }
+      ],
+      "mocks": [],
+      "walkthroughs": [],
+      "counts": {
+        "subdomains": 41,
+        "questions": 0,
+        "mocks": 0,
+        "walkthroughs": 0
+      },
+      "sampleItemId": "bio-b01"
+    },
+    {
+      "id": "matha",
+      "name": "Mathematics A",
+      "priceEur": 79,
+      "vatIncluded": true,
+      "accessMonths": 12,
+      "lookupKey": "cup_matha_once",
+      "ready": false,
+      "exams": [
+        {
+          "label": "Monday 14 December 2026",
+          "approx": false
+        },
+        {
+          "label": "Around Monday 19 April 2027",
+          "approx": true
+        },
+        {
+          "label": "Around Thursday 22 July 2027",
+          "approx": true
+        }
+      ],
+      "registrationDeadline": null,
+      "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
+      "domains": [],
+      "subdomains": [],
+      "mocks": [],
+      "walkthroughs": [],
+      "counts": {
+        "subdomains": 0,
+        "questions": 0,
+        "mocks": 0,
+        "walkthroughs": 0
+      },
+      "sampleItemId": "matha-a01"
+    },
+    {
+      "id": "mathb",
+      "name": "Mathematics B",
+      "priceEur": 79,
+      "vatIncluded": true,
+      "accessMonths": 12,
+      "lookupKey": "cup_mathb_once",
+      "ready": false,
+      "exams": [
+        {
+          "label": "Tuesday 15 December 2026",
+          "approx": false
+        },
+        {
+          "label": "Around Monday 19 April 2027",
+          "approx": true
+        },
+        {
+          "label": "Around Friday 23 July 2027",
+          "approx": true
+        }
+      ],
+      "registrationDeadline": null,
+      "examSource": "https://www.ccvx.nl/index%20-%20EN.html",
+      "domains": [],
+      "subdomains": [],
+      "mocks": [],
+      "walkthroughs": [],
+      "counts": {
+        "subdomains": 0,
+        "questions": 0,
+        "mocks": 0,
+        "walkthroughs": 0
+      },
+      "sampleItemId": "mathb-b03"
+    }
+  ]
+}

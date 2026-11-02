@@ -1,0 +1,60 @@
+{
+  "subjects": [
+    {
+      "id": "phys",
+      "lookupKey": "cup_phys_once",
+      "priceEur": 79,
+      "accessMonths": 12
+    },
+    {
+      "id": "chem",
+      "lookupKey": "cup_chem_once",
+      "priceEur": 79,
+      "accessMonths": 12
+    },
+    {
+      "id": "bio",
+      "lookupKey": "cup_bio_once",
+      "priceEur": 79,
+      "accessMonths": 12
+    },
+    {
+      "id": "matha",
+      "lookupKey": "cup_matha_once",
+      "priceEur": 79,
+      "accessMonths": 12
+    },
+    {
+      "id": "mathb",
+      "lookupKey": "cup_mathb_once",
+      "priceEur": 79,
+      "accessMonths": 12
+    }
+  ],
+  "bundles": [
+    {
+      "id": "bundle2",
+      "count": 2,
+      "lookupKey": "cup_bundle2_once",
+      "priceEur": 139
+    },
+    {
+      "id": "bundle3",
+      "count": 3,
+      "lookupKey": "cup_bundle3_once",
+      "priceEur": 189
+    },
+    {
+      "id": "bundle5",
+      "count": 5,
+      "lookupKey": "cup_bundle5_once",
+      "priceEur": 279
+    }
+  ],
+  "priceForCount": {
+    "1": 79,
+    "2": 139,
+    "3": 189,
+    "5": 279
+  }
+}

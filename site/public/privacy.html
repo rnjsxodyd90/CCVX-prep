@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy | CCVX Ultimate Prep</title>
+<meta name="description" content="Which personal data CCVX Ultimate Prep processes, why, and for how long. Short and plain.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<style>
+.legal-main { padding: 10vh var(--margin) 0; }
+.legal-wrap { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 2fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
+.legal-main h1 { max-width: 18ch; }
+.legal-rail { position: sticky; top: 96px; display: grid; gap: 10px; }
+.legal-rail .railcard { background: var(--surface-2); padding: 20px 22px; }
+.legal-rail .railcard h2 { font-size: 1.05rem !important; margin: 0 0 8px !important; }
+.legal-rail p { font-size: 0.95rem; margin: 0; color: var(--muted); }
+.legal-rail .railpic { padding: 0; }
+.legal-rail .railpics { display: grid; gap: 8px; padding: 14px; }
+.legal-rail .railpic > figure { margin: 0; }
+.legal-rail .railpic img { width: 100%; height: 118px; object-fit: cover; display: block; filter: grayscale(1); }
+
+@media (max-width: 900px) { .legal-wrap { grid-template-columns: 1fr; } .legal-rail { position: static; } }
+.legal-main h1 { font-size: clamp(2.6rem, 5vw, 4.72rem); }
+.legal-main h2 { font-size: 1.3rem; margin-top: 6vh; }
+.legal-main article { min-width: 0; }
+.legal-main p, .legal-main li { max-width: 68ch; overflow-wrap: break-word; }
+.legal-main li { margin-bottom: 0.4em; }
+.legal-main ul { padding-left: 1.2em; }
+.legal-main .who { background: var(--surface-2); padding: 18px 22px; }
+</style>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 28V8l5-4h14l5 4v20z' fill='%23b11226'/></svg>">
+</head>
+<body>
+<header class="topbar">
+  <a class="toplink toplink--left" href="/">← Back to the site</a>
+  <a class="wordmark" href="/">CCVX Ultimate Prep</a>
+  <a class="toplink" href="account.html">Sign in</a>
+</header>
+<main class="legal-main"><div class="legal-wrap"><article>
+  <h1 data-mv>Privacy</h1>
+  <p>Short version: we keep your email address and your purchases so you can sign in and read your subjects. We do not run advertisements and we do not sell data.</p>
+  <h2 data-mv>What we store</h2>
+  <ul>
+    <li>Your email address and sign-in method, in Firebase Authentication (Google). Purpose: your account.</li>
+    <li>Your purchases: which subjects you bought, and until when, in Firestore (Google). Purpose: giving you access.</li>
+    <li>Your Stripe customer id, linked to your account, in Firestore. Purpose: connecting payments to access.</li>
+    <li>Payment details themselves (card numbers and the like) never reach us; they live at Stripe only.</li>
+  </ul>
+  <h2 data-mv>What we do not store</h2>
+  <p>We do not store your practice answers, typed work in the reader, or usage profiles for advertising. Timed mock runs stay in your browser.</p>
+  <h2 data-mv>Processors</h2>
+  <p>Google (Firebase) hosts the site, accounts and purchase records. Stripe (Stripe Payments Europe) processes payments and handles VAT invoices. Neither may use your data for their own purposes beyond running their service.</p>
+  <h2 data-mv>Retention</h2>
+  <p>Account and purchase records stay while you have an account and as long as tax law requires (7 years for sales records in the Netherlands). You may ask for a copy or deletion at any time by writing to us at our address.</p>
+  <h2 data-mv>Cookies</h2>
+  <p>Only functional storage for sign-in and preferences. No tracking cookies, no analytics cookies, so no cookie banner.</p>
+  <h2 data-mv>Your rights</h2>
+  <p>You have the right to see, correct, export or delete your data, and to complain to the Autoriteit Persoonsgegevens.</p>
+</article><aside class="legal-rail">
+  <div class="railcard"><h2 data-mv>Seller</h2><p>Sura Steel (eenmanszaak), KvK 98957015, Jan Krosstraat 172, 2571 DD 's-Gravenhage, the Netherlands</p></div>
+  <div class="railcard"><h2 data-mv>Prices</h2><p>Launch price: EUR 79 per subject; bundles any 2 EUR 139, any 3 EUR 189, all 5 EUR 279. One-off, VAT included, 12 months access.</p></div>
+  <div class="railcard railpics" data-mv>
+  <figure class="railpic"><img src="assets/educatoriumcollegezaal.jpg" alt="A lecture hall in the Educatorium, Utrecht University, where the CCVX exams take place." width="1920" height="1440" loading="lazy" decoding="async"></figure>
+  <figure class="railpic"><img src="assets/woman-teaching-geometry.jpg" alt="A teacher with set square and dividers, from a 14th-century manuscript." width="1039" height="1148" loading="lazy" decoding="async"></figure>
+  <figure class="railpic"><img src="assets/commercial-chemical-laboratory-of-the-mid-18th.jpg" alt="An 18th-century commercial chemical laboratory, from a contemporary line engraving." width="1920" height="1098" loading="lazy" decoding="async"></figure>
+  <figure class="railpic"><img src="assets/birmingham-proton-synchrotron-11.jpg" alt="The Birmingham proton synchrotron in 1947." width="1920" height="1152" loading="lazy" decoding="async"></figure>
+  </div>
+</aside></div></main>
+<footer class="site-footer">
+  <div class="blockmark" aria-hidden="true" data-mv></div>
+  <div class="cols">
+    <nav aria-label="Subjects">
+      <h3>Subjects</h3>
+      <a href="physics.html">Physics</a>
+      <a href="chemistry.html">Chemistry</a>
+      <a href="biology.html">Biology</a>
+      <a href="math-a.html">Mathematics A</a>
+      <a href="math-b.html">Mathematics B</a>
+    </nav>
+    <nav aria-label="Prepare">
+      <h3>Prepare</h3>
+      <a href="chemistry.html#sample">Free sample</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#exam-dates">Exam dates</a>
+      <a href="chemistry-exams.html">Past exams</a>
+    </nav>
+    <nav aria-label="Legal">
+      <h3>Legal</h3>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refund policy</a>
+    </nav>
+    <div class="seller">
+      <p>Sura Steel · KvK 98957015<br>
+      Jan Krosstraat 172<br>
+      2571 DD ’s-Gravenhage</p>
+    </div>
+  </div>
+  <p class="legal-line"><span>Independent study material. Not affiliated with or endorsed by the CCVX or any university.</span><span>© 2026 Sura Steel · ccvxultimateprep.com</span></p>
+  <p class="credits">Pictures on this page: “EducatoriumCollegezaal”, “Woman teaching geometry”, “Commercial chemical laboratory of the mid 18th Century” (CC BY 4.0), “Birmingham proton synchrotron 11” — all public domain except where noted, via Wikimedia Commons.</p>
+</footer>
+<script src="js/motion.js" type="module"></script>
+<script src="js/chrome.js" type="module"></script>
+</body>
+</html>
