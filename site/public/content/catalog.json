@@ -1,30 +1,11 @@
 {
-  "generated": "2026-11-02T15:25:32.362Z",
+  "generated": "2026-11-12T17:09:00.370Z",
   "pricing": {
     "offer": "launch",
-    "badge": "Launch offer: EUR 79 per subject for the first month after launch.",
+    "badge": null,
     "launchEnd": null,
-    "pricePerSubject": 79,
-    "bundles": [
-      {
-        "count": 2,
-        "id": "bundle2",
-        "priceEur": 139,
-        "perSubject": 69.5
-      },
-      {
-        "count": 3,
-        "id": "bundle3",
-        "priceEur": 189,
-        "perSubject": 63
-      },
-      {
-        "count": 5,
-        "id": "bundle5",
-        "priceEur": 279,
-        "perSubject": 55.8
-      }
-    ],
+    "pricePerSubject": 129,
+    "bundles": [],
     "vatIncluded": true,
     "accessMonths": 12
   },
@@ -32,7 +13,7 @@
     {
       "id": "phys",
       "name": "Physics",
-      "priceEur": 79,
+      "priceEur": 129,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_phys_once",
@@ -215,7 +196,7 @@
     {
       "id": "chem",
       "name": "Chemistry",
-      "priceEur": 79,
+      "priceEur": 129,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_chem_once",
@@ -720,7 +701,7 @@
     {
       "id": "bio",
       "name": "Biology",
-      "priceEur": 79,
+      "priceEur": 129,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_bio_once",
@@ -1130,7 +1111,7 @@
     {
       "id": "matha",
       "name": "Mathematics A",
-      "priceEur": 79,
+      "priceEur": 129,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_matha_once",
@@ -1383,7 +1364,7 @@
     {
       "id": "mathb",
       "name": "Mathematics B",
-      "priceEur": 79,
+      "priceEur": 129,
       "vatIncluded": true,
       "accessMonths": 12,
       "lookupKey": "cup_mathb_once",

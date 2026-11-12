@@ -51,7 +51,7 @@ const shell = (title, desc, body) => `<!doctype html>
 </header>
 <main class="legal-main"><div class="legal-wrap"><article>${body}</article><aside class="legal-rail">
   <div class="railcard"><h2>Seller</h2><p>${SELLER}</p></div>
-  <div class="railcard"><h2>Prices</h2><p>Launch price: EUR 79 per subject; bundles any 2 EUR 139, any 3 EUR 189, all 5 EUR 279. One-off, VAT included, 12 months access.</p></div>
+  <div class="railcard"><h2>Prices</h2><p>EUR 129 per subject, one-off, VAT included, 12 months access.</p></div>
   <div class="railcard railpics" data-mv>
   <figure class="railpic"><img src="assets/educatoriumcollegezaal.jpg" alt="A lecture hall in the Educatorium, Utrecht University, where the CCVX exams take place." width="1920" height="1440" loading="lazy" decoding="async"></figure>
   <figure class="railpic"><img src="assets/woman-teaching-geometry.jpg" alt="A teacher with set square and dividers, from a 14th-century manuscript." width="1039" height="1148" loading="lazy" decoding="async"></figure>
@@ -104,7 +104,7 @@ const terms = shell('Terms of use', 'Terms of use for CCVX Ultimate Prep, the pa
   <h2>Who we are</h2>
   <p class="who">CCVX Ultimate Prep is a product of ${SELLER}. Contact us by post at that address.</p>
   <h2>What you buy</h2>
-  <p>CCVX Ultimate Prep is digital study material in English for the CCVX entrance exams: notes per syllabus outcome, original practice questions with worked solutions, mock exams with marking schemes, and walkthroughs of official past exams. One purchase covers one subject or one bundle of subjects for 12 months of access, as a one-off payment, VAT included. The current prices are on the pricing page; a launch price applies for the first month after launch.</p>
+  <p>CCVX Ultimate Prep is digital study material in English for the CCVX entrance exams: notes per syllabus outcome, original practice questions with worked solutions, mock exams with marking schemes, and walkthroughs of official past exams. One purchase covers one subject for 12 months of access, as a one-off payment, VAT included. The current price is on the pricing page.</p>
   <h2>Independent material</h2>
   <p>CCVX Ultimate Prep is independent study material. It is not affiliated with or endorsed by the CCVX (Centrale Commissies Voortentamen) or any university. The CCVX's own sample exams and dates stay on ccvx.nl; we link to them and never copy them.</p>
   <h2>Your account</h2>

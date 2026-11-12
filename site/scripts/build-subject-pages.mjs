@@ -50,8 +50,7 @@ for (const subj of SUBJECTS) {
 
   const buyContent = ready && purchasable
     ? `<h2>Get ${esc(subj.name)}</h2>
-        <p class="sp-price">€ 79 <span class="sp-priceper">per subject, once · VAT included · 12 months access · launch price</span></p>
-        <p class="sp-bundles">Bundles: any 2 subjects € 139 · any 3 € 189 · all 5 € 279.</p>
+        <p class="sp-price">€ 129 <span class="sp-priceper">per subject, once · VAT included · 12 months access</span></p>
         <a class="btn" href="checkout.html?subject=${subj.id}">Buy ${esc(subj.name)}</a>`
     : ready
       ? `<h2>Get ${esc(subj.name)}</h2><p class="sp-soon" id="buy">Practice questions and mock exams are being written before this subject goes on sale. The free sample on this page already works.</p>`
@@ -103,7 +102,7 @@ for (const subj of SUBJECTS) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(subj.name)} CCVX prep: notes, practice, mock exams | CCVX Ultimate Prep</title>
-<meta name="description" content="${esc(subj.name)} CCVX exam preparation in English: notes per syllabus outcome, original practice questions with full solutions, timed mock exams with marking schemes. EUR 79 launch price, 12 months access.">
+<meta name="description" content="${esc(subj.name)} CCVX exam preparation in English: notes per syllabus outcome, original practice questions with full solutions, timed mock exams with marking schemes. EUR 129 per subject, 12 months access.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -127,7 +126,7 @@ for (const subj of SUBJECTS) {
       ${badge ? `<p class="offer-strip" data-launch-badge>${esc(badge)}</p>` : ''}
       ${counts}
       <p class="sp-actions">${ready && purchasable
-        ? `<a class="btn btn--light" href="checkout.html?subject=${subj.id}">Buy ${esc(subj.name)} · € 79</a>`
+        ? `<a class="btn btn--light" href="checkout.html?subject=${subj.id}">Buy ${esc(subj.name)} · € 129</a>`
         : ready
           ? `<a class="btn btn--light" href="#sample">Try the free sample</a>`
           : `<a class="btn btn--light" href="${examsFile}">Start with the official past exams</a>`}

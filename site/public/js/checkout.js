@@ -1,5 +1,6 @@
-// Checkout: pick subjects (1, 2, 3 or all 5), see the exact total, sign in,
+// Checkout: pick exactly one subject, see the exact total, sign in,
 // confirm the withdrawal waiver, pay with Stripe Checkout (test mode locally).
+// One purchase sells one subject (owner update, 12 Nov 2026: bundles off).
 import { onUser, googleLogin, emailLinkLogin, completeEmailLinkLogin, callable } from './firebase-app.js';
 
 const $ = (s, r = document) => r.querySelector(s);
@@ -12,27 +13,29 @@ const SUBJECTS = [
   ['matha', 'Mathematics A'],
   ['mathb', 'Mathematics B'],
 ];
-const PRICES = { 1: 79, 2: 139, 3: 189, 5: 279 };
+const PRICE_FALLBACK_EUR = 129;
 const eur = (n) => `€ ${n}`;
 if (['localhost', '127.0.0.1'].includes(location.hostname)) {
   for (const el of document.querySelectorAll('.co-testnote')) el.hidden = false;
 }
 
 let user = null;
-// purchasable subjects from the catalog (others show "in preparation")
+// purchasable subjects and the shown price come from the catalog
 let purchasable = new Set(['chem']);
+let pricePerSubject = PRICE_FALLBACK_EUR;
 try {
   const cat = await (await fetch('/content/catalog.json')).json();
   purchasable = new Set(cat.subjects.filter((s) => s.ready && s.counts.questions > 0).map((s) => s.id));
-} catch { /* fallback: chem only */ }
+  pricePerSubject = Number(cat?.pricing?.pricePerSubject) || PRICE_FALLBACK_EUR;
+} catch { /* fallback: chem only, fallback price */ }
 
 const picker = $('#picker');
 picker.innerHTML = SUBJECTS.map(([id, name]) => {
   const ok = purchasable.has(id);
   return `<label class="pick ${ok ? '' : 'pick--off'}" data-mv data-id="${id}">
-    <input type="checkbox" name="subject" value="${id}" ${ok ? '' : 'disabled'}>
+    <input type="radio" name="subject" value="${id}" ${ok ? '' : 'disabled'}>
     <span class="pick-name">${name}</span>
-    <span class="pick-meta">${ok ? '€ 79' : 'in preparation'}</span>
+    <span class="pick-meta">${ok ? eur(pricePerSubject) : 'in preparation'}</span>
   </label>`;
 }).join('\n');
 
@@ -40,28 +43,20 @@ const totalEl = $('#total');
 const noteEl = $('#note');
 const payBtn = $('#payBtn');
 const waiverEl = $('#waiver');
-const chosen = new Set(new URLSearchParams(location.search).getAll('subject').filter((s) => purchasable.has(s)));
+const chosen = new Set(new URLSearchParams(location.search).getAll('subject').filter((s) => purchasable.has(s)).slice(0, 1));
 if (!chosen.size && purchasable.size) chosen.add([...purchasable][0]);
 
 function sync() {
   $$('#picker input').forEach((i) => { i.checked = chosen.has(i.value); });
   const n = chosen.size;
-  let price = PRICES[n];
   noteEl.textContent = '';
-  if (n === 4) {
-    noteEl.innerHTML = `Four subjects cost 4 × € 79 = € 316 as singles. All five costs € 279. <a href="#" id="take5">Take all 5 instead</a>.`;
-    const t = $('#take5');
-    if (t) t.onclick = (e) => { e.preventDefault(); purchasable.forEach((id) => chosen.add(id)); sync(); };
-    price = null;
-  }
-  totalEl.textContent = n ? (price === null ? 'no bundle for 4' : `${eur(price)} · launch price`) : 'choose your subjects';
-  payBtn.disabled = !n || price === null || !waiverEl.checked || !user;
-  payBtn.textContent = !user ? 'Sign in to continue' : (price === null ? 'Choose a different set' : `Pay ${eur(price)} with Stripe`);
+  totalEl.textContent = n ? eur(pricePerSubject) : 'choose one subject';
+  payBtn.disabled = !n || !waiverEl.checked || !user;
+  payBtn.textContent = !user ? 'Sign in to continue' : `Pay ${eur(pricePerSubject)} with Stripe`;
   $('#err').textContent = $('#err').textContent; // keep, hidden when empty by CSS
 }
 picker.addEventListener('change', (ev) => {
-  const id = ev.target.value;
-  ev.target.checked ? chosen.add(id) : chosen.delete(id);
+  if (ev.target.checked) { chosen.clear(); chosen.add(ev.target.value); }
   sync();
 });
 waiverEl.addEventListener('change', sync);

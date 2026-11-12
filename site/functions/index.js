@@ -1,7 +1,7 @@
 // CCVX Ultimate Prep: Stripe Checkout (test mode) + webhook.
-// Launch pricing: EUR 79 per subject; bundles any 2 = 139, any 3 = 189,
-// all 5 = 279. One payment per subject set; the webhook writes one grant per
-// chosen subject into entitlements/{uid}. See site/PLAN.md §7 and
+// Price: EUR 129 for a single subject. Bundles are disabled pending owner
+// prices (owner update, 12 Nov 2026). One payment sells one subject; the
+// webhook writes one grant into entitlements/{uid}. See site/PLAN.md §7 and
 // site/scripts/pricing-config.mjs (the ONE money config).
 const { onCall, onRequest, HttpsError } = require('firebase-functions/v2/https');
 const { defineSecret, defineString } = require('firebase-functions/params');
@@ -34,13 +34,16 @@ async function customerFor(stripe, uid, email) {
   return c.id;
 }
 
-// data: { subjects: ['chem'], waiverAccepted: true }  (1, 2, 3 or 5 subjects)
+// data: { subjects: ['chem'], waiverAccepted: true }  (exactly 1 subject)
 exports.createCheckout = onCall({ secrets: [STRIPE_SECRET_KEY] }, async (req) => {
   if (!req.auth) throw new HttpsError('unauthenticated', 'Log in first.');
   const subjects = Array.isArray(req.data?.subjects) ? req.data.subjects.map(String) : [];
+  if (subjects.length !== 1) {
+    throw new HttpsError('invalid-argument', 'Choose exactly one subject.');
+  }
   const offer = offerFor(subjects);
-  if (!offer) {
-    throw new HttpsError('invalid-argument', 'Choose 1, 2, 3 or all 5 different subjects.');
+  if (!offer || offer.kind !== 'subject') {
+    throw new HttpsError('invalid-argument', `Unknown subject "${subjects[0] || ''}". Choose exactly one subject.`);
   }
   if (req.data?.waiverAccepted !== true) {
     throw new HttpsError('failed-precondition', 'You must accept that access starts immediately and the 14-day withdrawal right no longer applies.');

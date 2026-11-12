@@ -52,7 +52,7 @@ async function renderLibrary(user) {
     return `<div class="lib-tile tab">
       <span class="lib-name">${esc(name)}</span>
       <span class="lib-state">not in your library</span>
-      <a class="lib-buy" href="checkout.html?subject=${id}">EUR 79 · launch price</a>
+      <a class="lib-buy" href="checkout.html?subject=${id}">EUR 129</a>
     </div>`;
   }).join('\n');
   view.innerHTML = `
@@ -60,7 +60,7 @@ async function renderLibrary(user) {
       <h1>Your library</h1>
       <p class="acc-who">Signed in as ${esc(user.email || 'user')}. ${active ? `Your access runs to ${until.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}.` : ''}</p>
       <div class="lib-grid">${tiles}</div>
-      <p class="acc-footnote">Buying a subject adds it to this library. Bundles appear here as one tile per subject.</p>
+      <p class="acc-footnote">Buying a subject adds it to this library.</p>
       <p><button class="btn btn--light" data-out>Sign out</button></p>
     </div>`;
   $('[data-out]', view).addEventListener('click', () => logout().then(() => location.reload()));

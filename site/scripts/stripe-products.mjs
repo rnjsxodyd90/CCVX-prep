@@ -1,9 +1,11 @@
-// Creates (idempotently) the CCVX Ultimate Prep products + launch prices in
+// Creates (idempotently) the CCVX Ultimate Prep products + prices in
 // STRIPE TEST MODE ONLY, keyed by lookup_key. Live products are an owner
 // decision (Hard rule 4) — run this only with an sk_test_ key.
+// Only the 5 single-subject prices: bundles are off (owner update 12 Nov
+// 2026). When bundles return, add their rows from BUNDLES here again.
 // usage: STRIPE_KEY_FILE=/path/to/key node scripts/stripe-products.mjs
 import fs from 'node:fs';
-import { LAUNCH_PRICES, BUNDLES, lookupKeyFor } from './pricing-config.mjs';
+import { LAUNCH_PRICES, lookupKeyFor } from './pricing-config.mjs';
 import { SUBJECTS } from './content-config.mjs';
 
 const keyFile = process.env.STRIPE_KEY_FILE;
@@ -22,10 +24,7 @@ const api = async (method, path, params) => {
   return j;
 };
 
-const rows = [
-  ...SUBJECTS.map((s) => ({ id: s.id, name: `CCVX Ultimate Prep – ${s.name}`, desc: `All notes, practice questions with solutions and mock exams for CCVX ${s.name}. 12 months access, VAT included.`, cents: LAUNCH_PRICES.subject * 100, lookupKey: lookupKeyFor(s.id) })),
-  ...BUNDLES.map((b) => ({ id: b.id, name: `CCVX Ultimate Prep – any ${b.count} subjects`, desc: `${b.count === 5 ? 'All 5' : `Any ${b.count}`} subjects of CCVX Ultimate Prep. 12 months access, VAT included.`, cents: LAUNCH_PRICES[b.id] * 100, lookupKey: lookupKeyFor(b.id) })),
-];
+const rows = SUBJECTS.map((s) => ({ id: s.id, name: `CCVX Ultimate Prep – ${s.name}`, desc: `All notes, practice questions with solutions and mock exams for CCVX ${s.name}. 12 months access, VAT included.`, cents: LAUNCH_PRICES.subject * 100, lookupKey: lookupKeyFor(s.id) }));
 
 const existing = await api('GET', 'prices?limit=100&active=true&' + rows.map((r) => `lookup_keys[]=${r.lookupKey}`).join('&'));
 const have = new Set(existing.data.map((p) => p.lookup_key));
@@ -35,4 +34,4 @@ for (const r of rows) {
   await api('POST', 'prices', { product: prod.id, currency: 'eur', unit_amount: String(r.cents), lookup_key: r.lookupKey, 'metadata[item]': r.id, tax_behavior: 'inclusive' });
   console.log('created', r.lookupKey, (r.cents / 100).toFixed(2), 'EUR');
 }
-console.log('done: launch prices (test mode).');
+console.log('done: subject prices, EUR 129 each (test mode). No bundle prices created: bundles are off.');

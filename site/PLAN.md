@@ -7,11 +7,15 @@ Fixed product decisions:
 - Brand: CCVX Ultimate Prep. Domain for copy: ccvxultimateprep.com. Not bought. Do not buy.
 - Language: English only.
 - Subjects: Chemistry, Biology, Mathematics A, Mathematics B, Physics (owner update 3, 1 Nov 2026; one subject card and page).
-- Launch pricing (owner update, 1 Nov 2026, supersedes every earlier price): single subject EUR 79 one-off, VAT included, 12 months access. Bundles, customer picks the subjects: any 2 EUR 139, any 3 EUR 189, all 5 EUR 279; a bundle purchase writes one grant per chosen subject. Label: "Launch price". Never a crossed-out was-price (nothing was ever charged; EU price-indication rule). Launch-offer poster: "Launch offer: EUR 79 per subject for the first month after launch", with the concrete end date; regular prices after the first month are set by the owner in one config file (LAUNCH_START, LAUNCH_END = start + 1 month, regular prices) before go-live; until then no "then EUR X" text; the site switches to regular prices automatically after LAUNCH_END (with a test for the switch).
+- Pricing (owner update, 12 Nov 2026, supersedes every earlier price): single subject EUR 129 one-off, VAT included, 12 months access. Bundles are removed from every page and from the checkout; they stay hidden until the owner sets new bundle prices. One purchase sells exactly one subject. No launch-offer badge and no "launch price" labels anywhere. Never a crossed-out was-price, never a "then EUR X" line (EU price-indication rule). The launch-window machinery stays in the one config file for future owner use: LAUNCH_START, LAUNCH_END = start + 1 month, REGULAR_PRICES; with LAUNCH_START unset there is no badge; the site switches to regular prices automatically after LAUNCH_END (with a test for the switch).
 - Free sample: exactly one complete subdomain per subject is public without login (notes + practice with solutions). Confirmed: chemistry chem-c02, biology bio-b01, math B mathb-b03, math A its first core subdomain (math-teacher names it), physics phys-teacher's first finished subdomain. Firestore rules and the leak scan allow only these units publicly.
 - Seller: Sura Steel (eenmanszaak), KvK 98957015, Jan Krosstraat 172, 2571 DD 's-Gravenhage. In footer and terms.
 - Not affiliated: every page footer and the landing page carry "Independent study material. Not affiliated with or endorsed by the CCVX or any university."
 - Nothing in this run touches production: no Firebase project, no live Stripe, no deploy, no domain, no visibility change, no push to main.
+
+## Owner updates applied
+
+- 12 Nov 2026: EUR 129 per subject, one-off, VAT included, 12 months access, everywhere (landing, subject pages, checkout Stripe test mode, terms, report). Bundles hidden until the owner sets new prices; the config can re-enable them by config change only. Launch badge removed. Biology img/ diagrams stay excluded (owner decision, already in force).
 
 ## 1. Stack
 
@@ -56,7 +60,7 @@ Audit duties:
 
 | Page | File | Contents |
 |---|---|---|
-| Landing | public/index.html | hero with the promise, 5 subject offer cards at EUR 79 launch price plus a pricing block (single EUR 79; bundles any 2 EUR 139, any 3 EUR 189, all 5 EUR 279; the line "Medicine applicants usually need 2-3 subjects"; launch-offer banner with end date), approach in 4 steps (explanation, practice, feedback, strategy), what is inside each subject with counts from the built content, exam dates 2026/2027 from ccvx.nl with source link, FAQ, not-affiliated note, footer |
+| Landing | public/index.html | hero with the promise, 5 subject offer cards at EUR 129 per subject plus a pricing block (single EUR 129, one-off, VAT included, 12 months access; the line "Medicine applicants usually buy two or three subjects; each is EUR 129, bought separately"), approach in 4 steps (explanation, practice, feedback, strategy), what is inside each subject with counts from the built content, exam dates 2026/2027 from ccvx.nl with source link, FAQ, not-affiliated note, footer |
 | Subject | public/chemistry.html, biology.html, math-a.html, math-b.html, physics.html | syllabus map (domains and subdomains from catalog), free sample (the subject's one free subdomain, complete: notes and all practice with solutions), what you get, exam date and registration deadline, link to official CCVX samples, buy button |
 | Checkout | public/checkout.html | sign-in (email link or Google), subject choice, withdrawal-waiver checkbox, then Stripe Checkout test mode |
 | Account | public/account.html | purchased subjects (the library), purchase state, sign-out |
@@ -142,10 +146,10 @@ Pipeline order: content tasks commit markdown; build; validate; upload; test the
 ## 7. Payment flow (Stripe Checkout, test mode)
 
 1. Visitor picks a subject, signs in on checkout.html (email link or Google), ticks the withdrawal-waiver checkbox ("I understand that access starts immediately and I waive my 14-day withdrawal right").
-2. The page calls the callable function createCheckout with { subjects: [subject ids] } (one id for a single purchase, more for a bundle).
-3. createCheckout: picks the Stripe price by lookup key cup_<subject>_once (EUR 79) for a single subject, or cup_bundle2_once (EUR 139), cup_bundle3_once (EUR 189), cup_bundle5_once (EUR 279) for bundles, all test mode, VAT-inclusive prices; creates or reuses a Stripe customer for the uid, creates a Checkout Session (mode payment, metadata: uid and the chosen subject ids, success_url account page), returns the session URL. Prices themselves come from the offer config (launch prices now, regular prices after LAUNCH_END).
+2. The page calls the callable function createCheckout with { subjects: [subject id] } (exactly one id per purchase).
+3. createCheckout: accepts exactly one subject, rejects more than one or an unknown subject with an error; picks the Stripe price by lookup key cup_<subject>_once (EUR 129), test mode, VAT-inclusive prices; creates or reuses a Stripe customer for the uid, creates a Checkout Session (mode payment, metadata: uid and the chosen subject id, success_url account page), returns the session URL. Prices themselves come from the one offer config (current prices now, regular prices after LAUNCH_END if the owner sets them).
 4. Test checkout with the Stripe test card.
-5. stripeWebhook on checkout.session.completed: checks the event id for idempotency, validates the metadata subject count against the purchased bundle size, writes one grant per chosen subject into entitlements/{uid} (union, activeUntil +12 months).
+5. stripeWebhook on checkout.session.completed: checks the event id for idempotency, validates the paid lookup key against the single-subject offer from the generated config, writes one grant per chosen subject into entitlements/{uid} (union, activeUntil +12 months).
 6. account.html shows the subject; the reader unlocks through the rules.
 
 Local webhook delivery: stripe listen forwards to the functions emulator. Test prices are created in test mode by site/scripts/stripe-products.mjs (test-mode products are allowed; live products are an owner decision).
@@ -203,7 +207,7 @@ Workflow for every task: coder (Kimi K3) implements in its own worktree and comm
 The run stops and prints an OWNER DECISION line before any of these:
 
 - Firebase project creation and any real (non-emulator) Firebase use.
-- Live Stripe products and prices (single EUR 79 launch and the three bundles, then the regular prices).
+- Live Stripe products and prices (single EUR 129; bundle prices only after the owner sets them).
 - Setting LAUNCH_START and LAUNCH_END and the regular (post-launch) prices in the offer config.
 - Buying or connecting the domain ccvxultimateprep.com.
 - Deploying to production, changing repo visibility, pushing to main.

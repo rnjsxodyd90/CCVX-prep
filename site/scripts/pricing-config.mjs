@@ -1,7 +1,9 @@
-// ONE config file for all money decisions (owner updates, 1 Nov 2026).
+// ONE config file for all money decisions (owner updates, 12 Nov 2026).
 //
-// Launch pricing (active now): EUR 79 per subject; bundles any 2 = 139,
-// any 3 = 189, all 5 = 279. One-off, VAT included, 12 months access.
+// Active prices: EUR 129 per subject, one-off, VAT included, 12 months
+// access. Bundles are disabled since 12 Nov 2026, pending owner prices:
+// BUNDLES = [] removes them from every page and from the checkout. To
+// re-enable bundles later, fill BUNDLES and the bundle prices here only.
 // The owner sets LAUNCH_START and REGULAR_PRICES before go-live; after
 // LAUNCH_END (= LAUNCH_START + 1 month) activePrices() returns the regular
 // prices, and stripe-products.mjs written for the regular prices replaces the
@@ -9,16 +11,14 @@
 //
 // Never show a crossed-out was-price (EU price-indication rule).
 export const LAUNCH_START = null; // e.g. '2026-11-15' — owner sets it before go-live
-export const REGULAR_PRICES = null; // { subject: 99, bundle2: 179, bundle3: 269, bundle5: 449 } — owner sets it
+export const REGULAR_PRICES = null; // { subject: 149 } — owner sets it; add bundle ids when bundles return
 
-export const LAUNCH_PRICES = Object.freeze({ subject: 79, bundle2: 139, bundle3: 189, bundle5: 279 });
+export const LAUNCH_PRICES = Object.freeze({ subject: 129 });
 export const ACCESS_MONTHS = 12;
 
-export const BUNDLES = Object.freeze([
-  { count: 2, id: 'bundle2' },
-  { count: 3, id: 'bundle3' },
-  { count: 5, id: 'bundle5' },
-]);
+// Bundles are off (owner update 12 Nov 2026). Keep the machinery: a filled
+// BUNDLES list plus bundle prices above re-enables them by config only.
+export const BUNDLES = Object.freeze([]);
 export const lookupKeyFor = (subjectOrBundleId) => `cup_${subjectOrBundleId}_once`;
 
 export function launchEnd(start = LAUNCH_START) {
@@ -39,10 +39,11 @@ export function activePrices(now = new Date(), start = LAUNCH_START, regular = R
   return { prices, launch: launchLive, launchEnd: end };
 }
 
-// The launch-offer badge text (exact form from the owner update). Truthful by
-// construction: no LAUNCH_START -> no fake date; no regular prices -> no
-// "then EUR X" text.
+// The launch-offer badge text. No badge without a real launch window:
+// LAUNCH_START unset -> null. Truthful by construction: no LAUNCH_START ->
+// no fake date; no regular prices -> no "then EUR X" text.
 export function launchBadge(now = new Date(), start = LAUNCH_START, regular = REGULAR_PRICES) {
+  if (!start) return null;
   const end = launchEnd(start);
   const fmt = (d) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
   if (start && end && now >= end) return null;

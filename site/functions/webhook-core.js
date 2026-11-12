@@ -55,7 +55,7 @@ async function processCheckoutCompleted(db, stripe, event) {
   const offer = offerFor(subjects);
   if (!s.metadata?.uid) throw new Error(`session metadata unusable: uid missing (${event.id})`);
   if (!offer) throw new Error(`session metadata unusable: subjects ${subjects.join(',') || '(empty)'} (${event.id})`);
-  // Validate the price actually paid against the bundle the metadata claims.
+  // Validate the price actually paid against the offer the metadata claims.
   const lines = await stripe.checkout.sessions.listLineItems(s.id, { limit: 5 });
   const paidKey = lines.data[0]?.price?.lookup_key;
   if (paidKey !== offer.lookupKey) {

@@ -80,7 +80,7 @@ function renderPaywall(it) {
   $('#main').innerHTML = `
     <div class="lr-paywall tab">
       <h2>${SUBJECTS[it.subject]} is not in your library yet</h2>
-      <p>This ${it.kind === 'mock' ? 'mock exam' : it.kind === 'walkthrough' ? 'walkthrough' : 'subdomain'} is part of the paid course. One payment of EUR 79 (launch price) adds the whole subject, VAT included, for 12 months. Bundles: any 2 subjects EUR 139, any 3 EUR 189, all 5 EUR 279.</p>
+      <p>This ${it.kind === 'mock' ? 'mock exam' : it.kind === 'walkthrough' ? 'walkthrough' : 'subdomain'} is part of the paid course. One payment of EUR 129 adds the whole subject, VAT included, for 12 months.</p>
       <p>The subdomain <strong>${(catalog.subjects.find((s) => s.id === it.subject)?.sampleItemId) || ''}</strong> is the free sample: full notes and all practice questions, no account needed on the subject page.</p>
       <a class="btn" href="checkout.html?subject=${it.subject}">Buy ${SUBJECTS[it.subject]}</a>
       <p class="smallnote"><a href="${it.subject === 'phys' ? 'physics' : it.subject === 'chem' ? 'chemistry' : it.subject === 'bio' ? 'biology' : it.subject === 'matha' ? 'math-a' : 'math-b'}.html#sample">Open the free sample</a></p>

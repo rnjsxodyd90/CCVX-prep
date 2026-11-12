@@ -701,7 +701,7 @@ function main() {
   fs.writeFileSync(path.join(SITE, 'functions/config.generated.json'), JSON.stringify({
     subjects: SUBJECTS.map((s) => ({ id: s.id, lookupKey: s.lookupKey, priceEur: ACTIVE.prices.subject, accessMonths: ACCESS_MONTHS })),
     bundles: BUNDLES.map((b) => ({ id: b.id, count: b.count, lookupKey: lookupKeyFor(b.id), priceEur: ACTIVE.prices[b.id] })),
-    priceForCount: { 1: ACTIVE.prices.subject, 2: ACTIVE.prices.bundle2, 3: ACTIVE.prices.bundle3, 5: ACTIVE.prices.bundle5 },
+    priceForCount: Object.fromEntries([[1, ACTIVE.prices.subject], ...BUNDLES.map((b) => [b.count, ACTIVE.prices[b.id]])]),
   }, null, 2));
 
   for (const w of warnings) console.warn('warn:', w);

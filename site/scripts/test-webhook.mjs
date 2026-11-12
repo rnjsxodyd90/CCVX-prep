@@ -2,7 +2,9 @@
 //   npx firebase emulators:exec --only firestore --project demo-ccvx 'node scripts/test-webhook.mjs'
 // Covers: grant on success; idempotent replay; nothing marked on pre-marker
 // failure; the retry-after-500 path (the old customer-locked-out defect);
-// price/metadata mismatch; offerFor edge cases.
+// price/metadata mismatch against the single-subject offer; offerFor edge cases.
+// Sessions are single-subject at EUR 129: bundles are off (owner update
+// 12 Nov 2026). The fixtures below use the config-generated lookup keys.
 import { createRequire } from 'node:module';
 import path from 'node:path';
 
@@ -26,14 +28,16 @@ const stripeFail = () => ({
 });
 const event = (id, uid, subjects) => ({ id, type: 'checkout.session.completed', data: { object: { id: `cs_${id}`, metadata: { uid, subjects: subjects.join(','), waiverAcceptedAt: '' } } } });
 
-// offerFor mapping (server side of the bundle math)
-ok('2 subjects → bundle2 key', offerFor(['chem', 'bio']).lookupKey === 'cup_bundle2_once');
-ok('5 subjects → bundle5 key', offerFor(['phys', 'chem', 'bio', 'matha', 'mathb']).lookupKey === 'cup_bundle5_once');
-ok('4 subjects → null (operator picks 5 or drops one)', offerFor(['a', 'b', 'c', 'd']) === null);
+// offerFor mapping (server side of the offer math): exactly 1 subject
+ok('1 subject → its own key', offerFor(['chem']).lookupKey === 'cup_chem_once');
+ok('2 subjects → null (bundles off)', offerFor(['chem', 'bio']) === null);
+ok('3 subjects → null (bundles off)', offerFor(['phys', 'chem', 'bio']) === null);
+ok('5 subjects → null (bundles off)', offerFor(['phys', 'chem', 'bio', 'matha', 'mathb']) === null);
+ok('4 subjects → null', offerFor(['a', 'b', 'c', 'd']) === null);
 ok('duplicates → null', offerFor(['chem', 'chem']) === null);
 ok('unknown subject → null', offerFor(['nope']) === null);
 
-// happy path: single subject grant
+// happy path: single subject grant at the EUR 129 subject price
 let r = await processCheckoutCompleted(db, stripeOk('cup_chem_once'), event('e1', 'u-pay', ['chem']));
 ok('grant written for the buyer', r.skipped === false && r.grants.includes('chem'));
 let ent = (await db.collection('entitlements').doc('u-pay').get()).data();
@@ -44,18 +48,21 @@ ok('marker written with the grants', (await db.collection('processedStripeEvents
 r = await processCheckoutCompleted(db, stripeOk('cup_chem_once'), event('e1', 'u-pay', ['chem']));
 ok('replay after success is skipped, nothing changes', r.skipped === true);
 
-// union: a bundle on top of the single adds both subjects
-r = await processCheckoutCompleted(db, stripeOk('cup_bundle2_once'), event('e2', 'u-pay', ['chem', 'bio']));
+// union: a second single-subject purchase on top adds the other subject
+r = await processCheckoutCompleted(db, stripeOk('cup_bio_once'), event('e2', 'u-pay', ['bio']));
 ent = (await db.collection('entitlements').doc('u-pay').get()).data();
-ok('bundle purchase unions grants (chem kept, bio added)', r.skipped === false && ent.grants.join(',') === 'bio,chem');
+ok('second purchase unions grants (chem kept, bio added)', r.skipped === false && ent.grants.join(',') === 'bio,chem');
 
 // THE DEFECT SCENARIO: Stripe/list fails, then the retry succeeds
 try { await processCheckoutCompleted(db, stripeFail(), event('e3', 'u-late', ['bio'])); } catch (e) { /* expected 500 */ }
 ok('after a 500 nothing was marked...', !(await db.collection('processedStripeEvents').doc('e3').get()).exists);
 ok('...and no grant exists yet', !(await db.collection('entitlements').doc('u-late').get()).exists);
-r = await processCheckoutCompleted(db, stripeOk('cup_bundle2_once'), event('e3', 'u-late', ['bio']));
-ok('mismatched retry is NOT granted (paid key != metadata bundle)', r.skipped === true);
+r = await processCheckoutCompleted(db, stripeOk('cup_chem_once'), event('e3', 'u-late', ['bio']));
+ok('mismatched retry is NOT granted (wrong subject key for the single subject)', r.skipped === true);
 ok('still no marker after the mismatch', !(await db.collection('processedStripeEvents').doc('e3').get()).exists);
+r = await processCheckoutCompleted(db, stripeOk('cup_bundle2_once'), event('e3', 'u-late', ['bio']));
+ok('a leftover bundle key is NOT granted (bundles off)', r.skipped === true);
+ok('still no marker after the bundle-key mismatch', !(await db.collection('processedStripeEvents').doc('e3').get()).exists);
 r = await processCheckoutCompleted(db, stripeOk('cup_bio_once'), event('e3', 'u-late', ['bio']));
 ok('retry with the matching price grants the customer', r.skipped === false && r.grants.includes('bio'));
 ok('marker written only now', (await db.collection('processedStripeEvents').doc('e3').get()).exists);
@@ -64,6 +71,9 @@ ok('marker written only now', (await db.collection('processedStripeEvents').doc(
 let threw = false;
 try { await processCheckoutCompleted(db, stripeOk('cup_chem_once'), event('e4', '', ['chem'])); } catch (e) { threw = true; }
 ok('missing uid throws instead of silently marking', threw && !(await db.collection('processedStripeEvents').doc('e4').get()).exists);
+threw = false;
+try { await processCheckoutCompleted(db, stripeOk('cup_bundle2_once'), event('e5', 'u-pair', ['chem', 'bio'])); } catch (e) { threw = true; }
+ok('multi-subject metadata throws while bundles are off', threw && !(await db.collection('processedStripeEvents').doc('e5').get()).exists);
 
 console.log(`\nALL ${n} WEBHOOK CHECKS PASSED`);
 process.exit(0);
