@@ -626,6 +626,7 @@ export function buildCatalog(items) {
   return {
     generated: new Date().toISOString(),
     pricing: {
+      // The offer field is machinery state, not a visitor label.
       offer: ACTIVE.launch ? 'launch' : 'regular',
       badge: launchBadge(),
       launchEnd: ACTIVE.launchEnd ? ACTIVE.launchEnd.toISOString().slice(0, 10) : null,

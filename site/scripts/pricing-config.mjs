@@ -55,6 +55,8 @@ export function launchBadge(now = new Date(), start = LAUNCH_START, regular = RE
 
 // Maps a chosen set of subjects to the price the checkout must charge.
 // Returns { kind: 'subject'|'bundle', id, count, priceEur, lookupKey } or null when invalid.
+// If bundles return, pass activePrices().prices here, so the regular prices
+// apply after a launch switch.
 export function bundleFor(subjects, catalogSubjects, prices = LAUNCH_PRICES) {
   const valid = new Set(catalogSubjects);
   const unique = [...new Set(subjects)];

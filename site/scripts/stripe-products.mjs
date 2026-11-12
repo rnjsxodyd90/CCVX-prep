@@ -34,4 +34,4 @@ for (const r of rows) {
   await api('POST', 'prices', { product: prod.id, currency: 'eur', unit_amount: String(r.cents), lookup_key: r.lookupKey, 'metadata[item]': r.id, tax_behavior: 'inclusive' });
   console.log('created', r.lookupKey, (r.cents / 100).toFixed(2), 'EUR');
 }
-console.log('done: subject prices, EUR 129 each (test mode). No bundle prices created: bundles are off.');
+console.log(`done: subject prices, EUR ${LAUNCH_PRICES.subject} each (test mode). No bundle prices created: bundles are off.`);
